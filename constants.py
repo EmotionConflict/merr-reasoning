@@ -6,7 +6,7 @@ SYSTEM_PROMPT = (
 SYSTEM_PROMPT_CHAIN_OF_THOUGHT = (
     """
     Let's think step by step.
-    Please determine which emotion label in the video represents: happy, sad, neutral, angry, worried, surprise, fear, contempt, doubt. Answer the emotion label in lower-case.
+    Please determine which emotion label in the video represents: happy, sad, neutral, angry, worried, surprise, fear, contempt, doubt.
     """
 )
 
@@ -19,6 +19,6 @@ SYSTEM_PROMPT_TREE_OF_THOUGHT = (
     If any expert realises they're wrong at any point then they leave.
     The question is...
     
-    Please determine which emotion label in the video represents: happy, sad, neutral, angry, worried, surprise, fear, contempt, doubt. Answer the emotion label in lower-case.
+    Please determine which emotion label in the video represents: happy, sad, neutral, angry, worried, surprise, fear, contempt, doubt.
     """
 )

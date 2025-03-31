@@ -4,6 +4,7 @@ import os
 from dotenv import load_dotenv
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 from openai import OpenAI
+from pydantic import BaseModel
 import constants
 
 # Load environment variables
@@ -11,28 +12,43 @@ load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
+# Define a structured output model for emotion detection tasks.
+class EmotionDetectionResult(BaseModel):
+    emotion: str
+    reasoning: str
+
 def call_gpt4o_mini(sample, system_prompt):
     """
     Constructs a user message from the sample details and calls the gpt-4o-mini API.
-    Returns the predicted emotion label in lower-case.
+    Returns a tuple (predicted emotion label, reasoning text) by parsing the structured JSON output.
     """
     smp_reason_caption = sample.get("smp_reason_caption", "")
     user_message = f"{smp_reason_caption}"
     
     try:
-        response = client.chat.completions.create(
+        # Instruct the model to output a JSON object with two keys: 'emotion' and 'reasoning'.
+        completion = client.beta.chat.completions.parse(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": system_prompt},
+                {
+                    "role": "system", 
+                    "content": (
+                        system_prompt
+                    )
+                },
                 {"role": "user", "content": user_message}
-            ]
+            ],
+            response_format=EmotionDetectionResult,
         )
-        predicted_label = response.choices[0].message.content.strip().lower()
+        result = completion.choices[0].message.parsed
+        predicted_label = result.emotion.strip().lower()
+        reasoning = result.reasoning.strip()
     except Exception as e:
         print(f"Error processing sample: {e}")
         predicted_label = "error"
+        reasoning = ""
     
-    return predicted_label
+    return predicted_label, reasoning
 
 def main(mode):
     # Choose the appropriate system prompt and file name based on mode.
@@ -56,14 +72,20 @@ def main(mode):
     
     # Process each sample in the JSON.
     for i, (sample_id, sample) in enumerate(data.items()):
-        predicted = call_gpt4o_mini(sample, system_prompt)
+        predicted, reasoning = call_gpt4o_mini(sample, system_prompt)
         predictions.append(predicted)
         # The ground truth emotion label is stored in 'pseu_emotion'
         ground_truth = sample.get("pseu_emotion", "").strip().lower()
         ground_truths.append(ground_truth)
-        print(f"Sample {sample_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
-        result_details.append(f"Sample {sample_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
-        if i >= 10:
+        detail = (
+            f"Sample {sample_id}:\n"
+            f"  Ground Truth: {ground_truth}\n"
+            f"  Predicted: {predicted}\n"
+            f"  Reasoning: {reasoning}\n"
+        )
+        print(detail)
+        result_details.append(detail)
+        if i >= 1:
             break
     
     # Define the set of possible labels.
@@ -81,7 +103,10 @@ def main(mode):
     # Create metrics summary
     metrics_summary = [f"Overall Accuracy: {overall_accuracy:.2f}"]
     for i, label in enumerate(labels):
-        metric_line = f"Label: {label} -> Precision: {precision[i]:.2f}, Recall: {recall[i]:.2f}, F1 Score: {f1[i]:.2f}, Support: {support[i]}"
+        metric_line = (
+            f"Label: {label} -> Precision: {precision[i]:.2f}, "
+            f"Recall: {recall[i]:.2f}, F1 Score: {f1[i]:.2f}, Support: {support[i]}"
+        )
         print(metric_line)
         metrics_summary.append(metric_line)
     

@@ -11,8 +11,14 @@ OPENAI_API_KEY=<your_key>
 
 ## how to run
 
-`python mani.py`
+running main.py
+
+`python main.py --model gpt-3.5-turbo`
 
 or
 
-`python your_script.py --mode tree_of_thought`
+`python main.py --model o1`
+
+running cot_and_tot.py
+
+`python cot_and_tot.py.py --mode tree_of_thought`
