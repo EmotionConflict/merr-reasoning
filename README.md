@@ -8,3 +8,11 @@
 ## set up .env
 
 OPENAI_API_KEY=<your_key>
+
+## how to run
+
+`python mani.py`
+
+or
+
+`python your_script.py --mode tree_of_thought`
