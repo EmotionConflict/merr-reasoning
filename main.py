@@ -11,7 +11,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(api_key=api_key)
 
-SYSTEM_PROMPT = constants.SYSTEM_PROMPT_CHAIN_OF_THOUGHT
+SYSTEM_PROMPT = constants.SYSTEM_PROMPT
 
 def call_gpt4o_mini(sample):
     """
