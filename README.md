@@ -26,6 +26,7 @@ or
 `python baseline_main.py --model gpt-4o-mini --output baseline_AV_gpt40.txt --comb AV`
 `python baseline_main.py --model gpt-4o-mini --output baseline_TV_gpt40.txt --comb TV`
 `python baseline_main.py --model gpt-4o-mini --output baseline_TAV_gpt40.txt --comb TAV`
+`python baseline_main.py --model gpt-4o-mini --output baseline_RTAV_gpt40.txt --comb RTAV`
 
 ## to run baseline_cot_and_tot.py
 

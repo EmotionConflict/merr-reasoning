@@ -42,7 +42,10 @@ def call_llm(sample, model, comb):
         if isinstance(visual_cues, list):
             visual_cues = ", ".join(visual_cues)
         message_parts.append(f"Visual cues: {visual_cues}")
-    
+    # Add reasoning caption if 'R' is in comb
+    if "R" in comb:
+        message_parts.append(f"Reasoning caption: {sample.get('smp_reason_caption', '')}")
+
     user_message = "\n".join(message_parts)
     try:
         # Call the beta endpoint using structured outputs via response_format.

@@ -35,7 +35,9 @@ def call_llm(sample, model, comb):
         if isinstance(visual_cues, list):
             visual_cues = ", ".join(visual_cues)
         message_parts.append(f"Visual cues: {visual_cues}")
-    
+    # Add reasoning caption if 'R' is in comb
+    if "R" in comb:
+        message_parts.append(f"Reasoning caption: {sample.get('smp_reason_caption', '')}")
     user_message = "\n".join(message_parts)
 
     try:
@@ -58,7 +60,7 @@ def main():
     parser = argparse.ArgumentParser(description="Run LLM model predictions")
     parser.add_argument("--model", type=str, default="gpt-4o-mini", help="LLM model to use")
     parser.add_argument("--output", type=str, default=None, help="Output file name for the results")
-    parser.add_argument("--comb", type=str, choices=["T", "TV", "TA", "AV", "TAV"], default="T",
+    parser.add_argument("--comb", type=str, choices=["T", "TV", "TA", "AV", "TAV", "RTAV"], default="T",
                         help="Specify the combination of modalities to use: T (text), TV (text and visual), TA (text and audio), AV (audio and visual), or TAV (all three)")
     args = parser.parse_args()
     
