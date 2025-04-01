@@ -18,7 +18,7 @@ SYSTEM_PROMPT = constants.SYSTEM_PROMPT
 
 # Define a Pydantic model for our structured LLM output
 class LLMResponse(BaseModel):
-    reasoning: str
+    conversation: str
     label: str
 
 def call_llm(sample, model, comb):
@@ -44,8 +44,6 @@ def call_llm(sample, model, comb):
         message_parts.append(f"Visual cues: {visual_cues}")
     
     user_message = "\n".join(message_parts)
-    print(f"User message: {user_message}")
-    print(f"System prompt: {SYSTEM_PROMPT}")
     try:
         # Call the beta endpoint using structured outputs via response_format.
         completion = client.beta.chat.completions.parse(
@@ -58,7 +56,7 @@ def call_llm(sample, model, comb):
         )
         # Extract the parsed values from the response.
         predicted_label = completion.choices[0].message.parsed.label.strip().lower()
-        reasoning_conversation = completion.choices[0].message.parsed.reasoning
+        reasoning_conversation = completion.choices[0].message.parsed.conversation
     except Exception as e:
         print(f"Error processing sample: {e}")
         predicted_label = "error"
@@ -116,8 +114,6 @@ def main():
             "reasoning": reasoning
         }
         results.append(result_entry)
-        print(result_entry)
-        break
     
     # Define the set of possible labels.
     labels = ["happy", "sad", "neutral", "angry", "worried", "surprise", "fear", "contempt", "doubt"]

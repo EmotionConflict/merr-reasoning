@@ -1,0 +1,542 @@
+[
+  {
+    "sample_id": "samplenew_00002396",
+    "ground_truth": "happy",
+    "predicted_label": "neutral",
+    "reasoning": "The person appears to be in a neutral state as they are asking a question without displaying any strong emotions through their speech or facial expressions. The presence of dimples may suggest a light or friendly demeanor, but overall it does not indicate happiness, sadness, or any other strong emotion."
+  },
+  {
+    "sample_id": "samplenew_00006181",
+    "ground_truth": "happy",
+    "predicted_label": "angry",
+    "reasoning": "The visual cues suggest a more aggressive or confrontational expression, especially with narrowed eyes and showing teeth. These cues typically align with the emotion of **anger**. Although the audio cues do not convey a specific emotion, the visual cues strongly indicate that the person's feelings may align with anger."
+  },
+  {
+    "sample_id": "samplenew_00007914",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "The person is likely expressing a sense of excitement or joy about the event they are describing."
+  },
+  {
+    "sample_id": "samplenew_00056769",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "The person in the video is clearly expressing a positive sentiment with their cheerful tone and visual cues like a toothy smile and dimples. This combination suggests that they are likely trying to convey a light-hearted or playful message, rather than expressing any negative emotions."
+  },
+  {
+    "sample_id": "samplenew_00006018",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "Based on the provided cues, the person seems relaxed and informal, suggesting a light-hearted attitude towards the name change. The normal tone of voice without any heightened emotion, combined with the visual cue of a dimpler (which can indicate a smile or happiness), implies that the person is approaching the situation with a positive attitude."
+  },
+  {
+    "sample_id": "samplenew_00044512",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "The person seems to express a sense of agreement or enthusiasm, indicated by the grinning. The normal tone of voice suggests positivity, while the slightly lowered eyebrows do not indicate a strong negative emotion. Overall, these cues combine to imply a feeling of happiness or satisfaction."
+  },
+  {
+    "sample_id": "samplenew_00055530",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "The positive tone and the mention of \"It's good to know injustice\" suggest a mix of complex feelings, but given the visual cues where the eyes are narrowing and the lip corners are pulled up, it indicates a smile, often associated with happiness or enjoyment of the conversation. Therefore, the overall emotion label is likely to be happiness, reflecting a positive reaction to the topic."
+  },
+  {
+    "sample_id": "samplenew_00057443",
+    "ground_truth": "happy",
+    "predicted_label": "neutral",
+    "reasoning": "The lack of strong emotion in the person's speech, coupled with a dimpler visual cue, suggests a neutral or possibly happy demeanor. However, without deeper context or other visual/audio cues to indicate strong feelings, the person appears to be expressing neutrality regarding the wedding celebration."
+  },
+  {
+    "sample_id": "samplenew_00047612",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "The person's big smile and the natural tone of the audio suggest a positive context. The statement about a close relationship likely conveys happiness or joy regarding that connection."
+  },
+  {
+    "sample_id": "samplenew_00042526",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "The person is clearly expressing excitement and pleasure, as indicated by their smile and the tone of their voice. The words used, along with the positive visual cues, suggest a playful or lighthearted context rather than anger or fear."
+  },
+  {
+    "sample_id": "samplenew_00015436",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "The combination of a fearful tone in the audio and the visual cue of lowering the brow suggests the emotion being expressed is fear. The context of the statement further implies a sense of dread or concern about the consequences of not following through with an action."
+  },
+  {
+    "sample_id": "samplenew_00070726",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "The person appears to be expressing deeply unsettling feelings about love, suggesting vulnerability or fear associated with emotional pain."
+  },
+  {
+    "sample_id": "samplenew_00022413",
+    "ground_truth": "sad",
+    "predicted_label": "worried",
+    "reasoning": "The person seems to express their discomfort regarding being followed, which likely indicates a level of annoyance or concern. Their neutral tone suggests that there may not be strong emotions, but the brow lowerer visual cue could suggest seriousness or worry. However, without more explicit emotional cues, it's safe to categorize this as an emotional state leaning towards worry or doubt."
+  },
+  {
+    "sample_id": "samplenew_00011989",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "The audio cues suggest fear, and the visual cues of lower eyebrows also align with common expressions of fear or concern. Therefore, the dominant emotion represented in the video is fear."
+  },
+  {
+    "sample_id": "samplenew_00015003",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "The person is expressing a sense of fear and apprehension through their tone and facial expressions. The combination of a fearful tone and the visual cues of lower brows and raised eyebrows indicates worry or fear."
+  },
+  {
+    "sample_id": "samplenew_00053892",
+    "ground_truth": "sad",
+    "predicted_label": "worried",
+    "reasoning": "The use of furrowed brows typically indicates concern or worry, which aligns with the scenario where someone states \"For this reason,\" suggesting a serious or troubled subject. The normal tone of voice does not exhibit any additional emotional intensity to contradict this interpretation of the visual cue."
+  },
+  {
+    "sample_id": "samplenew_00047348",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "The person in the video appears to express fear regarding the concept of 'Unique.' The raised eyebrows and insecure demeanor support this interpretation."
+  },
+  {
+    "sample_id": "samplenew_00070477",
+    "ground_truth": "sad",
+    "predicted_label": "doubt",
+    "reasoning": "The person appears to be in a state of doubt or insecurity about the situation they are describing. They are not expressing strong emotions like happiness or anger, but rather a sense of uncertainty as evidenced by their raised eyebrow and insecure demeanor."
+  },
+  {
+    "sample_id": "samplenew_00009595",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "The person is expressing fear when mentioning \"Family, that's Fan Lv.\" The visual cue of lowering the brow often signifies worry or fear, which aligns with the audio cue of speaking with a fearful emotion."
+  },
+  {
+    "sample_id": "samplenew_00018257",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "Rongrong expresses a sense of fear regarding the availability of meat, which aligns with the fearful tone of voice and the facial cues of frowning. The context of the statement suggests concern or worry about the stock situation."
+  },
+  {
+    "sample_id": "samplenew_00011442",
+    "ground_truth": "neutral",
+    "predicted_label": "worried",
+    "reasoning": "The person is likely expressing a sense of frustration or resignation, which often corresponds to emotions like worry or doubt. The lip tightening can indicate tension or unease."
+  },
+  {
+    "sample_id": "samplenew_00007742",
+    "ground_truth": "neutral",
+    "predicted_label": "neutral",
+    "reasoning": "Based on the audio cues indicating a neutral tone and the visual cues showing brow lowering, which often corresponds with concern or confusion rather than a distinct emotion, the overall emotion conveyed seems to be neutral with a hint of seriousness or contemplation, but not strongly leaning towards any of the other emotions. Therefore, the most fitting label for the emotion in this context is:\n\n\"neutral.\""
+  },
+  {
+    "sample_id": "samplenew_00001774",
+    "ground_truth": "neutral",
+    "predicted_label": "happy",
+    "reasoning": "Based on the response where Li Ci talks about Cherry and their gender with casual affirmation and without any intense emotional cues, it seems the tone is light and nonchalant. The mention of 'no problem' suggests acceptance and ease, further indicated by the visual cue of a 'Dimpler,' likely referring to a smile or pleasant smile lines. Therefore, the appropriate emotion label that fits here would be 'happy.'"
+  },
+  {
+    "sample_id": "samplenew_00020393",
+    "ground_truth": "neutral",
+    "predicted_label": "doubt",
+    "reasoning": "The person is asking a question and does not express any strong emotions in their tone of voice. However, the visual cue of a 'Brow Lowerer' typically indicates confusion or concern, which might suggest a state of worry or doubt about finding the bus stop. Based on the absence of emotional speech and the visual cues provided, the most fitting emotion label would be 'doubt.'"
+  },
+  {
+    "sample_id": "samplenew_00001941",
+    "ground_truth": "neutral",
+    "predicted_label": "neutral",
+    "reasoning": "The visual cues, specifically the brow lowering, often indicate a serious or contemplative state rather than conveying strong emotions like happiness or anger. Since the person does not display any distinct emotions through their speech or audio cues, it aligns more closely with the neutral state, despite the brow lowering which could imply concern or intensity."
+  },
+  {
+    "sample_id": "samplenew_00021159",
+    "ground_truth": "neutral",
+    "predicted_label": "happy",
+    "reasoning": "The speaker seems to express a sense of acceptance and positivity towards the effort someone is willing to put in, which suggests a happy or content emotion. The presence of a 'dimpler' implies a smile or a cheerful demeanor, reinforcing the idea of happiness."
+  },
+  {
+    "sample_id": "samplenew_00032239",
+    "ground_truth": "neutral",
+    "predicted_label": "neutral",
+    "reasoning": "The person is expressing a straightforward statement without strong emotional inflections, as indicated by the normal tone of voice. However, the brow lowerer visual cue may suggest concentration or seriousness, but not necessarily anger. Therefore, this combination leans more towards a neutral emotion rather than any strong emotional affections like anger, sadness, or joy."
+  },
+  {
+    "sample_id": "samplenew_00012993",
+    "ground_truth": "neutral",
+    "predicted_label": "neutral",
+    "reasoning": "The tone of the person sounds normal, which suggests an emotionally neutral state. However, the visual cue of a brow lowerer could imply a hint of seriousness or concern. Overall, these cues do not strongly indicate an emotion like happiness, sadness, or anger, suggesting a more neutral emotional state. Therefore, the best fit for the emotion label based on the provided cues is 'neutral.'"
+  },
+  {
+    "sample_id": "samplenew_00007710",
+    "ground_truth": "neutral",
+    "predicted_label": "contempt",
+    "reasoning": "The tone and visual cues suggest a level of discontent or disdain towards King Ning and King Huai, as indicating they are not 'worth mentioning' implies a sense of contempt. Additionally, the brow lowerer can signify an expression of annoyance or judgment."
+  },
+  {
+    "sample_id": "samplenew_00035397",
+    "ground_truth": "neutral",
+    "predicted_label": "happy",
+    "reasoning": "The tone sounds normal, which suggests the speaker is not exhibiting strong emotions such as anger or fear. The use of the phrase \"there is no longer any threat\" could imply a sense of relief or reassurance. The visual cue of a 'dimpler' might indicate a smile or a light-hearted demeanor, supporting a positive emotion. Therefore, the emotion label that best fits this description is 'happy.'"
+  },
+  {
+    "sample_id": "samplenew_00057449",
+    "ground_truth": "angry",
+    "predicted_label": "angry",
+    "reasoning": "The person is expressing anger towards someone else, likely about a situation involving \"that kid.\" The audio cues of an angry tone along with visual cues such as lower eyebrows and a lip-tightening expression further emphasize the emotion of anger."
+  },
+  {
+    "sample_id": "samplenew_00000079",
+    "ground_truth": "angry",
+    "predicted_label": "happy",
+    "reasoning": "The visual cue of curling the lips upwards suggests a positive expression, typically associated with happiness or contentment. However, the lack of emotional inflection in the voice indicates a neutral or calm demeanor. Thus, the most appropriate label considering both the audio and visual cues is happy, due to the upward curl of the lips, despite the neutral tone of voice."
+  },
+  {
+    "sample_id": "samplenew_00033007",
+    "ground_truth": "angry",
+    "predicted_label": "contempt",
+    "reasoning": "The combination of a negative tone with visual cues such as lower brow, tight eyelids, and curled lips suggests a conflictual or challenging emotion. This likely reflects frustration or disdain towards the situation or the person being addressed. The curling upwards of the lips may indicate a sardonic smile, which is often associated with contempt or a sneering attitude. Given these cues, the emotion label that best fits this description is: contempt."
+  },
+  {
+    "sample_id": "samplenew_00036310",
+    "ground_truth": "angry",
+    "predicted_label": "angry",
+    "reasoning": "Based on the auditory and visual cues provided, the individual appears to convey a message that is both negative in tone and suggests a dismissive attitude, despite the upward curve of the lips which may imply a smile. The words \u2018don\u2019t deceive\u2019 and \u2018endure\u2019 reflect a sentiment that leans more toward seriousness or frustration, potentially indicating an underlying anger or concern. Therefore, this expression could best be classified as 'angry' due to the combination of the negative tone and the directive nature of the message."
+  },
+  {
+    "sample_id": "samplenew_00057012",
+    "ground_truth": "angry",
+    "predicted_label": "worried",
+    "reasoning": "The person in the video appears to express concern or seriousness, as indicated by the frown and the context of the statement. Though the tone is normal, the content suggests a potentially alarming scenario. This combination likely elicits a feeling of worry or fear."
+  },
+  {
+    "sample_id": "samplenew_00056538",
+    "ground_truth": "angry",
+    "predicted_label": "fear",
+    "reasoning": "The person appears to be expressing their feelings about how they were treated, indicating a sense of fear regarding their past experiences. The fearful tone in their voice and the brow lowering visually suggest a strong emotional response linked to worry or anxiety about their situation."
+  },
+  {
+    "sample_id": "samplenew_00057731",
+    "ground_truth": "angry",
+    "predicted_label": "angry",
+    "reasoning": "The person is expressing frustration or anger regarding the subject of capability and flexibility, despite some positive visual cues that could indicate strength or determination."
+  },
+  {
+    "sample_id": "samplenew_00039443",
+    "ground_truth": "angry",
+    "predicted_label": "contempt",
+    "reasoning": "The phrase 'no one asked, send me tea' seems to be delivered in a way that may imply sarcasm or an exaggerated enthusiasm, especially with a flaming tone. The visual cues of furrowed brows and curled lips upwards suggest a playful or mocking expression. Based on this information, the emotional label that best fits this description is likely 'contempt' or 'surprise', but considering the emphasis on sarcasm and the playful tone, 'contempt' seems most fitting."
+  },
+  {
+    "sample_id": "samplenew_00039031",
+    "ground_truth": "angry",
+    "predicted_label": "doubt",
+    "reasoning": "The person's expression, characterized by a brow lowerer, facial tightness, and lips forming an upward curve, suggests a feeling of confusion or frustration rather than outright happiness. However, the upward curve of the lips indicates a potential for irony or sarcasm, but does not directly reflect joy or sadness. Given the normal speaking tone and visual cues, this could indicate a mild level of irritation or uncertainty rather than anger or fear. Thus, the best label for this emotion is likely to be 'doubt'."
+  },
+  {
+    "sample_id": "sample_00006794",
+    "ground_truth": "angry",
+    "predicted_label": "neutral",
+    "reasoning": "The person appears to be offering money in a calm manner, indicating a neutral stance. However, the visual cue of the Upper Lip Raiser could suggest a slight tension or discomfort, but it does not strongly imply any specific emotion such as anger or happiness. Overall, the emotions presented lean towards a neutral expression with a mix of subtle undertones."
+  },
+  {
+    "sample_id": "samplenew_00004669",
+    "ground_truth": "worried",
+    "predicted_label": "fear",
+    "reasoning": "The person in the video is likely expressing concern or fear about the situation involving the wheelchair."
+  },
+  {
+    "sample_id": "samplenew_00066683",
+    "ground_truth": "worried",
+    "predicted_label": "happy",
+    "reasoning": "The person seems to be making a light-hearted or playful comparison about their family, suggesting a sense of pride. The positive tone and the cheek dimple indicate that they are likely joking or being humorous about the situation."
+  },
+  {
+    "sample_id": "samplenew_00068896",
+    "ground_truth": "worried",
+    "predicted_label": "worried",
+    "reasoning": "The person seems to be expressing frustration or concern about the situation regarding Dali Temple."
+  },
+  {
+    "sample_id": "samplenew_00003189",
+    "ground_truth": "worried",
+    "predicted_label": "angry",
+    "reasoning": "The tone of the person indicates negativity, suggesting frustration or disappointment, especially in conjunction with the facial cue of enlarged nostrils, which often signifies anger or stress."
+  },
+  {
+    "sample_id": "samplenew_00035305",
+    "ground_truth": "worried",
+    "predicted_label": "fear",
+    "reasoning": "The person is expressing fear about not knowing which road to take, and the fearful tone along with the nasal flaring suggests a heightened emotional state of anxiety or fear."
+  },
+  {
+    "sample_id": "samplenew_00063662",
+    "ground_truth": "worried",
+    "predicted_label": "fear",
+    "reasoning": "The tone of the person's speech, combined with the visual cues of purse lips and nasal flaring, suggests they are experiencing fear or concern about the subject they are discussing."
+  },
+  {
+    "sample_id": "samplenew_00027234",
+    "ground_truth": "worried",
+    "predicted_label": "fear",
+    "reasoning": "The person in the video exhibits disbelief and a sense of urgency about the situation, specifically regarding the leaking of secrets and the whereabouts of another individual. The fearful tone and lip stretching suggest anxiety and concern about the events being discussed. Given these cues, the appropriate emotion label for this video would be 'fear.'"
+  },
+  {
+    "sample_id": "samplenew_00037763",
+    "ground_truth": "worried",
+    "predicted_label": "fear",
+    "reasoning": "The person expresses concern about attending the training, indicating apprehension or fear about the situation."
+  },
+  {
+    "sample_id": "samplenew_00002679",
+    "ground_truth": "worried",
+    "predicted_label": "neutral",
+    "reasoning": "The person seems to be expressing discomfort or pain regarding their waist and legs, which generally aligns with an emotion of worry or concern about their physical state. However, since there are no strong emotional indicators such as a frown or raised eyebrows, and given the lack of a specific emotional tone in the audio cues, the most accurate label would be \"neutral,\" as the expression is more focused on describing a situation rather than conveying a strong emotion."
+  },
+  {
+    "sample_id": "samplenew_00001054",
+    "ground_truth": "worried",
+    "predicted_label": "contempt",
+    "reasoning": "The person's statement about the princess being too weak to wake up is a negative remark, indicating a lack of faith in her abilities. The audio cues of a negative tone suggest disappointment or condescension. The visual cue of nostrils enlarging might indicate anger or contempt. Overall, these cues point towards an emotion that reflects dissatisfaction or contempt for the situation and possibly for the princess herself."
+  },
+  {
+    "sample_id": "sample_00001727",
+    "ground_truth": "surprise",
+    "predicted_label": "fear",
+    "reasoning": "The person is likely expressing a feeling of fear or anxiety due to their tremulous tone and raised upper eyelids, which are common physical indicators of worry or fear."
+  },
+  {
+    "sample_id": "samplenew_00035139",
+    "ground_truth": "surprise",
+    "predicted_label": "happy",
+    "reasoning": "The person seems to express a sense of joy and excitement about the presence of people in the world, combined with a loud tone that suggests enthusiasm. The visual cues, including smiling and showing pleasure through a toothy grin and cheek dimple, reinforce a positive emotional state."
+  },
+  {
+    "sample_id": "samplenew_00064348",
+    "ground_truth": "surprise",
+    "predicted_label": "surprise",
+    "reasoning": "The person appears to be surprised, as indicated by the visual cues of widened eyes and a drop in the jaw. The tremulous manner of speaking also suggests a heightened emotional state, which often accompanies surprise."
+  },
+  {
+    "sample_id": "samplenew_00024409",
+    "ground_truth": "surprise",
+    "predicted_label": "fear",
+    "reasoning": "The person appears to be expressing a sense of urgency or fear based on their tremulous tone and the accompanying visual cues such as the raised inner brow and elevated outer brow, which may indicate anxiety or concern. The pupil enlargement can suggest heightened emotions, often seen with surprise or fear. Given these indicators, the overall emotion is best captured as \"fear.\""
+  },
+  {
+    "sample_id": "samplenew_00065560",
+    "ground_truth": "surprise",
+    "predicted_label": "neutral",
+    "reasoning": "The person sounds neutral and does not express any strong emotions. The visual cue of raising upper eyelids suggests some level of engagement or interest, but overall, the tone and expression remain neutral without strong emotional indicators."
+  },
+  {
+    "sample_id": "samplenew_00052541",
+    "ground_truth": "surprise",
+    "predicted_label": "surprise",
+    "reasoning": "The person's tone indicates surprise with the phrase \"Isn't it?\" and the startled audio cues. The visual cue of being wide-mouthed also supports this interpretation. Therefore, the emotion represented in the video is surprise."
+  },
+  {
+    "sample_id": "samplenew_00069838",
+    "ground_truth": "surprise",
+    "predicted_label": "happy",
+    "reasoning": "The person's happy voice and the visual cues such as head lifting, outer brow raised, pupil enlargement, and a wide open mouth all indicate a positive emotional state. Therefore, the dominant emotion expressed in the video is happiness."
+  },
+  {
+    "sample_id": "samplenew_00037700",
+    "ground_truth": "surprise",
+    "predicted_label": "fear",
+    "reasoning": "The person's expression and the tremulous tone of their speech suggest a conflict of emotions. However, the frown indicates displeasure or concern, while the raised upper eyelids could express surprise or fear. Given the combination of visual and audio cues, the sentiment leans towards fear due to the combination of tension in the voice and facial expression."
+  },
+  {
+    "sample_id": "samplenew_00013883",
+    "ground_truth": "surprise",
+    "predicted_label": "worried",
+    "reasoning": "The person's tremulous tone and the outer brow lift indicate a sense of worry or anxiety about something.  The tremulous tone suggests they might be feeling nervous or fearful, while the outer brow lift could suggest surprise or concern. However, the overall tone leans more towards worry."
+  },
+  {
+    "sample_id": "samplenew_00038188",
+    "ground_truth": "surprise",
+    "predicted_label": "surprise",
+    "reasoning": "The combination of the startled tone and the frown suggests that the person is experiencing a moment of surprise or confusion about something they didn't notice before. Therefore, the emotion represented here is surprise."
+  },
+  {
+    "sample_id": "sample_00002706",
+    "ground_truth": "fear",
+    "predicted_label": "neutral",
+    "reasoning": "The person's neutral tone, combined with the visual cues indicating tightness in their facial expression, suggests a lack of strong emotion. The raised upper eyelids and brow arching could imply a slight engagement or hopefulness. However, since there are also signs of facial tightness and brow lowerer, it seems they are not excited or particularly joyful. Overall, the person's expression and tone do not indicate strong positivity or negativity, leading to a classification."
+  },
+  {
+    "sample_id": "samplenew_00045270",
+    "ground_truth": "fear",
+    "predicted_label": "neutral",
+    "reasoning": "Based on the visual and audio cues provided, the person's expression suggests a mix of emotions. The outer brow arch and facial tightness could indicate some level of concern or anxiety, while the elongated lips and head lifting could suggest a sense of determination or assertiveness. However, the overall tone being described as natural and the phrase 'Just ask casually' suggests a lighter context, leaning towards being approachable rather than overtly angry or sad. Therefore, the emotion label that best fits this scenario is 'neutral.'"
+  },
+  {
+    "sample_id": "samplenew_00028975",
+    "ground_truth": "fear",
+    "predicted_label": "worried",
+    "reasoning": "Based on the visual cues such as pupil enlargement, raised eyebrows, and anxiously stretched lips, alongside the verbal response of \"No. No,\" the emotion expressed seems to be related to apprehension or uncertainty. These cues indicate that the person is likely feeling worried or afraid about the situation. Therefore, the most fitting label for this emotion is 'worried.'"
+  },
+  {
+    "sample_id": "samplenew_00007629",
+    "ground_truth": "fear",
+    "predicted_label": "fear",
+    "reasoning": "The person expresses a fearful tone and exhibits facial cues associated with fear. The audio and visual indicators strongly suggest an emotion of fear, as the fearful tone paired with specific facial expressions like the Upper Lid Raiser and Lid Tightener signify a response to fear or concern."
+  },
+  {
+    "sample_id": "samplenew_00000852",
+    "ground_truth": "fear",
+    "predicted_label": "fear",
+    "reasoning": "Based on the audio cues indicating a fearful tone and the visual cues such as the outer brow arch, lid tightener, and tense lips, it appears that the person is expressing fear. The combination of these factors strongly points to anxiety or fearfulness in their expression."
+  },
+  {
+    "sample_id": "samplenew_00028390",
+    "ground_truth": "fear",
+    "predicted_label": "surprise",
+    "reasoning": "The person is exhibiting visual cues such as pupil enlargement and a wide mouth, which can indicate surprise or excitement, but they do not express any identifiable emotions through their speech. Given the combination of visual cues and the neutral tone of the audio, the best representation would be a surprise."
+  },
+  {
+    "sample_id": "samplenew_00016080",
+    "ground_truth": "fear",
+    "predicted_label": "worried",
+    "reasoning": "The person seems to be expressing concern or disbelief about a situation related to potential conflict, indicating a sense of worry or doubt regarding the intentions or actions of others."
+  },
+  {
+    "sample_id": "samplenew_00044155",
+    "ground_truth": "fear",
+    "predicted_label": "worried",
+    "reasoning": "The person's facial expression shows a combination of frowning and a stretched mouth, which can indicate a sense of concern or contemplation rather than happiness or anger. The visual cues suggest a complexity of emotions rather than a clear-cut feeling. Given that the audio cues indicate no strong emotion being conveyed, the overall emotion that best fits this description might be 'worried', as the physical expressions hint at a serious or concerned outlook."
+  },
+  {
+    "sample_id": "samplenew_00002426",
+    "ground_truth": "fear",
+    "predicted_label": "worried",
+    "reasoning": "The video presents visual cues that indicate a tense and worried expression. The outer brow elevation and facial tightness suggest anxiety or concern. The elongated lips and furrowed brow further imply a sense of worry or distress regarding the situation described as an \"Uncontrolled virus seeder.\" Therefore, the most fitting emotion label for the situation is \"worried.\""
+  },
+  {
+    "sample_id": "samplenew_00064078",
+    "ground_truth": "fear",
+    "predicted_label": "worried",
+    "reasoning": "The person in the video is asking for permission to use hair oil. Their neutral tone suggests they are not expressing strong emotions in their speech. However, the visual cues indicate a complex emotional state. The outer brow arch and the inner brow raiser combined with the lower eyebrows often signify concern or uncertainty. The wide mouth and anxiously stretched lips can imply that the individual is feeling a bit apprehensive or worried about the interaction. Therefore, the overall emotional reading leans towards feelings of worry."
+  },
+  {
+    "sample_id": "samplenew_00058745",
+    "ground_truth": "contempt",
+    "predicted_label": "happy",
+    "reasoning": "The tone of the speaker is cheerful, indicating a positive emotion, despite the content of the words suggesting an uncertainty or concern about the future. The visual cues of smiling and showing teeth reinforce this cheerful demeanor. Therefore, the overall emotion label represented in the video is happy."
+  },
+  {
+    "sample_id": "samplenew_00044342",
+    "ground_truth": "contempt",
+    "predicted_label": "happy",
+    "reasoning": "The person appears to be expressing sarcasm or mockery with their tone while simultaneously displaying a big smile. Together, these cues suggest a lighthearted mockery rather than genuine happiness. The manner in which they ask the question indicates a playful or teasing attitude rather than outright joy or contentment. Therefore, the most fitting emotion label for this scenario would be 'happy' due to the smile, but with context it could also imply a form of 'contempt'."
+  },
+  {
+    "sample_id": "samplenew_00063792",
+    "ground_truth": "contempt",
+    "predicted_label": "contempt",
+    "reasoning": "The visual cues suggest a mix of expressions that might relate to disdain or dissatisfaction, coupled with an assertive or confrontational tone due to the phrase 'Watch it, then.' The verbal tone is normal, which can indicate a non-emotional response or a simple statement without emotional elevation. Based on this, the overall cues point towards an emotion of contempt as the predominant label."
+  },
+  {
+    "sample_id": "samplenew_00025986",
+    "ground_truth": "contempt",
+    "predicted_label": "contempt",
+    "reasoning": "The person in the video is expressing sarcasm regarding the idea of hitting someone, which often carries a connotation of contempt. The visual cues of downturned corners of the mouth and the lip corner puller, combined with the sarcastic tone of voice, suggest a disrespectful or scornful attitude rather than outright anger or concern."
+  },
+  {
+    "sample_id": "samplenew_00055940",
+    "ground_truth": "contempt",
+    "predicted_label": "doubt",
+    "reasoning": "The person in the video seems to exhibit a blend of emotions. The downturned corners of the mouth typically suggest sadness or disappointment, while the smiling gestures (toothy smile and lips forming an upward curve) indicate happiness. However, the normal tone of voice doesn't strongly indicate excitement or negativity. Overall, the smiles could suggest a sense of optimism or hopefulness despite any underlying worries."
+  },
+  {
+    "sample_id": "samplenew_00051112",
+    "ground_truth": "contempt",
+    "predicted_label": "neutral",
+    "reasoning": "The speaker in the video appears to be discussing a serious situation involving a man with a knife. Their tone is normal, which generally suggests a lack of extreme emotion. However, the visual cue of a \"cheek raiser\" typically indicates a smile, which is often associated with happiness or friendliness. Considering these cues, the overall emotion represented here seems to be a contradiction between the serious subject matter and the expression of the speaker. Therefore, I would label it as neutral; as they are communicating a serious topic while maintaining a calm demeanor with a hint of a smile."
+  },
+  {
+    "sample_id": "samplenew_00049015",
+    "ground_truth": "contempt",
+    "predicted_label": "contempt",
+    "reasoning": "The person seems to express a sense of skepticism or criticism regarding reliance on connections and backdoor approaches, which might suggest a feeling of doubt or contempt towards such practices. However, the presence of a big smile combined with slightly lower eyebrows could indicate an underlying humor or light-heartedness about the topic. Given these cues, the most fitting emotion label here could be 'contempt' due to the critical nature of the statement regarding food and connections."
+  },
+  {
+    "sample_id": "samplenew_00070277",
+    "ground_truth": "contempt",
+    "predicted_label": "angry",
+    "reasoning": "The person's loud tone and the slight decrease in eyebrows indicate frustration or disbelief. This suggests an emotional response that aligns with anger or contempt, especially given the context of questioning someone's knowledge in a derogatory manner."
+  },
+  {
+    "sample_id": "sample_00003086",
+    "ground_truth": "contempt",
+    "predicted_label": "fear",
+    "reasoning": "The person demonstrates a mix of fear and a hint of happiness, as indicated by their fearful vocal tone and facial expressions. The fear in their voice suggests they are uncertain or anxious about the topic they want to discuss. However, the visual cues of grinning and lips forming an upward curve imply some level of happiness or excitement. Overall, the dominant emotion seems to be fear, but there's an underlying hint of happiness or anticipation."
+  },
+  {
+    "sample_id": "samplenew_00056990",
+    "ground_truth": "contempt",
+    "predicted_label": "sad",
+    "reasoning": "In the video clip, the classmate expresses concern about being excluded from a group, and their tone suggests negativity regarding the situation. The facial expressions contribute to the overall emotion being portrayed. The downward mouth curvature indicates sadness or disappointment, while the Upper Lip Raiser could indicate disdain or contempt towards the situation. However, the Big smile could suggest a conflicting feeling of happiness or relief at the prospect of being included alone in the group without the other two individuals. Overall, the dominant emotion that can be inferred, considering the context and tone, aligns more with feelings of sadness due to exclusion and negative emotions regarding the situation."
+  },
+  {
+    "sample_id": "samplenew_00030995",
+    "ground_truth": "doubt",
+    "predicted_label": "neutral",
+    "reasoning": "The person appears to be pondering a question, indicating a reflective state rather than expressing a strong emotion like happiness or anger. Their neutral tone of voice also supports this observation."
+  },
+  {
+    "sample_id": "samplenew_00060428",
+    "ground_truth": "doubt",
+    "predicted_label": "doubt",
+    "reasoning": "The person's statement \"But there must be other reasons\" suggests a sense of contemplation or doubt about the situation. The lack of any specific emotional inflection in their voice, coupled with the visual cue of lips parting, doesn't convey strong emotion, but rather indicates a moment of thinking or pondering. Therefore, the emotion that best represents this scenario is likely to be doubt."
+  },
+  {
+    "sample_id": "samplenew_00013921",
+    "ground_truth": "doubt",
+    "predicted_label": "sad",
+    "reasoning": "The combination of a tremulous tone suggests that the person may be experiencing a heightened emotional state, often associated with vulnerability or uncertainty. Additionally, the parting of lips could indicate a sense of breathlessness or contemplation, aligning with sadness or doubt. Given the phrase \"What is a mere life?\" it infers a deeper existential struggle, which correlates with feelings of sadness or doubt."
+  },
+  {
+    "sample_id": "samplenew_00058656",
+    "ground_truth": "doubt",
+    "predicted_label": "worried",
+    "reasoning": "The person in the video expresses curiosity, but since the tone is negative, it might indicate a blend of emotions. However, given the description, the dominant emotion seems to lean towards worry or doubt due to the negative tone. Without strong indicators of anger or fear, I would categorize it as worried."
+  },
+  {
+    "sample_id": "samplenew_00011172",
+    "ground_truth": "doubt",
+    "predicted_label": "neutral",
+    "reasoning": "The person speaks in a neutral tone, and their facial expression is likely calm and composed, showing no strong emotional cues."
+  },
+  {
+    "sample_id": "samplenew_00013398",
+    "ground_truth": "doubt",
+    "predicted_label": "happy",
+    "reasoning": "The person's tone is described as natural, which suggests a relaxed or content state. The phrase they use, \"just like that spiritual treasure,\" could imply admiration or appreciation. Additionally, having slightly parted lips can indicate openness or a relaxed demeanor. Therefore, the most likely emotion expressed in this video is happy."
+  },
+  {
+    "sample_id": "samplenew_00060946",
+    "ground_truth": "doubt",
+    "predicted_label": "happy",
+    "reasoning": "The person's tone implies excitement about the topic being discussed, and the slight decrease in eyebrows along with showing teeth suggest a positive emotion. Based on these cues, the person appears to be expressing happiness."
+  },
+  {
+    "sample_id": "samplenew_00005747",
+    "ground_truth": "doubt",
+    "predicted_label": "doubt",
+    "reasoning": "The person seems to express a sense of confusion or pondering about the intentions of His Highness. This could indicate an emotion of doubt, as they might be questioning or unsure about the situation."
+  },
+  {
+    "sample_id": "samplenew_00033212",
+    "ground_truth": "doubt",
+    "predicted_label": "doubt",
+    "reasoning": "The person seems to be expressing a sense of doubt or worry regarding the emperor's question, as indicated by the tremulous tone of voice and slightly parted lips, which can suggest hesitation or concern."
+  },
+  {
+    "sample_id": "samplenew_00030219",
+    "ground_truth": "doubt",
+    "predicted_label": "doubt",
+    "reasoning": "The person's tone and the lip corner puller visual cue suggest a sense of doubt or skepticism about the effectiveness of the medicine being discussed. Therefore, the emotion label that best represents the situation is: doubt."
+  }
+]
