@@ -1,0 +1,542 @@
+[
+  {
+    "sample_id": "samplenew_00002396",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: Let's first analyze the verbal cues. The person asks, \"So, tell mom, what are your plans?\" This sounds like a casual question, more likely indicating an interest than any strong emotion.\n\nExpert 2: Next, we should consider the visual cues. You mentioned a \"Dimpler.\" If this means the person is smiling or showing dimples, it typically signifies happiness or contentment.\n\nExpert 3: Now, combining both verbal and visual cues, we might lean towards the emotion label \"happy\" given the light-hearted questioning and the smile. However, we also need to be cautious about interpreting emotions based on limited information.\n\nExpert 1: I don't think any negative emotions like anger or sadness are represented here simply because there's no aggressive tone or sadness in the question. \n\nExpert 2: Agreed. The dimples further support that there may be happiness involved. It doesn't seem neutral either since requesting plans seems to carry a bit of excitement or positivity.\n\nExpert 3: If I were to summarize, I'd tentatively label this emotion as \"happy\" due to the smiling and the friendly nature of the question. I think we've substantiated our reasoning enough to conclude this, unless anyone else feels strongly otherwise? \n\nExpert 1: I believe \"happy\" fits best considering our observations. \n\nExpert 2: I concur with \u201chappy\u201d based on how the visual cues complement the verbal.  \n\nExpert 3: All set \u2013 I\u2019m happy with our conclusion."
+  },
+  {
+    "sample_id": "samplenew_00006181",
+    "ground_truth": "happy",
+    "predicted_label": "angry",
+    "reasoning": "Expert 1: I first look at the context of the statement \"Old slave, I have been serving Your Majesty for most of my life.\" It sounds like it could imply a sense of loyalty or submission. I think there may be undertones of sadness or resentment, suggesting unhappiness with the situation.\n\nExpert 2: I interpret the visual cues as significant. The narrowing of the eyes and showing of teeth could indicate anger or contempt towards the 'Your Majesty' title or the situation itself, rather than happiness or sadness. \n\nExpert 3: I consider the audio cues. Since they don't align with any clear emotion, I might prioritize the visual cues. The narrowing eyes could indicate suspicion or fear, while showing teeth could suggest aggression, leading me towards the emotion of anger or contempt.  \n\nExpert 1: Upon reflection, I realize that the combination of visual cues might lean away from just sadness. I still see some nuances of sadness due to the context but might adjust to focus on anger more closely.\n\nExpert 2: I still think anger is prevalent, what about the disdain shown by the body language? It really seems to embody contempt.  \n\nExpert 3: I am still inclined towards anger due to aggressive visual cues. Perhaps there's a level of confrontation implied. I think I can confidently say this represents anger, given the context and cues.  \n\nAll Experts Conclude: We think the visual cues, especially the narrowing of the eyes and showing teeth, align best with the emotion of anger rather than the other emotional labels."
+  },
+  {
+    "sample_id": "samplenew_00007914",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: The person has used the word \"collision,\" which can indicate a range of feelings. However, the excited tone suggests they may be reacting positively to something unexpected. \n\nExpert 2: I agree with the excitement implied by the tone. The visual cues of eyes narrowing and showing teeth are often associated with happiness or enthusiasm rather than negativity. \n\nExpert 3: True, but I also note that excitement can stem from surprise. The use of \"collision\" could imply an unexpected event or result. \n\nExpert 1: Since the tone is more excited rather than surprised, I think we lean towards happiness as the primary emotion. \n\nExpert 2: Yes, overall the combination of the excited tone and the positive visual cues suggests happiness. \n\nExpert 3: I think we all agree that happy is the strongest emotion represented here, despite the potential for surprise. "
+  },
+  {
+    "sample_id": "samplenew_00056769",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: Based on the audio cue where the tone sounds cheerful, I would initially consider that the emotion might be happy.\n\nExpert 2: I noticed the visual cues as well. A toothy smile and dimples usually indicate happiness or joy in facial expressions.\n\nExpert 3: The words \"Not all fun, right? What. Easy?\" could imply a playful sarcasm, which might also point towards happiness or a light-hearted attitude in that context.\n\nExpert 1: Since the audio tone suggests cheerfulness and matches the visual cues of a smile, I feel more confident that happy is indeed the appropriate label for this situation.\n\nExpert 2: Agreed, the cheerful tone and the smile strongly indicate happiness, so I think we can conclude it's labeled as happy.\n\nExpert 3: I think we are all on the same page here. I don\u2019t see any other emotions that contradict what we\u2019ve observed. It confirms a happy emotion label for the video.\n\nAll experts agree: The emotion label representing the situation is happy."
+  },
+  {
+    "sample_id": "samplenew_00006018",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: Based on the visual cue of the dimpler, I associate that with happiness or contentment. \n\nExpert 2: I agree with Expert 1 about the dimples indicating a positive emotion, suggesting happy could be the right label. \n\nExpert 3: The phrase \"it's just a name\" sounds quite relaxed, possibly indicating a neutral or happy feeling, but normal tone of voice leans more towards neutrality."
+  },
+  {
+    "sample_id": "samplenew_00044512",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: I think the phrase \"That's what I'm talking about\" suggests a positive sentiment since it's often used to express enthusiasm or agreement. It sounds like a supportive statement.\n\nExpert 2: The audio cues indicate a normal tone, which could imply neutrality, but combined with the visual cue of a grinning face, it leans more towards a happy expression.\n\nExpert 3: The slight lowering of the eyebrows can sometimes indicate focus or determination rather than negativity. Since the person is grinning, it does seem to balance out, making it feel more positive overall. \n\nExpert 1: So, we're leaning towards labeling this emotion as happy based on that combination of audio and visual cues, right? \n\nExpert 2: Yes, I agree with that analysis. The context provided by the phrase and the smile seems to clearly indicate happiness. \n\nExpert 3: I think we can conclude that the emotion label here is \"happy.\""
+  },
+  {
+    "sample_id": "samplenew_00055530",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: Based on the audio cues where the person's tone sounds positive, I would lean towards the emotion of happy or content. \n\nExpert 2: I agree with Expert 1 about the positive tone, but we need to consider the context of the phrase \"It's good to know injustice.\" It might indicate a more complex emotion. \n\nExpert 3: The visual cue of the lip corner puller could suggest happiness, but narrowing eyes can sometimes indicate intensity or even anger in some contexts. We have to be careful here. \n\nExpert 1: Given that the audio suggests a positive tone overall, I still think happy fits best, but we should watch for other cues. \n\nExpert 2: Right, but I want to note that the phrase itself could reflect a nuanced understanding of societal issues, which could imply worry or contemplation. However, I still lean towards happy based on tone. \n\nExpert 3: Agreed on happy but cautious of the complexity. We should check for consistency in all cues before finalizing our guess."
+  },
+  {
+    "sample_id": "samplenew_00057443",
+    "ground_truth": "happy",
+    "predicted_label": "neutral",
+    "reasoning": "Expert 1: Based on the statement \"Today is the wedding celebration of the queen,\" it could suggest a joyful occasion. I would lean towards 'happy' as the potential label. \n\nExpert 2: I agree that a wedding celebration typically conveys happiness, but I have to consider the absence of strong emotional audio cues. This might suggest neutrality. I am leaning towards 'neutral.'\n\nExpert 3: The word 'celebration' definitely implies a festive mood, however, the visual cue mentioned 'Dimpler' (possibly referring to a lack of smiles) makes me question my assumptions. I am feeling 'doubt' about assigning a clear emotional label based solely on that. \n\nExperts pause to consider the audio and visual cues and their implications for emotion labeling. \n\nExpert 1: While I originally thought happy, the lack of emotional inflection in the audio could also point to a more subdued expression of happiness rather than outright joy. Still, I would stick with happy for now, unless something changes. \n\nExpert 2: I\u2019m still leaning towards neutral since the emotion in the audio doesn't align with a happy sentiment. \n\nExpert 3: Since I've expressed doubt, I may reconsider and ultimately go with a more neutral label as well. \n\nGroup consensus leads to a standstill as Expert 3 decides to leave due to their doubt. \n\nExpert 1: Even if it's a wedding, if the visual cues are not matching, maybe we should put emphasis on neutral. \n\nExpert 2: If we're focusing on the visual cues primarily, then I think neutral makes the most sense. \n\nFinal Decision: After considering all points, we lean towards 'neutral' as the emotion label for the video since visual cues don't align strongly with any overt emotion. \n\nExpert 1 finalizes: I am comfortable with that conclusion, and I do see neutrality fitting best given the evidence presented."
+  },
+  {
+    "sample_id": "samplenew_00047612",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: The person has a close relationship with Luo Linfeng, which could indicate a happy or pleasant emotion. I\u2019ll consider the big smile as a significant factor indicating happiness. \nExpert 2: While the close relationship might suggest happiness, I need to analyze the tone further, even if it sounds natural. It could convey emotions other than happiness depending on context. \nExpert 3: The big smile is typically a clear indicator of joy or happiness. I think we can lean towards the happy label here. \n\nNext step:\nExpert 1: Given the context and the big smile, I would label this moment as \"happy.\" \nExpert 2: I am still considering the natural tone; however, I think the smile overrides that and also suggests \"happy.\" \nExpert 3: I agree; smiling usually indicates \"happy,\" and it\u2019s consistent with the relationship context. \n\nFinal Input:\nAll experts concur that the emotion label represented in the video is likely \"happy.\""
+  },
+  {
+    "sample_id": "samplenew_00042526",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: Based on the audio cues, the excited tone suggests a happy or enthusiastic emotion.  \n\nExpert 2: The visual cues of a smile and showing teeth typically indicate happiness or pleasure in facial expressions.  \n\nExpert 3: \"You exaggerate, monkey\" can be interpreted as playful teasing, which often occurs in happy contexts.  \n\nExpert 1: Putting those together, I would suggest that the overall emotion label is happy, as the tone and visual expression align.  \n\nExpert 2: Yes, both the excitement in the voice and the facial smile clearly contribute to a joyful demeanor.  \n\nExpert 3: I agree, all signs point to happiness here, so I think we can confirm that.  \n\n(Experts confirm they're all in agreement.)"
+  },
+  {
+    "sample_id": "samplenew_00015436",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Based on the fearful tone of the voice, it suggests the emotion of fear is present in this statement. \nExpert 2: The brow lowering often indicates a serious or worried demeanor, which could also hint towards worry. \nExpert 3: However, the key phrase 'return and surrender' can indicate a sense of desperation, which aligns more with fear than worry.\n\nExpert 1: I still think fear is the primary emotion. \nExpert 2: I agree that fear is strong here, but I also see a layer of worry as well. \nExpert 3: After considering both, I am convinced fear dominates in this context due to the vocal and visual cues. \n\nExpert 1: So we are all agreeing on fear as the dominant emotion? \nExpert 2: I think so, but I acknowledge the presence of worry. \nExpert 3: My final conclusion is that fear is the most prominent emotion based on all cues. \n\nFinal consensus: The emotion represented in the video is fear."
+  },
+  {
+    "sample_id": "samplenew_00070726",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Based on the audio cues, the fearful tone suggests that the emotion being expressed could relate to worry or fear.  \nExpert 2: I agree with Expert 1 about the tone being fearful. However, I want to consider the visual cue of lowering the brow, which also indicates concern or worry, possibly even sadness.  \nExpert 3: I see both of your points. The phrase 'The depth of love is the cutting' could imply a deeper emotional struggle, hinting at sadness or pain rather than just fear.  \nExpert 1: Let's focus on the main cues. The fearful tone definitely stands out, and if the brow is lowered, that could connect with fear more strongly than sadness.  \nExpert 2: True, though sadness often overlaps with fear in body language. We need to be specific. Let's analyze further if any cues indicate a transition from one emotion to another.  \nExpert 3: At this stage, I think I'm leaning towards fearing being at the forefront due to the distinct auditory cues, but I will stay open to adjusting if new evidence arises.  \nExpert 1: Okay, let's proceed to summarize and decide. Given the fearful tone and the brow lowering, I would label the emotion as fear.  \nExpert 2: I concur with Expert 1; despite the sad implications, I think the primary emotion is fear.  \nExpert 3: I\u2019m sticking with fear as well, primarily influenced by the auditory cues.  \nFinal Consensus: After discussing various perspectives, we all agree the emotion label represented in the video is likely 'fear.'"
+  },
+  {
+    "sample_id": "samplenew_00022413",
+    "ground_truth": "sad",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Based on the audio cue of a neutral tone, the speaker does not seem to display strong emotions like happiness or anger. \nExpert 2: The visual cue of the Brow Lowerer often signifies contemplation or concern, which can relate to emotions like worry or sadness. \nExpert 3: From the combination of a neutral tone and the Brow Lowerer, it does not feel like there is evidence of strong positive or negative emotions, leading me to think the emotion might be neutral. \nExpert 1: However, we should also consider the context of the statement, which sounds accusatory or defensive concerning following the speaker's mother. This can indicate a sense of protectiveness, suggesting worry. \nExpert 2: I agree, although the neutrality of the tone suggests that the speaker is not overtly expressing these feelings; the situation mentioned could lean towards worry or concern about their mother's safety rather than strong fear. \nExpert 3: It's challenging, but given the context, I feel the most fitting label with the evidence we have is \"worried.\""
+  },
+  {
+    "sample_id": "samplenew_00011989",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Based on the audio cues, it sounds like the person is experiencing fear. The tone of voice conveys a sense of trepidation. \n\nExpert 2: I agree that the audio suggests fear, but we should also consider the visual cues. Lowered eyebrows typically indicate concern or anxiety, which can overlap with fear. \n\nExpert 3: While I see the connection to fear through the audio and visual cues, let's not dismiss the possibility of them appearing neutral. \n\nExpert 1: However, the fearful tone and the specific visual cues, such as the lowered eyebrows, strongly indicate fear rather than neutrality. \n\nExpert 2: Agreed, especially since the engaged expression usually suggests a heightened emotional state. \n\nExpert 3: After analyzing both audio and visual cues, they do indeed suggest an emotional state of fear, not neutrality.  \n\nAll experts agree that the appropriate label for this video's emotion is fear."
+  },
+  {
+    "sample_id": "samplenew_00015003",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Based on the audio cues, the fearful tone indicates the person is likely experiencing fear. \nExpert 2: The visual cues of the brow lowerer and the eyebrow raised suggests a conflict of emotions, but they still imply a reaction to something threatening. \nExpert 3: Considering both the audio and visual cues, the combination of the fearful tone with the raised eyebrows can amplify a sense of anxiety or worry. \nAll experts come to a consensus that the strongest emotion represented here is fear."
+  },
+  {
+    "sample_id": "samplenew_00053892",
+    "ground_truth": "sad",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Given that the person says \"For this reason\" in a normal tone, I would consider that they are providing justification or reasoning. This often signals that they are trying to convey something important, which could be linked to various emotions, depending on the context. \n\nExpert 2: However, the visual cue of the frowns being furrowed suggests that the person may be experiencing some level of distress or concern. Frowning typically indicates negative emotions like sadness, worry, or anger. I think we need to narrow it down further.\n\nExpert 3: I agree with Expert 2 about the frowning. While the tone remains normal, the furrowed frowns are quite telling. It suggests that the person is likely feeling worried or even potentially angry about the topic they are discussing. I see a strong correlation between their visual expression and the nature of what they are saying."
+  },
+  {
+    "sample_id": "samplenew_00047348",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Since the audio cues indicate that the person is speaking with a fearful emotion, I believe the emotion expressed is likely fear. \n\nExpert 2: I notice the visual cues show the person has raised eyebrows and appears insecure, which aligns with feelings of fear rather than happiness or anger. \n\nExpert 3: From both the audio and visual cues, I can conclude that the dominant emotion is indeed fear. However, I want to explore if the insecurity might also suggest elements of doubt. \n\nExpert 1: While doubt can be present, the primary cue here is the fear conveyed in their voice. I stick with fear as the main label. \n\nExpert 2: I agree. The fear aspect seems stronger considering the context and cues. \n\nExpert 3: After reconsideration, I see that my thought on doubt isn't as strong; let's agree on fear.  \n\nExpert 1: So, we're all settled on fear. \n\nExpert 2: Yes, definitely fear. \n\nExpert 3: Conclusively, fear it is!"
+  },
+  {
+    "sample_id": "samplenew_00070477",
+    "ground_truth": "sad",
+    "predicted_label": "doubt",
+    "reasoning": "Expert 1: Based on the audio cues, since there are no strong emotions expressed in the speech, it's probable that the emotion is neutral; however, I need to consider the visual cues. \n\nExpert 2: The visual cue of the eyebrow raised indicates a sign of uncertainty or doubt. This could lean towards the emotion of doubt given the context of the statement regarding a potentially serious issue with the melon. \n\nExpert 3: The cue of feeling insecure also suggests that the speaker may be experiencing some form of unease, which is close to worry but can also align with doubt regarding the scenario. I agree that it may be doubt. \n\nAll Experts: After discussing, it appears that the raised eyebrow and the spoken context suggest an emotion of doubt. \n\nFinal Label: Doubt"
+  },
+  {
+    "sample_id": "samplenew_00009595",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Since the individual describes a family connection with an emotional tone, the audio cues suggest a fearful aspect. Fear often accompanies feelings of anxiety related to family expectations or concerns. Therefore, I'm leaning towards 'fear' as the emotion label based on this audio cue.\n\nExpert 2: The visual cue of lowering the brow can also denote worry or anxiety, not just fear. While the audio seems to indicate fear, that brow gesture can express concern about the family situation that may lead to worry. So, I'm considering 'worried' might also apply. \n\nExpert 3: I agree with Expert 1 that the audio indicates fear primarily, but I wonder if it's also relevant to note the brow position implies a negative emotion. Since they are discussing family, it could evoke mixed emotions. Still, my primary focus is on the audio which indicates fear. So, \u2018fear\u2019 is my first choice."
+  },
+  {
+    "sample_id": "samplenew_00018257",
+    "ground_truth": "sad",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Based on the audio cue where Rongrong speaks with a fearful tone, it indicates that he is likely experiencing fear. \n\nExpert 2: I notice the visual cue of frowns and furrowed brows, which often accompany expressions of worry or fear. However, given the audio cue, I think it leans more towards fear. \n\nExpert 3: While both fear and worry sound plausible here, the distinct fearful tone in his voice suggests that we should label this primarily as fear rather than worry.  \n\nExpert 1: I agree, the audio is quite strong in conveying fear. So I would choose fear as the emotion label.\n\nExpert 2: Yes, I don't see any elements indicating sadness, anger, or any other emotions, just fear. \n\nExpert 3: I'm confident in our consensus being fear due to the combination of the voice and visuals. \n\nAll experts: We conclude that the emotion label in this video is fear."
+  },
+  {
+    "sample_id": "samplenew_00011442",
+    "ground_truth": "neutral",
+    "predicted_label": "contempt",
+    "reasoning": "Expert 1: I notice that the person is trying to convey something important, but the phrase 'Anyway, I know, SMS, you don't know' suggests they might be feeling a bit superior or dismissive. This could imply a hint of contempt. \n\nExpert 2: The tone is normal, which doesn\u2019t indicate high emotional intensity. It could suggest neutrality or confidence rather than negativity. The lip tightener might suggest holding back some emotions, possibly indicating frustration. \n\nExpert 3: The phrase seems to imply there's a lack of understanding or knowledge that the other person has, which might evoke some feelings of worry or concern for the listener's comprehension. But the normal tone and tight lips signal restraint.  \n\nNow thinking about the combinations of visual and audio cues, I lean more towards a reading of contempt or possibly doubt because of the tight lips and the dismissive comment, despite the normal tone. Let's analyze further."
+  },
+  {
+    "sample_id": "samplenew_00007742",
+    "ground_truth": "neutral",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: I notice that the person is speaking in a neutral tone, which usually indicates a lack of strong emotional expression. This could suggest a neutral or possibly worried emotion since there's no overt happiness or enthusiasm in the tone.\n\nExpert 2: The brow lowerer is an interesting visual cue. It often signals concern or seriousness rather than happiness. I wonder if this would lean more towards the worried or even sad emotions, depending on the context of what is being said.\n\nExpert 3: The combination of a neutral auditory tone and the brow lowerer also makes me think about emotions like doubt or contemplation. However, without additional context, I\u2019m leaning toward worried as the most representative emotion label based on these cues."
+  },
+  {
+    "sample_id": "samplenew_00001774",
+    "ground_truth": "neutral",
+    "predicted_label": "happy",
+    "reasoning": "**Expert 1:** Based on the audio cues, it seems that there is no distinct emotional tone. Therefore, I will focus on visual cues to identify the emotion represented. The presence of a dimpler often indicates happiness or a light-hearted sentiment in facial expressions.\n\n**Expert 2:** I agree that there is an absence of strong emotional audio cues. However, the use of the phrase \"no problem\" might suggest a level of positivity or contentment in the situation being discussed. I will lean towards the interpretation of happiness based on the dimpling.\n\n**Expert 3:** While the visual cue of a dimpler suggests happiness, I want to consider other possibilities. If there is no strong underlying emotional expression and the statement seems neutral, it could also align with a neutral label. But since dimpling is strongly associated with joy, I will focus on that for now. \n\n**Expert 1:** I think we need to focus more closely on the dimpler feature. It's a prominent indicator of a happy state, even if the audio lacks emotion. Let\u2019s proceed with the deduction that this visual cue heavily implies happiness.\n\n**Expert 2:** Agreed, I believe we can conclude that despite the neutrality of the audio, the visual representation of the dimpler strongly supports a happy interpretation. Let\u2019s finalize that.\n\n**Expert 3:** I'm prepared to conclude that the dominant emotion label represented here is indeed happy, based on the visual dimples, even though I considered the possibility of neutrality. \n\nOverall, I believe the emotion label represented here is: happy."
+  },
+  {
+    "sample_id": "samplenew_00020393",
+    "ground_truth": "neutral",
+    "predicted_label": "neutral",
+    "reasoning": "Expert 1: The person is asking a question about the bus stop. Their tone and phrasing doesn't convey strong emotions like happiness or anger directly.\n\nExpert 2: I notice that the brow lowerer is a common indicator of confusion or concentration, rather than expressing fear or happiness.\n\nExpert 3: Since the audio does not show any strong emotional expressions, and the visual cue seems more focused and potentially confused, I think it might be neutral or even worried as they seek information.  \n\nExpert 1: But since they're asking a specific question, to me it leans towards neutral, indicating a lack of strong emotional involvement in the inquiry itself. \n\nExpert 2: I agree with that. They seem focused on the question rather than displaying joy or sadness. Neutral seems accurate. \n\nExpert 3: Yes, given that they are potentially confused about the bus stop's name, I might lean towards worried but considering there's no strong emotional pitch, I think neutral is indeed the best fit."
+  },
+  {
+    "sample_id": "samplenew_00001941",
+    "ground_truth": "neutral",
+    "predicted_label": "angry",
+    "reasoning": "Expert 1: First, I will analyze the audio cues. Since the speaker does not express any clear emotion through their voice, I need to focus on the visual cues next.\n\nExpert 2: I agree with Expert 1 and believe we should examine the facial expressions. The brow lowerer can often indicate concentration or seriousness, which might not strongly align with any of the emotions like happy or surprise.\n\nExpert 3: You're right. The brow lowering can also suggest anger or determination. I think we should also consider the context\u2014\"whip away officials\" could imply dissatisfaction or anger with authority figures. Therefore, I will focus on whether this expression fits with anger. \n\nExpert 1: I'm leaning towards anger too, as that phrase suggests a confrontation with authority, which could trigger that emotion. \n\nExpert 2: We must keep in mind that while the voice lacks emotion, the visual cues alone can suggest something more emotional than neutrality, particularly anger.\n\nExpert 3: Let's weigh the possibilities. While there\u2019s no happy or neutral tone, the brow lowering suggests seriousness, but the context might validate our earlier thought towards anger. \n\nExpert 1: After considering the visual expression of brow lowering and the context of the quote, I feel confident that this aligns with anger. \n\nExpert 2: Also noting there\u2019s no signs of fear, worry, or sadness, unlike in other contexts where expressions suggest vulnerability.\n\nExpert 3: Based on everything said and the cues observed, I will confirm my stance that this expression likely represents anger. There\u2019s no doubt about that given the statement\u2019s tone and context. \n\nExpert 1: I agree; I\u2019m confident we\u2019re all on the same page that the emotion label is anger. \n\nExpert 2: Yes, finalized agreement on anger seems appropriate. We\u2019re all aligned."
+  },
+  {
+    "sample_id": "samplenew_00021159",
+    "ground_truth": "neutral",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: Let's focus on the emotional tone of the person speaking. The phrase 'it's good' suggests a positive outlook. This could point towards a happy emotion.\n\nExpert 2: I agree, but we have to consider the overall context of saying 'as long as he is willing to put his heart into me.' This sounds like it could also indicate a longing or vulnerability, which might suggest a hint of sadness or hope.\n\nExpert 3: The visual cue of 'Dimpler' likely means the person is smiling or showing happiness, which supports the idea that the main emotion is happy. The tone being normal also suggests no extreme emotions."
+  },
+  {
+    "sample_id": "samplenew_00032239",
+    "ground_truth": "neutral",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Let's start by analyzing the verbal content. The person mentions 'ten sentences,' which doesn\u2019t directly indicate any strong emotions but could signal importance or urgency in communication.\n\nExpert 2: I notice that the person is standing up, which often correlates with assertiveness or confidence. Standing while speaking can also indicate a heightened emotional state.\n\nExpert 3: The audio cues state that the tone sounds normal\u2014this could imply that the emotion is neutral, but we need to consider the visual elements.\n\nExpert 1: So, based on the audio being normal, I agree that it doesn't give an extreme emotional cue. However, the brow lowering might indicate a more serious expression. \n\nExpert 2: Right, brow lowering can suggest concern or disapproval, so it could steer us towards emotions like worry or anger rather than neutral. \n\nExpert 3: I think we should look closely at the combination of the standing posture and the brow lowering, as this suggests something deeper than just neutral. \n\nExpert 1: After considering all the factors, I propose we categorize this as 'worried' rather than 'angry.' The body language suggests concern rather than aggression. \n\nExpert 2: I agree, the brow lowering emphasizes that concern. Therefore, I label it as 'worried.' However, I need to confirm if the emotional weight is indeed leaning stronger towards worry. \n\nExpert 3: Based on the conversation and analysis, I would conclude that the emotion is best labeled as 'worried' as well, especially considering the visual cues involved."
+  },
+  {
+    "sample_id": "samplenew_00012993",
+    "ground_truth": "neutral",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Based on the audio cues, the tone sounds normal, which might indicate that the person is neither particularly excited nor distressed about the situation. \n\nExpert 2: The visual cue of Brow Lowerer typically signals concern or seriousness. This could mean the person is feeling some level of worry or seriousness about the information they\u2019re sharing. \n\nExpert 3: Given that the person mentions being the only one who knows about the game, this might suggest a sense of secrecy or possession over this knowledge, which could indicate either pride or a hint of contempt towards others. \n\nExpert 1: So we have a mix of emotions here. I think we can lean towards the emotion of \u2018worried\u2019 because of the Brow Lowerer, despite the normal tone. \n\nExpert 2: I see what you're saying, but the normal tone might suggest \u2018neutral\u2019 instead. It's really about how much weight we give the visual vs. the audio. \n\nExpert 3: It's also possible that this situation evokes surprise, given that he feels he has unique knowledge. \n\nI think we are at a standstill here. I initially thought \u2018worried\u2019 but now I\u2019m reconsidering based on the tone. I\u2019m not sure now if we can place this clearly into one category. **I withdraw, as I\u2019m unsure.**"
+  },
+  {
+    "sample_id": "samplenew_00007710",
+    "ground_truth": "neutral",
+    "predicted_label": "contempt",
+    "reasoning": "Expert 1: I see the phrase \"not worth mentioning\" which implies a dismissive attitude towards King Ning and King Huai. Therefore, this could signify contempt.  \n\nExpert 2: The normal tone of voice suggests no intense emotions like anger or fear, and the statement seems quite firm. This aligns with the emotional state of contempt, as one typically feels disdain or scorn.  \n\nExpert 3: The brow lowerer can be indicative of concentration or somberness. However, combined with the dismissive language, I still lean towards contempt as the primary emotion here."
+  },
+  {
+    "sample_id": "samplenew_00035397",
+    "ground_truth": "neutral",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: I believe the tone and wording indicate a positive resolution, implying a sense of relief, which aligns with the emotion 'happy'. \n\nExpert 2: Upon hearing the phrase 'no longer any threat', it suggests a calming situation. However, we must consider the possibility of sarcasm in speech communication. So I lean towards 'neutral' with an underlying potential for 'happy'. \n\nExpert 3: With the visual cue of a dimpler, which typically signifies a smile, it reinforces a positive feeling, possibly indicating 'happy'.  \n\nExpert 1: Based on both audio and visual cues, the statement is likely to express happiness. \n\nExpert 2: However, we must also think about the context. If the person was previously worried, this resolution could suggest happiness, but also imply relief. Still, 'neutral' captures a broader emotional state without jumping to conclusions. \n\nExpert 3: But the positive visual cue strongly indicates happiness. I think the evidence leans more toward 'happy'. \n\nExpert 1: I see where you're going, but I think we should label it as 'happy' based on current understanding."
+  },
+  {
+    "sample_id": "samplenew_00057449",
+    "ground_truth": "angry",
+    "predicted_label": "angry",
+    "reasoning": "Expert 1: Based on the audio cues, the tone is angry, which suggests a strong emotion. I will consider 'angry' as the likely emotion label.\n\nExpert 2: The visual cues, especially the lower eyebrows and lid tightener, also lean towards anger. The expression with lips showing teeth can be interpreted as a sign of aggression. I agree with 'angry'.\n\nExpert 3: I'm thinking about the context as well. The phrase 'That kid' could indicate frustration or annoyance towards a child. However, I\u2019m still leaning towards 'angry' given the strong vocal tone and facial expressions. \n\nAll Experts: The evidence seems consistent. We confidently label this emotion as 'angry'."
+  },
+  {
+    "sample_id": "samplenew_00000079",
+    "ground_truth": "angry",
+    "predicted_label": "neutral",
+    "reasoning": "Expert 1: Based on the visual cue of curling the lips upwards, that typically indicates happiness or a positive emotion. So I suspect this could represent the 'happy' label.\n\nExpert 2: I agree that curling of the lips upwards is a strong indicator of happiness, which often correlates with a smiling expression. However, the fact that the audio cues don't reflect this emotion might suggest that there's a contradiction. I might lean towards 'neutral' instead.\n\nExpert 3: Both points are valid. The upwards curling of the lips is indeed associated with happiness, but since there's a lack of emotional tone in the audio, it's possible that the expression could also indicate a neutral state without strong emotional intent. I think we need to weigh the visual against the auditory cues carefully before deciding.\n\nExpert 1: After considering the audio and visual together, I still believe the strongest emotion conveyed visually is happiness, but maybe layered with neutral. I could be wrong about the definitive identification since the audio hasn\u2019t matched. \n\nExpert 2: If the audio is genuinely neutral and doesn't support happiness, perhaps the best label would indeed be neutral, since we cannot categorize it conclusively as happy. \n\nExpert 3: I\u2019m leaning towards 'neutral' as well, especially because the mismatch between the audio and visual cues suggests an absence of strong emotion. \n\nExpert 2: Let's go with 'neutral' then. I think we can all somewhat agree."
+  },
+  {
+    "sample_id": "samplenew_00033007",
+    "ground_truth": "angry",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Based on the audio cues\u2014the negative tone\u2014I believe the emotion could potentially be 'angry', as it suggests frustration or disappointment with someone not standing up for themselves. \n\nExpert 2: I agree that the tone is negative, but looking at the visual cues like the tightening of eyelids and curling of the lips upwards, I see more of a contemptuous expression rather than pure anger. It seems to suggest a dismissive attitude towards the other person.\n\nExpert 3: The visual cues really stand out; a furrowed brow and curled lips can sometimes indicate that the speaker is expressing sarcasm or disdain, but I also feel that the urgency of the phrase \"fight for yourself\" suggests a level of worry or concern for the other person's wellbeing, which complicates things. \n\nExpert 1: Since I initially suggested anger but see your points, I'll reconsider. While I still think anger is a possibility, the contempt angle from Expert 2 makes sense too. However, I'm shifting my focus slightly to 'worried', since the phrase implies caring about the other person.  \n\nExpert 2: With the tone and the expressions, I still think 'contempt' is strong for the speaker. It's like they\u2019re dismissing the other\u2019s situation while expressing concern. \n\nExpert 3: I'm leaning towards 'worried' as it feels more supportive and likely the emotional state that fits with encouraging someone to act\u2014perhaps trying to bridge concern with a negative tone.  \n\nExpert 1: I might completely switch to 'worried' at this point based on the tone and visuals. I'll focus on that for my final answer.  \n\nExpert 2: I'm going to stick with 'contempt'\u2014I believe there's a strong element of derision given the body language.  \n\nExpert 3: So, I conclude with 'worried'.  \n\nIn summary, there are credible arguments for 'angry', 'contempt', and 'worried' in this analysis, and I\u2019m ultimately settling on 'worried'."
+  },
+  {
+    "sample_id": "samplenew_00036310",
+    "ground_truth": "angry",
+    "predicted_label": "contempt",
+    "reasoning": "Expert 1: The phrase 'don't deceive, endure' sounds like the person is delivering a serious or stern message. This could indicate a negative emotion like anger or disappointment. \n\nExpert 2: I noticed that the audio cues suggest a negative tone, which further supports the idea that the emotion isn't positive. However, the expression with the lips forming an upward curve could indicate a complex emotion such as sarcasm or contempt.\n\nExpert 3: The context given suggests that the overall emotion leans towards something negative since the phrase does not sound cheerful. Despite the upward curve of the lips, the negative tone and the message imply a stance of worry or disappointment. \n\nExpert 1: Based on that, I would classify it as contempt because of the negative tone paired with a smile that seems disingenuous, suggesting they might be mocking the situation. \n\nExpert 2: I agree with the contempt interpretation, especially since the tone contradicts the smile. The message seems serious and dismissive, which aligns with contempt rather than happy or neutral.\n\nExpert 3: I'm inclined to agree as well; it fits. We have considered the video\u2019s cues wisely. \n\n(everyone realizes they are on the same path of analysis)  \nFinal Label: contempt"
+  },
+  {
+    "sample_id": "samplenew_00057012",
+    "ground_truth": "angry",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: I'll start by examining the audio cues. The person speaks in a normal tone, which doesn't indicate extreme emotions like anger or fear. This could suggest a neutral or contemplative state.\n\nExpert 2: I'll add to that by looking at the context of the phrase 'preparing to kill.' Even though the tone is normal, the content is quite alarming. This might reflect anxiety or worry rather than outright anger or happiness.\n\nExpert 3: I agree with both of you about the tone, but I want to focus on the visual cues. The frowns and furrowed brows often indicate worry or distress. So I'm leaning towards labeling this as a worried emotion rather than any other emotions like happy or sad.\n\nExpert 1: Since we're all in agreement about the visual cues suggesting worry, we should focus on that. If the tone were different, we might consider other emotions, but currently, worried seems the most fitting."
+  },
+  {
+    "sample_id": "samplenew_00056538",
+    "ground_truth": "angry",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Given the fearful tone in the audio cues, it's likely that this emotion could be represented as fear. \n\nExpert 2: The phrase \"how they treated us siblings\" suggests a sense of hurt or betrayal, which might indicate a deeper emotional context, perhaps pointing toward sadness.\n\nExpert 3: Looking at the brow lowerer visual cue, which is often associated with negative emotions, I lean towards fear as the most plausible label since it aligns with the tone of voice. \n\nExpert 1: Since I initially proposed fear due to the tone, I feel reassured by the visual cue aligning with that emotion. \n\nExpert 2: I still think that sadness could fit here, given the reference to treatment suggests a painful experience, but I acknowledge the fear indicated by the audio.\n\nExpert 3: Unless anyone identifies another emotion that fits better, I'm sticking with fear based on the cues presented."
+  },
+  {
+    "sample_id": "samplenew_00057731",
+    "ground_truth": "angry",
+    "predicted_label": "angry",
+    "reasoning": "Expert 1: My initial thought is that the angry tone in the audio cues suggests a strong emotion. Given that the visual cues also indicate a frown and curled lips upwards, it points towards a negative emotion like anger.\n\nExpert 2: I see the frowning and the tone as potentially representing anger, but the upward curl of the lips could also indicate a hidden sense of contempt mixed in with that anger. I think we should consider both emotions here.\n\nExpert 3: I agree with both points; however, I feel that the upward curl of the lips might be more indicative of a smirk rather than outright happiness. It might be anger with contempt being the more appropriate label. However, I'm leaning towards anger based on that strong tone. \n\nExpert 1: Since we're focusing more on the angry tone and the frowning, I'm leaning towards labeling this as 'angry.' \n\nExpert 2: Maybe I should reconsider, since I focused on both anger and contempt. If the context leans heavily on anger with that tone, then I think I might lean towards just 'angry.' \n\nExpert 3: I still stick to my point about the upward lips indicating contempt. But if we disregard that and emphasize the tone and the frowns, I see how we might conclude that anger is the dominant emotion. I\u2019m not entirely convinced about my previous thought. \n\nExpert 1: After considering all points, I firmly believe the dominant emotion is 'angry.'\n\nExpert 2: I will conform to that conclusion as well. \n\nExpert 3: Since I've recognized how firmly everyone else believes, I'll step down on contempt and agree with 'angry'."
+  },
+  {
+    "sample_id": "samplenew_00039443",
+    "ground_truth": "angry",
+    "predicted_label": "contempt",
+    "reasoning": "Expert 1: The statement \"no one asked, send me tea\" seems to convey a sense of dismissiveness or sarcasm. This could indicate either annoyance or contempt towards others for not engaging. \n\nExpert 2: The audio cues mention a \"flaming\" tone, which often indicates strong emotions like anger or frustration. The phrase used also sounds like a complaint, which can point towards anger. \n\nExpert 3: The visual cues mention frowning and curling of the lips upwards. While frowning might suggest a negative emotion, curling lips upwards could signify a smirk or sarcasm. This combination is tricky, as it could reflect contempt instead of outright anger. \n\nExpert 1: I think after analyzing the visual and audio cues together, alongside the wording, it aligns more with contempt. It's a way of expressing annoyance with a hint of sarcasm. \n\nExpert 2: I still feel the dominant emotion here is anger, especially with the tone being described as flaming. The frown can indicate discontent which is often synonymous with anger.  \n\nExpert 3: Both aspects could be truly intertwined, but for the moment, I am leaning towards contempt due to the sarcastic undertone of the statement itself. \n\nExpert 1: In this case, I will go with contempt as well, as it matches the dismissive nature of the statement. \n\nExpert 2: I will step back, as I see how the sarcasm can convey contempt, and I realize I might have been misinterpreting the tone. \n\nExpert 3: Therefore, the final determination here would be regarding contempt as the primary emotion expressed in the video."
+  },
+  {
+    "sample_id": "samplenew_00039031",
+    "ground_truth": "angry",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Given the audio cue where the person speaks in a normal tone, it doesn't indicate extreme emotions like anger or fear. \nExpert 2: The brow lowerer and facial tightness often suggest confusion or concern, which might lean towards emotions like worried or doubtful. \nExpert 3: However, the upper lip raiser and the lips forming an upward curve suggest a hint of sarcasm or contempt, even if the overall tone is normal. \n\nAll experts consensus: The conflicting cues suggest a blend of emotions. \n\nExpert 1: I think the most dominant emotion given all these cues might be worried, as confusion often stems from concern.  \nExpert 2: I feel more inclined towards contempt based on the facial movements alongside the tone. \nExpert 3: I see what you're saying, but I believe the nuance suggests a playful or sarcastic 'happy' rather than pure contempt. \n\nNext Steps: Shall we categorize this? \nExpert 1: Yes, let\u2019s lean towards 'worried' for now as it seems more representative of the overall emotion."
+  },
+  {
+    "sample_id": "sample_00006794",
+    "ground_truth": "angry",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: I'm observing the visual cues mentioned. The lower eyebrows can suggest a neutral or even sad expression, but the upper lip raiser usually indicates happiness or excitement. This may be an indication of the person trying to appear friendly or approachable. \n\nExpert 2: I agree with the assessment of the visual cues so far. The lower eyebrows could lean towards neutrality or concern, but combined with the tone and the upper lip position, I think happy might still be a stronger candidate since the context includes offering money and inviting conversation, which feels positive. \n\nExpert 3: While the lower eyebrows suggest a more subdued emotion, I am inclined to think that the offer of money and inviting someone to sit and chat indicates a non-threatening and positive demeanor. Therefore, my hypothesis would point towards happiness as the overarching emotion being conveyed despite the neutral tone."
+  },
+  {
+    "sample_id": "samplenew_00004669",
+    "ground_truth": "worried",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Based on the audio cue of a fearful tone, it suggests an emotional response might relate to fear or concern regarding the situation in the wheelchair. \n\nExpert 2: I agree with Expert 1, but we need to consider the visual cue as well. Purse lips could indicate discomfort or an attempt to suppress an emotion, leaning towards anxiousness or worry. \n\nExpert 3: Adding to both points, while the tone suggests fear, the visual cue from the pursed lips indicates a stronger emotional state linked to disapproval, which can relate to contempt or worry.  \n\nExpert 1: So, if we combine the audio indicating fear with the visual cue of pursed lips, it supports the idea of worry more than actual fear or contempt. It might be a reaction to something unsettling regarding the wheelchair situation."
+  },
+  {
+    "sample_id": "samplenew_00066683",
+    "ground_truth": "worried",
+    "predicted_label": "contempt",
+    "reasoning": "Expert 1: First, I notice the statement made by the person in the video. They imply a comparison to their own family, suggesting some sort of judgment.\n\nExpert 2: Given the positive tone in the audio cues, it seems like this person's opinion might not be entirely negative. The dimple also indicates a smile or friendliness, which often correlates with positive emotions.\n\nExpert 3: I agree with both of you. However, we must consider whether the comparison itself might carry an undertone of disparagement or superiority, which could indicate contempt."
+  },
+  {
+    "sample_id": "samplenew_00068896",
+    "ground_truth": "worried",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Given the audio cue of a normal tone of voice, it doesn't indicate extreme emotion like anger or sadness. However, paired with anxious visual cues, it suggests feelings of worry or doubt.\n\nExpert 2: The phrase \"Why did you ruin...\" implies a level of frustration. This might hint at underlying anger, especially if the context supports previous similar incidents. But, the tone doesn\u2019t sound aggressive.\n\nExpert 3: The anxious lip stretch could point towards internal conflict or worry about the consequences of actions taken, reinforcing the idea of feeling worried or concerned about the situation at Dali Temple."
+  },
+  {
+    "sample_id": "samplenew_00003189",
+    "ground_truth": "worried",
+    "predicted_label": "angry",
+    "reasoning": "Expert 1: Let's analyze the audio cues first. The tone is described as negative, which might indicate frustration or anger.\n\nExpert 2: I'm considering the visual cues next. The mention of nostrils enlarging often correlates with heightened emotions, possibly anger or agitation.\n\nExpert 3: Together, these cues suggest an emotional state that is not positive. Negative tone and physical response imply a negative emotion, very likely anger based on the context given."
+  },
+  {
+    "sample_id": "samplenew_00035305",
+    "ground_truth": "worried",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Let's start by analyzing the audio cues. The person speaks in a fearful tone, which suggests an emotion related to fear.\n\nExpert 2: I agree, but we should also consider the visual cues. Nasal flaring can often indicate anxiety or fear as well, further supporting the idea of fear being the primary emotion.\n\nExpert 3: Based on both audio and visual cues, I'm confident that the emotion in this context is fear. However, we should keep an open mind in case we misinterpret the cues as we go along."
+  },
+  {
+    "sample_id": "samplenew_00063662",
+    "ground_truth": "worried",
+    "predicted_label": "fear",
+    "reasoning": "**Expert 1**: Based on the verbal and audio cues, the tone of fear in the person's speech indicates an emotion tied to anxiety or worry about what is hidden. Therefore, I think we should consider 'fear' as the first potential label.  \n\n**Expert 2**: I agree with Expert 1 regarding the fearful tone. The visual cues of purged lips and nasal flaring may also suggest discomfort or concern, reinforcing the idea of fear.  \n\n**Expert 3**: I'm on board with you both, but I think we need to explore the context a bit more to confirm it. The phrase 'What is hidden' could also imply a sense of danger, which aligns well with 'fear'.   \n\n**Expert 1**: Let's move to the next step. We should analyze if there are any other emotions that could fit before deciding on the final label. Given the visual signs and the context of concern, I want to focus on whether there's an element of worry or anxiety that fits as well.   \n\n**Expert 2**: Exactly, and since there are both visual and audio elements presenting a fearful tone, I'd consider the idea of worrying, but I still lean toward fear being the more dominant emotion here given the straightforward nature of the audio cues.  \n\n**Expert 3**: I still think we should keep the context in mind. If the question is implying suspense or intrigue, that could also add layers that need careful consideration for labeling.  \n\n**Expert 1**: Good point! However, worrying tends to come off as more chronic and less immediate than fear, which aligns perfectly with what we see here.  \n\n**Expert 2**: So we have mostly consensus here that 'fear' is the emotion being communicated. However, the elements of worry are still very much at play; let's keep that in mind as a secondary possibility.  \n\n**Expert 3**: Absolutely, but let's maintain our position on fear until we can find any critical evidence to contradict it. I don't think anyone should drop out yet.  \n\n**Expert 1**: Let's finalize this step by choosing 'fear', as it meets both audio and visual cues. The immediate reaction in the voice confirms it's a strong candidate.  \n\n**Expert 2**: Agreed, I'll support 'fear' as our final emotion label based on the overall evidence presented."
+  },
+  {
+    "sample_id": "samplenew_00027234",
+    "ground_truth": "worried",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: First, let's identify the overall tone of the person's sentence. They are questioning the statement about leaking secrets, which indicates confusion or worry. \n\nExpert 2: I agree, but the phrase 'Impossible, right?' sounds like a mix of disbelief and fear. The fearful tone in the audio cues is crucial here. \n\nExpert 3: Additionally, the visual cue of the lip stretcher could suggest nervousness or tension, which typically accompanies fear or anxiety rather than happiness or contentment. \n\nExpert 1: Given all these cues, I think we should lean towards identifying the emotion here as worried or fearful. The context of questioning could imply a deeper concern. \n\nExpert 2: Right, but considering the tone is explicitly fearful, that might be a stronger indicator of fear rather than just worry. \n\nExpert 3: I see your point. The fearful tone definitely weighs heavily on the overall emotional assessment. We should label this as fear."
+  },
+  {
+    "sample_id": "samplenew_00037763",
+    "ground_truth": "worried",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Based on the audio cues, the person's tone suggests they are expressing fear. Fear is often associated with uncertainty about a situation, which fits this context. \n\nExpert 2: In addition to the tone, the visual cue of bringing lips together can be a sign of anxiety or discomfort, reinforcing the fear emotion. \n\nExpert 3: I agree with both of you. Fear can manifest both in the way someone speaks and their body language. Given the context of the question, I would label this as fear."
+  },
+  {
+    "sample_id": "samplenew_00002679",
+    "ground_truth": "worried",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: I think we should start by identifying the emotion being expressed. The person mentions pain, which could imply discomfort or distress. The mention of hurt indicates a negative emotional response, possibly suggesting sadness or worry.\n\nExpert 2: Building on that, I notice the tense lips. This facial expression could also indicate anger or frustration, as it often depicts a struggle or discomfort. So, we might need to consider those emotions too.\n\nExpert 3: While pain in the waist and legs is mentioned, it doesn't clearly relate to the emotions of happy or surprise. Given the visual cues and the context, we should focus on emotions that relate more to distress or discomfort, likely leaning towards worry or perhaps doubt regarding their condition.\n\nExpert 1: I'm leaning towards labeling this as worried due to the physical pain indicated. However, if we are considering the deep emotional context that can emerge with physical pain, we might need to break it down further. \n\nExpert 2: I can agree with worried; the physical expression and verbal cues suggest that they are preoccupied with their pain, showing concern about their well-being.\n\nExpert 3: I still feel there might be an underlying frustration as well, but since we've been focusing on the most evident emotion, I concede the point to feature worry as the primary label."
+  },
+  {
+    "sample_id": "samplenew_00001054",
+    "ground_truth": "worried",
+    "predicted_label": "contempt",
+    "reasoning": "Expert 1: Given the audio cue of a negative tone, I would first consider that the emotion might lean towards anger or contempt because of the dismissive phrase \"too weak to wake up yet.\" The tone suggests frustration or belittlement.\n\nExpert 2: I agree with Expert 1 on the negative tone indicating there's an emotional intensity. However, nostrils enlarging often suggests increased tension or stress, which could also imply fear or worry, but since the phrase itself is more about derision, I'm inclined to think anger or contempt also fits.\n\nExpert 3: While I also see the connection to anger or contempt in the phrase and tone, let's not overlook the possibility of the emotion being worried. The context of telling someone they're too weak can imply concern, albeit expressed negatively. It suggests they are not ready to face something, which could tie back to worry about someone's state.\n\nAt this point, I feel Although all emotions could be valid interpretations here, the anger or contempt seems most likely given the context and phrasing. So I lean towards that."
+  },
+  {
+    "sample_id": "sample_00001727",
+    "ground_truth": "surprise",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Based on the audio cues, the tremulous tone suggests the person might be experiencing anxiety or fear. \n\nExpert 2: I notice the upper eyelids being raised, which typically indicates surprise or shock, but combined with the tremulous tone, it leans more towards fear or worry.\n\nExpert 3: While the visual cue of raised upper eyelids can suggest surprise, the overall context of the audio indicates a more emotional depth that could be linked to fear rather than just surprise. \n\nExpert 1: I agree with Expert 2 and Expert 3. The raised eyelids, amidst the tremulous tone, point towards fear being the strongest candidate here.  \n\nExpert 2: Yes, I think fear fits best since the tone of voice often correlates with heightened emotions like fear or anxiety. It's not necessarily joy, neutrality, or anger. \n\nExpert 3: After considering all aspects, I reaffirm that the emotion here is fear, as the raised eyelids and tremulous tone align with the physical indicators of that feeling."
+  },
+  {
+    "sample_id": "samplenew_00035139",
+    "ground_truth": "surprise",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: Based on the audio cues, the loud tone suggests a strong emotional expression, which often correlates with excitement or happiness. \n\nExpert 2: I agree with Expert 1; however, the visual cues of a smile, particularly a toothy smile and cheek dimple, are strong indicators of happiness. \n\nExpert 3: I'm considering the context of the phrase. \"Oh, there are people and people in the world\" could imply surprise or excitement about people's diversity, but the smile really solidifies a happy expression. \n\nExpert 1: So, we seem to agree that the visual cues strongly point towards happiness. \n\nExpert 2: Yes, and combined with the loudness of the tone, it amplifies that emotion. There\u2019s no indication of sadness or anger here based on the cues we've discussed. \n\nExpert 3: I would concur, there is no evidence of doubt or contempt either. Happiness is the strongest contender here. \n\nExpert 1: Given all the cues, I am confident that the label for this emotion is happy. \n\nExpert 2: I feel the same way; I\u2019m firm on happy as the label too. \n\nExpert 3: I align with both of you; it's definitely happy in this scenario."
+  },
+  {
+    "sample_id": "samplenew_00064348",
+    "ground_truth": "surprise",
+    "predicted_label": "surprise",
+    "reasoning": "Expert 1: I'm noticing that the phrase 'Near your wife's house' might indicate something that relates to personal situations or unexpected occurrences. It feels contextually important.\n\nExpert 2: The audio cue describes the speech as tremulous. This suggests that the speaker might be experiencing strong emotions, possibly anxiety or fear. \n\nExpert 3: The visual cues of widened eyes and a dropped jaw can signal surprise or shock. These cues generally accompany moments when someone is processing unexpected or alarming information."
+  },
+  {
+    "sample_id": "samplenew_00024409",
+    "ground_truth": "surprise",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Based on the audio cues, the tremulous tone suggests a sense of distress or fear. This may indicate that the speaker is experiencing a heightened emotional state. \n\nExpert 2: I agree with the observation of the audio cues. The raised inner brow typically indicates worry or fear. However, we should also analyze the visual cues closely to draw a complete conclusion.\n\nExpert 3: The visual cues you mentioned, like pupil enlargement and elongated lips, can indeed suggest surprise or fear. The combination of all cues might imply either surprise or fear primarily. Let's analyze them further.\n\nExpert 1: Yes, examining the phrase 'Ma Chao, fire!' suggests urgency which can accompany fear or surprise, so we should focus on those emotions first. \n\nExpert 2: The term 'fire' could imply a sudden threat, reinforcing the possibility of fear in this scenario. However, it might evoke surprise too due to the urgency it introduces. \n\nExpert 3: Given the context and the fact that there is both a tremulous tone and visual signs consistent with fear, I would lean towards labeling this emotional response primarily as fear, while acknowledging surprise as a secondary emotion."
+  },
+  {
+    "sample_id": "samplenew_00065560",
+    "ground_truth": "surprise",
+    "predicted_label": "neutral",
+    "reasoning": "Expert 1: The neutral tone of the person suggests that they are not experiencing strong emotions. They are simply stating a fact. I think the emotion label might be neutral, but let's move on to the next step.\n\nExpert 2: The statement they made creates a sense of nostalgia, as they refer to something they used to enjoy. Nostalgia could evoke emotions like happiness or sadness. However, given the neutral tone, I still lean towards neutral.\n\nExpert 3: The visual cue of raising the upper eyelids could indicate mild surprise or interest. However, coupled with the neutral tone, it still seems to reinforce the lack of strong emotion. I will also hold on to neutral for now."
+  },
+  {
+    "sample_id": "samplenew_00052541",
+    "ground_truth": "surprise",
+    "predicted_label": "surprise",
+    "reasoning": "Expert 1: Based on the verbal cue \"Isn't it?\" and the startled tone, I think this might lean towards surprise. The phrase suggests an expectation being challenged or an unexpected situation.\n\nExpert 2: I can see that perspective, but the wide-mouthed expression could also indicate worry or fear, especially if the surprise comes from a potentially stressful situation.\n\nExpert 3: While both surprise and worry could fit, I\u2019d lean towards surprise considering the context of the question. It seems more like an immediate emotional reaction rather than a broader fear or concern. \n\nExpert 1: That\u2019s a good point; the shocked tone emphasizes that immediate response. I think we can go with surprise as the primary label at this stage. \n\nExpert 2: Sure, let's proceed with surprise but keep in mind the possibility of underlying worry. We can look for more cues as we analyze further. \n\nExpert 3: Agreed. Let\u2019s confirm that we are aligned on surprise for now and revisit if needed."
+  },
+  {
+    "sample_id": "samplenew_00069838",
+    "ground_truth": "surprise",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: Based on the audio cues, the person speaks in a happy voice, which suggests a positive emotion. This indicates they might be expressing happiness or excitement. \n\nExpert 2: I agree that the audio cues indicate a happy voice; however, we should also consider the visual cues. The head lifting and outer brow raiser typically signal a positive emotional response as well. \n\nExpert 3: Both audio and visual cues suggest that the individual is expressing something positive. The open mouth wide can signify surprise or joy, but combined with the happy tone, it strongly indicates happiness. \n\nExpert 1: I still think we should consider the context of what they are saying, but overall, the tone indicates happiness for sure. \n\nExpert 2: Given that they affirm with 'That's right,' it reinforces the notion of happiness or satisfaction with the answer. \n\nExpert 3: I concur, combining all these cues leads me to conclude that the dominant emotion is indeed happiness."
+  },
+  {
+    "sample_id": "samplenew_00037700",
+    "ground_truth": "surprise",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Based on the audio cue of a \"tremulous emotion,\" it gives the impression of uncertainty or apprehension. This could hint at feelings like fear or worry.\n\nExpert 2: I see the frown and the raised upper eyelids as indicators of surprise or concern. However, frowning usually accompanies negative feelings, making me lean towards worry in this case.\n\nExpert 3: While I notice the visual cues of a frown can mean anger, the context of the audio \"You. Ah\" in a tremulous voice could suggest something more contemplative, like doubt or fear. \n\nExpert 1: I think the audio and visual cues collectively represent a worried expression, as both elements suggest a lack of confidence or a concern about something. \n\nExpert 2: I agree with Expert 1. The combination of a frown and a tremulous voice strongly leans towards worry rather than surprise or anger. \n\nExpert 3: Yes, let\u2019s conclude that the dominant emotion represented in the video is worry.  \n\nAll experts: We collectively label the emotion as worry."
+  },
+  {
+    "sample_id": "samplenew_00013883",
+    "ground_truth": "surprise",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: I notice that the audio cues indicate a tremulous tone in the voice, which often suggests vulnerability or uncertainty. This might imply that the emotion being expressed could be fear or worry.\n\nExpert 2: The outer brow lift is a common visual cue associated with surprise or fear as it indicates raised eyebrows, which often reflects an emotional response. I think there\u2019s a likelihood of surprise in this situation.\n\nExpert 3: Given that the phrase \"Kong Ming\" can relate to an important context that might evoke emotions, I need to think about what emotion fits best with the combination of a tremulous tone and the brow lift. I suspect there might also be elements of worry or doubt here too. \n\n(They all take a moment to reflect on the earlier steps and reevaluate.)"
+  },
+  {
+    "sample_id": "samplenew_00038188",
+    "ground_truth": "surprise",
+    "predicted_label": "surprise",
+    "reasoning": "Expert 1: Based on the audio cues, the phrase \"Is that right? Why didn't I see it\" suggests a sense of confusion or surprise. This could indicate an element of surprise in her emotional response. \n\nExpert 2: I agree that the tone sounds startled. The startled tone often aligns with feelings of surprise, suggesting that she is reacting to new information that she didn\u2019t previously acknowledge. \n\nExpert 3: I notice the visual cue of the frown, which might indicate discomfort or worry. However, since her tone implies surprise, it points more towards an unexpected realization rather than sadness or worry. \n\nExpert 1: Given that the tone is prominently surprised, and the context of questioning \"Why didn't I see it\" further emphasizes that confusion or realization. I lean towards labeling this as surprise. \n\nExpert 2: Yes, I think the combination of a frown and the startling tone suggests an initial shock, supporting that surprise is indeed the right label. \n\nExpert 3: Combining both audio and visual cues supports the conclusion that the most fitting label here is surprise, as she is processing new information that has caught her off guard."
+  },
+  {
+    "sample_id": "sample_00002706",
+    "ground_truth": "fear",
+    "predicted_label": "neutral",
+    "reasoning": "Expert 1: Based on the audio cues, the person speaks in a neutral tone, which suggests a lack of strong emotions. \n\nExpert 2: I agree with the neutral tone in the audio, but we should also consider the facial cues. The facial tightness may indicate some underlying tension. \n\nExpert 3: The raised upper eyelids and outer brow arch typically do not signal a strong negative emotion, which leads me to think that this person's expression might still lean towards neutrality despite the tightness."
+  },
+  {
+    "sample_id": "samplenew_00045270",
+    "ground_truth": "fear",
+    "predicted_label": "neutral",
+    "reasoning": "Expert 1: Let's analyze the auditory components first; the tone is described as natural which typically aligns with positive emotions like happiness or contentment. \n\nExpert 2: Agreed, but we should also consider the visual cues. The outer brow arch and facial tightness could suggest uncertainty or worry, which can point towards neutral or even anxious emotions, rather than outright happiness. \n\nExpert 3: I see the point, but the phrase 'Just ask casually' implies a level of comfort or ease, which might suggest that the primary emotion here could lean towards neutral but with an undertone of happiness or contentment. \n\nExpert 1: Right, however, the lower eyebrows could signal some form of concern, which may contradict a happy emotion. We need to weigh how much weight we give to facial expressions versus the tone of voice. \n\nExpert 2: Definitely! The lips being elongated might indicate a smile, enhancing the possibility of happiness. Yet, I worry the overall facial tension and lower brows could show hesitation or worry, instead of pure happiness. \n\nExpert 3: That makes sense. I think it's crucial to balance these findings. The happiness from the visual component must be strong enough to outweigh the worries indicated by the facial tension. \n\nExpert 1: As of now, I'll lean towards happy but want to be cautious since I see the hints towards worry and doubt. I\u2019ll need to be flexible. \n\nExpert 2: If we do consider worry in our conclusions, it leads me to reconsider my stance. Perhaps the emotion is more complex than just happy. \n\nExpert 3: I'm going to hold onto the label of neutral since it's central and accounts for both the comfort in the phrasing and the restlessness in the features. But if anyone feels strongly about happy being dominant, I\u2019m open to re-evaluation."
+  },
+  {
+    "sample_id": "samplenew_00028975",
+    "ground_truth": "fear",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: I see the visual cues of pupil enlargement and raised eyebrows, which often indicate surprise or fear. However, the stretched lips could suggest discomfort or worry. Let's focus on whether the tone of voice supports any of these.\n\nExpert 2: Yes, the tone is normal, which complicates things. It typically indicates emotional neutrality but combined with the visual cues, it points to a conflicted emotion. I would consider that maybe the person is feeling worried rather than surprised or fearful.\n\nExpert 3: Agreed, the verbal repetitions of \"No. No.\" indicate a strong emotional response, often associated with rejection or denial. Coupled with the anxious expressions, I lean towards the emotion of worry or perhaps even fear, but let's evaluate the overall vibe. \n\n(No expert leaves since there are no contradictions yet, so we proceed to the next step.)"
+  },
+  {
+    "sample_id": "samplenew_00007629",
+    "ground_truth": "fear",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: I notice that the person is speaking in a fearful tone, which usually indicates an emotion related to fear or anxiety. \n\nExpert 2: The visual cues, such as the lid tightener and mouth stretch, could also be indicative of fear, as these are common body language signs that accompany a fearful expression.\n\nExpert 3: I see that the upper lid raiser and elevated outer brow often indicate surprise or concern, but combined with the other signs and the vocal tone, it leans more towards fear in this context.\n\nExpert 1: Given the overwhelming indicators of fear from both audio and visual cues, I believe the most suitable emotion label here is \"fear.\" \n\nExpert 2: I agree with that assessment since all signs point towards fear, and the absence of any positive or neutral cues strengthens that conclusion. \n\nExpert 3: I'm confident in our collective reasoning, as both visual and audio cues consistently affirm a fearful emotion. Our conclusion is solid."
+  },
+  {
+    "sample_id": "samplenew_00000852",
+    "ground_truth": "fear",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Based on the audio cues, the person's fearful tone suggests they are experiencing fear. \n\nExpert 2: The visual cues mentioned, like the outer brow arch and tense lips, are also commonly associated with fear. \n\nExpert 3: The combination of fearful audio and visual cues strongly indicates that the emotion being expressed is fear. \n\nAll experts agree that the emotion label that best fits this situation is 'fear.'"
+  },
+  {
+    "sample_id": "samplenew_00028390",
+    "ground_truth": "fear",
+    "predicted_label": "surprise",
+    "reasoning": "Expert 1: I will start by analyzing the audio cues. The statement \"It's just a matter of skill\" seems neutral in tone as it doesn't convey strong emotion. So I lean towards labeling it as neutral based on audio alone.\n\nExpert 2: I will focus on the visual cues. Pupil enlargement can indicate excitement or fear. The outer brow arch and lower eyebrows typically suggest surprise or confusion. Wide-mouthed and nostrils enlarged can also be associated with surprise or some level of anger. This is a mix of emotions, but they lean towards surprise.\n\nExpert 3: I agree with Expert 2 on the visual cues indicating surprise. Although the audio is neutral, the strong visual reactions shown could suggest that the person is experiencing surprise despite their neutral tone of voice. I'll align with surprise as a potential label based on visuals alone."
+  },
+  {
+    "sample_id": "samplenew_00016080",
+    "ground_truth": "fear",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: I think we should start by analyzing the audio cues. The person speaks in a normal tone, which typically suggests a neutral or calm emotional state. This could indicate they are not overly excited or upset. \n\nExpert 2: I agree with Expert 1, but I also want to take into account the visual cues. The outer brow arch and facial tightness might indicate some level of concern or worry, which could suggest that the person is engaged in a serious conversation about potential conflict. \n\nExpert 3: That's interesting. The wide mouth and frown can indicate distress or disapproval, which makes me think there's more to this than just a neutral state. It could imply they are reacting to an unfavorable situation, possibly sadness or anger. \n\nExpert 1: Let's focus on the facial expressions. The frown and brow lowerer signal that the individual could be feeling worried about the implications of not engaging in full-scale war. \n\nExpert 2: Good point! Considering all these cues together, I lean towards the emotion of worry. It\u2019s reflective of their concern about the consequences of the situation being discussed. \n\nExpert 3: I\u2019m still considering the possibility of anger, though, given the tightness of the face. However, since there is no aggressive tone in the audio, I'll agree with both of you on worry being more fitting. \n\nExpert 1: It seems we are all converging on the idea of worry being the dominant emotion here based on the visual and audio cues. \n\nExpert 2: Yes, I think we can confidently identify the emotion as worry. \n\nExpert 3: I agree as well. Sometimes, a mixture of expressions can make it hard to pinpoint just one emotion, but I also feel worry resonates the most with this context."
+  },
+  {
+    "sample_id": "samplenew_00044155",
+    "ground_truth": "fear",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Based on the visual cues provided, lifting the upper eyelids and arching the outer brow usually indicates surprise or interest, but combined with a mouth stretch and frown, it complicates this interpretation.\n\nExpert 2: I agree that the mouth stretching and frowning suggest a mix of emotions. Typically, a frown can indicate sadness or disapproval. However, the stimuli like lifting the eyelids might imply confusion or surprise.\n\nExpert 3: I think we need to focus on the primary visual cues here. The combination of a frown with furrowed brows strongly suggests concern or worry, as the mouth stretch could merely be a reaction to something uncomfortable rather than purely happy or sad.\n\nExpert 1: I am leaning towards worried because of the combination of these expressions. The frown mixed with the lifted eyelids doesn\u2019t align well with surprise or happiness. It seems more indicative of distress or surprise at something negative.\n\nExpert 2: After considering the different angles, I agree that worried is the strongest candidate here due to the frown, which implies concern or discomfort about the situation depicted.\n\nExpert 3: I will also go with worried. The mix of expressions doesn't really lend itself to happy or angry; they seem more centered around anxiety or concern about the agreement that was made. \n\nExpert 1: Is everyone settled on worried then? \n\nExpert 2: Yes, it seems we are.\n\nExpert 3: Agreed. \n\n"
+  },
+  {
+    "sample_id": "samplenew_00002426",
+    "ground_truth": "fear",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Let's start by analyzing the facial cues. The outer brows being elevated typically suggests surprise or concern. However, it could also indicate worry if combined with other expressions. \n\nExpert 2: I agree, but the tightness in the face and elongated lips might indicate a negative emotion. Tightness can suggest discomfort or distress, which could align with sadness or fear. \n\nExpert 3: The furrowed frown and inner brow raiser combined with the absence of emotional tone in the speech might suggest a more neutral or worried expression. I don't think we can confidently assign a happy or angry label to it. \n\nExpert 1: Let's focus on the worry aspect; the body language could indicate a person who is concerned about an uncontrolled situation, like a virus outbreak. \n\nExpert 2: So we're leaning towards worry, but the surprise from raising the outer brow is complicating the interpretation a bit. \n\nExpert 3: I think we might be over-analyzing. The person clearly seems to be communicating something serious, and without definitive indicators of happiness or anger, I'd suggest we stick with worry."
+  },
+  {
+    "sample_id": "samplenew_00064078",
+    "ground_truth": "fear",
+    "predicted_label": "neutral",
+    "reasoning": "Expert 1: Based on the audio cues, the person spoke in a neutral tone. This suggests they might not be expressing strong emotions, so I'm leaning towards the 'neutral' label. \n\nExpert 2: I agree that the tone of voice is neutral, but let's consider the visual cues. The anxious stretching of the lips and the brow movements suggest they may be feeling worried or uncertain. \n\nExpert 3: The outer brow arch and inner brow raiser usually indicate concern or worry, but I still think the neutral tone means we shouldn't rule out 'neutral' entirely. However, the visual cues might lean more towards 'worried'. \n\nExpert 1: I still think we have to prioritize the audio here. A neutral tone often corresponds to a neutral expression, so I would still suggest 'neutral' overall.\n\nExpert 2: But if we look closely, the anxious stretching of the lips is a strong indicator of worry or anxiety.  \n\nExpert 3: I see where you\u2019re coming from, but I think we might be conflating the visual and audio too much since the audio is clearly neutral. I am leaning towards labeling it as 'neutral' as well. \n\nExpert 1: Let's summarize: the verbal cues signal neutral, while visual cues imply worry but maybe contextually not enough to override the audio. I feel we should label this neutral at least initially."
+  },
+  {
+    "sample_id": "samplenew_00058745",
+    "ground_truth": "contempt",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: Based on the cheerful tone of the audio cues, the expression of the person might lean towards happiness. A cheerful tone usually indicates a positive emotion. \nExpert 2: However, we need to consider the content of the speech. The phrase 'one day to be afraid of' introduces an element of fear or concern, which can conflict with a cheerful tone. \nExpert 3: Let's also account for the visual cues. The slightly lower eyebrows and the teeth showing imply a smile, suggesting happiness or at least a light-hearted demeanor. But what does that mean when paired with a statement about fear?"
+  },
+  {
+    "sample_id": "samplenew_00044342",
+    "ground_truth": "contempt",
+    "predicted_label": "contempt",
+    "reasoning": "Expert 1: Based on the mocking tone of voice, this suggests a level of sarcasm that often accompanies contempt. \n\nExpert 2: The big smile and indentation when smiling usually indicates happiness. However, the mocking tone might change the overall interpretation.\n\nExpert 3: This mix of a smile and a mocking tone could indicate a complex emotion, but given the context, it likely leans towards contempt rather than just happiness."
+  },
+  {
+    "sample_id": "samplenew_00063792",
+    "ground_truth": "contempt",
+    "predicted_label": "contempt",
+    "reasoning": "Expert 1: First, I analyze the visual cues presented. The Lip Corner Depressor typically indicates sadness or disappointment, while an Upper Lip Lift can suggest disgust or contempt. Show teeth can often be interpreted as a smile, indicating happiness. A Chin Raiser can be associated with confidence or assertiveness. Combining these elements, I lean towards contempt or disgust as primary emotions since the cues are conflicting. \n\nExpert 2: I agree with the visual cues but also focus on the audio. A normal speaking tone generally suggests a stable emotional state, which doesn\u2019t lean towards extreme emotions like anger or fear. Given the combination of visual cues that show both downturned and lifted aspects, I think the emotion might convey contempt, especially since it often comes with assertiveness when combined with the chin position. \n\nExpert 3: The wording \"Watch it, then\" can carry various tones depending on context. However, it does lean towards assertiveness, which might indicate a challenge or provocation. Given the visual cues and the tone of voice, I would conclude that the emotion label that aligns best here is likely contempt, as the visual indicates disdain alongside assertiveness. \n\nAll Experts: After considering both the audio and visual cues, we agree that the best representation of the emotion label in this scenario is contempt."
+  },
+  {
+    "sample_id": "samplenew_00025986",
+    "ground_truth": "contempt",
+    "predicted_label": "contempt",
+    "reasoning": "Expert 1: Given the sarcastic tone in the audio cues, it suggests that the speaker is not genuinely asking but rather making a point about the inappropriateness of the action, which might indicate contempt or a light-hearted surprise.\n\nExpert 2: I notice the downturned corners of the mouth, which usually correlates with sadness or disappointment. However, the sarcastic element might counter that, suggesting that the emotion could lean towards anger or contempt rather than sadness.\n\nExpert 3: The visual cue of showing teeth could indicate a forced smile or a grimace, which often accompanies sarcasm. This aligns more with feelings of contempt or perhaps even frustration at the situation being discussed. I am leaning towards contempt as the primary emotion here, considering the overall mix of tones and facial cues."
+  },
+  {
+    "sample_id": "samplenew_00055940",
+    "ground_truth": "contempt",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: Let's analyze the audio cues first. The tone is normal, which doesn't indicate any strong emotional state like anger or fear. It suggests a neutral or calm communication.\n\nExpert 2: I agree with Expert 1 about the audio. Now, moving onto the visual cues: the downturned corners of the mouth typically suggest sadness or disappointment, while a toothy smile with upward curving lips signals happiness or excitement.\n\nExpert 3: That's a good observation! When combining these visual cues, the conflicting signals might suggest a mixture of emotions. However, the clear smiling suggests a more dominant emotion here.  \n\nExpert 1: Next step, let's consider the context of the statement \"Do you think you can definitely win?\" This is potentially a question that carries hope or encouragement, which leans towards a positive interpretation. \n\nExpert 2: Indeed, despite the downturned corners initially signaling sadness, the smile implies positivity which could indicate confidence or happiness about winning.\n\nExpert 3: I think overall, we should lean towards the emotion label of 'happy' since the smile is quite prominent and the context is optimistic. \n\nExpert 1: Yes, seems like a consensus! Given the visual exuberance despite any worries hinted by the mouth shape, happy seems most fitting. \n\nExpert 2: Conclusively, it\u2019s clear we found a balance. Let's label this video segment as 'happy'. \n\nExpert 3: I agree. No indication of any need to leave the conversation. Thus, let's finalize our label!"
+  },
+  {
+    "sample_id": "samplenew_00051112",
+    "ground_truth": "contempt",
+    "predicted_label": "neutral",
+    "reasoning": "Expert 1: Given that the person has normal tone in their speech, it suggests they are not experiencing strong negative emotions like anger or fear. \n\nExpert 2: The mention of a man with a knife could indicate a serious situation, but without additional emotional tone, it could lean towards neutral or worried rather than outright fear or anger. \n\nExpert 3: The visual cue of cheek raising often suggests happiness or a smile. This could indicate that despite the serious context, the emotion displayed might be more positive. \n\nAll experts agree that while the content of the speech presents a potentially fearful situation, the combination of the normal tone and cheek raising points towards a neutral or happy emotion overall."
+  },
+  {
+    "sample_id": "samplenew_00049015",
+    "ground_truth": "contempt",
+    "predicted_label": "doubt",
+    "reasoning": "Expert 1: I think the big smile indicates a positive emotion, possibly happiness. \nExpert 2: While the smile is positive, the statement about relying on connections and backdoors sounds more critical, which could suggest contempt. \nExpert 3: I agree with Expert 2; the context of the statement adds a layer of skepticism which may indicate doubt, despite the smile."
+  },
+  {
+    "sample_id": "samplenew_00070277",
+    "ground_truth": "contempt",
+    "predicted_label": "angry",
+    "reasoning": "Expert 1: Given the tone sounds loud and the words used seem confrontational, I would consider that the emotion being expressed could lean towards anger or contempt. \n\nExpert 2: I agree with the loud tone indicating strong emotion, but the decrease in eyebrows could suggest more of a surprise or disbelief as well, depending on the context. \n\nExpert 3: I think both anger and surprise could fit, but we should analyze if the wording suggests more frustration than shock. It sounds like a challenge or accusation, which might support the anger label more strongly."
+  },
+  {
+    "sample_id": "sample_00003086",
+    "ground_truth": "contempt",
+    "predicted_label": "fear",
+    "reasoning": "Expert 1: Based on the audio cue of a fearful voice, I believe this could indicate that the person is feeling fear.\n\nExpert 2: The visual cues of the lower lip depressor and upper lip lift suggest expressions typically associated with worry or fear as well. However, grinning could imply a mix of emotions.\n\nExpert 3: Considering the combination of a fearful voice and the visual cues showing a smile, I think it might indicate confusion or uncertainty rather than pure fear. Maybe there's an element of surprise involved too.\n\nExpert 1: While I see that point, I really think the fearful voice is the strongest indicator here.\n\nExpert 2: You might be right, but I still think the upward curve of the lips could represent a conflicted emotion. Since the audio conveys fear, that could be overshadowing their true feelings.\n\nExpert 3: That's a good observation. But I believe all cues together show that this person is expressing fear. The facial expression and tone work together to create that impression, even with the lip uplift signaling something positive in a fearful context."
+  },
+  {
+    "sample_id": "samplenew_00056990",
+    "ground_truth": "contempt",
+    "predicted_label": "doubt",
+    "reasoning": "Expert 1: Based on the visual cues, the big smile suggests that the person may be feeling happy or pleased about the situation of being invited to form a group, but the negative tone contradicts that. \n\nExpert 2: I'm noticing the downward mouth curvature and upper lip raiser which typically indicate sadness or disgust. This could suggest that the person feels conflicted about the exclusion of others in the group. \n\nExpert 3: While the smile could denote happiness, the rest of the body language demonstrates a lot of uncertainty or internal conflict, pointing towards doubt about the situation rather than outright happiness. We're definitely not seeing a clear emotion like happy or angry here."
+  },
+  {
+    "sample_id": "samplenew_00030995",
+    "ground_truth": "doubt",
+    "predicted_label": "neutral",
+    "reasoning": "Expert 1: Based on the audio cues of a neutral tone, I would initially categorize the emotion as neutral.\n\nExpert 2: The visual cue of being slightly puzzled might suggest some level of confusion or doubt in the person's thoughts, leading me to consider the possibility of a doubt label.\n\nExpert 3: I think the overall context of asking about the most thoughtful person might imply a neutral stance since they are seeking an opinion without strong emotions attached. \n"
+  },
+  {
+    "sample_id": "samplenew_00060428",
+    "ground_truth": "doubt",
+    "predicted_label": "doubt",
+    "reasoning": "Expert 1: I would start by analyzing the audio cues. Since the person does not speak with any of the emotions listed, this suggests they might be feeling neutral or contemplative rather than expressing a clear emotional state like happiness or anger.\n\nExpert 2: I would then look at the visual cues, particularly the action of lips parting. This could indicate a sense of curiosity or doubt, as if the person is opening up to new possibilities or thoughts.\n\nExpert 3: Given the statement \"But there must be other reasons,\" it indicates a questioning or uncertain thought process. This aligns more with feelings of doubt or perhaps thinking critically rather than outright emotions like sadness or fear."
+  },
+  {
+    "sample_id": "samplenew_00013921",
+    "ground_truth": "doubt",
+    "predicted_label": "sad",
+    "reasoning": "Expert 1: I notice that the person's voice is tremulous, which can indicate a strong emotion, potentially related to sadness or fear due to the uncertainty expressed in the question. \n\nExpert 2: The phrase \"What is a mere life?\" suggests a deep contemplation about existence, which might correlate with feelings of sadness or doubt. \n\nExpert 3: Given the verbal and visual cues, particularly the parting of the lips, there could also be an element of surprise or confusion in their expression. \n\nExpert 1: I think it leans more towards sadness because of the tone and implication of the question. \n\nExpert 2: I'm inclined to agree, as the tone can suggest vulnerability rather than surprise or confusion, indicating an emotional weight. \n\nExpert 3: Actually, after this discussion, I see where you're both coming from, but I still feel there's an element of contemplation that could imply doubt. \n\nExpert 1: While doubt is present, the overall emotional tone feels more aligned with sadness since it reflects a somber reflection on life. \n\nExpert 2: I think we should clarify and consider if there's any hint of fear in the way the question is framed, as uncertainty can evoke fear too. \n\nExpert 3: Yes, but the specific phrasing and emotional delivery strongly suggest sadness rather than fear."
+  },
+  {
+    "sample_id": "samplenew_00058656",
+    "ground_truth": "doubt",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Based on the audio cues indicating a negative tone, I would lean towards emotions that may manifest from curiosity mixed with negativity. Perhaps 'worried' or even 'doubt'. \n\nExpert 2: The description of the lips being slightly parted can indicate surprise or concern, but with the negative tone overriding that, I would still say the predominant emotion is likely 'worry'. \n\nExpert 3: I believe the emphasis on being curious suggests an inquisitive nature, but the negative tone might correlate with 'fear'. I'm not entirely convinced yet, but I think 'worried' could also fit. \n\n(Experts discuss their thoughts further) \n\nExpert 1: After some contemplation, I think 'worried' best encapsulates the mixed signals we're seeing in the description. \n\nExpert 2: I agree; it seems more fitting than 'doubt' or 'fear'. \n\nExpert 3: Yes, I too believe that 'worried' captures the essence of the emotions displayed more accurately than the other options."
+  },
+  {
+    "sample_id": "samplenew_00011172",
+    "ground_truth": "doubt",
+    "predicted_label": "neutral",
+    "reasoning": "Expert 1: Based on the audio cues, since there's no emotive speaking, this doesn't indicate a clear emotion like anger or happiness. \nExpert 2: True, the absence of expressive speech suggests a neutral tone. Perhaps we should consider visual cues next. \nExpert 3: Right, and the visual cue of opening the lips could indicate the intent to speak or share information rather than expressing an emotion. This might lean towards a neutral label as well. \nExpert 1: I agree. Let's analyze if there's any context that might suggest an emotion hidden within the information.\nExpert 2: For instance, is the mention of the recruitment fee presented positively or negatively? That could sway our understanding a bit. \nExpert 3: But it still primarily sounds factual. I suspect we're leaning towards neutral.  \nExpert 1: Given that there's no strong cues toward happy or sad, I believe neutral is the most fitting label here.  \nExpert 2: Yes, I will finalize my thought as neutral. There's nothing currently to suggest otherwise.  \nExpert 3: I concur, neutral aligns best with both audio and visual cues presented. \n"
+  },
+  {
+    "sample_id": "samplenew_00013398",
+    "ground_truth": "doubt",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: Based on the audio cues, the tone sounding natural suggests that the speaker might be in a positive or content state. This could indicate a happy or neutral emotion.  \n\nExpert 2: The phrase 'just like that spiritual treasure' implies something valuable or cherished, which leans towards happiness or appreciation. However, we need to look deeper into the context.  \n\nExpert 3: The visual cue of lips slightly parted can represent openness or surprise. It doesn't suggest anger or fear. Let's consider all these aspects together to pinpoint the emotion more clearly."
+  },
+  {
+    "sample_id": "samplenew_00060946",
+    "ground_truth": "doubt",
+    "predicted_label": "happy",
+    "reasoning": "Expert 1: Based on the audio cues, the speaker's excited tone suggests a positive emotion. This could indicate happiness or joy about asking the question.\n\nExpert 2: The visual cues show a slight decrease in eyebrows and teeth showing, which are often associated with smiles and positive emotions. This further supports the idea of happiness.\n\nExpert 3: I agree with both points. The excitement in tone and the visual cues align well with the emotion of happiness. At this point, I am confident that the label is happy. \n\nExpert 1: Confirming that we are all aligned on the emotion label being happy. I see no reason to doubt this conclusion."
+  },
+  {
+    "sample_id": "samplenew_00005747",
+    "ground_truth": "doubt",
+    "predicted_label": "doubt",
+    "reasoning": "Expert 1: Based on the phrase \"with the intention of His Highness the King of Chu,\" it suggests a level of reverence and a serious topic. My initial thought is that this might indicate worry or concern about the King's intentions.\n\nExpert 2: The use of the phrase \"intention of His Highness\" also suggests a level of formality and respect. Given that they are puzzled while saying this, it might reflect a feeling of doubt or confusion.\n\nExpert 3: I think the normal tone of voice indicates that the person is not in a heightened emotional state, which makes the options like anger or fear less likely. Since they are slightly puzzled, I too lean toward either worried or doubt.\n\nExpert 1: Let's examine the idea of doubt more closely. The puzzled expression can indicate uncertainty about the King's intentions, making doubt a strong contender for the emotion here.\n\nExpert 2: Agreed. Since worry often stems from a more intense emotion and the tone is normal, doubt does fit better with the visual cues of being puzzled.\n\nExpert 3: So, I think we can converge on the conclusion that the best label for the emotional expression in this context is doubt. Given the formal context and the puzzled expression, it reinforces this interpretation. \n\nExpert 1: I confirm that we all agree that doubt seems to be the fitting label here, as the ambiguity in the statement and their expression aligns with uncertainty. I feel confident in this conclusion. \n\nExpert 2: Yes, I'm clear on that as well. Doubt appears to be the most accurate representation here. \n\nExpert 3: I\u2019m also happy to conclude on doubt. None of us seem to have a different interpretation now."
+  },
+  {
+    "sample_id": "samplenew_00033212",
+    "ground_truth": "doubt",
+    "predicted_label": "worried",
+    "reasoning": "Expert 1: Based on the audio cues, the tremulous tone suggests an emotional state that might be linked to fear or worry. It's a common vocal expression when someone is uncertain or scared. \n\nExpert 2: I agree with Expert 1 that the tone might indicate fear or worry; however, the phrase 'Why does the emperor ask so?' implies they are questioning something unusual or unexpected, which could suggest surprise. \n\nExpert 3: The visual cue of lips slightly parted could indicate a range of emotions, but it often suggests hesitance or concern. Thus, I lean towards worry in this instance. \n\nExpert 1: Let's focus on the emotional context of the question itself. The person seems perplexed, which often aligns with emotions like fear or surprise. \n\nExpert 2: I still think there\u2019s a strong case for surprise here, especially given it\u2019s an unusual query from authority, but maybe combined with a hint of fear due to the tremulous tone. \n\nExpert 3: If we're balancing both elements, we could say it's a mix, but the primary emotion might be more aligned with fear because of the way it is delivered and the nature of the questioning. \n\nExpert 1: After considering all perspectives, I am inclined to label the emotion as worry, as it encompasses both the tremulous tone and the questioning nature, suggesting uncertainty. \n\nExpert 2: I am going to agree with Expert 1 on worry. The emotional tone reflects a concern about the situation. \n\nExpert 3: I also agree with the conclusion; my focus was on the visual cue that reinforces the notion of worry as an overarching emotion based on the cues presented. \n\nFinal Label: Worry"
+  },
+  {
+    "sample_id": "samplenew_00030219",
+    "ground_truth": "doubt",
+    "predicted_label": "doubt",
+    "reasoning": "Expert 1: Let's start with the visual cues. The lip corner puller can be associated with a smile, but in a negative context, it might suggest a sarcastic or insincere smile, indicating that the individual is not truly happy. \n\nExpert 2: True, but we also need to consider the audio cues. His tone sounds negative, which can suggest frustration or disappointment regarding the topic he is discussing, especially about medicine. \n\nExpert 3: Focusing on the phrase \"Is this medicine a panacea?\" he seems to be questioning the effectiveness of the medicine, showing some skepticism. This could lead us toward identifying an emotion of doubt or worry as well in this context."
+  }
+]
