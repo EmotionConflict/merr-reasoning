@@ -19,10 +19,6 @@ or
 
 `python main.py --model o1`
 
-## to run cot_and_tot.py
-
-`python cot_and_tot.py.py --mode tree_of_thought`\
-
 ## to run baseline_main.py
 
 `python baseline_main.py --model gpt-40-mini --output baseline_T_gpt40. txt --comb T`
@@ -30,3 +26,5 @@ or
 `python baseline_main.py --model gpt-40-mini --output baseline_AV_gpt40. txt --comb AV`
 `python baseline_main.py --model gpt-40-mini --output baseline_TV_gpt40. txt --comb TV`
 `python baseline_main.py --model gpt-40-mini --output baseline_ATV_gpt40. txt --comb ATV`
+
+## to run baseline_cot_and_tot.py
