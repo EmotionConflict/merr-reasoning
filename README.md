@@ -13,7 +13,7 @@ OPENAI_API_KEY=<your_key>
 
 ## to run main.py
 
-`python main.py --model gpt-3.5-turbo`
+`python main.py --model gpt-4o-mini`
 
 or
 
@@ -25,4 +25,4 @@ or
 
 ## to run baseline_main.py
 
-`python baseline_main.py --model gpt-3.5-turbo --output output_file_name`
+`python baseline_main.py --model gpt-4o-mini --output output_file_name`

@@ -14,14 +14,32 @@ client = OpenAI(api_key=api_key)
 
 SYSTEM_PROMPT = constants.SYSTEM_PROMPT
 
-def call_llm(sample, model):
+def call_llm(sample, model, comb):
     """
-    Constructs a user message from the sample details and calls the specified LLM API.
+    Constructs a user message from the sample details based on the combination flag and calls the specified LLM API.
+    The message is structured as:
+      - transcript: <text>
+      - audio_cues: <audio_prior_list>
+      - visual_cues: <visual_prior_list>
+    depending on the --comb flag.
     Returns the predicted emotion label in lower-case.
     """
-    smp_reason_caption = sample.get("smp_reason_caption", "")
-    user_message = f"{smp_reason_caption}"
+    message_parts = []
+    # Add transcript if 'T' is in comb
+    if "T" in comb:
+        message_parts.append(f"The person in the video says: {sample.get('text', '')}")
+    # Add audio_cues if 'A' is in comb
+    if "A" in comb:
+        message_parts.append(f"Audio cues: {sample.get('audio_prior_list', '')}")
+    # Add visual_cues if 'V' is in comb
+    if "V" in comb:
+        visual_cues = sample.get("visual_prior_list", "")
+        if isinstance(visual_cues, list):
+            visual_cues = ", ".join(visual_cues)
+        message_parts.append(f"Visual cues: {visual_cues}")
     
+    user_message = "\n".join(message_parts)
+
     try:
         response = client.chat.completions.create(
             model=model,
@@ -42,9 +60,12 @@ def main():
     parser = argparse.ArgumentParser(description="Run LLM model predictions")
     parser.add_argument("--model", type=str, default="gpt-4o-mini", help="LLM model to use")
     parser.add_argument("--output", type=str, default=None, help="Output file name for the results")
+    parser.add_argument("--comb", type=str, choices=["T", "TV", "TA", "AV", "TAV"], default="T",
+                        help="Specify the combination of modalities to use: T (text), TV (text and visual), TA (text and audio), AV (audio and visual), or TAV (all three)")
     args = parser.parse_args()
     
     selected_model = args.model
+    comb_flag = args.comb
     # Determine output file name based on provided argument or default to model name.
     output_file_name = args.output if args.output is not None else f"{selected_model}_results.txt"
     
@@ -58,8 +79,8 @@ def main():
     result_details = []
     
     # Process each sample in the JSON.
-    for sample_id, sample in data.items():
-        predicted = call_llm(sample, selected_model)
+    for i, (sample_id, sample) in enumerate(data.items()):
+        predicted = call_llm(sample, selected_model, comb_flag)
         predictions.append(predicted)
         ground_truth = sample.get("pseu_emotion", "").strip().lower()
         ground_truths.append(ground_truth)
