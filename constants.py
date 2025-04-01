@@ -35,7 +35,7 @@ SYSTEM_PROMPT_TREE_OF_THOUGHT = (
     """
 )
 
-SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL = (
+SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT = (
     """
     Imagine three different unimodal experts are analyzing the video, each focusing on a different modality:
 
@@ -53,7 +53,7 @@ SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL = (
     """
 )
 
-SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL = (
+SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_3_EXPERT = (
     """
     Imagine three different experts are analyzing the video, each focusing on a different combination of modalities:
 
@@ -66,6 +66,48 @@ SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL = (
     The question is...
     
     Please determine which emotion label in the video represents: happy, sad, neutral, angry, worried, surprise, fear, contempt, doubt.
+    """
+)
+
+SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_4_EXPERT = (
+    """
+    Imagine four different unimodal experts are analyzing the video, each focusing on a distinct single source of information:
+
+    1. Expert A has access only to the transcript of the speech/dialogue.
+    2. Expert B has access only to the audio track (tone, pitch, prosody, etc.).
+    3. Expert C has access only to the visual cues (facial expressions, gestures, body language).
+    4. Expert D has access only to a simple reasoning caption, representing a preliminary textual assessment of the emotion.
+
+    All experts will write down 1 step of their thinking in turn, then share it with the group. 
+    Next, they all proceed to the next step, and so on. 
+    If any expert realizes they are incorrect at any point, they leave the discussion.
+
+    After a sufficient exchange of ideas and deliberation, the experts must come to one final consensus.
+
+    The question is:
+
+    Please determine which emotion label in the video represents: happy, sad, neutral, angry, worried, surprise, fear, contempt, or doubt.
+    """
+)
+
+SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_4_EXPERT = (
+    """
+    Imagine four different experts are analyzing the video, each focusing on a different combination of information:
+
+    1. Expert A has access to the text (transcript) and the visual content (facial expressions, gestures, etc.).
+    2. Expert B has access to the text (transcript) and the audio track (tone, pitch, prosody, etc.).
+    3. Expert C has access to the audio track and the visual content.
+    4. Expert D has access only to a simple reasoning caption, representing a preliminary textual assessment of the emotion.
+
+    All experts will write down 1 step of their thinking in turn, then share it with the group. 
+    Next, they move on to the next step, and so on. 
+    If any expert realizes they are incorrect at any point, they leave the discussion.
+
+    After a sufficient exchange of ideas and deliberation, the experts must come to a final, single conclusion.
+
+    The question is:
+
+    Please determine which emotion label in the video represents: happy, sad, neutral, angry, worried, surprise, fear, contempt, or doubt.
     """
 )
 
