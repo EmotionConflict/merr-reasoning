@@ -25,4 +25,8 @@ or
 
 ## to run baseline_main.py
 
-`python baseline_main.py --model gpt-4o-mini --output output_file_name`
+`python baseline_main.py --model gpt-40-mini --output baseline_T_gpt40. txt --comb T`
+`python baseline_main.py --model gpt-40-mini --output baseline_TA_gpt40. txt --comb TA`
+`python baseline_main.py --model gpt-40-mini --output baseline_AV_gpt40. txt --comb AV`
+`python baseline_main.py --model gpt-40-mini --output baseline_TV_gpt40. txt --comb TV`
+`python baseline_main.py --model gpt-40-mini --output baseline_ATV_gpt40. txt --comb ATV`
