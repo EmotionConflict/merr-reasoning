@@ -1,0 +1,2014 @@
+{
+    "samplenew_00002396": {
+        "AU_list": [
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "Dimpler"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "20",
+        "peak_AU_list": [
+            "AU14",
+            "AU15",
+            "AU20"
+        ],
+        "pseu_emotion": "happy",
+        "text": "So, tell mom, what are your plans?",
+        "smp_reason_caption": "In the video, a woman is smiling while conversing with a man, indicating a friendly and possibly positive interaction. Her dimpled smile suggests a genuine and warm emotional state."
+    },
+    "samplenew_00006181": {
+        "AU_list": [
+            "AU06",
+            "AU12"
+        ],
+        "visual_prior_list": [
+            "Eyes narrowing",
+            "Show teeth"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "32",
+        "peak_AU_list": [
+            "AU04",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU12",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "happy",
+        "text": "Old slave, I have been serving Your Majesty for most of my life.",
+        "smp_reason_caption": "In the video, the person's tone and intonation are neutral, and their words convey a sense of loyalty and dedication, suggesting a sense of pride and satisfaction. The context of a scripted performance and the person's words, \"Old slave, I have been serving Your Majesty for most of my life,\" imply a sense of accomplishment and fulfillment, likely resulting in a happy emotional state."
+    },
+    "samplenew_00007914": {
+        "AU_list": [
+            "AU06",
+            "AU12",
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "Eyes narrowing",
+            "Show teeth",
+            "Dimpler"
+        ],
+        "audio_prior_list": "speaks in a excited tone.",
+        "peak_index": "15",
+        "peak_AU_list": [
+            "AU06",
+            "AU09",
+            "AU10",
+            "AU12",
+            "AU14"
+        ],
+        "pseu_emotion": "happy",
+        "text": "Yes, it was a collision.",
+        "smp_reason_caption": "In the video, a woman displays a joyful expression through eyes narrowing, showing teeth, and dimpling, and speaks with an enthusiastic tone, saying, \"Yes, it was a collision.\" Her physical expressions and tone suggest a strong positive emotion, likely happiness, likely due to the cultural celebration or special occasion she is participating in."
+    },
+    "samplenew_00056769": {
+        "AU_list": [
+            "AU12",
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "Toothy smile",
+            "Dimpler"
+        ],
+        "audio_prior_list": "and his tone sounds cheerful.",
+        "peak_index": "24",
+        "peak_AU_list": [
+            "AU10",
+            "AU12",
+            "AU14",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "happy",
+        "text": "Not all fun, right? What. Easy?",
+        "smp_reason_caption": "In the video, a man stands in front of a large building, wearing a hat, with a toothy smile and dimpled expression, indicating a strong sense of joy. His cheerful tone, words of accomplishment, and physical expressions imply that he is feeling happy and relieved, likely due to overcoming an obstacle or achieving a goal."
+    },
+    "samplenew_00006018": {
+        "AU_list": [
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "Dimpler"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "1",
+        "peak_AU_list": [
+            "AU04",
+            "AU09",
+            "AU14",
+            "AU15",
+            "AU17",
+            "AU20"
+        ],
+        "pseu_emotion": "happy",
+        "text": "It's just a name, I can change it to Tietian.",
+        "smp_reason_caption": "In the video, the man's facial expression is characterized by dimples, indicating a positive emotional state. His tone and intonation are normal, suggesting a calm and relaxed demeanor. His matter-of-fact tone when discussing a situation implies a sense of control and flexibility, suggesting he is feeling happy and carefree."
+    },
+    "samplenew_00044512": {
+        "AU_list": [
+            "AU06",
+            "AU12"
+        ],
+        "visual_prior_list": [
+            "Slightly lower eyebrows",
+            "Grinning"
+        ],
+        "audio_prior_list": "in a normal tone",
+        "peak_index": "1",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU12",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "happy",
+        "text": "That's what I'm talking about.",
+        "smp_reason_caption": "In the video, a man is seen enjoying a social gathering with someone else, characterized by a relaxed and joyful demeanor, with slightly lower eyebrows and a grinning smile. His normal tone and intonation suggest a sense of satisfaction and contentment, indicating that he is feeling happy."
+    },
+    "samplenew_00055530": {
+        "AU_list": [
+            "AU06",
+            "AU12"
+        ],
+        "visual_prior_list": [
+            "Eyes narrowing",
+            "Lip Corner Puller"
+        ],
+        "audio_prior_list": "and his tone sounds positive.",
+        "peak_index": "57",
+        "peak_AU_list": [
+            "AU04",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU12"
+        ],
+        "pseu_emotion": "happy",
+        "text": "It's good to know injustice.",
+        "smp_reason_caption": "In the video, an older man exhibits subtle signs of happiness through his facial expressions, including eyes narrowing and lip corner puller. His tone and intonation convey a positive sentiment, as he says, \"It's good to know injustice.\" This suggests he feels happy due to the sense of justice or fairness he has gained."
+    },
+    "samplenew_00057443": {
+        "AU_list": [
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "Dimpler"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "31",
+        "peak_AU_list": [
+            "AU01",
+            "AU05",
+            "AU14",
+            "AU15",
+            "AU17",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "happy",
+        "text": "Today is the wedding celebration of the queen.",
+        "smp_reason_caption": "In the video, a woman sits on a couch, wearing a traditional headdress, with a dimpled expression, indicating a subtle yet noticeable sign of happiness. The context of the situation, a celebratory atmosphere, and her mention of a \"wedding celebration of the queen\" suggest a sense of joy and festivity, likely eliciting a happy emotional response."
+    },
+    "samplenew_00047612": {
+        "AU_list": [
+            "AU12"
+        ],
+        "visual_prior_list": [
+            "Big smile"
+        ],
+        "audio_prior_list": "and his tone sounds natural.",
+        "peak_index": "51",
+        "peak_AU_list": [
+            "AU12"
+        ],
+        "pseu_emotion": "happy",
+        "text": "You and Luo Linfeng have a close relationship.",
+        "smp_reason_caption": "In the video, a woman's expression is characterized by a big smile, and her tone and intonation sound natural and relaxed. Her genuine smile and natural tone suggest a sense of warmth and positivity, indicating that she is happy."
+    },
+    "samplenew_00042526": {
+        "AU_list": [
+            "AU06",
+            "AU12"
+        ],
+        "visual_prior_list": [
+            "smile, Pleasure",
+            "Show teeth"
+        ],
+        "audio_prior_list": "speaks in a excited tone.",
+        "peak_index": "33",
+        "peak_AU_list": [
+            "AU04",
+            "AU06",
+            "AU10",
+            "AU12",
+            "AU23",
+            "AU25"
+        ],
+        "pseu_emotion": "happy",
+        "text": "You exaggerate, monkey.",
+        "smp_reason_caption": "In the video, the individual is seated on a couch, displaying a smile and showing teeth, indicating a sense of pleasure and enjoyment. Their tone and intonation are also spoken in an excited manner, suggesting a high level of enthusiasm."
+    },
+    "samplenew_00015436": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Lower the brow"
+        ],
+        "audio_prior_list": "speaks in a fearful tone.",
+        "peak_index": "46",
+        "peak_AU_list": [
+            "AU02",
+            "AU04",
+            "AU07",
+            "AU10"
+        ],
+        "pseu_emotion": "sad",
+        "text": "Say: If I don't, return and surrender to Cao Cao.",
+        "smp_reason_caption": "In the video, a man stands near a desk, his expression marked by a lowered brow, and speaks in a fearful tone. His words, \"If I don't, return and surrender to Cao Cao,\" suggest a sense of resignation and surrender, collectively indicating a profound sadness, likely stemming from hopelessness, despair, and desperation."
+    },
+    "samplenew_00070726": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Lower the brow"
+        ],
+        "audio_prior_list": "speaks in a fearful tone.",
+        "peak_index": "8",
+        "peak_AU_list": [
+            "AU04",
+            "AU10",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "sad",
+        "text": "The depth of love is the cutting.",
+        "smp_reason_caption": "In the video, the man's lowered brow and fearful tone suggest a deeper emotional state. His words, \"The depth of love is the cutting,\" imply a sense of pain or hurt, indicating a profound sadness, likely stemming from a deep emotional wound or loss related to love."
+    },
+    "samplenew_00022413": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Brow Lowerer"
+        ],
+        "audio_prior_list": "speaks in a neutral tone.",
+        "peak_index": "18",
+        "peak_AU_list": [
+            "AU04",
+            "AU07"
+        ],
+        "pseu_emotion": "sad",
+        "text": "Enough, not only following me, but also following my mother.",
+        "smp_reason_caption": "In the video, a young Asian man's intense focus on his phone, accompanied by a lowered brow, suggests a sense of distress or concern. His words, \"Enough, not only following me, but also following my mother,\" imply a feeling of helplessness and frustration, indicating a sense of vulnerability and possibly even fear."
+    },
+    "samplenew_00011989": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Lower eyebrows"
+        ],
+        "audio_prior_list": "it sounds like this person is fearful in the audio.",
+        "peak_index": "131",
+        "peak_AU_list": [
+            "AU04",
+            "AU05",
+            "AU20"
+        ],
+        "pseu_emotion": "sad",
+        "text": "Okay.",
+        "smp_reason_caption": "In the video, the person's lowered eyebrows and fearful tone suggest a sense of distress or anxiety. The simple response, \"Okay,\" may be a coping mechanism or a sign of resignation, implying that they are struggling to come to terms with their situation."
+    },
+    "samplenew_00015003": {
+        "AU_list": [
+            "AU04",
+            "AU01"
+        ],
+        "visual_prior_list": [
+            "Brow Lowerer",
+            "Eyebrow raised"
+        ],
+        "audio_prior_list": "speaks in a fearful and fearful tone.",
+        "peak_index": "18",
+        "peak_AU_list": [
+            "AU01",
+            "AU04",
+            "AU05",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "sad",
+        "text": "Alright, then you can report me off.",
+        "smp_reason_caption": "In the video, a woman's facial expressions and tone convey distress, with lowered brows, raised eyebrows, and a fearful tone. Her words, \"Alright, then you can report me off,\" suggest resignation and possibly despair."
+    },
+    "samplenew_00053892": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Frowns furrowed"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "63",
+        "peak_AU_list": [
+            "AU04",
+            "AU06",
+            "AU10"
+        ],
+        "pseu_emotion": "sad",
+        "text": "For this reason.",
+        "smp_reason_caption": "In the video, a man displays a furrowed brow, indicating a sense of distress or concern. His normal tone and lack of emotional inflection suggest a sense of resignation or acceptance, implying a sense of sadness or disappointment."
+    },
+    "samplenew_00047348": {
+        "AU_list": [
+            "AU01",
+            "AU15"
+        ],
+        "visual_prior_list": [
+            "Eyebrow raised",
+            "Insecure"
+        ],
+        "audio_prior_list": "speaks with a fearful emotion.",
+        "peak_index": "6",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU05",
+            "AU07",
+            "AU12",
+            "AU14",
+            "AU17",
+            "AU23"
+        ],
+        "pseu_emotion": "sad",
+        "text": "Unique.",
+        "smp_reason_caption": "In the video, the person's eyebrow raised and insecure expression, fearful tone, and intonation when saying \"Unique\" suggest discomfort or unease, likely indicating anxiety or apprehension. This may be due to the context of eating in a restaurant, surrounded by others, leading to feelings of sadness or melancholy."
+    },
+    "samplenew_00070477": {
+        "AU_list": [
+            "AU01",
+            "AU15"
+        ],
+        "visual_prior_list": [
+            "Eyebrow raised",
+            "Insecure"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "103",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU10",
+            "AU14",
+            "AU20",
+            "AU23",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "sad",
+        "text": "The melon eaten by His Royal Highness Qi was tainted with the smell of gunpowder.",
+        "smp_reason_caption": "In the video, a man in a yellow robe stands in front of a candle, looking directly at the camera with raised eyebrows, indicating a sense of insecurity or unease. His words reveal a disturbing situation, likely triggering feelings of sadness, possibly due to loss of dignity, breach of protocol, or threat to his life or well-being."
+    },
+    "samplenew_00009595": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Lower the brow"
+        ],
+        "audio_prior_list": "speaks with a fearful emotion.",
+        "peak_index": "71",
+        "peak_AU_list": [
+            "AU02",
+            "AU04",
+            "AU07",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "sad",
+        "text": "Family, that's Fan Lv.",
+        "smp_reason_caption": "In the video, a person sits with a man in a casual setting, displaying a lowered brow and speaking with a fearful tone. The mention of \"Family\" and \"Fan Lv\" suggests a personal or emotional connection, which is further emphasized by the fearful tone."
+    },
+    "samplenew_00018257": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Frowns furrowed"
+        ],
+        "audio_prior_list": "speaks with a fearful tone.",
+        "peak_index": "65",
+        "peak_AU_list": [
+            "AU04",
+            "AU17"
+        ],
+        "pseu_emotion": "sad",
+        "text": "Rongrong: Meat: It's already in stock.",
+        "smp_reason_caption": "In the video, a woman's initial smile and traditional Korean clothing suggest a positive atmosphere, but her furrowed brows and fearful tone indicate a negative emotional state. The contrast between her initial smile and subsequent facial expressions suggests a shift in her emotional state, likely triggered by a painful or distressing realization, leading to a conclusion that she is feeling sad."
+    },
+    "samplenew_00011442": {
+        "AU_list": [
+            "AU23"
+        ],
+        "visual_prior_list": [
+            "Lip Tightener"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "57",
+        "peak_AU_list": [
+            "AU02",
+            "AU09",
+            "AU17",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "neutral",
+        "text": "Anyway, I know, SMS, you don't know.",
+        "smp_reason_caption": "In the video, a woman sits at a desk, speaking in a normal tone and using straightforward language, \"Anyway, I know, SMS, you don't know.\" Her facial expression is characterized by a lip tightener, indicating a subtle, controlled expression. This combination implies that the person's emotional state is neutral, focused on the task at hand."
+    },
+    "samplenew_00007742": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Brow Lowerer"
+        ],
+        "audio_prior_list": "speaks in a neutral tone.",
+        "peak_index": "60",
+        "peak_AU_list": [
+            "AU02",
+            "AU04",
+            "AU07",
+            "AU10",
+            "AU15",
+            "AU17",
+            "AU20",
+            "AU23"
+        ],
+        "pseu_emotion": "neutral",
+        "text": "Me: Regarding the situations you have reported.",
+        "smp_reason_caption": "In the video, a police officer sits at their desk, speaking on their cell phone in a neutral tone, and holding a book. Their facial expression is a Brow Lowerer, indicating a focused or concentrated state. The officer's speech is delivered in a neutral tone, without any apparent emotional inflection."
+    },
+    "samplenew_00001774": {
+        "AU_list": [
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "Dimpler"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "67",
+        "peak_AU_list": [
+            "AU10",
+            "AU14"
+        ],
+        "pseu_emotion": "neutral",
+        "text": "Li Ci: Yes, and Cherry. They are women, no problem.",
+        "smp_reason_caption": "In the video, a man's facial expression is a dimpler, indicating a relaxed and content state. His tone and intonation do not convey any emotional cues, suggesting a neutral emotional state. The conversation is casual and matter-of-fact, further supporting a neutral emotional state."
+    },
+    "samplenew_00020393": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Brow Lowerer"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "37",
+        "peak_AU_list": [
+            "AU04",
+            "AU05",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU12",
+            "AU14"
+        ],
+        "pseu_emotion": "neutral",
+        "text": "Where is that bus stop? Is it called?",
+        "smp_reason_caption": "In the video, a person stands on a sidewalk, looking down with a focused expression (Brow Lowerer). Their tone and intonation are neutral, and the conversation is about a practical topic (bus stop). This suggests a neutral emotional state, likely due to the absence of strong emotional stimuli or personal investment."
+    },
+    "samplenew_00001941": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Brow Lowerer"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "25",
+        "peak_AU_list": [
+            "AU04",
+            "AU10",
+            "AU14",
+            "AU15"
+        ],
+        "pseu_emotion": "neutral",
+        "text": "The word of Kung Fu is to whip away officials.",
+        "smp_reason_caption": "In the video, a man stands in front of an ornate backdrop, posing for a photograph. His facial expression is a Brow Lowerer, indicating focused attention or concentration. His tone and intonation are neutral, without any emotional inflections. The content of his speech appears to be a matter-of-fact statement."
+    },
+    "samplenew_00021159": {
+        "AU_list": [
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "Dimpler"
+        ],
+        "audio_prior_list": "and his tone sounds normal.",
+        "peak_index": "58",
+        "peak_AU_list": [
+            "AU01",
+            "AU04",
+            "AU07",
+            "AU10",
+            "AU14",
+            "AU23"
+        ],
+        "pseu_emotion": "neutral",
+        "text": "However, no matter how you fly, it's good. I, as long as he is willing to put his heart into me.",
+        "smp_reason_caption": "In the video, a man dressed in a costume looks directly at the camera with a dimpled facial expression, typically associated with happiness or amusement. However, his tone and intonation are normal, suggesting a lack of strong emotional inflection. His speech is matter-of-fact and neutral, stating straightforward comments."
+    },
+    "samplenew_00032239": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Brow Lowerer"
+        ],
+        "audio_prior_list": "and his tone sounds normal.",
+        "peak_index": "66",
+        "peak_AU_list": [
+            "AU04",
+            "AU09",
+            "AU14",
+            "AU25"
+        ],
+        "pseu_emotion": "neutral",
+        "text": "I ask, he has ten sentences, standing up.",
+        "smp_reason_caption": "In the video, a man sits at a table with a bowl of noodles, displaying a neutral facial expression (Brow Lowerer) and normal tone, indicating a lack of emotional inflection. His speech is straightforward and lacks emotional connotation, suggesting a neutral emotional state."
+    },
+    "samplenew_00012993": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Brow Lowerer"
+        ],
+        "audio_prior_list": "and his tone sounds normal.",
+        "peak_index": "33",
+        "peak_AU_list": [
+            "AU04",
+            "AU05",
+            "AU07",
+            "AU14",
+            "AU17",
+            "AU20"
+        ],
+        "pseu_emotion": "neutral",
+        "text": "I am the only one who knows about this game.",
+        "smp_reason_caption": "In the video, a person exhibits a neutral facial expression (Brow Lowerer) and speaks in a normal tone, stating a fact about a personal experience. The lack of emotional expressions and straightforward speech suggest a neutral emotional state, indicating a lack of emotional attachment or investment."
+    },
+    "samplenew_00007710": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Brow Lowerer"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "61",
+        "peak_AU_list": [],
+        "pseu_emotion": "neutral",
+        "text": "King Ning and King Huai are not worth mentioning.",
+        "smp_reason_caption": "In the video, a woman sits on a couch with a relaxed atmosphere, displaying a focused facial expression (Brow Lowerer) and speaking in a normal tone. Her statement lacks emotional connotation, suggesting a neutral emotional label, as she appears to be simply stating a fact without emotional attachment or emphasis."
+    },
+    "samplenew_00035397": {
+        "AU_list": [
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "Dimpler"
+        ],
+        "audio_prior_list": "and her tone sounds normal.",
+        "peak_index": "40",
+        "peak_AU_list": [
+            "AU07",
+            "AU14"
+        ],
+        "pseu_emotion": "neutral",
+        "text": "Zhen Huan, there is no longer any threat.",
+        "smp_reason_caption": "In the video, a woman displays a dimpler expression, typically indicating satisfaction or contentment. Her tone and intonation sound normal, and she says, \"Zhen Huan, there is no longer any threat.\" Given her calm and composed demeanor, lack of emotional intensity, and straightforward statement, her emotional state is neutral, likely reflecting relief or resolution."
+    },
+    "samplenew_00057449": {
+        "AU_list": [
+            "AU04",
+            "AU07",
+            "AU10"
+        ],
+        "visual_prior_list": [
+            "Lower eyebrows",
+            "Lid Tightener",
+            "Lips apart showing teeth"
+        ],
+        "audio_prior_list": "speaks in a angry tone.",
+        "peak_index": "31",
+        "peak_AU_list": [
+            "AU04",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU12",
+            "AU14",
+            "AU20",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "angry",
+        "text": "Fang Yalin: That kid.",
+        "smp_reason_caption": "In the video, a woman displays facial expressions\u2014lowered eyebrows, lid tightener, and lips apart showing teeth\u2014that are characteristic of anger. Her tone and intonation are also angry, indicating a strong emotional response."
+    },
+    "samplenew_00000079": {
+        "AU_list": [
+            "AU10"
+        ],
+        "visual_prior_list": [
+            "Curl the lips upwards"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "14",
+        "peak_AU_list": [
+            "AU06",
+            "AU10",
+            "AU12",
+            "AU14",
+            "AU25"
+        ],
+        "pseu_emotion": "angry",
+        "text": "You know, I'm there.",
+        "smp_reason_caption": "In the video, a woman displays a facial expression of curled lips upwards, which is unusual and incongruous. Her tone and intonation do not convey any obvious emotions, suggesting she may be attempting to mask her true feelings."
+    },
+    "samplenew_00033007": {
+        "AU_list": [
+            "AU04",
+            "AU07",
+            "AU10"
+        ],
+        "visual_prior_list": [
+            "Lower the brow",
+            "Tightening of eyelids",
+            "Curl the lips upwards"
+        ],
+        "audio_prior_list": "and his tone sounds negative.",
+        "peak_index": "48",
+        "peak_AU_list": [
+            "AU04",
+            "AU06",
+            "AU07",
+            "AU09",
+            "AU10",
+            "AU14",
+            "AU15"
+        ],
+        "pseu_emotion": "angry",
+        "text": "You have an umbrella in your hand, why don't you fight for yourself?",
+        "smp_reason_caption": "In the video, a man exhibits anger through his facial expressions (lowered brow, tightened eyelids, and curled lips upwards) and negative tone. His words, \"You have an umbrella in your hand, why don't you fight for yourself?\", suggest frustration and disappointment, indicating an emotional label of anger."
+    },
+    "samplenew_00036310": {
+        "AU_list": [
+            "AU10",
+            "AU17"
+        ],
+        "visual_prior_list": [
+            "Lips apart showing teeth",
+            "Lips forming an upward curve"
+        ],
+        "audio_prior_list": "and her tone sounds negative.",
+        "peak_index": "20",
+        "peak_AU_list": [
+            "AU10",
+            "AU17"
+        ],
+        "pseu_emotion": "angry",
+        "text": "Anyway, don't deceive, endure. No.",
+        "smp_reason_caption": "In the video, a woman displays facial expressions\u2014lips apart showing teeth and forming an upward curve\u2014that are often associated with anger or annoyance. Her negative tone, words (\"Anyway, don't deceive, endure. No\"), and sense of frustration and disapproval suggest she is experiencing anger, likely directed towards someone or something."
+    },
+    "samplenew_00057012": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Frowns furrowed"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "8",
+        "peak_AU_list": [
+            "AU04",
+            "AU26"
+        ],
+        "pseu_emotion": "angry",
+        "text": "Boarding, preparing to kill.",
+        "smp_reason_caption": "In the video, two men display furrowed frowns, indicating tension or displeasure. The speaker's words \"Boarding, preparing to kill\" convey a sense of urgency and potentially violent action, suggesting a situation that may be the source of their anger or frustration."
+    },
+    "samplenew_00056538": {
+        "AU_list": [
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Brow Lowerer"
+        ],
+        "audio_prior_list": "speaks with a fearful tone.",
+        "peak_index": "7",
+        "peak_AU_list": [
+            "AU04",
+            "AU26"
+        ],
+        "pseu_emotion": "angry",
+        "text": "You know, how they treated us siblings.",
+        "smp_reason_caption": "In the video, a man displays a lowered brow, a common indicator of negative emotions such as anger or frustration. His words, \"You know, how they treated us siblings,\" imply a sense of injustice or mistreatment, which is likely the source of his emotional distress."
+    },
+    "samplenew_00057731": {
+        "AU_list": [
+            "AU04",
+            "AU05",
+            "AU10"
+        ],
+        "visual_prior_list": [
+            "Frowns furrowed",
+            "Lift upper eyelids",
+            "Curl the lips upwards"
+        ],
+        "audio_prior_list": "speaks with a angry tone.",
+        "peak_index": "57",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU05",
+            "AU10",
+            "AU12"
+        ],
+        "pseu_emotion": "angry",
+        "text": "Capable of being a man, capable of bending and stretching.",
+        "smp_reason_caption": "In the video, a young woman exhibits a complex emotional state, with a furrowed frown, lifted upper eyelids, and curled lips upwards. Her angry tone and intonation dominate the expression, suggesting a sense of frustration or disappointment, possibly directed at someone or something."
+    },
+    "samplenew_00039443": {
+        "AU_list": [
+            "AU04",
+            "AU10"
+        ],
+        "visual_prior_list": [
+            "Frowns furrowed",
+            "Curl the lips upwards"
+        ],
+        "audio_prior_list": "and his tone sounds flaming.",
+        "peak_index": "40",
+        "peak_AU_list": [
+            "AU04",
+            "AU06",
+            "AU10",
+            "AU12",
+            "AU14",
+            "AU25"
+        ],
+        "pseu_emotion": "angry",
+        "text": "The famous thing in the county is' no one asked, send me tea '.",
+        "smp_reason_caption": "In the video, a man sits at a desk, displaying a furrowed brow and curled lips, indicating a strong emotional response. His tone and intonation are \"flaming\", and his words convey frustration and annoyance, suggesting a strong emotional response, which appears to be anger, likely driven by feelings of injustice or being taken for granted."
+    },
+    "samplenew_00039031": {
+        "AU_list": [
+            "AU04",
+            "AU07",
+            "AU10",
+            "AU17"
+        ],
+        "visual_prior_list": [
+            "Brow Lowerer",
+            "Facial tightness",
+            "Upper Lip Raiser",
+            "Lips forming an upward curve"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "44",
+        "peak_AU_list": [
+            "AU04",
+            "AU07",
+            "AU10",
+            "AU14",
+            "AU15",
+            "AU17"
+        ],
+        "pseu_emotion": "angry",
+        "text": "Why is everything asking me?",
+        "smp_reason_caption": "In the video, the person exhibits a complex emotional state, with a lowered brow, facial tightness, and an upwardly curved lip, suggesting a mix of emotions. The tone is intense, and the words \"Why is everything asking me?\" imply frustration and feeling overwhelmed. The overall emotional state appears to be anger, driven by feelings of being burdened or harassed."
+    },
+    "sample_00006794": {
+        "AU_list": [
+            "AU04",
+            "AU10"
+        ],
+        "visual_prior_list": [
+            "Lower eyebrows",
+            "Upper Lip Raiser"
+        ],
+        "audio_prior_list": "speaks with a neutral tone.",
+        "peak_index": "26",
+        "peak_AU_list": [
+            "AU04",
+            "AU10",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "angry",
+        "text": "First, I'll give you the money. Sit down and chat with me.",
+        "smp_reason_caption": "In the video, a person sits on a chair, displaying facial expressions\u2014lowered eyebrows and raised upper lip\u2014that suggest a mix of emotions, potentially including anger or frustration."
+    },
+    "samplenew_00004669": {
+        "AU_list": [
+            "AU28"
+        ],
+        "visual_prior_list": [
+            "Purse lips"
+        ],
+        "audio_prior_list": "speaks in a fearful tone.",
+        "peak_index": "53",
+        "peak_AU_list": [
+            "AU04",
+            "AU28"
+        ],
+        "pseu_emotion": "worried",
+        "text": "What are you doing in a wheelchair?",
+        "smp_reason_caption": "In the video, a man's pursed lips and fearful tone, as he asks, \"What are you doing in a wheelchair?\", suggest he is worried. His tone and intonation convey a sense of alarm and concern, indicating unease about the situation or person's presence."
+    },
+    "samplenew_00066683": {
+        "AU_list": [
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "Cheek dimple"
+        ],
+        "audio_prior_list": "and his tone sounds positive.",
+        "peak_index": "16",
+        "peak_AU_list": [
+            "AU14",
+            "AU20",
+            "AU26"
+        ],
+        "pseu_emotion": "worried",
+        "text": "Oh, this family is not as good as mine.",
+        "smp_reason_caption": "In the video, a boy in an orange shirt stands in a small room, beaming with a cheek dimple and speaking with a positive tone. He says, \"Oh, this family is not as good as mine.\" The description actually suggests that the boy is feeling worried about the family."
+    },
+    "samplenew_00068896": {
+        "AU_list": [
+            "AU20"
+        ],
+        "visual_prior_list": [
+            "Anxiously stretched lips"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "47",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU10",
+            "AU20"
+        ],
+        "pseu_emotion": "worried",
+        "text": "Why did you ruin Dali Temple again.",
+        "smp_reason_caption": "In the video, a Chinese actor's facial expression reveals anxious stretched lips, indicating a sense of distress. His tone is normal, but the content of his speech is critical, suggesting that he is worried about the consequences of the actions that led to the temple's ruin."
+    },
+    "samplenew_00003189": {
+        "AU_list": [
+            "AU20"
+        ],
+        "visual_prior_list": [
+            "Nostrils enlarge"
+        ],
+        "audio_prior_list": "and his tone sounds negative.",
+        "peak_index": "85",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU07",
+            "AU17",
+            "AU20",
+            "AU26"
+        ],
+        "pseu_emotion": "worried",
+        "text": "If it weren't for him delivering the letter to me, I wouldn't have rushed back to Xianyang City.",
+        "smp_reason_caption": "In the video, a man displays enlarged nostrils, a sign of anxiety, and speaks in a critical tone. His statement suggests he's concerned about the consequences of receiving a letter, indicating he's worried about the impact on his situation."
+    },
+    "samplenew_00035305": {
+        "AU_list": [
+            "AU20"
+        ],
+        "visual_prior_list": [
+            "Nasal flaring"
+        ],
+        "audio_prior_list": "speaks in a fearful tone.",
+        "peak_index": "57",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU07",
+            "AU17",
+            "AU20"
+        ],
+        "pseu_emotion": "worried",
+        "text": "Xiaoyue: Which road is it?",
+        "smp_reason_caption": "In the video, the man stands in front of a glass wall with a concerned or surprised expression, accompanied by nasal flaring, a sign of stress. His tone and intonation are fearful, and he asks, \"Xiaoyue: Which road is it?\" This combination of facial expression, body language, and tone suggests that the man is worried."
+    },
+    "samplenew_00063662": {
+        "AU_list": [
+            "AU28",
+            "AU20"
+        ],
+        "visual_prior_list": [
+            "Purse lips",
+            "Nasal flaring"
+        ],
+        "audio_prior_list": "speaks in a fearful tone.",
+        "peak_index": "4",
+        "peak_AU_list": [
+            "AU04",
+            "AU07",
+            "AU10",
+            "AU15",
+            "AU17",
+            "AU20",
+            "AU25",
+            "AU26",
+            "AU28"
+        ],
+        "pseu_emotion": "worried",
+        "text": "What is hidden behind Song Anyan?",
+        "smp_reason_caption": "In the video, a woman is seen looking at her phone with a pursed lip expression and nasal flaring, indicating tension and anxiety. Her tone is fearful, and she asks a question in a worried manner, \"What is hidden behind Song Anyan?\""
+    },
+    "samplenew_00027234": {
+        "AU_list": [
+            "AU20"
+        ],
+        "visual_prior_list": [
+            "Lip stretcher"
+        ],
+        "audio_prior_list": "speaks in a fearful tone.",
+        "peak_index": "109",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU12",
+            "AU15",
+            "AU20"
+        ],
+        "pseu_emotion": "worried",
+        "text": "Leaking secrets? Impossible, right? You must have made a mistake. Where is he now? Can I go see him?",
+        "smp_reason_caption": "In the video, a woman's facial expression (lip stretcher) and tone (fearful) suggest she is anxious. Her words convey a sense of urgency and concern, indicating she is worried about a medical issue or a mistake that has been made."
+    },
+    "samplenew_00037763": {
+        "AU_list": [
+            "AU28"
+        ],
+        "visual_prior_list": [
+            "Bring lips together"
+        ],
+        "audio_prior_list": "speaks with a fearful emotion.",
+        "peak_index": "1",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU05",
+            "AU07",
+            "AU12",
+            "AU15",
+            "AU17",
+            "AU25",
+            "AU26",
+            "AU28"
+        ],
+        "pseu_emotion": "worried",
+        "text": "Auntie, do we really need to go to the training in person?",
+        "smp_reason_caption": "In the video, a young man's lips are pressed together, indicating tension, and his tone and intonation convey a fearful emotion. He asks a question that suggests concern about the necessity of attending a training, and his anxious facial expression implies he is worried about the outcome or consequences."
+    },
+    "samplenew_00002679": {
+        "AU_list": [
+            "AU20"
+        ],
+        "visual_prior_list": [
+            "Tense lips stretched"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "38",
+        "peak_AU_list": [
+            "AU04",
+            "AU09",
+            "AU15",
+            "AU17",
+            "AU20",
+            "AU23"
+        ],
+        "pseu_emotion": "worried",
+        "text": "My waist and legs hurt! Does the pain in the waist and legs improve?",
+        "smp_reason_caption": "In the video, a woman's tense lips stretched expression and silence despite mentioning physical discomfort suggest underlying tension and worry. Her concern about the improvement of her symptoms implies anxiety about her overall well-being, leading to the inference that she feels worried."
+    },
+    "samplenew_00001054": {
+        "AU_list": [
+            "AU20"
+        ],
+        "visual_prior_list": [
+            "Nostrils enlarge"
+        ],
+        "audio_prior_list": "and her tone sounds negative.",
+        "peak_index": "77",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU20",
+            "AU25"
+        ],
+        "pseu_emotion": "worried",
+        "text": "Princess, you are too weak to wake up yet.",
+        "smp_reason_caption": "In the video, the person lies on a bed, turned to the side, with a concerned expression marked by enlarged nostrils. Their tone is negative, and they speak in a gentle but worried manner, saying, \"Princess, you are too weak to wake up yet.\""
+    },
+    "sample_00001727": {
+        "AU_list": [
+            "AU05"
+        ],
+        "visual_prior_list": [
+            "Raise upper eyelids"
+        ],
+        "audio_prior_list": "speaks with a tremulous tone.",
+        "peak_index": "0",
+        "peak_AU_list": [
+            "AU04",
+            "AU05"
+        ],
+        "pseu_emotion": "surprise",
+        "text": "None",
+        "smp_reason_caption": "In the video, a man's facial expression features raised upper eyelids, indicating surprise. He speaks in a tremulous tone, further supporting the idea of surprise."
+    },
+    "samplenew_00035139": {
+        "AU_list": [
+            "AU06",
+            "AU12",
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "smile, Pleasure",
+            "Toothy smile",
+            "Cheek dimple"
+        ],
+        "audio_prior_list": "and his tone sounds loud.",
+        "peak_index": "40",
+        "peak_AU_list": [
+            "AU02",
+            "AU04",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU12",
+            "AU14"
+        ],
+        "pseu_emotion": "surprise",
+        "text": "Oh, there are people and people in the world.",
+        "smp_reason_caption": "In the video, a man sits in front of a computer, displaying a toothy smile with cheek dimples, accompanied by a cheerful tone and intonation. This suggests a strong sense of emotional,his saying,\"Oh, there are people and people in the world.\",show he is surprised to something."
+    },
+    "samplenew_00064348": {
+        "AU_list": [
+            "AU05",
+            "AU26"
+        ],
+        "visual_prior_list": [
+            "Eyes widened",
+            "Jaw Drop"
+        ],
+        "audio_prior_list": "in a tremulous manner",
+        "peak_index": "50",
+        "peak_AU_list": [
+            "AU05",
+            "AU17",
+            "AU25",
+            "AU26",
+            "AU28"
+        ],
+        "pseu_emotion": "surprise",
+        "text": "Near your wife's house.",
+        "smp_reason_caption": "In the video, a man's facial expression features widened eyes and a jaw drop, indicating a strong emotional response. His tone and intonation are also tremulous, suggesting a sense of shock or astonishment. The phrase \"Near your wife's house\" implies a revelation or unexpected information that has caught him off guard."
+    },
+    "samplenew_00024409": {
+        "AU_list": [
+            "AU01",
+            "AU02",
+            "AU05",
+            "AU26"
+        ],
+        "visual_prior_list": [
+            "Inner brow raiser",
+            "Elevate outer brow",
+            "Pupil enlargement",
+            "Lips elongated"
+        ],
+        "audio_prior_list": "speaks in a tremulous tone.",
+        "peak_index": "11",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU05",
+            "AU26"
+        ],
+        "pseu_emotion": "surprise",
+        "text": "Goods: Ma Chao, fire! Liu Bei.",
+        "smp_reason_caption": "In the scene, a man's facial expressions (inner brow raiser, elevated outer brow, pupil enlargement, and elongated lips) and tremulous tone (\"Goods: Ma Chao, fire! Liu Bei\") suggest a strong emotional response, likely surprise, due to the unexpected and unfamiliar situation."
+    },
+    "samplenew_00065560": {
+        "AU_list": [
+            "AU05"
+        ],
+        "visual_prior_list": [
+            "Raise upper eyelids"
+        ],
+        "audio_prior_list": "speaks with a neutral tone.",
+        "peak_index": "49",
+        "peak_AU_list": [
+            "AU05"
+        ],
+        "pseu_emotion": "surprise",
+        "text": "I used to have a snack called Niudao, which could be exchanged for splashing mushrooms.",
+        "smp_reason_caption": "In the video, a woman stands in a field, looking off-screen with a raised upper eyelid, indicating surprise."
+    },
+    "samplenew_00052541": {
+        "AU_list": [
+            "AU26"
+        ],
+        "visual_prior_list": [
+            "Wide-mouthed"
+        ],
+        "audio_prior_list": "and his tone sounds startled.",
+        "peak_index": "100",
+        "peak_AU_list": [
+            "AU04",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "surprise",
+        "text": "Isn't it? Then you can hand it over to [UNK] Zhongzimei.",
+        "smp_reason_caption": "In the video, a man's facial expression is wide-mouthed, indicating surprise, and his tone and intonation sound startled. This combination suggests that he is experiencing surprise, likely due to the unexpected revelation or information being presented."
+    },
+    "samplenew_00069838": {
+        "AU_list": [
+            "AU01",
+            "AU02",
+            "AU05",
+            "AU26"
+        ],
+        "visual_prior_list": [
+            "Head lifting wrinkles",
+            "Outer brow raiser",
+            "Pupil enlargement",
+            "Open mouth wide"
+        ],
+        "audio_prior_list": "speaks in a happy voice.",
+        "peak_index": "36",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU05",
+            "AU17",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "surprise",
+        "text": "No? Nanyang Fire? That's right.",
+        "smp_reason_caption": "In the video, the person's facial expression, including head lifting wrinkles, outer brow raiser, pupil enlargement, and an open mouth, collectively convey surprise. The happy tone and words spoken, \"No? Nanyang Fire? That's right,\" suggest a pleasant surprise, likely due to the recall of a fond memory or recognition of something familiar."
+    },
+    "samplenew_00037700": {
+        "AU_list": [
+            "AU01",
+            "AU05"
+        ],
+        "visual_prior_list": [
+            "Frown",
+            "Raise upper eyelids"
+        ],
+        "audio_prior_list": "speaks with a tremulous emotion.",
+        "peak_index": "0",
+        "peak_AU_list": [
+            "AU01",
+            "AU05",
+            "AU17"
+        ],
+        "pseu_emotion": "surprise",
+        "text": "You. Ah.",
+        "smp_reason_caption": "In the video, a man stands in front of a vending machine, displaying a frown and raised upper eyelids, typical features of surprise. His tremulous tone and incomplete sentence (\"You. Ah.\") suggest emotional arousal and reaction to something unexpected."
+    },
+    "samplenew_00013883": {
+        "AU_list": [
+            "AU02"
+        ],
+        "visual_prior_list": [
+            "Outer brow lift"
+        ],
+        "audio_prior_list": "speaks with a tremulous tone.",
+        "peak_index": "9",
+        "peak_AU_list": [
+            "AU02",
+            "AU04"
+        ],
+        "pseu_emotion": "surprise",
+        "text": "Kong Ming.",
+        "smp_reason_caption": "In the video, a man with distinctive appearance, standing in a natural environment, exhibits an outer brow lift, indicating surprise. His tremulous tone while saying \"Kong Ming\" further reinforces this notion."
+    },
+    "samplenew_00038188": {
+        "AU_list": [
+            "AU01"
+        ],
+        "visual_prior_list": [
+            "Frown"
+        ],
+        "audio_prior_list": "and her tone sounds startled.",
+        "peak_index": "47",
+        "peak_AU_list": [
+            "AU01",
+            "AU04",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU12",
+            "AU14",
+            "AU25"
+        ],
+        "pseu_emotion": "surprise",
+        "text": "Is that right? Why didn't I see it.",
+        "smp_reason_caption": "In the video, a woman's facial expression is a frown, and her tone and intonation are startled as she asks, \"Is that right? Why didn't I see it.\" This combination suggests that she is experiencing surprise, likely due to the revelation or discovery she is making."
+    },
+    "sample_00002706": {
+        "AU_list": [
+            "AU05",
+            "AU02",
+            "AU07",
+            "AU26",
+            "AU01",
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Raise upper eyelids",
+            "Outer brow arch",
+            "Facial tightness",
+            "Lips elongated",
+            "Head lifting wrinkles",
+            "Brow Lowerer"
+        ],
+        "audio_prior_list": "it sounds like this person is speaking in a neutral tone.",
+        "peak_index": "28",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU05",
+            "AU07",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "fear",
+        "text": "I will always be at school.",
+        "smp_reason_caption": "In the video, the woman's facial expressions and actions suggest a state of tension and apprehension, indicated by raised upper eyelids, outer brow arch, facial tightness, and lips elongated. Her holding a stick and practicing martial arts/self-defense, while her male companion watches, implies preparedness for potential danger. The statement \"I will always be at school\" sounds like a reassurance or coping mechanism, likely in response to a perceived threat or fear."
+    },
+    "samplenew_00045270": {
+        "AU_list": [
+            "AU02",
+            "AU07",
+            "AU26",
+            "AU01",
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Outer brow arch",
+            "Facial tightness",
+            "Lips elongated",
+            "Head lifting wrinkles",
+            "Lower eyebrows"
+        ],
+        "audio_prior_list": "and his tone sounds natural.",
+        "peak_index": "54",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU07",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "fear",
+        "text": "Me. Me. Just ask casually.",
+        "smp_reason_caption": "In the video, an individual displays subtle yet distinct signs of fear, including an outer brow arch, facial tightness, lips elongation, head lifting wrinkles, and lowered eyebrows. These facial expressions, accompanied by a natural-sounding tone and intonation, suggest that the person is attempting to maintain a sense of calm while hiding their underlying fear."
+    },
+    "samplenew_00028975": {
+        "AU_list": [
+            "AU05",
+            "AU02",
+            "AU04",
+            "AU01",
+            "AU20"
+        ],
+        "visual_prior_list": [
+            "Pupil enlargement",
+            "Outer brow raiser",
+            "Brow Lowerer",
+            "Eyebrow raised",
+            "Anxiously stretched lips"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "24",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU05",
+            "AU17",
+            "AU20"
+        ],
+        "pseu_emotion": "fear",
+        "text": "No. No.",
+        "smp_reason_caption": "In the video, the individual's facial expressions and body language suggest a state of fear, including pupil enlargement, outer brow raiser, brow lowerer, anxiously stretched lips, and eyebrow raised. The repetition of \"No. No.\" implies a sense of refusal or denial, suggesting the person is experiencing fear, possibly due to a perceived threat or uncertainty."
+    },
+    "samplenew_00007629": {
+        "AU_list": [
+            "AU05",
+            "AU02",
+            "AU04",
+            "AU07",
+            "AU26",
+            "AU01",
+            "AU20"
+        ],
+        "visual_prior_list": [
+            "Upper Lid Raiser",
+            "Elevate outer brow",
+            "Brow Lowerer",
+            "Lid Tightener",
+            "Mouth Stretch",
+            "Head lifting wrinkles",
+            "Lip stretcher"
+        ],
+        "audio_prior_list": "speaks in a fearful tone.",
+        "peak_index": "1",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU05",
+            "AU07",
+            "AU14",
+            "AU15",
+            "AU17",
+            "AU20",
+            "AU23",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "fear",
+        "text": "Blue jade, will not be ashamed.",
+        "smp_reason_caption": "In the video, a man dressed as an oriental king exhibits facial expressions that contradict his regal attire: upper lid raiser, elevate outer brow, brow lowerer, lid tightener, mouth stretch, head lifting wrinkles, and lip stretcher. His fearful tone and words, \"Blue jade, will not be ashamed,\" further reinforce his fear, likely due to pressure or expectation to maintain a certain image or reputation."
+    },
+    "samplenew_00000852": {
+        "AU_list": [
+            "AU02",
+            "AU07",
+            "AU26",
+            "AU20",
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Outer brow arch",
+            "Lid Tightener",
+            "Lips elongated",
+            "Tense lips stretched",
+            "Brow Lowerer"
+        ],
+        "audio_prior_list": "speaks in a fearful tone.",
+        "peak_index": "73",
+        "peak_AU_list": [
+            "AU02",
+            "AU04",
+            "AU07",
+            "AU09",
+            "AU14",
+            "AU15",
+            "AU17",
+            "AU20",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "fear",
+        "text": "It's with the body, with the diary.",
+        "smp_reason_caption": "In the video, the individual's facial expressions (outer brow arch, lid tightener, lips elongated, tense lips stretched, and brow lowerer) and tone convey a sense of fear. The fearful tone and context of discussing personal or private information on a laptop computer suggest that they are experiencing fear, likely due to the revelation or discovery of something unsettling or threatening."
+    },
+    "samplenew_00028390": {
+        "AU_list": [
+            "AU05",
+            "AU02",
+            "AU04",
+            "AU26",
+            "AU20"
+        ],
+        "visual_prior_list": [
+            "Pupil enlargement",
+            "Outer brow arch",
+            "Lower eyebrows",
+            "Wide-mouthed",
+            "Nostrils enlarge"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "50",
+        "peak_AU_list": [
+            "AU02",
+            "AU04",
+            "AU05",
+            "AU09",
+            "AU10",
+            "AU12",
+            "AU14",
+            "AU15",
+            "AU17",
+            "AU20",
+            "AU26"
+        ],
+        "pseu_emotion": "fear",
+        "text": "It's just a matter of skill.",
+        "smp_reason_caption": "In the video, the girl's facial expressions reveal a state of fear, despite her calm tone and words. Clues include pupil enlargement, outer brow arch, lower eyebrows, wide-mouthed and enlarged nostrils, and holding her head in pain or discomfort."
+    },
+    "samplenew_00016080": {
+        "AU_list": [
+            "AU02",
+            "AU07",
+            "AU26",
+            "AU01",
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Outer brow arch",
+            "Facial tightness",
+            "Wide-mouthed",
+            "Frown",
+            "Brow Lowerer"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "99",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU06",
+            "AU07",
+            "AU26"
+        ],
+        "pseu_emotion": "fear",
+        "text": "You mean, they will stop at all times and not engage in full-scale war.",
+        "smp_reason_caption": "In the video, the woman's facial expressions, including an outer brow arch, facial tightness, and frown, suggest a state of tension and anxiety. Her words, mentioning \"full-scale war,\" imply concern and apprehension about a potentially catastrophic event."
+    },
+    "samplenew_00044155": {
+        "AU_list": [
+            "AU05",
+            "AU02",
+            "AU26",
+            "AU01",
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Lift upper eyelids",
+            "Outer brow arch",
+            "Mouth Stretch",
+            "Frown",
+            "Frowns furrowed"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "54",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU05",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "fear",
+        "text": "Later, Master Long, Master Pan, and Master Xu agreed.",
+        "smp_reason_caption": "In the video, the individual's facial expressions, including lifted upper eyelids, outer brow arch, mouth stretch, and furrowed frown, suggest a sense of unease or discomfort."
+    },
+    "samplenew_00002426": {
+        "AU_list": [
+            "AU02",
+            "AU07",
+            "AU26",
+            "AU01",
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Elevate outer brow",
+            "Facial tightness",
+            "Lips elongated",
+            "Inner brow raiser",
+            "Frowns furrowed"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "42",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU07",
+            "AU23",
+            "AU26"
+        ],
+        "pseu_emotion": "fear",
+        "text": "Uncontrolled virus seeder.",
+        "smp_reason_caption": "In the video, the individual's facial expressions (elevated outer brow, facial tightness, lips elongated, inner brow raiser, and furrowed frown) suggest a state of tension and anxiety. The words \"Uncontrolled virus seeder\" imply a sense of danger or threat, and the context of wearing a face mask in a public setting reinforces the notion that the person is fearful of contracting or spreading a virus."
+    },
+    "samplenew_00064078": {
+        "AU_list": [
+            "AU02",
+            "AU26",
+            "AU20",
+            "AU01",
+            "AU04"
+        ],
+        "visual_prior_list": [
+            "Outer brow arch",
+            "Wide-mouthed",
+            "Anxiously stretched lips",
+            "Inner brow raiser",
+            "Lower eyebrows"
+        ],
+        "audio_prior_list": "speaks in a neutral tone.",
+        "peak_index": "2",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU04",
+            "AU17",
+            "AU20",
+            "AU26"
+        ],
+        "pseu_emotion": "fear",
+        "text": "Me: May I use your hair oil.",
+        "smp_reason_caption": "In the video, the person's surprised expression, characterized by an outer brow arch, wide-mouthed, anxiously stretched lips, and inner brow raiser, suggests a sudden and unexpected event. The lowered eyebrows and neutral tone imply a sense of unease or apprehension."
+    },
+    "samplenew_00058745": {
+        "AU_list": [
+            "AU06",
+            "AU12",
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "Slightly lower eyebrows",
+            "Show teeth",
+            "Hollow on the face when smiling"
+        ],
+        "audio_prior_list": "and his tone sounds cheerful.",
+        "peak_index": "0",
+        "peak_AU_list": [
+            "AU06",
+            "AU07",
+            "AU09",
+            "AU10",
+            "AU12",
+            "AU14",
+            "AU17",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "contempt",
+        "text": "Haven't seen it yet, you, unknown, one day to be afraid of.",
+        "smp_reason_caption": "In the video, a man stands in a room with dark wood furniture and Asian decor, displaying a smile with slightly lower eyebrows, showing teeth, and a hollow face.His cheerful tone and intonation,saying\"Haven't seen it yet, you, unknown, one day to be afraid of.\" which suggest anticipation or excitement, rather than fear or anxiety.Therefore, a more accurate Emotional Label would be contempt."
+    },
+    "samplenew_00044342": {
+        "AU_list": [
+            "AU12",
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "Big smile",
+            "Indentation when smiling"
+        ],
+        "audio_prior_list": "speak with mocking tone.",
+        "peak_index": "58",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU07",
+            "AU12",
+            "AU14",
+            "AU15",
+            "AU17",
+            "AU26",
+            "AU28"
+        ],
+        "pseu_emotion": "contempt",
+        "text": "Isn't there already one ready-made?",
+        "smp_reason_caption": "In the video, a woman, relaxed and waving a fan, laughs and says, \"Isn't there already one ready-made?\" Her demeanor and mocking tone express her contempt."
+    },
+    "samplenew_00063792": {
+        "AU_list": [
+            "AU15",
+            "AU10",
+            "AU12",
+            "AU17"
+        ],
+        "visual_prior_list": [
+            "Lip Corner Depressor",
+            "Upper lip lift",
+            "Show teeth",
+            "Chin Raiser"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "2",
+        "peak_AU_list": [
+            "AU04",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU12",
+            "AU14",
+            "AU15",
+            "AU17"
+        ],
+        "pseu_emotion": "contempt",
+        "text": "Watch it, then.",
+        "smp_reason_caption": "In the video, a woman displays a complex facial expression, including a Lip Corner Depressor, Upper lip lift, and Show teeth, suggesting a mixture of emotions. The Chin Raiser implies a sense of superiority or disdain. Her tone is warning or dismissive, implying contempt or disdain towards something or someone."
+    },
+    "samplenew_00025986": {
+        "AU_list": [
+            "AU15",
+            "AU10",
+            "AU12",
+            "AU17"
+        ],
+        "visual_prior_list": [
+            "Downturned corners of the mouth",
+            "Lips apart showing teeth",
+            "Lip Corner Puller",
+            "Lift the chin"
+        ],
+        "audio_prior_list": "speaks in a sarcastic tone.",
+        "peak_index": "60",
+        "peak_AU_list": [
+            "AU01",
+            "AU04",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU12",
+            "AU15",
+            "AU17",
+            "AU25",
+            "AU26"
+        ],
+        "pseu_emotion": "contempt",
+        "text": "What is the name for hitting a man? Not good?",
+        "smp_reason_caption": "In the video, the man's facial expressions, including downturned mouth corners, lips apart showing teeth, and a lip corner puller, convey a sense of mocking or disdain. His sarcastic tone and ridiculing speech, such as \"What is the name for hitting a man? Not good?\", suggest a strong emotional tone of contempt."
+    },
+    "samplenew_00055940": {
+        "AU_list": [
+            "AU15",
+            "AU10",
+            "AU12",
+            "AU17"
+        ],
+        "visual_prior_list": [
+            "Downturned corners of the mouth",
+            "Lips apart showing teeth",
+            "Toothy smile",
+            "Lips forming an upward curve"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "10",
+        "peak_AU_list": [
+            "AU01",
+            "AU02",
+            "AU05",
+            "AU10",
+            "AU12",
+            "AU15",
+            "AU17",
+            "AU25"
+        ],
+        "pseu_emotion": "contempt",
+        "text": "Do you think you can definitely win?",
+        "smp_reason_caption": "In the video, the man's facial expressions, including downturned mouth corners, lips apart showing teeth, and a toothy smile, suggest a mocking or sarcastic tone. His speech, asking \"Do you think you can definitely win?\", implies a sense of superiority or condescension, as if he is doubting the other person's abilities."
+    },
+    "samplenew_00051112": {
+        "AU_list": [
+            "AU06"
+        ],
+        "visual_prior_list": [
+            "Cheek Raiser"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "27",
+        "peak_AU_list": [
+            "AU01",
+            "AU05",
+            "AU06",
+            "AU07",
+            "AU10"
+        ],
+        "pseu_emotion": "contempt",
+        "text": "The man with a knife has no intention.",
+        "smp_reason_caption": "In the video,a man has a expressionless face,a normal tone\"The man with a knife has no intention.\"His eyes were in a state of absence and his innocent words expressed his contempt."
+    },
+    "samplenew_00049015": {
+        "AU_list": [
+            "AU06",
+            "AU12",
+            "AU14"
+        ],
+        "visual_prior_list": [
+            "Slightly lower eyebrows",
+            "Big smile",
+            "Hollow on the face when smiling"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "78",
+        "peak_AU_list": [
+            "AU04",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU12",
+            "AU14"
+        ],
+        "pseu_emotion": "contempt",
+        "text": "He regards this kind of food as a way of relying on connections and going through backdoors.",
+        "smp_reason_caption": " In the video, the individual is engaged in a phone call in an office setting, exhibiting a mix of expressions.Her tone is normal,\"He regards this kind of food as a way of relying on connections and going through backdoors.\"Her words convey her thoughts,she is a little confused,so her mood is contempt."
+    },
+    "samplenew_00070277": {
+        "AU_list": [
+            "AU06"
+        ],
+        "visual_prior_list": [
+            "Slight decrease in eyebrows"
+        ],
+        "audio_prior_list": "and his tone sounds loud.",
+        "peak_index": "48",
+        "peak_AU_list": [
+            "AU04",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU15",
+            "AU17",
+            "AU23"
+        ],
+        "pseu_emotion": "contempt",
+        "text": "What does he know about a virgin? What are you chatting about.",
+        "smp_reason_caption": "In the video,a man's tone sounds loud,saying\"What does he know about a virgin? What are you chatting about.\"His facial expressions and body movements suggests  he is excited,consider his words,so his mood is contempt."
+    },
+    "sample_00003086": {
+        "AU_list": [
+            "AU15",
+            "AU10",
+            "AU12",
+            "AU17"
+        ],
+        "visual_prior_list": [
+            "Lower Lip Depressor",
+            "Upper lip lift",
+            "Grinning",
+            "Lips forming an upward curve"
+        ],
+        "audio_prior_list": "speaks in a fearful voice.",
+        "peak_index": "36",
+        "peak_AU_list": [
+            "AU04",
+            "AU05",
+            "AU06",
+            "AU07",
+            "AU10",
+            "AU12",
+            "AU14",
+            "AU15",
+            "AU17",
+            "AU20"
+        ],
+        "pseu_emotion": "contempt",
+        "text": "Do you know what I want to tell you?",
+        "smp_reason_caption": "In the video, a woman asks, \"Do you know what I want to tell you?\" After speaking, she smiles, her upper lip lifted and her lips curving upwards, indicating that she is in a dominant position. This suggests that her emotional state is one of contempt."
+    },
+    "samplenew_00056990": {
+        "AU_list": [
+            "AU15",
+            "AU10",
+            "AU12",
+            "AU17"
+        ],
+        "visual_prior_list": [
+            "Downward mouth curvature",
+            "Upper Lip Raiser",
+            "Big smile",
+            "Chin held high"
+        ],
+        "audio_prior_list": "and her tone sounds negative.",
+        "peak_index": "123",
+        "peak_AU_list": [
+            "AU04",
+            "AU10",
+            "AU12",
+            "AU14",
+            "AU15",
+            "AU17",
+            "AU20",
+            "AU23",
+            "AU25"
+        ],
+        "pseu_emotion": "contempt",
+        "text": "Classmate: But they are willing to form a group with me alone and not allow those two people to participate.",
+        "smp_reason_caption": "In the video, the person's facial expressions appear contradictory, but their negative tone, intonation, and sarcastic speech suggest they are actually feeling contempt or disdain towards someone or something."
+    },
+    "samplenew_00030995": {
+        "AU_list": [
+            "AU25"
+        ],
+        "visual_prior_list": [
+            "Slightly puzzled"
+        ],
+        "audio_prior_list": "speaks in a neutral tone.",
+        "peak_index": "55",
+        "peak_AU_list": [
+            "AU25"
+        ],
+        "pseu_emotion": "doubt",
+        "text": "Which of the three is your most thoughtful person?",
+        "smp_reason_caption": "In the video, the king's puzzled expression and neutral tone suggest that he is uncertain or unclear about the answer to his question, which is a hallmark of doubt."
+    },
+    "samplenew_00060428": {
+        "AU_list": [
+            "AU25"
+        ],
+        "visual_prior_list": [
+            "Lips part"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "29",
+        "peak_AU_list": [
+            "AU25"
+        ],
+        "pseu_emotion": "doubt",
+        "text": "But there must be other reasons.",
+        "smp_reason_caption": "In the video, a woman utters, \"But there must be other reasons.\" Her words suggest a sense of uncertainty and inquiry, implying that she is doubting the initial reasons or explanations presented, and is instead searching for more plausible or convincing explanations."
+    },
+    "samplenew_00013921": {
+        "AU_list": [
+            "AU25"
+        ],
+        "visual_prior_list": [
+            "Lips part"
+        ],
+        "audio_prior_list": "speaks in a tremulous tone.",
+        "peak_index": "5",
+        "peak_AU_list": [
+            "AU25"
+        ],
+        "pseu_emotion": "doubt",
+        "text": "What is a mere life?",
+        "smp_reason_caption": "In the video, the person's lips are parted, and their tone is tremulous, conveying a sense of uncertainty. Their words, \"What is a mere life?\", suggest a questioning of the value or significance of their own life, implying a sense of doubt about their purpose or the meaning of their existence."
+    },
+    "samplenew_00058656": {
+        "AU_list": [
+            "AU25"
+        ],
+        "visual_prior_list": [
+            "lips slightly parted"
+        ],
+        "audio_prior_list": "and her tone sounds negative.",
+        "peak_index": "6",
+        "peak_AU_list": [
+            "AU25"
+        ],
+        "pseu_emotion": "doubt",
+        "text": "This person is also a bit curious.",
+        "smp_reason_caption": "In the video, a woman's expression is characterized by lips slightly parted, and her tone sounds negative. Her negative tone implies uncertainty or skepticism, and the mention of curiosity suggests she is seeking more information or clarification, indicating a state of doubt."
+    },
+    "samplenew_00011172": {
+        "AU_list": [
+            "AU25"
+        ],
+        "visual_prior_list": [
+            "Open the lips"
+        ],
+        "audio_prior_list": "does not speak with any of the emotions listed.",
+        "peak_index": "70",
+        "peak_AU_list": [
+            "AU25"
+        ],
+        "pseu_emotion": "doubt",
+        "text": "The recruitment fee for urban workers is four yuan per day. How much is it for hiring small workers here?",
+        "smp_reason_caption": "In the video, a young man asks a question about the recruitment fee for small workers, looking directly at the camera with a serious expression. His serious expression and inquiry about a specific detail suggest that he is experiencing doubt, likely seeking clarification due to uncertainty or uncertainty about the correct answer."
+    },
+    "samplenew_00013398": {
+        "AU_list": [
+            "AU25"
+        ],
+        "visual_prior_list": [
+            "lips slightly parted"
+        ],
+        "audio_prior_list": "and his tone sounds natural.",
+        "peak_index": "46",
+        "peak_AU_list": [
+            "AU25"
+        ],
+        "pseu_emotion": "doubt",
+        "text": "Ouyang Quan, just like that spiritual treasure.",
+        "smp_reason_caption": "In the video, a man stands in a room with a serious expression, his lips slightly parted, speaking in a natural tone. His expression and tone suggest a sense of uncertainty or questioning, particularly the slight parting of his lips."
+    },
+    "samplenew_00060946": {
+        "AU_list": [
+            "AU06",
+            "AU12"
+        ],
+        "visual_prior_list": [
+            "Slight decrease in eyebrows",
+            "Show teeth"
+        ],
+        "audio_prior_list": "speaks in a excited tone.",
+        "peak_index": "32",
+        "peak_AU_list": [
+            "AU06",
+            "AU10",
+            "AU12",
+            "AU15"
+        ],
+        "pseu_emotion": "doubt",
+        "text": "Okay,how many acres of land do you rent, Su?",
+        "smp_reason_caption": "In the video, a man sits on a wooden chair, looking directly at the camera with a slight decrease in eyebrows and showing his teeth.His relax expression and excited tone,saying\"Okay,how many acres of land do you rent, Su?\" suggests his confusion,so his mood is doubt."
+    },
+    "samplenew_00005747": {
+        "AU_list": [
+            "AU25"
+        ],
+        "visual_prior_list": [
+            "Slightly puzzled"
+        ],
+        "audio_prior_list": "speaks in a normal tone.",
+        "peak_index": "26",
+        "peak_AU_list": [
+            "AU25"
+        ],
+        "pseu_emotion": "doubt",
+        "text": "But with the intention of His Highness the King of Chu.",
+        "smp_reason_caption": "In the video, a man's puzzled expression and words (\"But with the intention of His Highness the King of Chu\") suggest uncertainty or unclearness about intentions or motivations, indicating a state of doubt."
+    },
+    "samplenew_00033212": {
+        "AU_list": [
+            "AU25"
+        ],
+        "visual_prior_list": [
+            "lips slightly parted"
+        ],
+        "audio_prior_list": "speaks in a tremulous tone.",
+        "peak_index": "8",
+        "peak_AU_list": [
+            "AU25"
+        ],
+        "pseu_emotion": "doubt",
+        "text": "Why does the emperor ask so?",
+        "smp_reason_caption": "In the video, a woman's tremulous tone and parted lips convey uncertainty and hesitation, suggesting she is experiencing doubt. Her question, \"Why does the emperor ask so?\", implies a lack of understanding or clarity, further reinforcing her doubting nature."
+    },
+    "samplenew_00030219": {
+        "AU_list": [
+            "AU12"
+        ],
+        "visual_prior_list": [
+            "Lip Corner Puller"
+        ],
+        "audio_prior_list": "and his tone sounds negative.",
+        "peak_index": "26",
+        "peak_AU_list": [
+            "AU09",
+            "AU10",
+            "AU12",
+            "AU17",
+            "AU20"
+        ],
+        "pseu_emotion": "doubt",
+        "text": "Is this medicine a panacea? How effective is it?",
+        "smp_reason_caption": "In the video, a man is seated at a conference table, engaged in a meeting or discussion with others. His facial expression, characterized by a lip corner puller, suggests a subtle yet noticeable sign of friendly.His tone is negative and saying,\"Is this medicine a panacea? How effective is it?\"suggest he is confused,so his mood is doubt."
+    }
+}
