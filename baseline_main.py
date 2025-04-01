@@ -18,9 +18,7 @@ def call_llm(sample, model, comb):
     """
     Constructs a user message from the sample details based on the combination flag and calls the specified LLM API.
     The message is structured as:
-      - transcript: <text>
-      - audio_cues: <audio_prior_list>
-      - visual_cues: <visual_prior_list>
+        The person in the video says: [text]. Audio cues: [audio_prior_list]. Visual cues: [visual_prior_list].
     depending on the --comb flag.
     Returns the predicted emotion label in lower-case.
     """

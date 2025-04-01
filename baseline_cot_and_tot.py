@@ -19,9 +19,7 @@ def call_llm(sample, model, comb):
     """
     Constructs a user message from the sample details based on the combination flag and calls the specified LLM API.
     The message is structured as:
-      - transcript: <text>
-      - audio_cues: <audio_prior_list>
-      - visual_cues: <visual_prior_list>
+      The person in the video says: [text]. Audio cues: [audio_prior_list]. Visual cues: [visual_prior_list].
     depending on the --comb flag.
     Returns the predicted emotion label in lower-case.
     """
@@ -82,7 +80,7 @@ def main():
     output_file_name = args.output if args.output is not None else f"{selected_model}_results.txt"
     
     # Load the JSON data from file.
-    with open("MERR_fine_grained.json", "r") as f:
+    with open("10_per_emotion_MERR_fine_grained.json", "r") as f:
         data = json.load(f)
         print("Data loaded")
     
