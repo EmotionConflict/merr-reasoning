@@ -72,7 +72,7 @@ def main():
     parser = argparse.ArgumentParser(description="Run LLM model predictions")
     parser.add_argument("--model", type=str, default="gpt-4o-mini", help="LLM model to use")
     parser.add_argument("--output", type=str, default=None, help="Output file name for the results")
-    parser.add_argument("--comb", type=str, choices=["T", "TV", "TA", "AV", "TAV"], default="T",
+    parser.add_argument("--comb", type=str, choices=["T", "TV", "TA", "AV", "TAV", "RTAV"], default="T",
                         help="Specify the combination of modalities to use: T (text), TV (text and visual), TA (text and audio), AV (audio and visual), or TAV (all three)")
     parser.add_argument("--prompt", type=str, choices=["COT", "TOT"], default="",
                         help="Select prompt type: 'COT' for Chain-of-Thought, 'TOT' for Tree-of-Thought, default uses standard prompt")

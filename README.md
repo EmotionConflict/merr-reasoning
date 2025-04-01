@@ -30,5 +30,7 @@ or
 
 ## to run baseline_cot_and_tot.py
 
-`python baseline_cot_and_tot.py --model gpt-4o-mini --output baseline_TAV_COT_gpt40.txt --comb TAV --prompt COT`
-`python baseline_cot_and_tot.py --model gpt-4o-mini --output baseline_TAV_TOT_gpt40.txt --comb TAV --prompt TOT`
+`python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_COT_gpt40.txt --comb TAV --prompt COT`
+`python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_TOT_gpt40.txt --comb TAV --prompt TOT`
+`python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_COT_gpt40.txt --comb RTAV --prompt COT`
+`python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_TOT_gpt40.txt --comb RTAV --prompt TOT`
