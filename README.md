@@ -34,3 +34,14 @@ or
 `python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_TOT_gpt4o.txt --comb TAV --prompt TOT`
 `python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_COT_gpt4o.txt --comb RTAV --prompt COT`
 `python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_TOT_gpt4o.txt --comb RTAV --prompt TOT`
+
+TOT combinations:
+`python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt --comb TAV --prompt TOT-3-EXPERT-UNI`
+`python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_RTAV_TOT_gpt4o_4-expert-UNI.txt --comb RTAV --prompt TOT-4-EXPERT-UNI`
+`python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-UNI`
+`python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_RTAV_TOT_gpt4o_4-expert-debate-UNI.txt --comb RTAV --prompt TOT-4-EXPERT-DEBATE-UNI`
+
+`python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt --comb TAV --prompt TOT-3-EXPERT-BI`
+`python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_RTAV_TOT_gpt4o_4-expert-BI.txt --comb RTAV --prompt TOT-4-EXPERT-BI`
+`python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-BI`
+`python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_RTAV_TOT_gpt4o_4-expert-debate-BI.txt --comb RTAV --prompt TOT-4-EXPERT-DEBATE-BI`
