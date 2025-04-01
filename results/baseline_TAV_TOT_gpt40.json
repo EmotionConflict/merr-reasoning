@@ -1,0 +1,8 @@
+[
+  {
+    "sample_id": "samplenew_00002396",
+    "ground_truth": "happy",
+    "predicted_label": "happy",
+    "reasoning": "The visual cue 'dimpler' suggests a smile, which typically associates with happiness. The lack of emotional cues in the audio indicates neutrality in tone, but the smile can imply a positive sentiment. Therefore, considering the visual cue, the most fitting emotion label is happy. "
+  }
+]

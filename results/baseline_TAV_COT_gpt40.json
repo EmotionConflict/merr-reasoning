@@ -1,0 +1,8 @@
+[
+  {
+    "sample_id": "samplenew_00002396",
+    "ground_truth": "happy",
+    "predicted_label": "neutral",
+    "reasoning": "The phrase 'So, tell mom, what are your plans?' does not convey any strong emotion through the words used. The audio cues suggest that the person is speaking in a neutral tone without any of the emotions listed, which aligns with having a dimpler, indicative of a light or casual expression rather than a strong emotional state. Therefore, the overall vibe comes off as neutral."
+  }
+]

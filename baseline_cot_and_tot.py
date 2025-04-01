@@ -5,6 +5,7 @@ import argparse
 from dotenv import load_dotenv
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 import constants
+from pydantic import BaseModel
 
 # Load environment variables
 load_dotenv()
@@ -15,22 +16,27 @@ client = OpenAI(api_key=api_key)
 # Initially set SYSTEM_PROMPT to the default prompt
 SYSTEM_PROMPT = constants.SYSTEM_PROMPT
 
+# Define a Pydantic model for our structured LLM output
+class LLMResponse(BaseModel):
+    reasoning: str
+    label: str
+
 def call_llm(sample, model, comb):
     """
     Constructs a user message from the sample details based on the combination flag and calls the specified LLM API.
-    The message is structured as:
-      The person in the video says: [text]. Audio cues: [audio_prior_list]. Visual cues: [visual_prior_list].
-    depending on the --comb flag.
-    Returns the predicted emotion label in lower-case.
+    Returns a tuple containing:
+      - predicted_label: the final emotion label in lower-case.
+      - reasoning_conversation: the complete chain-of-thought from the LLM.
+    Uses Structured Outputs with response_format.
     """
     message_parts = []
     # Add transcript if 'T' is in comb
     if "T" in comb:
         message_parts.append(f"The person in the video says: {sample.get('text', '')}")
-    # Add audio_cues if 'A' is in comb
+    # Add audio cues if 'A' is in comb
     if "A" in comb:
         message_parts.append(f"Audio cues: {sample.get('audio_prior_list', '')}")
-    # Add visual_cues if 'V' is in comb
+    # Add visual cues if 'V' is in comb
     if "V" in comb:
         visual_cues = sample.get("visual_prior_list", "")
         if isinstance(visual_cues, list):
@@ -38,21 +44,27 @@ def call_llm(sample, model, comb):
         message_parts.append(f"Visual cues: {visual_cues}")
     
     user_message = "\n".join(message_parts)
-
+    print(f"User message: {user_message}")
+    print(f"System prompt: {SYSTEM_PROMPT}")
     try:
-        response = client.chat.completions.create(
+        # Call the beta endpoint using structured outputs via response_format.
+        completion = client.beta.chat.completions.parse(
             model=model,
             messages=[
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": user_message}
-            ]
+            ],
+            response_format=LLMResponse,
         )
-        predicted_label = response.choices[0].message.content.strip().lower()
+        # Extract the parsed values from the response.
+        predicted_label = completion.choices[0].message.parsed.label.strip().lower()
+        reasoning_conversation = completion.choices[0].message.parsed.reasoning
     except Exception as e:
         print(f"Error processing sample: {e}")
         predicted_label = "error"
+        reasoning_conversation = ""
     
-    return predicted_label
+    return predicted_label, reasoning_conversation
 
 def main():
     # Parse command line arguments.
@@ -84,23 +96,33 @@ def main():
         data = json.load(f)
         print("Data loaded")
     
-    predictions = []
-    ground_truths = []
-    result_details = []
+    results = []       # List to hold structured results for each sample.
+    ground_truths = [] # For evaluation.
+    predictions = []   # For evaluation.
     
     # Process each sample in the JSON.
     for sample_id, sample in data.items():
-        predicted = call_llm(sample, selected_model, comb_flag)
+        predicted, reasoning = call_llm(sample, selected_model, comb_flag)
         predictions.append(predicted)
         ground_truth = sample.get("pseu_emotion", "").strip().lower()
         ground_truths.append(ground_truth)
         print(f"Sample {sample_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
-        result_details.append(f"Sample {sample_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
+        
+        # Store the structured result.
+        result_entry = {
+            "sample_id": sample_id,
+            "ground_truth": ground_truth,
+            "predicted_label": predicted,
+            "reasoning": reasoning
+        }
+        results.append(result_entry)
+        print(result_entry)
+        break
     
     # Define the set of possible labels.
     labels = ["happy", "sad", "neutral", "angry", "worried", "surprise", "fear", "contempt", "doubt"]
     
-    # Compute precision, recall, and F1 score for each label.
+    # Compute evaluation metrics.
     precision, recall, f1, support = precision_recall_fscore_support(
         ground_truths, predictions, labels=labels, zero_division=0
     )
@@ -109,7 +131,6 @@ def main():
     print("\nEvaluation Metrics:")
     print("Overall Accuracy: {:.2f}".format(overall_accuracy))
     
-    # Create metrics summary
     metrics_summary = [f"Overall Accuracy: {overall_accuracy:.2f}"]
     for i, label in enumerate(labels):
         metric_line = (
@@ -119,19 +140,26 @@ def main():
         print(metric_line)
         metrics_summary.append(metric_line)
     
-    # Create results directory if it doesn't exist
+    # Create results directory if it doesn't exist.
     os.makedirs("results", exist_ok=True)
     
-    # Save results to the specified output file.
-    with open(os.path.join("results", output_file_name), "w") as f:
+    # Save structured results as a JSON file.
+    json_output_file = os.path.join("results", output_file_name.replace(".txt", ".json"))
+    with open(json_output_file, "w") as f:
+        json.dump(results, f, indent=2)
+    
+    # Optionally, also save a plain text summary.
+    txt_output_file = os.path.join("results", output_file_name)
+    with open(txt_output_file, "w") as f:
         f.write("PREDICTION RESULTS\n")
         f.write("=================\n\n")
-        f.write("\n".join(result_details))
-        f.write("\n\nEVALUATION METRICS\n")
+        for entry in results:
+            f.write(f"Sample {entry['sample_id']}: Ground Truth: {entry['ground_truth']}, Predicted: {entry['predicted_label']}\n")
+        f.write("\nEVALUATION METRICS\n")
         f.write("=================\n\n")
         f.write("\n".join(metrics_summary))
     
-    print(f"\nResults saved to results/{output_file_name}")
+    print(f"\nResults saved to {txt_output_file} and {json_output_file}")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,18 @@
+PREDICTION RESULTS
+=================
+
+Sample samplenew_00002396: Ground Truth: happy, Predicted: happy
+
+EVALUATION METRICS
+=================
+
+Overall Accuracy: 1.00
+Label: happy -> Precision: 1.00, Recall: 1.00, F1 Score: 1.00, Support: 1
+Label: sad -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Label: neutral -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Label: angry -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Label: worried -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Label: surprise -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Label: fear -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Label: contempt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Label: doubt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
