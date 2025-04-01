@@ -11,7 +11,7 @@ OPENAI_API_KEY=<your_key>
 
 ## how to run
 
-running main.py
+## to run main.py
 
 `python main.py --model gpt-3.5-turbo`
 
@@ -19,6 +19,10 @@ or
 
 `python main.py --model o1`
 
-running cot_and_tot.py
+## to run cot_and_tot.py
 
-`python cot_and_tot.py.py --mode tree_of_thought`
+`python cot_and_tot.py.py --mode tree_of_thought`\
+
+## to run baseline_main.py
+
+`python baseline_main.py --model gpt-3.5-turbo --output output_file_name`

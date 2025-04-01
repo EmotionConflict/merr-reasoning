@@ -38,12 +38,15 @@ def call_llm(sample, model):
     return predicted_label
 
 def main():
-    # Parse the model flag from command line arguments.
+    # Parse command line arguments.
     parser = argparse.ArgumentParser(description="Run LLM model predictions")
     parser.add_argument("--model", type=str, default="gpt-4o-mini", help="LLM model to use")
+    parser.add_argument("--output", type=str, default=None, help="Output file name for the results")
     args = parser.parse_args()
     
     selected_model = args.model
+    # Determine output file name based on provided argument or default to model name.
+    output_file_name = args.output if args.output is not None else f"{selected_model}_results.txt"
     
     # Load the JSON data from file.
     with open("MERR_fine_grained.json", "r") as f:
@@ -88,9 +91,8 @@ def main():
     # Create results directory if it doesn't exist
     os.makedirs("results", exist_ok=True)
     
-    # Use the selected model name as part of the output file name.
-    file_name = f"{selected_model}_results.txt"
-    with open(os.path.join("results", file_name), "w") as f:
+    # Save results to the specified output file.
+    with open(os.path.join("results", output_file_name), "w") as f:
         f.write("PREDICTION RESULTS\n")
         f.write("=================\n\n")
         f.write("\n".join(result_details))
@@ -98,7 +100,7 @@ def main():
         f.write("=================\n\n")
         f.write("\n".join(metrics_summary))
     
-    print(f"\nResults saved to results/{file_name}")
+    print(f"\nResults saved to results/{output_file_name}")
 
 if __name__ == "__main__":
     main()
