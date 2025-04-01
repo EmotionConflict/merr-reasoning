@@ -12,6 +12,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(api_key=api_key)
 
+# Initially set SYSTEM_PROMPT to the default prompt
 SYSTEM_PROMPT = constants.SYSTEM_PROMPT
 
 def call_llm(sample, model, comb):
@@ -62,8 +63,19 @@ def main():
     parser.add_argument("--output", type=str, default=None, help="Output file name for the results")
     parser.add_argument("--comb", type=str, choices=["T", "TV", "TA", "AV", "TAV"], default="T",
                         help="Specify the combination of modalities to use: T (text), TV (text and visual), TA (text and audio), AV (audio and visual), or TAV (all three)")
+    parser.add_argument("--prompt", type=str, choices=["COT", "TOT"], default="",
+                        help="Select prompt type: 'COT' for Chain-of-Thought, 'TOT' for Tree-of-Thought, default uses standard prompt")
     args = parser.parse_args()
     
+    # Update the global SYSTEM_PROMPT based on the --prompt flag
+    global SYSTEM_PROMPT
+    if args.prompt == "COT":
+        SYSTEM_PROMPT = constants.SYSTEM_PROMPT_CHAIN_OF_THOUGHT
+    elif args.prompt == "TOT":
+        SYSTEM_PROMPT = constants.SYSTEM_PROMPT_TREE_OF_THOUGHT
+    else:
+        SYSTEM_PROMPT = constants.SYSTEM_PROMPT
+
     selected_model = args.model
     comb_flag = args.comb
     # Determine output file name based on provided argument or default to model name.
@@ -79,7 +91,7 @@ def main():
     result_details = []
     
     # Process each sample in the JSON.
-    for i, (sample_id, sample) in enumerate(data.items()):
+    for sample_id, sample in data.items():
         predicted = call_llm(sample, selected_model, comb_flag)
         predictions.append(predicted)
         ground_truth = sample.get("pseu_emotion", "").strip().lower()
