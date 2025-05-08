@@ -62,6 +62,6 @@ TOT combinations:
 
 ## to run final_baseline_cot_and_tot.py (✅ MER, ✅ MELD)
 
-`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/results/MELD/mini_baseline_TAV_COT_gpt4o.txt --comb TAV --prompt COT --dataset MELD`
+`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/mini_baseline_TAV_COT_gpt4o.txt --comb TAV --prompt COT --dataset MELD`
 
-`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/results/MELD/mini_baseline_TAV_TOT_gpt4o.txt --comb TAV --prompt TOT --dataset MELD`
+`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/mini_baseline_TAV_TOT_gpt4o.txt --comb TAV --prompt TOT --dataset MELD`
