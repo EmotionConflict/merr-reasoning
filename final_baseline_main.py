@@ -4,6 +4,7 @@ import os
 import argparse
 from dotenv import load_dotenv
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
+import importlib
 import constants
 
 # Load environment variables
@@ -11,8 +12,6 @@ load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(api_key=api_key)
-
-SYSTEM_PROMPT = constants.SYSTEM_PROMPT
 
 def call_llm(sample, model, comb):
     """
@@ -59,11 +58,13 @@ def call_llm(sample, model, comb):
 def main():
     # Parse command line arguments.
     parser = argparse.ArgumentParser(description="Run LLM model predictions")
+    
     parser.add_argument("--input", type=str, default="MERR_fine_grained.json", help="Input JSON file path")
     parser.add_argument("--model", type=str, default="gpt-4o-mini", help="LLM model to use")
     parser.add_argument("--output", type=str, default=None, help="Output file name for the results")
     parser.add_argument("--comb", type=str, choices=["T", "TV", "TA", "AV", "TAV", "RTAV"], default="T",
                         help="Specify the combination of modalities to use: T (text), TV (text and visual), TA (text and audio), AV (audio and visual), or TAV (all three)")
+    parser.add_argument("--dataset", type=str, choices=["MELD", "MER"], default="MER", help="Dataset to use: MELD or MER (default: MER)")
     args = parser.parse_args()
     
     selected_model = args.model
@@ -71,6 +72,16 @@ def main():
     input_file = args.input  # Get the input file path
     # Determine output file name based on provided argument or default to model name.
     output_file_name = args.output if args.output is not None else f"{selected_model}_results.txt"
+    
+    # Dynamically import the correct constants module
+    if args.dataset == "MELD":
+        constants_mod = importlib.import_module("MELD_constants")
+        print("MELD constants imported")
+    else:
+        constants_mod = importlib.import_module("constants")
+        print("MER constants imported")
+    global SYSTEM_PROMPT
+    SYSTEM_PROMPT = constants_mod.SYSTEM_PROMPT
     
     # Load the JSON data from file.
     with open(input_file, "r") as f:

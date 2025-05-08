@@ -89,6 +89,7 @@ def call_llm(sample, model, comb):
 def main():
     # Parse command line arguments.
     parser = argparse.ArgumentParser(description="Run LLM model predictions")
+    parser.add_argument("--input", type=str, default="MERR_fine_grained.json", help="Input JSON file path")
     parser.add_argument("--model", type=str, default="gpt-4o-mini", help="LLM model to use")
     parser.add_argument("--output", type=str, default=None, help="Output file name for the results")
     parser.add_argument("--comb", type=str, choices=["T", "TV", "TA", "AV", "TAV", "RTAV"], default="T",
@@ -108,13 +109,14 @@ def main():
     else:
         SYSTEM_PROMPT = constants.SYSTEM_PROMPT
 
+    input_file = args.input  # Get the input file path
     selected_model = args.model
     comb_flag = args.comb
     # Determine output file name based on provided argument or default to model name.
     output_file_name = args.output if args.output is not None else f"{selected_model}_results.txt"
     
     # Load the JSON data from file.
-    with open("10_per_emotion_MERR_fine_grained.json", "r") as f:
+    with open(input_file, "r") as f:
         data = json.load(f)
         print("Data loaded")
     
