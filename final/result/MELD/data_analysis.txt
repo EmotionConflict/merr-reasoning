@@ -1,0 +1,131 @@
+File: final/result/MELD/baseline_T_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.50
+Label: anger -> Precision: 0.38, Recall: 0.39, F1 Score: 0.39, Support: 28
+Label: disgust -> Precision: 0.42, Recall: 0.33, F1 Score: 0.37, Support: 15
+Label: sadness -> Precision: 0.42, Recall: 0.25, F1 Score: 0.31, Support: 20
+Label: joy -> Precision: 0.45, Recall: 0.57, F1 Score: 0.50, Support: 23
+Label: neutral -> Precision: 0.57, Recall: 0.69, F1 Score: 0.63, Support: 67
+Label: surprise -> Precision: 0.56, Recall: 0.58, F1 Score: 0.57, Support: 24
+Label: fear -> Precision: 0.50, Recall: 0.14, F1 Score: 0.22, Support: 14
+
+File: final/result/MELD/mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.33
+Label: anger -> Precision: 0.24, Recall: 0.43, F1 Score: 0.31, Support: 28
+Label: disgust -> Precision: 0.50, Recall: 0.07, F1 Score: 0.12, Support: 15
+Label: sadness -> Precision: 0.33, Recall: 0.35, F1 Score: 0.34, Support: 20
+Label: joy -> Precision: 0.35, Recall: 0.83, F1 Score: 0.49, Support: 23
+Label: neutral -> Precision: 0.57, Recall: 0.19, F1 Score: 0.29, Support: 67
+Label: surprise -> Precision: 0.44, Recall: 0.33, F1 Score: 0.38, Support: 24
+Label: fear -> Precision: 0.30, Recall: 0.21, F1 Score: 0.25, Support: 14
+
+File: final/result/MELD/baseline_TAV_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.32
+Label: anger -> Precision: 0.26, Recall: 0.29, F1 Score: 0.27, Support: 28
+Label: disgust -> Precision: 0.33, Recall: 0.20, F1 Score: 0.25, Support: 15
+Label: sadness -> Precision: 0.24, Recall: 0.30, F1 Score: 0.27, Support: 20
+Label: joy -> Precision: 0.32, Recall: 0.57, F1 Score: 0.41, Support: 23
+Label: neutral -> Precision: 0.43, Recall: 0.34, F1 Score: 0.38, Support: 67
+Label: surprise -> Precision: 0.42, Recall: 0.33, F1 Score: 0.37, Support: 24
+Label: fear -> Precision: 0.14, Recall: 0.07, F1 Score: 0.10, Support: 14
+
+File: final/result/MELD/mini_baseline_TAV_COT_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.29
+Label: anger -> Precision: 0.22, Recall: 0.43, F1 Score: 0.29, Support: 28
+Label: disgust -> Precision: 0.14, Recall: 0.07, F1 Score: 0.09, Support: 15
+Label: sadness -> Precision: 0.29, Recall: 0.25, F1 Score: 0.27, Support: 20
+Label: joy -> Precision: 0.30, Recall: 0.78, F1 Score: 0.43, Support: 23
+Label: neutral -> Precision: 0.41, Recall: 0.18, F1 Score: 0.25, Support: 67
+Label: surprise -> Precision: 0.46, Recall: 0.25, F1 Score: 0.32, Support: 24
+Label: fear -> Precision: 0.20, Recall: 0.14, F1 Score: 0.17, Support: 14
+
+File: final/result/MELD/baseline_TV_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.36
+Label: anger -> Precision: 0.17, Recall: 0.18, F1 Score: 0.17, Support: 28
+Label: disgust -> Precision: 0.50, Recall: 0.13, F1 Score: 0.21, Support: 15
+Label: sadness -> Precision: 0.32, Recall: 0.35, F1 Score: 0.33, Support: 20
+Label: joy -> Precision: 0.32, Recall: 0.87, F1 Score: 0.47, Support: 23
+Label: neutral -> Precision: 0.59, Recall: 0.33, F1 Score: 0.42, Support: 67
+Label: surprise -> Precision: 0.42, Recall: 0.46, F1 Score: 0.44, Support: 24
+Label: fear -> Precision: 0.17, Recall: 0.07, F1 Score: 0.10, Support: 14
+
+File: final/result/MELD/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.10
+Label: anger -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 28
+Label: disgust -> Precision: 1.00, Recall: 0.07, F1 Score: 0.12, Support: 15
+Label: sadness -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 20
+Label: joy -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 23
+Label: neutral -> Precision: 0.64, Recall: 0.13, F1 Score: 0.22, Support: 67
+Label: surprise -> Precision: 0.64, Recall: 0.38, F1 Score: 0.47, Support: 24
+Label: fear -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 14
+
+File: final/result/MELD/mini_baseline_TAV_TOT_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.30
+Label: anger -> Precision: 0.25, Recall: 0.46, F1 Score: 0.32, Support: 28
+Label: disgust -> Precision: 0.33, Recall: 0.07, F1 Score: 0.11, Support: 15
+Label: sadness -> Precision: 0.29, Recall: 0.25, F1 Score: 0.27, Support: 20
+Label: joy -> Precision: 0.32, Recall: 0.78, F1 Score: 0.46, Support: 23
+Label: neutral -> Precision: 0.52, Recall: 0.18, F1 Score: 0.27, Support: 67
+Label: surprise -> Precision: 0.43, Recall: 0.25, F1 Score: 0.32, Support: 24
+Label: fear -> Precision: 0.30, Recall: 0.21, F1 Score: 0.25, Support: 14
+
+File: final/result/MELD/baseline_AV_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.24
+Label: anger -> Precision: 0.13, Recall: 0.14, F1 Score: 0.14, Support: 28
+Label: disgust -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 15
+Label: sadness -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 20
+Label: joy -> Precision: 0.29, Recall: 0.70, F1 Score: 0.41, Support: 23
+Label: neutral -> Precision: 0.36, Recall: 0.30, F1 Score: 0.33, Support: 67
+Label: surprise -> Precision: 0.40, Recall: 0.25, F1 Score: 0.31, Support: 24
+Label: fear -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 14
+
+File: final/result/MELD/mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.29
+Label: anger -> Precision: 0.26, Recall: 0.43, F1 Score: 0.32, Support: 28
+Label: disgust -> Precision: 0.25, Recall: 0.07, F1 Score: 0.11, Support: 15
+Label: sadness -> Precision: 0.26, Recall: 0.35, F1 Score: 0.30, Support: 20
+Label: joy -> Precision: 0.31, Recall: 0.83, F1 Score: 0.45, Support: 23
+Label: neutral -> Precision: 0.53, Recall: 0.12, F1 Score: 0.20, Support: 67
+Label: surprise -> Precision: 0.44, Recall: 0.29, F1 Score: 0.35, Support: 24
+Label: fear -> Precision: 0.20, Recall: 0.07, F1 Score: 0.11, Support: 14
+
+File: final/result/MELD/baseline_TA_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.34
+Label: anger -> Precision: 0.30, Recall: 0.39, F1 Score: 0.34, Support: 28
+Label: disgust -> Precision: 0.40, Recall: 0.27, F1 Score: 0.32, Support: 15
+Label: sadness -> Precision: 0.21, Recall: 0.20, F1 Score: 0.21, Support: 20
+Label: joy -> Precision: 0.23, Recall: 0.43, F1 Score: 0.30, Support: 23
+Label: neutral -> Precision: 0.43, Recall: 0.43, F1 Score: 0.43, Support: 67
+Label: surprise -> Precision: 0.62, Recall: 0.21, F1 Score: 0.31, Support: 24
+Label: fear -> Precision: 0.20, Recall: 0.07, F1 Score: 0.11, Support: 14
+
+File: final/result/MELD/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.07
+Label: anger -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 28
+Label: disgust -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 15
+Label: sadness -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 20
+Label: joy -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 23
+Label: neutral -> Precision: 0.45, Recall: 0.07, F1 Score: 0.13, Support: 67
+Label: surprise -> Precision: 0.50, Recall: 0.29, F1 Score: 0.37, Support: 24
+Label: fear -> Precision: 1.00, Recall: 0.07, F1 Score: 0.13, Support: 14

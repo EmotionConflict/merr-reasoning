@@ -1,17 +1,3 @@
-File: results/mini_baseline_RTAV_TOT_gpt4o_4-expert-UNI.txt
-EVALUATION METRICS
-=================
-Overall Accuracy: 0.79
-Label: happy -> Precision: 0.71, Recall: 1.00, F1 Score: 0.83, Support: 10
-Label: sad -> Precision: 1.00, Recall: 0.30, F1 Score: 0.46, Support: 10
-Label: neutral -> Precision: 1.00, Recall: 1.00, F1 Score: 1.00, Support: 10
-Label: angry -> Precision: 1.00, Recall: 0.70, F1 Score: 0.82, Support: 10
-Label: worried -> Precision: 0.73, Recall: 0.80, F1 Score: 0.76, Support: 10
-Label: surprise -> Precision: 0.90, Recall: 0.90, F1 Score: 0.90, Support: 10
-Label: fear -> Precision: 0.44, Recall: 0.70, F1 Score: 0.54, Support: 10
-Label: contempt -> Precision: 0.89, Recall: 0.80, F1 Score: 0.84, Support: 10
-Label: doubt -> Precision: 0.90, Recall: 0.90, F1 Score: 0.90, Support: 10
-
 File: results/baseline_T_gpt4o-mini.txt
 EVALUATION METRICS
 =================
@@ -26,20 +12,6 @@ Label: fear -> Precision: 0.11, Recall: 0.03, F1 Score: 0.05, Support: 86
 Label: contempt -> Precision: 0.07, Recall: 0.10, F1 Score: 0.08, Support: 41
 Label: doubt -> Precision: 0.05, Recall: 0.04, F1 Score: 0.05, Support: 45
 
-File: results/baseline_R_o3-mini.txt
-EVALUATION METRICS
-=================
-Overall Accuracy: 0.92
-Label: happy -> Precision: 0.91, Recall: 0.99, F1 Score: 0.95, Support: 475
-Label: sad -> Precision: 1.00, Recall: 0.83, F1 Score: 0.91, Support: 1091
-Label: neutral -> Precision: 0.99, Recall: 0.94, F1 Score: 0.96, Support: 1352
-Label: angry -> Precision: 0.98, Recall: 0.93, F1 Score: 0.96, Support: 874
-Label: worried -> Precision: 0.75, Recall: 0.96, F1 Score: 0.84, Support: 310
-Label: surprise -> Precision: 0.94, Recall: 0.98, F1 Score: 0.96, Support: 213
-Label: fear -> Precision: 0.39, Recall: 0.84, F1 Score: 0.53, Support: 86
-Label: contempt -> Precision: 0.73, Recall: 1.00, F1 Score: 0.85, Support: 41
-Label: doubt -> Precision: 0.57, Recall: 0.98, F1 Score: 0.72, Support: 45
-
 File: results/mini_baseline_TAV_COT_gpt4o-mini.txt
 EVALUATION METRICS
 =================
@@ -53,20 +25,6 @@ Label: surprise -> Precision: 0.75, Recall: 0.30, F1 Score: 0.43, Support: 10
 Label: fear -> Precision: 0.11, Recall: 0.20, F1 Score: 0.14, Support: 10
 Label: contempt -> Precision: 0.43, Recall: 0.30, F1 Score: 0.35, Support: 10
 Label: doubt -> Precision: 0.50, Recall: 0.40, F1 Score: 0.44, Support: 10
-
-File: results/mini_baseline_RTAV_TOT_gpt4o_4-expert-BI.txt
-EVALUATION METRICS
-=================
-Overall Accuracy: 0.77
-Label: happy -> Precision: 0.62, Recall: 1.00, F1 Score: 0.77, Support: 10
-Label: sad -> Precision: 1.00, Recall: 0.40, F1 Score: 0.57, Support: 10
-Label: neutral -> Precision: 0.91, Recall: 1.00, F1 Score: 0.95, Support: 10
-Label: angry -> Precision: 1.00, Recall: 0.60, F1 Score: 0.75, Support: 10
-Label: worried -> Precision: 0.57, Recall: 0.80, F1 Score: 0.67, Support: 10
-Label: surprise -> Precision: 1.00, Recall: 0.70, F1 Score: 0.82, Support: 10
-Label: fear -> Precision: 0.54, Recall: 0.70, F1 Score: 0.61, Support: 10
-Label: contempt -> Precision: 1.00, Recall: 0.80, F1 Score: 0.89, Support: 10
-Label: doubt -> Precision: 1.00, Recall: 0.90, F1 Score: 0.95, Support: 10
 
 File: results/mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt
 EVALUATION METRICS
@@ -95,62 +53,6 @@ Label: surprise -> Precision: 0.86, Recall: 0.23, F1 Score: 0.36, Support: 213
 Label: fear -> Precision: 0.04, Recall: 0.23, F1 Score: 0.07, Support: 86
 Label: contempt -> Precision: 0.24, Recall: 0.15, F1 Score: 0.18, Support: 41
 Label: doubt -> Precision: 0.10, Recall: 0.02, F1 Score: 0.04, Support: 45
-
-File: results/baseline_R_gpt4o-mini.txt
-EVALUATION METRICS
-=================
-Overall Accuracy: 0.93
-Label: happy -> Precision: 0.92, Recall: 0.99, F1 Score: 0.95, Support: 475
-Label: sad -> Precision: 0.98, Recall: 0.89, F1 Score: 0.94, Support: 1091
-Label: neutral -> Precision: 0.99, Recall: 0.96, F1 Score: 0.97, Support: 1352
-Label: angry -> Precision: 1.00, Recall: 0.90, F1 Score: 0.95, Support: 874
-Label: worried -> Precision: 0.74, Recall: 0.97, F1 Score: 0.84, Support: 310
-Label: surprise -> Precision: 0.92, Recall: 0.96, F1 Score: 0.94, Support: 213
-Label: fear -> Precision: 0.48, Recall: 0.85, F1 Score: 0.61, Support: 86
-Label: contempt -> Precision: 0.91, Recall: 0.98, F1 Score: 0.94, Support: 41
-Label: doubt -> Precision: 0.90, Recall: 0.96, F1 Score: 0.92, Support: 45
-
-File: results/mini_baseline_RTAV_COT_gpt4o-mini.txt
-EVALUATION METRICS
-=================
-Overall Accuracy: 0.86
-Label: happy -> Precision: 0.91, Recall: 1.00, F1 Score: 0.95, Support: 10
-Label: sad -> Precision: 1.00, Recall: 0.50, F1 Score: 0.67, Support: 10
-Label: neutral -> Precision: 0.91, Recall: 1.00, F1 Score: 0.95, Support: 10
-Label: angry -> Precision: 1.00, Recall: 0.80, F1 Score: 0.89, Support: 10
-Label: worried -> Precision: 0.69, Recall: 0.90, F1 Score: 0.78, Support: 10
-Label: surprise -> Precision: 0.90, Recall: 0.90, F1 Score: 0.90, Support: 10
-Label: fear -> Precision: 0.58, Recall: 0.70, F1 Score: 0.64, Support: 10
-Label: contempt -> Precision: 1.00, Recall: 0.90, F1 Score: 0.95, Support: 10
-Label: doubt -> Precision: 0.91, Recall: 1.00, F1 Score: 0.95, Support: 10
-
-File: results/mini_baseline_RTAV_TOT_gpt4o_4-expert-debate-BI.txt
-EVALUATION METRICS
-=================
-Overall Accuracy: 0.67
-Label: happy -> Precision: 0.62, Recall: 1.00, F1 Score: 0.77, Support: 10
-Label: sad -> Precision: 0.75, Recall: 0.30, F1 Score: 0.43, Support: 10
-Label: neutral -> Precision: 1.00, Recall: 0.90, F1 Score: 0.95, Support: 10
-Label: angry -> Precision: 1.00, Recall: 0.50, F1 Score: 0.67, Support: 10
-Label: worried -> Precision: 0.67, Recall: 0.60, F1 Score: 0.63, Support: 10
-Label: surprise -> Precision: 1.00, Recall: 0.70, F1 Score: 0.82, Support: 10
-Label: fear -> Precision: 0.40, Recall: 0.60, F1 Score: 0.48, Support: 10
-Label: contempt -> Precision: 1.00, Recall: 0.60, F1 Score: 0.75, Support: 10
-Label: doubt -> Precision: 0.80, Recall: 0.80, F1 Score: 0.80, Support: 10
-
-File: results/baseline_RTAV_gpt4o-mini.txt
-EVALUATION METRICS
-=================
-Overall Accuracy: 0.88
-Label: happy -> Precision: 0.91, Recall: 0.98, F1 Score: 0.94, Support: 475
-Label: sad -> Precision: 0.97, Recall: 0.79, F1 Score: 0.87, Support: 1091
-Label: neutral -> Precision: 0.98, Recall: 0.96, F1 Score: 0.97, Support: 1352
-Label: angry -> Precision: 0.99, Recall: 0.79, F1 Score: 0.88, Support: 874
-Label: worried -> Precision: 0.71, Recall: 0.94, F1 Score: 0.81, Support: 310
-Label: surprise -> Precision: 0.92, Recall: 0.96, F1 Score: 0.94, Support: 213
-Label: fear -> Precision: 0.20, Recall: 0.80, F1 Score: 0.32, Support: 86
-Label: contempt -> Precision: 0.98, Recall: 0.98, F1 Score: 0.98, Support: 41
-Label: doubt -> Precision: 0.85, Recall: 0.91, F1 Score: 0.88, Support: 45
 
 File: results/baseline_TV_gpt4o-mini.txt
 EVALUATION METRICS
@@ -193,34 +95,6 @@ Label: surprise -> Precision: 1.00, Recall: 0.40, F1 Score: 0.57, Support: 10
 Label: fear -> Precision: 0.17, Recall: 0.20, F1 Score: 0.18, Support: 10
 Label: contempt -> Precision: 0.40, Recall: 0.20, F1 Score: 0.27, Support: 10
 Label: doubt -> Precision: 1.00, Recall: 0.30, F1 Score: 0.46, Support: 10
-
-File: results/mini_baseline_RTAV_TOT_gpt4o-mini.txt
-EVALUATION METRICS
-=================
-Overall Accuracy: 0.78
-Label: happy -> Precision: 0.83, Recall: 1.00, F1 Score: 0.91, Support: 10
-Label: sad -> Precision: 1.00, Recall: 0.40, F1 Score: 0.57, Support: 10
-Label: neutral -> Precision: 0.91, Recall: 1.00, F1 Score: 0.95, Support: 10
-Label: angry -> Precision: 1.00, Recall: 0.70, F1 Score: 0.82, Support: 10
-Label: worried -> Precision: 0.54, Recall: 0.70, F1 Score: 0.61, Support: 10
-Label: surprise -> Precision: 0.90, Recall: 0.90, F1 Score: 0.90, Support: 10
-Label: fear -> Precision: 0.46, Recall: 0.60, F1 Score: 0.52, Support: 10
-Label: contempt -> Precision: 1.00, Recall: 0.90, F1 Score: 0.95, Support: 10
-Label: doubt -> Precision: 0.80, Recall: 0.80, F1 Score: 0.80, Support: 10
-
-File: results/mini_baseline_RTAV_TOT_gpt4o_4-expert-debate-UNI.txt
-EVALUATION METRICS
-=================
-Overall Accuracy: 0.76
-Label: happy -> Precision: 0.67, Recall: 1.00, F1 Score: 0.80, Support: 10
-Label: sad -> Precision: 1.00, Recall: 0.40, F1 Score: 0.57, Support: 10
-Label: neutral -> Precision: 0.82, Recall: 0.90, F1 Score: 0.86, Support: 10
-Label: angry -> Precision: 1.00, Recall: 0.70, F1 Score: 0.82, Support: 10
-Label: worried -> Precision: 0.60, Recall: 0.90, F1 Score: 0.72, Support: 10
-Label: surprise -> Precision: 0.89, Recall: 0.80, F1 Score: 0.84, Support: 10
-Label: fear -> Precision: 0.56, Recall: 0.50, F1 Score: 0.53, Support: 10
-Label: contempt -> Precision: 1.00, Recall: 0.70, F1 Score: 0.82, Support: 10
-Label: doubt -> Precision: 0.90, Recall: 0.90, F1 Score: 0.90, Support: 10
 
 File: results/mini_baseline_TAV_TOT_gpt4o-mini.txt
 EVALUATION METRICS

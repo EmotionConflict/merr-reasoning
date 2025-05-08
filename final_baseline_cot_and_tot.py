@@ -173,6 +173,11 @@ def main():
     if output_dir:  # Only create directory if there's a path
         os.makedirs(output_dir, exist_ok=True)
     
+    # Save structured results as a JSON file.
+    json_output_file = os.path.join(output_file_name.replace(".txt", ".json"))
+    with open(json_output_file, "w") as f:
+        json.dump(results, f, indent=2)
+        
     with open(output_file_name, "w") as f:
         f.write("PREDICTION RESULTS\n")
         f.write("=================\n\n")

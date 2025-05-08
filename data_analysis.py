@@ -27,7 +27,7 @@ def extract_evaluation_metrics(file_path):
 
     print("Evaluation metrics have been extracted to data_analysis.txt")
 
-def plot_evaluation_metrics(file_path):
+def plot_evaluation_metrics(file_path, output_folder):
     """
     Reads evaluation metrics from a file and plots radar charts separately for mini_baseline and other models,
     ignoring any filename that contains 'RTAV'. In total, 8 plots are created:
@@ -37,7 +37,6 @@ def plot_evaluation_metrics(file_path):
     All images are saved to a folder.
     """
     # Create output folder if it doesn't exist
-    output_folder = "plots"
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
@@ -122,7 +121,7 @@ def plot_evaluation_metrics(file_path):
             ax.legend(loc='center left', bbox_to_anchor=(1.15, 0.5), fontsize='small')
             fig.subplots_adjust(bottom=0.3)
             # Save the plot instead of displaying it
-            plt.savefig(os.path.join(output_folder, f"mini_baseline_{metric}.png"))
+            plt.savefig(os.path.join(output_folder, f"mini_baseline_{metric}.png"), bbox_inches="tight")
             plt.close()
 
         # Radar chart for other models (if any)
@@ -142,11 +141,12 @@ def plot_evaluation_metrics(file_path):
             ax.legend(loc='center left', bbox_to_anchor=(1.15, 0.5), fontsize='small')
             fig.subplots_adjust(bottom=0.3)
             # Save the plot
-            plt.savefig(os.path.join(output_folder, f"others_{metric}.png"))
+            plt.savefig(os.path.join(output_folder, f"others_{metric}.png"), bbox_inches="tight")
             plt.close()
 
     # 7. Extra Plot: Combined radar chart for F1 Score overlaying both groups
     if mini_baseline_models or other_models:
+        # Combined F1
         fig, ax = plt.subplots(subplot_kw={'projection': 'polar'}, figsize=(8, 8))
         if mini_baseline_models:
             for filename, label_scores in mini_baseline_models.items():
@@ -168,8 +168,57 @@ def plot_evaluation_metrics(file_path):
         ax.set_ylim(0, 1)
         ax.legend(loc='center left', bbox_to_anchor=(1.15, 0.5), fontsize='small')
         fig.subplots_adjust(bottom=0.3)
-        # Save the combined F1 plot
-        plt.savefig(os.path.join(output_folder, "combined_f1.png"))
+        plt.savefig(os.path.join(output_folder, "combined_f1.png"), bbox_inches="tight")
+        plt.close()
+
+        # Combined Precision
+        fig, ax = plt.subplots(subplot_kw={'projection': 'polar'}, figsize=(8, 8))
+        if mini_baseline_models:
+            for filename, label_scores in mini_baseline_models.items():
+                scores = [label_scores.get(lbl, {}).get('precision', 0) for lbl in labels]
+                scores += scores[:1]
+                display_name = "Mini: " + os.path.basename(filename)
+                ax.plot(angles, scores, linewidth=2, label=display_name)
+                ax.fill(angles, scores, alpha=0.1)
+        if other_models:
+            for filename, label_scores in other_models.items():
+                scores = [label_scores.get(lbl, {}).get('precision', 0) for lbl in labels]
+                scores += scores[:1]
+                display_name = "Other: " + os.path.basename(filename)
+                ax.plot(angles, scores, linewidth=2, label=display_name)
+                ax.fill(angles, scores, alpha=0.1)
+        ax.set_thetagrids([angle * 180 / np.pi for angle in angles[:-1]], labels)
+        ax.set_title("Combined Precision Comparison", pad=30)
+        ax.tick_params(axis='x', pad=15)
+        ax.set_ylim(0, 1)
+        ax.legend(loc='center left', bbox_to_anchor=(1.15, 0.5), fontsize='small')
+        fig.subplots_adjust(bottom=0.3)
+        plt.savefig(os.path.join(output_folder, "combined_precision.png"), bbox_inches="tight")
+        plt.close()
+
+        # Combined Recall
+        fig, ax = plt.subplots(subplot_kw={'projection': 'polar'}, figsize=(8, 8))
+        if mini_baseline_models:
+            for filename, label_scores in mini_baseline_models.items():
+                scores = [label_scores.get(lbl, {}).get('recall', 0) for lbl in labels]
+                scores += scores[:1]
+                display_name = "Mini: " + os.path.basename(filename)
+                ax.plot(angles, scores, linewidth=2, label=display_name)
+                ax.fill(angles, scores, alpha=0.1)
+        if other_models:
+            for filename, label_scores in other_models.items():
+                scores = [label_scores.get(lbl, {}).get('recall', 0) for lbl in labels]
+                scores += scores[:1]
+                display_name = "Other: " + os.path.basename(filename)
+                ax.plot(angles, scores, linewidth=2, label=display_name)
+                ax.fill(angles, scores, alpha=0.1)
+        ax.set_thetagrids([angle * 180 / np.pi for angle in angles[:-1]], labels)
+        ax.set_title("Combined Recall Comparison", pad=30)
+        ax.tick_params(axis='x', pad=15)
+        ax.set_ylim(0, 1)
+        ax.legend(loc='center left', bbox_to_anchor=(1.15, 0.5), fontsize='small')
+        fig.subplots_adjust(bottom=0.3)
+        plt.savefig(os.path.join(output_folder, "combined_recall.png"), bbox_inches="tight")
         plt.close()
 
     # 8. Extra Plot: Bar chart comparing average metrics between groups
@@ -208,12 +257,14 @@ def plot_evaluation_metrics(file_path):
     ax.set_xticklabels(metrics_names)
     ax.legend()
     # Save the bar chart
-    plt.savefig(os.path.join(output_folder, "average_metrics_comparison.png"))
+    plt.savefig(os.path.join(output_folder, "average_metrics_comparison.png"), bbox_inches="tight")
     plt.close()
 
 if __name__ == "__main__":
     # First, you can extract metrics if needed:
-    # extract_evaluation_metrics("results/")
+    # extract_evaluation_metrics("final/result/MER")
 
     # Then plot the charts and save the images to the "plots" folder:
-    plot_evaluation_metrics("results/data_analysis.txt")
+    # plot_evaluation_metrics("final/result/MER/data_analysis.txt", "final/result/MER/plots")
+    # plot_evaluation_metrics("final/result/MELD/data_analysis.txt", "final/result/MELD/plots")
+    plot_evaluation_metrics("results/data_analysis.txt", "plots")
