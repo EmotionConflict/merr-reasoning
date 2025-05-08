@@ -85,9 +85,12 @@ def main():
     if args.dataset == "MELD":
         constants_mod = importlib.import_module("MELD_constants")
         print("MELD constants imported")
+    elif args.dataset == "MER":
+        constants_mod = importlib.import_module("MER_constants")
+        print("MER constants imported")
     else:
         constants_mod = importlib.import_module("constants")
-        print("MER constants imported")
+        print("Constants imported")
 
     # Update the global SYSTEM_PROMPT and PROMPT_MAPPING based on the dataset
     global SYSTEM_PROMPT

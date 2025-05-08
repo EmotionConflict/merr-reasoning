@@ -48,17 +48,29 @@ TOT combinations:
 
 ## FINAL
 
-## to run final_baseline_main.py (✅ MER, ✅ MELD)
+## to run final_baseline_main.py (✅ MER)
 
-`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/baseline_T_gpt4o.txt --comb T --dataset MER`
+`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/run2/baseline_T_gpt4o.txt --comb T --dataset MER`
 
-`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/baseline_TA_gpt4o.txt --comb TA --dataset MER`
+`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/run2/baseline_TA_gpt4o.txt --comb TA --dataset MER`
 
-`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/baseline_AV_gpt4o.txt --comb AV --dataset MER`
+`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/run2/baseline_AV_gpt4o.txt --comb AV --dataset MER`
 
-`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/baseline_TV_gpt4o.txt --comb TV --dataset MER`
+`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/run2/baseline_TV_gpt4o.txt --comb TV --dataset MER`
 
-`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/baseline_TAV_gpt4o.txt --comb TAV --dataset MER`
+`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/run2/baseline_TAV_gpt4o.txt --comb TAV --dataset MER`
+
+## to run final_baseline_main.py (✅ MELD)
+
+`python final_baseline_main.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/run2/baseline_T_gpt4o.txt --comb T --dataset MELD`
+
+`python final_baseline_main.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/run2/baseline_TA_gpt4o.txt --comb TA --dataset MELD`
+
+`python final_baseline_main.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/run2/baseline_AV_gpt4o.txt --comb AV --dataset MELD`
+
+`python final_baseline_main.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/run2/baseline_TV_gpt4o.txt --comb TV --dataset MELD`
+
+`python final_baseline_main.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/run2/baseline_TAV_gpt4o.txt --comb TAV --dataset MELD`
 
 ## to run final_baseline_cot_and_tot.py (✅ MER, ✅ MELD)
 

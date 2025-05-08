@@ -1,0 +1,74 @@
+PREDICTION RESULTS
+=================
+
+Sample 0: Ground Truth: surprise, Predicted: neutral
+Sample 1: Ground Truth: neutral, Predicted: surprise
+Sample 2: Ground Truth: surprise, Predicted: neutral
+Sample 3: Ground Truth: surprise, Predicted: surprise
+Sample 4: Ground Truth: happy, Predicted: happy
+Sample 5: Ground Truth: neutral, Predicted: worried
+Sample 6: Ground Truth: happy, Predicted: happy
+Sample 7: Ground Truth: worried, Predicted: worried
+Sample 8: Ground Truth: worried, Predicted: neutral
+Sample 9: Ground Truth: worried, Predicted: worried
+Sample 10: Ground Truth: worried, Predicted: worried
+Sample 11: Ground Truth: sad, Predicted: worried
+Sample 12: Ground Truth: angry, Predicted: angry
+Sample 13: Ground Truth: angry, Predicted: worried
+Sample 14: Ground Truth: sad, Predicted: sad
+Sample 15: Ground Truth: sad, Predicted: sad
+Sample 16: Ground Truth: happy, Predicted: happy
+Sample 17: Ground Truth: surprise, Predicted: neutral
+Sample 18: Ground Truth: happy, Predicted: neutral
+Sample 19: Ground Truth: angry, Predicted: neutral
+Sample 20: Ground Truth: worried, Predicted: sad
+Sample 21: Ground Truth: angry, Predicted: worried
+Sample 22: Ground Truth: neutral, Predicted: neutral
+Sample 23: Ground Truth: neutral, Predicted: neutral
+Sample 24: Ground Truth: angry, Predicted: neutral
+Sample 25: Ground Truth: angry, Predicted: worried
+Sample 26: Ground Truth: angry, Predicted: worried
+Sample 27: Ground Truth: sad, Predicted: neutral
+Sample 28: Ground Truth: sad, Predicted: worried
+Sample 29: Ground Truth: neutral, Predicted: worried
+Sample 30: Ground Truth: sad, Predicted: angry
+Sample 31: Ground Truth: happy, Predicted: happy
+Sample 32: Ground Truth: worried, Predicted: worried
+Sample 33: Ground Truth: sad, Predicted: happy
+Sample 34: Ground Truth: worried, Predicted: worried
+Sample 35: Ground Truth: surprise, Predicted: neutral
+Sample 36: Ground Truth: happy, Predicted: happy
+Sample 37: Ground Truth: angry, Predicted: worried
+Sample 38: Ground Truth: happy, Predicted: happy
+Sample 39: Ground Truth: neutral, Predicted: neutral
+Sample 40: Ground Truth: surprise, Predicted: worried
+Sample 41: Ground Truth: worried, Predicted: happy
+Sample 42: Ground Truth: sad, Predicted: worried
+Sample 43: Ground Truth: worried, Predicted: neutral
+Sample 44: Ground Truth: happy, Predicted: happy
+Sample 45: Ground Truth: surprise, Predicted: neutral
+Sample 46: Ground Truth: neutral, Predicted: happy
+Sample 47: Ground Truth: sad, Predicted: sad
+Sample 48: Ground Truth: sad, Predicted: sad
+Sample 49: Ground Truth: worried, Predicted: neutral
+Sample 50: Ground Truth: happy, Predicted: happy
+Sample 51: Ground Truth: angry, Predicted: worried
+Sample 52: Ground Truth: neutral, Predicted: neutral
+Sample 53: Ground Truth: neutral, Predicted: neutral
+Sample 54: Ground Truth: surprise, Predicted: neutral
+Sample 55: Ground Truth: angry, Predicted: neutral
+Sample 56: Ground Truth: neutral, Predicted: neutral
+Sample 57: Ground Truth: surprise, Predicted: neutral
+Sample 58: Ground Truth: happy, Predicted: happy
+Sample 59: Ground Truth: surprise, Predicted: surprise
+
+EVALUATION METRICS
+=================
+
+Overall Accuracy: 0.45
+Label: happy -> Precision: 0.75, Recall: 0.90, F1 Score: 0.82, Support: 10
+Label: sad -> Precision: 0.80, Recall: 0.40, F1 Score: 0.53, Support: 10
+Label: neutral -> Precision: 0.29, Recall: 0.60, F1 Score: 0.39, Support: 10
+Label: angry -> Precision: 0.50, Recall: 0.10, F1 Score: 0.17, Support: 10
+Label: worried -> Precision: 0.29, Recall: 0.50, F1 Score: 0.37, Support: 10
+Label: surprise -> Precision: 0.67, Recall: 0.20, F1 Score: 0.31, Support: 10
