@@ -45,3 +45,20 @@ TOT combinations:
 `python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_RTAV_TOT_gpt4o_4-expert-BI.txt --comb RTAV --prompt TOT-4-EXPERT-BI`
 `python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-BI`
 `python baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_RTAV_TOT_gpt4o_4-expert-debate-BI.txt --comb RTAV --prompt TOT-4-EXPERT-DEBATE-BI`
+
+## FINAL
+
+## to run final_baseline_main.py
+
+`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/baseline_T_gpt4o.txt --comb T`
+`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/baseline_TA_gpt4o.txt --comb TA`
+`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/baseline_AV_gpt4o.txt --comb AV`
+`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/baseline_TV_gpt4o.txt --comb TV`
+`python final_baseline_main.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/baseline_TAV_gpt4o.txt --comb TAV`
+
+## to run final_baseline_cot_and_tot.py
+
+`python final_baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_COT_gpt4o.txt --comb TAV --prompt COT`
+`python final_baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_TOT_gpt4o.txt --comb TAV --prompt TOT`
+`python final_baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_COT_gpt4o.txt --comb RTAV --prompt COT`
+`python final_baseline_cot_and_tot.py --model gpt-4o-mini --output mini_baseline_TAV_TOT_gpt4o.txt --comb RTAV --prompt TOT`

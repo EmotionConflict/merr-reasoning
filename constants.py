@@ -1,6 +1,6 @@
 # This is what Emotion-LLaMA uses as the system prompt.
 SYSTEM_PROMPT = (
-    "Please determine which emotion label in the video represents: happy, sad, neutral, angry, worried, surprise, fear, contempt, doubt. Answer the emotion label in lower-case."
+    "Please determine which emotion label in the video represents: happy, sad, neutral, angry, worried, surprise, fear, contempt, doubt. IMPORTANT:Answer the emotion label in lower-case only without any other text."
 )
 
 # SYSTEM_PROMPT_BASELINE = (
