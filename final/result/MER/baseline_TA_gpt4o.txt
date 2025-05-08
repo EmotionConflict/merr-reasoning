@@ -72,6 +72,3 @@ Label: neutral -> Precision: 0.17, Recall: 0.50, F1 Score: 0.25, Support: 10
 Label: angry -> Precision: 0.75, Recall: 0.30, F1 Score: 0.43, Support: 10
 Label: worried -> Precision: 0.20, Recall: 0.10, F1 Score: 0.13, Support: 10
 Label: surprise -> Precision: 0.17, Recall: 0.10, F1 Score: 0.12, Support: 10
-Label: fear -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: contempt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: doubt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0

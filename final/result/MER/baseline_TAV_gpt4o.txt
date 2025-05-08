@@ -20,7 +20,7 @@ Sample 15: Ground Truth: sad, Predicted: sad
 Sample 16: Ground Truth: happy, Predicted: happy
 Sample 17: Ground Truth: surprise, Predicted: surprise
 Sample 18: Ground Truth: happy, Predicted: neutral
-Sample 19: Ground Truth: angry, Predicted: neutral
+Sample 19: Ground Truth: angry, Predicted: worried
 Sample 20: Ground Truth: worried, Predicted: sad
 Sample 21: Ground Truth: angry, Predicted: worried
 Sample 22: Ground Truth: neutral, Predicted: happy
@@ -52,7 +52,7 @@ Sample 47: Ground Truth: sad, Predicted: sad
 Sample 48: Ground Truth: sad, Predicted: sad
 Sample 49: Ground Truth: worried, Predicted: neutral
 Sample 50: Ground Truth: happy, Predicted: happy
-Sample 51: Ground Truth: angry, Predicted: neutral
+Sample 51: Ground Truth: angry, Predicted: happy
 Sample 52: Ground Truth: neutral, Predicted: neutral
 Sample 53: Ground Truth: neutral, Predicted: neutral
 Sample 54: Ground Truth: surprise, Predicted: neutral
@@ -66,12 +66,9 @@ EVALUATION METRICS
 =================
 
 Overall Accuracy: 0.38
-Label: happy -> Precision: 0.40, Recall: 0.60, F1 Score: 0.48, Support: 10
+Label: happy -> Precision: 0.38, Recall: 0.60, F1 Score: 0.46, Support: 10
 Label: sad -> Precision: 0.67, Recall: 0.40, F1 Score: 0.50, Support: 10
-Label: neutral -> Precision: 0.20, Recall: 0.40, F1 Score: 0.27, Support: 10
+Label: neutral -> Precision: 0.22, Recall: 0.40, F1 Score: 0.29, Support: 10
 Label: angry -> Precision: 1.00, Recall: 0.30, F1 Score: 0.46, Support: 10
-Label: worried -> Precision: 0.40, Recall: 0.40, F1 Score: 0.40, Support: 10
+Label: worried -> Precision: 0.36, Recall: 0.40, F1 Score: 0.38, Support: 10
 Label: surprise -> Precision: 0.33, Recall: 0.20, F1 Score: 0.25, Support: 10
-Label: fear -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: contempt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: doubt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0

@@ -142,7 +142,10 @@ def main():
         results.append(result_entry)
     
     # Define the set of possible labels.
-    labels = ["happy", "sad", "neutral", "angry", "worried", "surprise", "fear", "contempt", "doubt"]
+        if args.dataset == "MELD":
+            labels = ["anger", "disgust", "sadness", "joy", "neutral", "surprise", "fear"]
+        else:
+            labels = ["happy", "sad", "neutral", "angry", "worried", "surprise"]
     
     # Compute evaluation metrics.
     precision, recall, f1, support = precision_recall_fscore_support(

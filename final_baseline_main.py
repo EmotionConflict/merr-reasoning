@@ -105,7 +105,7 @@ def main():
     if args.dataset == "MELD":
         labels = ["anger", "disgust", "sadness", "joy", "neutral", "surprise", "fear"]
     else:
-        labels = ["happy", "sad", "neutral", "angry", "worried", "surprise", "fear", "contempt", "doubt"]
+        labels = ["happy", "sad", "neutral", "angry", "worried", "surprise"]
     
     # Compute precision, recall, and F1 score for each label.
     precision, recall, f1, support = precision_recall_fscore_support(

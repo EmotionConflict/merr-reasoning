@@ -5,7 +5,7 @@ Sample 0: Ground Truth: surprise, Predicted: neutral
 Sample 1: Ground Truth: neutral, Predicted: worried
 Sample 2: Ground Truth: surprise, Predicted: angry
 Sample 3: Ground Truth: surprise, Predicted: neutral
-Sample 4: Ground Truth: happy, Predicted: neutral
+Sample 4: Ground Truth: happy, Predicted: please provide the content or context of what the person in the video says so i can determine the appropriate emotion label.
 Sample 5: Ground Truth: neutral, Predicted: neutral
 Sample 6: Ground Truth: happy, Predicted: angry
 Sample 7: Ground Truth: worried, Predicted: sad
@@ -23,11 +23,11 @@ Sample 18: Ground Truth: happy, Predicted: surprise
 Sample 19: Ground Truth: angry, Predicted: sad
 Sample 20: Ground Truth: worried, Predicted: sad
 Sample 21: Ground Truth: angry, Predicted: worried
-Sample 22: Ground Truth: neutral, Predicted: happy
+Sample 22: Ground Truth: neutral, Predicted: neutral
 Sample 23: Ground Truth: neutral, Predicted: neutral
 Sample 24: Ground Truth: angry, Predicted: neutral
 Sample 25: Ground Truth: angry, Predicted: angry
-Sample 26: Ground Truth: angry, Predicted: sad
+Sample 26: Ground Truth: angry, Predicted: angry
 Sample 27: Ground Truth: sad, Predicted: sad
 Sample 28: Ground Truth: sad, Predicted: neutral
 Sample 29: Ground Truth: neutral, Predicted: sad
@@ -65,13 +65,10 @@ Sample 59: Ground Truth: surprise, Predicted: surprise
 EVALUATION METRICS
 =================
 
-Overall Accuracy: 0.30
-Label: happy -> Precision: 0.40, Recall: 0.20, F1 Score: 0.27, Support: 10
-Label: sad -> Precision: 0.33, Recall: 0.40, F1 Score: 0.36, Support: 10
-Label: neutral -> Precision: 0.23, Recall: 0.70, F1 Score: 0.35, Support: 10
-Label: angry -> Precision: 0.50, Recall: 0.40, F1 Score: 0.44, Support: 10
+Overall Accuracy: 0.33
+Label: happy -> Precision: 0.50, Recall: 0.20, F1 Score: 0.29, Support: 10
+Label: sad -> Precision: 0.36, Recall: 0.40, F1 Score: 0.38, Support: 10
+Label: neutral -> Precision: 0.27, Recall: 0.80, F1 Score: 0.40, Support: 10
+Label: angry -> Precision: 0.56, Recall: 0.50, F1 Score: 0.53, Support: 10
 Label: worried -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 10
 Label: surprise -> Precision: 0.50, Recall: 0.10, F1 Score: 0.17, Support: 10
-Label: fear -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: contempt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: doubt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
