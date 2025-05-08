@@ -6,34 +6,13 @@ from dotenv import load_dotenv
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 import constants
 from pydantic import BaseModel
+import importlib
 
 # Load environment variables
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(api_key=api_key)
-
-# Initially set SYSTEM_PROMPT to the default prompt
-SYSTEM_PROMPT = constants.SYSTEM_PROMPT
-
-# Add PROMPT_MAPPING to support multiple prompt options
-PROMPT_MAPPING = {
-    # Simple chain-of-thought
-    "COT": constants.SYSTEM_PROMPT_CHAIN_OF_THOUGHT,
-    "TOT": constants.SYSTEM_PROMPT_TREE_OF_THOUGHT,
-    
-    # TOT without debate
-    "TOT-3-EXPERT-UNI": constants.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT,
-    "TOT-4-EXPERT-UNI": constants.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_4_EXPERT,
-    "TOT-3-EXPERT-BI": constants.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_3_EXPERT,
-    "TOT-4-EXPERT-BI": constants.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_4_EXPERT,
-    
-    # TOT with debate
-    "TOT-3-EXPERT-DEBATE-UNI": constants.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT_DEBATE,
-    "TOT-4-EXPERT-DEBATE-UNI": constants.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_4_EXPERT_DEBATE,
-    "TOT-3-EXPERT-DEBATE-BI": constants.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_3_EXPERT_DEBATE,
-    "TOT-4-EXPERT-DEBATE-BI": constants.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_4_EXPERT_DEBATE,
-}
 
 # Define a Pydantic model for our structured LLM output
 class LLMResponse(BaseModel):
@@ -94,20 +73,41 @@ def main():
     parser.add_argument("--output", type=str, default=None, help="Output file name for the results")
     parser.add_argument("--comb", type=str, choices=["T", "TV", "TA", "AV", "TAV", "RTAV"], default="T",
                         help="Specify the combination of modalities to use: T (text), TV (text and visual), TA (text and audio), AV (audio and visual), or TAV (all three)")
-    # Updated choices for --prompt to support additional options.
     parser.add_argument("--prompt", type=str, choices=["", "TOT", "COT", "TOT-3-EXPERT-UNI", "TOT-4-EXPERT-UNI", 
                                                        "TOT-3-EXPERT-BI", "TOT-4-EXPERT-BI",
                                                        "TOT-3-EXPERT-DEBATE-UNI", "TOT-4-EXPERT-DEBATE-UNI",
                                                        "TOT-3-EXPERT-DEBATE-BI", "TOT-4-EXPERT-DEBATE-BI"],
                         default="", help="Select prompt type from the available options")
+    parser.add_argument("--dataset", type=str, choices=["MER", "MELD"], default="MER", help="Dataset to use: MER or MELD")
     args = parser.parse_args()
     
-    # Update the global SYSTEM_PROMPT based on the --prompt flag using the PROMPT_MAPPING.
+    # Dynamically import the correct constants module
+    if args.dataset == "MELD":
+        constants_mod = importlib.import_module("MELD_constants")
+        print("MELD constants imported")
+    else:
+        constants_mod = importlib.import_module("constants")
+        print("MER constants imported")
+
+    # Update the global SYSTEM_PROMPT and PROMPT_MAPPING based on the dataset
     global SYSTEM_PROMPT
+    SYSTEM_PROMPT = constants_mod.SYSTEM_PROMPT
+    PROMPT_MAPPING = {
+        "COT": constants_mod.SYSTEM_PROMPT_CHAIN_OF_THOUGHT,
+        "TOT": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT,
+        "TOT-3-EXPERT-UNI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT,
+        "TOT-4-EXPERT-UNI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_4_EXPERT,
+        "TOT-3-EXPERT-BI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_3_EXPERT,
+        "TOT-4-EXPERT-BI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_4_EXPERT,
+        "TOT-3-EXPERT-DEBATE-UNI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT_DEBATE,
+        "TOT-4-EXPERT-DEBATE-UNI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_4_EXPERT_DEBATE,
+        "TOT-3-EXPERT-DEBATE-BI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_3_EXPERT_DEBATE,
+        "TOT-4-EXPERT-DEBATE-BI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_4_EXPERT_DEBATE,
+    }
     if args.prompt in PROMPT_MAPPING:
         SYSTEM_PROMPT = PROMPT_MAPPING[args.prompt]
     else:
-        SYSTEM_PROMPT = constants.SYSTEM_PROMPT
+        SYSTEM_PROMPT = constants_mod.SYSTEM_PROMPT
 
     input_file = args.input  # Get the input file path
     selected_model = args.model
@@ -142,10 +142,10 @@ def main():
         results.append(result_entry)
     
     # Define the set of possible labels.
-        if args.dataset == "MELD":
-            labels = ["anger", "disgust", "sadness", "joy", "neutral", "surprise", "fear"]
-        else:
-            labels = ["happy", "sad", "neutral", "angry", "worried", "surprise"]
+    if args.dataset == "MELD":
+        labels = ["anger", "disgust", "sadness", "joy", "neutral", "surprise", "fear"]
+    else:
+        labels = ["happy", "sad", "neutral", "angry", "worried", "surprise"]
     
     # Compute evaluation metrics.
     precision, recall, f1, support = precision_recall_fscore_support(
