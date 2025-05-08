@@ -65,3 +65,21 @@ TOT combinations:
 `python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/mini_baseline_TAV_COT_gpt4o.txt --comb TAV --prompt COT --dataset MELD`
 
 `python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/mini_baseline_TAV_TOT_gpt4o.txt --comb TAV --prompt TOT --dataset MELD`
+
+TOT combinations: (❌ MELD)
+`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt --comb TAV --prompt TOT-3-EXPERT-UNI --dataset MELD`
+
+`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-UNI --dataset MELD`
+
+`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt --comb TAV --prompt TOT-3-EXPERT-BI --dataset MELD`
+
+`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o-mini --output final/result/MELD/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-BI --dataset MELD`
+
+TOT combinations: (❌ MER)
+`python final_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt --comb TAV --prompt TOT-3-EXPERT-UNI --dataset MER`
+
+`python final_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-UNI --dataset MER`
+
+`python final_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt --comb TAV --prompt TOT-3-EXPERT-BI --dataset MER`
+
+`python final_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-BI --dataset MER`
