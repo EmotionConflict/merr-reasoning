@@ -102,7 +102,10 @@ def main():
         result_details.append(f"Sample {i}: Ground Truth: {ground_truth}, Predicted: {predicted}")
     
     # Define the set of possible labels.
-    labels = ["happy", "sad", "neutral", "angry", "worried", "surprise", "fear", "contempt", "doubt"]
+    if args.dataset == "MELD":
+        labels = ["anger", "disgust", "sadness", "joy", "neutral", "surprise", "fear"]
+    else:
+        labels = ["happy", "sad", "neutral", "angry", "worried", "surprise", "fear", "contempt", "doubt"]
     
     # Compute precision, recall, and F1 score for each label.
     precision, recall, f1, support = precision_recall_fscore_support(

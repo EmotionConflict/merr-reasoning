@@ -12,7 +12,7 @@ Sample 7: Ground Truth: fear, Predicted: neutral
 Sample 8: Ground Truth: neutral, Predicted: sadness
 Sample 9: Ground Truth: neutral, Predicted: anger
 Sample 10: Ground Truth: joy, Predicted: neutral
-Sample 11: Ground Truth: surprise, Predicted: surprise
+Sample 11: Ground Truth: surprise, Predicted: anger
 Sample 12: Ground Truth: neutral, Predicted: neutral
 Sample 13: Ground Truth: surprise, Predicted: joy
 Sample 14: Ground Truth: neutral, Predicted: sadness
@@ -39,7 +39,7 @@ Sample 34: Ground Truth: neutral, Predicted: neutral
 Sample 35: Ground Truth: disgust, Predicted: disgust
 Sample 36: Ground Truth: sadness, Predicted: neutral
 Sample 37: Ground Truth: anger, Predicted: anger
-Sample 38: Ground Truth: anger, Predicted: anger
+Sample 38: Ground Truth: anger, Predicted: fear
 Sample 39: Ground Truth: joy, Predicted: joy
 Sample 40: Ground Truth: disgust, Predicted: anger
 Sample 41: Ground Truth: neutral, Predicted: joy
@@ -99,7 +99,7 @@ Sample 94: Ground Truth: neutral, Predicted: sadness
 Sample 95: Ground Truth: disgust, Predicted: anger
 Sample 96: Ground Truth: neutral, Predicted: joy
 Sample 97: Ground Truth: disgust, Predicted: neutral
-Sample 98: Ground Truth: joy, Predicted: joy
+Sample 98: Ground Truth: joy, Predicted: neutral
 Sample 99: Ground Truth: neutral, Predicted: anger
 Sample 100: Ground Truth: neutral, Predicted: neutral
 Sample 101: Ground Truth: joy, Predicted: neutral
@@ -152,7 +152,7 @@ Sample 147: Ground Truth: surprise, Predicted: joy
 Sample 148: Ground Truth: neutral, Predicted: neutral
 Sample 149: Ground Truth: fear, Predicted: anger
 Sample 150: Ground Truth: joy, Predicted: joy
-Sample 151: Ground Truth: neutral, Predicted: disgust
+Sample 151: Ground Truth: neutral, Predicted: sadness
 Sample 152: Ground Truth: joy, Predicted: neutral
 Sample 153: Ground Truth: joy, Predicted: neutral
 Sample 154: Ground Truth: surprise, Predicted: surprise
@@ -165,7 +165,7 @@ Sample 160: Ground Truth: neutral, Predicted: anger
 Sample 161: Ground Truth: sadness, Predicted: anger
 Sample 162: Ground Truth: sadness, Predicted: neutral
 Sample 163: Ground Truth: anger, Predicted: neutral
-Sample 164: Ground Truth: anger, Predicted: sadness
+Sample 164: Ground Truth: anger, Predicted: disgust
 Sample 165: Ground Truth: neutral, Predicted: neutral
 Sample 166: Ground Truth: neutral, Predicted: neutral
 Sample 167: Ground Truth: anger, Predicted: joy
@@ -177,7 +177,7 @@ Sample 172: Ground Truth: neutral, Predicted: neutral
 Sample 173: Ground Truth: surprise, Predicted: surprise
 Sample 174: Ground Truth: anger, Predicted: anger
 Sample 175: Ground Truth: anger, Predicted: neutral
-Sample 176: Ground Truth: joy, Predicted: sadness
+Sample 176: Ground Truth: joy, Predicted: anger
 Sample 177: Ground Truth: neutral, Predicted: joy
 Sample 178: Ground Truth: neutral, Predicted: neutral
 Sample 179: Ground Truth: neutral, Predicted: sadness
@@ -196,13 +196,11 @@ Sample 190: Ground Truth: joy, Predicted: joy
 EVALUATION METRICS
 =================
 
-Overall Accuracy: 0.35
-Label: happy -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: sad -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Overall Accuracy: 0.34
+Label: anger -> Precision: 0.30, Recall: 0.39, F1 Score: 0.34, Support: 28
+Label: disgust -> Precision: 0.40, Recall: 0.27, F1 Score: 0.32, Support: 15
+Label: sadness -> Precision: 0.21, Recall: 0.20, F1 Score: 0.21, Support: 20
+Label: joy -> Precision: 0.23, Recall: 0.43, F1 Score: 0.30, Support: 23
 Label: neutral -> Precision: 0.43, Recall: 0.43, F1 Score: 0.43, Support: 67
-Label: angry -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: worried -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: surprise -> Precision: 0.67, Recall: 0.25, F1 Score: 0.36, Support: 24
-Label: fear -> Precision: 0.25, Recall: 0.07, F1 Score: 0.11, Support: 14
-Label: contempt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: doubt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Label: surprise -> Precision: 0.62, Recall: 0.21, F1 Score: 0.31, Support: 24
+Label: fear -> Precision: 0.20, Recall: 0.07, F1 Score: 0.11, Support: 14

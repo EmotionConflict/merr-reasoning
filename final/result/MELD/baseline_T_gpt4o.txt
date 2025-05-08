@@ -48,9 +48,9 @@ Sample 43: Ground Truth: fear, Predicted: sadness
 Sample 44: Ground Truth: disgust, Predicted: neutral
 Sample 45: Ground Truth: fear, Predicted: anger
 Sample 46: Ground Truth: sadness, Predicted: neutral
-Sample 47: Ground Truth: sadness, Predicted: disgust
+Sample 47: Ground Truth: sadness, Predicted: surprise
 Sample 48: Ground Truth: joy, Predicted: joy
-Sample 49: Ground Truth: neutral, Predicted: disgust
+Sample 49: Ground Truth: neutral, Predicted: fear
 Sample 50: Ground Truth: neutral, Predicted: neutral
 Sample 51: Ground Truth: sadness, Predicted: sadness
 Sample 52: Ground Truth: sadness, Predicted: surprise
@@ -104,7 +104,7 @@ Sample 99: Ground Truth: neutral, Predicted: neutral
 Sample 100: Ground Truth: neutral, Predicted: joy
 Sample 101: Ground Truth: joy, Predicted: joy
 Sample 102: Ground Truth: neutral, Predicted: neutral
-Sample 103: Ground Truth: sadness, Predicted: sadness
+Sample 103: Ground Truth: sadness, Predicted: disgust
 Sample 104: Ground Truth: fear, Predicted: fear
 Sample 105: Ground Truth: neutral, Predicted: neutral
 Sample 106: Ground Truth: joy, Predicted: joy
@@ -121,7 +121,7 @@ Sample 116: Ground Truth: disgust, Predicted: disgust
 Sample 117: Ground Truth: neutral, Predicted: neutral
 Sample 118: Ground Truth: joy, Predicted: neutral
 Sample 119: Ground Truth: surprise, Predicted: surprise
-Sample 120: Ground Truth: neutral, Predicted: disgust
+Sample 120: Ground Truth: neutral, Predicted: neutral
 Sample 121: Ground Truth: anger, Predicted: joy
 Sample 122: Ground Truth: neutral, Predicted: anger
 Sample 123: Ground Truth: neutral, Predicted: neutral
@@ -197,12 +197,10 @@ EVALUATION METRICS
 =================
 
 Overall Accuracy: 0.50
-Label: happy -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: sad -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: neutral -> Precision: 0.57, Recall: 0.67, F1 Score: 0.62, Support: 67
-Label: angry -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: worried -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: surprise -> Precision: 0.58, Recall: 0.58, F1 Score: 0.58, Support: 24
-Label: fear -> Precision: 0.67, Recall: 0.14, F1 Score: 0.24, Support: 14
-Label: contempt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: doubt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Label: anger -> Precision: 0.38, Recall: 0.39, F1 Score: 0.39, Support: 28
+Label: disgust -> Precision: 0.42, Recall: 0.33, F1 Score: 0.37, Support: 15
+Label: sadness -> Precision: 0.42, Recall: 0.25, F1 Score: 0.31, Support: 20
+Label: joy -> Precision: 0.45, Recall: 0.57, F1 Score: 0.50, Support: 23
+Label: neutral -> Precision: 0.57, Recall: 0.69, F1 Score: 0.63, Support: 67
+Label: surprise -> Precision: 0.56, Recall: 0.58, F1 Score: 0.57, Support: 24
+Label: fear -> Precision: 0.50, Recall: 0.14, F1 Score: 0.22, Support: 14

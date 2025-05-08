@@ -51,7 +51,7 @@ Sample 46: Ground Truth: sadness, Predicted: neutral
 Sample 47: Ground Truth: sadness, Predicted: neutral
 Sample 48: Ground Truth: joy, Predicted: joy
 Sample 49: Ground Truth: neutral, Predicted: neutral
-Sample 50: Ground Truth: neutral, Predicted: joy
+Sample 50: Ground Truth: neutral, Predicted: anger
 Sample 51: Ground Truth: sadness, Predicted: neutral
 Sample 52: Ground Truth: sadness, Predicted: neutral
 Sample 53: Ground Truth: surprise, Predicted: sadness
@@ -82,14 +82,14 @@ Sample 77: Ground Truth: neutral, Predicted: neutral
 Sample 78: Ground Truth: neutral, Predicted: neutral
 Sample 79: Ground Truth: anger, Predicted: neutral
 Sample 80: Ground Truth: surprise, Predicted: fear
-Sample 81: Ground Truth: disgust, Predicted: anger
+Sample 81: Ground Truth: disgust, Predicted: sadness
 Sample 82: Ground Truth: anger, Predicted: sadness
 Sample 83: Ground Truth: disgust, Predicted: sadness
 Sample 84: Ground Truth: neutral, Predicted: joy
 Sample 85: Ground Truth: surprise, Predicted: anger
 Sample 86: Ground Truth: neutral, Predicted: neutral
 Sample 87: Ground Truth: surprise, Predicted: surprise
-Sample 88: Ground Truth: neutral, Predicted: neutral
+Sample 88: Ground Truth: neutral, Predicted: sadness
 Sample 89: Ground Truth: surprise, Predicted: neutral
 Sample 90: Ground Truth: neutral, Predicted: joy
 Sample 91: Ground Truth: sadness, Predicted: surprise
@@ -120,7 +120,7 @@ Sample 115: Ground Truth: neutral, Predicted: joy
 Sample 116: Ground Truth: disgust, Predicted: sadness
 Sample 117: Ground Truth: neutral, Predicted: neutral
 Sample 118: Ground Truth: joy, Predicted: joy
-Sample 119: Ground Truth: surprise, Predicted: neutral
+Sample 119: Ground Truth: surprise, Predicted: sadness
 Sample 120: Ground Truth: neutral, Predicted: joy
 Sample 121: Ground Truth: anger, Predicted: anger
 Sample 122: Ground Truth: neutral, Predicted: sadness
@@ -140,7 +140,7 @@ Sample 135: Ground Truth: surprise, Predicted: disgust
 Sample 136: Ground Truth: fear, Predicted: joy
 Sample 137: Ground Truth: anger, Predicted: joy
 Sample 138: Ground Truth: sadness, Predicted: joy
-Sample 139: Ground Truth: neutral, Predicted: joy
+Sample 139: Ground Truth: neutral, Predicted: anger
 Sample 140: Ground Truth: disgust, Predicted: anger
 Sample 141: Ground Truth: joy, Predicted: joy
 Sample 142: Ground Truth: sadness, Predicted: neutral
@@ -196,13 +196,11 @@ Sample 190: Ground Truth: joy, Predicted: joy
 EVALUATION METRICS
 =================
 
-Overall Accuracy: 0.25
-Label: happy -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: sad -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: neutral -> Precision: 0.36, Recall: 0.31, F1 Score: 0.34, Support: 67
-Label: angry -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: worried -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Overall Accuracy: 0.24
+Label: anger -> Precision: 0.13, Recall: 0.14, F1 Score: 0.14, Support: 28
+Label: disgust -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 15
+Label: sadness -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 20
+Label: joy -> Precision: 0.29, Recall: 0.70, F1 Score: 0.41, Support: 23
+Label: neutral -> Precision: 0.36, Recall: 0.30, F1 Score: 0.33, Support: 67
 Label: surprise -> Precision: 0.40, Recall: 0.25, F1 Score: 0.31, Support: 24
 Label: fear -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 14
-Label: contempt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: doubt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
