@@ -30,13 +30,13 @@ def call_llm(sample, model, comb):
     message_parts = []
     # Add transcript if 'T' is in comb
     if "T" in comb:
-        message_parts.append(f"The person in the video says: {sample.get('text', '')}")
+        message_parts.append(f"The person in the video says: {sample.get('transcript', '')}")
     # Add audio cues if 'A' is in comb
     if "A" in comb:
-        message_parts.append(f"Audio cues: {sample.get('audio_prior_list', '')}")
+        message_parts.append(f"Audio cues: {sample.get('audio_description', '')}")
     # Add visual cues if 'V' is in comb
     if "V" in comb:
-        visual_cues = sample.get("visual_prior_list", "")
+        visual_cues = sample.get("visual_objective_description", "")
         if isinstance(visual_cues, list):
             visual_cues = ", ".join(visual_cues)
         message_parts.append(f"Visual cues: {visual_cues}")
@@ -125,10 +125,10 @@ def main():
     predictions = []   # For evaluation.
     
     # Process each sample in the JSON.
-    for sample_id, sample in data.items():
+    for sample_id, sample in enumerate(data):
         predicted, reasoning = call_llm(sample, selected_model, comb_flag)
         predictions.append(predicted)
-        ground_truth = sample.get("pseu_emotion", "").strip().lower()
+        ground_truth = sample.get("true_label", "").strip().lower()
         ground_truths.append(ground_truth)
         print(f"Sample {sample_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
         
@@ -169,13 +169,11 @@ def main():
     os.makedirs("results", exist_ok=True)
     
     # Save structured results as a JSON file.
-    json_output_file = os.path.join("results", output_file_name.replace(".txt", ".json"))
-    with open(json_output_file, "w") as f:
-        json.dump(results, f, indent=2)
+    output_dir = os.path.dirname(output_file_name)
+    if output_dir:  # Only create directory if there's a path
+        os.makedirs(output_dir, exist_ok=True)
     
-    # Optionally, also save a plain text summary.
-    txt_output_file = os.path.join("results", output_file_name)
-    with open(txt_output_file, "w") as f:
+    with open(output_file_name, "w") as f:
         f.write("PREDICTION RESULTS\n")
         f.write("=================\n\n")
         for entry in results:
@@ -184,7 +182,7 @@ def main():
         f.write("=================\n\n")
         f.write("\n".join(metrics_summary))
     
-    print(f"\nResults saved to {txt_output_file} and {json_output_file}")
+    print(f"\nResults saved to {output_file_name}")
 
 if __name__ == "__main__":
     main()
