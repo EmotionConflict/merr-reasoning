@@ -38,48 +38,48 @@
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-## to run final_baseline_cot_and_tot.py (❌ MER)
+## to run neurips_baseline_cot_and_tot.py (❌ MER)
 
-`python final_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o --output final/result/MER/run3/mini_baseline_TAV_COT_gpt4o.txt --comb TAV --prompt COT --dataset MER`
+`python neurips_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o --output final/result/MER/run3/mini_baseline_TAV_COT_gpt4o.txt --comb TAV --prompt COT --dataset MER`
 
-`python final_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o --output final/result/MER/run3/mini_baseline_TAV_TOT_gpt4o.txt --comb TAV --prompt TOT --dataset MER`
+`python neurips_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o --output final/result/MER/run3/mini_baseline_TAV_TOT_gpt4o.txt --comb TAV --prompt TOT --dataset MER`
 
-## to run final_baseline_cot_and_tot.py (❌ MELD)
+## to run neurips_baseline_cot_and_tot.py (❌ MELD)
 
-`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_COT_gpt4o.txt --comb TAV --prompt COT --dataset MELD`
+`python neurips_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_COT_gpt4o.txt --comb TAV --prompt COT --dataset MELD`
 
-`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o.txt --comb TAV --prompt TOT --dataset MELD`
+`python neurips_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o.txt --comb TAV --prompt TOT --dataset MELD`
 
-## to run final_baseline_cot_and_tot.py (❌ IEMOCAP)
+## to run neurips_baseline_cot_and_tot.py (❌ IEMOCAP)
 
-`python final_baseline_cot_and_tot.py --input final/data/IEMOCAP_annotation.json --model gpt-4o --output final/result/IEMOCAP/run3/mini_baseline_TAV_COT_gpt4o.txt --comb TAV --prompt COT --dataset IEMOCAP`
+`python neurips_baseline_cot_and_tot.py --input final/data/IEMOCAP_annotation.json --model gpt-4o --output final/result/IEMOCAP/run3/mini_baseline_TAV_COT_gpt4o.txt --comb TAV --prompt COT --dataset IEMOCAP`
 
-`python final_baseline_cot_and_tot.py --input final/data/IEMOCAP_annotation.json --model gpt-4o --output final/result/IEMOCAP/run3/mini_baseline_TAV_TOT_gpt4o.txt --comb TAV --prompt TOT --dataset IEMOCAP`
+`python neurips_baseline_cot_and_tot.py --input final/data/IEMOCAP_annotation.json --model gpt-4o --output final/result/IEMOCAP/run3/mini_baseline_TAV_TOT_gpt4o.txt --comb TAV --prompt TOT --dataset IEMOCAP`
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 TOT combinations: (❌ MELD)
-`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt --comb TAV --prompt TOT-3-EXPERT-UNI --dataset MELD`
+`python neurips_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt --comb TAV --prompt TOT-3-EXPERT-UNI --dataset MELD`
 
-`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-UNI --dataset MELD`
+`python neurips_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-UNI --dataset MELD`
 
-`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt --comb TAV --prompt TOT-3-EXPERT-BI --dataset MELD`
+`python neurips_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt --comb TAV --prompt TOT-3-EXPERT-BI --dataset MELD`
 
-`python final_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-BI --dataset MELD`
+`python neurips_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-BI --dataset MELD`
 
 TOT combinations: (❌ MER)
-`python final_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o --output final/result/MER/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt --comb TAV --prompt TOT-3-EXPERT-UNI --dataset MER`
+`python neurips_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o --output final/result/MER/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt --comb TAV --prompt TOT-3-EXPERT-UNI --dataset MER`
 
-`python final_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o --output final/result/MER/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-UNI --dataset MER`
+`python neurips_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o --output final/result/MER/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-UNI --dataset MER`
 
-`python final_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o --output final/result/MER/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt --comb TAV --prompt TOT-3-EXPERT-BI --dataset MER`
+`python neurips_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o --output final/result/MER/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt --comb TAV --prompt TOT-3-EXPERT-BI --dataset MER`
 
-`python final_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o --output final/result/MER/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-BI --dataset MER`
+`python neurips_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o --output final/result/MER/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-BI --dataset MER`
 
 TOT combinations: (❌ IEMOCAP)
-`python final_baseline_cot_and_tot.py --input final/data/IEMOCAP_annotation.json --model gpt-4o --output final/result/IEMOCAP/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt --comb TAV --prompt TOT-3-EXPERT-UNI --dataset IEMOCAP`
+`python neurips_baseline_cot_and_tot.py --input final/data/IEMOCAP_annotation.json --model gpt-4o --output final/result/IEMOCAP/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt --comb TAV --prompt TOT-3-EXPERT-UNI --dataset IEMOCAP`
 
-`python final_baseline_cot_and_tot.py --input final/data/IEMOCAP_annotation.json --model gpt-4o --output final/result/IEMOCAP/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-UNI --dataset IEMOCAP`
+`python neurips_baseline_cot_and_tot.py --input final/data/IEMOCAP_annotation.json --model gpt-4o --output final/result/IEMOCAP/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-UNI --dataset IEMOCAP`
 
-`python final_baseline_cot_and_tot.py --input final/data/IEMOCAP_annotation.json --model gpt-4o --output final/result/IEMOCAP/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt --comb TAV --prompt TOT-3-EXPERT-BI --dataset IEMOCAP`
+`python neurips_baseline_cot_and_tot.py --input final/data/IEMOCAP_annotation.json --model gpt-4o --output final/result/IEMOCAP/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt --comb TAV --prompt TOT-3-EXPERT-BI --dataset IEMOCAP`
 
-`python final_baseline_cot_and_tot.py --input final/data/IEMOCAP_annotation.json --model gpt-4o --output final/result/IEMOCAP/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-BI --dataset IEMOCAP`
+`python neurips_baseline_cot_and_tot.py --input final/data/IEMOCAP_annotation.json --model gpt-4o --output final/result/IEMOCAP/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-BI --dataset IEMOCAP`
