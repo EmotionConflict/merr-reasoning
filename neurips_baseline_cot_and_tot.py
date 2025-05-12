@@ -98,19 +98,21 @@ def main():
                                                        "TOT-3-EXPERT-DEBATE-UNI", "TOT-4-EXPERT-DEBATE-UNI",
                                                        "TOT-3-EXPERT-DEBATE-BI", "TOT-4-EXPERT-DEBATE-BI"],
                         default="", help="Select prompt type from the available options")
-    parser.add_argument("--dataset", type=str, choices=["MER", "MELD"], default="MER", help="Dataset to use: MER or MELD")
+    parser.add_argument("--dataset", type=str, choices=["MER", "MELD", "IEMOCAP"], default="MER", help="Dataset to use: MER or MELD")
     args = parser.parse_args()
     
     # Dynamically import the correct constants module
     if args.dataset == "MELD":
-        constants_mod = importlib.import_module("MELD_constants")
+        constants_mod = importlib.import_module("neurips.MELD_constants")
         print("MELD constants imported")
     elif args.dataset == "MER":
-        constants_mod = importlib.import_module("MER_constants")
+        constants_mod = importlib.import_module("neurips.MER_constants")
         print("MER constants imported")
+    elif args.dataset == "IEMOCAP":
+        constants_mod = importlib.import_module("neurips.IEMOCAP_constants")
+        print("IEMOCAP constants imported")
     else:
-        constants_mod = importlib.import_module("constants")
-        print("Constants imported")
+        raise ValueError(f"Invalid dataset: {args.dataset}")
 
     # Update the global SYSTEM_PROMPT and PROMPT_MAPPING based on the dataset
     global SYSTEM_PROMPT
@@ -119,13 +121,13 @@ def main():
         "COT": constants_mod.SYSTEM_PROMPT_CHAIN_OF_THOUGHT,
         "TOT": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT,
         "TOT-3-EXPERT-UNI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT,
-        "TOT-4-EXPERT-UNI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_4_EXPERT,
+        # "TOT-4-EXPERT-UNI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_4_EXPERT,
         "TOT-3-EXPERT-BI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_3_EXPERT,
-        "TOT-4-EXPERT-BI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_4_EXPERT,
+        # "TOT-4-EXPERT-BI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_4_EXPERT,
         "TOT-3-EXPERT-DEBATE-UNI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT_DEBATE,
-        "TOT-4-EXPERT-DEBATE-UNI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_4_EXPERT_DEBATE,
+        # "TOT-4-EXPERT-DEBATE-UNI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_4_EXPERT_DEBATE,
         "TOT-3-EXPERT-DEBATE-BI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_3_EXPERT_DEBATE,
-        "TOT-4-EXPERT-DEBATE-BI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_4_EXPERT_DEBATE,
+        # "TOT-4-EXPERT-DEBATE-BI": constants_mod.SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_4_EXPERT_DEBATE,
     }
     if args.prompt in PROMPT_MAPPING:
         SYSTEM_PROMPT = PROMPT_MAPPING[args.prompt]

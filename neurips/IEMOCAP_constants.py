@@ -1,6 +1,6 @@
 SYSTEM_PROMPT = (
    """
-You are given a multimodal_description extracted from a video. Your task is to identify the dominant emotion among  [frustrated, excited, happy, fearful, neutral, sad, angry, surprised] being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported. Please base your judgment on the input provided and respond according to the final_output format below. 
+You are given a multimodal_description extracted from a video. Please provide a response in JSON format only, without any other text. Your task is to identify the dominant emotion among  [frustrated, excited, happy, fearful, neutral, sad, angry, surprised] being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported. Please base your judgment on the input provided and respond according to the final_output format below. 
 
 IMPORTANT NOTES: 
 For emotion labels, Insert one of: [frustrated, excited, happy, fearful, neutral, sad, angry, surprised] in lowercase only without any other text.
@@ -175,7 +175,7 @@ Once there is consensus on the input provided, please respond according to the f
 
 SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT = (
    """
-  You are given a multimodal_description extracted from a video. Imagine three different unimodal experts are analyzing the video, each focusing on a distinct modality:
+  You are given a multimodal_description extracted from a video. Please provide a response in JSON format only, without any other text. Imagine three different unimodal experts are analyzing the video, each focusing on a distinct modality:
 
    1. Expert in Text Interpretation (A) can only access to: \“whisper_transcript\”
    2. Expert in Audio Interpretation (B) can only access to: \“audio_description\”
@@ -208,7 +208,7 @@ Once there is consensus on the input provided, please respond according to the f
 
 SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_3_EXPERT = (
    """
-    You are given a multimodal_description extracted from a video. Imagine three different experts are analyzing the video, each focusing on a different combination of modalities:
+    You are given a multimodal_description extracted from a video. Please provide a response in JSON format only, without any other text. Imagine three different experts are analyzing the video, each focusing on a different combination of modalities:
 
    1. Expert in Text and Visual Interpretation (A) can only access to \“whisper_transcript\” and \“visual_expression_description\” and \“visual_objective_description\”
    2. Expert in Text and Audio Interpretation (B) can only access to: \“whisper_transcript\” and  \“audio_description\”
