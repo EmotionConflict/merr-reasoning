@@ -125,14 +125,15 @@ def main():
     # Process each sample in the JSON.
     for sample_id, sample in data.items():
         predicted, reasoning = call_llm(sample, selected_model, comb_flag)
+        video_id = sample.get("video_id", sample_id)
         predictions.append(predicted)
         ground_truth = sample.get("pseu_emotion", "").strip().lower()
         ground_truths.append(ground_truth)
-        print(f"Sample {sample_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
+        print(f"Video {video_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
         
         # Store the structured result.
         result_entry = {
-            "sample_id": sample_id,
+            "video_id": video_id,
             "ground_truth": ground_truth,
             "predicted_label": predicted,
             "reasoning": reasoning
@@ -174,7 +175,7 @@ def main():
         f.write("PREDICTION RESULTS\n")
         f.write("=================\n\n")
         for entry in results:
-            f.write(f"Sample {entry['sample_id']}: Ground Truth: {entry['ground_truth']}, Predicted: {entry['predicted_label']}\n")
+            f.write(f"Video {entry['video_id']}: Ground Truth: {entry['ground_truth']}, Predicted: {entry['predicted_label']}\n")
         f.write("\nEVALUATION METRICS\n")
         f.write("=================\n\n")
         f.write("\n".join(metrics_summary))

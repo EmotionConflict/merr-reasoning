@@ -95,3 +95,9 @@ TOT combinations: (✅ MER)
 `python final_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt --comb TAV --prompt TOT-3-EXPERT-BI --dataset MER`
 
 `python final_baseline_cot_and_tot.py --input final/data/MER_annotation.json --model gpt-4o-mini --output final/result/MER/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-BI --dataset MER`
+
+## NOTES to self
+
+- "neutral is not the emotion"
+
+## adjustment, after final presentation.

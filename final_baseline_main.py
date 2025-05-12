@@ -99,11 +99,12 @@ def main():
     # Process each sample in the list
     for i, sample in enumerate(data):
         predicted = call_llm(sample, selected_model, comb_flag)
-        predictions.append(predicted)
+        video_id = sample.get("video_id", f"sample_{i}")
         ground_truth = sample.get("true_label", "").strip().lower()
         ground_truths.append(ground_truth)
-        print(f"Sample {i}: Ground Truth: {ground_truth}, Predicted: {predicted}")
-        result_details.append(f"Sample {i}: Ground Truth: {ground_truth}, Predicted: {predicted}")
+        predictions.append(predicted)
+        print(f"Video {video_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
+        result_details.append(f"Video {video_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
     
     # Define the set of possible labels.
     if args.dataset == "MELD":

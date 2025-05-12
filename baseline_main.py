@@ -81,11 +81,12 @@ def main():
     # Process each sample in the JSON.
     for i, (sample_id, sample) in enumerate(data.items()):
         predicted = call_llm(sample, selected_model, comb_flag)
+        video_id = sample.get("video_id", sample_id)
         predictions.append(predicted)
         ground_truth = sample.get("pseu_emotion", "").strip().lower()
         ground_truths.append(ground_truth)
-        print(f"Sample {sample_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
-        result_details.append(f"Sample {sample_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
+        print(f"Video {video_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
+        result_details.append(f"Video {video_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
     
     # Define the set of possible labels.
     labels = ["happy", "sad", "neutral", "angry", "worried", "surprise", "fear", "contempt", "doubt"]
