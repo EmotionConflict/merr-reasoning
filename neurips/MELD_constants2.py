@@ -124,7 +124,7 @@ argument: “XXX"
 ]
   "final_justification": "Provide a brief reasoning (1–2 sentences) for your chosen emotions”,
 }, 
-“num_debate_rounds”: “ 1-5 (number of debate rounds)”
+“num_debate_rounds”: “ 1-10 (number of debate rounds)”
 """
 )
 
