@@ -46,7 +46,7 @@ Three critical unimodal experts are analyzing the video, each focusing on a diff
    - Share their reasoning with the group in random order
    - Revise their stance if needed
    
-     Experts will repeat this process in **at least five rounds**, and until consensus is reached. If an expert determines their view is no longer valid or unreliable, they must state they are not confident and exit the debate.
+     Experts will repeat this process in **at most ten rounds**, and until consensus is reached. If an expert determines their view is no longer valid or unreliable, they must state they are not confident and exit the debate.
    
      After the debate ends, remaining experts must provide a final consensus answer.
    
