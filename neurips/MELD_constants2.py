@@ -24,11 +24,13 @@ Based on the input provided, please provide *final_output* in the following form
 ##################
 
 
+
+
 SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT_DEBATE = (
 """
 [Task Overview]
 You are given a multimodal_description extracted from a video. Please provide a *final output* in JSON format only, without any other text. Your task is to identify the *dominant emotion* present in the video using the multimodal_description, where *dominant emotion* is one of the following: [disgust, surprise, anger, joy, fear, sadness, neutral]. 
-If multiple emotions are present, select the most dominant one.
+If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
 
 [IMPORTANT]
 - Only choose emotions from the following exact list: [disgust, surprise, anger, joy, fear, sadness, neutral] (in lowercase, no extra text)
@@ -56,6 +58,8 @@ Three critical unimodal experts are analyzing the video, each focusing on a diff
 {
   "first_emotion": "the most dominant emotion (please answer in lowercase one word)",
   "first_emotion_confidence_score": "1–100 (with 100 being highest confidence)",
+  "second_emotion": "the second most evident emotion, if any (please answer in lowercase one word)",
+  "second_emotion_confidence_score": "1–100 (leave blank if no second_emotion)",
  “Is_disagreement_detected” : “True if initial disagreement detected between experts, False if no disagreement detected”,
  "debate": Provide object in format [
 
