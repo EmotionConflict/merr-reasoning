@@ -131,21 +131,23 @@ argument: “XXX"
 
 SYSTEM_PROMPT_CHAIN_OF_THOUGHT = (
    """
-Let's think step by step.
-
 [Task Overview]
 You are given a multimodal_description extracted from a video. Please provide a *final output* in JSON format only, without any other text. Your task is to identify the *dominant emotion* present in the video using the multimodal_description, where *dominant emotion* is one of the following: [disgust, surprise, anger, joy, fear, sadness, neutral]. 
 If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
 
-[IMPORTANT]: Emotion must be identified based on the following labels only: [disgust, surprise, anger, joy, fear, sadness, neutral] (in lowercase, no other text). 
-descriptions:
+[IMPORTANT]
+- Only choose emotions from the following exact list: [disgust, surprise, anger, joy, fear, sadness, neutral] (in lowercase, no extra text)
+- Do not invent new emotion names (e.g., “happy”, “worried”, “anxious” are NOT valid)
 
-All expert has access to the following variables in the multimodal descriptions:
+[Emotion Classification Methodology]
+Let's think step by step.
+You have access to the following variables in the multimodal descriptions:
   1. \"whisper_transcript\"
   2. \"audio_description\"
   3. \"visual_expression_description\" and \"visual_objective_description\"
+Based on the input provided, please respond according to the final_output format below.
 
-Based on the input provided, please respond according to the final_output format below:
+[Output Format]
 {
   "first_emotion": "the most dominant emotion (please answer in lowercase one word)",
   "first_emotion_confidence_score": "1–100 (with 100 being highest confidence)",
@@ -159,26 +161,29 @@ Based on the input provided, please respond according to the final_output format
 
 SYSTEM_PROMPT_TREE_OF_THOUGHT = (
    """
- "You are given a multimodal_description extracted from a video. Please provide a response in JSON format only, without any other text. Imagine three different experts are answering a question.
+[Task Overview]
+You are given a multimodal_description extracted from a video. Please provide a *final output* in JSON format only, without any other text. Your task is to identify the *dominant emotion* present in the video using the multimodal_description, where *dominant emotion* is one of the following: [disgust, surprise, anger, joy, fear, sadness, neutral]. 
+If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
 
-   All experts will write down 1 step of their thinking,
-   then share it with the group.
-   Then all experts will go on to the next step, etc.
-   If any expert realises they're wrong at any point then they leave.
-   The remaining experts must reach a consensus.
-   The question is…
+[IMPORTANT]
+- Only choose emotions from the following exact list: [disgust, surprise, anger, joy, fear, sadness, neutral] (in lowercase, no extra text)
+- Do not invent new emotion names (e.g., “happy”, “worried”, “anxious” are NOT valid)
 
-to identify the dominant emotion among  [neutral, angry, happy, sad, worried, surprise] being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
-
- IMPORTANT: Emotions must be identified based on the following labels only: [disgust, surprise, anger, joy, fear, sadness, neutral] (in lowercase, no other text).
-
+[Emotion Classification Methodology]
 All expert has access to the following variables in the multimodal descriptions:
   1. \"whisper_transcript\"
   2. \"audio_description\"
   3. \"visual_expression_description\" and \"visual_objective_description\"
+  
+All experts will write down 1 step of their thinking,
+   then share it with the group.
+   Then all experts will go on to the next step, etc.
+   If any expert realises they're wrong at any point then they leave.
+   The remaining experts must reach a consensus.
+  
+Once there is consensus on the input provided, please respond according to the final_output format below.
 
-
-Once there is consensus on the input provided, please respond according to the final_output format below:
+[Output Format]
 {
   "first_emotion": "the most dominant emotion (please answer in lowercase one word)",
   "first_emotion_confidence_score": "1–100 (with 100 being highest confidence)",
@@ -210,7 +215,9 @@ to identify the dominant emotion being expressed. If multiple emotions are prese
 IMPORTANT NOTES: 
 For emotion labels, Insert one of: [neutral, angry, happy, sad, worried, surprise] in lowercase only without any other text.
 
-Once there is consensus on the input provided, please respond according to the final_output format below:
+Once there is consensus on the input provided, please respond according to the final_output format below.
+
+[Output Format]
 {
   "first_emotion": "the most dominant emotion (please answer in lowercase one word)",
   "first_emotion_confidence_score": "1–100 (with 100 being highest confidence)",
