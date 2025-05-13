@@ -197,8 +197,15 @@ Once there is consensus on the input provided, please respond according to the f
 
 SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT = (
    """
-  You are given a multimodal_description extracted from a video. Please provide a response in JSON format only, without any other text. Imagine three different unimodal experts are analyzing the video, each focusing on a distinct modality:
+[Task Overview]
+You are given a multimodal_description extracted from a video. Please provide a *final output* in JSON format only, without any other text. Your task is to identify the *dominant emotion* present in the video using the multimodal_description, where *dominant emotion* is one of the following: [disgust, surprise, anger, joy, fear, sadness, neutral]. 
+If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
 
+[IMPORTANT]
+- Only choose emotions from the following exact list: [disgust, surprise, anger, joy, fear, sadness, neutral] (in lowercase, no extra text)
+- Do not invent new emotion names (e.g., “happy”, “worried”, “anxious” are NOT valid)
+
+[Emotion Classification Methodology]
    1. Expert in Text Interpretation (A) can only access to: \“whisper_transcript\”
    2. Expert in Audio Interpretation (B) can only access to: \“audio_description\”
    3. Expert in Visual Interpretation (C) can only access to: \“visual_expression_description\” and \“visual_objective_description\”
@@ -208,14 +215,8 @@ SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT = (
    Then all experts will go on to the next step, etc.
    If any expert realises they're wrong at any point then they leave.
    The remaining experts must reach a consensus.
-   The question is...
-
-to identify the dominant emotion being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
-
-IMPORTANT NOTES: 
-For emotion labels, Insert one of: [neutral, angry, happy, sad, worried, surprise] in lowercase only without any other text.
-
-Once there is consensus on the input provided, please respond according to the final_output format below.
+   
+   Once there is consensus on the input provided, please respond according to the final_output format below.
 
 [Output Format]
 {
@@ -232,25 +233,28 @@ Once there is consensus on the input provided, please respond according to the f
 
 SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_3_EXPERT = (
    """
-    You are given a multimodal_description extracted from a video. Please provide a response in JSON format only, without any other text. Imagine three different experts are analyzing the video, each focusing on a different combination of modalities:
+[Task Overview]
+You are given a multimodal_description extracted from a video. Please provide a *final output* in JSON format only, without any other text. Your task is to identify the *dominant emotion* present in the video using the multimodal_description, where *dominant emotion* is one of the following: [disgust, surprise, anger, joy, fear, sadness, neutral]. 
+If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
 
+[IMPORTANT]
+- Only choose emotions from the following exact list: [disgust, surprise, anger, joy, fear, sadness, neutral] (in lowercase, no extra text)
+- Do not invent new emotion names (e.g., “happy”, “worried”, “anxious” are NOT valid)
+
+[Emotion Classification Methodology]
    1. Expert in Text and Visual Interpretation (A) can only access to \“whisper_transcript\” and \“visual_expression_description\” and \“visual_objective_description\”
    2. Expert in Text and Audio Interpretation (B) can only access to: \“whisper_transcript\” and  \“audio_description\”
    3. Expert in Visual and Audio Interpretation (C) can only access to : \“audio_description\”, \“visual_expression_description\”, and \“visual_objective_description\”
   
- All experts will write down 1 step of their thinking,
+   All experts will write down 1 step of their thinking,
    then share it with the group.
    Then all experts will go on to the next step, etc.
    If any expert realises they're wrong at any point then they leave.
    The remaining experts must reach a consensus.
-   The question is...
 
-to identify the dominant emotion being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported. 
-
-IMPORTANT NOTES: 
-For emotion labels, Insert one of: [neutral, angry, happy, sad, worried, surprise] in lowercase only without any other text.
-
-Once there is consensus on the input provided, please respond according to the final_output format below:
+   Once there is consensus on the input provided, please respond according to the final_output format below.
+   
+[Output Format]
 {
   "first_emotion": "the most dominant emotion (please answer in lowercase one word)",
   "first_emotion_confidence_score": "1–100 (with 100 being highest confidence)",
