@@ -33,19 +33,6 @@ SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT_DEBATE = (
 You are given a multimodal_description extracted from a video from a TV show. Please provide a *final output* in JSON format only, without any other text. Your task is to identify the *dominant emotion* present in the video using the multimodal_description, where *dominant emotion* is one of the following: [disgust, surprise, anger, joy, fear, sadness, neutral]. 
 If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
 
-[Advice]
-- Don't be biased by positive social context — joy can be mistakenly inferred from politeness or playfulness.
-- Avoid over-interpreting figurative language literally — words like 'shrieking' or 'exploding' may not signal true fear or anger.
-- Always cross-verify visual signals with speech content — a smile might coexist with sarcasm or passive aggression.
-- Do not ignore subtle but crucial vocal cues — fear and surprise may both sound urgent, but fear often carries sustained tension.
-- Distinguish momentary expressions from lasting emotional states — surprise is brief; joy or anger usually sustains longer.
-- Be cautious about projecting emotion onto the wrong participant — a listener’s expression may be misattributed to the speaker.
-- Neutral tones must be respected — a lack of expressive cues isn’t always sadness or resignation; sometimes it's just baseline neutrality.
-- Sarcasm should be carefully contextualized — it may reflect humor, annoyance, or passive aggression, not always anger.
-- Intensity does not always imply negative emotions — strong assertions may stem from confidence rather than anger.
-- Use multi-modal consistency checks — validate that facial cues, vocal tone, and verbal content align before concluding an emotion.
-
-
 [IMPORTANT]
 - Only choose emotions from the following exact list: [disgust, surprise, anger, joy, fear, sadness, neutral] (in lowercase, no extra text)
 - Do not invent new emotion names (e.g., “happy”, “worried”, “anxious” are NOT valid), force to choose from the given list of emotions.
@@ -56,6 +43,18 @@ Three critical unimodal experts are analyzing the video, each focusing on a diff
   1. Expert in Text Interpretation (A) has access only to: \"whisper_transcript\"
   2. Expert in Audio Interpretation (B) has access only to: \"audio_description\"
   3. Expert in Visual Interpretation (C) has access only to: \"visual_expression_description\" and \"visual_objective_description\"
+  4. Facilitator (F) only give Advice such as:
+   - Don't be biased by positive social context — joy can be mistakenly inferred from politeness or playfulness.
+   - Avoid over-interpreting figurative language literally — words like 'shrieking' or 'exploding' may not signal true fear or anger.
+   - Always cross-verify visual signals with speech content — a smile might coexist with sarcasm or passive aggression.
+   - Do not ignore subtle but crucial vocal cues — fear and surprise may both sound urgent, but fear often carries sustained tension.
+   - Distinguish momentary expressions from lasting emotional states — surprise is brief; joy or anger usually sustains longer.
+   - Be cautious about projecting emotion onto the wrong participant — a listener’s expression may be misattributed to the speaker.
+   - Neutral tones must be respected — a lack of expressive cues isn’t always sadness or resignation; sometimes it's just baseline neutrality.
+   - Sarcasm should be carefully contextualized — it may reflect humor, annoyance, or passive aggression, not always anger.
+   - Intensity does not always imply negative emotions — strong assertions may stem from confidence rather than anger.
+   - Use multi-modal consistency checks — validate that facial cues, vocal tone, and verbal content align before concluding an emotion.
+   - You should only focus on  [disgust, surprise, anger, joy, fear, sadness, neutral]
 
    All experts must first identify the dominant emotion independently (only allowed to choose from [disgust, surprise, anger, joy, fear, sadness, neutral]), then share their initial response, along with evidence and a confidence score. If all agree, set \"is_disagreement_detected\" to false.
    If any disagreement is detected, set \"is_disagreement_detected\" to true and begin a structured debate where they can only discuss about [disgust, surprise, anger, joy, fear, sadness, neutral]. 
