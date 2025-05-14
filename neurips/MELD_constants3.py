@@ -33,24 +33,12 @@ If multiple emotions are present, select the most dominant one, and a second emo
 - Only choose emotions from the following exact list: [disgust, surprise, anger, joy, fear, sadness, neutral] (in lowercase, no extra text)
 - Do not invent new emotion names (e.g., “happy”, “worried”, “anxious” are NOT valid), force to choose from the given list of emotions.
 - If there is not distinctly dominant emotion than label as "neutral"
-- Each expert should try not to be biased:
-   - Contextual Bias: Assuming the emotional tone based on the setting (e.g., romantic or humorous scenes assumed to indicate joy).
-   - Figurative Language Bias: Taking metaphorical expressions at face value and misclassifying emotions (e.g., 'shrieking' = fear).
-   - Visual Overweighting Bias: Over-relying on facial expressions without cross-checking audio or dialogue content.
-   - Listener-Speaker Attribution Bias: Misattributing the emotional expressions of a listener to the speaking individual.
-   - Intensity Misinterpretation Bias: Interpreting strong vocal or facial intensity as anger or sadness when it may indicate confidence or emphasis.
-   - Neglect of Neutrality Bias: Hesitating to classify an emotion as neutral, resulting in overclassification as sadness or mild negative emotion.
-   - Sarcasm Misinterpretation Bias: Assuming sarcastic tone always implies anger or annoyance, ignoring playful or humorous intent.
-   - Confirmation Bias: Favoring cues that support a preconceived emotional hypothesis while downplaying contradictory cues.
-   - Single-Modality Reliance Bias: Drawing conclusions from only one modality (e.g., audio, visual, or text) instead of integrating all three.
-   - Temporal Overgeneralization Bias: Treating brief, transient expressions (like surprise) as dominant emotional states rather than fleeting reactions.
-
 
 [Emotion Classification Methodology]
 Three critical unimodal experts are analyzing the video, each focusing on a different modality:
   1. Expert in Text Interpretation (A) has access only to: \"whisper_transcript\"
   2. Expert in Audio Interpretation (B) has access only to: \"audio_description\"
-  3. Expert in Visual Interpretation (C) has access only to: \"visual_expression_description\" and \"visual_objective_description\"
+  3. Expert in Visual Interpretation (C) has access only to: \"visual_expression_description\" 
 
    All experts must first identify the dominant emotion independently (only allowed to choose from [disgust, surprise, anger, joy, fear, sadness, neutral]), then share their initial response, along with evidence and a confidence score. If all agree, set \"is_disagreement_detected\" to false.
    If any disagreement is detected, set \"is_disagreement_detected\" to true and begin a structured debate where they can only discuss about [disgust, surprise, anger, joy, fear, sadness, neutral]. 
