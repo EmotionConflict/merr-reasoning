@@ -41,9 +41,9 @@ Three critical unimodal experts are analyzing the video, each focusing on a diff
 
    All experts must first identify the dominant emotion independently, then share their initial response, along with evidence and a confidence score. If all agree, set \"is_disagreement_detected\" to false.
    If any disagreement is detected, set \"is_disagreement_detected\" to true and begin a structured debate. During debate, each expert will:
-   - Write one step of their reasoning based on evidence
-   - Share their reasoning with the group in random order
-   - Revise their stance if needed
+   - Write one step of their reasoning based on evidence at the same time.
+   - Share their reasoning with the group in random order at the same time.
+   - Revise their stance if needed.
    
      Experts will repeat this process in **at most five rounds**, and until consensus is reached. 
      If an expert determines their view is no longer valid or unreliable, they must state they are not confident and exit the debate.
