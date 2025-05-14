@@ -45,7 +45,7 @@ Three critical unimodal experts are analyzing the video, each focusing on a diff
    - Share their reasoning with the group in random order
    - Revise their stance if needed
    
-     Experts will repeat this process in **at most ten rounds**, and until consensus is reached. 
+     Experts will repeat this process in **at most five rounds**, and until consensus is reached. 
      If an expert determines their view is no longer valid or unreliable, they must state they are not confident and exit the debate.
      After the debate ends, remaining experts must provide a final consensus answer.
    
@@ -53,7 +53,6 @@ Three critical unimodal experts are analyzing the video, each focusing on a diff
   
 [Output Format]
 {
- “Is_disagreement_detected” : “True if initial disagreement detected between experts, False if no disagreement detected”,
  "debate": Provide object in format [
 
 {
@@ -67,6 +66,7 @@ argument: “XXX"
 ]
   "final_justification": "Provide a brief reasoning (1–2 sentences) for your chosen emotions”,
 }, 
+ “Is_disagreement_detected” : “True if initial disagreement detected between experts, False if no disagreement detected”,
 “num_debate_rounds”: “ 1-10 (number of debate rounds)”, 
 "first_emotion": "the most dominant emotion (please answer in lowercase one word)",
   "first_emotion_confidence_score": "1–100 (with 100 being highest confidence)",
