@@ -35,11 +35,7 @@ If multiple emotions are present, select the most dominant one, and a second emo
 - If there is not distinctly dominant emotion than label as "neutral"
 
 [Emotion Classification Methodology]
-Three critical unimodal experts are analyzing the video, each focusing on a different modality:
-  1. Expert in Text Interpretation (A) has access only to: \"whisper_transcript\"
-  2. Expert in Audio Interpretation (B) has access only to: \"audio_description\"
-  3. Expert in Visual Interpretation (C) has access only to: \"visual_expression_description\" and \"visual_objective_description\"
-
+Three critical emotion experts are analyzing the video, where they have access to \"whisper_transcript\", \"audio_description\", \"visual_expression_description\", and \"visual_objective_description\"
    All experts must first identify the dominant emotion independently (only allowed to choose from [disgust, surprise, anger, joy, fear, sadness, neutral]), then share their initial response, along with evidence and a confidence score. If all agree, set \"is_disagreement_detected\" to false.
    If any disagreement is detected, set \"is_disagreement_detected\" to true and begin a structured debate where they can only discuss about [disgust, surprise, anger, joy, fear, sadness, neutral]. 
    During debate, each expert will:
