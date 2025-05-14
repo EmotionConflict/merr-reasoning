@@ -3,34 +3,34 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The text 'So, tell mom, what are your plans?' is neutral and does not convey any strong emotion. Confidence score: 80."
+        "argument": "The text 'So, tell mom, what are your plans?' is neutral in tone and does not convey any specific emotion."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates no specific emotion, suggesting a neutral tone. Confidence score: 85."
+        "argument": "The audio description indicates that the speaker does not express any of the listed emotions, suggesting a neutral tone."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression 'Dimpler' suggests a happy emotion, as dimples often appear when smiling. Confidence score: 90."
+        "argument": "The visual expression 'Dimpler' suggests a happy emotion, as dimples are often associated with smiling."
       },
       {
         "role": "Expert A",
-        "argument": "Considering Expert C's input, I acknowledge the possibility of happiness due to the visual cue. Adjusting my stance to consider happy as a potential emotion. Confidence score: 70."
+        "argument": "I maintain that the text is neutral, but I acknowledge that visual cues can suggest happiness."
       },
       {
         "role": "Expert B",
-        "argument": "I agree with Expert C's observation. The visual cue of dimples is a strong indicator of happiness. Adjusting my stance to happy. Confidence score: 75."
+        "argument": "While the audio is neutral, I recognize that visual expressions can convey emotions not captured in audio."
       },
       {
         "role": "Expert C",
-        "argument": "I maintain that the visual cue of dimples strongly indicates happiness. Confidence score: 90."
+        "argument": "I am confident that the visual expression indicates happiness, as dimples are a strong indicator of smiling."
       }
     ],
-    "final_justification": "The visual cue of dimples strongly suggests happiness, and both text and audio do not contradict this emotion.",
+    "final_justification": "The visual expression of dimples strongly suggests happiness, despite the neutral tone in text and audio.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
     "first_emotion": "happy",
-    "first_emotion_confidence_score": "90",
+    "first_emotion_confidence_score": "85",
     "second_emotion": "",
     "second_emotion_confidence_score": "",
     "video_id": "samplenew_00002396",
@@ -40,48 +40,36 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript suggests a neutral tone, as the statement is factual and lacks emotional language. Confidence: 80"
+        "argument": "The text suggests a sense of servitude and possibly resignation, but it does not strongly indicate any specific emotion from the list. My confidence score is 60 for neutral."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates a lack of emotional expression, suggesting neutrality. Confidence: 85"
+        "argument": "The audio lacks any distinct emotional cues from the list, suggesting a neutral tone. My confidence score is 70 for neutral."
       },
       {
         "role": "Expert C",
-        "argument": "The visual description of narrowing eyes and showing teeth could indicate anger or contempt. Confidence: 70"
+        "argument": "The visual cues of narrowing eyes and showing teeth suggest anger. My confidence score is 80 for angry."
       },
       {
         "role": "Expert A",
-        "argument": "Considering Expert C's input, the visual cues might suggest contempt. I will revise my stance to consider contempt. Confidence: 60"
+        "argument": "Considering Expert C's input, the visual cues are strong indicators of anger. I revise my stance to angry with a confidence score of 70."
       },
       {
         "role": "Expert B",
-        "argument": "I acknowledge the visual cues but maintain that the audio suggests neutrality. Confidence: 75"
+        "argument": "Given the visual evidence, I agree with the angry interpretation. I revise my stance to angry with a confidence score of 75."
       },
       {
         "role": "Expert C",
-        "argument": "I maintain that the visual cues suggest contempt, but I acknowledge the lack of support from other modalities. Confidence: 65"
-      },
-      {
-        "role": "Expert A",
-        "argument": "After further consideration, I agree that contempt is a plausible emotion given the visual cues. Confidence: 70"
-      },
-      {
-        "role": "Expert B",
-        "argument": "I will concede that contempt is possible, given the visual evidence, but I still see neutrality as dominant. Confidence: 60"
-      },
-      {
-        "role": "Expert C",
-        "argument": "I agree to consider neutrality as the dominant emotion, with contempt as a secondary possibility. Confidence: 60"
+        "argument": "I maintain my stance on anger being the dominant emotion, with a confidence score of 80."
       }
     ],
-    "final_justification": "The audio and text suggest neutrality, but visual cues indicate contempt. Thus, neutrality is dominant, with contempt as secondary.",
+    "final_justification": "The visual cues of narrowing eyes and showing teeth strongly suggest anger, which was supported by all experts after discussion.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
-    "first_emotion": "neutral",
-    "first_emotion_confidence_score": "75",
-    "second_emotion": "contempt",
-    "second_emotion_confidence_score": "60",
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
     "video_id": "samplenew_00006181",
     "ground_truth": "happy"
   },
@@ -89,32 +77,32 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript 'Yes, it was a collision.' is neutral in tone and does not convey any specific emotion. Confidence score: 70."
+        "argument": "The transcript 'Yes, it was a collision.' is neutral in tone and does not convey any specific emotion. My confidence score is 70."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates an excited tone, which suggests a happy emotion. Confidence score: 80."
+        "argument": "The audio description indicates an excited tone, which suggests happiness or surprise. My confidence score is 85."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression of narrowing eyes, showing teeth, and dimpler suggests a happy emotion. Confidence score: 85."
+        "argument": "The visual expression of narrowing eyes, showing teeth, and dimpler suggests happiness. My confidence score is 90."
       },
       {
         "role": "Expert A",
-        "argument": "Upon reconsideration, the lack of emotional cues in the text does not outweigh the strong audio and visual cues. I am not confident in my initial assessment and will exit the debate."
+        "argument": "Considering the excited tone and visual cues, I revise my stance to support happiness. My confidence score is now 80."
       },
       {
         "role": "Expert B",
-        "argument": "The excited tone in the audio strongly supports a happy emotion. Confidence score: 85."
+        "argument": "I maintain that the excited tone aligns with happiness. My confidence score remains 85."
       },
       {
         "role": "Expert C",
-        "argument": "The visual cues are consistent with happiness, reinforcing the audio interpretation. Confidence score: 90."
+        "argument": "I am confident that the visual expressions indicate happiness. My confidence score remains 90."
       }
     ],
-    "final_justification": "The audio and visual cues both strongly indicate a happy emotion, with no significant evidence of another emotion.",
+    "final_justification": "The excited tone and visual expressions strongly indicate happiness as the dominant emotion.",
     "Is_disagreement_detected": "True",
-    "num_debate_rounds": "3",
+    "num_debate_rounds": "2",
     "first_emotion": "happy",
     "first_emotion_confidence_score": "90",
     "second_emotion": "",
@@ -126,30 +114,30 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The text suggests a questioning tone, which could imply doubt, but without strong indicators of any specific emotion."
+        "argument": "The text suggests a questioning tone, which could imply doubt, but it is not strong enough to override other cues."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates a cheerful tone, suggesting happiness with high confidence."
+        "argument": "The audio description indicates a cheerful tone, which suggests happiness with high confidence."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression shows a toothy smile and dimples, which are strong indicators of happiness."
+        "argument": "The visual description of a toothy smile and dimples strongly suggests happiness."
       },
       {
         "role": "Expert A",
-        "argument": "Upon reconsideration, the text alone is not enough to determine doubt, especially with strong audio and visual cues of happiness."
-      },
-      {
-        "role": "Expert C",
-        "argument": "I maintain my stance that the visual cues strongly indicate happiness."
+        "argument": "Upon considering the cheerful tone and visual cues, I agree that happiness is the dominant emotion."
       },
       {
         "role": "Expert B",
-        "argument": "I am confident in my initial assessment of happiness based on the cheerful tone."
+        "argument": "I maintain that happiness is the dominant emotion based on the cheerful tone."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I am confident that the visual cues support happiness as the dominant emotion."
       }
     ],
-    "final_justification": "The audio and visual cues strongly indicate happiness, with both experts B and C agreeing on this emotion. Expert A found no strong evidence to counter this consensus.",
+    "final_justification": "The cheerful tone and visual cues of a toothy smile and dimples strongly indicate happiness as the dominant emotion.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
     "first_emotion": "happy",
@@ -163,22 +151,34 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The text 'It's just a name, I can change it to Tietian.' suggests a neutral stance as there is no strong emotional language or context indicating any specific emotion."
+        "argument": "The text 'It's just a name, I can change it to Tietian' suggests a neutral stance as there is no indication of strong emotion."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates that the person is speaking in a normal tone, which aligns with a neutral emotion as there is no indication of heightened emotion in the voice."
+        "argument": "The audio description indicates a normal tone, which aligns with a neutral emotion."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression described as 'Dimpler' could suggest happiness, but without additional context, it is not strong enough to override the neutral indications from the other modalities."
+        "argument": "The visual expression described as 'Dimpler' suggests a hint of happiness, but it is not strong enough to override the neutral tone."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the lack of emotional cues in the text, I maintain my stance on neutrality with a confidence score of 90."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The normal tone in the audio supports a neutral emotion, and I am confident with a score of 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "While the dimpler expression could suggest happiness, the overall context seems neutral. I adjust my stance to neutral with a confidence score of 80."
       }
     ],
-    "final_justification": "All experts initially identified neutral as the dominant emotion due to the lack of strong emotional indicators in text, audio, and visual descriptions.",
-    "Is_disagreement_detected": "False",
-    "num_debate_rounds": "1",
+    "final_justification": "All experts agree that the overall context and tone are neutral, with no strong emotional cues present.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
     "first_emotion": "neutral",
-    "first_emotion_confidence_score": "90",
+    "first_emotion_confidence_score": "85",
     "second_emotion": "",
     "second_emotion_confidence_score": "",
     "video_id": "samplenew_00006018",
@@ -192,30 +192,30 @@
       },
       {
         "role": "Expert B",
-        "argument": "The audio is described as being in a normal tone, which suggests a neutral emotion. Confidence score: 80."
+        "argument": "The audio description indicates a normal tone, which suggests a neutral emotion. Confidence score: 80."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression of slightly lower eyebrows and grinning suggests happiness. Confidence score: 75."
+        "argument": "The visual expression of slightly lower eyebrows and grinning suggests happiness. Confidence score: 85."
       },
       {
         "role": "Expert B",
-        "argument": "Upon considering the visual cues, I acknowledge that the grinning supports happiness. I revise my stance to happiness. Confidence score: 75."
+        "argument": "Considering the visual input, I can see how happiness might be more dominant. Adjusting my confidence score to 60 for happiness."
       },
       {
         "role": "Expert A",
-        "argument": "I maintain that the text supports happiness, and with the visual support, I am more confident. Confidence score: 80."
+        "argument": "I agree with Expert C's interpretation of the visual cues. Increasing my confidence score for happiness to 80."
       },
       {
         "role": "Expert C",
-        "argument": "I maintain my stance that the visual cues indicate happiness. Confidence score: 75."
+        "argument": "Maintaining my stance on happiness as the dominant emotion. Confidence score remains 85."
       }
     ],
-    "final_justification": "The combination of the text indicating satisfaction, the normal tone, and the visual cue of grinning all support happiness as the dominant emotion.",
+    "final_justification": "The combination of the phrase, normal tone, and visual cues of grinning strongly suggest happiness as the dominant emotion.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
     "first_emotion": "happy",
-    "first_emotion_confidence_score": "80",
+    "first_emotion_confidence_score": "85",
     "second_emotion": "",
     "second_emotion_confidence_score": "",
     "video_id": "samplenew_00044512",
@@ -225,36 +225,44 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript 'It's good to know injustice' suggests a positive or neutral stance, possibly indicating 'happy' or 'neutral'. My confidence is 70."
+        "argument": "The transcript 'It's good to know injustice' suggests a neutral or possibly contemplative tone, but without additional context, I lean towards neutral."
       },
       {
         "role": "Expert B",
-        "argument": "The tone is described as positive, which aligns with 'happy'. My confidence is 80."
+        "argument": "The audio description indicates a positive tone, which suggests happiness or contentment."
       },
       {
         "role": "Expert C",
-        "argument": "The visual cues of 'Eyes narrowing, Lip Corner Puller' suggest 'contempt'. My confidence is 75."
+        "argument": "The visual cues of 'Eyes narrowing, Lip Corner Puller' suggest contempt or possibly anger."
       },
       {
         "role": "Expert A",
-        "argument": "Considering Expert C's input, the phrase could be sarcastic, indicating 'contempt'. I revise my stance to 'contempt' with confidence 60."
+        "argument": "Considering Expert B's input, I can see how the tone might be interpreted as positive, but the content of the text still feels neutral to me."
       },
       {
         "role": "Expert B",
-        "argument": "Given the visual cues, I reconsider and agree with 'contempt'. My confidence is now 70."
+        "argument": "I maintain that the tone is positive, aligning with happiness, but I acknowledge the visual cues might suggest otherwise."
       },
       {
         "role": "Expert C",
-        "argument": "I maintain my stance on 'contempt' as the visual cues strongly support it. My confidence remains 75."
+        "argument": "The visual cues strongly suggest contempt, and I am confident in this interpretation."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the strong visual cues, I am now considering contempt as a more likely emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I will adjust my stance to consider contempt as the dominant emotion due to the strong visual evidence."
       }
     ],
-    "final_justification": "The initial disagreement was resolved after considering the sarcastic undertone of the text and the visual cues, leading to a consensus on 'contempt'.",
+    "final_justification": "The visual cues strongly indicated contempt, which was supported by the audio's positive tone being reinterpreted in light of the visual evidence.",
     "Is_disagreement_detected": "True",
-    "num_debate_rounds": "2",
+    "num_debate_rounds": "3",
     "first_emotion": "contempt",
-    "first_emotion_confidence_score": "75",
-    "second_emotion": "",
-    "second_emotion_confidence_score": "",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
     "video_id": "samplenew_00055530",
     "ground_truth": "happy"
   },
@@ -262,30 +270,30 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript mentions a wedding celebration, which typically evokes happiness. However, there is no explicit emotional language used, so I initially interpret the emotion as neutral."
+        "argument": "The transcript mentions a wedding celebration, which typically evokes happiness. However, there is no explicit emotional language, so I initially interpret the emotion as neutral."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates no specific emotion, suggesting a neutral tone. I interpret the dominant emotion as neutral."
+        "argument": "The audio description indicates no specific emotion, suggesting a neutral tone. Therefore, I initially interpret the emotion as neutral."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression description mentions 'Dimpler,' which often indicates happiness. I interpret the dominant emotion as happy."
+        "argument": "The visual expression description mentions 'Dimpler,' which often indicates smiling and happiness. I initially interpret the emotion as happy."
       },
       {
         "role": "Expert A",
-        "argument": "Considering Expert C's input about the visual cue 'Dimpler,' I agree that happiness could be present. I revise my stance to happy with a confidence score of 70."
+        "argument": "Considering Expert C's input about the visual cue, I acknowledge that 'Dimpler' suggests happiness. I revise my stance to happy with a confidence score of 70."
       },
       {
         "role": "Expert B",
-        "argument": "Given the visual cue and the context of a wedding celebration, I now consider happiness as the dominant emotion with a confidence score of 60."
+        "argument": "Given the visual evidence of 'Dimpler,' I agree that happiness is likely present. I revise my stance to happy with a confidence score of 60."
       },
       {
         "role": "Expert C",
-        "argument": "I maintain my stance that the dominant emotion is happy, given the visual cue and context, with a confidence score of 80."
+        "argument": "I maintain my stance that the visual cue of 'Dimpler' indicates happiness, with a confidence score of 80."
       }
     ],
-    "final_justification": "The visual cue 'Dimpler' and the context of a wedding celebration suggest happiness as the dominant emotion, despite the neutral audio description.",
+    "final_justification": "The visual cue of 'Dimpler' strongly suggests happiness, and both the text and audio do not contradict this interpretation.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
     "first_emotion": "happy",
@@ -299,28 +307,28 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript suggests a close relationship, which could imply a positive emotion, but it doesn't specify any particular emotion. My initial assessment is neutral with a confidence score of 60."
+        "argument": "The transcript suggests a close relationship, which could imply a positive emotion. However, it doesn't explicitly indicate any strong emotion. My initial assessment is neutral with a confidence score of 60."
       },
       {
         "role": "Expert B",
-        "argument": "The tone is described as natural, which doesn't indicate any strong emotion. I initially assess the emotion as neutral with a confidence score of 70."
+        "argument": "The tone is described as natural, which doesn't suggest any strong emotion like anger or sadness. I would also assess this as neutral with a confidence score of 70."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression shows a big smile, which strongly suggests happiness. I assess the dominant emotion as happy with a confidence score of 90."
+        "argument": "The visual expression shows a big smile, which is a clear indicator of happiness. I assess the dominant emotion as happy with a confidence score of 90."
       },
       {
         "role": "Expert A",
-        "argument": "Considering Expert C's input about the big smile, I agree that happiness is likely the dominant emotion. I revise my stance to happy with a confidence score of 80."
+        "argument": "Considering Expert C's observation of a big smile, I revise my stance to happy with a confidence score of 80."
       },
       {
         "role": "Expert B",
         "argument": "Given the visual evidence of a big smile, I also revise my stance to happy with a confidence score of 85."
       }
     ],
-    "final_justification": "The visual expression of a big smile strongly indicates happiness, which is supported by the context of a close relationship.",
+    "final_justification": "The visual expression of a big smile strongly indicates happiness, which is supported by the neutral tone and transcript suggesting a positive relationship.",
     "Is_disagreement_detected": "True",
-    "num_debate_rounds": "2",
+    "num_debate_rounds": "1",
     "first_emotion": "happy",
     "first_emotion_confidence_score": "90",
     "second_emotion": "",
@@ -332,32 +340,32 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The phrase 'You exaggerate, monkey' could imply a playful or teasing tone, but without additional context, it is difficult to determine a specific emotion. My initial assessment is neutral with a slight inclination towards happy due to the playful language."
+        "argument": "The phrase 'You exaggerate, monkey' suggests a playful or teasing interaction, which could imply a happy or neutral emotion. My confidence score is 70."
       },
       {
         "role": "Expert B",
-        "argument": "The excited tone in the audio suggests a positive emotion, likely happy. My confidence in this assessment is high, around 85."
+        "argument": "The excited tone in the audio suggests a happy emotion. My confidence score is 80."
       },
       {
         "role": "Expert C",
-        "argument": "The visual cues of a smile and showing teeth indicate happiness or pleasure. My confidence in this assessment is 90."
+        "argument": "The visual cues of a smile and showing teeth indicate happiness. My confidence score is 90."
       },
       {
         "role": "Expert A",
-        "argument": "Given the additional context from audio and visual experts, I revise my stance to happy with a confidence score of 80."
+        "argument": "Considering the evidence from both audio and visual experts, I agree that the dominant emotion is happy. I revise my confidence score to 85."
       },
       {
         "role": "Expert B",
-        "argument": "I maintain my stance that the dominant emotion is happy, with a confidence score of 85."
+        "argument": "I maintain that the excited tone supports a happy emotion. My confidence score remains 80."
       },
       {
         "role": "Expert C",
-        "argument": "I maintain my stance that the dominant emotion is happy, with a confidence score of 90."
+        "argument": "The visual evidence strongly supports happiness. My confidence score remains 90."
       }
     ],
-    "final_justification": "The combination of an excited tone and visual expressions of smiling and showing teeth strongly indicate happiness as the dominant emotion.",
+    "final_justification": "All experts agree that the dominant emotion is happy, supported by the excited tone and visual cues of smiling.",
     "Is_disagreement_detected": "True",
-    "num_debate_rounds": "3",
+    "num_debate_rounds": "2",
     "first_emotion": "happy",
     "first_emotion_confidence_score": "85",
     "second_emotion": "",
@@ -369,34 +377,34 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript suggests a situation of potential surrender, which implies doubt or fear. Given the context, I lean towards doubt with a confidence score of 70."
+        "argument": "The transcript suggests a situation of potential surrender, which implies a sense of fear or worry about the consequences."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates a fearful tone, which suggests fear as the dominant emotion. My confidence score is 85."
+        "argument": "The audio description indicates a fearful tone, which strongly suggests fear as the dominant emotion."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression of lowering the brow can indicate worry or fear. I interpret this as fear with a confidence score of 75."
+        "argument": "The visual expression of lowering the brow can indicate worry or fear, aligning with the other experts."
       },
       {
         "role": "Expert A",
-        "argument": "Considering the evidence from the audio and visual experts, I revise my stance to fear with a confidence score of 80."
-      },
-      {
-        "role": "Expert C",
-        "argument": "I maintain my stance on fear, given the alignment with the audio description. My confidence remains at 75."
+        "argument": "Given the context of surrender and the fearful tone, I am confident that fear is the dominant emotion."
       },
       {
         "role": "Expert B",
-        "argument": "I am confident in my initial assessment of fear, supported by both audio and visual cues. My confidence remains at 85."
+        "argument": "I maintain that fear is the dominant emotion due to the tone of voice."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues support fear as the dominant emotion, and I agree with the other experts."
       }
     ],
-    "final_justification": "The consensus is that fear is the dominant emotion, supported by the fearful tone in the audio and the visual expression of lowering the brow.",
-    "Is_disagreement_detected": "True",
-    "num_debate_rounds": "3",
+    "final_justification": "All experts agree that the dominant emotion is fear, supported by the fearful tone in the audio and the context of the transcript.",
+    "Is_disagreement_detected": "False",
+    "num_debate_rounds": "1",
     "first_emotion": "fear",
-    "first_emotion_confidence_score": "85",
+    "first_emotion_confidence_score": "95",
     "second_emotion": "",
     "second_emotion_confidence_score": "",
     "video_id": "samplenew_00015436",
@@ -406,36 +414,32 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The phrase 'The depth of love is the cutting' suggests a complex emotional state, possibly doubt or sadness, but without clear context, I lean towards neutral with a confidence of 60."
+        "argument": "The phrase 'The depth of love is the cutting' suggests a complex emotional state, possibly doubt or sadness, but without clear context, I lean towards neutral."
       },
       {
         "role": "Expert B",
-        "argument": "The tone of voice is fearful, which strongly suggests fear as the dominant emotion. My confidence in this assessment is 80."
+        "argument": "The tone of voice is fearful, indicating fear as the dominant emotion with high confidence."
       },
       {
         "role": "Expert C",
-        "argument": "The lowering of the brow is often associated with emotions like anger or sadness, but given the context, it could also indicate fear. My confidence is 70."
+        "argument": "The visual cue of lowering the brow often indicates sadness or worry, but without additional context, I lean towards worried."
       },
       {
         "role": "Expert A",
-        "argument": "Considering the fearful tone and the visual cue, I now agree that fear is the dominant emotion. My revised confidence is 75."
+        "argument": "Considering the fearful tone, I can see how fear might be dominant. I adjust my stance to fear with moderate confidence."
       },
       {
         "role": "Expert C",
-        "argument": "I concur with Expert B's assessment that fear is the dominant emotion, given the audio and visual cues. My confidence is now 80."
-      },
-      {
-        "role": "Expert B",
-        "argument": "I maintain my stance that fear is the dominant emotion, supported by both audio and visual evidence. My confidence remains 80."
+        "argument": "Given the audio evidence, I agree that fear is likely the dominant emotion. I adjust my stance to fear with moderate confidence."
       }
     ],
-    "final_justification": "The consensus is that fear is the dominant emotion, supported by the fearful tone and visual cues such as the lowering of the brow.",
+    "final_justification": "The fearful tone in the audio was the most compelling evidence, leading to a consensus on fear as the dominant emotion.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
     "first_emotion": "fear",
-    "first_emotion_confidence_score": "80",
-    "second_emotion": "",
-    "second_emotion_confidence_score": "",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
     "video_id": "samplenew_00070726",
     "ground_truth": "sad"
   },
@@ -443,34 +447,34 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript suggests frustration or anger due to the mention of being followed, which is often associated with anger. Confidence: 70."
+        "argument": "The transcript suggests a sense of frustration or anger due to the words 'Enough' and 'following me'. My initial dominant emotion is 'angry'. Confidence score: 80."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates a neutral tone, suggesting a neutral emotion. Confidence: 80."
+        "argument": "The audio description indicates a neutral tone, suggesting no strong emotional expression. My initial dominant emotion is 'neutral'. Confidence score: 85."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression of a brow lowerer is often associated with anger or concentration. Confidence: 75."
+        "argument": "The visual expression of 'Brow Lowerer' often indicates anger or concentration. My initial dominant emotion is 'angry'. Confidence score: 75."
       },
       {
         "role": "Expert B",
-        "argument": "Re-evaluating the neutral tone, it could be masking underlying anger. Confidence: 60."
-      },
-      {
-        "role": "Expert C",
-        "argument": "The brow lowerer is more indicative of anger than concentration in this context. Confidence: 80."
+        "argument": "Considering the visual input of 'Brow Lowerer', I acknowledge the possibility of anger being present. I revise my stance to 'angry'. Confidence score: 70."
       },
       {
         "role": "Expert A",
-        "argument": "Given the context of being followed, anger seems more plausible. Confidence: 75."
+        "argument": "With the audio expert's revision, I maintain my stance on 'angry' as the dominant emotion. Confidence score: 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain my stance on 'angry' due to the visual cue. Confidence score: 80."
       }
     ],
-    "final_justification": "The combination of the transcript's context and the visual expression suggests anger as the dominant emotion, despite the neutral tone in the audio.",
+    "final_justification": "The consensus is that 'angry' is the dominant emotion, supported by the transcript and visual cues, despite the neutral audio tone.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
     "first_emotion": "angry",
-    "first_emotion_confidence_score": "75",
+    "first_emotion_confidence_score": "80",
     "second_emotion": "",
     "second_emotion_confidence_score": "",
     "video_id": "samplenew_00022413",
@@ -480,30 +484,34 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript 'Okay' is neutral and does not provide any emotional context. Confidence score: 50."
+        "argument": "The transcript 'Okay' is neutral and does not provide any emotional context. Confidence: 50."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates fear, as the tone suggests a fearful emotion. Confidence score: 80."
+        "argument": "The audio suggests fear, as the tone indicates a fearful emotion. Confidence: 80."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression of lower eyebrows can indicate anger or fear. Confidence score: 60."
+        "argument": "The visual expression of lower eyebrows can indicate fear or anger, but without additional context, it leans towards fear. Confidence: 70."
       },
       {
         "role": "Expert A",
-        "argument": "Given the audio and visual cues, I now see that fear is more likely. Confidence score: 70."
+        "argument": "After considering the audio and visual inputs, I agree that fear is the dominant emotion. Confidence: 60."
       },
       {
         "role": "Expert C",
-        "argument": "Considering the audio description, I agree that fear is the dominant emotion. Confidence score: 75."
+        "argument": "I maintain that fear is the dominant emotion, as both audio and visual cues support this. Confidence: 75."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I am confident that fear is the dominant emotion based on the audio description. Confidence: 85."
       }
     ],
-    "final_justification": "The audio description strongly suggests fear, and the visual expression supports this interpretation, leading to a consensus on fear as the dominant emotion.",
+    "final_justification": "The audio and visual cues both strongly suggest fear as the dominant emotion, with the audio being particularly indicative.",
     "Is_disagreement_detected": "True",
-    "num_debate_rounds": "2",
+    "num_debate_rounds": "3",
     "first_emotion": "fear",
-    "first_emotion_confidence_score": "80",
+    "first_emotion_confidence_score": "85",
     "second_emotion": "",
     "second_emotion_confidence_score": "",
     "video_id": "samplenew_00011989",
@@ -513,30 +521,30 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript 'Alright, then you can report me off' suggests a neutral or resigned tone, but without additional context, I can't confidently determine an emotion. My initial confidence is 50."
+        "argument": "The phrase 'Alright, then you can report me off' suggests a sense of resignation or acceptance, which could be interpreted as neutral or possibly worried. However, without additional context, I lean towards neutral with a confidence score of 60."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates a fearful tone, which suggests fear as the dominant emotion. My confidence is 80."
+        "argument": "The audio description indicates a fearful tone, which strongly suggests fear as the dominant emotion. My confidence score for fear is 85."
       },
       {
         "role": "Expert C",
-        "argument": "The visual cues of brow lowering and eyebrow raising are often associated with fear or surprise. Given the context, fear seems more likely. My confidence is 70."
+        "argument": "The visual cues of a brow lowerer and raised eyebrows typically indicate surprise or fear. Given the context, I interpret this as fear with a confidence score of 75."
       },
       {
         "role": "Expert A",
-        "argument": "Considering the audio and visual evidence, I now agree that fear is the dominant emotion. My revised confidence is 70."
+        "argument": "Considering the audio and visual evidence, I revise my stance to fear with a confidence score of 70."
       },
       {
         "role": "Expert C",
-        "argument": "I maintain that fear is the dominant emotion based on the visual cues. My confidence remains 70."
+        "argument": "I maintain my position that fear is the dominant emotion, with a confidence score of 80."
       },
       {
         "role": "Expert B",
-        "argument": "I am confident that fear is the dominant emotion based on the audio description. My confidence remains 80."
+        "argument": "I am confident in my initial assessment of fear as the dominant emotion, with a confidence score of 85."
       }
     ],
-    "final_justification": "The audio and visual descriptions both strongly indicate fear as the dominant emotion, with consistent evidence from tone and facial expressions.",
+    "final_justification": "The consensus among the experts is that fear is the dominant emotion, supported by the fearful tone in the audio and the visual expressions indicating fear.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
     "first_emotion": "fear",
@@ -550,34 +558,34 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript 'For this reason' is too vague to determine a specific emotion. I initially interpret this as neutral."
+        "argument": "The transcript 'For this reason' is too vague to determine a specific emotion, so I initially lean towards 'neutral' with a confidence score of 60."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates a normal tone, which suggests a neutral emotion."
+        "argument": "The audio description indicates a normal tone, which suggests a 'neutral' emotion with a confidence score of 70."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression of 'frowns furrowed' suggests an emotion of worry or anger."
+        "argument": "The visual expression of 'frowns furrowed' suggests 'worried' or 'angry'. I initially lean towards 'worried' with a confidence score of 75."
       },
       {
         "role": "Expert A",
-        "argument": "Given Expert C's input, I reconsider and acknowledge that the visual cue might indicate worry. My confidence in neutral is now lower."
+        "argument": "Considering Expert C's input, the frown could indicate 'worried'. I revise my stance to 'worried' with a confidence score of 65."
       },
       {
         "role": "Expert B",
-        "argument": "I agree with Expert C that the visual cue suggests worry. I am now less confident in my initial neutral assessment."
+        "argument": "Given the visual input, I reconsider and agree that 'worried' is more likely than 'neutral'. I revise my stance to 'worried' with a confidence score of 60."
       },
       {
         "role": "Expert C",
-        "argument": "I maintain that the frown is indicative of worry, and I am confident in this assessment."
+        "argument": "I maintain my stance on 'worried' as the dominant emotion with a confidence score of 75."
       }
     ],
-    "final_justification": "The visual cue of 'frowns furrowed' strongly suggests worry, despite the neutral tone and vague transcript.",
+    "final_justification": "The visual cue of 'frowns furrowed' strongly suggests a 'worried' emotion, which was supported by all experts after discussion.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
     "first_emotion": "worried",
-    "first_emotion_confidence_score": "85",
+    "first_emotion_confidence_score": "75",
     "second_emotion": "",
     "second_emotion_confidence_score": "",
     "video_id": "samplenew_00053892",
@@ -587,36 +595,36 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript 'Unique' is too vague to determine a specific emotion. I initially lean towards 'neutral' due to lack of context."
+        "argument": "The word 'Unique' in the transcript does not provide enough context to determine a specific emotion. I initially interpret this as neutral due to lack of context."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates a 'fearful' emotion, which suggests fear is the dominant emotion. My confidence is 80."
+        "argument": "The audio description indicates a fearful emotion, which suggests fear is the dominant emotion. I am confident in this interpretation with a score of 85."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression of 'eyebrow raised, insecure' suggests fear or worry. I initially lean towards 'fear' with a confidence of 70."
+        "argument": "The visual expression of a raised eyebrow and an insecure demeanor suggests fear or worry. I initially interpret this as fear with a confidence score of 80."
       },
       {
         "role": "Expert A",
-        "argument": "Given the audio and visual evidence, I revise my stance to 'fear' with a confidence of 60."
-      },
-      {
-        "role": "Expert B",
-        "argument": "I maintain my stance on 'fear' as the dominant emotion with a confidence of 80."
+        "argument": "Given the additional context from audio and visual experts, I revise my stance to support fear as the dominant emotion with a confidence score of 70."
       },
       {
         "role": "Expert C",
-        "argument": "I agree with 'fear' as the dominant emotion, increasing my confidence to 75."
+        "argument": "I maintain my stance that fear is the dominant emotion, but I acknowledge that worry could be a secondary emotion. My confidence in fear remains at 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert C that fear is dominant, and worry could be secondary. My confidence in fear remains at 85."
       }
     ],
-    "final_justification": "The audio and visual cues both strongly suggest fear as the dominant emotion, with no significant evidence for a second emotion.",
+    "final_justification": "The consensus is that fear is the dominant emotion, supported by both audio and visual cues, with worry as a secondary emotion.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
     "first_emotion": "fear",
-    "first_emotion_confidence_score": "80",
-    "second_emotion": "",
-    "second_emotion_confidence_score": "",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
     "video_id": "samplenew_00047348",
     "ground_truth": "sad"
   },
@@ -624,34 +632,30 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript mentions a 'smell of gunpowder,' which could imply a sense of danger or tension, but it is not explicitly linked to any strong emotion. I initially interpret this as 'neutral' due to lack of emotional cues."
+        "argument": "The transcript suggests a situation that could be tense or alarming due to the mention of 'gunpowder', but it does not explicitly convey any strong emotion. My initial assessment is neutral with a slight inclination towards doubt due to the context."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates no specific emotion, suggesting a 'neutral' stance. My confidence in this interpretation is high, around 90."
+        "argument": "The audio description indicates no specific emotion is conveyed through tone or speech, leading me to initially assess the emotion as neutral."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression shows a raised eyebrow and an insecure demeanor, which suggests 'doubt' or 'worried.' I lean towards 'doubt' with a confidence score of 80."
+        "argument": "The visual expression of a raised eyebrow and an insecure demeanor suggests doubt. I am confident in assessing doubt as the dominant emotion."
       },
       {
         "role": "Expert A",
-        "argument": "Considering Expert C's input on visual cues, I can see how 'doubt' might be present. I will adjust my stance to 'doubt' with a confidence score of 70."
+        "argument": "Considering Expert C's input on visual cues, I agree that doubt is a plausible emotion given the context and visual expression."
       },
       {
         "role": "Expert B",
-        "argument": "Given the visual evidence, I am willing to consider 'doubt' as a possible emotion. I will adjust my stance to 'doubt' with a confidence score of 60."
-      },
-      {
-        "role": "Expert C",
-        "argument": "I maintain my position that 'doubt' is the most fitting emotion based on the visual cues. My confidence remains at 80."
+        "argument": "I acknowledge the visual cues provided by Expert C and agree that doubt is a reasonable emotion to consider, given the lack of audio evidence."
       }
     ],
-    "final_justification": "The consensus is that 'doubt' is the dominant emotion due to the visual cues of a raised eyebrow and an insecure demeanor, despite the neutral audio and text.",
+    "final_justification": "The visual expression of a raised eyebrow and an insecure demeanor strongly suggests doubt, supported by the context of the transcript.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
     "first_emotion": "doubt",
-    "first_emotion_confidence_score": "70",
+    "first_emotion_confidence_score": "85",
     "second_emotion": "",
     "second_emotion_confidence_score": "",
     "video_id": "samplenew_00070477",
@@ -661,32 +665,36 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript 'Family, that's Fan Lv.' does not provide enough context to determine a specific emotion. I initially interpret this as neutral due to lack of emotional indicators."
+        "argument": "The transcript 'Family, that's Fan Lv.' does not provide enough context to determine a specific emotion. I initially interpret this as neutral."
       },
       {
         "role": "Expert B",
-        "argument": "The audio description indicates a fearful emotion, which suggests that the speaker's tone conveys fear. I am confident in identifying fear as the dominant emotion with a confidence score of 80."
+        "argument": "The audio description indicates a fearful emotion, which suggests fear is the dominant emotion. My confidence is 80."
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression of lowering the brow can be associated with emotions like anger or concentration, but without additional context, it is not definitive. I initially interpret this as neutral."
+        "argument": "The visual expression of lowering the brow can indicate worry or fear. I initially interpret this as worried with a confidence of 70."
       },
       {
         "role": "Expert A",
-        "argument": "Upon considering Expert B's input on the audio description, I acknowledge that the tone of voice can significantly indicate fear. I revise my stance to support fear as the dominant emotion with a confidence score of 70."
+        "argument": "After considering the audio and visual inputs, I acknowledge that fear might be more dominant than neutral. I revise my stance to fear with a confidence of 60."
       },
       {
         "role": "Expert C",
-        "argument": "Given the audio evidence of fear and the lack of strong visual indicators for another emotion, I agree that fear is likely the dominant emotion. I adjust my confidence score to 60 for fear."
+        "argument": "Given the audio's indication of fear and my initial interpretation of worry, I now agree that fear is the dominant emotion with a confidence of 75."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that fear is the dominant emotion, supported by both audio and visual cues, with a confidence of 85."
       }
     ],
-    "final_justification": "The audio description strongly suggests a fearful tone, which is supported by the lack of strong indicators for other emotions in the text and visual descriptions.",
+    "final_justification": "The consensus is that fear is the dominant emotion, supported by the audio description and visual cues, with worry as a secondary emotion.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
     "first_emotion": "fear",
     "first_emotion_confidence_score": "80",
-    "second_emotion": "",
-    "second_emotion_confidence_score": "",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
     "video_id": "samplenew_00009595",
     "ground_truth": "sad"
   },
@@ -694,7 +702,788 @@
     "debate": [
       {
         "role": "Expert A",
-        "argument": "The transcript is neutral as it simply states a fact about the meat being in stock. There is no emotional language present."
+        "argument": "Based on the transcript, the statement 'Meat: It's already in stock.' is neutral as it is simply providing information without any emotional context."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a fearful tone, suggesting that the dominant emotion is fear."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of furrowed frowns suggests worry or concern, indicating a worried emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I acknowledge the fearful tone in the audio, which suggests fear might be more dominant than neutral."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the fearful tone in the audio, I am inclined to agree that fear is more dominant than worry."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that fear is the dominant emotion due to the tone, and the visual expression supports a secondary emotion of worry."
+      }
+    ],
+    "final_justification": "The fearful tone in the audio strongly indicates fear as the dominant emotion, supported by the visual expression of worry.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "video_id": "samplenew_00018257",
+    "ground_truth": "sad"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text suggests a sense of uncertainty or doubt, as the speaker acknowledges a lack of knowledge."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, suggesting no strong emotion is conveyed through voice."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of a lip tightener can indicate tension or doubt, but without additional context, it is not definitive."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I maintain that doubt is the dominant emotion due to the explicit mention of not knowing."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I still perceive the tone as neutral, but I acknowledge the text's implication of doubt."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the text and visual cues, I am inclined to agree that doubt is present."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I am confident in doubt being the dominant emotion, with a confidence score of 85."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I will adjust my stance to support doubt as the dominant emotion, with a confidence score of 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with doubt as the dominant emotion, with a confidence score of 75."
+      }
+    ],
+    "final_justification": "The text explicitly indicates doubt, supported by visual cues, while the audio remains neutral.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "doubt",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00011442",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript is too vague to determine a specific emotion, so I initially interpret it as neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, so I initially interpret the emotion as neutral."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of a brow lowerer could suggest emotions like anger or doubt, but without additional context, I initially interpret it as neutral."
+      }
+    ],
+    "final_justification": "All experts initially agreed on a neutral emotion due to the lack of strong emotional indicators in text, audio, and visual descriptions.",
+    "Is_disagreement_detected": "False",
+    "num_debate_rounds": "1",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00007742",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript is neutral, as it simply states a fact without any emotional cues. Confidence score: 90."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates no specific emotion, suggesting a neutral tone. Confidence score: 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression description 'Dimpler' suggests a happy emotion, as dimples often appear when smiling. Confidence score: 80."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I acknowledge Expert C's point about dimples, which could indicate happiness. However, without additional context, I maintain a neutral stance. Confidence score: 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert C that dimples can indicate happiness, but the audio remains neutral. I will adjust my stance slightly towards happy. Confidence score: 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the lack of strong emotional cues from text and audio, I will concede that the overall emotion might be more neutral than happy. Confidence score: 60."
+      }
+    ],
+    "final_justification": "The initial disagreement was resolved by considering the lack of strong emotional cues in text and audio, leading to a consensus on a neutral emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "video_id": "samplenew_00001774",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a question is being asked, which could indicate doubt. Confidence score: 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio does not convey any specific emotion from the list. Confidence score: 50."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of a brow lowerer can indicate doubt or worry. Confidence score: 75."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Upon considering Expert C's input, the brow lowerer aligns with doubt. I revise my stance to doubt. Confidence score: 60."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I maintain my position that the transcript suggests doubt. Confidence score: 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I am confident that the visual expression supports doubt. Confidence score: 75."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is doubt, supported by the question in the transcript and the brow lowerer in the visual expression.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "doubt",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00020393",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'The word of Kung Fu is to whip away officials' is ambiguous and does not clearly convey any specific emotion. My initial assessment is neutral with a confidence score of 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates no specific emotion is conveyed through tone or speech. I assess the emotion as neutral with a confidence score of 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression 'Brow Lowerer' typically indicates anger or concentration. I initially assess the emotion as angry with a confidence score of 75."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering Expert C's input, the 'Brow Lowerer' could suggest anger. I revise my stance to angry with a confidence score of 65."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Given the visual input, I reconsider and agree that the 'Brow Lowerer' suggests anger. I revise my stance to angry with a confidence score of 60."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain my stance that the 'Brow Lowerer' indicates anger, and my confidence remains at 75."
+      }
+    ],
+    "final_justification": "The consensus is that the 'Brow Lowerer' visual cue strongly suggests anger, despite the neutral audio and ambiguous text.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00001941",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a positive sentiment, possibly happy, as it talks about willingness and putting heart into something."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a normal tone, which suggests a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of a dimpler typically indicates happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Given the visual cue of a dimpler, I can see how happiness might be more dominant than neutral."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I agree with Expert C, the transcript supports a positive emotion, aligning with happiness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that the visual expression strongly suggests happiness."
+      }
+    ],
+    "final_justification": "The visual expression of a dimpler and the positive sentiment in the transcript suggest happiness as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "video_id": "samplenew_00021159",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript is very limited and doesn't provide much context. The phrase 'I ask, he has ten sentences, standing up' is neutral in nature. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a normal tone, which suggests a neutral emotion. My confidence score is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression 'Brow Lowerer' can indicate emotions like anger or concentration, but without additional context, it is not definitive. My confidence score is 60."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the normal tone and lack of emotional cues in the transcript, I maintain that the dominant emotion is neutral. My confidence score remains 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A. The normal tone supports a neutral emotion. My confidence score remains 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Considering the lack of strong evidence for any specific emotion, I agree that neutral is the most fitting. My confidence score is now 70."
+      }
+    ],
+    "final_justification": "The transcript and audio both suggest a neutral emotion, and the visual cue is not strong enough to indicate a different emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00032239",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text suggests a sense of exclusivity or secrecy, which could imply doubt or worry, but there's no strong indication of any specific emotion. Confidence score: 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a normal tone, suggesting a neutral emotion. Confidence score: 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of a brow lowerer could indicate anger or concentration, but without additional context, it is not definitive. Confidence score: 50."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the normal tone and lack of strong emotional cues in the text, I am inclined to agree with a neutral stance. Confidence score: 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the normal tone and lack of strong visual cues, I will also lean towards neutral. Confidence score: 60."
+      }
+    ],
+    "final_justification": "The normal tone in the audio and lack of strong emotional indicators in both text and visual expressions suggest a neutral emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00012993",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text 'King Ning and King Huai are not worth mentioning' suggests a dismissive attitude, which could indicate contempt. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a normal tone, which suggests a neutral emotion. My confidence score is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of a brow lowerer often indicates anger or contempt. My confidence score is 75."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Given the visual input, I reconsider my stance. The brow lowerer could indeed suggest contempt. I adjust my confidence score to 60 for contempt."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I maintain my position that the text suggests contempt, especially with the visual support. My confidence score remains 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the consensus forming around contempt, given the visual and textual evidence. My confidence score is 75."
+      }
+    ],
+    "final_justification": "The combination of dismissive language and the brow lowerer expression strongly suggests contempt as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "contempt",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00007710",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript indicates that there is no longer any threat, which suggests a neutral situation. My confidence score is 90."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone sounds normal, which aligns with a neutral emotion. My confidence score is 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows a dimpler, which often indicates happiness. My confidence score is 80."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the normal tone and the absence of threat, I maintain that the dominant emotion is neutral. My confidence score remains 90."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A that the normal tone suggests neutrality. My confidence score is now 90."
+      },
+      {
+        "role": "Expert C",
+        "argument": "While the dimpler suggests happiness, the context of no threat and normal tone supports neutrality. I revise my stance to neutral with a confidence score of 85."
+      }
+    ],
+    "final_justification": "The absence of threat and normal tone strongly suggest a neutral emotion, despite the visual cue of a dimpler indicating happiness.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "80",
+    "video_id": "samplenew_00035397",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'That kid.' is too brief to determine a specific emotion, so I initially consider it neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates an angry tone, so I initially identify the emotion as angry with high confidence."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues of lower eyebrows, lid tightener, and lips apart showing teeth suggest anger, so I initially identify the emotion as angry with high confidence."
+      },
+      {
+        "role": "Expert A",
+        "argument": "After considering the audio and visual evidence, I revise my stance to agree with anger as the dominant emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain my stance that the dominant emotion is anger, with a confidence score of 90."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain my stance that the dominant emotion is anger, with a confidence score of 95."
+      }
+    ],
+    "final_justification": "The audio and visual cues strongly indicate anger as the dominant emotion, with both experts B and C agreeing on this interpretation.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00057449",
+    "ground_truth": "angry"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'You know, I'm there.' is neutral and does not convey any specific emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates no specific emotion, suggesting a neutral tone."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of curling the lips upwards suggests a happy emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the visual evidence, I reconsider my stance and agree that the visual expression indicates happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I acknowledge the visual cue of curling lips upwards and agree that it suggests happiness."
+      }
+    ],
+    "final_justification": "The visual expression of curling the lips upwards strongly indicates happiness, despite the neutral text and audio.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00000079",
+    "ground_truth": "angry"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text suggests a confrontational situation, possibly indicating anger or doubt. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone is negative, which could indicate anger or contempt. My confidence score is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues of lowered brow and tightened eyelids suggest anger, while the curled lips could indicate contempt. My confidence score is 85."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the negative tone and visual cues, I now lean towards anger as the dominant emotion. My revised confidence score is 75."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert C's interpretation of anger based on the visual cues. My revised confidence score is 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that anger is the dominant emotion, with contempt as a secondary possibility. My confidence score remains 85."
+      }
+    ],
+    "final_justification": "The combination of negative tone and visual expressions strongly indicates anger as the dominant emotion, with some elements of contempt.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "contempt",
+    "second_emotion_confidence_score": "70",
+    "video_id": "samplenew_00033007",
+    "ground_truth": "angry"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a negative sentiment with words like 'don't deceive' and 'endure'. This could indicate emotions like doubt or worried. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone, which aligns with emotions like angry or worried. My confidence score is 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows lips forming an upward curve, which typically indicates happiness. However, the context might suggest a more complex emotion. My confidence score is 60."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the negative tone and the context, I lean towards worried as the dominant emotion. My revised confidence score is 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A. The negative tone and context suggest worried. My revised confidence score is 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the context and the other experts' arguments, I now see worried as more fitting. My revised confidence score is 70."
+      }
+    ],
+    "final_justification": "The negative tone and context of the transcript suggest a worried emotion, despite the visual expression indicating happiness.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00036310",
+    "ground_truth": "angry"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The phrase 'Boarding, preparing to kill' suggests a serious and potentially aggressive intent, which could indicate anger or contempt. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a normal tone, which suggests a neutral emotion. My confidence score is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of furrowed frowns suggests anger or worry. My confidence score is 75."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the normal tone, I am inclined to revise my stance towards neutral, as the tone does not match the aggressive intent. My revised confidence score is 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain my stance on neutral due to the normal tone. My confidence score remains 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the normal tone, I am revising my stance to neutral, as the visual expression alone is not enough to indicate anger. My revised confidence score is 65."
+      }
+    ],
+    "final_justification": "The normal tone in the audio suggests a neutral emotion, which is supported by the lack of strong evidence for anger or contempt from the text and visual descriptions.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00057012",
+    "ground_truth": "angry"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a reflection on past treatment, which could imply sadness or contempt, but without explicit emotional cues, I initially lean towards neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a fearful tone, suggesting fear as the dominant emotion with high confidence."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of a brow lowerer is often associated with anger or fear, but given the context, I initially interpret it as fear."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon considering the fearful tone and brow lowerer, I revise my stance to fear with moderate confidence."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain my stance on fear, as the brow lowerer aligns with the fearful tone described."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I am confident in my initial assessment of fear, given the audio description."
+      }
+    ],
+    "final_justification": "The consensus is that fear is the dominant emotion, supported by the fearful tone and visual cues of a brow lowerer.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00056538",
+    "ground_truth": "angry"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript does not provide clear emotional cues, so I initially interpret the emotion as neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates an angry tone, so I interpret the dominant emotion as angry with high confidence."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues such as furrowed frowns and curled lips upwards suggest anger, so I interpret the dominant emotion as angry with high confidence."
+      },
+      {
+        "role": "Expert A",
+        "argument": "After considering the audio and visual evidence, I revise my stance to agree with the angry interpretation."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain my stance that the dominant emotion is angry, supported by the audio tone."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain my stance that the dominant emotion is angry, supported by the visual expressions."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is angry, supported by both audio and visual cues, with no significant evidence for a second emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00057731",
+    "ground_truth": "angry"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The phrase 'no one asked, send me tea' seems dismissive, suggesting contempt. Confidence: 70"
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone described as 'flaming' suggests anger. Confidence: 80"
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues of furrowed brows and upward curled lips suggest a mix of anger and contempt. Confidence: 75"
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the tone and visual cues, I agree anger is more dominant. Confidence: 60"
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert B, the tone and visual cues align more with anger. Confidence: 80"
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that anger is the dominant emotion. Confidence: 85"
+      }
+    ],
+    "final_justification": "The combination of a flaming tone and visual cues such as furrowed brows strongly indicate anger as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "contempt",
+    "second_emotion_confidence_score": "75",
+    "video_id": "samplenew_00039443",
+    "ground_truth": "angry"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The phrase 'Why is everything asking me?' suggests a sense of being overwhelmed or confused, which could indicate doubt or worry. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The normal tone of voice suggests a neutral or calm state, not indicating any strong emotion. My confidence score is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues of Brow Lowerer and Facial tightness suggest some tension, but the upward curve of the lips indicates a slight smile, which could suggest a mix of emotions, possibly happy or contempt. My confidence score is 60."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual cues, I can see how there might be a mix of emotions. I am now less confident in my initial assessment and would rate my confidence at 50."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Given the visual cues, I am inclined to consider a slight positive emotion like happy, but the tone still suggests neutrality. My confidence remains at 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I am now more inclined to consider a neutral emotion due to the normal tone and mixed visual cues. My confidence is now 70."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I agree with the neutral assessment given the lack of strong emotional indicators. My confidence is now 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that the dominant emotion is neutral, with a slight possibility of happy. My confidence is 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the neutral assessment, with a slight indication of happy due to the upward curve of the lips. My confidence is 75."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is neutral due to the normal tone and mixed visual cues, with a slight indication of happiness from the upward curve of the lips.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "65",
+    "video_id": "samplenew_00039031",
+    "ground_truth": "angry"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text suggests a neutral interaction, as the speaker is offering money and inviting the other person to chat, which doesn't inherently convey strong emotions like anger or happiness. Confidence: 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, which suggests that the speaker is not expressing any strong emotions. Confidence: 90."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of lower eyebrows and upper lip raiser could suggest contempt or anger, but without additional context, it is not definitive. Confidence: 60."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Upon further consideration, the visual cues alone are not strong enough to override the neutral indications from text and audio. I am less confident in my initial assessment. Confidence: 50."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the neutral tone in both text and audio, I maintain that the overall emotion is neutral. Confidence: 85."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A, the neutral tone in audio supports a neutral emotion. Confidence: 90."
+      }
+    ],
+    "final_justification": "The text and audio both indicate a neutral interaction, and while the visual cues suggested possible contempt or anger, they were not strong enough to override the neutral indications.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "sample_00006794",
+    "ground_truth": "angry"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text 'What are you doing in a wheelchair?' suggests a potential surprise or doubt, but without additional context, it is neutral."
       },
       {
         "role": "Expert B",
@@ -702,29 +1491,1866 @@
       },
       {
         "role": "Expert C",
-        "argument": "The visual expression shows frowns furrowed, which could indicate worry or fear."
+        "argument": "The visual expression of pursed lips can indicate worry or doubt, but it is not definitive."
       },
       {
         "role": "Expert A",
-        "argument": "Considering the fearful tone and frowns, I now see fear as a possible emotion, but I am not confident."
+        "argument": "Considering the fearful tone from the audio, I can see how fear might be the dominant emotion."
       },
       {
         "role": "Expert C",
-        "argument": "The frowns furrowed align with fear, supporting Expert B's interpretation."
+        "argument": "I agree that the audio evidence of fear is stronger than the visual cues of doubt or worry."
       },
       {
         "role": "Expert B",
-        "argument": "I maintain that fear is the dominant emotion due to the tone and visual cues."
+        "argument": "The fearful tone is consistent with the context of the question, reinforcing fear as the dominant emotion."
       }
     ],
-    "final_justification": "The fearful tone in the audio and the frowns furrowed in the visual expression both strongly indicate fear as the dominant emotion.",
+    "final_justification": "The fearful tone in the audio strongly indicates fear as the dominant emotion, supported by the context of the question.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "doubt",
+    "second_emotion_confidence_score": "60",
+    "video_id": "samplenew_00004669",
+    "ground_truth": "worried"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The statement 'Oh, this family is not as good as mine' suggests a sense of superiority or contempt. My confidence score is 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone sounds positive, which could indicate happiness or a light-hearted comparison. My confidence score is 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The presence of a cheek dimple suggests a smile, which is often associated with happiness. My confidence score is 85."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the positive tone and smile, I am revising my stance to happy. My confidence score is now 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that the tone is positive, supporting happiness. My confidence score remains 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I am confident that the visual expression supports happiness. My confidence score is 85."
+      }
+    ],
+    "final_justification": "The combination of a positive tone and a smile suggests that the dominant emotion is happy.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00066683",
+    "ground_truth": "worried"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The phrase 'Why did you ruin Dali Temple again' suggests a sense of blame or accusation, which could indicate anger or contempt. However, without additional context, I am leaning towards doubt as the dominant emotion due to the questioning nature of the statement. Confidence score: 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a normal tone, which suggests a neutral emotion. There is no indication of heightened emotion such as anger or fear. Confidence score: 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of anxiously stretched lips suggests worry or anxiety. This aligns more with a worried emotion. Confidence score: 75."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering Expert C's input on the visual expression, I can see how worry might be more fitting. I am revising my stance to worried. Confidence score: 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Given the visual input, I can understand the presence of worry. I will adjust my interpretation to worried as well. Confidence score: 65."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that the visual cues strongly suggest worry. Confidence score: 80."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is worried, supported by the visual expression of anxiously stretched lips, despite the neutral tone in the audio.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00068896",
+    "ground_truth": "worried"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a sense of urgency and perhaps frustration, but it's not explicitly clear. I initially interpret this as 'worried' due to the context of rushing back."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone is described as negative, which could indicate 'angry' or 'worried'. I lean towards 'angry' due to the negative tone."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cue of enlarged nostrils often indicates 'angry'. I am confident in identifying 'angry' as the dominant emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the negative tone and visual cues, I revise my stance to 'angry'."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain my position that 'angry' is the dominant emotion due to the negative tone."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I remain confident that 'angry' is the correct interpretation based on visual evidence."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is 'angry', supported by the negative tone and visual cues of enlarged nostrils.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "video_id": "samplenew_00003189",
+    "ground_truth": "worried"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'Which road is it?' suggests a neutral or possibly doubtful emotion, as it is a question seeking information."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a fearful tone, which suggests fear as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of nasal flaring can be associated with fear or anger, but without additional context, it leans more towards fear."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the fearful tone and nasal flaring, I revise my stance to support fear as the dominant emotion with a confidence score of 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that fear is the dominant emotion due to the nasal flaring, with a confidence score of 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I am confident that fear is the dominant emotion due to the tone, with a confidence score of 90."
+      }
+    ],
+    "final_justification": "The consensus is that fear is the dominant emotion, supported by the fearful tone and nasal flaring, which are strong indicators of fear.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00035305",
+    "ground_truth": "worried"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'What is hidden behind Song Anyan?' suggests a sense of doubt or curiosity, but without additional context, it's hard to determine a strong emotion. My confidence is 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a fearful tone, which strongly suggests fear as the dominant emotion. My confidence is 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues of pursed lips and nasal flaring can indicate anger or contempt, but without more context, they are not definitive. My confidence is 70."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the fearful tone from the audio, I am inclined to agree that fear is a strong candidate. I revise my stance to fear with a confidence of 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the audio's indication of fear, I will adjust my interpretation to align with fear as the dominant emotion. My revised confidence is 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that fear is the dominant emotion based on the audio evidence. My confidence remains 85."
+      }
+    ],
+    "final_justification": "The consensus is that fear is the dominant emotion, supported by the fearful tone in the audio and the visual cues that could align with fear.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00063662",
+    "ground_truth": "worried"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text suggests doubt and worry, as the speaker questions the possibility of leaking secrets and expresses a desire to see someone, indicating concern."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a fearful tone, suggesting fear as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of a lip stretcher can indicate fear or worry, aligning with the audio description."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the fearful tone in the audio and the visual expression, I agree that fear is the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that fear is the dominant emotion, supported by both audio and visual cues."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I am confident that fear is the dominant emotion, with worry as a secondary emotion due to the context of the conversation."
+      }
+    ],
+    "final_justification": "The consensus is that fear is the dominant emotion, supported by the fearful tone in the audio and the visual expression, with worry as a secondary emotion due to the context.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "video_id": "samplenew_00027234",
+    "ground_truth": "worried"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text suggests doubt about attending the training in person, as the speaker questions the necessity of going."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio indicates a fearful emotion, as the tone of voice suggests apprehension."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of bringing lips together can indicate doubt or contemplation."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I maintain that doubt is present due to the questioning nature of the text, with a confidence score of 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The fearful tone in the audio is strong, and I am confident in this interpretation with a score of 90."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cue of bringing lips together aligns with doubt, but I acknowledge it could also support fear, with a confidence score of 70."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio input, I can see fear as a valid interpretation, but doubt remains strong in the text."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I still believe fear is dominant due to the audio, but I recognize doubt as a secondary emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I am now leaning towards fear as the dominant emotion, with doubt as a secondary emotion."
+      }
+    ],
+    "final_justification": "The audio strongly indicates fear, supported by the tone of voice, while the text and visual cues suggest doubt as a secondary emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "doubt",
+    "second_emotion_confidence_score": "70",
+    "video_id": "samplenew_00037763",
+    "ground_truth": "worried"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript indicates a concern about physical pain, which could suggest worry. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio does not convey any specific emotion, so I initially consider it neutral. My confidence score is 50."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of tense lips could indicate worry or discomfort. My confidence score is 75."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Given the visual input from Expert C, I reconsider and agree that worry is a plausible emotion. My revised confidence score is 60."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I maintain that worry is the dominant emotion due to the context of pain. My confidence score remains 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I am confident that worry is the dominant emotion, supported by both text and visual cues. My confidence score is 80."
+      }
+    ],
+    "final_justification": "The dominant emotion is worry, as indicated by the concern about pain in the transcript and the visual expression of tense lips.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00002679",
+    "ground_truth": "worried"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text suggests a sense of concern or worry for the princess's condition, indicating a 'worried' emotion. Confidence: 70"
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone is described as negative, which could imply 'worried' or 'sad'. Confidence: 60"
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cue of enlarged nostrils often indicates 'anger' or 'fear'. Confidence: 75"
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the negative tone and the context, 'worried' seems more fitting. Confidence: 80"
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A, the negative tone aligns with 'worried'. Confidence: 75"
+      },
+      {
+        "role": "Expert C",
+        "argument": "Upon reconsideration, the context of concern aligns more with 'worried' than 'anger'. Confidence: 70"
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is 'worried', supported by the negative tone and context of concern for the princess's condition.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00001054",
+    "ground_truth": "worried"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "I have no input to analyze as the whisper_transcript is None."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tremulous tone in the audio suggests a dominant emotion of fear, with a confidence score of 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The raised upper eyelids in the visual expression suggest surprise, with a confidence score of 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tremulous tone is often associated with fear or anxiety, which aligns with my initial assessment."
+      },
+      {
+        "role": "Expert C",
+        "argument": "While raised eyelids can indicate surprise, they can also be a sign of fear, especially when combined with a tremulous tone."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Given the visual input, I am more confident that fear is the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree that fear is more likely the dominant emotion when considering both audio and visual cues."
+      }
+    ],
+    "final_justification": "The tremulous tone and raised upper eyelids both support fear as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "video_id": "sample_00001727",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript is neutral and doesn't convey any specific emotion. Confidence score: 50."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The loud tone suggests a strong emotion, possibly happy or angry. Confidence score: 60."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expressions indicate happiness with a smile and cheek dimples. Confidence score: 90."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual cues, I agree with Expert C that the dominant emotion is happy. Confidence score: 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The loud tone could align with happiness, especially with the visual evidence. Confidence score: 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual evidence strongly supports happiness as the dominant emotion. Confidence score: 95."
+      }
+    ],
+    "final_justification": "The visual expressions strongly indicate happiness, supported by the loud tone in the audio.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00035139",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The phrase 'Near your wife's house' could imply a sense of doubt or worry, but without more context, it is difficult to determine a specific emotion. My confidence is 50."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description 'in a tremulous manner' suggests fear or worry. My confidence is 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues of 'Eyes widened, Jaw Drop' strongly indicate surprise. My confidence is 80."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio and visual inputs, I now lean towards surprise as the dominant emotion. My revised confidence is 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual evidence of surprise is compelling. I agree with surprise as the dominant emotion. My revised confidence is 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that surprise is the dominant emotion, supported by both visual and audio cues. My confidence remains 80."
+      }
+    ],
+    "final_justification": "The visual expression of widened eyes and a dropped jaw, combined with the tremulous audio manner, strongly suggest surprise as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "video_id": "samplenew_00064348",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'Goods: Ma Chao, fire! Liu Bei.' does not provide clear emotional context. I initially interpret this as neutral due to lack of emotional indicators."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tremulous tone in the audio suggests fear. My confidence in this interpretation is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues such as inner brow raiser, elevated outer brow, and pupil enlargement suggest surprise. My confidence in this interpretation is 85."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio and visual inputs, I revise my stance to support surprise with a confidence of 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual cues are strong indicators of surprise. I adjust my interpretation to surprise with a confidence of 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain my stance on surprise, given the strong visual indicators. My confidence remains at 85."
+      }
+    ],
+    "final_justification": "The visual cues strongly indicate surprise, supported by the audio's tremulous tone, which can also align with surprise.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "75",
+    "video_id": "samplenew_00024409",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript does not convey any strong emotion. The mention of a snack and exchange for mushrooms seems factual and neutral. Confidence score: 90."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, suggesting no strong emotion is present. Confidence score: 95."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The raised upper eyelids could suggest surprise, but without additional context, it is not definitive. Confidence score: 60."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Upon further consideration, the raised eyelids alone are insufficient to indicate surprise without supporting evidence from other modalities. I am not confident in my initial assessment."
+      }
+    ],
+    "final_justification": "All experts agree that the overall presentation is neutral, with no strong emotional cues from text, audio, or visual descriptions.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "1",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00065560",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a question or uncertainty, which could indicate doubt. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone being described as startled suggests surprise. My confidence score is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The wide-mouthed expression is often associated with surprise. My confidence score is 85."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the evidence from the other experts, I agree that surprise is more dominant. I am not confident in doubt anymore."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that surprise is the dominant emotion given the audio description. My confidence remains at 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I still believe surprise is the dominant emotion based on the visual evidence. My confidence remains at 85."
+      }
+    ],
+    "final_justification": "The audio and visual descriptions both strongly indicate surprise, which is supported by the startled tone and wide-mouthed expression.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00052541",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a questioning tone with 'No?' and 'That's right', which could imply doubt or neutrality. However, without additional context, I lean towards neutral. Confidence: 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a happy voice, suggesting happiness as the dominant emotion. Confidence: 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues such as head lifting, outer brow raiser, and open mouth wide are consistent with surprise or happiness. Given the context, I lean towards happiness. Confidence: 75."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio and visual evidence, I revise my stance to happiness. Confidence: 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain my stance on happiness, as the visual cues strongly support it. Confidence: 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I am confident in my initial assessment of happiness based on the audio description. Confidence: 85."
+      }
+    ],
+    "final_justification": "The audio and visual cues strongly indicate happiness, with the voice described as happy and visual expressions aligning with happiness.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00069838",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript is too minimal to determine a specific emotion, so I initially lean towards neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tremulous emotion in the audio suggests fear or worry, with a confidence score of 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues of a frown and raised upper eyelids suggest fear, with a confidence score of 80."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the audio and visual evidence, I revise my stance to fear, with a confidence score of 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain my stance on fear being the dominant emotion, with a confidence score of 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I am confident that fear is the dominant emotion, with a confidence score of 85."
+      }
+    ],
+    "final_justification": "The combination of tremulous audio and visual cues of a frown and raised eyelids strongly indicate fear as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "video_id": "samplenew_00037700",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'Kong Ming' does not provide enough context to determine a specific emotion. I initially interpret this as neutral due to lack of emotional indicators."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tremulous tone in the audio suggests an emotion of fear or worry. I initially interpret this as fear with a confidence score of 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The outer brow lift is often associated with surprise or fear. I initially interpret this as surprise with a confidence score of 60."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio and visual cues, I revise my stance to fear, as the tremulous tone and outer brow lift align with this emotion. My confidence score is now 65."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain my stance on fear, as the tremulous tone strongly suggests this emotion. My confidence score remains 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the additional input, I revise my stance to fear, as the outer brow lift can also indicate fear. My confidence score is now 65."
+      }
+    ],
+    "final_justification": "The consensus is that fear is the dominant emotion, supported by the tremulous tone and outer brow lift, which are both indicative of fear.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00013883",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text 'Is that right? Why didn't I see it.' suggests doubt, as the speaker is questioning something they missed."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone described as 'startled' indicates surprise, as it suggests an unexpected reaction."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The frown in the visual expression suggests worry, as it often accompanies concern or confusion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I maintain my position of doubt, as the questioning nature of the text supports this emotion. Confidence score: 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I believe surprise is more dominant due to the startled tone. Confidence score: 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "While worry is possible, the context of being startled aligns more with surprise. I will adjust my stance to surprise. Confidence score: 70."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the startled tone, I can see how surprise is dominant. I will adjust my stance to surprise. Confidence score: 75."
+      }
+    ],
+    "final_justification": "The startled tone and questioning nature of the text suggest surprise as the dominant emotion, with doubt as a secondary emotion due to the questioning.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "doubt",
+    "second_emotion_confidence_score": "75",
+    "video_id": "samplenew_00038188",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'I will always be at school' does not convey any specific emotion. It could be interpreted as neutral since there is no emotional language or context provided."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, suggesting that the speaker is not expressing any strong emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues such as raised upper eyelids, outer brow arch, and facial tightness could suggest surprise or worry, but without additional context, these expressions could also be neutral."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the lack of emotional language in the transcript, I maintain my position that the emotion is neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I am confident in my assessment of a neutral tone based on the audio description."
+      },
+      {
+        "role": "Expert C",
+        "argument": "While the visual expressions could suggest worry, the lack of context and the neutral audio lead me to reconsider and align with a neutral emotion."
+      }
+    ],
+    "final_justification": "All experts agree that the overall emotion is neutral due to the neutral tone in the audio and lack of emotional context in the transcript, despite some potentially expressive visual cues.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "sample_00002706",
+    "ground_truth": "fear"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'Me. Me. Just ask casually.' suggests a neutral or relaxed state, as the language is simple and lacks emotional intensity. Confidence: 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone described as 'natural' indicates a neutral emotion, as there is no indication of heightened emotion in the audio. Confidence: 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues such as 'Outer brow arch, Facial tightness, Lips elongated, Head lifting wrinkles, Lower eyebrows' suggest a worried or concerned expression. Confidence: 75."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering Expert C's input, the visual cues could indicate worry, but the text remains neutral. I maintain my stance. Confidence: 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I acknowledge Expert C's visual input but the audio remains neutral. I maintain my stance. Confidence: 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual evidence strongly suggests worry, but I recognize the neutral input from text and audio. I adjust my stance to neutral. Confidence: 60."
+      }
+    ],
+    "final_justification": "The text and audio both indicate a neutral emotion, while the visual cues suggest worry. However, the consensus leans towards neutral due to the lack of strong emotional indicators in text and audio.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "video_id": "samplenew_00045270",
+    "ground_truth": "fear"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'No. No.' suggests a negative or resistant emotion, possibly doubt or fear. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The normal tone of voice indicates a neutral emotion, as there is no auditory indication of strong emotion. My confidence score is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues such as pupil enlargement, brow movements, and anxiously stretched lips suggest fear or worry. My confidence score is 85."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual cues, I now lean towards fear as the dominant emotion. My revised confidence score is 75."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Given the visual evidence, I agree that fear is more likely than neutral. My revised confidence score is 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that fear is the dominant emotion based on visual evidence. My confidence score remains 85."
+      }
+    ],
+    "final_justification": "The visual cues strongly indicate fear, supported by the negative verbal expression, despite the neutral tone.",
     "Is_disagreement_detected": "True",
     "num_debate_rounds": "3",
     "first_emotion": "fear",
     "first_emotion_confidence_score": "85",
     "second_emotion": "worried",
     "second_emotion_confidence_score": "70",
-    "video_id": "samplenew_00018257",
-    "ground_truth": "sad"
+    "video_id": "samplenew_00028975",
+    "ground_truth": "fear"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The phrase 'will not be ashamed' suggests a determination or resolve, but without additional context, it doesn't strongly indicate a specific emotion. My initial assessment is neutral with a confidence score of 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone of voice is described as fearful, which suggests fear as the dominant emotion. My confidence score is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues such as Upper Lid Raiser, Brow Lowerer, and Lid Tightener are consistent with fear. My confidence score is 85."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio and visual evidence, I revise my stance to fear with a confidence score of 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain my position that fear is the dominant emotion with a confidence score of 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I am confident that fear is the dominant emotion, with a confidence score of 85."
+      }
+    ],
+    "final_justification": "The audio and visual cues strongly indicate fear as the dominant emotion, supported by the fearful tone and facial expressions.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00007629",
+    "ground_truth": "fear"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'It's with the body, with the diary' suggests a context that could be associated with fear or worry, but without additional context, I would lean towards 'neutral' as the dominant emotion. Confidence: 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a fearful tone, which suggests that fear is the dominant emotion. Confidence: 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression description, with features like 'Outer brow arch', 'Lid Tightener', and 'Tense lips stretched', aligns with fear. Confidence: 90."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the arguments from Experts B and C, I acknowledge that the context could indeed be fear. I revise my stance to fear. Confidence: 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that fear is the dominant emotion based on the audio description. Confidence: 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I am confident that the visual cues indicate fear. Confidence: 90."
+      }
+    ],
+    "final_justification": "The consensus is that fear is the dominant emotion, supported by both audio and visual cues, with the transcript providing insufficient context to contradict this.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00000852",
+    "ground_truth": "fear"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'It's just a matter of skill' is neutral and does not convey any specific emotion. Confidence score: 90."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates no specific emotion, suggesting a neutral tone. Confidence score: 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues such as pupil enlargement, outer brow arch, and wide mouth suggest surprise. Confidence score: 80."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Re-evaluating based on Expert C's input, the visual cues could indicate surprise. Adjusting my stance to consider surprise. Confidence score: 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Considering the visual cues, I agree that surprise is a plausible emotion. Adjusting my stance to consider surprise. Confidence score: 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Maintaining my stance that the visual cues indicate surprise. Confidence score: 80."
+      }
+    ],
+    "final_justification": "The visual cues strongly suggest surprise, and after considering all modalities, surprise is the most dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00028390",
+    "ground_truth": "fear"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a neutral or possibly worried emotion, as the speaker is discussing the cessation of war, which could imply concern."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral emotion, as the tone is described as normal."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression suggests a worried or possibly angry emotion due to the frown and brow lowerer."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the context of discussing war, I lean towards worried, with a confidence score of 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain my stance on neutral, with a confidence score of 80, as the tone does not indicate strong emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues strongly suggest worried, with a confidence score of 85, due to the facial expressions."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I agree with Expert C that worried is more fitting given the visual evidence."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I acknowledge the visual evidence and adjust my stance to worried, with a confidence score of 75."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is worried, supported by visual expressions and the context of the discussion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00016080",
+    "ground_truth": "fear"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript is neutral as it only mentions an agreement without any emotional context."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates no specific emotion, suggesting a neutral tone."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues such as lifted upper eyelids, outer brow arch, and frown suggest a mix of surprise and worry."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the lack of emotional context in the text, I maintain a neutral stance with a confidence score of 90."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A, as the audio does not convey any specific emotion, maintaining a neutral stance with a confidence score of 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues are strong indicators of surprise, with a confidence score of 80, but I acknowledge the neutral stance of the other experts."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Upon further consideration, I agree that the overall context leans towards neutral, but the visual cues still suggest a secondary emotion of surprise."
+      }
+    ],
+    "final_justification": "The text and audio both suggest a neutral emotion, while the visual cues indicate a secondary emotion of surprise.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "80",
+    "video_id": "samplenew_00044155",
+    "ground_truth": "fear"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript 'Uncontrolled virus seeder' does not provide enough context to determine a specific emotion. I initially interpret this as neutral due to lack of emotional indicators."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates no specific emotion is conveyed through tone or speech, suggesting a neutral stance."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues such as elevated outer brow, facial tightness, and frowns suggest a worried expression. I initially interpret this as worried."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon considering Expert C's visual evidence, I acknowledge that the visual cues could indicate worry, and I adjust my stance to worried with moderate confidence."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert C's interpretation of the visual cues indicating worry, and I adjust my stance to worried with moderate confidence."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain my initial interpretation of worried based on the visual evidence, with high confidence."
+      }
+    ],
+    "final_justification": "The visual cues strongly suggest a worried expression, and both text and audio do not contradict this interpretation.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00002426",
+    "ground_truth": "fear"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper_transcript is neutral as it is a simple request without any emotional cues."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio_description indicates a neutral tone, suggesting no strong emotion is present."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual_expression_description shows signs of anxiety with features like anxiously stretched lips and lower eyebrows, indicating a worried emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I acknowledge Expert C's point about the visual cues indicating worry, which I did not consider initially."
+      },
+      {
+        "role": "Expert B",
+        "argument": "While the audio was neutral, I agree that the visual cues provided by Expert C suggest a worried emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that the visual cues are strong indicators of worry, and I am confident in this assessment."
+      }
+    ],
+    "final_justification": "The visual cues strongly suggest a worried emotion, despite the neutral tone in text and audio.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00064078",
+    "ground_truth": "fear"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a sense of fear with the phrase 'one day to be afraid of,' indicating a potential concern or worry."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a cheerful tone, suggesting happiness as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows a smile with teeth visible, which aligns with happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Despite the fearful language, the cheerful tone and smiling expression suggest that happiness is more dominant."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that the cheerful tone is indicative of happiness, and the visual evidence supports this."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues of smiling strongly support happiness, and I am confident in this interpretation."
+      }
+    ],
+    "final_justification": "While the transcript hinted at fear, the cheerful tone and smiling expression strongly indicate happiness as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "60",
+    "video_id": "samplenew_00058745",
+    "ground_truth": "contempt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text 'Isn't there already one ready-made?' suggests a tone of doubt or questioning. My initial dominant emotion is doubt with a confidence score of 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a mocking tone, which aligns with contempt. My initial dominant emotion is contempt with a confidence score of 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows a big smile and indentation when smiling, which suggests happiness. My initial dominant emotion is happy with a confidence score of 75."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the mocking tone and the smile, I can see how contempt might be more fitting. I revise my stance to contempt with a confidence score of 60."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The smile could be interpreted as part of a mocking expression, aligning with contempt. I revise my stance to contempt with a confidence score of 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The mocking tone is consistent with contempt, and the visual cues support this. I maintain my stance with a confidence score of 85."
+      }
+    ],
+    "final_justification": "The mocking tone in the audio and the smile in the visual expression both support the emotion of contempt as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "contempt",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00044342",
+    "ground_truth": "contempt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The phrase 'Watch it, then.' is neutral and doesn't convey any strong emotion. Confidence: 80"
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone is normal, suggesting a neutral emotion. Confidence: 85"
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues such as Lip Corner Depressor and Chin Raiser suggest contempt. Confidence: 90"
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering Expert C's input, the phrase could be interpreted with a hint of contempt. Confidence: 70"
+      },
+      {
+        "role": "Expert B",
+        "argument": "Re-evaluating with Expert C's input, the normal tone could mask contempt. Confidence: 75"
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues are strong indicators of contempt. Confidence: 95"
+      }
+    ],
+    "final_justification": "The visual cues strongly suggest contempt, supported by the neutral tone and text that could mask underlying contempt.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "contempt",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "80",
+    "video_id": "samplenew_00063792",
+    "ground_truth": "contempt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a sarcastic or contemptuous tone, as the speaker questions the appropriateness of an action with a rhetorical question."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates sarcasm, which often aligns with contempt or disdain."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues, such as downturned corners of the mouth and lip corner puller, suggest contempt or disdain."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the sarcastic nature of the text, I am confident that contempt is the dominant emotion. Confidence score: 85."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The sarcastic tone in the audio strongly suggests contempt. Confidence score: 90."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expressions align with contempt. Confidence score: 80."
+      }
+    ],
+    "final_justification": "All experts agree that the sarcastic tone and visual expressions indicate contempt as the dominant emotion.",
+    "Is_disagreement_detected": "False",
+    "num_debate_rounds": "1",
+    "first_emotion": "contempt",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00025986",
+    "ground_truth": "contempt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text 'Do you think you can definitely win?' suggests a sense of doubt or uncertainty. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a normal tone, which suggests a neutral emotion. My confidence score is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows a toothy smile and lips forming an upward curve, which indicates happiness. My confidence score is 90."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual evidence, I am revising my stance to align with happiness. My confidence score is now 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Given the visual expression, I can see how happiness is more dominant. I will adjust my stance to happiness with a confidence score of 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that the visual cues strongly suggest happiness. My confidence score remains 90."
+      }
+    ],
+    "final_justification": "The visual expression of a toothy smile and upward curve of the lips strongly indicates happiness, which is supported by the neutral tone in the audio.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00055940",
+    "ground_truth": "contempt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a potentially threatening situation with 'a man with a knife,' but the phrase 'has no intention' implies a lack of immediate threat. This could indicate doubt or neutrality. My confidence is 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a normal tone, which suggests a neutral emotion. My confidence is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression 'Cheek Raiser' is often associated with happiness or surprise. However, without additional context, it could also be neutral. My confidence is 50."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the normal tone and lack of threatening language, I lean towards neutral. My confidence is now 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that the normal tone supports a neutral emotion. My confidence remains 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the lack of strong evidence for happiness or surprise, I agree with neutral. My confidence is now 60."
+      }
+    ],
+    "final_justification": "The combination of a normal tone and ambiguous visual cues, along with the non-threatening language, supports a neutral emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00051112",
+    "ground_truth": "contempt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text suggests a sense of skepticism or doubt about the way the food is perceived, as it implies reliance on connections and backdoors."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, suggesting no strong emotion is conveyed through voice."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues of a big smile and slightly lower eyebrows suggest happiness, as the smile is a strong indicator of this emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I maintain my stance on doubt due to the implication of skepticism in the text, with a confidence score of 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I am confident in my neutral assessment due to the normal tone, with a confidence score of 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I am confident in my happiness assessment due to the visual expression, with a confidence score of 85."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon considering the visual cues, I acknowledge the possibility of happiness being present, but doubt remains strong in the text."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I see the potential for happiness in the visual cues, but the audio remains neutral."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain my stance on happiness, as the visual evidence is compelling."
+      }
+    ],
+    "final_justification": "The visual expression of a big smile strongly indicates happiness, while the text suggests doubt. The audio remains neutral, leading to a consensus on happiness as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "doubt",
+    "second_emotion_confidence_score": "70",
+    "video_id": "samplenew_00049015",
+    "ground_truth": "contempt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text suggests a confrontational or challenging tone, possibly indicating doubt or contempt. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The loud tone in the audio suggests anger or surprise. My confidence score is 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The slight decrease in eyebrows could indicate doubt or contemplation. My confidence score is 65."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Given the loud tone, I am leaning more towards anger as the dominant emotion. My confidence score is 80."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the loud tone, I can see how anger might be more fitting. I will adjust my stance to anger. My confidence score is now 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cue is not strong enough to contradict the audio and text. I will also adjust to anger. My confidence score is 70."
+      }
+    ],
+    "final_justification": "The loud tone in the audio, combined with the confrontational text, suggests anger as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "doubt",
+    "second_emotion_confidence_score": "65",
+    "video_id": "samplenew_00070277",
+    "ground_truth": "contempt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text 'Do you know what I want to tell you?' suggests a neutral or possibly doubtful emotion, as it is a question that could imply uncertainty."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a fearful voice, which suggests fear as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows a combination of grinning and lips forming an upward curve, which typically indicates happiness or contempt."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the audio evidence of fear, I am inclined to reconsider my initial assessment and acknowledge fear as a potential emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues of grinning and upward lips are strong indicators of happiness, but I recognize the possibility of fear given the audio description."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that the fearful voice is a strong indicator of fear, and I am confident in this assessment."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I am now more confident that fear is the dominant emotion, given the audio description."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I will adjust my stance to acknowledge fear as the dominant emotion, with happiness as a secondary possibility."
+      }
+    ],
+    "final_justification": "The audio description of a fearful voice strongly indicates fear as the dominant emotion, supported by the text's potential for doubt. Visual cues suggest happiness, but fear is more evident.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "video_id": "sample_00003086",
+    "ground_truth": "contempt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a situation of exclusion, which could indicate feelings of contempt or anger. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone is described as negative, which aligns with emotions like angry or contempt. My confidence score is 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues show a big smile and chin held high, which could indicate happiness or contempt. My confidence score is 80."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the negative tone and the context of exclusion, I lean towards contempt. My confidence score is now 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The negative tone supports contempt more than anger, given the context. My confidence score is now 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The smile and chin held high could be a sign of contempt rather than happiness, given the context. My confidence score is now 85."
+      }
+    ],
+    "final_justification": "The combination of negative tone, exclusion context, and visual cues of a smile and chin held high suggest contempt as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "contempt",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00056990",
+    "ground_truth": "contempt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests a neutral inquiry, with no emotional cues indicating strong emotions like doubt or surprise. Confidence: 80"
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, suggesting no strong emotional expression. Confidence: 85"
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows a slightly puzzled look, which could indicate doubt. Confidence: 70"
+      },
+      {
+        "role": "Expert C",
+        "argument": "Upon further consideration, the puzzled look is not strong enough to override the neutral tone and transcript. Confidence: 60"
+      },
+      {
+        "role": "Expert A",
+        "argument": "I agree with Expert C that the neutral tone and transcript are more dominant. Confidence: 90"
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that the neutral tone is the most dominant emotion. Confidence: 85"
+      }
+    ],
+    "final_justification": "The neutral tone in the audio and the neutral nature of the transcript outweigh the slightly puzzled visual expression, leading to a consensus on a neutral emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "doubt",
+    "second_emotion_confidence_score": "60",
+    "video_id": "samplenew_00030995",
+    "ground_truth": "doubt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text 'But there must be other reasons.' suggests a sense of doubt or questioning. I would identify the dominant emotion as 'doubt' with a confidence score of 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, as it does not convey any specific emotion. I would identify the dominant emotion as 'neutral' with a confidence score of 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of 'Lips part' is not strongly indicative of any specific emotion. I would identify the dominant emotion as 'neutral' with a confidence score of 60."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the neutral tone in audio and lack of strong visual cues, I am revising my stance to 'neutral' with a confidence score of 60."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain my stance that the emotion is 'neutral' with a confidence score of 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain my stance that the emotion is 'neutral' with a confidence score of 60."
+      }
+    ],
+    "final_justification": "The audio and visual cues both suggest a neutral emotion, and the text, while initially suggesting doubt, is not strong enough to override the other modalities.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00060428",
+    "ground_truth": "doubt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The phrase 'What is a mere life?' suggests a philosophical or existential inquiry, which could indicate doubt or contemplation. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tremulous tone in the audio suggests a sense of fear or worry. My confidence score is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of lips parting is neutral and does not strongly indicate any specific emotion. My confidence score is 60."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the tremulous tone, I can see how fear might be a stronger emotion here. I revise my stance to fear with a confidence score of 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree that the audio description suggests fear more than any other emotion. I revise my stance to fear with a confidence score of 70."
+      }
+    ],
+    "final_justification": "The tremulous tone in the audio strongly suggests fear, which is supported by the existential nature of the text. The visual expression is neutral and does not contradict this interpretation.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "doubt",
+    "second_emotion_confidence_score": "70",
+    "video_id": "samplenew_00013921",
+    "ground_truth": "doubt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript suggests curiosity, which could align with doubt. My confidence score is 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone is negative, which could indicate emotions like angry or contempt. My confidence score is 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of slightly parted lips doesn't strongly indicate any specific emotion. My confidence score is 50."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the negative tone, I can see how doubt might not be the strongest emotion. I am revising my stance to align more with a negative emotion. My confidence score is now 60."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the negative tone, I am inclined to agree with Expert B that a negative emotion is more dominant. My confidence score is now 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that the negative tone suggests anger or contempt. My confidence score remains 80."
+      }
+    ],
+    "final_justification": "The negative tone in the audio suggests a dominant negative emotion, with anger being the most likely given the context.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "contempt",
+    "second_emotion_confidence_score": "70",
+    "video_id": "samplenew_00058656",
+    "ground_truth": "doubt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text in the transcript is purely informational and does not convey any specific emotion. My confidence in this assessment is 90."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates that there is no emotional tone in the speech. My confidence in this assessment is 95."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of opening the lips does not suggest any particular emotion from the list. My confidence in this assessment is 85."
+      }
+    ],
+    "final_justification": "All experts agree that the content is neutral as it lacks any emotional cues in text, audio, or visual expressions.",
+    "Is_disagreement_detected": "False",
+    "num_debate_rounds": "1",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00011172",
+    "ground_truth": "doubt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript doesn't convey any strong emotion, it seems neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone is described as natural, which suggests a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of slightly parted lips doesn't indicate any strong emotion, leaning towards neutral."
+      }
+    ],
+    "final_justification": "All experts agree that the evidence from text, audio, and visual descriptions suggests a neutral emotion.",
+    "Is_disagreement_detected": "False",
+    "num_debate_rounds": "1",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00013398",
+    "ground_truth": "doubt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript is neutral as it only contains a question about land rental without any emotional cues."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates an excited tone, suggesting a happy emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows a slight decrease in eyebrows and showing teeth, which can be associated with happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I acknowledge the audio and visual cues suggest excitement, which aligns with happiness. I will revise my stance to support happy."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain my stance that the visual cues support a happy emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I am confident in my initial assessment of happiness based on the excited tone."
+      }
+    ],
+    "final_justification": "The audio and visual cues both strongly indicate a happy emotion, with an excited tone and expressions consistent with happiness.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00060946",
+    "ground_truth": "doubt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The transcript does not convey any strong emotion, suggesting a neutral stance. Confidence score: 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a normal tone, which aligns with a neutral emotion. Confidence score: 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of being slightly puzzled suggests doubt. Confidence score: 70."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering Expert C's input, I acknowledge the possibility of doubt but still lean towards neutral due to lack of strong textual evidence. Confidence score: 75."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A that the audio supports a neutral emotion, but I see the merit in Expert C's observation of doubt. Confidence score: 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that the visual cue of being puzzled indicates doubt, but I recognize the neutral evidence from other experts. Confidence score: 65."
+      },
+      {
+        "role": "Expert A",
+        "argument": "After considering all inputs, I am inclined to agree that doubt is present but not dominant. Confidence score: 70."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I concur with Expert A; the neutral tone is dominant, but doubt is a secondary emotion. Confidence score: 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the consensus that neutral is the dominant emotion, with doubt as a secondary emotion. Confidence score: 60."
+      }
+    ],
+    "final_justification": "The neutral tone and lack of strong emotional cues in the text suggest a neutral emotion, with a slight visual indication of doubt.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "doubt",
+    "second_emotion_confidence_score": "70",
+    "video_id": "samplenew_00005747",
+    "ground_truth": "doubt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The phrase 'Why does the emperor ask so?' suggests a sense of doubt or questioning. My confidence score is 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tremulous tone in the audio indicates fear or worry. My confidence score is 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression of slightly parted lips is neutral, but could also suggest surprise. My confidence score is 70."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the tremulous tone, I can see how fear might be more dominant. I will adjust my stance to fear with a confidence score of 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the audio evidence, I agree that fear is more likely than surprise. I will adjust my stance to fear with a confidence score of 80."
+      }
+    ],
+    "final_justification": "The tremulous tone in the audio strongly suggests fear, which is supported by the questioning nature of the text. The visual cues are less definitive but align with the audio interpretation.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "2",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00033212",
+    "ground_truth": "doubt"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The text suggests doubt as the speaker is questioning the effectiveness of the medicine."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tone sounds negative, which could indicate doubt or worry."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The Lip Corner Puller expression is often associated with contempt or doubt."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Given the questioning nature of the text, I maintain that doubt is the dominant emotion with a confidence score of 80."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The negative tone aligns with doubt, so I agree with Expert A, with a confidence score of 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression could indicate contempt, but given the context, doubt seems more fitting. I adjust my stance to doubt with a confidence score of 70."
+      }
+    ],
+    "final_justification": "The combination of questioning text, negative tone, and visual expression suggests doubt as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "doubt",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "samplenew_00030219",
+    "ground_truth": "doubt"
   }
 ]

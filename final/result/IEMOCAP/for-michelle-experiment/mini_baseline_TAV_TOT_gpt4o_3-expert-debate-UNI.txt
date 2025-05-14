@@ -2,7 +2,7 @@ PREDICTION RESULTS
 =================
 
 Video samplenew_00002396: Ground Truth: happy, Predicted: happy
-Video samplenew_00006181: Ground Truth: happy, Predicted: neutral
+Video samplenew_00006181: Ground Truth: happy, Predicted: angry
 Video samplenew_00007914: Ground Truth: happy, Predicted: happy
 Video samplenew_00056769: Ground Truth: happy, Predicted: happy
 Video samplenew_00006018: Ground Truth: happy, Predicted: neutral
@@ -21,17 +21,87 @@ Video samplenew_00047348: Ground Truth: sad, Predicted: fear
 Video samplenew_00070477: Ground Truth: sad, Predicted: doubt
 Video samplenew_00009595: Ground Truth: sad, Predicted: fear
 Video samplenew_00018257: Ground Truth: sad, Predicted: fear
+Video samplenew_00011442: Ground Truth: neutral, Predicted: doubt
+Video samplenew_00007742: Ground Truth: neutral, Predicted: neutral
+Video samplenew_00001774: Ground Truth: neutral, Predicted: neutral
+Video samplenew_00020393: Ground Truth: neutral, Predicted: doubt
+Video samplenew_00001941: Ground Truth: neutral, Predicted: angry
+Video samplenew_00021159: Ground Truth: neutral, Predicted: happy
+Video samplenew_00032239: Ground Truth: neutral, Predicted: neutral
+Video samplenew_00012993: Ground Truth: neutral, Predicted: neutral
+Video samplenew_00007710: Ground Truth: neutral, Predicted: contempt
+Video samplenew_00035397: Ground Truth: neutral, Predicted: neutral
+Video samplenew_00057449: Ground Truth: angry, Predicted: angry
+Video samplenew_00000079: Ground Truth: angry, Predicted: happy
+Video samplenew_00033007: Ground Truth: angry, Predicted: angry
+Video samplenew_00036310: Ground Truth: angry, Predicted: worried
+Video samplenew_00057012: Ground Truth: angry, Predicted: neutral
+Video samplenew_00056538: Ground Truth: angry, Predicted: fear
+Video samplenew_00057731: Ground Truth: angry, Predicted: angry
+Video samplenew_00039443: Ground Truth: angry, Predicted: angry
+Video samplenew_00039031: Ground Truth: angry, Predicted: neutral
+Video sample_00006794: Ground Truth: angry, Predicted: neutral
+Video samplenew_00004669: Ground Truth: worried, Predicted: fear
+Video samplenew_00066683: Ground Truth: worried, Predicted: happy
+Video samplenew_00068896: Ground Truth: worried, Predicted: worried
+Video samplenew_00003189: Ground Truth: worried, Predicted: angry
+Video samplenew_00035305: Ground Truth: worried, Predicted: fear
+Video samplenew_00063662: Ground Truth: worried, Predicted: fear
+Video samplenew_00027234: Ground Truth: worried, Predicted: fear
+Video samplenew_00037763: Ground Truth: worried, Predicted: fear
+Video samplenew_00002679: Ground Truth: worried, Predicted: worried
+Video samplenew_00001054: Ground Truth: worried, Predicted: worried
+Video sample_00001727: Ground Truth: surprise, Predicted: fear
+Video samplenew_00035139: Ground Truth: surprise, Predicted: happy
+Video samplenew_00064348: Ground Truth: surprise, Predicted: surprise
+Video samplenew_00024409: Ground Truth: surprise, Predicted: surprise
+Video samplenew_00065560: Ground Truth: surprise, Predicted: neutral
+Video samplenew_00052541: Ground Truth: surprise, Predicted: surprise
+Video samplenew_00069838: Ground Truth: surprise, Predicted: happy
+Video samplenew_00037700: Ground Truth: surprise, Predicted: fear
+Video samplenew_00013883: Ground Truth: surprise, Predicted: fear
+Video samplenew_00038188: Ground Truth: surprise, Predicted: surprise
+Video sample_00002706: Ground Truth: fear, Predicted: neutral
+Video samplenew_00045270: Ground Truth: fear, Predicted: neutral
+Video samplenew_00028975: Ground Truth: fear, Predicted: fear
+Video samplenew_00007629: Ground Truth: fear, Predicted: fear
+Video samplenew_00000852: Ground Truth: fear, Predicted: fear
+Video samplenew_00028390: Ground Truth: fear, Predicted: surprise
+Video samplenew_00016080: Ground Truth: fear, Predicted: worried
+Video samplenew_00044155: Ground Truth: fear, Predicted: neutral
+Video samplenew_00002426: Ground Truth: fear, Predicted: worried
+Video samplenew_00064078: Ground Truth: fear, Predicted: worried
+Video samplenew_00058745: Ground Truth: contempt, Predicted: happy
+Video samplenew_00044342: Ground Truth: contempt, Predicted: contempt
+Video samplenew_00063792: Ground Truth: contempt, Predicted: contempt
+Video samplenew_00025986: Ground Truth: contempt, Predicted: contempt
+Video samplenew_00055940: Ground Truth: contempt, Predicted: happy
+Video samplenew_00051112: Ground Truth: contempt, Predicted: neutral
+Video samplenew_00049015: Ground Truth: contempt, Predicted: happy
+Video samplenew_00070277: Ground Truth: contempt, Predicted: angry
+Video sample_00003086: Ground Truth: contempt, Predicted: fear
+Video samplenew_00056990: Ground Truth: contempt, Predicted: contempt
+Video samplenew_00030995: Ground Truth: doubt, Predicted: neutral
+Video samplenew_00060428: Ground Truth: doubt, Predicted: neutral
+Video samplenew_00013921: Ground Truth: doubt, Predicted: fear
+Video samplenew_00058656: Ground Truth: doubt, Predicted: angry
+Video samplenew_00011172: Ground Truth: doubt, Predicted: neutral
+Video samplenew_00013398: Ground Truth: doubt, Predicted: neutral
+Video samplenew_00060946: Ground Truth: doubt, Predicted: happy
+Video samplenew_00005747: Ground Truth: doubt, Predicted: neutral
+Video samplenew_00033212: Ground Truth: doubt, Predicted: fear
+Video samplenew_00030219: Ground Truth: doubt, Predicted: doubt
 
 EVALUATION METRICS
 =================
 
-Overall Accuracy: 0.35
-Label: neutral -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Overall Accuracy: 0.34
+Label: neutral -> Precision: 0.26, Recall: 0.50, F1 Score: 0.34, Support: 10
 Label: sad -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 10
-Label: doubt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: happy -> Precision: 1.00, Recall: 0.70, F1 Score: 0.82, Support: 10
-Label: worried -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: contempt -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: angry -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: fear -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
-Label: surprise -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 0
+Label: doubt -> Precision: 0.25, Recall: 0.10, F1 Score: 0.14, Support: 10
+Label: happy -> Precision: 0.44, Recall: 0.70, F1 Score: 0.54, Support: 10
+Label: worried -> Precision: 0.38, Recall: 0.30, F1 Score: 0.33, Support: 10
+Label: contempt -> Precision: 0.67, Recall: 0.40, F1 Score: 0.50, Support: 10
+Label: angry -> Precision: 0.40, Recall: 0.40, F1 Score: 0.40, Support: 10
+Label: fear -> Precision: 0.14, Recall: 0.30, F1 Score: 0.19, Support: 10
+Label: surprise -> Precision: 0.80, Recall: 0.40, F1 Score: 0.53, Support: 10
