@@ -1,0 +1,35 @@
+PREDICTION RESULTS
+=================
+
+Video dia233_utt4.mp4: Ground Truth: sadness, Predicted: anger
+Video dia175_utt3.mp4: Ground Truth: surprise, Predicted: neutral
+Video dia169_utt6.mp4: Ground Truth: anger, Predicted: joy
+Video dia279_utt14.mp4: Ground Truth: neutral, Predicted: sadness
+Video dia239_utt7.mp4: Ground Truth: neutral, Predicted: disgust
+Video dia115_utt4.mp4: Ground Truth: neutral, Predicted: neutral
+Video dia279_utt15.mp4: Ground Truth: neutral, Predicted: neutral
+Video dia245_utt4.mp4: Ground Truth: fear, Predicted: surprise
+Video dia42_utt2.mp4: Ground Truth: neutral, Predicted: sadness
+Video dia120_utt18.mp4: Ground Truth: neutral, Predicted: anger
+Video dia233_utt5.mp4: Ground Truth: joy, Predicted: anger
+Video dia29_utt4.mp4: Ground Truth: surprise, Predicted: anger
+Video dia97_utt9.mp4: Ground Truth: neutral, Predicted: neutral
+Video dia169_utt5.mp4: Ground Truth: surprise, Predicted: joy
+Video dia133_utt9.mp4: Ground Truth: neutral, Predicted: joy
+Video dia42_utt0.mp4: Ground Truth: joy, Predicted: joy
+Video dia169_utt20.mp4: Ground Truth: neutral, Predicted: sadness
+Video dia244_utt6.mp4: Ground Truth: disgust, Predicted: disgust
+Video dia17_utt17.mp4: Ground Truth: fear, Predicted: sadness
+Video dia17_utt16.mp4: Ground Truth: fear, Predicted: fear
+
+EVALUATION METRICS
+=================
+
+Overall Accuracy: 0.30
+Label: anger -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 1
+Label: disgust -> Precision: 0.50, Recall: 1.00, F1 Score: 0.67, Support: 1
+Label: sadness -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 1
+Label: joy -> Precision: 0.25, Recall: 0.50, F1 Score: 0.33, Support: 2
+Label: neutral -> Precision: 0.75, Recall: 0.33, F1 Score: 0.46, Support: 9
+Label: surprise -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 3
+Label: fear -> Precision: 1.00, Recall: 0.33, F1 Score: 0.50, Support: 3

@@ -1,0 +1,2 @@
+confidence score at the end for each cline
+At the same time give lines of thoughts deleted. 

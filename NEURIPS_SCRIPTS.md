@@ -60,7 +60,7 @@
 TOT combinations: (❌ MELD)
 ✅ `python neurips_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt --comb TAV --prompt TOT-3-EXPERT-UNI --dataset MELD`
 
-✅ `python neurips_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-UNI --dataset MELD`
+✅ `python neurips_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run4/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt --comb TAV --prompt TOT-3-EXPERT-DEBATE-UNI --dataset MELD`
 
 ✅ `python neurips_baseline_cot_and_tot.py --input final/data/MELD_annotation.json --model gpt-4o --output final/result/MELD/run3/mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt --comb TAV --prompt TOT-3-EXPERT-BI --dataset MELD`
 

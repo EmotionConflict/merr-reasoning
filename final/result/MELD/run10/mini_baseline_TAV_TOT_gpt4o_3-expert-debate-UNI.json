@@ -1,0 +1,634 @@
+[
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper_transcript and audio_description suggest a mix of frustration and sadness, with a hint of anger. The visual_expression_description supports this with indicators of frustration and sadness, such as the cheek raiser and lip corner puller. I initially lean towards sadness as the dominant emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio_description highlights frustration and a hint of anger, while the visual_expression_description shows signs of intensity and engagement. I believe anger is the dominant emotion, with frustration as a secondary emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual_objective_description indicates a tense interaction, with one participant showing defensive body language. The audio and visual cues suggest a mix of frustration and sadness, but I think frustration is the dominant emotion."
+      }
+    ],
+    "final_justification": "After three rounds of debate, we concluded that frustration is the dominant emotion due to the combination of vocal delivery and visual expressions indicating tension and engagement. Sadness is also present but less dominant.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "frustration",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "70",
+    "video_id": "dia233_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The man's tone is negative, but his visual expression and the context suggest a playful and teasing interaction. I initially thought it might be anger due to the tone, but the visual cues and context indicate joy."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual expression shows a slight grin and playful demeanor, which aligns with joy. The negative tone could be misleading, as the overall scene is lighthearted."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The context and visual cues suggest a playful interaction. Despite the negative tone, the scene seems more aligned with joy due to the playful engagement between the characters."
+      },
+      {
+        "role": "Expert A",
+        "argument": "After considering the playful context and visual cues, I agree that joy is the dominant emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that joy is the dominant emotion, supported by the playful interaction and visual expressions."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I am confident that joy is the dominant emotion, given the playful context and expressions."
+      }
+    ],
+    "final_justification": "Despite the negative tone, the visual expressions and context of the interaction suggest a playful and teasing mood, indicating joy as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "dia175_utt3.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The woman's vocal delivery and confident statement 'I can and I will!' suggest a dominant emotion of determination, which aligns with 'joy' due to the positive and assertive nature of her expression. Confidence score: 85."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual expression of the woman, with strong lip corner depressor and chin raiser, indicates a mix of emotions, possibly leaning towards 'sadness' due to the lip corner depressor. However, the context and her confident speech suggest 'joy' is more dominant. Confidence score: 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The man's surprised expression and the woman's determined speech suggest 'surprise' as a secondary emotion, but the primary emotion is 'joy' due to her confident and assertive demeanor. Confidence score: 80."
+      }
+    ],
+    "final_justification": "The woman's confident and assertive speech, combined with the intimate and positive setting, indicates 'joy' as the dominant emotion, with 'surprise' as a secondary emotion due to the man's reaction.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "video_id": "dia169_utt6.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The man's tone and expression suggest a negative emotion, likely sadness or concern. His tense expression and the context of the conversation imply he is contemplating something serious."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual cues, such as the furrowed brow and tense expression, along with the negative tone, indicate a dominant emotion of sadness. The setting suggests a personal or introspective moment."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The combination of a negative tone and the man's tense expression, along with the context of a potential transition, points towards sadness as the dominant emotion."
+      }
+    ],
+    "final_justification": "The man's negative tone and tense expression, combined with the context of a potential transition, suggest sadness as the dominant emotion.",
+    "Is_disagreement_detected": "False",
+    "num_debate_rounds": "1",
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "dia279_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The woman's tone and facial expressions suggest disgust, as indicated by the negative tone and facial cues like the Nose Wrinkler and Upper Lip Raiser."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I believe the dominant emotion is surprise due to the strong Jaw Drop and Lip Part, which are often associated with surprise."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The interaction seems neutral overall, as the body language suggests a casual conversation without strong emotional cues."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the strong Lip Stretcher and Jaw Drop could indicate surprise, but the negative tone still leans towards disgust."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that surprise is dominant due to the visual expressions, but I acknowledge the negative tone could imply a secondary emotion of disgust."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I now see that the expressions could indicate surprise, but the negative tone suggests a secondary emotion of disgust."
+      }
+    ],
+    "final_justification": "The dominant emotion is surprise due to the strong Jaw Drop and Lip Part, with disgust as a secondary emotion due to the negative tone and facial cues.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "video_id": "dia239_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper_transcript and audio_description suggest a serious reflection, possibly indicating sadness or fear. The visual expressions, such as the brow furrow and lip raiser, support this with a hint of tension, leading me to initially consider fear as the dominant emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual_expression_description shows signs of tension and defensiveness, such as the brow lowerer and lip stretcher, which could indicate anger. However, the overall tone and setting suggest a more neutral or serious conversation, so I initially lean towards neutral."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio and visual cues, like the serious tone and tense posture, suggest a mix of fear and sadness. The setting and interaction seem to be emotionally charged, but not overtly aggressive, leading me to initially consider sadness as the dominant emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon further consideration, the lack of overt aggression and the serious tone align more with sadness than fear. I revise my stance to sadness with a high confidence score."
+      },
+      {
+        "role": "Expert B",
+        "argument": "After reviewing the evidence, the emotional weight and lack of clear aggression suggest sadness is more fitting than neutral. I adjust my stance to sadness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that sadness is the dominant emotion, supported by the serious and reflective tone, as well as the visual cues of tension without aggression."
+      }
+    ],
+    "final_justification": "The combination of serious tone, tense posture, and reflective expressions indicate a dominant emotion of sadness, with no clear signs of anger or fear.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "dia115_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The audio description indicates a neutral tone, and the whisper transcript suggests a neutral statement. The visual expression shows slight emotional indicators, but nothing strong enough to suggest a dominant emotion other than neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual expression description shows a mix of slight emotional indicators, but the audio and transcript are neutral. The woman's focused expression and body language suggest determination, which aligns more with a neutral or slightly focused state."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The whisper transcript and audio description both point to a neutral emotion. The visual expression description shows slight indicators of various emotions, but they are not strong enough to override the neutral tone of the audio."
+      }
+    ],
+    "final_justification": "All experts agree that the audio and transcript indicate a neutral emotion, and the visual cues are not strong enough to suggest a different dominant emotion.",
+    "Is_disagreement_detected": "False",
+    "num_debate_rounds": "1",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "dia279_utt15.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The woman's vocal delivery is normal and not too expressive, which suggests a neutral emotion. Her facial expressions, such as the slight brow and lip movements, indicate a mix of emotions but not strongly enough to suggest a specific dominant emotion. Therefore, I initially lean towards neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual expression description shows a mix of facial movements that could suggest surprise, especially with the moderately jaw drop and lips part. However, the audio description does not support a strong emotional expression, so I initially consider neutral as well."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues, such as the animated expression and open mouth, suggest a reaction to something significant, which could imply surprise. However, the audio description and overall setting do not strongly indicate surprise, so I initially consider neutral."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon further consideration, the combination of the woman's animated posture and the open mouth could suggest a mild surprise, but the lack of strong vocal expression keeps me at neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree that the visual cues could suggest a mild surprise, but the audio description does not support this strongly. I remain at neutral."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I acknowledge the potential for mild surprise in the visual cues, but the overall evidence does not strongly support it. I remain at neutral."
+      }
+    ],
+    "final_justification": "The woman's vocal delivery and facial expressions suggest a mix of emotions, but none are dominant enough to override the neutral tone of the audio. The visual cues hint at mild surprise, but not strongly enough to be conclusive.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "video_id": "dia245_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The audio description indicates a negative tone, and the whisper transcript suggests disappointment. The visual expression description shows signs of concern or contemplation, which aligns with sadness. I am confident that the dominant emotion is sadness with a confidence score of 85."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The man's tone and expression suggest he is processing something serious, which could indicate sadness. The visual cues like brow furrowing and lip pressing support this. I believe sadness is the dominant emotion with a confidence score of 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The whisper transcript and audio description suggest a negative emotion, possibly sadness or disappointment. The visual expression description supports this with signs of concern. I agree that sadness is the dominant emotion with a confidence score of 75."
+      }
+    ],
+    "final_justification": "The consensus among the experts is that the man's tone, expression, and body language suggest he is experiencing sadness, supported by the negative tone and visual cues of concern.",
+    "Is_disagreement_detected": "False",
+    "num_debate_rounds": "1",
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "dia42_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The man's tone and facial expressions suggest anger. His voice is negative, and his facial features like brow lowering and lip corner depression indicate displeasure. Confidence: 85."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual cues such as the scrunched-up face and tense body language suggest anger. The audio description also supports this with a negative tone. Confidence: 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "While the setting is cheerful, the man's expressions and tone indicate anger. The contrast between his demeanor and the environment suggests he is upset. Confidence: 90."
+      },
+      {
+        "role": "Expert A",
+        "argument": "The slight nose wrinkler and upper lip raiser could also suggest disgust, but the overall evidence leans more towards anger. Confidence: 75."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A. The evidence for anger is stronger than for disgust. Confidence: 85."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with the others. The dominant emotion is anger, with a slight possibility of disgust. Confidence: 80."
+      }
+    ],
+    "final_justification": "The man's negative tone, facial expressions, and body language strongly indicate anger, despite the cheerful setting.",
+    "Is_disagreement_detected": "False",
+    "num_debate_rounds": "3",
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "75",
+    "video_id": "dia120_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual cues, such as the crossed arms and narrowed eyes of the woman in pink, suggest irritation or frustration, indicating anger as the dominant emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, but the visual expression of the woman in pink suggests anger. I believe anger is the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The neutral tone in the audio and the open demeanor of the second woman suggest a neutral emotion, but the visual cues from the first woman indicate anger. I initially thought it was neutral but now lean towards anger."
+      },
+      {
+        "role": "Expert A",
+        "argument": "The consistent visual indicators of frustration and irritation in the woman in pink support anger as the dominant emotion. Confidence score: 85."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The neutral audio tone is overshadowed by the strong visual cues of anger from the woman in pink. Confidence score: 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the others that the visual cues are strong indicators of anger, despite the neutral audio. Confidence score: 75."
+      }
+    ],
+    "final_justification": "The visual cues of the woman in pink, such as her crossed arms and narrowed eyes, strongly indicate anger, which is supported by the overall tense atmosphere.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "video_id": "dia233_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The man's tone is negative, and the visual expressions such as brow raiser and lid tightener suggest confusion or concern, indicating a dominant emotion of 'fear'."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates negativity, and the visual cues like furrowed brows and perplexed expressions suggest 'fear' as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The expressions and tone suggest a negative emotion, but the context of a serious discussion and planning leans more towards 'neutral' with elements of 'fear'."
+      }
+    ],
+    "final_justification": "The negative tone and expressions of confusion and concern suggest 'fear' as the dominant emotion, with the context of a serious discussion supporting a secondary 'neutral' emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "video_id": "dia29_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The audio description indicates a neutral tone, and the visual expression shows a mix of emotions, but the lip corner puller and dimpler suggest a hint of joy. I initially lean towards neutral with a slight inclination towards joy."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual expression description shows a mix of emotions, but the moderately lip corner puller and dimpler suggest a hint of joy. However, the woman's focused demeanor and the crease on her forehead suggest contemplation or concern, which could indicate sadness or fear. I initially lean towards neutral."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The whisper transcript and audio description suggest a neutral tone. The visual expression shows a mix of emotions, but the moderately lip corner puller and dimpler suggest a hint of joy. I initially lean towards neutral with a slight inclination towards joy."
+      }
+    ],
+    "final_justification": "The audio and visual cues suggest a primarily neutral tone with a slight inclination towards joy due to the lip corner puller and dimpler, indicating a subtle positive emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "video_id": "dia97_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The man's tone is positive and the setting is lively, suggesting joy. Confidence: 85."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual expressions show a playful demeanor, indicating joy. Confidence: 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Despite the words, the overall interaction and expressions suggest joy. Confidence: 75."
+      }
+    ],
+    "final_justification": "The positive tone, playful demeanor, and lively setting all point to joy as the dominant emotion.",
+    "Is_disagreement_detected": "False",
+    "num_debate_rounds": "1",
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "dia169_utt5.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expressions and objective description suggest a moment of intimacy and connection, indicating joy. However, the audio description of a negative tone introduces some ambiguity."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual cues of contentment and closeness strongly point to joy as the dominant emotion. The negative tone in the audio could be misleading in this context."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expressions and body language indicate joy, but the negative tone in the audio suggests a possible underlying sadness or conflict."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon further consideration, the visual evidence of joy is stronger than the audio's negative tone, which might not reflect the overall emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that joy is the dominant emotion due to the strong visual indicators of intimacy and connection."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree that the visual evidence of joy is compelling, and the negative tone might be an outlier."
+      }
+    ],
+    "final_justification": "The visual expressions and body language strongly indicate joy, despite the negative tone in the audio. The overall scene suggests a moment of affection and connection.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "dia133_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The overall atmosphere and interactions suggest a dominant emotion of joy. The audio description indicates a positive tone, and the visual expressions, such as the slight Lip Corner Puller and Dimpler, support this. Confidence score: 85."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A. The setting and interactions among friends, along with the positive tone in the audio, strongly indicate joy. Confidence score: 90."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I initially considered neutral due to the presence of Lid Tightener and Lip Corner Depressor, but the context and overall expressions lean more towards joy. Confidence score: 80."
+      }
+    ],
+    "final_justification": "The scene's lively atmosphere, positive tone, and expressions of the individuals involved strongly suggest joy as the dominant emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "dia42_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The man's tone is negative, and his facial expressions, such as the strong Lip Corner Depressor and moderately Brow Lowerer, suggest sadness. I am confident that sadness is the dominant emotion. Confidence score: 85."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual expressions, like the moderately Brow Lowerer and strongly Lip Corner Depressor, indicate sadness. The audio description also supports a negative tone. I believe sadness is the dominant emotion. Confidence score: 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The man's expressions, such as the strongly Lip Corner Depressor and moderately Chin Raiser, suggest sadness. The audio description's negative tone further supports this. I agree that sadness is the dominant emotion. Confidence score: 90."
+      }
+    ],
+    "final_justification": "The combination of the man's negative tone and facial expressions, such as the strongly Lip Corner Depressor and moderately Brow Lowerer, indicate sadness as the dominant emotion.",
+    "Is_disagreement_detected": "False",
+    "num_debate_rounds": "1",
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "dia169_utt20.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The man's tone and expression suggest a dominant emotion of anger. His negative tone and intense facial expressions, such as a furrowed brow and pursed lips, support this."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I initially perceived the emotion as disgust due to the upper lip raiser and lip corner depressor, which are common indicators of disgust."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I believe the dominant emotion is anger, as the strong lid tightener and lip corner depressor, along with his assertive body language, indicate frustration or anger."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I maintain my stance on anger, as the man's assertive gestures and intense expression align with anger rather than disgust."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Upon reconsideration, the evidence for anger is stronger given the context and body language. I am now leaning towards anger as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I am confident in anger being the dominant emotion, as the visual and audio cues consistently point towards it."
+      }
+    ],
+    "final_justification": "The man's negative tone, intense facial expressions, and assertive body language strongly indicate anger as the dominant emotion, with no clear evidence supporting a secondary emotion.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "dia244_utt6.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper_transcript and audio_description suggest a negative tone, possibly indicating anger or frustration. The monotonous and tense voice supports this interpretation."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The visual_expression_description shows a mix of expressions, but the slightly raised eyebrows and lip corner puller suggest a hint of surprise or joy, though the audio contradicts this."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual_objective_description indicates an engaged and lively demeanor, which could imply joy or enthusiasm, but the audio suggests a more negative emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering all evidence, the audio's negative tone is more dominant, suggesting anger as the primary emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A, the audio's negative tone is more compelling. The visual cues are secondary in this context."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with the others. The audio's negative tone is the most dominant, indicating anger."
+      }
+    ],
+    "final_justification": "The audio description's negative tone and tense voice strongly suggest anger as the dominant emotion, despite some visual cues indicating a more positive demeanor.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "video_id": "dia17_utt17.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The woman's vocal delivery and facial expressions suggest a dominant emotion of surprise. Her fast-paced, raised pitch voice and animated facial expressions, such as wide eyes and parted lips, are indicative of surprise. Confidence score: 85."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I believe the dominant emotion is fear. The tense vocal delivery and the phrase 'I'm freaking out' suggest fear. Confidence score: 80."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The dominant emotion appears to be surprise due to the animated expressions and the lively conversation context. Confidence score: 75."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon further consideration, the phrase 'I'm freaking out' could indicate fear, but the overall context and expressions lean more towards surprise. Confidence score: 90."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I acknowledge the expressions could indicate surprise, but the vocal tension still suggests fear. Confidence score: 70."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that surprise is the dominant emotion, as the expressions and setting suggest excitement rather than fear. Confidence score: 80."
+      },
+      {
+        "role": "Expert A",
+        "argument": "After reviewing all evidence, I am confident that surprise is the dominant emotion, with fear as a secondary emotion. Confidence score: 95."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree that surprise is more dominant, but fear is still present. Confidence score: 75."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with the consensus that surprise is the dominant emotion, with fear as a secondary emotion. Confidence score: 85."
+      }
+    ],
+    "final_justification": "The woman's animated expressions and lively context suggest surprise as the dominant emotion, with fear as a secondary emotion due to the tense vocal delivery and the phrase 'I'm freaking out'.",
+    "Is_disagreement_detected": "True",
+    "num_debate_rounds": "3",
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "75",
+    "video_id": "dia17_utt16.mp4",
+    "ground_truth": "fear"
+  }
+]

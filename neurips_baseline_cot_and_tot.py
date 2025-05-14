@@ -103,7 +103,7 @@ def main():
     
     # Dynamically import the correct constants module
     if args.dataset == "MELD":
-        constants_mod = importlib.import_module("neurips.MELD_constants")
+        constants_mod = importlib.import_module("neurips.MELD_constants3")
         print("MELD constants imported")
     elif args.dataset == "MER":
         constants_mod = importlib.import_module("neurips.MER_constants")
@@ -138,7 +138,7 @@ def main():
     selected_model = args.model
     comb_flag = args.comb
     # Determine output file name based on provided argument or default to model name.
-    output_file_name = args.output if args.output is not None else f"{selected_model}_results.txt"
+    output_file_name = args.output if args.output is not None else f"{selected_model}_resultsV2.txt"
     
     # Load the JSON data from file.
     with open(input_file, "r") as f:
@@ -150,7 +150,7 @@ def main():
     predictions = []   # For evaluation.
     
     # Process each sample in the JSON.
-    for sample_id, sample in enumerate(data):
+    for sample_id, sample in enumerate(data[:20]):
         predicted = call_llm(sample, selected_model, comb_flag, sample_id)
         video_id = sample.get("video_id", f"sample_{sample_id}")
         ground_truth = sample.get("true_label", "").strip().lower()
