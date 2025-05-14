@@ -32,6 +32,7 @@ If multiple emotions are present, select the most dominant one, and a second emo
 [IMPORTANT]
 - Only choose emotions from the following exact list: [disgust, surprise, anger, joy, fear, sadness, neutral] (in lowercase, no extra text)
 - Do not invent new emotion names (e.g., “happy”, “worried”, “anxious” are NOT valid), force to choose from the given list of emotions.
+- If there is not distinctly dominant emotion than label as "neutral"
 
 [Emotion Classification Methodology]
 Three critical unimodal experts are analyzing the video, each focusing on a different modality:
