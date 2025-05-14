@@ -10,5 +10,5 @@ def extract_unique_labels(json_path):
 
 # Example usage:
 # unique_emotions = extract_unique_labels("MELD_annotation.json")
-unique_emotions = extract_unique_labels("MELD_annotation.json")
+unique_emotions = extract_unique_labels("MERR_annotation.json")
 print("Unique emotion labels:", unique_emotions)
