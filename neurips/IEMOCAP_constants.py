@@ -151,7 +151,7 @@ SYSTEM_PROMPT_TREE_OF_THOUGHT = (
    The remaining experts must reach a consensus.
    The question is…
 
-to identify the dominant emotion among  [neutral, angry, happy, sad, worried, surprise] being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
+to identify the dominant emotion among  [frustrated, excited, happy, fearful, neutral, sad, angry, surprised] being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
 
  IMPORTANT: Emotions must be identified based on the following labels only: [frustrated, excited, happy, fearful, neutral, sad, angry, surprised] (in lowercase, no other text).
 
@@ -191,7 +191,7 @@ SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT = (
 to identify the dominant emotion being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
 
 IMPORTANT NOTES: 
-For emotion labels, Insert one of: [neutral, angry, happy, sad, worried, surprise] in lowercase only without any other text.
+For emotion labels, Insert one of: [frustrated, excited, happy, fearful, neutral, sad, angry, surprised] in lowercase only without any other text.
 
 Once there is consensus on the input provided, please respond according to the final_output format below:
 {
@@ -224,7 +224,7 @@ SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_3_EXPERT = (
 to identify the dominant emotion being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported. 
 
 IMPORTANT NOTES: 
-For emotion labels, Insert one of: [neutral, angry, happy, sad, worried, surprise] in lowercase only without any other text.
+For emotion labels, Insert one of: [frustrated, excited, happy, fearful, neutral, sad, angry, surprised] in lowercase only without any other text.
 
 Once there is consensus on the input provided, please respond according to the final_output format below:
 {

@@ -98,7 +98,7 @@ def main():
                                                        "TOT-3-EXPERT-DEBATE-UNI", "TOT-4-EXPERT-DEBATE-UNI",
                                                        "TOT-3-EXPERT-DEBATE-BI", "TOT-4-EXPERT-DEBATE-BI"],
                         default="", help="Select prompt type from the available options")
-    parser.add_argument("--dataset", type=str, choices=["MER", "MELD", "IEMOCAP"], default="MER", help="Dataset to use: MER or MELD")
+    parser.add_argument("--dataset", type=str, choices=["MER", "MELD", "IEMOCAP", "MERR"], default="MER", help="Dataset to use: MER or MELD")
     args = parser.parse_args()
     
     # Dynamically import the correct constants module
@@ -111,6 +111,9 @@ def main():
     elif args.dataset == "IEMOCAP":
         constants_mod = importlib.import_module("neurips.IEMOCAP_constants")
         print("IEMOCAP constants imported")
+    elif args.dataset == "MERR":
+        constants_mod = importlib.import_module("neurips.MERR_constants")
+        print("MERR constants imported")
     else:
         raise ValueError(f"Invalid dataset: {args.dataset}")
 
@@ -150,7 +153,7 @@ def main():
     predictions = []   # For evaluation.
     
     # Process each sample in the JSON.
-    for sample_id, sample in enumerate(data[:20]):
+    for sample_id, sample in enumerate(data):
         predicted = call_llm(sample, selected_model, comb_flag, sample_id)
         video_id = sample.get("video_id", f"sample_{sample_id}")
         ground_truth = sample.get("true_label", "").strip().lower()
@@ -167,9 +170,15 @@ def main():
     
     # Define the set of possible labels.
     if args.dataset == "MELD":
-        labels = ["anger", "disgust", "sadness", "joy", "neutral", "surprise", "fear"]
+        labels = ['disgust', 'surprise', 'anger', 'joy', 'fear', 'sadness', 'neutral']
+    elif args.dataset == "IEMOCAP":
+        labels = ['frustrated', 'excited', 'happy', 'fearful', 'neutral', 'sad', 'angry', 'surprised']
+    elif args.dataset == "MER":
+        labels = ['happy', 'neutral', 'worried', 'surprise', 'angry', 'sad']
+    elif args.dataset == "MERR":
+        labels = ['neutral', 'sad', 'doubt', 'happy', 'worried', 'contempt', 'angry', 'fear', 'surprise']
     else:
-        labels = ["happy", "sad", "neutral", "angry", "worried", "surprise"]
+        raise ValueError(f"Invalid dataset: {args.dataset}")
     
     # Compute evaluation metrics.
     precision, recall, f1, support = precision_recall_fscore_support(

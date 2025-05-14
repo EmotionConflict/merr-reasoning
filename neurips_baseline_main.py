@@ -141,6 +141,8 @@ def main():
         labels = ['frustrated', 'excited', 'happy', 'fearful', 'neutral', 'sad', 'angry', 'surprised']
     elif args.dataset == "MER":
         labels = ['happy', 'neutral', 'worried', 'surprise', 'angry', 'sad']
+    elif args.dataset == "MERR":
+        labels = ['neutral', 'sad', 'doubt', 'happy', 'worried', 'contempt', 'angry', 'fear', 'surprise']
     else:
         raise ValueError(f"Invalid dataset: {args.dataset}")
     

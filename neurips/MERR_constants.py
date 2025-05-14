@@ -1,9 +1,9 @@
 SYSTEM_PROMPT = (
    """
-You are given a multimodal_description extracted from a video. Your task is to identify the dominant emotion among [happy, neutral, worried, surprise, angry, sad] being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported. Please base your judgment on the input provided and respond according to the final_output format below. 
+You are given a multimodal_description extracted from a video. Your task is to identify the dominant emotion among [doubt, angry, contempt, fear, happy, worried, neutral, sad, surprise] being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported. Please base your judgment on the input provided and respond according to the final_output format below. 
 
 IMPORTANT NOTES: 
-For emotion labels, Insert one of: [happy, neutral, worried, surprise, angry, sad] in lowercase only without any other text.
+For emotion labels, Insert one of: [doubt, angry, contempt, fear, happy, worried, neutral, sad, surprise] in lowercase only without any other text.
 
 Based on the input provided, please provide final_output in the following format: 
 {
@@ -22,11 +22,11 @@ Based on the input provided, please provide final_output in the following format
 SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT_DEBATE = (
 """
 [Task Overview]
-You are given a multimodal_description extracted from a video from a TV show. Please provide a *final output* in JSON format only, without any other text. Your task is to identify the *dominant emotion* present in the video using the multimodal_description, where *dominant emotion* is one of the following: [happy, neutral, worried, surprise, angry, sad]. 
+You are given a multimodal_description extracted from a video from a TV show. Please provide a *final output* in JSON format only, without any other text. Your task is to identify the *dominant emotion* present in the video using the multimodal_description, where *dominant emotion* is one of the following: [doubt, angry, contempt, fear, happy, worried, neutral, sad, surprise]. 
 If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
 
 [IMPORTANT]
-- Only choose emotions from the following exact list: [happy, neutral, worried, surprise, angry, sad] (in lowercase, no extra text)
+- Only choose emotions from the following exact list: [doubt, angry, contempt, fear, happy, worried, neutral, sad, surprise] (in lowercase, no extra text)
 - Do not invent new emotion names (e.g., “joy”, “frustration”, “anxious” are NOT valid), force to choose from the given list of emotions.
 - If there is not distinctly dominant emotion than label as "neutral"
 
@@ -36,7 +36,7 @@ Three critical unimodal experts are analyzing the video, each focusing on a diff
   2. Expert in Audio Interpretation (B) has access only to: \"audio_description\"
   3. Expert in Visual Interpretation (C) has access only to: \"visual_expression_description\" 
 
-   All experts must first identify the dominant emotion independently (only allowed to choose from [happy, neutral, worried, surprise, angry, sad]), then share their initial response, along with evidence and a confidence score. If all agree, set \"is_disagreement_detected\" to false.
+   All experts must first identify the dominant emotion independently (only allowed to choose from [doubt, angry, contempt, fear, happy, worried, neutral, sad, surprise]), then share their initial response, along with evidence and a confidence score. If all agree, set \"is_disagreement_detected\" to false.
    If any disagreement is detected, set \"is_disagreement_detected\" to true and begin a structured debate.
    During debate, each expert will:
    - Write one step of their reasoning based on evidence and report confidence score (1–100 with 100 being highest confidence) of their reasoning 
@@ -97,7 +97,7 @@ Three bimodal experts are analyzing the video, each focusing on a different moda
 
   After the debate ends, remaining experts must provide a final consensus answer.
 
- IMPORTANT: Emotion must be identified based on the following labels only: [happy, neutral, worried, surprise, angry, sad] (in lowercase, no other text).
+ IMPORTANT: Emotion must be identified based on the following labels only: [doubt, angry, contempt, fear, happy, worried, neutral, sad, surprise] (in lowercase, no other text).
 
   Once consensus is reached, provide the final output in the format below.
 {
@@ -131,7 +131,7 @@ Let's think step by step.
 You are given a multimodal_description extracted from a video.Please provide a response in JSON format only, without any other text. Your task is to identify the dominant emotion being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported. Please base your judgment on the input provided and respond according to the final_output format below. 
 
 IMPORTANT NOTES: 
- IMPORTANT: Emotion must be identified based on the following labels only: [happy, neutral, worried, surprise, angry, sad] (in lowercase, no other text). 
+ IMPORTANT: Emotion must be identified based on the following labels only: [doubt, angry, contempt, fear, happy, worried, neutral, sad, surprise] (in lowercase, no other text). 
 descriptions:
 “whisper_transcript”;
 “audio_description”;
@@ -160,9 +160,9 @@ SYSTEM_PROMPT_TREE_OF_THOUGHT = (
    The remaining experts must reach a consensus.
    The question is…
 
-to identify the dominant emotion among  [happy, neutral, worried, surprise, angry, sad] being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
+to identify the dominant emotion among  [doubt, angry, contempt, fear, happy, worried, neutral, sad, surprise] being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
 
- IMPORTANT: Emotions must be identified based on the following labels only: [happy, neutral, worried, surprise, angry, sad] (in lowercase, no other text).
+ IMPORTANT: Emotions must be identified based on the following labels only: [doubt, angry, contempt, fear, happy, worried, neutral, sad, surprise] (in lowercase, no other text).
 
 All expert has access to the following variables in the multimodal descriptions:
   1. \"whisper_transcript\"
@@ -200,7 +200,7 @@ SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT = (
 to identify the dominant emotion being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
 
 IMPORTANT NOTES: 
-For emotion labels, Insert one of: [happy, neutral, worried, surprise, angry, sad] in lowercase only without any other text.
+For emotion labels, Insert one of: [doubt, angry, contempt, fear, happy, worried, neutral, sad, surprise] in lowercase only without any other text.
 
 Once there is consensus on the input provided, please respond according to the final_output format below:
 {
@@ -233,7 +233,7 @@ SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_3_EXPERT = (
 to identify the dominant emotion being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported. 
 
 IMPORTANT NOTES: 
-For emotion labels, Insert one of: [happy, neutral, worried, surprise, angry, sad] in lowercase only without any other text.
+For emotion labels, Insert one of: [doubt, angry, contempt, fear, happy, worried, neutral, sad, surprise] in lowercase only without any other text.
 
 Once there is consensus on the input provided, please respond according to the final_output format below:
 {
