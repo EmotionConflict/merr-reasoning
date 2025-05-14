@@ -21,34 +21,37 @@ Based on the input provided, please provide final_output in the following format
 
 SYSTEM_PROMPT_TREE_OF_THOUGHT_UNIMODAL_3_EXPERT_DEBATE = (
 """
-You are given a multimodal_description extracted from a video. Please provide a response in JSON format only, without any other text. Your task is to identify the dominant emotion being expressed. If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
+[Task Overview]
+You are given a multimodal_description extracted from a video from a TV show. Please provide a *final output* in JSON format only, without any other text. Your task is to identify the *dominant emotion* present in the video using the multimodal_description, where *dominant emotion* is one of the following: [happy, neutral, worried, surprise, angry, sad]. 
+If multiple emotions are present, select the most dominant one, and a second emotion only if it is clearly supported.
 
-Three unimodal experts are analyzing the video, each focusing on a different modality:
+[IMPORTANT]
+- Only choose emotions from the following exact list: [happy, neutral, worried, surprise, angry, sad] (in lowercase, no extra text)
+- Do not invent new emotion names (e.g., “joy”, “frustration”, “anxious” are NOT valid), force to choose from the given list of emotions.
+- If there is not distinctly dominant emotion than label as "neutral"
 
+[Emotion Classification Methodology]
+Three critical unimodal experts are analyzing the video, each focusing on a different modality:
   1. Expert in Text Interpretation (A) has access only to: \"whisper_transcript\"
   2. Expert in Audio Interpretation (B) has access only to: \"audio_description\"
-  3. Expert in Visual Interpretation (C) has access only to: \"visual_expression_description\" and \"visual_objective_description\"
+  3. Expert in Visual Interpretation (C) has access only to: \"visual_expression_description\" 
 
-All experts must first identify the dominant emotion independently, then share their initial response. If all agree, set \"is_disagreement_detected\" to false.
-
-If any disagreement is detected, set \"is_disagreement_detected\" to true and begin a structured debate. During debate, each expert will:
-- Write one step of their reasoning
-- Share their reasoning with the group
-- Revise their stance if needed
-
-  Experts will repeat this process in **up to five rounds**, or until consensus is reached. If an expert determines their view is no longer valid or unreliable, they must exit the debate.
-
-  After the debate ends, remaining experts must provide a final consensus answer.
-
- IMPORTANT: Emotion must be identified based on the following labels only: [happy, neutral, worried, surprise, angry, sad] (in lowercase, no other text). 
-
-  Once consensus is reached, provide the final output in the format below.
+   All experts must first identify the dominant emotion independently (only allowed to choose from [happy, neutral, worried, surprise, angry, sad]), then share their initial response, along with evidence and a confidence score. If all agree, set \"is_disagreement_detected\" to false.
+   If any disagreement is detected, set \"is_disagreement_detected\" to true and begin a structured debate.
+   During debate, each expert will:
+   - Write one step of their reasoning based on evidence and report confidence score (1–100 with 100 being highest confidence) of their reasoning 
+   - Share their reasoning with the group in random order 
+   - Revise their stance if needed.
+   - This is one round. Continue next rounds if needed.
+      
+     Experts will repeat this process in **at least three rounds**, and until consensus is reached. 
+     If an expert determines their view is no longer valid or unreliable, they must state they are not confident and exit the debate.
+     After the debate ends, remaining experts must provide a final consensus answer.
+   
+     Once consensus is reached, provide the final output in the format below.
+  
+[Output Format]
 {
-  "first_emotion": "the most dominant emotion (please answer in lowercase one word)",
-  "first_emotion_confidence_score": "1–100 (with 100 being highest confidence)",
-  "second_emotion": "the second most evident emotion, if any (please answer in lowercase one word)",
-  "second_emotion_confidence_score": "1–100 (leave blank if no second_emotion)",
- “Is_disagreement_detected” : “True if initial disagreement detected between experts, False if no disagreement detected”,
  "debate": Provide object in format [
 
 {
@@ -62,9 +65,15 @@ argument: “XXX"
 ]
   "final_justification": "Provide a brief reasoning (1–2 sentences) for your chosen emotions”,
 }, 
-“num_debate_rounds”: “ 1-5 (number of debate rounds)”
+ “Is_disagreement_detected” : “True if initial disagreement detected between experts, False if no disagreement detected”,
+“num_debate_rounds”: “ 1-10 (number of debate rounds, round means A & B & C took turns)”, 
+"first_emotion": "the most dominant emotion (please answer in lowercase one word)",
+  "first_emotion_confidence_score": "1–100 (with 100 being highest confidence)",
+  "second_emotion": "the second most evident emotion, if any (please answer in lowercase one word)",
+  "second_emotion_confidence_score": "1–100 (leave blank if no second_emotion)"
 """
 )
+
 
 
 SYSTEM_PROMPT_TREE_OF_THOUGHT_BIMODAL_3_EXPERT_DEBATE = (
