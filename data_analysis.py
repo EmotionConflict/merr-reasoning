@@ -262,9 +262,10 @@ def plot_evaluation_metrics(file_path, output_folder):
 
 if __name__ == "__main__":
     # First, you can extract metrics if needed:
-    # extract_evaluation_metrics("final/result/MER")
+    extract_evaluation_metrics("final/result/IEMOCAP/chenyu-run")
 
     # Then plot the charts and save the images to the "plots" folder:
+    plot_evaluation_metrics("final/result/IEMOCAP/chenyu-run/data_analysis.txt", "final/result/IEMOCAP/chenyu-run/plots")
     # plot_evaluation_metrics("final/result/MER/data_analysis.txt", "final/result/MER/plots")
     # plot_evaluation_metrics("final/result/MELD/data_analysis.txt", "final/result/MELD/plots")
-    plot_evaluation_metrics("results/data_analysis.txt", "plots")
+    # plot_evaluation_metrics("results/data_analysis.txt", "plots")

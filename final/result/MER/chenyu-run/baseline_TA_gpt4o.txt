@@ -1,0 +1,74 @@
+PREDICTION RESULTS
+=================
+
+Video sample_00002885.mp4: Ground Truth: surprise, Predicted: happy
+Video sample_00000705.mp4: Ground Truth: neutral, Predicted: happy
+Video sample_00004007.mp4: Ground Truth: surprise, Predicted: happy
+Video sample_00001631.mp4: Ground Truth: surprise, Predicted: neutral
+Video sample_00005443.mp4: Ground Truth: happy, Predicted: surprise
+Video sample_00004950.mp4: Ground Truth: neutral, Predicted: happy
+Video sample_00002460.mp4: Ground Truth: happy, Predicted: neutral
+Video sample_00001551.mp4: Ground Truth: worried, Predicted: neutral
+Video sample_00006798.mp4: Ground Truth: worried, Predicted: surprise
+Video sample_00005939.mp4: Ground Truth: worried, Predicted: happy
+Video sample_00005497.mp4: Ground Truth: worried, Predicted: neutral
+Video sample_00003790.mp4: Ground Truth: sad, Predicted: neutral
+Video sample_00004940.mp4: Ground Truth: angry, Predicted: neutral
+Video sample_00005321.mp4: Ground Truth: angry, Predicted: angry
+Video sample_00004407.mp4: Ground Truth: sad, Predicted: worried
+Video sample_00001999.mp4: Ground Truth: sad, Predicted: sad
+Video sample_00004943.mp4: Ground Truth: happy, Predicted: neutral
+Video sample_00002010.mp4: Ground Truth: surprise, Predicted: surprise
+Video sample_00002603.mp4: Ground Truth: happy, Predicted: neutral
+Video sample_00001646.mp4: Ground Truth: angry, Predicted: neutral
+Video sample_00003709.mp4: Ground Truth: worried, Predicted: sad
+Video sample_00001485.mp4: Ground Truth: angry, Predicted: neutral
+Video sample_00003245.mp4: Ground Truth: neutral, Predicted: happy
+Video sample_00004936.mp4: Ground Truth: neutral, Predicted: happy
+Video sample_00001682.mp4: Ground Truth: angry, Predicted: angry
+Video sample_00001133.mp4: Ground Truth: angry, Predicted: angry
+Video sample_00000832.mp4: Ground Truth: angry, Predicted: neutral
+Video sample_00005430.mp4: Ground Truth: sad, Predicted: neutral
+Video sample_00005626.mp4: Ground Truth: sad, Predicted: angry
+Video sample_00001454.mp4: Ground Truth: neutral, Predicted: angry
+Video sample_00006298.mp4: Ground Truth: sad, Predicted: surprise
+Video sample_00006717.mp4: Ground Truth: happy, Predicted: surprise
+Video sample_00003652.mp4: Ground Truth: worried, Predicted: neutral
+Video sample_00006500.mp4: Ground Truth: sad, Predicted: worried
+Video sample_00004288.mp4: Ground Truth: worried, Predicted: neutral
+Video sample_00005828.mp4: Ground Truth: surprise, Predicted: neutral
+Video sample_00001667.mp4: Ground Truth: happy, Predicted: neutral
+Video sample_00000143.mp4: Ground Truth: angry, Predicted: neutral
+Video sample_00006903.mp4: Ground Truth: happy, Predicted: neutral
+Video sample_00005576.mp4: Ground Truth: neutral, Predicted: neutral
+Video sample_00002972.mp4: Ground Truth: surprise, Predicted: neutral
+Video sample_00002806.mp4: Ground Truth: worried, Predicted: angry
+Video sample_00000754.mp4: Ground Truth: sad, Predicted: neutral
+Video sample_00005573.mp4: Ground Truth: worried, Predicted: neutral
+Video sample_00002787.mp4: Ground Truth: happy, Predicted: happy
+Video sample_00006939.mp4: Ground Truth: surprise, Predicted: neutral
+Video sample_00005217.mp4: Ground Truth: neutral, Predicted: neutral
+Video sample_00004726.mp4: Ground Truth: sad, Predicted: sad
+Video sample_00001837.mp4: Ground Truth: sad, Predicted: neutral
+Video sample_00006816.mp4: Ground Truth: worried, Predicted: neutral
+Video sample_00005474.mp4: Ground Truth: happy, Predicted: happy
+Video sample_00002680.mp4: Ground Truth: angry, Predicted: neutral
+Video sample_00004145.mp4: Ground Truth: neutral, Predicted: neutral
+Video sample_00002118.mp4: Ground Truth: neutral, Predicted: neutral
+Video sample_00003028.mp4: Ground Truth: surprise, Predicted: neutral
+Video sample_00005897.mp4: Ground Truth: angry, Predicted: angry
+Video sample_00005277.mp4: Ground Truth: neutral, Predicted: neutral
+Video sample_00003773.mp4: Ground Truth: surprise, Predicted: happy
+Video sample_00005062.mp4: Ground Truth: happy, Predicted: surprise
+Video sample_00006422.mp4: Ground Truth: surprise, Predicted: neutral
+
+EVALUATION METRICS
+=================
+
+Overall Accuracy: 0.23
+Label: happy -> Precision: 0.20, Recall: 0.20, F1 Score: 0.20, Support: 10
+Label: neutral -> Precision: 0.16, Recall: 0.50, F1 Score: 0.24, Support: 10
+Label: worried -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 10
+Label: surprise -> Precision: 0.17, Recall: 0.10, F1 Score: 0.12, Support: 10
+Label: angry -> Precision: 0.57, Recall: 0.40, F1 Score: 0.47, Support: 10
+Label: sad -> Precision: 0.67, Recall: 0.20, F1 Score: 0.31, Support: 10

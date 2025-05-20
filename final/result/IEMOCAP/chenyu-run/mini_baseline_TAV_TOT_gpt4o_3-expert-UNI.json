@@ -1,0 +1,1163 @@
+[
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a surprised tone in the woman's voice, which aligns with the visual expression of a jaw drop and lid tightener, suggesting surprise. However, the visual objective description suggests a calm and relaxed demeanor, indicating a neutral emotion. Thus, surprise is the dominant emotion, with neutrality as a secondary emotion.",
+    "video_id": "Ses01F_script01_1_F037.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a monotone and unemotional vocal delivery, while the visual expression description shows a strong lip corner depressor and other facial movements that could suggest a lack of positive emotion. The visual objective description supports a composed and calm demeanor, leading to a consensus on a neutral emotional state.",
+    "video_id": "Ses01F_impro02_M011.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a neutral tone, and the visual expression shows a calm and pensive demeanor, supporting a neutral emotion as dominant. However, the text transcript suggests potential frustration, which is slightly supported by the visual cues of a chin raiser and lip corner depressor, indicating a secondary emotion of frustration.",
+    "video_id": "Ses01F_impro02_M005.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates an angry tone in the woman's voice, supported by the fast-paced and tense delivery. The visual expression description suggests some tension and frustration, with features like lid tightener and lip corner puller. The whisper transcript reflects a sense of frustration and anger in the dialogue. The visual objective description of the man suggests neutrality, but the woman's expressions and tone dominate the emotional context.",
+    "video_id": "Ses01M_script01_1_F040.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues, such as the raised eyebrows and wide-open mouth, suggest excitement or enthusiasm. The audio description indicates an expressive and engaged vocal delivery, supporting the excitement interpretation. The text, while expressing concern, does not convey strong negative emotions, allowing for a secondary neutral emotion due to the overall calm and engaged demeanor.",
+    "video_id": "Ses01M_script03_1_M003.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text suggests a serious tone, but the audio description indicates a monotone delivery, which aligns with a neutral emotion. The visual cues, such as a subtle smile and relaxed posture, suggest a secondary emotion of happiness. The combination of these elements leads to a dominant neutral emotion with a hint of happiness.",
+    "video_id": "Ses01M_script03_1_M017.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio expert noted a positive and happy tone in the man's voice, suggesting excitement and happiness. The visual expert observed a woman with a concentrated expression, which does not contradict the audio interpretation but does not strongly support it either. The text expert found no emotional cues in the transcript. Therefore, the consensus is that the dominant emotion is excitement, with happiness as a secondary emotion.",
+    "video_id": "Ses01F_script02_1_M030.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "85",
+    "justification": "The audio description indicates a happy and excited tone, while the visual cues such as an animated expression, open mouth, and engaged body language suggest excitement. The upward inflection and the context of discussing a large sum of money support the emotion of surprise as well.",
+    "video_id": "Ses01M_impro03_M007.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "85",
+    "justification": "The audio description indicates a happy and excited vocal delivery, while the visual expression and objective descriptions show lively and enthusiastic body language and facial expressions. The text interpretation of 'That is incredible' aligns with excitement. Therefore, excitement is the dominant emotion, with happiness as a secondary emotion.",
+    "video_id": "Ses01M_impro07_F004.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript suggests confusion or disbelief, which aligns with frustration. The audio description indicates a negative tone with a slow, breathy voice, supporting frustration. The visual expression shows a mix of tension and slight positive cues, but the overall posture and setting suggest calmness, leading to a secondary neutral emotion.",
+    "video_id": "Ses01M_script02_2_M029.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text interpretation suggests a sarcastic or humorous tone, while the audio description indicates a comfortable and at-ease delivery with a slight laugh. The visual expression description highlights a broad smile and warm expression, all of which strongly suggest happiness as the dominant emotion.",
+    "video_id": "Ses01F_impro07_M018.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "70",
+    "justification": "The vocal delivery is expressive with a rise in pitch, suggesting excitement or surprise. The visual cues, such as the moderately raised brows and jaw drop, support an expression of excitement. The open body language and engagement further indicate a positive and enthusiastic demeanor.",
+    "video_id": "Ses01M_script02_1_M044.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a sad tone in the woman's voice, supported by the tense vocal delivery. The visual expression shows signs of sadness with lid tightening and lip raising, while the overall posture and setting suggest a neutral or contemplative state. The combination of these cues suggests sadness as the dominant emotion, with a secondary neutral emotion due to the relaxed posture and subdued environment.",
+    "video_id": "Ses01M_impro06_F006.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a sad tone in the man's voice, which aligns with the content of the transcript discussing a somber topic. However, the visual expression suggests mild amusement or contentment, as evidenced by the upward curve of his lips and crinkled eyes. This contrast suggests a dominant emotion of sadness with a secondary emotion of happiness.",
+    "video_id": "Ses01M_script01_3_M031.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "fearful",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio expert identifies a sense of fear or concern due to the expressive and tense vocal delivery, characterized by urgency and hesitation. The visual expert notes a relaxed posture and subtle smile, suggesting a neutral or mildly amused mood. The text expert's input is limited, but the phrase 'If one of us dies...' implies a potentially fearful context. The consensus is that fear is the dominant emotion, with neutrality as a secondary emotion due to the relaxed visual cues.",
+    "video_id": "Ses01M_script03_1_F021.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual expression and objective descriptions indicate a cheerful mood with a broad, genuine smile and relaxed posture, suggesting happiness. The audio description suggests a neutral tone, but the visual cues are more dominant in expressing emotion, leading to the conclusion of happiness as the primary emotion with neutrality as a secondary emotion.",
+    "video_id": "Ses01M_script03_1_M000.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues, such as a broad smile and lively eyes, strongly suggest happiness, supported by the context of laughter in the transcript. The audio description indicates a neutral tone, but the visual evidence of joy is more dominant, leading to the conclusion that happiness is the primary emotion, with neutrality as a secondary emotion.",
+    "video_id": "Ses01M_impro03_M011.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "85",
+    "justification": "The text suggests enthusiasm about a financial gain, while the audio indicates a happy and energetic tone. Visually, the broad smile and relaxed posture further support the presence of excitement and happiness. The combination of these cues leads to a consensus on excitement as the dominant emotion, with happiness as a secondary emotion.",
+    "video_id": "Ses01M_impro03_M005.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text suggests a matter-of-fact discussion about a transactional marriage, which aligns with a neutral tone. The audio description supports this with a normal, confident vocal delivery. The visual cues, such as slight facial tension and expressive gestures, hint at underlying frustration, possibly due to the nature of the topic being discussed.",
+    "video_id": "Ses01M_impro03_M004.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript 'I wonder' is ambiguous and does not convey a strong emotion. The audio description indicates a negative tone, but the soft and slow speech suggests a lack of intensity. The visual expression shows a mix of slight facial movements, including a slight smile, which aligns with a neutral or slightly content state. The overall body language is calm and composed, supporting a neutral emotion. However, the negative tone in the audio could suggest underlying frustration, making it a secondary emotion.",
+    "video_id": "Ses01M_script03_1_M001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The text expert notes the speaker's anticipation about having a mustache, which could indicate excitement. The audio expert observes an enthusiastic and engaging vocal delivery, suggesting excitement. The visual expert sees a faint smile and relaxed posture, indicating happiness. Together, these observations suggest happiness as the dominant emotion, with excitement as a secondary emotion.",
+    "video_id": "Ses01M_impro07_M032.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text suggests a sense of urgency, but the audio tone is negative and slow, indicating possible frustration. Visually, the person appears relaxed and slightly amused, suggesting a neutral demeanor. The combination of these cues points to a dominant neutral emotion with an underlying frustration.",
+    "video_id": "Ses01M_script02_1_M045.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual cues, such as the slight smile and relaxed posture, suggest a happy demeanor, which is supported by the facial expressions indicating engagement and friendliness. The audio description indicates a neutral tone, which aligns with the secondary emotion of neutrality, but the visual indicators of happiness are more dominant.",
+    "video_id": "Ses01F_impro03_M017.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral vocal delivery, suggesting no strong emotional expression. The visual cues, such as the slight upward curve of the lips and relaxed demeanor, suggest mild contentment or amusement, which aligns with a secondary emotion of happiness. However, the overall impression remains predominantly neutral.",
+    "video_id": "Ses01M_script01_3_M020.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The text and audio suggest an engaged and interested tone, while the visual cues such as the lip corner puller and open expression indicate a pleasant demeanor, consistent with happiness. The expressive and interested vocal delivery, along with the open gesture, supports a secondary emotion of excitement.",
+    "video_id": "Ses01M_impro07_M022.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a negative tone with low, slow speech and breathiness, suggesting sadness. The visual expression shows a mix of emotions with a strong chin raise and moderate lip tightener, which can be associated with sadness. The whisper transcript's positive words contrast with the tone, leading to a secondary neutral emotion due to the lack of stress or tension in the visual objective description.",
+    "video_id": "Ses01M_impro06_M022.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates excitement and enthusiasm in the man's tone, which aligns with the positive language in the transcript. The visual description of the woman suggests a neutral or contemplative state, but the dominant emotion expressed by the speaker is excitement.",
+    "video_id": "Ses01F_script02_1_M036.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text suggests reassurance, the audio indicates a relaxed and natural tone, and the visual cues show a thoughtful and relaxed demeanor. Together, these suggest a neutral emotional state, with no strong indicators of other emotions.",
+    "video_id": "Ses01M_impro02_M014.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual expression and objective descriptions indicate a cheerful demeanor with a broad smile, suggesting happiness. Despite the text transcript's neutral or potentially dismissive content, the audio description supports a positive tone, reinforcing the dominant emotion as happy.",
+    "video_id": "Ses01M_script03_1_M004.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral tone, while the visual expression shows a mix of surprise and neutrality with features like a jaw drop and lip corner depressor. The transcript suggests a moment of disbelief or surprise, but the overall demeanor and vocal delivery lean more towards neutrality.",
+    "video_id": "Ses01F_impro03_M002.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The vocal delivery suggests confidence and enthusiasm, while the visual cues, such as the subtle smile and open body language, indicate happiness. The combination of these elements supports the interpretation of a happy and slightly excited demeanor.",
+    "video_id": "Ses01M_impro03_F020.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual cues, such as a broad smile and relaxed posture, strongly suggest happiness. The audio description of a relaxed and confident tone supports this interpretation. The text does not indicate any negative emotions, reinforcing the conclusion of happiness as the dominant emotion.",
+    "video_id": "Ses01F_impro03_F021.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "85",
+    "justification": "The text indicates anticipation and enjoyment about planning a wedding, which aligns with excitement. The audio description highlights expressive and enthusiastic vocal delivery, further supporting excitement. The visual cues, such as a bright, open smile and relaxed posture, suggest happiness. Together, these elements point to excitement as the dominant emotion, with happiness as a secondary emotion.",
+    "video_id": "Ses01M_impro03_M016.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a sad tone with tension in the voice, which aligns with the visual cues of furrowed brows and a serious expression, suggesting sadness as the dominant emotion. The animated gestures and tension in the voice also suggest an underlying frustration.",
+    "video_id": "Ses01M_script02_2_F019.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues, such as a noticeable smile and open, engaged body language, suggest a dominant emotion of happiness. However, the text indicates a sense of frustration or regret about past actions, which is supported by the slight negative facial expressions like the Nose Wrinkler and Lip Corner Depressor. The audio remains neutral, not contradicting the visual and textual interpretations.",
+    "video_id": "Ses01F_impro07_F016.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript and audio description suggest a neutral tone, with no strong emotional cues in the speech. The visual expression description indicates a neutral facial expression with slight indicators of attentiveness or contemplation, but not enough to suggest a strong emotion like excitement or frustration. Therefore, the dominant emotion is neutral.",
+    "video_id": "Ses01M_impro06_M020.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The monotone vocal delivery and lack of significant changes in tone suggest a neutral emotion. The visual cues, such as the slightly downturned lips and introspective posture, indicate a hint of sadness. The combination of these elements leads to a dominant neutral emotion with a secondary emotion of sadness.",
+    "video_id": "Ses01M_script01_3_M022.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text indicates a positive message, the audio suggests an emotional and positive tone, and the visual cues show a broad smile and relaxed posture, all pointing towards happiness as the dominant emotion.",
+    "video_id": "Ses01F_impro03_M015.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues, such as the slight smile and relaxed posture, combined with the warm and engaging vocal delivery, suggest a dominant emotion of happiness. The neutral background and calm demeanor support a secondary emotion of neutrality.",
+    "video_id": "Ses01F_script03_1_M003.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a happy and excited tone in her voice, while the visual expression shows a soft smile and relaxed posture, supporting the emotion of happiness. The whisper transcript of 'No. No' does not contradict these emotions, as it lacks context to suggest otherwise.",
+    "video_id": "Ses01F_script01_3_F013.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a strong presence of anger due to the fast pace, loudness, and tense tone of the voice. The visual expression description suggests a neutral expression with slight indicators of contemplation, which aligns with a secondary neutral emotion. The text transcript supports a context of frustration or anger, but the audio cues are more dominant in expressing anger.",
+    "video_id": "Ses01M_script01_1_F023.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text suggests a mix of emotions, with a notable event described as 'incredible' but also involving a 'random bus accident,' which could imply a complex emotional state. The audio description indicates tension in the speaker's voice, which aligns with sadness. The visual cues, such as the strong Lip Corner Depressor and moderately Lid Tightener, support the presence of sadness. The overall calm and focused atmosphere, along with the neutral facial expression, suggests a secondary emotion of neutrality.",
+    "video_id": "Ses01F_script01_3_M033.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text and audio descriptions suggest a neutral tone, with no significant emotional cues in the speech. The visual cues, such as the relaxed posture and neutral facial expression, further support the interpretation of a neutral emotional state.",
+    "video_id": "Ses01F_script03_1_M002.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a neutral tone with no apparent emotion, and the visual expression description suggests a neutral facial expression with slight indicators of focus or concentration. The whisper transcript is too brief to convey any emotion. Therefore, the dominant emotion is neutral.",
+    "video_id": "Ses01M_impro04_F008.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral tone, while the visual expression shows a slight smile and relaxed demeanor, suggesting a secondary emotion of happiness. The text does not convey strong emotional content, supporting the neutral assessment.",
+    "video_id": "Ses01M_script02_1_M031.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text and audio descriptions both indicate a lack of emotional variation, suggesting neutrality. The visual expression description, despite some facial muscle activity, aligns with a neutral expression overall. Therefore, the dominant emotion is neutral.",
+    "video_id": "Ses01F_script01_1_F043.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fearful",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description suggests a tone of fear or surprise, and the visual expression indicates a mix of surprise and mild amusement. The combination of these cues points to surprise as the dominant emotion, with fear as a secondary emotion due to the urgent tone and breathiness in the voice.",
+    "video_id": "Ses01F_script03_1_M000.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text suggests a neutral tone with a hint of suggestion, the audio indicates a natural and clear delivery without emotional extremes, and the visual cues show a composed and relaxed demeanor. Together, these suggest a dominant neutral emotion.",
+    "video_id": "Ses01M_impro04_F022.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a surprised vocal delivery, which aligns with the text's exclamation. The visual expression shows a mix of slight emotional indicators but overall suggests a neutral demeanor. Thus, surprise is the dominant emotion, with neutrality as a secondary emotion due to the relaxed posture and minimal facial expression changes.",
+    "video_id": "Ses01M_script01_1_F034.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The text and audio suggest a neutral state, as the speaker is calmly explaining their situation without any emotional cues. However, the visual cues, such as the lively facial expression and animated gestures, indicate a secondary emotion of excitement or eagerness, suggesting a positive engagement with the situation.",
+    "video_id": "Ses01M_impro01_M009.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues, such as the very strong lip corner depressor and moderately chin raiser, suggest sadness. The neutral vocal delivery supports a lack of strong emotional expression, but the combination of visual expressions like lip tightener and lid tightener also indicate a level of frustration.",
+    "video_id": "Ses01F_script02_1_M044.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is expressive, but her facial expression and body language are neutral and composed, suggesting a lack of strong emotional expression. The combination of a clear, strong voice and a relaxed posture indicates a neutral emotional state.",
+    "video_id": "Ses01F_impro05_F008.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's vocal delivery is described as happy, with a rising intonation and smooth, fast pacing, suggesting excitement. Her visual expressions, including a warm smile and relaxed posture, further support the interpretation of happiness. The combination of these cues indicates that happiness is the dominant emotion, with excitement as a secondary emotion.",
+    "video_id": "Ses01F_impro05_F020.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text suggests a potentially frustrated or contemplative sentiment, but the monotone audio delivery and the visual cues of slight facial movements and a calm setting indicate a neutral emotional state. The lack of significant emotional expression in both audio and visual modalities supports the conclusion of neutrality.",
+    "video_id": "Ses01M_script02_2_F040.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "80",
+    "justification": "The audio description indicates a happy and excited tone in the woman's voice, which aligns with the visual expression of a moderately pulled lip corner and dimpler, suggesting happiness. The whisper transcript supports this by expressing agreement and motivation. The visual objective description does not contradict these emotions, as the man's neutral expression does not influence the woman's emotional state.",
+    "video_id": "Ses01M_script03_2_M031.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "60",
+    "justification": "The vocal delivery is expressive and suggests passion and engagement, which aligns with excitement. The visual cues, such as the slight smile and calm posture, indicate happiness. The combination of these cues suggests that happiness is the dominant emotion, with excitement as a secondary emotion.",
+    "video_id": "Ses01F_script03_1_M001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a negative tone, but the visual expression and objective descriptions suggest a neutral demeanor with relaxed posture and minimal facial expression changes. The text provides no additional emotional context, leading to a consensus on a neutral emotion.",
+    "video_id": "Ses01M_script01_1_M000.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a positive tone, but the visual expression and objective descriptions suggest a neutral demeanor with no strong emotional indicators. The text does not convey any strong emotion either, leading to a consensus on a neutral emotion.",
+    "video_id": "Ses01M_script01_1_M028.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a strong presence of anger through the speaker's vocal delivery, which is fast-paced, sharp, tense, and harsh. The visual expression description does not contradict this, as the facial expressions are subtle and do not strongly indicate any other emotion. The text transcript suggests confusion, but the audio cues are more dominant in conveying the emotion.",
+    "video_id": "Ses01M_impro01_F015.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a high-pitched, fast-paced tone with enthusiasm, suggesting happiness and excitement. The visual expression shows a soft smile and relaxed posture, supporting a happy emotion. The text transcript, while slightly sarcastic, aligns with a positive sentiment, reinforcing happiness as the dominant emotion.",
+    "video_id": "Ses01F_script02_2_F037.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a happy and excited tone in the speaker's voice, which suggests excitement as the dominant emotion. The visual expression description, however, shows a mix of expressions that could be interpreted as neutral, with some elements of contemplation. The text does not provide clear emotional cues, so the consensus is that excitement is the primary emotion, with a secondary neutral emotion due to the visual cues.",
+    "video_id": "Ses01M_script03_2_F028.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text suggests a plea for help, which often indicates frustration. The audio description of a negative tone and roughness in the voice supports this. Visually, the combination of facial expressions such as the lip corner puller and depressor, along with the engaged posture, suggests a mix of frustration and sadness.",
+    "video_id": "Ses01M_script01_1_M038.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual expression of a broad smile and warm demeanor, combined with the calm and soothing tone in the audio, strongly suggest happiness as the dominant emotion. The text does not contradict this interpretation, as it is neutral and does not imply any negative emotions.",
+    "video_id": "Ses01F_script01_3_M020.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's playful vocal tone and cheerful laughter, combined with her wide smile and relaxed posture, strongly indicate happiness. The animated facial expression and the context of the setting suggest she might also be excited, but happiness is the more dominant emotion.",
+    "video_id": "Ses01F_script03_1_F030.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text and audio descriptions suggest a calm and confident demeanor, while the visual cues indicate a neutral expression with slight tension. The overall evidence points to a neutral emotional state, with no strong indicators of another emotion.",
+    "video_id": "Ses01F_script01_2_F014.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio expert noted a negative tone suggesting annoyance or disgust, which aligns with frustration. The visual expert observed a calm and neutral expression, which supports a secondary neutral emotion. The text expert found no emotional cues in the transcript, reinforcing the neutral aspect.",
+    "video_id": "Ses01M_script02_1_M023.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript suggests a neutral inquiry without emotional cues. The audio description indicates a monotone delivery, which aligns with a neutral emotional state. The visual expression shows some tension in the face, but the overall body language and setting suggest calmness, supporting a neutral emotion as dominant.",
+    "video_id": "Ses01M_impro01_F004.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a happy and excited tone, supported by the visual expression of a gentle smile and relaxed demeanor. The text interpretation does not contradict this, as the mention of a 'trivial little broach' could be delivered in a light-hearted manner. Thus, 'happy' is the dominant emotion, with 'excited' as a secondary emotion due to the rising intonation and clear, upbeat vocal delivery.",
+    "video_id": "Ses01M_script03_2_F003.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text and audio experts both perceive a natural and casual tone, suggesting neutrality. The visual expert notes a subtle and slightly serious expression, which aligns with a neutral emotion. There is no strong indication of any other emotion being dominant.",
+    "video_id": "Ses01F_script02_2_M039.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The text interpretation suggests a positive sentiment with words like 'fantastic.' The audio description indicates a neutral tone with slight expressiveness, while the visual cues, such as a gentle smile and relaxed posture, suggest happiness. The combination of these factors points to happiness as the dominant emotion, with neutrality as a secondary emotion due to the calm and subdued setting.",
+    "video_id": "Ses01F_impro04_F027.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The monotone vocal delivery and lack of emotional cues in the audio suggest a neutral emotion. The visual cues, such as the slightly furrowed brows and pursed lips, indicate a possible underlying frustration, but the overall relaxed posture and lack of strong emotional indicators support neutrality as the dominant emotion.",
+    "video_id": "Ses01M_script02_1_F001.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a neutral tone, which aligns with the whisper transcript's straightforward question. The visual cues, such as a hint of a smile and relaxed posture, suggest a secondary emotion of happiness. The dominant emotion is neutral due to the consistent and professional vocal delivery, while the slight smile and engaged expression support a secondary emotion of happiness.",
+    "video_id": "Ses01F_impro05_F026.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The man's speech is slow and strained, indicating a negative tone, which aligns with frustration. His facial expressions, such as the lip tightener and chin raiser, suggest tension and effort, supporting the interpretation of frustration. The visual setting and body language further imply concentration and a challenging task, reinforcing the dominant emotion of frustration.",
+    "video_id": "Ses01M_script03_2_M037.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "confused",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text and audio descriptions both indicate a sense of confusion and struggle to understand a situation, suggesting confusion as the dominant emotion. The audio also hints at disbelief, which aligns with frustration. The visual description, however, does not match the audio and text, indicating a possible mismatch or error in the visual data.",
+    "video_id": "Ses01F_script03_1_M013.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The text and audio descriptions both strongly indicate anger, with the speaker using harsh language and a raised, fast-paced voice. The visual description, however, suggests a pleasant demeanor, which could indicate a mismatch or sarcasm. Despite this, the consensus is that anger is the dominant emotion due to the strong verbal and vocal cues, with frustration as a secondary emotion due to the intensity and emphasis in the speech.",
+    "video_id": "Ses01F_script03_2_M040.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio expert noted a negative tone in the man's voice, suggesting sadness, while the visual expert observed a pleasant smile on the woman's face, indicating neutrality or a lighthearted mood. The text expert did not provide additional emotional context. The consensus is that the man's sadness is the dominant emotion, with the woman's neutral demeanor as a secondary emotion.",
+    "video_id": "Ses01F_impro04_M022.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "bored",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a negative tone with boredom and disinterest, while the visual cues suggest a calm and attentive demeanor without signs of distress or excitement. The text provides no emotional context. The consensus is that the dominant emotion is neutral, with a secondary emotion of boredom due to the monotonous vocal delivery.",
+    "video_id": "Ses01M_script03_2_F033.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text suggests a potential for frustration or confusion, but the audio and visual cues both indicate a neutral emotional state. The speaker's voice is clear and professional, and the visual expression shows no strong indicators of any specific emotion, leading to a consensus on neutrality.",
+    "video_id": "Ses01M_script01_1_F002.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a cheerful and upbeat tone, suggesting excitement. The visual expression, with features like a moderately Lip Corner Puller and animated gestures, supports this excitement. However, the presence of features like a Nose Wrinkler and Lip Corner Depressor, along with the intense facial expression, suggest a secondary emotion of frustration.",
+    "video_id": "Ses01F_impro05_F016.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The text suggests a situation that could be interpreted as neutral or slightly concerning, but the audio indicates a happy and excited tone. The visual cues, such as the gentle smile and relaxed eyes, support the interpretation of happiness. The combination of these modalities suggests that happiness is the dominant emotion, with excitement as a secondary emotion due to the vocal delivery and slight rise in pitch.",
+    "video_id": "Ses01F_script03_1_F002.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues suggest a neutral state with a relaxed posture and minimal facial expression changes. However, the slight strain and breathy quality in the audio, combined with the questioning tone in the transcript, indicate a possible underlying frustration or stress, leading to the identification of 'frustrated' as a secondary emotion.",
+    "video_id": "Ses01M_script01_1_F003.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text suggests frustration due to the use of 'insufferable' and the implication of intoxication. The audio's monotone delivery with a change in pitch indicates a controlled but frustrated tone. Visually, the slight cheek raiser and lip corner puller suggest a mix of frustration and neutrality, with no strong indicators of other emotions.",
+    "video_id": "Ses01M_script03_2_F026.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a negative tone with tiredness, and the visual expression shows strong indicators of sadness such as a lip corner depressor and lid tightener. The whisper transcript does not provide additional context, but the combination of audio and visual cues strongly suggests sadness as the dominant emotion.",
+    "video_id": "Ses01F_script02_2_F029.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The text suggests a realization of a mistake, indicating sadness or regret. The audio description highlights a tense and expressive delivery, aligning with sadness and possibly frustration. The visual cues, such as the brow and lip movements, support a subdued emotional state, consistent with sadness, while the open body language suggests a secondary emotion of frustration.",
+    "video_id": "Ses01M_script01_1_M008.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a neutral tone, while the visual expression shows slight signs of happiness, such as a slight smile and soft eyes. The overall body language and setting suggest calm interest, supporting a neutral emotional tone with a hint of happiness.",
+    "video_id": "Ses01M_impro05_F003.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript and audio description both indicate a lack of emotional expression, suggesting neutrality. The visual expression description supports this with mostly neutral facial features and a relaxed posture, reinforcing the absence of strong emotions.",
+    "video_id": "Ses01M_script01_1_F001.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The text interpretation suggests amusement, which aligns with happiness. The visual cues, such as a hint of a smile and relaxed posture, support a happy emotion. The audio description indicates a serious tone, which could suggest neutrality, but the overall evidence leans more towards happiness as the dominant emotion.",
+    "video_id": "Ses01M_script03_2_M039.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "anxious",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues suggest a neutral or attentive demeanor, with relaxed posture and gentle facial expressions. However, the audio description indicates a tense and strained vocal delivery, suggesting underlying anxiety. The text alone is ambiguous, but combined with audio, it supports a secondary emotion of anxiousness.",
+    "video_id": "Ses01F_script03_1_F000.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript and audio description both indicate a lack of emotional variation, suggesting neutrality. The visual expression description supports this with minimal facial movements and a relaxed posture, indicating a calm and focused demeanor.",
+    "video_id": "Ses01F_impro04_F014.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fearful",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a fearful tone in the woman's voice, suggesting fear or anxiety as the dominant emotion. However, the visual expression shows a warm and engaged demeanor with a broad smile, indicating happiness or amusement. The conflicting cues suggest fear as the primary emotion due to the vocal delivery, with happiness as a secondary emotion based on visual cues.",
+    "video_id": "Ses01F_script03_1_F001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The vocal delivery is monotone and clear, indicating a lack of emotional intensity. The visual expression and posture suggest a calm demeanor with no strong emotional cues. The overall setting and context support a neutral emotional state.",
+    "video_id": "Ses01M_script01_1_F000.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a positive and confident tone, suggesting happiness. The visual expression description shows slight facial movements that could indicate happiness, such as the lip corner puller and dimpler, but overall the expression is neutral. The whisper transcript does not provide strong emotional cues. Therefore, the dominant emotion is happy, with neutral as a secondary emotion due to the overall calm and controlled setting.",
+    "video_id": "Ses01F_script01_1_M042.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text suggests a potential for frustration or dissatisfaction, but the audio and visual cues indicate a neutral tone. The vocal delivery is monotone and expressive, and the visual expression shows a relaxed demeanor with no strong indicators of any specific emotion. Thus, the consensus is that the dominant emotion is neutral.",
+    "video_id": "Ses01M_script01_1_F028.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text suggests a desire for a better situation, indicating potential frustration. The audio description notes a negative tone and tension, supporting frustration. The visual cues, such as the lip corner puller and nose wrinkler, align with frustration, while the relaxed posture suggests some neutrality.",
+    "video_id": "Ses01M_script01_1_M035.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text and audio descriptions suggest a neutral tone, with no emotional cues in the speech or vocal delivery. The visual expression description indicates a neutral facial expression with slight movements that do not strongly convey any specific emotion. Therefore, the dominant emotion is neutral.",
+    "video_id": "Ses01F_impro01_M002.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript and audio description suggest a neutral tone due to the monotone delivery and lack of emotional cues in the speech. The visual expression description indicates a slight smile and relaxed demeanor, which could suggest mild amusement or happiness. However, the overall impression from all modalities is predominantly neutral.",
+    "video_id": "Ses01M_script02_2_M040.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text and audio suggest a negative tone, with the speaker acknowledging they don't make someone happy, indicating sadness. The visual cues, such as the downward gaze and contemplative posture, support this. The slight roughness in the voice and the facial expressions, like the lid tightener and jaw drop, suggest a secondary emotion of frustration.",
+    "video_id": "Ses01M_script02_2_M044.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text and audio descriptions both indicate a neutral tone, with no strong emotional cues in the speech or vocal delivery. The visual expression shows a mix of slight facial movements, but none are pronounced enough to suggest a dominant emotion other than neutrality.",
+    "video_id": "Ses01M_impro04_F006.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text suggests a defensive statement, which could imply frustration, but the audio and visual cues indicate a calm and composed demeanor. The audio description of a tense and breathy voice suggests some underlying frustration, but the visual expression and objective description show a relaxed and attentive posture, leading to a consensus on a dominant neutral emotion with a secondary hint of frustration.",
+    "video_id": "Ses01M_script03_2_M028.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text and audio suggest a lack of strong emotion, with the speaker sounding bored and uninterested, which aligns with a neutral emotion. The visual cues, such as the lid tightener and chin raiser, suggest a hint of frustration, but the overall demeanor remains calm and introspective, supporting a primarily neutral emotional state with a secondary hint of frustration.",
+    "video_id": "Ses01M_impro01_M011.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The text suggests frustration due to the repeated waiting and instructions, but the audio and visual cues indicate a neutral tone. The vocal delivery is monotone and steady, and the visual expression shows engagement and a slight smile, which aligns more with neutrality. However, the context of the situation described in the text supports a secondary emotion of frustration.",
+    "video_id": "Ses01F_impro05_F004.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The vocal delivery is monotone and lacks expressiveness, suggesting neutrality. However, the visual cues, such as the subtle smile and relaxed posture, indicate a positive demeanor, suggesting a secondary emotion of happiness.",
+    "video_id": "Ses01F_script02_2_M026.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text suggests frustration with phrases like 'lip service' and 'aggressive searching,' indicating a desire for action. The audio description notes a monotone delivery, which aligns with a lack of enthusiasm, supporting a neutral emotion. The visual cues, such as the raised eyebrows and slight smile, suggest engagement but do not strongly contradict the frustration indicated by the text.",
+    "video_id": "Ses01M_impro05_M026.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The text and audio descriptions suggest a neutral tone, with no strong emotions conveyed verbally or vocally. The visual description indicates a relaxed and content demeanor, with slight signs of amusement or contentment, supporting a secondary emotion of happiness.",
+    "video_id": "Ses01F_script01_3_F009.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a happy and satisfied tone in the woman's voice, while the visual expression description shows a bright facial expression with a broad smile and squinting eyes, suggesting amusement or enjoyment. The text interpretation does not contradict this, allowing for a consensus on happiness as the dominant emotion.",
+    "video_id": "Ses01F_script01_3_F021.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The text and audio descriptions both suggest a neutral emotional tone, with the speaker's voice being consistent and unexpressive. The visual expression shows a slight smile and relaxed demeanor, which could indicate a secondary emotion of happiness. However, the overall evidence points more strongly towards neutrality as the dominant emotion.",
+    "video_id": "Ses01M_script02_2_M053.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "85",
+    "justification": "The text and audio both indicate a positive and surprised reaction, with expressions of disbelief and enjoyment. The visual cues, such as a wide smile and animated facial expressions, further support the presence of happiness. The tone and expressions suggest surprise as a secondary emotion.",
+    "video_id": "Ses01M_script02_1_M000.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text suggests a potential for frustration due to questioning and self-doubt, but the audio and visual cues indicate a calm and neutral demeanor. The vocal tone is steady and sincere, and the visual expression shows a relaxed posture with a subtle smile, supporting a dominant neutral emotion. The slight indicators of frustration in the text are secondary to the overall neutral presentation.",
+    "video_id": "Ses01F_impro05_M033.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text suggests a discussion about emotions like anger or upset, but does not convey these emotions directly. The audio indicates a flat, monotonous tone, which aligns with a neutral emotional state. The visual cues, such as a relaxed posture and neutral facial expression, further support the dominant emotion being neutral. However, the strained and tired voice, along with slight facial tension, suggests a secondary emotion of frustration.",
+    "video_id": "Ses01M_impro04_F011.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio expert notes a positive and enthusiastic tone, while the visual expert observes facial expressions and body language that suggest a faint smile and a relaxed, introspective state. The text expert finds no conflicting information. Together, these suggest happiness as the dominant emotion, with neutrality as a secondary emotion due to the calm and relaxed demeanor.",
+    "video_id": "Ses01M_script01_1_M027.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The text and audio suggest a negative or neutral tone, with the speaker's flat and slow speech indicating possible frustration. However, the visual cues, such as a gentle smile and relaxed posture, suggest a more neutral or content mood. The consensus is that the dominant emotion is neutral, with a secondary possibility of frustration due to the tone of voice.",
+    "video_id": "Ses01F_impro05_M032.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "disappointed",
+    "second_emotion_confidence_score": "70",
+    "justification": "The text and audio both indicate a sense of frustration and disappointment, with the speaker expressing dissatisfaction with the situation. The visual cues, such as the contemplative expression and body language, support the presence of these emotions.",
+    "video_id": "Ses01M_script02_2_M035.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a happy and enthusiastic vocal delivery, supported by expressions like 'yay!' and 'yeah!'. The visual expression shows a relaxed smile and open body language, suggesting happiness. The text transcript is neutral but does not contradict the other modalities. Thus, happiness is the dominant emotion, with excitement as a secondary emotion.",
+    "video_id": "Ses01F_impro07_M006.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral vocal delivery, suggesting no strong emotional expression. The visual expression shows a slight smile and relaxed posture, hinting at a pleasant or happy mood. However, the overall context and lack of strong emotional cues in the audio lead to a dominant neutral emotion with a secondary hint of happiness.",
+    "video_id": "Ses01M_impro07_F024.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is monotone and natural, indicating a lack of strong emotional expression. Her facial expression and body language suggest a calm and contemplative state, aligning with a neutral emotion. There is no significant evidence of another emotion being dominant.",
+    "video_id": "Ses01F_script01_1_F002.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description suggests a negative tone, but the visual expression and objective descriptions indicate a warm and friendly demeanor with a broad smile, suggesting happiness. The text 'Wow' is ambiguous, but combined with the flat tone, it leans towards neutrality. Therefore, the dominant emotion is neutral, with a secondary emotion of happiness due to the visual cues.",
+    "video_id": "Ses01F_impro03_M018.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a sad or disappointed tone, supported by the whisper transcript's dismissive language. The visual expression shows a mix of sadness and frustration, with features like brow raisers and lip corner pullers suggesting these emotions. The overall demeanor and vocal tone suggest sadness as the dominant emotion, with frustration as a secondary emotion.",
+    "video_id": "Ses01F_script03_2_F027.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues, such as the subtle smile and relaxed posture, suggest a neutral or content state. However, the audio description of a tense and breathy voice, combined with the whisper transcript's ambiguous statement, indicates a possible underlying frustration. The neutral emotion is dominant due to the overall calm and relaxed visual setting, while frustration is secondary, inferred from the vocal tension.",
+    "video_id": "Ses01M_script03_1_M022.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is emotional with a rising intonation, suggesting happiness. Her facial expression is bright and animated, with a smile and slightly squinted eyes, indicating genuine laughter or happiness. The relaxed and open posture further supports the interpretation of happiness as the dominant emotion.",
+    "video_id": "Ses01F_impro03_F005.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a tense and negative vocal delivery, suggesting frustration or anger. The visual expression shows a subtle smile and relaxed posture, which could imply neutrality. The combination of these inputs suggests that frustration is the dominant emotion, with a secondary neutral demeanor.",
+    "video_id": "Ses01M_script02_2_F014.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a rising intonation and expressive delivery, suggesting surprise. The visual expression, with a strong jaw drop and lip corner depressor, supports this interpretation. However, the visual objective description of a relaxed engagement and faint smile suggests a neutral or calm state, making 'neutral' a secondary emotion.",
+    "video_id": "Ses01F_script02_1_M010.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The monotone vocal delivery suggests a neutral emotion, while the slight upward curve of the lips and the relaxed, engaged posture indicate mild amusement or happiness. The combination of these cues points to a primarily neutral state with a hint of happiness.",
+    "video_id": "Ses01M_script03_1_F002.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a neutral vocal delivery, and the visual expression description suggests a relaxed and contemplative demeanor, both supporting a neutral emotional state. There is no strong evidence of any other emotion being dominant.",
+    "video_id": "Ses01F_script03_2_M013.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral vocal delivery, while the visual expression shows a subtle smile and relaxed posture, suggesting a calm and neutral state with a hint of happiness. The combination of these cues supports a dominant neutral emotion with a secondary happy emotion.",
+    "video_id": "Ses01M_impro03_F013.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text and audio descriptions suggest a neutral tone, with no indication of strong emotions. The visual cues, such as a relaxed posture and a neutral facial expression, support this interpretation. There is a hint of contemplation, but it does not strongly suggest any specific emotion beyond neutrality.",
+    "video_id": "Ses01M_impro02_F013.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a flat and slow tone, suggesting neutrality. The visual expression shows a subtle smile and relaxed posture, hinting at a mild sense of happiness or ease. The text is too brief to provide significant emotional context, so the consensus is that the dominant emotion is neutral, with a secondary hint of happiness.",
+    "video_id": "Ses01M_impro03_M018.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio expert noted a positive intonation and expressive delivery, suggesting excitement. The visual expert observed a composed demeanor with a neutral expression, indicating a secondary neutral emotion. The text expert found no strong emotional cues, supporting the neutral observation. The consensus is that excitement is the dominant emotion, with neutrality as a secondary emotion.",
+    "video_id": "Ses01M_impro07_M013.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a tone of sadness or disappointment, which aligns with the visual cues of a slightly open mouth and engaged expression, suggesting a reflective or somber mood. The text does not provide any conflicting emotional cues, supporting the consensus of sadness as the dominant emotion.",
+    "video_id": "Ses01M_script03_1_F001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text and audio descriptions indicate a natural and pleasant vocal delivery without any signs of emotional intensity, suggesting a neutral state. The visual expression, despite some slight facial muscle movements, aligns with a calm and composed demeanor, reinforcing the neutral emotion as dominant.",
+    "video_id": "Ses01M_impro02_F010.mp4",
+    "ground_truth": "sad"
+  }
+]

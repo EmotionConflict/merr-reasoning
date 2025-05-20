@@ -1,0 +1,1163 @@
+[
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual description suggests a calm and relaxed demeanor, indicating a neutral emotion. However, the verbal expression 'What the hell is this?' combined with facial expressions like strongly Lid Tightener and Lip Corner Depressor suggest an underlying tone of anger.",
+    "video_id": "Ses01F_script01_1_F037.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The very strong Lip Corner Depressor and moderately Chin Raiser suggest sadness, while the overall neutral body language and calm demeanor indicate a secondary neutral emotion.",
+    "video_id": "Ses01F_impro02_M011.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The verbal expression indicates frustration with the situation, as the speaker questions how someone can be okay with something they are not. The visual cues, such as the slightly tense facial muscles and the calm, pensive demeanor, suggest a mix of frustration and neutrality.",
+    "video_id": "Ses01F_impro02_M005.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's calm facial expression and relaxed posture suggest a neutral emotion, supported by the serene setting. However, the transcript's questioning tone and phrases like 'what the hell is this all for' indicate a potential underlying frustration.",
+    "video_id": "Ses01M_script01_1_F040.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates features such as a moderately Lip Corner Puller and Dimpler, which are consistent with excitement. The whisper transcript suggests a neutral or reassuring tone, but the visual cues of a lively expression and animated demeanor support excitement as the dominant emotion.",
+    "video_id": "Ses01M_script03_1_M003.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The subtle smile and relaxed posture suggest a dominant emotion of happiness, indicating comfort or friendliness. The overall relaxed and informal setting, combined with the person's casual engagement, supports a secondary emotion of neutrality.",
+    "video_id": "Ses01M_script03_1_M017.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression is primarily neutral, as indicated by her introspective gaze and relaxed posture. The presence of a moderately Lip Corner Puller suggests a slight hint of happiness, but it is not dominant.",
+    "video_id": "Ses01F_script02_1_M030.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The animated expression, open body language, and engaged smile suggest excitement, especially with the context of discussing a significant amount of money. The subtle smile and lively eyes also indicate happiness, supporting the secondary emotion.",
+    "video_id": "Ses01M_impro03_M007.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "85",
+    "justification": "The verbal expression 'That is incredible' combined with the visual cues of a wide, open-mouthed smile, lively facial expression, and animated body language strongly suggest excitement. The presence of a smile and positive engagement also indicates happiness as a secondary emotion.",
+    "video_id": "Ses01M_impro07_F004.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's relaxed posture and neutral facial expression suggest a dominant neutral emotion. However, the verbal cues 'What? Huh?' and the presence of a moderately Cheek Raiser and strongly Lid Tightener indicate a secondary emotion of surprise.",
+    "video_id": "Ses01M_script02_2_M029.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression is described as warm and joyful with a broad smile, indicating happiness. The presence of a simple and uncluttered environment, along with her relaxed posture, supports a secondary neutral emotion.",
+    "video_id": "Ses01F_impro07_M018.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's expression and body language suggest a state of attentiveness and relaxed concentration, which aligns with a neutral emotion. The slight lip corner puller and jaw drop could indicate a mild excitement, suggesting engagement in the conversation.",
+    "video_id": "Ses01M_script02_1_M044.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's facial expression and posture suggest a neutral or contemplative state, with minimal emotional cues. However, the context of the question 'He sick for awhile?' and slight facial movements like the Lid Tightener and Upper Lip Raiser could indicate a subtle underlying sadness.",
+    "video_id": "Ses01M_impro06_F006.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's relaxed posture and gentle upward curve of his lips suggest a neutral to mildly happy demeanor. The content of the whisper transcript is serious, but the visual cues indicate a calm and slightly amused state, leading to a primary emotion of neutral with a secondary hint of happiness.",
+    "video_id": "Ses01M_script01_3_M031.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The overall relaxed posture, subtle smile, and neutral setting suggest a predominantly neutral emotion. However, the phrase 'If one of us dies...' and the presence of a Lid Tightener and Lip Corner Depressor hint at a secondary emotion of sadness.",
+    "video_id": "Ses01M_script03_1_F021.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "10",
+    "justification": "The individual's broad, genuine smile and relaxed posture suggest a cheerful mood, indicating happiness as the dominant emotion. The neutral setting and relaxed body language slightly support a neutral emotion as well.",
+    "video_id": "Ses01M_script03_1_M000.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The broad smile, lively eyes, and laughter in the transcript strongly indicate happiness. The person's engaged and upbeat demeanor, along with the context of responding to something humorous or pleasant, suggests excitement as a secondary emotion.",
+    "video_id": "Ses01M_impro03_M011.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The broad smile, squinted eyes, and open body language strongly suggest happiness. The context of the statement about earning money for doing nothing, combined with the visual cues, also indicates a sense of excitement.",
+    "video_id": "Ses01M_impro03_M005.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript suggests a neutral tone as the speaker is discussing a transactional arrangement without evident emotional charge. The visual expression description indicates a slightly open and amiable demeanor, which could suggest a hint of happiness or friendliness, but not strongly enough to override the overall neutral tone.",
+    "video_id": "Ses01M_impro03_M004.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's relaxed posture, slight smile, and calm body language suggest a neutral state with a hint of contentment or engagement, indicating a secondary emotion of happiness. The neutral setting and lack of strong emotional indicators support the dominance of a neutral emotion.",
+    "video_id": "Ses01M_script03_1_M001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The person's relaxed posture, faint smile, and the calm setting suggest a neutral emotional state, with a hint of happiness indicated by the friendly smile and lip corner puller.",
+    "video_id": "Ses01M_impro07_M032.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The person's relaxed posture, slight smile, and casual demeanor suggest a neutral state with a hint of amusement or ease, indicating a secondary emotion of happiness. The absence of strong emotional indicators like intense facial expressions or body language supports the dominance of a neutral emotion.",
+    "video_id": "Ses01M_script02_1_M045.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's facial expression, characterized by a slight smile and relaxed posture, suggests happiness. The overall demeanor and setting convey a sense of ease and attentiveness, supporting a secondary emotion of neutrality.",
+    "video_id": "Ses01F_impro03_M017.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The slight upward curve of the lips and relaxed demeanor suggest a mild, approachable demeanor, indicating happiness. The overall relaxed and serene atmosphere, along with the minimalistic setting, supports a secondary emotion of neutrality.",
+    "video_id": "Ses01M_script01_3_M020.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The person's facial features, such as the moderately Lip Corner Puller and the engaged expression, suggest a sense of pleasantness and a smile, indicating happiness. The open posture and gesture of explanation or invitation, along with the context of the statement, suggest a secondary emotion of excitement.",
+    "video_id": "Ses01M_impro07_M022.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual expression description indicates a neutral facial expression with a hint of focus, and the overall setting and posture suggest engagement without stress. The transcript does not convey any strong emotional content, supporting a neutral emotional state.",
+    "video_id": "Ses01M_impro06_M022.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's relaxed posture, calm facial expression, and introspective demeanor suggest a neutral emotion. The moderately pulled lip corners indicate a hint of happiness, but the overall stillness and composure point more strongly to neutrality.",
+    "video_id": "Ses01F_script02_1_M036.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The overall demeanor and posture suggest a neutral state, with a slight hint of sadness indicated by the upper lip raiser and thoughtful expression. The verbal reassurance 'it's going to be okay' also implies a response to a potentially negative emotion, supporting the presence of sadness.",
+    "video_id": "Ses01M_impro02_M014.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a cheerful facial expression with a broad smile, suggesting happiness. The verbal expression 'I don't care then' could imply neutrality, but the overall visual cues strongly suggest a dominant happy emotion.",
+    "video_id": "Ses01M_script03_1_M004.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The verbal expression 'Shut up. No- in Vegas?' combined with the visual cues of a strongly dropped jaw and moderately raised cheeks suggest surprise. The presence of a smile and a relaxed posture indicate a secondary emotion of happiness or amusement.",
+    "video_id": "Ses01F_impro03_M002.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The moderately Lip Corner Puller and subtle smile suggest a happy emotion, while the relaxed and open body language indicates comfort and ease, supporting a neutral secondary emotion.",
+    "video_id": "Ses01M_impro03_F020.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The broad smile and relaxed posture suggest a dominant emotion of happiness. The engaging expression and context of discussing a game like Wheel of Fortune indicate a secondary emotion of excitement.",
+    "video_id": "Ses01F_impro03_F021.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The individual's bright, open smile and relaxed posture suggest a dominant emotion of happiness. The mention of planning a wedding, which is typically an exciting event, supports the presence of excitement as a secondary emotion.",
+    "video_id": "Ses01M_impro03_M016.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "60",
+    "justification": "The person's facial expression and gestures suggest a neutral demeanor with a focus on the conversation, indicated by the slightly furrowed eyebrows and open mouth. The animated hand gestures and earnest speaking style suggest a secondary emotion of excitement.",
+    "video_id": "Ses01M_script02_2_F019.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's expression is bright and engaged, with a noticeable smile and positive demeanor, indicating happiness. However, her verbal expression of having 'made such a mess' and 'ruined everything' suggests an underlying frustration.",
+    "video_id": "Ses01F_impro07_F016.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "60",
+    "justification": "The overall demeanor and setting suggest a neutral emotion, as indicated by the relaxed posture and calm atmosphere. The slight upward arch in the eyebrows and the expression 'What?' could suggest a mild surprise or attentiveness, but the dominant emotion remains neutral.",
+    "video_id": "Ses01M_impro06_M020.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's posture and facial expression suggest a neutral state with a hint of sadness. The slightly downturned lips and introspective posture indicate contemplation, while the overall calm atmosphere supports a neutral emotion as dominant.",
+    "video_id": "Ses01M_script01_3_M022.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The broad smile, slightly squinted eyes, and overall relaxed posture suggest a dominant emotion of happiness. The presence of a strong lid tightener and cheek raiser, along with the context of the statement 'He loves you,' supports a secondary emotion of excitement.",
+    "video_id": "Ses01F_impro03_M015.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a slight smile and a warm, open expression, which are strong indicators of happiness. The relaxed posture and neutral background suggest a calm and neutral setting, supporting a secondary emotion of neutrality.",
+    "video_id": "Ses01F_script03_1_M003.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's soft smile and relaxed posture suggest a dominant emotion of happiness. The neutral background and her casual demeanor contribute to a secondary emotion of neutrality, as there are no strong indicators of other emotions.",
+    "video_id": "Ses01F_script01_3_F013.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "contemplative",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual expression description indicates a mostly neutral expression with slight elements that could suggest contemplation, such as the head tilt and attentive posture. The whisper transcript does not convey strong emotional cues, supporting a neutral emotional state.",
+    "video_id": "Ses01M_script01_1_F023.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression shows a neutral demeanor with a relaxed posture and focused eyes, suggesting attentiveness or contemplation. However, the very strong Lip Corner Depressor and moderately Chin Raiser indicate a hint of sadness, supporting a secondary emotion of sadness.",
+    "video_id": "Ses01F_script01_3_M033.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's facial expression and posture suggest a neutral and attentive demeanor. The slight facial movements do not strongly indicate any specific emotion, supporting a neutral interpretation.",
+    "video_id": "Ses01F_script03_1_M002.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The person's facial expression and body language suggest a state of calm and attentiveness, with no strong indicators of other emotions. The environment and posture further support a neutral emotional state.",
+    "video_id": "Ses01M_impro04_F008.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's relaxed posture, slight smile, and open body language suggest a neutral state with a hint of happiness. The absence of strong emotional indicators like intense facial expressions or gestures supports a dominant neutral emotion, with a secondary hint of happiness due to the slight smile.",
+    "video_id": "Ses01M_script02_1_M031.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's facial expression is described as neutral, indicating concentration, which aligns with the dominant emotion of neutrality. However, the phrase 'I don't understand you, do I?' and the presence of facial actions like the Inner Brow Raiser and Lid Tightener suggest a secondary emotion of frustration.",
+    "video_id": "Ses01F_script01_1_F043.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression is described as calm and neutral, with a slight upward curl at the edges of her mouth, which may hint at mild amusement. The overall description of her demeanor and setting suggests a neutral state with a hint of happiness.",
+    "video_id": "Ses01F_script03_1_M000.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The person's facial expression is described as neutral and composed, which aligns with the visual cues of a relaxed posture and soft lighting. However, the verbal suggestion to 'take in some information before you produce more of your own' and the presence of a moderately Lid Tightener could indicate a slight undercurrent of frustration.",
+    "video_id": "Ses01M_impro04_F022.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a mostly neutral demeanor with slight elements that could suggest frustration, such as the cheek raiser and lid tightener. The verbal expression 'What the hell is this?' suggests a potential for frustration, but the overall relaxed posture and calm setting support a primarily neutral emotion.",
+    "video_id": "Ses01M_script01_1_F034.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's lively facial expression, raised eyebrows, and smile suggest excitement or enthusiasm. However, the relaxed posture and casual setting also indicate a neutral or calm demeanor, supporting a secondary emotion of neutrality.",
+    "video_id": "Ses01M_impro01_M009.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The very strong Lip Corner Depressor and moderately Chin Raiser suggest sadness, while the moderately Lid Tightener and Lip Tightener indicate frustration. The combination of these expressions points to sadness as the dominant emotion, with frustration as a secondary emotion.",
+    "video_id": "Ses01F_script02_1_M044.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's facial expression is described as neutral, with only slight movements such as a cheek raiser and lip corner puller, which do not strongly indicate any specific emotion. Her relaxed posture and composed demeanor further support the neutral emotion.",
+    "video_id": "Ses01F_impro05_F008.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's warm smile and relaxed posture suggest a positive and content mood, indicating happiness as the dominant emotion. The neutral backdrop and simple setting, along with her casual attire, support a secondary neutral emotion, as there are no strong indicators of other emotions.",
+    "video_id": "Ses01F_impro05_F020.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The transcript suggests a sense of dissatisfaction or frustration with the current situation, as indicated by the desire for someone different. The visual cues, such as the slightly raised brows and lip movements, support a contemplative or frustrated state, while the neutral setting and posture suggest a secondary neutral emotion.",
+    "video_id": "Ses01M_script02_2_F040.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's facial expression and posture suggest a neutral state, as indicated by the relaxed and attentive demeanor. However, the presence of a moderately Lip Corner Puller and Dimpler suggests a subtle hint of happiness, possibly due to the positive nature of the statement in the transcript.",
+    "video_id": "Ses01M_script03_2_M031.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's calm and composed posture, along with a slight smile, suggests a neutral emotional state with a hint of happiness. The slight smile and relaxed demeanor indicate a mild positive emotion, but the overall expression and setting suggest neutrality as the dominant emotion.",
+    "video_id": "Ses01F_script03_1_M001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "60",
+    "justification": "The overall posture and setting suggest a neutral state, with relaxed body language and a calm ambiance. However, the presence of a slightly raised upper lip and jaw drop could indicate a mild surprise.",
+    "video_id": "Ses01M_script01_1_M000.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's facial expression and body language suggest a neutral state, as indicated by the relaxed posture and minimalistic setting. However, the presence of a strong lip corner depressor and moderately raised chin could hint at underlying sadness.",
+    "video_id": "Ses01M_script01_1_M028.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript indicates confusion or lack of understanding, which aligns with frustration. The visual cues such as slightly tightened lids and raised chin support this emotion. However, the overall setting and body language suggest a neutral engagement, hence the secondary emotion.",
+    "video_id": "Ses01M_impro01_F015.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's slight smile, relaxed posture, and open demeanor suggest a dominant emotion of happiness. The calm and straightforward setting, along with her gentle expression, also indicate a secondary emotion of neutrality.",
+    "video_id": "Ses01F_script02_2_F037.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual expression description indicates a mix of facial movements that are generally associated with a neutral or slightly contemplative state, such as the moderately Lid Tightener and slightly Lips Part. The overall posture and setting further support a neutral or introspective mood, with no strong indicators of other emotions like happiness or anger.",
+    "video_id": "Ses01M_script03_2_F028.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The verbal cue 'Then help me stay here mom' suggests a plea or request, often associated with frustration. The visual cues, such as the slightly Lid Tightener and Lip Corner Depressor, support a frustrated emotion. The overall relaxed posture and engaged demeanor also indicate a neutral undertone.",
+    "video_id": "Ses01M_script01_1_M038.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's broad smile and warm, inviting facial expression strongly suggest happiness. Her slightly forward-leaning posture and engaged demeanor indicate excitement, supporting it as a secondary emotion.",
+    "video_id": "Ses01F_script01_3_M020.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "75",
+    "justification": "The woman's wide smile, laughter, and relaxed posture indicate she is happy and possibly amused. The animated facial expression and the context of an informal setting suggest excitement as a secondary emotion.",
+    "video_id": "Ses01F_script03_1_F030.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression and posture suggest a neutral demeanor, as indicated by the relaxed and contemplative posture and minimalistic setting. However, the slight brow and lip movements, along with the phrase 'I can't help it,' hint at a subtle underlying frustration.",
+    "video_id": "Ses01F_script01_2_F014.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The individual's facial expression and posture are described as calm and neutral, with no overt signs of emotion such as smiling or frowning. The setting and demeanor suggest a state of ease and stillness, supporting a neutral emotional state.",
+    "video_id": "Ses01M_script02_1_M023.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's relaxed posture and the calm environment suggest a neutral mood. However, the combination of brow and lip movements, such as the Brow Lowerer and Lid Tightener, indicate a hint of frustration.",
+    "video_id": "Ses01M_impro01_F004.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The person's facial expression and body language suggest a calm and relaxed demeanor, indicative of a neutral emotion. The slight smile and gentle amusement in their expression also hint at a secondary emotion of happiness.",
+    "video_id": "Ses01M_script03_2_F003.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "contemplative",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual expression description indicates subtle facial movements that do not strongly suggest any specific emotion, aligning with a neutral state. The setting and body language, such as hands resting in the lap and a slightly serious gaze, support a calm or contemplative demeanor.",
+    "video_id": "Ses01F_script02_2_M039.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The verbal expression 'Interesting. That's fantastic.' along with the visual cues of a gentle smile and relaxed posture suggest a dominant emotion of happiness. The overall calm and content demeanor also supports a secondary emotion of neutrality.",
+    "video_id": "Ses01F_impro04_F027.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper 'Ugh...' combined with the facial expressions such as brow lowering and lip corner depressor suggest frustration. The overall relaxed posture and serene atmosphere contribute to a secondary neutral emotion.",
+    "video_id": "Ses01M_script02_1_F001.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's relaxed posture, slight smile, and composed demeanor suggest a neutral state with a hint of happiness. The slight smile and engaged expression indicate a mild sense of happiness, but the overall calm and attentive demeanor is more indicative of neutrality.",
+    "video_id": "Ses01F_impro05_F026.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's expression, including a moderately cheek raiser and lip tightener, along with the directive 'Turn it off,' suggests frustration. The setting and body language indicate concentration, which aligns with a neutral state as a secondary emotion.",
+    "video_id": "Ses01M_script03_2_M037.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual description indicates a bright and lively facial expression with a broad smile, suggesting happiness. The open body language and the context of sharing a moment of joy support the presence of excitement as a secondary emotion.",
+    "video_id": "Ses01F_script03_1_M013.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The transcript indicates strong anger through the use of harsh language and rejection, suggesting a dominant angry emotion. However, the visual description of a smile and relaxed posture suggests a neutral or pleasant demeanor, indicating a possible secondary neutral emotion.",
+    "video_id": "Ses01F_script03_2_M040.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's pleasant smile and relaxed posture suggest a dominant emotion of happiness. The neutral environment and her casual demeanor support a secondary emotion of neutrality, as there are no strong indicators of other emotions.",
+    "video_id": "Ses01F_impro04_M022.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The individual's facial expressions and body language suggest a calm and attentive demeanor, with no strong indicators of distress, excitement, or other emotions. The setting and posture further support a neutral emotional state.",
+    "video_id": "Ses01M_script03_2_F033.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript suggests a sense of confusion or disbelief, which aligns with frustration. The visual expression description, with features like lid tightener and upper lip raiser, supports this emotion. The overall neutral setting and posture suggest a secondary neutral emotion.",
+    "video_id": "Ses01M_script01_1_F002.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's animated presence, gestures, and intense facial expression suggest excitement, as she appears engaged and emphatic. The presence of features like the Nose Wrinkler and Lip Corner Depressor also indicate a level of frustration, supporting it as a secondary emotion.",
+    "video_id": "Ses01F_impro05_F016.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's composed demeanor and gentle smile suggest a neutral to slightly positive emotional state. The visual cues of a relaxed expression and warm lighting support a neutral emotion, while the lip corner puller and gentle smile indicate a hint of happiness.",
+    "video_id": "Ses01F_script03_1_F002.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The person's relaxed posture and neutral facial expression, combined with the contemplative setting, suggest a calm or neutral emotional state. There is no strong indication of any other emotion being dominant.",
+    "video_id": "Ses01M_script01_1_F003.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript indicates frustration with the phrase 'quite insufferable,' suggesting annoyance or irritation. The visual expression description, with features like cheek raiser and lip corner puller, supports a frustrated emotion. The overall setting and demeanor suggest a calm and neutral atmosphere, hence the secondary emotion.",
+    "video_id": "Ses01M_script03_2_F026.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression is described as neutral to slightly attentive, with a relaxed posture and a calm environment, indicating a dominant neutral emotion. However, the presence of a strongly Lip Corner Depressor and moderately Brow Lowerer suggests a hint of sadness.",
+    "video_id": "Ses01F_script02_2_F029.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a calm and attentive demeanor with relaxed body language, suggesting a neutral emotional state. However, the mention of a 'terrible mistake with father' in the transcript hints at underlying sadness, which is supported by the slightly raised brows and lip movements.",
+    "video_id": "Ses01M_script01_1_M008.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's facial expression and body language suggest a calm and engaged demeanor, indicative of a neutral emotional state. The slight smile and soft eyes hint at mild amusement or contentment, which supports a secondary emotion of happiness.",
+    "video_id": "Ses01M_impro05_F003.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's facial expression is described as neutral with a slight lift at the mouth's corners, which may suggest a subtle smile. The overall demeanor and posture appear relaxed and calm, supporting a neutral emotional state with a hint of happiness.",
+    "video_id": "Ses01M_script01_1_F001.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The verbal cue 'That's very amusing indeed' and the visual cues such as a hint of a smile, relaxed posture, and open expression suggest a happy emotion. The overall calm and composed demeanor, along with the tranquil setting, supports a secondary neutral emotion.",
+    "video_id": "Ses01M_script03_2_M039.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's relaxed posture and gentle facial expression suggest a neutral emotional state, with a slight indication of happiness due to the lip corner puller. The setting and her attentiveness contribute to the neutral assessment, while the slight smile hints at a secondary emotion of happiness.",
+    "video_id": "Ses01F_script03_1_F000.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "thoughtful",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual expression description indicates a calm and focused demeanor with slight facial movements that do not strongly suggest any intense emotion. The overall setting and posture support a neutral state, with a hint of thoughtfulness due to the attentive gaze and relaxed posture.",
+    "video_id": "Ses01F_impro04_F014.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's facial expression, characterized by a broad smile and warm engagement, strongly suggests happiness. The relaxed posture and calm setting further support a neutral secondary emotion, as there are no indications of negative emotions.",
+    "video_id": "Ses01F_script03_1_F001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's relaxed posture and calm demeanor suggest a predominantly neutral emotion. However, the slight facial expressions such as the brow and lid raisers, along with the upper lip raiser, indicate a mild sense of surprise or cautious interest.",
+    "video_id": "Ses01M_script01_1_F000.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "thoughtful",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's facial expression and posture suggest a neutral state with a slight hint of thoughtfulness. The visual cues such as the slightly raised brows and lip corner puller indicate a calm and focused demeanor, aligning with a neutral emotion.",
+    "video_id": "Ses01F_script01_1_M042.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates mostly neutral facial expressions with slight indicators of frustration, such as the Upper Lip Raiser and Chin Raiser. The whisper transcript suggests a potential underlying frustration about the lack of women, but the overall demeanor and setting appear relaxed and neutral.",
+    "video_id": "Ses01M_script01_1_F028.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The person's facial expression, including a moderately raised cheek and lip corner puller, suggests happiness. The relaxed posture and open body language further support a positive emotional state. The neutral environment and controlled setting contribute to a secondary neutral emotion.",
+    "video_id": "Ses01M_script01_1_M035.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual expression description indicates a mix of slight facial movements that do not strongly suggest any particular emotion, and the overall demeanor and setting suggest a calm and neutral state. The whisper transcript does not provide enough context to infer a strong emotional reaction.",
+    "video_id": "Ses01F_impro01_M002.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's facial expression is primarily neutral, with a slight smile suggesting mild amusement or calmness. The relaxed posture and subtle smile indicate a secondary emotion of happiness, but the overall demeanor remains predominantly neutral.",
+    "video_id": "Ses01M_script02_2_M040.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript suggests a feeling of inadequacy and unhappiness, which aligns with sadness. The visual expression, including the inner brow raiser and lid tightener, supports this emotion. The overall posture and setting suggest a neutral or contemplative state, indicating a secondary neutral emotion.",
+    "video_id": "Ses01M_script02_2_M044.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's facial expression and posture suggest a neutral engagement, with slight indicators of frustration such as the lid tightener and lip corner depressor. The setting and gestures imply a focused conversation, supporting a primarily neutral emotional state with some underlying frustration.",
+    "video_id": "Ses01M_impro04_F006.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "curious",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual expression description indicates a calm and attentive demeanor, with features such as slightly raised brows and a relaxed face, suggesting neutrality. The person's posture and gaze imply engagement or curiosity, but the overall expression remains neutral.",
+    "video_id": "Ses01M_script03_2_M028.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's facial expression and body language suggest a calm and contemplative demeanor, indicative of a neutral emotion. However, the verbal cues and some facial expressions, such as the lid tightener and nose wrinkler, hint at a mild sense of frustration due to uncertainty or lack of information.",
+    "video_id": "Ses01M_impro01_M011.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The transcript indicates frustration due to waiting multiple times for baggage, supported by facial expressions like cheek raiser and lid tightener. However, the visual description of a small smile and relaxed posture suggests a secondary neutral emotion, indicating she might be recounting the experience rather than currently experiencing it.",
+    "video_id": "Ses01F_impro05_F004.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The person's subtle, engaged smile and relaxed posture suggest a positive and accommodating demeanor, indicating happiness. The overall calm and attentive body language also suggests a neutral state, but the smile makes happiness more dominant.",
+    "video_id": "Ses01F_script02_2_M026.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The transcript indicates frustration with the phrase 'give me lip service' and a desire for 'aggressive searching,' suggesting dissatisfaction. The visual cues, such as the slightly raised eyebrows and slight smile, suggest a neutral or slightly engaged demeanor, but the overall context leans more towards frustration.",
+    "video_id": "Ses01M_impro05_M026.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a mix of emotions, with features like Lip Corner Depressor and Lip Tightener suggesting sadness, while the overall relaxed posture and slight smile suggest neutrality. The whisper transcript's hesitance also supports a neutral or slightly sad emotion.",
+    "video_id": "Ses01F_script01_3_F009.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's broad smile, squinting eyes, and relaxed posture suggest a dominant emotion of happiness. The engagement and forward-leaning posture, along with the animated expression, indicate a secondary emotion of excitement.",
+    "video_id": "Ses01F_script01_3_F021.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The individual's relaxed posture, slight smile, and calm demeanor suggest a neutral emotional state with a hint of happiness. The environment and expression do not indicate strong emotions like excitement or sadness, supporting a primarily neutral interpretation with a secondary hint of happiness.",
+    "video_id": "Ses01M_script02_2_M053.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "80",
+    "justification": "The verbal expression 'God, this is great, isn't it? I can't believe it.' combined with the visual cues of a wide smile, animated facial expression, and relaxed posture suggest a dominant emotion of excitement. The presence of a smile and positive demeanor also supports happiness as a secondary emotion.",
+    "video_id": "Ses01M_script02_1_M000.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's relaxed posture and serene facial expression, combined with a subtle smile, suggest a neutral state with a hint of happiness. The calm and simple setting further supports a neutral emotional tone, with the slight smile indicating a secondary emotion of happiness.",
+    "video_id": "Ses01F_impro05_M033.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The person's facial expression and body language suggest a neutral state, with no overt signs of strong emotions such as anger, excitement, or distress. The relaxed posture and calm demeanor further support the interpretation of a neutral emotion.",
+    "video_id": "Ses01M_impro04_F011.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The person's relaxed posture, calm expression, and the setting suggest a neutral state. The slight smile and lip corner puller indicate a hint of happiness, but it is not dominant enough to overshadow the overall neutral demeanor.",
+    "video_id": "Ses01M_script01_1_M027.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a mix of emotions with slight indicators of both positive and neutral expressions. The gentle smile and relaxed posture suggest a content or neutral mood, while the slight lip corner puller and cheek raiser hint at a subtle happiness.",
+    "video_id": "Ses01F_impro05_M032.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript suggests a sense of frustration with the situation, as indicated by the rhetorical questions and the mention of an argument. The visual expression description, with features like a slightly nose wrinkler and upper lip raiser, supports this frustration. However, the overall contemplative and relaxed posture in the visual description suggests a secondary neutral emotion.",
+    "video_id": "Ses01M_script02_2_M035.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's relaxed body language and gentle smile suggest a neutral to slightly positive emotional state. The open posture and slight smile indicate engagement and ease, supporting a neutral emotion with a hint of happiness.",
+    "video_id": "Ses01F_impro07_M006.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The individual's slight smile and relaxed posture suggest a neutral to pleasant mood. The combination of facial expressions like the Lip Corner Puller and Dimpler indicate a subtle happiness, but the overall demeanor and setting suggest a more neutral state.",
+    "video_id": "Ses01M_impro07_F024.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's calm and contemplative posture, along with her serious and focused facial expression, suggests a neutral emotional state. However, the whisper transcript indicates a potential for frustration, as the statement implies a sense of disbelief or confusion, which supports a secondary emotion of frustration.",
+    "video_id": "Ses01F_script01_1_F002.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's broad smile and warm, friendly facial expression suggest happiness as the dominant emotion. Her relaxed posture and casual composure indicate a neutral secondary emotion, as there are no signs of strong emotional arousal beyond her smile.",
+    "video_id": "Ses01F_impro03_M018.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's relaxed posture and open body language suggest a neutral demeanor, despite the phrase 'Oh shut up' which could indicate frustration. The facial expressions, such as the moderately raised cheeks and lip corner puller, support a neutral or slightly frustrated emotion.",
+    "video_id": "Ses01F_script03_2_F027.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The person's relaxed posture, subtle smile, and calm demeanor suggest a neutral emotional state, possibly with a hint of contentment or satisfaction, which aligns with a secondary emotion of happiness.",
+    "video_id": "Ses01M_script03_1_M022.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's bright and animated facial expression, along with her smile and slightly squinted eyes, indicate happiness. Her relaxed posture and storytelling gesture suggest she is engaged and possibly excited, supporting the secondary emotion of excitement.",
+    "video_id": "Ses01F_impro03_F005.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's facial expression, characterized by a subtle smile and relaxed posture, suggests a neutral or mildly positive demeanor. The slight upward curve of the lips and relaxed setting contribute to a neutral emotion with a hint of happiness.",
+    "video_id": "Ses01M_script02_2_F014.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a strong lip corner depressor and jaw drop, which can suggest sadness, but the overall relaxed engagement and faint smile suggest a neutral demeanor. The setting and posture further support a neutral emotion, with a slight hint of sadness.",
+    "video_id": "Ses01F_script02_1_M010.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The person's facial expression and body language suggest a state of concentration and mild amusement, which aligns with a neutral emotion. The slight upward curve of the lips and the relaxed posture indicate a secondary emotion of happiness.",
+    "video_id": "Ses01M_script03_1_F002.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression and posture suggest a neutral state, as indicated by her relaxed posture and minimalistic setting. However, the strong lid tightener and moderately raised upper lip hint at a possible underlying frustration, though it is not dominant.",
+    "video_id": "Ses01F_script03_2_M013.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The person's expression and posture suggest a calm and relaxed demeanor, indicative of a neutral emotion. The subtle smile and slightly raised cheeks also suggest a hint of happiness, but the overall relaxed and engaged posture leans more towards neutrality.",
+    "video_id": "Ses01M_impro03_F013.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "contemplative",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual expression description indicates a mostly neutral facial expression with slight elements of contemplation, such as the gaze directed upwards and to the side. The whisper transcript does not convey strong emotional content, supporting a neutral interpretation.",
+    "video_id": "Ses01M_impro02_F013.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's subtle smile and relaxed posture suggest a sense of ease or amusement, indicating happiness. The overall minimalistic setting and his focused gaze contribute to a neutral background emotion, as there are no strong indicators of other emotions.",
+    "video_id": "Ses01M_impro03_M018.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "contemplative",
+    "second_emotion_confidence_score": "",
+    "justification": "The individual's facial expression and body language suggest a neutral and composed demeanor, with no strong indicators of other emotions. The upward gaze and slightly pressed lips imply a contemplative state, but not strongly enough to suggest a second dominant emotion from the given list.",
+    "video_id": "Ses01M_impro07_M013.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "60",
+    "justification": "The individual's facial expression and posture suggest a neutral state, as they appear engaged and focused without strong emotional indicators. The slightly open mouth and moderately dimpler could indicate a mild surprise, but the overall demeanor remains predominantly neutral.",
+    "video_id": "Ses01M_script03_1_F001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a calm and composed demeanor with a hint of a smile, suggesting a neutral emotional state with a slight inclination towards happiness. The relaxed posture and attentive gaze further support the neutral emotion as dominant.",
+    "video_id": "Ses01M_impro02_F010.mp4",
+    "ground_truth": "sad"
+  }
+]

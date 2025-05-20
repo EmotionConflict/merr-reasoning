@@ -1,0 +1,542 @@
+[
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is factual and lacks any emotional cues, suggesting a neutral tone.",
+    "video_id": "sample_00002885.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase '\u4f60\u522b\u95f9\u6211\u7b49\u5f85\u4eba' translates to 'Don't bother me, I'm waiting for someone,' which suggests a neutral tone. There is no clear indication of strong emotions such as anger or happiness.",
+    "video_id": "sample_00000705.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The repeated use of 'come on' suggests frustration or impatience, which aligns with anger. However, without additional context or vocal cues, there is a possibility of a neutral tone, hence the secondary emotion.",
+    "video_id": "sample_00004007.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase '\u522b\u8bb0\u5fc6\u4e5f\u6709\u5e02\u573a' (which translates to 'Even memory has a market') does not convey any strong emotional cues, suggesting a neutral tone. There is no indication of any other specific emotion such as happiness, sadness, or anger.",
+    "video_id": "sample_00001631.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The absence of any specific emotional cues in the transcript suggests a neutral emotion as the most dominant.",
+    "video_id": "sample_00005443.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript '\u807d\u5230\u4eba\u8aaa\u4e00\u822c\u4eba\u7559\u4e0b' (hearing people say that ordinary people stay) does not convey any strong emotional cues, suggesting a neutral tone.",
+    "video_id": "sample_00004950.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The transcript suggests a tone of frustration or anger, likely due to the use of '\u4e0d\u613f\u610f' (unwilling) and the context of being called something against one's wishes. The neutral emotion is considered as a secondary possibility due to the lack of explicit emotional language.",
+    "video_id": "sample_00002460.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The transcript includes phrases that suggest feelings of resentment or anger, such as '\u8ba9\u6211\u673a\u6068\u8fc7\u4f60' which translates to 'made me hate you.' Additionally, the context implies a sense of sadness, possibly due to past experiences or relationships.",
+    "video_id": "sample_00001551.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript does not contain any clear emotional indicators, suggesting a neutral tone. There is no evidence of strong emotions such as happiness, anger, or sadness.",
+    "video_id": "sample_00006798.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is factual and lacks any emotional indicators such as excitement, concern, or sadness, suggesting a neutral tone.",
+    "video_id": "sample_00005939.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's words suggest frustration or dissatisfaction, indicating anger, especially with the phrase '\u600e\u9ebc\u8fa6' (what to do), which often conveys a sense of urgency or concern, suggesting worry as a secondary emotion.",
+    "video_id": "sample_00005497.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is incomplete and lacks any emotional indicators, suggesting a neutral tone.",
+    "video_id": "sample_00003790.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase '\u5c37\u5c2c' (awkward) suggests a sense of worry or unease, indicating a dominant emotion of being worried. The overall tone of the whisper could also imply a neutral state, but the context leans more towards worry.",
+    "video_id": "sample_00004940.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The use of exclamatory phrases and the tone of the words suggest anger or frustration, while the lack of context or additional emotional cues leaves room for a neutral interpretation.",
+    "video_id": "sample_00005321.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker reflects on seeing someone injured in the hospital, which evokes sadness. The mention of family and the context of injury also suggests a sense of worry about the person's well-being.",
+    "video_id": "sample_00004407.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Oh goodness' and 'Why hold on!' suggest an unexpected reaction, indicating surprise as the dominant emotion.",
+    "video_id": "sample_00001999.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement '\u6211\u5148\u628a\u5730\u5740\u53d1\u7ed9\u4f60' (I'll send you the address first) is straightforward and lacks any emotional indicators, suggesting a neutral tone.",
+    "video_id": "sample_00004943.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is a simple inquiry without any clear emotional indicators such as exclamations or emotional language, suggesting a neutral tone.",
+    "video_id": "sample_00002010.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase '\u6211\u771f\u6ca1\u60f3\u5230' (I really didn't expect) indicates a sense of surprise. The rest of the statement seems to be a neutral recounting of events without strong emotional cues.",
+    "video_id": "sample_00002603.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase '\u6545\u610f\u5730\u51fa\u7834\u5fc3\u4e8b' suggests intentional actions that might cause distress or conflict, which is often associated with anger.",
+    "video_id": "sample_00001646.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase suggests a sense of disappointment or regret, which aligns with sadness. Additionally, there may be an underlying tone of anger due to the negative sentiment expressed towards the family.",
+    "video_id": "sample_00003709.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase '\u600e\u4e48\u5c31\u8fd9\u4e48\u96be\u5440' (Why is it so difficult) suggests a sense of concern or anxiety, indicating a worried emotion. There is no clear indication of a second emotion from the transcript provided.",
+    "video_id": "sample_00001485.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement 'Of course, this money is a small matter for my family' suggests a neutral tone, as it indicates a matter-of-fact attitude without any strong emotional expression.",
+    "video_id": "sample_00003245.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript appears to be a factual statement or observation without any clear emotional cues, suggesting a neutral tone.",
+    "video_id": "sample_00004936.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The absence of any spoken words or context in the transcript suggests a neutral emotion, as there is no information to indicate any other specific emotion.",
+    "video_id": "sample_00001682.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The language used in the transcript suggests frustration or irritation, as it includes a derogatory remark about someone's intelligence, which is indicative of anger.",
+    "video_id": "sample_00001133.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is too brief and lacks emotional indicators, suggesting a neutral tone. There is no clear evidence of any other emotion.",
+    "video_id": "sample_00000832.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase '\u8d8a\u662f\u771f\u8a00\u75bc\u591a' suggests a sense of pain or sorrow, indicating sadness as the dominant emotion.",
+    "video_id": "sample_00005430.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript '\u8b93\u4eba\u53eb\u6211\u7a7f' is too brief and lacks context to strongly indicate any specific emotion, suggesting a neutral tone.",
+    "video_id": "sample_00005626.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'this is a mess' suggests frustration and dissatisfaction, which aligns with anger. There is also a potential underlying concern about the situation, indicating worry.",
+    "video_id": "sample_00001454.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "justification": "The statement suggests a feeling of being misunderstood or not valued by others, which often aligns with sadness. There is also an element of concern or anxiety about others' perceptions, indicating worry.",
+    "video_id": "sample_00006298.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'Ihr k\u00f6nnt f\u00fcr die Litten gewiss nicht. Entschuldigung.' suggests a neutral tone due to its apologetic nature, but the context of apologizing may also imply a hint of sadness.",
+    "video_id": "sample_00006717.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript consists of non-specific sounds and expressions, which do not convey any strong emotional content, suggesting a neutral emotion.",
+    "video_id": "sample_00003652.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript appears to be a mix of languages and does not convey any clear emotional content, suggesting a neutral tone.",
+    "video_id": "sample_00006500.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is a straightforward statement about making phone calls to inquire about a situation, which suggests a neutral tone without any strong emotional cues.",
+    "video_id": "sample_00004288.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript '\u6c89\u8d70 \u5c0f\u5bd3' does not provide any clear emotional cues, suggesting a neutral tone. Without additional context or expressive language, it is difficult to infer any other emotion.",
+    "video_id": "sample_00005828.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase '\u884c\u4e86\u90a3\u6211\u8981\u807d\u807d\u4f60\u7684\u689d\u4ef6' translates to 'Alright, I want to hear your conditions,' which is a straightforward request without any clear emotional indicators, suggesting a neutral tone.",
+    "video_id": "sample_00001667.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript appears to be a straightforward explanation of a new arrangement without any clear emotional indicators such as excitement, anger, or sadness. The language used is neutral and factual.",
+    "video_id": "sample_00000143.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase '\u6211\u4e5f\u6ca1\u4ec0\u4e48\u597d\u8bf4\u7684\u4e86\u6211\u89c9\u5f97\u8fd9\u771f\u662f' suggests a lack of strong emotional expression, indicating a neutral tone. There is no clear indication of any other emotion.",
+    "video_id": "sample_00006903.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is a simple statement without any emotional indicators, suggesting a neutral tone.",
+    "video_id": "sample_00005576.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The word 'sustainable' on its own does not convey a strong emotional context, suggesting a neutral tone. There is no additional context to suggest any other emotion.",
+    "video_id": "sample_00002972.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase '\u56de\u7f8e\u56fd\u63a5\u7740\u505a\u4f60\u7684\u7403\u8f68\u6df7\u65e5\u5b50' suggests a dismissive or derogatory tone, which is often associated with anger or frustration.",
+    "video_id": "sample_00002806.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'where we can' is neutral in tone and lacks any emotional indicators that suggest a specific emotion such as happiness, worry, or anger.",
+    "video_id": "sample_00000754.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The absence of any verbal cues or context in the transcript suggests a neutral emotional state, as there is no information to indicate any specific emotion.",
+    "video_id": "sample_00005573.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript provided is in Chinese and translates to 'This is my other mark,' which does not convey any specific emotion. Without additional context or emotional indicators, the statement appears neutral.",
+    "video_id": "sample_00002787.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is a simple statement without any emotional indicators, suggesting a neutral tone.",
+    "video_id": "sample_00006939.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript '\u6211\u5bb6\u60f3\u88c5' (translated as 'My home wants to install') is a straightforward statement without any emotional indicators, suggesting a neutral tone.",
+    "video_id": "sample_00005217.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase '\u6211\u4ec0\u4e48\u90fd\u4e0d\u884c' translates to 'I am not good at anything,' which suggests a feeling of inadequacy or low self-worth, commonly associated with sadness.",
+    "video_id": "sample_00004726.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript consists of repetitive sounds without any discernible emotional content, suggesting a neutral expression.",
+    "video_id": "sample_00001837.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is a straightforward statement without any emotional cues indicating strong feelings. It appears to be a neutral description of a person.",
+    "video_id": "sample_00006816.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase '\u4e0d\u9519\u8d85\u626f\u7684' suggests a reaction to something unexpected or unbelievable, indicating surprise as the dominant emotion.",
+    "video_id": "sample_00005474.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript provided is a neutral statement without any clear emotional indicators such as exclamations or emotive language that would suggest a specific emotion like happiness or anger.",
+    "video_id": "sample_00002680.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement '\u4e0d\u5408\u7fa4\u662f\u6211\u4e00\u76f4\u76f8\u4fe1' (I have always believed in being unsociable) is expressed in a matter-of-fact manner without any clear emotional cues, suggesting a neutral tone.",
+    "video_id": "sample_00004145.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript describes something as familiar and convenient, which suggests a neutral tone without strong emotional cues.",
+    "video_id": "sample_00002118.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'See ya!' is commonly used as a casual farewell, which is typically neutral in tone. However, it can also carry a slight positive connotation, suggesting a friendly or happy departure.",
+    "video_id": "sample_00003028.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript does not provide clear emotional cues, and the language used seems neutral without any strong emotional indicators.",
+    "video_id": "sample_00005897.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript does not contain any explicit emotional cues or context that suggests a strong emotion. The statement appears to be factual or observational, which aligns with a neutral emotion.",
+    "video_id": "sample_00005277.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript provided is in Chinese and translates to 'I hope we are good when I am me,' which does not convey a strong emotional context. Without additional context or emotional cues, the statement appears neutral.",
+    "video_id": "sample_00003773.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is a simple statement in Chinese, which translates to 'also help mom accumulate coolness.' There is no clear indication of any strong emotion such as happiness, sadness, or anger, suggesting a neutral tone.",
+    "video_id": "sample_00005062.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The word 'Really?' suggests an element of surprise or disbelief, indicating surprise as the dominant emotion. The rest of the statement is factual and lacks emotional cues, suggesting a neutral tone.",
+    "video_id": "sample_00006422.mp4",
+    "ground_truth": "surprise"
+  }
+]

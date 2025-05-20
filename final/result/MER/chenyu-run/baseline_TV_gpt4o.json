@@ -1,0 +1,542 @@
+[
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a mix of slight emotional cues such as a slight lip corner puller and dimpler, which can suggest mild happiness, but the overall context and expressions suggest a professional and engaged demeanor, aligning more with a neutral emotion. The setting and interaction appear focused and attentive, typical of a neutral professional exchange, with a hint of happiness due to the slight positive facial expressions.",
+    "video_id": "sample_00002885.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's open mouth, raised eyebrows, and wide eyes strongly suggest surprise, as these are typical facial expressions associated with this emotion. The slightly forward posture and the context of a conversation might indicate engagement, which can be interpreted as neutral if not strongly leaning towards another emotion.",
+    "video_id": "sample_00000705.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "curiosity",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's expression and body language suggest she is engaged and focused, which aligns with a neutral emotion. The slightly raised eyebrows and open mouth indicate curiosity, but the overall demeanor is more neutral due to the lack of strong emotional indicators.",
+    "video_id": "sample_00004007.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's widened eyes and slightly open mouth suggest surprise or disbelief, which is supported by the visual expression description. The overall setting and his engaged stance indicate a reactive interaction, but the lack of strong emotional indicators in the facial expression suggests a secondary neutral emotion.",
+    "video_id": "sample_00001631.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's expression includes a faint smile and partially raised eyebrows, which are indicative of happiness or amusement. The overall relaxed posture and light-hearted ambiance further support the presence of a happy emotion. The slight concentration and engagement suggest a neutral undertone, but the happiness is more dominant.",
+    "video_id": "sample_00005443.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's knitted brows and slightly open mouth suggest a serious or concerned expression, indicating worry. The overall setting and slight lip movements also suggest a neutral tone, but the dominant features point more towards worry.",
+    "video_id": "sample_00004950.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates features associated with a light smile and crinkled eyes, which are typical of happiness. The overall scene and posture suggest a calm and content atmosphere, supporting a neutral secondary emotion.",
+    "video_id": "sample_00002460.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a combination of features such as moderately brow lowerer and lid tightener, which are often associated with worry or concern. The person's downward gaze and pensive expression further support this interpretation. The neutral setting and lack of strong emotional cues suggest a secondary emotion of neutrality.",
+    "video_id": "sample_00001551.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a neutral to mild expression, with features like slightly raised brows and parted lips suggesting attentiveness or concentration, which aligns with a neutral emotion. The context of a professional setting and the man's focused demeanor could imply a secondary emotion of being worried, as he might be engaged in a serious conversation.",
+    "video_id": "sample_00006798.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression, characterized by a strongly lowered brow and slightly furrowed eyebrows, indicates concern or worry. The serious nature of the conversation and the woman's attentive posture support this interpretation. The presence of neutral elements, such as the slight lip corner puller and dimpler, suggest a secondary neutral emotion.",
+    "video_id": "sample_00005939.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual expression shows a strongly lowered brow and moderately raised upper lip, which are indicative of anger. The context of the whisper transcript suggests frustration or dissatisfaction, supporting the angry emotion. The presence of a slightly raised chin and the context of the situation also suggest a level of concern or worry.",
+    "video_id": "sample_00005497.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression, with slightly furrowed brows and parted lips, along with the context of questioning someone's emotional state, suggests a dominant emotion of worry. The neutral elements are supported by the lack of extreme facial expressions and the simple background, which may indicate a secondary emotion of neutrality.",
+    "video_id": "sample_00003790.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's furrowed eyebrows, wide eyes, and open mouth suggest a mix of disbelief and frustration, indicating anger as the dominant emotion. The wide eyes and open mouth also suggest surprise, supporting it as a secondary emotion.",
+    "video_id": "sample_00004940.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The combination of a strongly raised upper lip, slightly furrowed brows, and an intense expression suggests anger as the dominant emotion. The serious and formal setting, along with the woman's engagement in conversation, supports a secondary emotion of neutrality, as the context indicates a serious discussion rather than an emotional outburst.",
+    "video_id": "sample_00005321.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript suggests a realization and acceptance of a personal relationship, which can be associated with sadness due to the context of being in a hospital and seeing someone injured. The visual expression description indicates a mix of emotions, but the presence of a moderately Brow Lowerer and other subtle expressions suggest sadness as dominant, with a neutral undertone due to the lack of strong emotional indicators.",
+    "video_id": "sample_00004407.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's tears, furrowed brow, and slightly downturned mouth strongly indicate sadness. Her hunched posture and the context of speaking into a microphone in a formal setting suggest she might be worried about the situation she is addressing.",
+    "video_id": "sample_00001999.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's expression is described as animated and cheerful, with a wide joyful smile and slightly squinted eyes, which are strong indicators of happiness. Her hand resting on her chest suggests a possible element of surprise or delight, supporting surprise as a secondary emotion.",
+    "video_id": "sample_00004943.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression is attentive and earnest, with a slightly open mouth suggesting she is speaking, which aligns with a neutral demeanor. The slight lip tightener and chin raiser could indicate a hint of worry, but the overall scene and expression suggest a primarily neutral emotion.",
+    "video_id": "sample_00002010.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a mix of emotions with moderately raised brows and slightly pulled lip corners, which can suggest surprise, but the overall context and professional setting suggest a neutral interaction. The whisper transcript does not convey strong emotional cues, supporting a neutral tone with a hint of surprise.",
+    "video_id": "sample_00002603.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues such as the strongly lowered brows and slightly tightened lids suggest a worried expression. The context of her being in a focused and determined state, possibly engaged in an important conversation, supports this. The neutral background and her composed appearance add a secondary neutral emotion.",
+    "video_id": "sample_00001646.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The combination of moderately tight facial muscles, such as Lid Tightener, Upper Lip Raiser, and Lip Tightener, suggests anger. The presence of a Chin Raiser and Lip Corner Puller also indicates a hint of sadness, supporting it as a secondary emotion.",
+    "video_id": "sample_00003709.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The combination of slightly raised and lowered brows, along with the upward gaze, suggests concern or worry. The context of the conversation and the formal setting contribute to a serious tone, while the slight lip corner puller and dimpler indicate a neutral or composed demeanor.",
+    "video_id": "sample_00001485.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's posture and facial expressions, such as the slightly open mouth and gently raised eyebrows, suggest engagement and a relaxed demeanor, indicating a neutral emotion. The slight lip corner puller and dimpler hint at a subtle happiness, but it is not dominant.",
+    "video_id": "sample_00003245.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression, with moderately lowered brows and a focused demeanor, suggests a neutral emotion as she is engaged in conversation. The presence of a moderately tight lid and slightly raised upper lip may indicate a hint of worry, but the overall context and setting suggest a primarily neutral interaction.",
+    "video_id": "sample_00004936.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression is described as subtle and thoughtful, with features like slightly raised eyebrows and gently pressed lips, which are indicative of a neutral or contemplative state. The slight Lip Corner Puller and Dimpler suggest a hint of happiness, but the overall calm and scholarly atmosphere supports a primarily neutral emotion.",
+    "video_id": "sample_00001682.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The verbal content suggests a critical or sarcastic tone, which aligns with the visual cues of a strongly raised chin and moderately lowered brows, indicating anger. The professional setting and the animated yet focused expression suggest a serious, businesslike demeanor, supporting a secondary neutral emotion.",
+    "video_id": "sample_00001133.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's facial expressions, such as the brow lowerer and lip corner depressor, along with her urgent body language, suggest a worried or concerned emotion. The man's closed-off posture and lack of visible emotional cues contribute to a neutral secondary emotion in the interaction.",
+    "video_id": "sample_00000832.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a calm and contemplative demeanor with a neutral lip position, suggesting a neutral emotion. However, the presence of a moderately lip corner depressor and chin raiser could imply a subtle sadness, supporting it as a secondary emotion.",
+    "video_id": "sample_00005430.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's serious expression, with drawn-together eyebrows and pursed lips, suggests a moment of contemplation or concern, indicating worry. The overall relaxed setting and lack of overt emotional cues support a secondary emotion of neutrality.",
+    "video_id": "sample_00005626.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's expression, characterized by a slightly furrowed brow, moderately tight lips, and a serious demeanor, suggests a sense of worry or concern. The context of a professional kitchen and his authoritative posture may contribute to a neutral undertone, as he could be focused on a task or issue at hand.",
+    "video_id": "sample_00001454.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The combination of slightly lowered brows, slightly raised upper lids, and moderately parted lips suggests a worried expression. The overall subtlety of the facial movements also indicates a neutral undertone.",
+    "video_id": "sample_00006298.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates features associated with joy or amusement, such as a moderately lip corner puller and jaw drop, suggesting laughter. The setting and expression convey warmth and enjoyment, supporting happiness as the dominant emotion. The neutral emotion is considered second due to the slightly mixed facial expressions, but the overall context strongly leans towards happiness.",
+    "video_id": "sample_00006717.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues such as the moderately lowered brow and slightly parted lips suggest a mix of concern and distress, indicating a dominant emotion of being worried. The slightly furrowed brow and the context of the conversation imply a secondary emotion of sadness.",
+    "video_id": "sample_00003652.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's facial expression includes a hint of a smile and a lively demeanor, suggesting happiness or friendliness. Her relaxed posture and engagement in conversation also contribute to a neutral atmosphere, indicating a mix of happy and neutral emotions.",
+    "video_id": "sample_00006500.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's facial expression, characterized by slightly furrowed brows and an open mouth, along with his posture and the context of being on a phone call, suggests a sense of urgency or concern, indicating worry. The neutral emotion is supported by the formal setting and his focused, attentive demeanor, which may not convey strong emotional extremes.",
+    "video_id": "sample_00004288.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's expression is primarily one of concentration and seriousness, which aligns with a neutral emotion as he is focused intently, possibly listening or contemplating. The presence of slightly furrowed brows and a serious demeanor could suggest a secondary emotion of being worried, but the overall context and expression lean more towards neutrality.",
+    "video_id": "sample_00005828.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's wide eyes, slightly raised eyebrows, and open mouth suggest a sense of surprise or intensity. However, the overall context and her formal appearance, along with the direct engagement, also indicate a neutral or composed demeanor, suggesting a mix of surprise and neutrality.",
+    "video_id": "sample_00001667.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a mix of emotions, but the overall tone of the facial features and body language suggests a neutral demeanor, as the person is engaged in explaining something. The presence of brow lowering and lip raising could indicate a slight worry or concern, but it is not dominant.",
+    "video_id": "sample_00000143.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's broad smile and relaxed body language, along with the description of her eyes gently closed, strongly indicate happiness. The presence of some neutral expressions, such as the slightly dimpler and lip corner depressor, suggest a secondary neutral emotion.",
+    "video_id": "sample_00006903.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's expression and body language suggest a neutral demeanor, as he is engaged in conversation with a relaxed posture and natural gestures. However, the presence of a moderately Lip Corner Depressor and Chin Raiser could indicate a subtle undertone of sadness.",
+    "video_id": "sample_00005576.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression is primarily neutral, as indicated by her relaxed posture and the casual setting. However, the slightly furrowed eyebrows and focused gaze suggest a hint of concern or curiosity, which aligns with a secondary emotion of being worried.",
+    "video_id": "sample_00002972.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's broad smile and warm, inviting expression strongly suggest happiness, supported by the Lip Corner Puller and Dimpler. The professional and relaxed stance in a familiar environment adds a neutral undertone, indicating comfort and confidence.",
+    "video_id": "sample_00002806.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The combination of a strongly Brow Lowerer, Lip Corner Depressor, and Nose Wrinkler suggests a worried expression, supported by the context of an intense phone conversation. The slightly parted lips and jaw drop could indicate neutrality as she speaks, but the overall facial tension leans more towards worry.",
+    "video_id": "sample_00000754.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression is described as calm and contemplative, with a relaxed body language, which aligns with a neutral emotion. The slightly downcast eyes and lip corner depressor suggest a hint of sadness, making it a secondary emotion.",
+    "video_id": "sample_00005573.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a joyful expression with features such as a moderately raised cheek and lip corner puller, suggesting happiness. The overall relaxed and content setting further supports this emotion. The neutral emotion is considered as a secondary due to the relaxed and at ease demeanor, but the dominant expression is clearly happiness.",
+    "video_id": "sample_00002787.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues such as the slightly lowered brow, lip corner depressor, and chin raiser suggest a subdued or contemplative state, often associated with sadness. The overall calm and introspective mood, along with the lack of interaction, supports a neutral secondary emotion.",
+    "video_id": "sample_00006939.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The slightly raised brows, jaw drop, and animated expression suggest surprise, as if she is reacting to something unexpected or emphasizing a point. The setting and her confident posture contribute to a neutral undertone, as she appears relaxed and in control of the situation.",
+    "video_id": "sample_00005217.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The whisper transcript '\u6211\u4ec0\u4e48\u90fd\u4e0d\u884c' translates to 'I can't do anything,' indicating a sense of worry or inadequacy. The visual expression, with furrowed brows and a tense mouth, supports this with signs of concern. The overall scene's introspective and contemplative mood further suggests worry as the dominant emotion, with sadness as a secondary emotion due to the context of self-reflection and perceived inadequacy.",
+    "video_id": "sample_00004726.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual expression description indicates a strong brow lowerer and lid tightener, which are consistent with worry. The presence of a cheek raiser and upper lip raiser, along with the suggestion of crying, supports sadness as a secondary emotion.",
+    "video_id": "sample_00001837.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's body language and facial expressions suggest a neutral demeanor, as he is engaged in a professional conversation, indicated by his relaxed but attentive posture. The moderately brow lowerer and chin raiser could imply a slight concern or focus, which supports a secondary emotion of being worried.",
+    "video_id": "sample_00006816.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a strong smile with features like a strongly raised upper lip and dimpler, suggesting happiness. The setting and body language of the woman on the right further support a cheerful mood. The neutral emotion is considered due to the attentive and engaged posture of the other woman, which does not strongly convey any specific emotion beyond engagement.",
+    "video_id": "sample_00005474.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The strong brow lowerer and slightly tight lips suggest a worried expression, indicating concern or urgency. The animated discussion and engaged body language of the individuals suggest a dynamic interaction, but the presence of neutral elements like slight brow raisers and open mouth could indicate a mix of emotions, with neutral being secondary.",
+    "video_id": "sample_00002680.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's facial expression, characterized by a slightly open mouth and focused eyes, suggests engagement and attentiveness, which aligns with a neutral emotion. The presence of moderately raised brows and slightly raised upper lids may indicate a hint of worry, but the overall demeanor remains primarily neutral.",
+    "video_id": "sample_00004145.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression is mostly neutral, with slight indicators of engagement such as slightly raised eyebrows and parted lips, suggesting she is involved in the conversation. The setting and her gestures imply a relaxed and possibly pleasant interaction, which supports a secondary emotion of happiness.",
+    "video_id": "sample_00002118.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's expression is attentive and engaged, with slightly raised eyebrows and parted lips, which are typical of a neutral or interested state. The setting and context suggest a pleasant environment, which could imply a subtle happiness, but the visual cues do not strongly indicate any overt emotion beyond neutrality.",
+    "video_id": "sample_00003028.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's facial expressions and gestures suggest she is engaged in a conversation, with a neutral demeanor indicated by her attentive posture and slight facial movements. However, the presence of a moderately brow lowerer and lid tightener, along with a slightly wrinkled nose, could suggest a secondary emotion of worry.",
+    "video_id": "sample_00005897.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression description indicates a calm and thoughtful demeanor with features like a slightly raised brow and a gentle lip corner puller, suggesting neutrality. The serene setting and slight lip corner puller could imply a subtle sense of happiness or contentment, but the overall mood is more neutral and introspective.",
+    "video_id": "sample_00005277.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression shows a mix of subtle facial movements that do not strongly indicate any specific emotion, suggesting a neutral state. However, the presence of a slightly raised chin and dimpler, along with a slightly lowered brow, may hint at a subdued sadness.",
+    "video_id": "sample_00003773.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The slight smile and relaxed body language suggest a dominant emotion of happiness. The overall demeanor and setting convey a casual and warm interaction, which aligns with a happy emotion. The presence of neutral elements like the gaze and setting contribute to a secondary neutral emotion.",
+    "video_id": "sample_00005062.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's wide-open eyes and slightly raised eyebrows suggest surprise, while the slightly lowered brow and parted lips indicate a potential concern or worry. The combination of these expressions points to surprise as the dominant emotion, with worry as a secondary emotion.",
+    "video_id": "sample_00006422.mp4",
+    "ground_truth": "surprise"
+  }
+]

@@ -1,0 +1,3794 @@
+[
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of surprise and neutrality, but the whisper transcript suggests a surprised reaction to an unexpected situation."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a surprised tone, which aligns with the transcript's context of encountering something unexpected."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports surprise, but the visual expression also shows elements of neutrality, suggesting a mix of emotions."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the strong jaw drop and lip corner depressor, surprise is more dominant than neutrality."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert A, the jaw drop is a strong indicator of surprise, making it the dominant emotion."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is surprise, supported by both audio and visual cues, with neutrality as a secondary emotion due to the relaxed body language.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script01_1_F037.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a strong Lip Corner Depressor and moderately Lip Tightener, which could suggest sadness, but the overall demeanor and context seem neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a monotone delivery with no emotional cues, suggesting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio is monotone, and the visual expression shows some signs of sadness, but the overall context and lack of strong emotional cues suggest neutrality."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the overall context and the lack of strong emotional cues, I agree with the neutral assessment."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the neutral assessment as the signs of sadness are not strong enough to override the neutral cues."
+      }
+    ],
+    "final_justification": "The monotone audio delivery and composed visual demeanor suggest a neutral emotion, despite some visual cues that could indicate sadness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro02_M011.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper_transcript suggests potential frustration, but the visual expression and objective description indicate a calm and pensive demeanor, leaning towards neutrality."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description clearly states a neutral emotional tone, with no variations in pitch or intonation, supporting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows slight tension, which could suggest frustration, but the audio description supports a neutral tone, leading to a neutral conclusion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the visual cues are subtle and do not strongly indicate frustration. The overall calm setting and demeanor support a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert A and B. The slight tension in visual expression is not enough to override the neutral tone in audio and overall calm demeanor."
+      }
+    ],
+    "final_justification": "The audio description and overall visual demeanor strongly support a neutral emotion, despite slight visual tension that could suggest frustration.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro02_M005.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper transcript suggests frustration or anger due to the questioning tone and emphasis on 'what the hell is this all for'. The visual expression shows some tension, but the man's calm demeanor suggests a neutral or contemplative state."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description clearly indicates anger with the fast-paced, high-pitched, and tense vocal delivery. The transcript supports this with its confrontational language."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description strongly suggests anger, while the visual expression description shows some tension. However, the visual objective description of the man suggests neutrality."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the audio cues are strong indicators of anger, which may override the visual neutrality."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert B that the audio description is a strong indicator of anger, and the visual expression does show some tension, supporting this emotion."
+      }
+    ],
+    "final_justification": "The audio description strongly indicates anger, supported by the transcript's confrontational language. The visual expression shows some tension, aligning with anger, despite the man's neutral posture.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_1_F040.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description indicates excitement due to the wide-open mouth and raised eyebrows, and the whisper transcript suggests reassurance, which aligns with excitement."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description suggests comfort and engagement, which could imply a neutral or happy emotion, but the whisper transcript's reassurance leans towards excitement."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues of raised eyebrows and an animated demeanor suggest excitement, and the audio description supports this with expressive and natural vocal delivery."
+      }
+    ],
+    "final_justification": "The combination of visual cues such as raised eyebrows and an animated demeanor, along with the expressive vocal delivery, strongly suggests excitement as the dominant emotion.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_script03_1_M003.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "serious",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a subtle smile and relaxed posture, suggesting a neutral or slightly happy emotion. The transcript's content seems light-hearted, but the visual cues are more neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a serious and focused tone, which aligns with the transcript's suggestion of seriousness. The vocal delivery is monotone, supporting a neutral or serious emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio suggests seriousness, but the visual expression with a subtle smile and relaxed posture leans towards a neutral emotion. The overall scene is informal, which might downplay the seriousness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the subtle smile and relaxed posture, I maintain that the dominant emotion is neutral, with a secondary serious undertone due to the audio."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree that the visual cues suggest neutrality, but the audio's serious tone cannot be ignored. I concede that neutral is dominant, with serious as secondary."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the consensus that neutral is the dominant emotion, with serious as a secondary emotion due to the audio description."
+      }
+    ],
+    "final_justification": "The visual cues of a subtle smile and relaxed posture suggest a neutral emotion, while the audio description indicates a serious tone. Therefore, neutral is the dominant emotion, with serious as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_1_M017.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "80",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression of the woman suggests a neutral or introspective state, but the whisper transcript 'For real?' could imply surprise or excitement. However, without strong visual cues, I lean towards neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description clearly indicates a happy and excited tone in the man's voice. His vocal delivery is consistent with these emotions, suggesting he is sharing something positive."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports a happy and excited emotion, but the visual expression of the woman does not align with these emotions. However, the audio is more dominant in conveying emotion here."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio's strong indication of happiness and excitement, I agree that these emotions are more dominant than the visual cues."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert B that the audio is more indicative of the dominant emotions, and the visual cues are secondary in this context."
+      }
+    ],
+    "final_justification": "The audio description strongly indicates that the man is happy and excited, which is supported by his vocal delivery. The visual cues from the woman are less expressive and do not contradict the audio, leading to a consensus on the emotions.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script02_1_M030.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "85",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and transcript suggest excitement due to the animated expression and the mention of a large sum of money, which aligns with excitement."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a happy and excited tone, with a slight upward inflection, suggesting excitement as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio and visual descriptions both indicate excitement and surprise, with the tone of voice and open, engaged body language supporting these emotions."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I agree with Expert C that surprise is also evident, but excitement remains the dominant emotion due to the context of winning money."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I concur with both Experts A and C that excitement is the primary emotion, with surprise as a secondary emotion."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is excitement, supported by both the vocal tone and visual expressions. Surprise is also evident due to the context of the situation and the expressions observed.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro03_M007.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "85",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "All experts agree that the dominant emotion is 'excited' based on the vocal delivery and visual expressions, which show enthusiasm and engagement. The secondary emotion 'happy' is supported by the positive tone and facial expressions.",
+    "num_debate_rounds": "0",
+    "video_id": "Ses01M_impro07_F004.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a neutral emotion due to the relaxed posture and calm atmosphere, despite the slight lip corner puller which might indicate a hint of frustration."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone with low, slow speech and breathiness, suggesting frustration as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports a negative tone, but the visual expression shows a neutral face with slight tension, indicating a mix of neutral and frustrated emotions."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the relaxed posture and calm setting, I maintain that neutral is the dominant emotion, with frustration as a secondary emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I acknowledge the neutral visual cues but still believe the audio suggests underlying frustration."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert A that the overall setting and expression lean more towards neutral, with frustration as a secondary emotion."
+      }
+    ],
+    "final_justification": "The visual cues and setting suggest a neutral emotion, but the audio tone indicates some frustration, leading to a consensus of neutral as the dominant emotion with frustration as secondary.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script02_2_M029.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "All experts agree that the dominant emotion is 'happy' based on the warm and joyful expression, broad smile, and comfortable vocal delivery.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_impro07_M018.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of excitement and surprise, with the moderately raised brows and jaw drop indicating surprise, while the lip corner puller and cheek raiser suggest excitement."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a rise in pitch, suggesting surprise or enthusiasm. The confident and emotional delivery leans more towards excitement."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The combination of audio and visual cues, such as the expressive voice and the open, engaging body language, suggests excitement as the dominant emotion, with surprise as a secondary emotion."
+      }
+    ],
+    "final_justification": "All experts agree that the dominant emotion is excitement, supported by the expressive vocal delivery and engaging body language. The rise in pitch and facial expressions also suggest a secondary emotion of surprise.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_script02_1_M044.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the whisper transcript suggests concern, possibly sadness. The visual objective description indicates a neutral setting, but the facial expressions lean towards sadness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description clearly indicates sadness with emotional vocal delivery and tense voice. The transcript supports this with a question that implies concern."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests sadness, and the visual expression shows some tension, which aligns with sadness. However, the visual objective description seems neutral."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio input from Expert B, I agree that sadness is more dominant than initially perceived."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with Expert B's assessment. The audio cues are strong indicators of sadness, and the visual expression supports this."
+      }
+    ],
+    "final_justification": "The audio description strongly indicates sadness, supported by the emotional vocal delivery and tense voice. The visual expressions, while mixed, also align with sadness, making it the dominant emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro06_F006.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression suggests mild amusement or contentment, but the transcript's content is serious, indicating a possible underlying sadness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a sad tone, which aligns with the transcript's serious content, suggesting sadness as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports sadness, but the visual expression shows contentment, creating a mixed signal. However, the audio's sad tone is more dominant."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio description and the serious nature of the transcript, I agree that sadness is more dominant despite the visual cues."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with Expert B and A. The audio's sad tone and the transcript's content outweigh the visual expression of contentment."
+      }
+    ],
+    "final_justification": "The audio description and transcript content strongly indicate sadness, which is supported by the serious nature of the spoken words, despite the visual expression suggesting mild amusement.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_3_M031.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "fearful",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a relaxed posture and a subtle smile, which suggests a neutral or mildly amused mood. The whisper transcript 'If one of us dies...' could imply concern, but the visual cues are more neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a tense and urgent vocal delivery, suggesting fear or concern. The transcript also supports this with its serious content."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description highlights a sense of fear or concern due to the expressive and tense vocal delivery. The visual expression, despite being relaxed, does not contradict the audio's indication of fear."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio's strong indication of fear and the serious nature of the transcript, I agree that fear is the dominant emotion, with the visual neutrality as a secondary emotion."
+      }
+    ],
+    "final_justification": "The audio description and transcript strongly suggest a fearful emotion due to the tense and urgent vocal delivery. The visual cues, while more neutral, do not contradict this, allowing for a secondary neutral emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_1_F021.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a cheerful mood with a broad, genuine smile, indicating happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The monotone and strained voice in the audio suggests a neutral or emotionless tone, which contrasts with the cheerful visual cues."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows happiness, but the audio description of a monotone voice suggests a neutral tone, creating a mixed emotional signal."
+      },
+      {
+        "role": "Expert A",
+        "argument": "The visual cues are strong indicators of happiness, which should be prioritized over the monotone audio."
+      },
+      {
+        "role": "Expert B",
+        "argument": "While the audio suggests neutrality, the visual expression is a stronger indicator of happiness, so I agree with Expert A."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the strong visual indicators of happiness, I agree that happiness is the dominant emotion, with neutrality as a secondary emotion."
+      }
+    ],
+    "final_justification": "The visual expression of a broad, genuine smile strongly indicates happiness, despite the monotone audio suggesting neutrality. Therefore, happiness is the dominant emotion with neutrality as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_1_M000.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description indicates a broad smile and lively eyes, which are strong indicators of happiness. The whisper transcript with laughter supports this emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description suggests a neutral tone, as the vocal delivery is expressive yet monotone, which typically aligns with a neutral emotional state."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows signs of happiness with a broad smile and lively eyes. However, the audio description indicates a neutral tone, creating a mixed emotional signal."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Considering the laughter in the transcript, I acknowledge that there might be an element of happiness despite the neutral tone in the audio."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree that the visual cues of happiness are strong, and the laughter in the transcript supports this. The neutral tone in the audio might not fully capture the visual context."
+      }
+    ],
+    "final_justification": "The dominant emotion is identified as 'happy' due to the strong visual cues of a broad smile and lively eyes, supported by laughter in the transcript. The neutral tone in the audio suggests a secondary emotion of 'neutral'.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro03_M011.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "85",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "All experts agreed that the speaker's vocal delivery and visual expressions indicate excitement as the dominant emotion, supported by happiness. The audio description highlights an energetic and enthusiastic tone, while the visual cues such as a broad smile and relaxed posture further support these emotions.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_impro03_M005.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows slight tension and engagement, but the overall demeanor is relaxed and open, suggesting a neutral emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a confident and direct tone without emotional variation, which aligns with a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual and audio cues suggest a neutral demeanor, but the context of the conversation hints at potential frustration."
+      },
+      {
+        "role": "Expert A",
+        "argument": "While there is a hint of frustration in the context, the visual cues are not strong enough to override the neutral expression."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree that the visual cues are predominantly neutral, and the frustration is not dominant enough to be the primary emotion."
+      }
+    ],
+    "final_justification": "The consensus is that the speaker's overall demeanor is neutral, with a slight undercurrent of frustration due to the context of the conversation.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro03_M004.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a slight smile and calm body language, suggesting a neutral or slightly positive emotion. However, the slight lip corner depressor and chin raiser could indicate some underlying frustration."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone with a soft and slow voice, which suggests frustration or sadness. The transcript 'I wonder' is ambiguous but could imply contemplation or mild frustration."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests a negative tone, while the visual expression shows a slight smile and calm demeanor, indicating a neutral emotion. The setting and posture do not suggest any strong emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the slight smile and calm posture, I maintain that the dominant emotion is neutral, but I acknowledge the possibility of underlying frustration."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree that the visual cues suggest neutrality, but the audio tone still points to some frustration. I will concede that neutral is the dominant emotion, with frustration as a secondary emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert A and B that the dominant emotion is neutral, with some indication of frustration from the audio."
+      }
+    ],
+    "final_justification": "The visual cues of a slight smile and calm posture suggest a neutral emotion, while the negative tone in the audio indicates some underlying frustration.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_1_M001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a calm and content state, with a faint smile indicating happiness. However, the transcript's context and the slight smile suggest excitement about the future."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates an enthusiastic and engaging delivery, which aligns with excitement. The vocal fry adds a unique quality, but the overall tone is energetic."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio and visual cues together suggest excitement due to the expressive and energetic vocal delivery, combined with a relaxed and slightly smiling demeanor."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the excitement is more dominant due to the context of the transcript and the energetic delivery."
+      }
+    ],
+    "final_justification": "The consensus is that the speaker is primarily excited, as indicated by the enthusiastic vocal delivery and the context of the transcript. The slight smile and relaxed posture support a secondary emotion of happiness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro07_M032.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a slight smile and relaxed posture, suggesting a neutral or slightly amused state. The transcript's mention of 'urgency' could imply frustration, but the visual cues are more dominant."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone with a sense of urgency, which aligns more with frustration. The slow speech and breathiness suggest a lack of excitement or happiness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio tone is negative, and the visual expression shows some tension with lid tightening, which could indicate frustration. However, the relaxed posture and slight smile suggest neutrality."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the relaxed posture and slight smile, I maintain that the dominant emotion is neutral, with frustration as a secondary emotion due to the audio cues."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree that the visual cues suggest neutrality, but the audio's negative tone and urgency imply frustration as a secondary emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with the consensus that the primary emotion is neutral, with frustration as a secondary emotion due to the audio description."
+      }
+    ],
+    "final_justification": "The visual cues of a slight smile and relaxed posture suggest a neutral emotion, while the audio's negative tone and urgency imply frustration as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script02_1_M045.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a slight smile and engaged demeanor, suggesting happiness, but the whisper transcript and visual setting are neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral vocal delivery, aligning with the neutral whisper transcript, suggesting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows signs of happiness with a slight smile, but the audio description is neutral, leading to a mixed interpretation."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the neutral vocal delivery and setting, I agree that neutral is more dominant, with happiness as a secondary emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert A's revised stance, the neutral tone is more dominant, with happiness as a secondary emotion."
+      }
+    ],
+    "final_justification": "The neutral vocal delivery and setting suggest a dominant neutral emotion, while the slight smile and engaged demeanor indicate a secondary emotion of happiness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro03_M017.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression suggests a mild, approachable demeanor with a slight upward curve of the lips, indicating possible amusement or contentment, which aligns with a happy emotion. However, the overall relaxed and neutral setting suggests a dominant neutral emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral vocal delivery with no signs of emotion or stress, suggesting a dominant neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows signs of mild engagement and contentment, but the audio description supports a neutral emotion. Therefore, I initially considered happy but now lean towards neutral as the dominant emotion."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is neutral, supported by the neutral vocal delivery and relaxed visual demeanor. A secondary emotion of happy is considered due to the slight upward curve of the lips and approachable demeanor.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_script01_3_M020.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "The visual expression and objective description suggest a pleasant and engaged demeanor, indicating happiness. The audio description supports this with an expressive and interested tone, while the lack of stress or intonation patterns suggests a secondary neutral emotion.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_impro07_M022.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the slightly lip corner depressor and chin raiser suggest sadness. The whisper transcript doesn't convey strong emotion, but the visual cues lean towards sadness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone with low, slow speech and breathiness, which often aligns with sadness. The transcript alone is neutral, but combined with audio, it suggests sadness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests a negative tone, and the visual expression with a chin raiser and lip tightener could indicate sadness. However, the overall visual setting is neutral, which initially led me to consider neutrality."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering Expert B's point on the audio tone, I agree that the sadness is more dominant than neutrality."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I now see that the audio and visual expressions together support sadness more strongly than neutrality."
+      }
+    ],
+    "final_justification": "The combination of a negative tone in the audio and visual expressions such as lip corner depressor and chin raiser strongly suggest sadness as the dominant emotion, with neutrality as a secondary emotion due to the overall calm setting.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro06_M022.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper_transcript suggests excitement with phrases like 'God, this is great' and 'just think about this'. The visual expression shows a moderately Lip Corner Puller, indicating a positive emotion, possibly excitement."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates excitement and enthusiasm with a positive tone and upward intonation. The whisper_transcript supports this with enthusiastic language."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests excitement, but the visual objective description of the woman shows a calm and introspective demeanor, which could indicate neutrality."
+      },
+      {
+        "role": "Expert A",
+        "argument": "While the woman's demeanor is calm, the man's excitement is more dominant in the interaction, as he is the one speaking."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree that the man's excitement is more dominant, but the woman's calmness suggests a secondary neutral emotion."
+      }
+    ],
+    "final_justification": "The man's speech and tone clearly express excitement, which is the dominant emotion. The woman's calm demeanor suggests a secondary neutral emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script02_1_M036.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "All experts agree that the overall tone, posture, and expression suggest a neutral emotional state. The audio description indicates a relaxed and comfortable tone, while the visual cues show a thoughtful demeanor without strong emotional indicators.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_impro02_M014.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description indicates a cheerful demeanor with a broad smile, suggesting happiness. The whisper transcript 'I don't care then' could imply frustration, but the visual cues are more dominant."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description notes a positive tone, which aligns with happiness. However, the phrase 'I don't care then' could suggest a dismissive or frustrated attitude."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description indicates a positive tone, and the visual expression description shows a cheerful expression, supporting happiness as the dominant emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Upon reconsideration, the positive tone in the audio and the cheerful visual expression outweigh the potential frustration from the transcript."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is happiness, supported by the positive tone in the audio and the cheerful visual expression, despite the potentially dismissive language in the transcript.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_1_M004.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a strong Lip Corner Depressor and Jaw Drop, which could indicate surprise, but the overall demeanor and setting suggest a neutral state."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral vocal delivery, suggesting the speaker is presenting information in a straightforward manner without emotional inflection."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows signs of surprise, such as the Jaw Drop, but the audio description supports a neutral emotion, leading to a mixed interpretation."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the strong Lip Corner Depressor and Jaw Drop could indicate a momentary surprise, but the overall context and neutral audio suggest neutrality is dominant."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert A that while there are elements of surprise, the neutral audio and visual context suggest neutrality is more dominant."
+      }
+    ],
+    "final_justification": "The neutral vocal delivery and relaxed visual demeanor suggest a dominant neutral emotion, with elements of surprise indicated by the visual expression.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro03_M002.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a subtle smile and relaxed posture, suggesting happiness. The whisper transcript doesn't indicate any negative emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates confidence and enthusiasm, which aligns with excitement. The whisper transcript is neutral, but the vocal delivery suggests a positive emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests enthusiasm, and the visual expression shows a subtle smile, indicating happiness. The combination of these suggests a positive emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio description, I agree that excitement is also present, but happiness remains dominant due to the visual cues."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I acknowledge the visual cues of happiness and agree that it is the dominant emotion, with excitement as a secondary emotion."
+      }
+    ],
+    "final_justification": "The visual cues of a subtle smile and relaxed posture indicate happiness as the dominant emotion, while the enthusiastic vocal delivery suggests excitement as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro03_F020.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description indicates a warm and engaging expression with a broad smile, suggesting happiness. The whisper transcript does not indicate any strong emotion, but the visual cues are dominant."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description suggests a relaxed and confident tone, which aligns more with a neutral emotion. The whisper transcript does not provide strong emotional cues."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression description shows a broad smile and relaxed posture, indicating happiness. The audio description of a relaxed and confident tone supports this, suggesting a happy emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Upon reconsideration, the relaxed and confident tone could indeed align with happiness, especially given the visual cues of a broad smile."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is happiness, supported by the visual cues of a broad smile and relaxed posture, as well as the audio description of a relaxed and confident tone. The neutral emotion is considered secondary due to the overall calm setting.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro03_F021.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "85",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "All experts agree that the dominant emotion is excitement, supported by the enthusiastic vocal delivery and the bright, open smile. The secondary emotion of happiness is indicated by the pleasant and amused state of the individual.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_impro03_M016.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the slightly furrowed brows and lip tightener suggest sadness. The transcript reflects a nostalgic tone, which can be associated with sadness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a sad tone with tension in the voice, which strongly suggests sadness as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports sadness, but the visual expression with animated gestures and concentration could suggest a more neutral or serious engagement."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio description and the transcript, the sadness is more pronounced than any neutral or serious engagement."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree that the audio description and transcript provide stronger evidence for sadness. The neutral aspect can be secondary."
+      }
+    ],
+    "final_justification": "The audio description and transcript strongly indicate sadness as the dominant emotion, supported by the visual expression. The neutral aspect is secondary due to the serious engagement suggested by gestures.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script02_2_F019.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a noticeable smile and a bright, engaged expression, suggesting happiness. However, the transcript indicates a sense of regret or frustration, which could imply a more neutral or mixed emotional state."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, with no harsh or unpleasant sounds, suggesting a neutral emotion. The transcript's content might imply frustration, but the delivery is neutral."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows signs of happiness with a smile, but the audio description suggests a neutral tone. The combination of these suggests a neutral emotion with a hint of happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual expression and the context of the transcript, I agree that the dominant emotion is neutral, with a secondary hint of happiness due to the smile."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that the neutral tone in the audio is dominant, but I acknowledge the visual cues of happiness. I agree with the consensus on neutral as the primary emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the consensus that the dominant emotion is neutral, with happiness as a secondary emotion due to the visual cues."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is neutral, as indicated by the audio description and the overall tone of the transcript. The visual expression suggests a secondary emotion of happiness due to the noticeable smile.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro07_F016.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description indicates a neutral expression with slight attentiveness, and the whisper transcript 'What?' suggests a neutral or slightly confused state."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description notes a negative tone, but the slow, neutral voice without harshness suggests a neutral emotion overall."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description indicates a negative tone, but the visual expression and setting suggest a neutral demeanor, leading to a neutral conclusion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the slight attentiveness and the neutral setting, I maintain that the dominant emotion is neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The lack of harshness in the voice and the neutral visual cues lead me to agree with a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues and the lack of strong negative audio elements support a neutral emotion."
+      }
+    ],
+    "final_justification": "All experts agree that the overall cues from the audio, visual, and text suggest a neutral emotion, with no strong indicators of any other emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro06_M020.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the overall demeanor and the whisper transcript suggest a neutral state with a hint of sadness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The monotone audio delivery indicates a neutral emotion, as there are no significant changes in tone or pitch to suggest otherwise."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual cues like the slightly downturned lips and the audio description of monotone delivery suggest a neutral emotion, but the facial expressions hint at a subtle sadness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the neutral tone in both visual and audio aspects is more dominant, with sadness being secondary."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert A, the neutral emotion is more evident, with sadness as a secondary emotion."
+      }
+    ],
+    "final_justification": "The monotone audio and neutral visual posture suggest a dominant neutral emotion, with subtle facial expressions indicating a secondary emotion of sadness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_3_M022.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "The woman's broad smile, positive vocal tone, and expressive facial features indicate happiness as the dominant emotion, with excitement as a secondary emotion due to the rising intonation and fast pacing of her speech.",
+    "num_debate_rounds": "0",
+    "video_id": "Ses01F_impro03_M015.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "The combination of a warm and engaging vocal delivery, along with a slight smile and relaxed posture, strongly suggests happiness as the dominant emotion. The neutral background and calm demeanor support a secondary emotion of neutrality.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_script03_1_M003.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a relaxed and content demeanor, with a soft smile indicating happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a happy and excited tone in her voice, with no signs of strain, supporting a positive emotional state."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests happiness and excitement, while the visual expression shows a relaxed and content demeanor, aligning with happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio description from Expert B, I agree that excitement is also present, but happiness remains dominant."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with Expert A's assessment that happiness is the dominant emotion, with excitement as a secondary emotion."
+      }
+    ],
+    "final_justification": "The woman's vocal tone and visual expression both indicate happiness as the dominant emotion, with excitement also present in her vocal delivery.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script01_3_F013.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a neutral or contemplative state, with no strong indicators of anger."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description clearly indicates anger, with a fast pace and tense, harsh voice, which aligns with the transcript's context."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description strongly suggests anger, but the visual expression is neutral, creating a mixed signal."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio description, I acknowledge the presence of anger, but the visual cues still suggest a secondary neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert B that the audio strongly indicates anger, but I also see Expert A's point about the neutral visual cues."
+      }
+    ],
+    "final_justification": "The audio description strongly indicates anger as the dominant emotion, supported by the transcript. However, the visual cues suggest a secondary neutral emotion, leading to a consensus on both emotions being present.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_1_F023.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a very strong Lip Corner Depressor, which is often associated with sadness. The whisper transcript mentions a 'random bus accident,' which could be a sad event. The overall visual description suggests a neutral setting, but the facial expression leans towards sadness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a tense voice, which could suggest frustration or sadness. The whisper transcript's mention of a 'random bus accident' and returning to the 'rat race' implies a negative experience, supporting sadness as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description highlights a tense voice, and the visual expression shows a Lip Corner Depressor, both suggesting sadness. The neutral setting does not strongly influence the emotional interpretation, so sadness seems dominant."
+      }
+    ],
+    "final_justification": "All experts agree that the combination of a tense voice and the visual expression of a Lip Corner Depressor strongly indicate sadness as the dominant emotion. The neutral setting and focused demeanor suggest a secondary neutral emotion.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_script01_3_M033.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "The audio description indicates a monotone delivery, and the visual expression description suggests a neutral facial expression. Both support the conclusion of a neutral emotion.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_script03_1_M002.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "All experts agreed that the dominant emotion is neutral based on the consistent neutral tone in the audio, the neutral facial expression, and the relaxed body language observed in the visual description.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_impro04_F008.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a slight smile and relaxed demeanor, suggesting a neutral to slightly happy emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone with no emotional extremes, suggesting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The combination of a neutral audio tone and a slight smile in the visual suggests a neutral emotion with a hint of happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the slight smile and relaxed posture, I agree with Expert C that there is a hint of happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I acknowledge the slight smile, but the audio remains neutral, so I maintain that neutral is the dominant emotion."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is neutral due to the audio description, with a secondary hint of happiness from the visual expression.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script02_1_M031.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description shows a mix of facial muscle movements, but the overall impression is neutral, as supported by the whisper transcript which lacks emotional cues."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a monotone and neutral vocal delivery, suggesting a neutral emotion. The whisper transcript also lacks emotional indicators."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports a neutral tone, and the visual expression description, despite some facial muscle activity, does not strongly indicate any emotion other than neutral."
+      }
+    ],
+    "final_justification": "All experts agree that the dominant emotion is neutral, as both the vocal delivery and facial expressions lack strong emotional indicators.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_script01_1_F043.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fearful",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression of the woman is calm and neutral, with a slight hint of amusement, which suggests a neutral or slightly positive emotion. However, the whisper transcript 'Good God' could indicate surprise."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates an emotional delivery with a low, urgent tone and breathiness, suggesting fear or surprise. The whisper transcript 'Good God' aligns with surprise."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests fear or surprise due to the tone and breathiness. The visual expression of the woman is neutral, but the man's vocal delivery suggests surprise."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the man's vocal delivery and the phrase 'Good God,' I agree that surprise is the dominant emotion, with fear as a secondary possibility."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with Expert A and B that surprise is the dominant emotion, with fear as a secondary emotion."
+      }
+    ],
+    "final_justification": "The man's vocal delivery and the phrase 'Good God' strongly suggest surprise, supported by the audio description. The slight hint of fear is secondary due to the tone and breathiness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script03_1_M000.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description indicates a neutral and composed facial expression, with slight cheek raiser and lip corner puller suggesting a hint of happiness, but overall the demeanor is neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description suggests a natural and clear vocal delivery without any notable features, which aligns with a neutral emotion. The transcript indicates a calm and composed statement, supporting neutrality."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows slight cheek raiser and lip corner puller, which could suggest happiness, but the overall visual and audio context supports a neutral emotion."
+      }
+    ],
+    "final_justification": "All experts agree that the overall demeanor, both visually and audibly, is neutral. The slight facial expressions do not significantly deviate from neutrality.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_impro04_F022.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression is mostly neutral with slight indicators of surprise, but the whisper transcript suggests a strong element of surprise."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a surprised tone, which aligns with the transcript's exclamation, suggesting surprise as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description clearly indicates surprise, and the visual expression supports this with slight surprise indicators, making surprise the dominant emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the slight visual indicators of surprise combined with the transcript and audio suggest surprise is indeed dominant."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is surprise, supported by the audio description and the transcript. The visual expression, while mostly neutral, has slight indicators of surprise.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_1_F034.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a lively facial expression with a smile, suggesting enthusiasm or friendliness, but the strong lip corner depressor indicates a more neutral or slightly negative emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a relaxed and confident vocal delivery, which aligns with a neutral emotion. There is no indication of excitement or other strong emotions in the voice."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression and body language suggest eagerness and engagement, which could indicate excitement, but the audio description supports a more neutral emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the strong lip corner depressor and the overall neutral tone in the transcript, I agree that neutral is the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the neutral emotion being dominant, but the lively facial expression and body language still suggest some level of excitement."
+      }
+    ],
+    "final_justification": "The dominant emotion is neutral due to the relaxed and confident vocal delivery and the strong lip corner depressor in the visual expression. However, the lively facial expression and body language suggest a secondary emotion of excitement.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro01_M009.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a very strong Lip Corner Depressor and moderately Lip Tightener, which are indicative of sadness. The whisper transcript does not provide any emotional cues."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral vocal delivery with no noticeable signs of emotion, suggesting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression strongly suggests sadness due to the Lip Corner Depressor, despite the neutral audio description."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Considering the strong visual cues of sadness, I revise my stance to acknowledge sadness as the dominant emotion, with neutral as a secondary emotion."
+      }
+    ],
+    "final_justification": "The strong visual cues of sadness, such as the Lip Corner Depressor, outweigh the neutral audio description, leading to the conclusion that sadness is the dominant emotion, with neutral as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script02_1_M044.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a neutral demeanor, with no strong indicators of other emotions. The slight cheek and lip movements could hint at a subtle emotion, but overall, the expression remains neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates expressiveness and varied intonation, which could suggest excitement or engagement. However, without clear verbal content indicating a specific emotion, I initially considered 'excited' but am open to 'neutral' given the lack of strong emotional cues."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio and visual descriptions together suggest a neutral state. The expressiveness in voice could indicate engagement, but the visual cues do not support a strong emotional deviation from neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Upon reconsideration, the expressiveness in voice alone is not enough to override the neutral visual cues. I agree with the neutral assessment."
+      }
+    ],
+    "final_justification": "The woman's overall demeanor, as described in the visual and audio cues, suggests a neutral emotional state. While her voice is expressive, the lack of strong visual indicators of emotion supports a neutral classification.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro05_F008.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "85",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "All experts agree that the woman's vocal tone, facial expressions, and body language indicate happiness as the dominant emotion, with excitement as a secondary emotion due to her rising intonation and fast pacing.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_impro05_F020.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows slight movements in facial muscles, but the overall demeanor and the monotone delivery in the transcript suggest a neutral emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The monotone audio delivery and the content of the transcript suggest a lack of strong emotional expression, indicating a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description of monotone delivery and the visual expression of slight facial movements suggest a neutral emotion, but the content of the transcript could imply underlying frustration."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Upon reconsideration, the lack of strong emotional cues in both audio and visual descriptions supports a neutral emotion more strongly than frustration."
+      }
+    ],
+    "final_justification": "The monotone vocal delivery and slight facial expressions indicate a neutral emotion, as there are no strong cues for any other emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script02_2_F040.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "80",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the whisper transcript suggests a positive sentiment. The visual cues like the lip corner puller and dimpler indicate happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description clearly indicates a happy and excited tone. The vocal delivery is strong and clear, suggesting happiness and excitement."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports happiness and excitement, but the visual expression is more neutral. However, the audio cues are strong enough to suggest happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon considering the audio description, I agree that the dominant emotion is happy, with excitement as a secondary emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert B and A. The audio cues are strong indicators of happiness and excitement."
+      }
+    ],
+    "final_justification": "The audio description strongly indicates happiness and excitement, which is supported by the visual expression cues. The consensus is that the dominant emotion is happy, with excitement as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_2_M031.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a slight smile and calm posture, suggesting happiness or contentment."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates passion and engagement, which could align with excitement or happiness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The vocal delivery is expressive and engaged, and the visual expression shows a slight smile, indicating happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the slight smile and calm demeanor, happiness seems more dominant than excitement."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree, the vocal passion aligns with happiness more than excitement given the visual cues."
+      }
+    ],
+    "final_justification": "The slight smile and calm demeanor in the visual expression, combined with the passionate and engaged vocal delivery, suggest happiness as the dominant emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script03_1_M001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description suggests a neutral expression with no strong indicators of other emotions. The whisper transcript is too brief to provide emotional context."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone, which could suggest frustration or anger, but the lack of pauses or hesitations leans more towards a neutral or controlled emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description's negative tone suggests a possible negative emotion, but the visual expression and objective description indicate a neutral demeanor, leading to a neutral conclusion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Upon reconsideration, the neutral visual cues and the absence of strong negative audio cues suggest that the emotion is more likely neutral."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert B's revised stance. The overall evidence supports a neutral emotion as dominant."
+      }
+    ],
+    "final_justification": "The visual cues and objective description strongly indicate a neutral emotion, and while the audio tone was initially perceived as negative, it lacked sufficient evidence to override the neutral visual indicators.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_1_M000.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description suggests a neutral expression with some elements of concentration, and the whisper transcript indicates a reflective tone, which aligns with a neutral emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a positive tone, which could suggest happiness or excitement, but the transcript content is more reflective, leading me to initially consider a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests positivity, but the visual expression and objective description indicate a neutral demeanor, leading me to initially consider a neutral emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Upon reconsideration, the reflective nature of the transcript and the neutral visual cues outweigh the positive tone in the audio, supporting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert B's revised stance; the overall evidence supports a neutral emotion."
+      }
+    ],
+    "final_justification": "The consensus is that the man's expression and demeanor are neutral, supported by the visual cues and the reflective nature of the transcript, despite the positive tone in the audio.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_1_M028.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows signs of frustration with slight cheek and lid tightening, but the transcript suggests confusion rather than anger."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description clearly indicates anger with a tense and harsh voice, which aligns with the transcript's tone."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports anger, and the visual expression description does not contradict this, as the slight expressions could also accompany anger."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the slight expressions could indeed align with anger, especially given the audio cues."
+      }
+    ],
+    "final_justification": "The audio description strongly indicates anger, supported by the vocal delivery and tone. The visual expressions, while subtle, do not contradict this and can accompany anger, leading to a consensus on anger as the dominant emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro01_F015.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "85",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a slight smile and relaxed posture, indicating happiness. The transcript suggests a positive sentiment, supporting happiness as the dominant emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description highlights a high-pitched, fast-paced tone with enthusiasm, suggesting excitement as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description indicates excitement, but the visual expression shows a calm demeanor with a slight smile, suggesting happiness as the dominant emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Considering the visual cues of a slight smile and relaxed posture, I agree that happiness is more dominant, with excitement as a secondary emotion."
+      }
+    ],
+    "final_justification": "The woman's slight smile and relaxed posture, combined with her enthusiastic tone, suggest that happiness is the dominant emotion, with excitement as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script02_2_F037.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description suggests a neutral demeanor, but the slight lip corner puller and jaw drop could indicate a subtle excitement. However, the whisper transcript doesn't clearly convey excitement."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a happy and excited tone in the woman's voice, which is consistent with her vocal delivery being smooth and strong."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports excitement, but the visual expression description suggests a more neutral or contemplative mood. The audio is more indicative of excitement."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio description and slight visual cues, I agree that excitement is the dominant emotion, with a secondary neutral expression."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with Expert A's revised stance. The audio strongly suggests excitement, and the visual cues can support a secondary neutral emotion."
+      }
+    ],
+    "final_justification": "The audio description strongly indicates excitement as the dominant emotion, supported by the woman's happy and smooth vocal delivery. The visual expression suggests a neutral demeanor, which can be considered as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_2_F028.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the lip corner puller and lip corner depressor suggest a blend of frustration and sadness. The transcript indicates a plea, which aligns with frustration."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description highlights a negative tone with a slow, rough voice, which suggests frustration. The transcript's plea supports this emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description indicates a negative tone, and the visual expression shows earnestness and engagement, which could suggest frustration. However, the slight lip corner puller might indicate a hint of sadness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the earnestness and the plea in the transcript, frustration seems more dominant, with sadness as a secondary emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A. The negative tone and the plea in the transcript strongly suggest frustration as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with Experts A and B. The combination of audio and visual cues supports frustration as the primary emotion, with sadness as a secondary emotion."
+      }
+    ],
+    "final_justification": "The dominant emotion is frustration, supported by the negative tone and plea in the transcript, along with visual cues of earnestness. Sadness is secondary, indicated by slight visual expressions.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_1_M038.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "The visual expression and objective descriptions indicate a warm and inviting demeanor with a broad smile, suggesting happiness. The audio description supports a calm and soothing tone, which aligns with a positive emotional state.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_script01_3_M020.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "All experts agreed that the woman's playful tone, wide smile, and relaxed posture indicate happiness as the dominant emotion. The slight excitement is inferred from her animated expression and cheerful vocal delivery.",
+    "num_debate_rounds": "0",
+    "video_id": "Ses01F_script03_1_F030.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a neutral emotion, as her posture is relaxed and her expression is mostly neutral with slight indicators of contemplation."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a calm and confident vocal delivery, which aligns with a neutral emotion. There are no signs of emotional distress or excitement in her voice."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual and audio cues both suggest a neutral emotion. The slight facial movements and calm voice do not strongly indicate any other emotion."
+      }
+    ],
+    "final_justification": "All experts agree that the woman's expression, posture, and vocal delivery are consistent with a neutral emotion. There are no strong indicators of any other emotion present.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_script01_2_F014.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a neutral demeanor, but the slight lip and chin movements could indicate subtle frustration."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone, suggesting annoyance or frustration, which aligns with the transcript's context."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description points to a negative tone, possibly indicating frustration, while the visual expression remains mostly neutral."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the slight facial movements and the context, I agree that frustration is more dominant than neutrality."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with Expert B's assessment that the audio cues strongly suggest frustration, despite the neutral visual expression."
+      }
+    ],
+    "final_justification": "The audio description strongly indicates a negative tone, suggesting frustration, which is supported by subtle visual cues. The neutral visual expression is secondary.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script02_1_M023.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the overall visual objective description suggests a calm and neutral demeanor. The whisper transcript does not indicate any strong emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a monotone delivery, which aligns with a neutral emotion. The whisper transcript does not provide any emotional cues."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows some tension with the brow and lip raisers, which could suggest frustration. However, the audio description supports a neutral emotion due to the monotone voice."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Upon reconsideration, the overall calm and relaxed posture in the visual objective description supports a neutral emotion more strongly than frustration."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is neutral, as supported by the monotone audio delivery and the relaxed visual posture, despite some facial tension.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro01_F004.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a calm demeanor with a gentle smile, suggesting happiness. The whisper transcript doesn't indicate any negative emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a happy and excited tone, with rising intonation and clear speech, suggesting both happiness and excitement."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports happiness and excitement, while the visual expression shows a calm demeanor with a gentle smile, indicating happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I agree with the audio interpretation that excitement is present, but the dominant emotion remains happiness due to the calm visual expression."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with Expert A that happiness is the dominant emotion, with excitement as a secondary emotion."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is happiness, supported by both the audio and visual cues, with excitement as a secondary emotion due to the rising intonation and clear speech.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_2_F003.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a neutral emotion, as the woman's expression is subtle and slightly serious, with no strong indicators of other emotions."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a natural and friendly tone, which could suggest a neutral or slightly positive emotion, but does not strongly indicate any specific emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio and visual cues both suggest a neutral emotion. The tone is natural and the visual expression is subtle, with no strong indicators of other emotions."
+      }
+    ],
+    "final_justification": "All experts agree that the dominant emotion is neutral, as both the audio and visual cues do not strongly indicate any other specific emotion.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_script02_2_M039.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a gentle smile and relaxed posture, suggesting a calm or content mood, which aligns with 'neutral' or 'happy'."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The vocal delivery is expressive but maintains a neutral tone, with a slight rise in pitch, indicating 'neutral'."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description indicates a neutral tone, and the visual expression suggests a calm demeanor, supporting 'neutral'."
+      },
+      {
+        "role": "Expert A",
+        "argument": "The gentle smile and lip corner puller suggest a hint of happiness, but I agree that the overall expression is more neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that the vocal tone is neutral, but I acknowledge the slight happiness in the visual cues."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is 'neutral' due to the overall calm and relaxed demeanor, with a secondary hint of 'happy' from the gentle smile.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro04_F027.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper transcript 'Ugh...' suggests frustration, but the visual expression and objective description indicate a neutral or contemplative state. The slight brow lowering and lip corner depressor could suggest frustration, but the overall relaxed posture and lack of direct engagement with the camera suggest neutrality."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a monotone and lack of emotion, which aligns with a neutral state. The whisper transcript 'Ugh...' could imply frustration, but the overall tone and delivery do not support a strong emotional expression."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description of a monotone voice and the visual expression of a contemplative posture suggest neutrality. The slight facial expressions could indicate mild frustration, but the overall evidence points to a neutral emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the visual cues of slight brow lowering and lip corner depressor are not strong enough to outweigh the overall neutral posture and tone. I agree with the neutral assessment."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that the monotone voice and lack of emotional delivery support a neutral emotion. The whisper transcript alone is insufficient to suggest a dominant emotion of frustration."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the consensus that the overall evidence supports a neutral emotion. The slight facial expressions are not significant enough to suggest a dominant emotion of frustration."
+      }
+    ],
+    "final_justification": "The consensus is that the overall evidence from audio, visual, and text suggests a neutral emotion. The monotone voice and relaxed posture indicate a lack of strong emotional expression.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script02_1_F001.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression suggests a hint of a smile and slight amusement, indicating a secondary emotion of happiness, but the overall demeanor is calm and neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone with no emotional variation, suggesting a dominant neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports a neutral tone, but the visual expression shows slight amusement, suggesting a secondary emotion of happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the slight amusement in the visual expression, I agree with Expert C that happiness is a secondary emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I acknowledge the visual cues of slight amusement, but the audio remains neutral, so I maintain that neutral is the dominant emotion."
+      }
+    ],
+    "final_justification": "The audio description strongly supports a neutral emotion, while the visual expression suggests a secondary emotion of happiness due to slight amusement.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro05_F026.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description indicates a mix of emotions, but the combination of a moderately cheek raiser, lip tightener, and chin raiser suggests frustration. The whisper transcript 'Turn it off' implies a desire to stop something, which aligns with frustration."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description highlights a negative tone and strained voice, which suggests frustration. The slow speech without pauses indicates a deliberate attempt to control emotions, supporting the idea of frustration."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description's negative tone and the visual expression of a concentrated effort with a grimace suggest frustration. The man's body language and focused engagement imply he is dealing with something challenging, reinforcing the frustration interpretation."
+      }
+    ],
+    "final_justification": "All experts agree that the combination of a negative tone, strained voice, and visual cues such as a grimace and concentrated effort strongly indicate frustration as the dominant emotion.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_script03_2_M037.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "confused",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression of the woman suggests happiness or joy, but the transcript indicates a quest for understanding, which aligns more with confusion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description highlights confusion and disbelief in the man's voice, suggesting he is struggling to understand something, which aligns with confusion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description indicates confusion, but the visual expression of the woman suggests happiness, creating a mixed emotional context."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the man's vocal delivery and the transcript, confusion is more dominant despite the woman's visual expression."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree that the man's vocal delivery and the transcript suggest confusion as the dominant emotion."
+      }
+    ],
+    "final_justification": "The man's vocal delivery and transcript indicate confusion as he seeks understanding, while the woman's visual expression suggests a neutral or happy context, leading to confusion as the dominant emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script03_1_M013.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a pleasant mood, but the transcript indicates anger and frustration."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description clearly indicates anger, with a raised, fast-paced manner and shouting, aligning with the transcript."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports anger, but the visual expression suggests a pleasant mood, creating a conflict."
+      },
+      {
+        "role": "Expert A",
+        "argument": "The transcript's language is undeniably angry, which should take precedence over the visual cues."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Given the strong audio cues of anger, I agree that anger is the dominant emotion despite the visual cues."
+      }
+    ],
+    "final_justification": "The transcript and audio description strongly indicate anger, which is supported by the vocal delivery. The visual cues are contradictory, but the verbal and auditory evidence is more compelling.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script03_2_M040.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression of the woman suggests a pleasant and relaxed demeanor, which could indicate a neutral or happy emotion. However, the whisper transcript 'maybe get a car' is ambiguous and doesn't strongly suggest any emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone in the man's voice, suggesting sadness. The whisper transcript doesn't provide enough context to contradict this interpretation."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description highlights a negative tone, possibly sad, while the visual expression of the woman suggests neutrality. The combination of these suggests a primary emotion of sadness with a secondary emotion of neutrality."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio description, I agree that the man's tone suggests sadness, which is more dominant than the woman's neutral expression."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with Expert B's assessment that the man's tone is the dominant factor here, indicating sadness."
+      }
+    ],
+    "final_justification": "The man's negative tone in the audio description strongly suggests sadness as the dominant emotion, despite the woman's neutral visual expression.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro04_M022.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "bored",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows slight indicators of various emotions, but none are strong enough to dominate. The setting and posture suggest a neutral state."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone, with boredom and disinterest being the most evident emotions due to the monotonous and tense voice."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio suggests boredom, but the visual expression and setting do not show strong emotional cues, leading to a neutral interpretation."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio description, I agree that boredom is present, but the overall expression remains neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I acknowledge the visual neutrality but maintain that the audio strongly suggests boredom."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert B that the audio suggests boredom, but the visual cues are neutral, leading to a consensus on neutral with a secondary emotion of boredom."
+      }
+    ],
+    "final_justification": "The visual cues suggest a neutral state, while the audio indicates boredom. The consensus is that the dominant emotion is neutral, with boredom as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_2_F033.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description suggests a neutral expression with slight tension, but the whisper transcript doesn't indicate any strong emotion. I initially considered 'neutral' as the dominant emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, with no emotional cues in the voice. I also initially identified 'neutral' as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows some tension, which could suggest frustration, but the audio description supports a neutral tone. I initially considered 'frustrated' due to the visual cues."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Upon reviewing the audio description again, I agree that the neutral tone is more dominant than the slight visual tension. I revise my stance to 'neutral'."
+      }
+    ],
+    "final_justification": "All experts agree that the audio description and overall visual cues support a neutral emotional state, with no strong indicators of other emotions.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_1_F002.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows intensity and engagement, which aligns with excitement. The transcript suggests a positive experience, supporting happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a cheerful and upbeat tone, suggesting happiness as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The combination of animated gestures and a strong vocal delivery suggests excitement as the dominant emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Considering the animated gestures and the vocal tone, I agree that excitement is more dominant than happiness."
+      }
+    ],
+    "final_justification": "The woman's animated gestures and strong vocal delivery indicate excitement as the dominant emotion, with happiness as a secondary emotion due to the cheerful tone.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro05_F016.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest contentment and a gentle smile, indicating happiness. The transcript's context doesn't strongly suggest any negative emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a happy and excited tone in her voice, with a natural delivery and a slight rise in pitch, which often signifies excitement."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports excitement, but the visual expression shows a gentle smile and relaxed demeanor, which aligns more with happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "I agree with Expert B that excitement is present, but the visual cues strongly suggest happiness as the dominant emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I concur with Expert A and C that happiness is more dominant, but excitement is also evident from the vocal tone."
+      }
+    ],
+    "final_justification": "The woman's facial expression and relaxed demeanor strongly indicate happiness, supported by her gentle smile. The audio description suggests excitement, but the overall context and visual cues make happiness the dominant emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script03_1_F002.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and posture suggest a neutral state, with no strong indicators of any specific emotion. The slight lip corner depressor and chin raiser could hint at frustration, but the overall demeanor is calm and neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a slight strain and breathy quality in the voice, which could suggest stress or frustration. However, the monotone delivery and normal pace lean more towards a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio suggests tiredness or stress, while the visual expression is mostly neutral. The combination of these factors points towards a neutral emotion with a hint of frustration."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the slight indicators of frustration in both visual and audio, I agree that frustration could be a secondary emotion, but the primary remains neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A's assessment. The primary emotion is neutral, with frustration as a secondary emotion due to the slight strain in the voice."
+      }
+    ],
+    "final_justification": "The overall demeanor and posture are neutral, supported by the monotone voice delivery. However, slight vocal strain and facial expressions suggest a secondary emotion of frustration.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_1_F003.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper transcript suggests frustration due to the use of 'insufferable' and 'drunk'. The visual expression shows slight signs of frustration with the cheek raiser and lip corner puller."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a monotone delivery, which could suggest neutrality, but the change in pitch and tone at the end hints at frustration."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio's expressive nature and the visual expression's slight indicators of frustration lead me to believe frustration is dominant, but the setting and posture suggest a neutral state."
+      },
+      {
+        "role": "Expert A",
+        "argument": "The visual expression's combination of features like the dimpler and lip corner puller supports frustration more than neutrality."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The monotone delivery initially suggested neutrality, but the pitch change aligns with frustration, supporting Expert A's view."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the others now; the expressive audio and visual cues lean more towards frustration than neutrality."
+      }
+    ],
+    "final_justification": "The combination of the transcript's language, the expressive audio, and the visual cues of slight frustration indicators support frustration as the dominant emotion, with a neutral undertone due to the setting and posture.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_2_F026.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows strong indicators of sadness, such as the strongly Lid Tightener and Lip Corner Depressor, which are consistent with a sad expression. The woman's neutral demeanor suggests a secondary emotion of neutrality."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone with tiredness, which aligns with sadness. The slow speech and roughness in voice further support this emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests a negative tone, and the visual expression supports sadness with the strong Lid Tightener and Lip Corner Depressor. The setting and woman's demeanor suggest a calm, neutral environment."
+      }
+    ],
+    "final_justification": "All experts agree that the dominant emotion is sadness, supported by both audio and visual cues. The secondary emotion is neutral, as the woman's demeanor and setting suggest a calm and controlled atmosphere.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_script02_2_F029.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the slightly raised brows and lip movements suggest sadness. The whisper transcript indicates regret, aligning with sadness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description highlights a tense and expressive delivery, suggesting regret or remorse, which aligns with sadness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description indicates tension and deep emotion, possibly regret, which aligns with sadness. The visual expression shows calmness, hinting at neutrality."
+      },
+      {
+        "role": "Expert A",
+        "argument": "The visual expression's subtle indicators of sadness, combined with the transcript, suggest sadness as dominant."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The calm and attentive visual expression could suggest neutrality, but the audio's emotional depth supports sadness as dominant."
+      }
+    ],
+    "final_justification": "The combination of the audio's expressive and tense delivery, along with the visual expression's subtle indicators of sadness, supports sadness as the dominant emotion. The calm visual demeanor suggests a secondary neutral emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_1_M008.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a slight smile and soft eyes, which suggests mild amusement or happiness. However, the overall setting and posture indicate a neutral or calm state."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone with no signs of strain or effort, suggesting a neutral emotional state."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The combination of a slight smile and relaxed posture in the visual description, along with the neutral tone in the audio, suggests a primarily neutral emotion with a hint of happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon considering the audio description, I agree that the dominant emotion is neutral, with a secondary hint of happiness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with Expert A's revised stance, as the neutral tone is more dominant, with visual cues supporting a secondary emotion of happiness."
+      }
+    ],
+    "final_justification": "The neutral tone in the audio is the most dominant indicator of emotion, supported by the relaxed posture and setting. The slight smile and soft eyes suggest a secondary emotion of happiness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro05_F003.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "All experts agree that the overall expression and demeanor of the individual, combined with the monotone vocal delivery, suggest a neutral emotional state.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_script01_1_F001.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description suggests a hint of a smile and an open, approachable demeanor, which could indicate happiness. However, the overall relaxed and composed demeanor, along with the whisper transcript, suggests a more neutral state."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a confident and serious tone, which aligns more with a neutral emotion rather than happiness. The monotone delivery and steady intonation suggest neutrality."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows signs of a smile, but the audio description's serious and confident tone suggests a neutral emotion. The slight breathiness could indicate engagement, but not necessarily happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the overall context, the neutral emotion seems more dominant due to the serious tone in the audio and the relaxed posture in the visual description."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A. The neutral emotion is more consistent with the audio and visual cues."
+      }
+    ],
+    "final_justification": "The neutral emotion is supported by the serious and confident tone in the audio, as well as the relaxed and composed demeanor in the visual description. The hint of a smile suggests a secondary emotion of happiness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_2_M039.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anxious",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a neutral or calm demeanor, as the woman's posture is relaxed and her facial expression is gentle."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates tension and strain in the voice, suggesting anxiety or stress, which contrasts with the visual cues."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports a feeling of anxiety, but the visual expression shows a gentle and attentive demeanor, indicating a possible mix of emotions."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual cues, the dominant emotion appears to be neutral, but the audio suggests an underlying anxiety."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tension in the voice is significant, but given the visual context, it seems more like a secondary emotion to the overall neutral setting."
+      }
+    ],
+    "final_justification": "The visual cues strongly suggest a neutral emotion, while the audio indicates some underlying anxiety. The consensus is that the dominant emotion is neutral, with anxiety as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script03_1_F000.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a calm and focused demeanor, with slight lip corner puller indicating a neutral or slightly positive emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The monotone vocal delivery indicates a lack of emotional variation, suggesting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description of monotone delivery and the visual expression of a thoughtful demeanor suggest a neutral emotion."
+      }
+    ],
+    "final_justification": "All experts agree that the monotone vocal delivery and calm, focused visual expression indicate a neutral emotional state.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_impro04_F014.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fearful",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a warm and engaged demeanor with a broad smile, suggesting happiness or amusement, despite the transcript content."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a fearful vocal delivery, with a tense and measured pace, suggesting fear or anxiety."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports a fearful emotion, but the visual expression shows a warm and engaged demeanor, indicating a mix of fear and happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "The visual cues are strong indicators of happiness, but the transcript context and audio delivery suggest underlying fear."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The vocal delivery is a stronger indicator of fear, despite the visual expression suggesting happiness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The combination of fearful vocal delivery and happy visual expression suggests a complex emotional state, with fear being more dominant."
+      }
+    ],
+    "final_justification": "The audio description strongly indicates fear, supported by the transcript context, while the visual expression suggests happiness. The fearful emotion is more dominant due to the vocal delivery.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script03_1_F001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description indicates a neutral expression with slight hints of interest or contemplation, and the whisper transcript does not suggest any strong emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a monotone delivery, which aligns with a neutral emotion, as there are no significant changes in pitch or intonation to suggest excitement or other emotions."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows slight brow and lip movements, which could suggest a hint of surprise or interest, but the overall posture and audio description support a neutral emotion."
+      }
+    ],
+    "final_justification": "All experts agree that the dominant emotion is neutral, supported by the monotone vocal delivery and relaxed posture. Slight facial movements suggest minimal emotional engagement, but not enough to indicate a secondary emotion.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_script01_1_F000.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows slight positive indicators like Lip Corner Puller and Dimpler, suggesting happiness, but the overall expression is quite neutral. The transcript doesn't provide strong emotional cues."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a positive tone, suggesting happiness and confidence. The transcript is neutral, but the tone is a strong indicator of happiness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests happiness due to the positive tone. The visual expression is mostly neutral, but slight positive indicators support a happy emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio description and slight positive visual cues, I agree that happiness is the dominant emotion, with neutrality as a secondary emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I maintain that happiness is the dominant emotion due to the positive tone and slight positive visual cues."
+      }
+    ],
+    "final_justification": "The audio description strongly indicates a happy and confident tone, supported by slight positive visual cues. The overall neutral visual expression suggests neutrality as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script01_1_M042.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of slight emotional indicators, but overall, the facial expression and posture suggest a neutral state. The transcript doesn't convey strong emotion either."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone with a flat intonation, suggesting a neutral emotion. The transcript doesn't provide any emotional cues that would suggest otherwise."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports a neutral tone, but the visual expression shows some signs of potential frustration or contemplation, such as the upper lip raiser and chin raiser."
+      },
+      {
+        "role": "Expert A",
+        "argument": "While there are slight indicators of other emotions, they are not strong enough to override the overall neutral impression from the visual and textual data."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Upon reconsideration, the overall context and the lack of strong emotional cues in both audio and visual descriptions support a neutral emotion as the most dominant."
+      }
+    ],
+    "final_justification": "The consensus is that the overall emotional tone is neutral, as indicated by the flat intonation in the audio and the relaxed posture and facial expression in the visual description. Slight emotional indicators are present but not dominant.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_1_F028.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the lip corner puller and cheek raiser suggest a slight smile, indicating a neutral or slightly positive emotion. However, the whisper transcript's content about 'grubbing for money' suggests frustration."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone with tension, which aligns with frustration. The transcript's content about wanting a family and working hard supports this emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description's negative tone and tension, combined with the visual expression of slight tension and engagement, suggest frustration as the dominant emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the combination of visual cues and transcript content leans more towards frustration as the dominant emotion, with neutral as a secondary emotion due to the relaxed posture."
+      }
+    ],
+    "final_justification": "The dominant emotion is frustration, supported by the negative tone and tension in the audio, as well as the transcript's content about financial struggles. The neutral emotion is secondary, indicated by the relaxed posture and slight smile.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_1_M035.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression description indicates a neutral expression with slight cheek and lip movements, suggesting a neutral emotion. The whisper transcript does not provide any emotional cues."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a monotone voice, which aligns with a neutral emotion. The whisper transcript lacks emotional context."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports a neutral emotion due to the monotone delivery. The visual expression description also suggests neutrality with slight movements."
+      }
+    ],
+    "final_justification": "All experts agree that the combination of a monotone voice and a neutral facial expression indicates a dominant neutral emotion.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_impro01_M002.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a slight smile and relaxed demeanor, suggesting a neutral or mildly happy emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The monotone voice and lack of vocal variation indicate a neutral emotion, as there are no signs of excitement or distress."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports a neutral emotion due to the monotone delivery, but the visual expression with a slight smile suggests a hint of happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the slight smile and relaxed posture, I lean towards neutral with a secondary hint of happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with the neutral assessment, but acknowledge the slight smile could indicate mild happiness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with the neutral emotion as dominant, with a secondary possibility of happiness due to the visual cues."
+      }
+    ],
+    "final_justification": "The monotone voice and relaxed posture strongly indicate a neutral emotion, while the slight smile suggests a secondary hint of happiness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script02_2_M040.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper transcript suggests a lack of happiness, and the visual expression shows signs of sadness with the inner brow raiser and lid tightener. The overall visual description indicates a contemplative state, which aligns with sadness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone with a low and rough voice, which suggests sadness. The transcript also supports this with the statement about not making someone happy."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description's negative tone and the visual expression's lid tightener and jaw drop suggest sadness. However, the relaxed posture and neutral engagement in the visual objective description could imply neutrality."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering Expert B's and C's points, the negative tone and visual cues strongly indicate sadness as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert A and B that the sadness is more dominant due to the negative tone and visual expressions, despite the neutral posture."
+      }
+    ],
+    "final_justification": "The dominant emotion is sadness, supported by the negative tone in the audio and the visual expressions indicating sadness. The neutral posture suggests a secondary emotion of neutrality.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script02_2_M044.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper transcript and visual expression suggest a mix of emotions, but the overall visual description and slight expressions lean towards a neutral state."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, with no emotional cues in the voice, suggesting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports a neutral tone, and the visual expressions, while varied, do not strongly indicate any specific emotion, supporting a neutral interpretation."
+      }
+    ],
+    "final_justification": "All experts agree that the dominant emotion is neutral, as both the audio and visual cues do not strongly indicate any specific emotion. The slight expressions observed are not enough to suggest a secondary emotion.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_impro04_F006.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a calm and attentive demeanor, which aligns with a neutral emotion. The slight lip corner puller and dimpler could indicate a hint of frustration, but the overall visual cues are more neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone with a tense and breathy voice, which suggests frustration. The whisper transcript also implies a defensive stance, supporting the frustrated emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description's negative tone and tense voice suggest frustration, but the visual expression shows calmness and attentiveness, which leans towards neutral. The slight lip corner puller could indicate a secondary emotion of frustration."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio description, I acknowledge the presence of frustration as a secondary emotion due to the tense voice, but the visual cues still strongly support a neutral emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree that the visual cues are neutral, but the audio strongly suggests frustration. I can accept neutral as the primary emotion with frustration as secondary."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with the consensus that neutral is the primary emotion, with frustration as a secondary emotion due to the audio description."
+      }
+    ],
+    "final_justification": "The visual cues predominantly indicate a neutral emotion, while the audio description suggests a secondary emotion of frustration due to the tense and negative tone.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_2_M028.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "bored",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a contemplative and calm demeanor, with no strong indicators of any specific emotion, suggesting a neutral state."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a bored and uninterested tone, which suggests a lack of engagement, pointing towards a neutral or bored emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description of a monotone voice and the visual expression of contemplation suggest a neutral emotion, but the lack of engagement hints at boredom."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual cues of attentiveness and engagement, I maintain that the dominant emotion is neutral, with a secondary emotion of boredom due to the audio description."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A that the primary emotion is neutral, but the audio's indication of boredom should be acknowledged as a secondary emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with the others that the primary emotion is neutral, with boredom as a secondary emotion due to the monotone voice."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is neutral, supported by the contemplative and calm visual cues, with boredom as a secondary emotion due to the monotone and uninterested audio delivery.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro01_M011.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the small smile and engaged posture suggest a neutral or slightly positive emotion. The transcript indicates a potential for frustration, but the visual cues are more dominant."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone, with no significant emotional highs or lows. The transcript suggests frustration, but the vocal delivery does not support this strongly."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio suggests neutrality, but the visual expression with cheek raiser and lip corner puller indicates a slight positive emotion. However, the context of the transcript suggests underlying frustration."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual cues and the context, I agree that while the primary emotion is neutral, there is an underlying frustration due to the situation described."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I concur with Expert A. The neutral tone is dominant, but the context of the transcript supports a secondary emotion of frustration."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the consensus. The neutral emotion is dominant, with frustration as a secondary emotion due to the situational context."
+      }
+    ],
+    "final_justification": "The dominant emotion is neutral, supported by the audio and visual cues. However, the context of the transcript suggests an underlying frustration, making it the secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro05_F004.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a subtle smile and relaxed posture, suggesting a positive demeanor, possibly indicating happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a monotone delivery without expressiveness, suggesting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The combination of a monotone voice and a subtle smile suggests a neutral state with a hint of happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the subtlety of the smile and the relaxed posture, I agree that the dominant emotion is neutral with a secondary hint of happiness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with Expert A's revised stance, as the visual cues are not strong enough to override the neutral vocal delivery."
+      }
+    ],
+    "final_justification": "The monotone vocal delivery strongly indicates a neutral emotion, while the subtle smile and relaxed posture suggest a secondary hint of happiness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script02_2_M026.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper_transcript suggests frustration due to the language used, such as 'lip service' and 'aggressive searching.' The visual expression shows a mix of engagement and slight smile, which could indicate a neutral or slightly positive emotion, but the context of the words suggests frustration is more dominant."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a bored and disinterested tone, which aligns more with a neutral emotion. The lack of significant changes in pitch or intonation suggests the speaker is not highly emotional, leaning towards neutral."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows engagement and slight enthusiasm, but the audio description of a monotone and bored delivery suggests a mismatch. The context of the words and the slight emphasis on certain words suggest frustration is more dominant."
+      },
+      {
+        "role": "Expert B",
+        "argument": "Upon reconsideration, the language in the transcript does suggest frustration, despite the neutral tone in the audio. I agree that frustration is the dominant emotion."
+      }
+    ],
+    "final_justification": "The language in the transcript strongly indicates frustration, supported by the visual cues of engagement and emphasis. Although the audio tone was neutral, the context and emphasis in the speech suggest frustration is the dominant emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro05_M026.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows signs of amusement or contentment, suggesting a happy emotion, but the lip corner depressor and lip tightener indicate a more neutral or slightly negative emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a relaxed and natural vocal delivery without strong emotions, suggesting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression and audio description together suggest a neutral emotion, as the relaxed posture and natural voice do not convey strong emotions."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the overall relaxed and open posture, combined with the slight smile, supports a neutral emotion with a hint of happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A's revised stance, as the audio does not contradict a neutral emotion with a hint of happiness."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is neutral due to the relaxed and natural vocal delivery and posture, with a secondary hint of happiness suggested by the slight smile and content expression.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script01_3_F009.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a bright and engaged demeanor, with a broad smile and squinting eyes indicating happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a happy and satisfied tone in her voice, with no signs of strain, supporting the emotion of happiness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests happiness, but the visual expression with a moderately lid tightener and jaw drop could also indicate excitement."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual cues of a broad smile and squinting eyes, happiness seems more dominant than excitement."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree that happiness is more dominant, but the slight rise in pitch and engaged posture could suggest a secondary emotion of excitement."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is happiness, supported by both visual and audio cues. A secondary emotion of excitement is considered due to the engaged posture and slight rise in pitch.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script01_3_F021.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a slight smile and relaxed demeanor, suggesting a pleasant or happy emotion, but the overall setting and posture are neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone with no expressive elements, suggesting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio is neutral, and while there is a slight smile, the overall visual setting is calm and neutral, supporting a neutral emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the slight smile and relaxed posture, I initially leaned towards happy, but I acknowledge the stronger neutral cues."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The slight smile could suggest a secondary emotion of happiness, but the dominant emotion remains neutral."
+      }
+    ],
+    "final_justification": "The neutral vocal delivery and relaxed visual setting strongly indicate a neutral emotion, with a slight smile suggesting a secondary emotion of happiness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script02_2_M053.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "85",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "All experts agreed that the dominant emotion is 'happy' due to the wide smile, positive tone, and animated facial expression. The secondary emotion 'surprised' is supported by the surprised tone in the audio and the expression of disbelief in the transcript.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01M_script02_1_M000.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a serene demeanor with a subtle smile, suggesting neutrality. However, the transcript's content hints at possible sadness or frustration."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral tone with sincerity and honesty, which aligns with a neutral emotion. The transcript's content could suggest sadness, but the tone doesn't support it strongly."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description supports a neutral emotion due to the calm and steady pace. The visual expression, with a gentle smile, also suggests neutrality, but the slightly lowered brow could hint at sadness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the overall serene visual expression and neutral audio tone, I agree that neutral is the dominant emotion. The content of the transcript suggests a secondary emotion of sadness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with the consensus that neutral is the dominant emotion, with a secondary hint of sadness based on the transcript."
+      }
+    ],
+    "final_justification": "The dominant emotion is neutral due to the calm and steady vocal delivery and serene visual expression. The transcript suggests a secondary emotion of sadness, but it is not strongly supported by the audio or visual cues.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro05_M033.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a neutral demeanor, with no overt signs of distress or excitement. The slight lip corner puller and dimpler could indicate a hint of frustration, but the overall expression is neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a flat, monotonous tone with a strained and tired voice, suggesting frustration. The whisper transcript also hints at a discussion about not hiring someone who is angry or upset, which could imply underlying frustration."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description of a flat, monotonous tone and strained voice aligns with frustration. However, the visual expression is mostly neutral, which could suggest a calm demeanor. The slight lip corner puller might indicate a hint of frustration."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio description, I acknowledge the possibility of underlying frustration. However, the visual cues still predominantly suggest neutrality."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree that the visual cues are neutral, but the audio strongly suggests frustration. I will concede that neutral is the dominant emotion, with frustration as a secondary emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert B's revised stance. The visual cues are neutral, but the audio suggests some frustration. Neutral is the dominant emotion."
+      }
+    ],
+    "final_justification": "The visual cues predominantly suggest a neutral demeanor, while the audio description indicates some underlying frustration. Therefore, neutral is the dominant emotion, with frustration as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro04_F011.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the lip corner puller and cheek raiser suggest happiness. The whisper transcript is neutral, but the visual cues lean towards happy."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a positive and enthusiastic tone, which aligns with happiness. The whisper transcript is neutral, but the vocal tone suggests happiness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests a positive tone, and the visual expression shows signs of happiness with the lip corner puller and cheek raiser. However, the overall body language is relaxed and introspective, which could also suggest neutrality."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual cues and the slight smile, I agree with the happy emotion being dominant, with neutrality as a secondary emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert A's assessment. The visual cues and audio tone support happiness as the dominant emotion."
+      }
+    ],
+    "final_justification": "The combination of a positive and enthusiastic vocal tone, along with visual cues such as the lip corner puller and cheek raiser, indicate happiness as the dominant emotion. The relaxed body language suggests neutrality as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script01_1_M027.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a relaxed and content demeanor, indicating a neutral emotion. The slight smile and open body language support this."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone with a flat voice and slow speech, suggesting frustration."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description aligns with a negative tone, but the visual expression shows a gentle smile, indicating a mix of neutral and frustrated emotions."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the slight smile and open posture, I maintain that the dominant emotion is neutral, but I acknowledge the possibility of underlying frustration."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree that the visual cues suggest a neutral demeanor, but the audio tone cannot be ignored, indicating frustration as a secondary emotion."
+      }
+    ],
+    "final_justification": "The visual cues predominantly suggest a neutral emotion, supported by the relaxed posture and slight smile. However, the audio tone indicates an underlying frustration, making it the secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro05_M032.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "disappointed",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The whisper transcript suggests a sense of frustration with the situation, as the speaker reflects on unmet expectations. The visual expression description, with features like a slightly raised upper lip and tightened lips, supports this frustration."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone with a sense of frustration and disappointment. The slow, low voice and pauses suggest a contemplative and frustrated state."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description aligns with a frustrated emotion, and the visual expression description, with features like a slightly raised upper lip and tightened lips, supports this. However, the contemplative gaze and relaxed posture could also suggest a neutral or pensive state."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering Expert B's input on the audio tone, I agree that disappointment is also present, but frustration remains dominant."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I acknowledge the frustration as dominant, given the audio description and visual cues. The contemplative posture might indicate disappointment as a secondary emotion."
+      }
+    ],
+    "final_justification": "The dominant emotion is frustration, as indicated by the negative tone and visual cues. Disappointment is also present, supported by the audio description and contemplative posture.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script02_2_M035.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a relaxed smile and open body language, suggesting happiness. The whisper transcript is neutral, but the visual cues are strong indicators of happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description highlights expressive and happy vocal delivery with rising intonation and vocal expressions like 'yay!' and 'yeah!', indicating excitement and happiness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests happiness and enthusiasm, while the visual expression shows a relaxed smile, supporting happiness as the dominant emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering Expert B and C's points, the vocal expressions do suggest excitement as well. I agree that excitement is a secondary emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert A and B that happiness is the dominant emotion, with excitement as a secondary emotion due to the vocal expressions."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is happiness, supported by both visual and audio cues. The vocal expressions also indicate excitement, making it a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro07_M006.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a slight smile and relaxed posture, suggesting a pleasant mood, possibly happy."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral vocal delivery, suggesting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The combination of neutral audio and slight smile in visual expression suggests a neutral emotion with a hint of happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the slight smile and relaxed posture, I agree that neutral is dominant, but happiness is also present."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I maintain that the vocal delivery is neutral, but I acknowledge the visual cues of happiness."
+      }
+    ],
+    "final_justification": "The neutral vocal delivery and relaxed posture indicate a neutral emotion, while the slight smile suggests a secondary emotion of happiness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro07_F024.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a serious and focused demeanor, which aligns with a neutral emotion. The whisper transcript does not indicate any strong emotional cues."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a clear and monotone delivery, which suggests a neutral emotion. The whisper transcript does not provide evidence of any strong emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows slight movements that could suggest a mix of emotions, but the audio description's monotone delivery supports a neutral emotion. Initially, I considered 'frustrated' due to the context of the transcript, but the overall evidence leans towards neutral."
+      }
+    ],
+    "final_justification": "All experts agree that the woman's expression and vocal delivery are consistent with a neutral emotion. The slight facial movements and context do not strongly indicate any other emotion.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_script01_1_F002.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression of the woman suggests happiness due to her broad smile and warm demeanor, but the whisper transcript 'Wow' is neutral without additional context."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone with a flat voice, suggesting a neutral or possibly frustrated emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description's negative tone contrasts with the visual expression of happiness, leading to a neutral interpretation overall."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual expression alone, happiness is evident, but the lack of context in the transcript supports a neutral stance."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The flat tone and slow speech reinforce a neutral emotion, aligning with Expert C's interpretation."
+      }
+    ],
+    "final_justification": "The audio description suggests a neutral tone, while the visual expression indicates happiness. The consensus is that the overall emotion is neutral, with a secondary indication of happiness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_impro03_M018.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the moderately raised cheek and lip corner puller suggest a hint of sadness. The whisper transcript 'Oh shut up' could indicate frustration."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description highlights a sad or disappointed tone, with a sense of urgency, which aligns with sadness as the dominant emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests sadness, but the visual expression with a moderately tight lid and dimpler could also indicate frustration."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the visual cues of cheek raiser and lip corner puller align more with sadness, supporting the audio description."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert A and B that sadness is more dominant, but the frustration is still present as a secondary emotion."
+      }
+    ],
+    "final_justification": "The audio description strongly indicates sadness as the dominant emotion, supported by the visual expression. The phrase 'Oh shut up' and some visual cues suggest frustration as a secondary emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script03_2_F027.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "contemplative",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a subtle, closed-lip smile and a relaxed demeanor, suggesting a neutral or content attitude."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a tense voice with a breathy quality, which could imply frustration or contemplation."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The combination of a tense voice and a relaxed visual posture suggests a neutral state with a hint of contemplation."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual cues, the overall demeanor is more neutral than any other emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The tension in the voice could be due to contemplation rather than frustration, aligning with a neutral state."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the neutral assessment, as the visual cues outweigh the slight tension in the voice."
+      }
+    ],
+    "final_justification": "The visual cues of a relaxed posture and subtle smile suggest a neutral emotion, while the audio hints at contemplation, leading to a consensus on a neutral state with a contemplative undertone.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_1_M022.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "All experts agree that the dominant emotion is happiness, supported by the woman's bright and animated facial expression, her relaxed and open posture, and the emotional tone of her voice.",
+    "num_debate_rounds": "0",
+    "video_id": "Ses01F_impro03_F005.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a subtle smile and relaxed posture, suggesting a neutral or mildly positive demeanor. However, the whisper transcript is ambiguous, and the visual expression does not strongly indicate happiness, leading me to lean towards neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative vocal delivery with tension, suggesting frustration or anger. The whisper transcript is unclear, but the tone of voice is a strong indicator of frustration."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests frustration or anger due to the tense and slow vocal delivery. The visual expression shows a subtle smile, but the audio cues are more dominant, leading me to conclude frustration."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the audio description's emphasis on frustration, I agree that frustration is more dominant than neutral."
+      }
+    ],
+    "final_justification": "The audio description strongly indicates frustration due to the tense and slow vocal delivery, which outweighs the subtle smile observed in the visual expression. Therefore, frustration is the dominant emotion, with a secondary neutral expression due to the relaxed posture and subtle smile.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script02_2_F014.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a strong lip corner depressor and jaw drop, which suggests surprise. The visual objective description indicates a relaxed engagement, hinting at neutrality."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates surprise due to the expressive and monotone delivery with rising intonation. The whisper transcript is too brief to provide additional context."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests surprise, and the visual expression supports this with a jaw drop. However, the overall visual setting and posture suggest neutrality."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the strong jaw drop and lip corner depressor, surprise seems more dominant than neutrality."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A. The audio cues strongly indicate surprise, which aligns with the visual expression."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with the others. The surprise is more evident, but neutrality is also present due to the relaxed posture."
+      }
+    ],
+    "final_justification": "The dominant emotion is surprise, supported by both audio and visual expressions, particularly the jaw drop and rising intonation. Neutrality is secondary, indicated by the relaxed posture and setting.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01F_script02_1_M010.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "bored",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression suggests mild amusement and engagement, but the whisper transcript is neutral, leading me to believe the dominant emotion is neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a monotone delivery, suggesting boredom or disinterest, which aligns with a neutral or bored emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows mild amusement, but the audio suggests boredom. I initially thought neutral due to the mixed signals."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the monotone audio, I agree that boredom could be a secondary emotion, but the visual cues still suggest neutrality."
+      },
+      {
+        "role": "Expert B",
+        "argument": "I agree with Expert A that the primary emotion is neutral, with boredom as a secondary emotion due to the monotone voice."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I concur with the others; the primary emotion is neutral, with boredom as a secondary emotion."
+      }
+    ],
+    "final_justification": "The consensus is that the primary emotion is neutral due to the mixed visual and audio cues, with boredom as a secondary emotion due to the monotone voice.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_1_F002.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "False",
+    "debate": [],
+    "final_justification": "All experts agree that the dominant emotion is neutral based on the audio description of a neutral vocal delivery and the visual expression and posture indicating a relaxed and contemplative state.",
+    "num_debate_rounds": "1",
+    "video_id": "Ses01F_script03_2_M013.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a subtle smile and relaxed posture, suggesting a hint of happiness, but the overall demeanor is calm and neutral."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a neutral vocal delivery with no emotional cues, supporting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio is neutral, and while the visual expression has elements of happiness, the overall impression is more neutral."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the subtle smile and relaxed demeanor, I agree that neutral is dominant, but there is a slight indication of happiness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert A that while the primary emotion is neutral, the visual cues do suggest a secondary emotion of happiness."
+      }
+    ],
+    "final_justification": "The audio and visual cues predominantly indicate a neutral emotion, but the subtle smile and relaxed demeanor suggest a secondary emotion of happiness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro03_F013.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression and objective description suggest a neutral emotion, as the facial features and posture do not indicate any strong emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a natural and clear vocal delivery without any signs of emotional strain, suggesting a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The combination of audio and visual cues, such as the relaxed posture and natural voice, support a neutral emotion, but the slight facial expressions could hint at contemplation or mild surprise."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Upon reconsideration, the overall cues are more aligned with neutrality, as the slight facial expressions are not strong enough to suggest a dominant emotion other than neutral."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is neutral, as both the visual and audio cues consistently indicate a lack of strong emotional expression.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro02_F013.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a subtle smile and relaxed posture, suggesting a neutral to slightly happy emotion. The whisper transcript 'Just cash hardcore' is ambiguous and doesn't strongly indicate any emotion."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a negative tone with a flat and slow speech pattern, suggesting a neutral or possibly frustrated emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description suggests a negative tone, but the visual expression shows a subtle smile and relaxed posture, indicating a neutral emotion with a hint of happiness."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Considering the visual cues and the lack of strong emotional indicators in the text, I lean towards neutral with a slight hint of happiness."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The negative tone in the audio is not strong enough to override the visual cues of a subtle smile, so I agree with a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with the consensus that the overall emotion is neutral, with a slight hint of happiness due to the visual expression."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is neutral, supported by the relaxed posture and subtle smile in the visual expression, with a slight hint of happiness. The audio description's negative tone was not strong enough to override these visual cues.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro03_M018.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the upward gaze and composed demeanor suggest a neutral state. However, the whisper transcript's context of discussing helicopters and the positive tone could imply excitement."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a positive intonation and expressive delivery, suggesting happiness and excitement. The whisper transcript supports this with a light-hearted conversation about helicopters."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio description highlights a positive intonation, suggesting excitement. The visual expression, while composed, does not contradict this, as the slight smile and relaxed posture can align with excitement."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the context of the conversation and the positive intonation in the audio suggest that excitement is more dominant than neutrality."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert B's assessment that the audio and visual cues align more with excitement than neutrality."
+      }
+    ],
+    "final_justification": "The audio description and context of the conversation strongly suggest excitement, supported by the positive intonation and expressive delivery. The visual cues, while initially suggesting neutrality, do not contradict the excitement inferred from the audio.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro07_M013.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a mix of emotions, but the slightly Lip Corner Puller and moderately Dimpler suggest a hint of sadness. The whisper transcript doesn't provide strong emotional cues, but the context could imply disappointment."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a tone of sadness or disappointment, which aligns with the slow and steady pace of speech. The whisper transcript's content suggests a sense of secrecy or concern, but the tone is more indicative of sadness."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The audio suggests sadness, and the visual expression, with features like Lid Tightener and Lip Tightener, supports this. The setting and posture don't strongly indicate any other emotion."
+      },
+      {
+        "role": "Expert A",
+        "argument": "Upon reconsideration, the visual cues of Lid Tightener and Lip Tightener do align with sadness, supporting the audio interpretation."
+      },
+      {
+        "role": "Expert C",
+        "argument": "I agree with Expert B and A. The combination of audio and visual cues points to sadness as the dominant emotion."
+      }
+    ],
+    "final_justification": "The consensus is that the dominant emotion is sadness, supported by the audio's tone and visual expressions like Lid Tightener and Lip Tightener. The whisper transcript's context suggests disappointment, aligning with sadness.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_script03_1_F001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "Is_disagreement_detected": "True",
+    "debate": [
+      {
+        "role": "Expert A",
+        "argument": "The visual expression shows a calm and composed demeanor with a hint of a smile, suggesting a neutral emotion. The whisper transcript does not indicate any strong emotional content."
+      },
+      {
+        "role": "Expert B",
+        "argument": "The audio description indicates a natural and pleasant vocal delivery, which aligns with a neutral emotion. There is no indication of excitement, frustration, or any other strong emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "The visual expression shows some tension with the lid tightener and nose wrinkler, which could suggest a hint of frustration or surprise. However, the audio description supports a neutral emotion."
+      },
+      {
+        "role": "Expert C",
+        "argument": "Upon reconsideration, the overall calm and composed demeanor, along with the natural vocal delivery, supports a neutral emotion. The slight tension in the visual expression is not enough to override the dominant neutral cues."
+      }
+    ],
+    "final_justification": "The consensus is that the overall demeanor and vocal delivery indicate a neutral emotion, with no strong indicators of any other emotion.",
+    "num_debate_rounds": "2",
+    "video_id": "Ses01M_impro02_F010.mp4",
+    "ground_truth": "sad"
+  }
+]

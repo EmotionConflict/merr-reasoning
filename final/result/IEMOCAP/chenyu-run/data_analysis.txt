@@ -1,0 +1,142 @@
+File: final/result/IEMOCAP/chenyu-run/baseline_T_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.26
+Label: frustrated -> Precision: 0.19, Recall: 0.50, F1 Score: 0.28, Support: 18
+Label: excited -> Precision: 0.56, Recall: 0.33, F1 Score: 0.42, Support: 15
+Label: happy -> Precision: 0.22, Recall: 0.11, F1 Score: 0.15, Support: 18
+Label: fearful -> Precision: 0.67, Recall: 0.17, F1 Score: 0.27, Support: 12
+Label: neutral -> Precision: 0.19, Recall: 0.50, F1 Score: 0.28, Support: 16
+Label: sad -> Precision: 0.40, Recall: 0.13, F1 Score: 0.20, Support: 15
+Label: angry -> Precision: 0.67, Recall: 0.10, F1 Score: 0.17, Support: 20
+Label: surprised -> Precision: 0.44, Recall: 0.27, F1 Score: 0.33, Support: 15
+
+File: final/result/IEMOCAP/chenyu-run/mini_baseline_TAV_TOT_gpt4o_3-expert-UNI.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.26
+Label: frustrated -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 18
+Label: excited -> Precision: 0.45, Recall: 0.33, F1 Score: 0.38, Support: 15
+Label: happy -> Precision: 0.31, Recall: 0.50, F1 Score: 0.38, Support: 18
+Label: fearful -> Precision: 0.50, Recall: 0.08, F1 Score: 0.14, Support: 12
+Label: neutral -> Precision: 0.18, Recall: 0.62, F1 Score: 0.27, Support: 16
+Label: sad -> Precision: 0.42, Recall: 0.33, F1 Score: 0.37, Support: 15
+Label: angry -> Precision: 0.75, Recall: 0.15, F1 Score: 0.25, Support: 20
+Label: surprised -> Precision: 0.25, Recall: 0.07, F1 Score: 0.11, Support: 15
+
+File: final/result/IEMOCAP/chenyu-run/baseline_TAV_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.28
+Label: frustrated -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 18
+Label: excited -> Precision: 0.45, Recall: 0.33, F1 Score: 0.38, Support: 15
+Label: happy -> Precision: 0.31, Recall: 0.44, F1 Score: 0.36, Support: 18
+Label: fearful -> Precision: 0.75, Recall: 0.25, F1 Score: 0.38, Support: 12
+Label: neutral -> Precision: 0.18, Recall: 0.69, F1 Score: 0.29, Support: 16
+Label: sad -> Precision: 0.42, Recall: 0.33, F1 Score: 0.37, Support: 15
+Label: angry -> Precision: 0.75, Recall: 0.15, F1 Score: 0.25, Support: 20
+Label: surprised -> Precision: 0.33, Recall: 0.07, F1 Score: 0.11, Support: 15
+
+File: final/result/IEMOCAP/chenyu-run/mini_baseline_TAV_COT_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.26
+Label: frustrated -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 18
+Label: excited -> Precision: 0.45, Recall: 0.33, F1 Score: 0.38, Support: 15
+Label: happy -> Precision: 0.30, Recall: 0.44, F1 Score: 0.36, Support: 18
+Label: fearful -> Precision: 0.50, Recall: 0.08, F1 Score: 0.14, Support: 12
+Label: neutral -> Precision: 0.18, Recall: 0.69, F1 Score: 0.29, Support: 16
+Label: sad -> Precision: 0.36, Recall: 0.27, F1 Score: 0.31, Support: 15
+Label: angry -> Precision: 0.75, Recall: 0.15, F1 Score: 0.25, Support: 20
+Label: surprised -> Precision: 0.25, Recall: 0.07, F1 Score: 0.11, Support: 15
+
+File: final/result/IEMOCAP/chenyu-run/baseline_TV_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.26
+Label: frustrated -> Precision: 0.27, Recall: 0.17, F1 Score: 0.21, Support: 18
+Label: excited -> Precision: 0.50, Recall: 0.20, F1 Score: 0.29, Support: 15
+Label: happy -> Precision: 0.35, Recall: 0.61, F1 Score: 0.45, Support: 18
+Label: fearful -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 12
+Label: neutral -> Precision: 0.17, Recall: 0.81, F1 Score: 0.28, Support: 16
+Label: sad -> Precision: 0.67, Recall: 0.13, F1 Score: 0.22, Support: 15
+Label: angry -> Precision: 1.00, Recall: 0.05, F1 Score: 0.10, Support: 20
+Label: surprised -> Precision: 1.00, Recall: 0.07, F1 Score: 0.12, Support: 15
+
+File: final/result/IEMOCAP/chenyu-run/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-UNI.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.26
+Label: frustrated -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 18
+Label: excited -> Precision: 0.45, Recall: 0.33, F1 Score: 0.38, Support: 15
+Label: happy -> Precision: 0.32, Recall: 0.44, F1 Score: 0.37, Support: 18
+Label: fearful -> Precision: 0.50, Recall: 0.08, F1 Score: 0.14, Support: 12
+Label: neutral -> Precision: 0.19, Recall: 0.75, F1 Score: 0.30, Support: 16
+Label: sad -> Precision: 0.36, Recall: 0.27, F1 Score: 0.31, Support: 15
+Label: angry -> Precision: 0.75, Recall: 0.15, F1 Score: 0.25, Support: 20
+Label: surprised -> Precision: 0.25, Recall: 0.07, F1 Score: 0.11, Support: 15
+
+File: final/result/IEMOCAP/chenyu-run/mini_baseline_TAV_TOT_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.26
+Label: frustrated -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 18
+Label: excited -> Precision: 0.38, Recall: 0.33, F1 Score: 0.36, Support: 15
+Label: happy -> Precision: 0.30, Recall: 0.44, F1 Score: 0.36, Support: 18
+Label: fearful -> Precision: 0.50, Recall: 0.08, F1 Score: 0.14, Support: 12
+Label: neutral -> Precision: 0.19, Recall: 0.69, F1 Score: 0.30, Support: 16
+Label: sad -> Precision: 0.42, Recall: 0.33, F1 Score: 0.37, Support: 15
+Label: angry -> Precision: 0.75, Recall: 0.15, F1 Score: 0.25, Support: 20
+Label: surprised -> Precision: 0.25, Recall: 0.07, F1 Score: 0.11, Support: 15
+
+File: final/result/IEMOCAP/chenyu-run/baseline_AV_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.26
+Label: frustrated -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 18
+Label: excited -> Precision: 0.56, Recall: 0.33, F1 Score: 0.42, Support: 15
+Label: happy -> Precision: 0.31, Recall: 0.50, F1 Score: 0.38, Support: 18
+Label: fearful -> Precision: 0.67, Recall: 0.17, F1 Score: 0.27, Support: 12
+Label: neutral -> Precision: 0.17, Recall: 0.69, F1 Score: 0.27, Support: 16
+Label: sad -> Precision: 0.25, Recall: 0.13, F1 Score: 0.17, Support: 15
+Label: angry -> Precision: 0.75, Recall: 0.15, F1 Score: 0.25, Support: 20
+Label: surprised -> Precision: 0.33, Recall: 0.07, F1 Score: 0.11, Support: 15
+
+File: final/result/IEMOCAP/chenyu-run/mini_baseline_TAV_TOT_gpt4o_3-expert-BI.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.27
+Label: frustrated -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 18
+Label: excited -> Precision: 0.50, Recall: 0.33, F1 Score: 0.40, Support: 15
+Label: happy -> Precision: 0.30, Recall: 0.50, F1 Score: 0.38, Support: 18
+Label: fearful -> Precision: 0.50, Recall: 0.08, F1 Score: 0.14, Support: 12
+Label: neutral -> Precision: 0.19, Recall: 0.69, F1 Score: 0.30, Support: 16
+Label: sad -> Precision: 0.45, Recall: 0.33, F1 Score: 0.38, Support: 15
+Label: angry -> Precision: 0.75, Recall: 0.15, F1 Score: 0.25, Support: 20
+Label: surprised -> Precision: 0.25, Recall: 0.07, F1 Score: 0.11, Support: 15
+
+File: final/result/IEMOCAP/chenyu-run/baseline_TA_gpt4o.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.24
+Label: frustrated -> Precision: 0.08, Recall: 0.11, F1 Score: 0.10, Support: 18
+Label: excited -> Precision: 0.41, Recall: 0.47, F1 Score: 0.44, Support: 15
+Label: happy -> Precision: 0.33, Recall: 0.22, F1 Score: 0.27, Support: 18
+Label: fearful -> Precision: 0.75, Recall: 0.25, F1 Score: 0.38, Support: 12
+Label: neutral -> Precision: 0.13, Recall: 0.44, F1 Score: 0.20, Support: 16
+Label: sad -> Precision: 0.40, Recall: 0.27, F1 Score: 0.32, Support: 15
+Label: angry -> Precision: 0.75, Recall: 0.15, F1 Score: 0.25, Support: 20
+Label: surprised -> Precision: 0.25, Recall: 0.07, F1 Score: 0.11, Support: 15
+
+File: final/result/IEMOCAP/chenyu-run/mini_baseline_TAV_TOT_gpt4o_3-expert-debate-BI.txt
+EVALUATION METRICS
+=================
+Overall Accuracy: 0.26
+Label: frustrated -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 18
+Label: excited -> Precision: 0.45, Recall: 0.33, F1 Score: 0.38, Support: 15
+Label: happy -> Precision: 0.32, Recall: 0.44, F1 Score: 0.37, Support: 18
+Label: fearful -> Precision: 0.50, Recall: 0.08, F1 Score: 0.14, Support: 12
+Label: neutral -> Precision: 0.18, Recall: 0.69, F1 Score: 0.28, Support: 16
+Label: sad -> Precision: 0.42, Recall: 0.33, F1 Score: 0.37, Support: 15
+Label: angry -> Precision: 0.75, Recall: 0.15, F1 Score: 0.25, Support: 20
+Label: surprised -> Precision: 0.25, Recall: 0.07, F1 Score: 0.11, Support: 15

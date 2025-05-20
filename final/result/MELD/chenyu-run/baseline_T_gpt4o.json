@@ -1,0 +1,1721 @@
+[
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker expresses disappointment and a sense of unfulfilled desire, which indicates sadness. The neutral tone is suggested by the acceptance of the situation despite the underlying sadness.",
+    "video_id": "dia233_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'If this is your idea of sexy talk?' suggests a negative reaction, likely indicating disapproval or distaste, which aligns with the emotion of disgust.",
+    "video_id": "dia175_utt3.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement 'I can and I will!' suggests a positive and determined mindset, indicative of joy. The neutral emotion is considered due to the lack of explicit emotional language or context.",
+    "video_id": "dia169_utt6.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript suggests a neutral inquiry about trying something new, without any strong emotional cues indicating other emotions like joy, anger, or fear.",
+    "video_id": "dia279_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is a simple question without any clear emotional cues, suggesting a neutral tone. There is no indication of strong emotions such as anger, joy, or surprise.",
+    "video_id": "dia239_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The use of 'shrieking' suggests a reaction to something unexpected, indicating surprise. The comparison to a Marine's reaction implies a high-intensity situation, which can also suggest fear.",
+    "video_id": "dia115_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement 'I think you look fine' is straightforward and lacks any strong emotional indicators, suggesting a neutral tone.",
+    "video_id": "dia279_utt15.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The repeated 'no' suggests a reaction to something unexpected or alarming, indicating fear as the dominant emotion. The urgency and repetition also imply an element of surprise.",
+    "video_id": "dia245_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement is delivered in a straightforward manner without strong emotional cues, suggesting neutrality. However, the request to have someone else finish the set may imply a sense of resignation or disappointment, indicating a hint of sadness.",
+    "video_id": "dia42_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement appears to be a clarification or reassurance, which suggests a neutral tone. There is no clear indication of strong emotions such as anger, joy, or sadness.",
+    "video_id": "dia120_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement expresses enjoyment and pleasure, indicating a sense of joy in the presence of another person.",
+    "video_id": "dia233_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The word 'What?' typically indicates a reaction to something unexpected, suggesting surprise as the dominant emotion.",
+    "video_id": "dia29_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is straightforward and factual, indicating a neutral emotion as the speaker is simply informing someone that their sushi has arrived. There is no indication of any strong emotional expression such as joy, surprise, or urgency.",
+    "video_id": "dia97_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "70",
+    "justification": "The repeated questioning and the use of 'Why?!' suggest a strong feeling of anger, likely due to frustration or injustice. The context of marriage and the inability to marry someone also implies sadness, as it is often associated with loss or disappointment.",
+    "video_id": "dia169_utt5.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'I know' is very brief and lacks any specific emotional indicators, suggesting a neutral tone.",
+    "video_id": "dia133_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'Thank you, thanks' is generally neutral but can also imply a sense of gratitude or mild joy. The lack of additional context or expressive language suggests a primarily neutral tone with a hint of joy.",
+    "video_id": "dia42_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement 'The guy left this.' is factual and lacks any clear emotional indicators, suggesting a neutral tone.",
+    "video_id": "dia169_utt20.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The mention of 'the guy with the ferrets, that\u2019s plural' suggests an element of surprise or unexpectedness, as having multiple ferrets is unusual. The tone of the statement is otherwise neutral, without strong emotional cues.",
+    "video_id": "dia244_utt6.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement suggests a breach of trust, which often leads to feelings of anger. The mention of 'shouldn't have' implies a sense of wrongdoing or disappointment, which can also evoke disgust.",
+    "video_id": "dia17_utt17.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'I'm freaking out!' strongly indicates fear as the dominant emotion, as it suggests a state of panic or anxiety. Surprise is also evident due to the unexpected nature of the situation causing the reaction.",
+    "video_id": "dia17_utt16.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The term 'spitter' often evokes a sense of disgust due to the unpleasant nature of spitting, which is generally considered socially unacceptable and unhygienic.",
+    "video_id": "dia244_utt7.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'I lost it' typically indicates a loss of control, often associated with anger. However, it can also imply a sense of regret or disappointment, suggesting underlying sadness.",
+    "video_id": "dia42_utt1.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Oh my God' is commonly associated with expressions of surprise or shock, indicating that surprise is the most dominant emotion.",
+    "video_id": "dia133_utt8.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The exclamation of 'Phoebe!' suggests a sudden reaction, which is often associated with surprise. Without additional context, it is difficult to determine another emotion.",
+    "video_id": "dia169_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'No it\u2019s not!' and the challenge 'you\u2019re gonna have to win it!' suggest a confrontational and assertive tone, indicating anger. However, without additional context or vocal cues, there is a possibility of a neutral tone as well.",
+    "video_id": "dia77_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Uh-oh!' typically indicates an unexpected event or realization, which is commonly associated with surprise.",
+    "video_id": "dia97_utt8.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'There's something new in the bowl' suggests an unexpected discovery, which is typically associated with surprise.",
+    "video_id": "dia29_utt5.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The exclamations 'No. No,' and the clarification 'I\u2019m the guy in the coma!' suggest a reaction of surprise, possibly due to being unrecognized or misunderstood. The overall tone remains calm, indicating a neutral underlying emotion.",
+    "video_id": "dia240_utt9.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript consists of a single word 'No,' which is generally neutral without additional context or emotional cues.",
+    "video_id": "dia22_utt13.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The exclamations 'Ah, oh God' suggest an element of surprise, while the calming phrase 'oh that's OK' indicates a neutral or reassuring tone.",
+    "video_id": "dia207_utt0.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The expression 'I'm so glad you called' indicates a positive reaction, suggesting joy as the dominant emotion.",
+    "video_id": "dia174_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'What contracts?' suggests an element of surprise or confusion, indicating that the speaker was not expecting or aware of any contracts being discussed.",
+    "video_id": "dia175_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker expresses a positive sentiment about the pictures they made and hung up, suggesting joy. The neutral tone is also present as the statement is casual and lacks strong emotional intensity.",
+    "video_id": "dia245_utt3.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript 'Was that story over?' suggests a neutral inquiry without any clear emotional cues indicating strong feelings such as joy, anger, or sadness.",
+    "video_id": "dia169_utt19.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The statement expresses a positive sentiment about Chandler and Monica having children, indicating joy. The neutral emotion is also present as the statement is delivered in a calm and reassuring manner.",
+    "video_id": "dia60_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The statement is delivered in a sarcastic tone, which often aligns with a neutral or slightly negative emotion like disgust. The suggestion to take someone back to the 1890s implies a critique or disapproval of outdated language, hinting at mild disgust.",
+    "video_id": "dia110_utt8.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'I'm sorry' and 'I promise it will never happen again' suggests regret and a desire to make amends, which are indicative of sadness. The tone could also be interpreted as neutral due to the lack of explicit emotional cues.",
+    "video_id": "dia111_utt8.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is delivered in a calm and matter-of-fact manner without any clear indicators of strong emotions such as joy, anger, or surprise. The use of 'excuse me' suggests politeness, contributing to a neutral tone.",
+    "video_id": "dia115_utt2.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'wait until the last moment before I burst and die' suggests a sense of fear due to the risk involved in the game. However, the context of it being a 'dare devil game' implies a level of acceptance or normalcy, indicating a neutral undertone.",
+    "video_id": "dia239_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is factual and lacks any emotional indicators such as tone or context that would suggest a specific emotion like joy, anger, or sadness.",
+    "video_id": "dia210_utt7.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'shielding your face and shrieking like a girl' suggests a tone of disdain or contempt, indicating disgust. The context of criticizing someone's actions as 'not a backhand' implies frustration or irritation, which aligns with anger.",
+    "video_id": "dia115_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "30",
+    "justification": "The statement 'Of course they\u2019re listening to you! Everybody listens to you.' can be interpreted as a neutral observation or a factual statement. However, the use of 'Of course' might imply a slight element of surprise or emphasis, suggesting that the speaker finds it obvious or noteworthy.",
+    "video_id": "dia279_utt13.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Are we okay now?' is a neutral question that does not inherently convey strong emotions. Without additional context or vocal cues, it is difficult to assign a more specific emotion.",
+    "video_id": "dia111_utt9.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker expresses concern and uncertainty about the possibility of not being able to have a baby, which indicates fear. The underlying implication of not being able to have a baby also suggests sadness.",
+    "video_id": "dia60_utt0.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript provides a factual recount of an event without any emotional language or cues indicating a specific emotion. The tone appears to be neutral as it simply states an occurrence.",
+    "video_id": "dia169_utt18.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript reflects a straightforward question about the status of contracts, which suggests a neutral tone. There is no indication of strong emotions such as anger or joy.",
+    "video_id": "dia175_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript 'Hi! It\u2019s me.' is a simple greeting without any strong emotional indicators, suggesting a neutral tone.",
+    "video_id": "dia174_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The expression 'What. Oh no' indicates an unexpected event, suggesting surprise. The mention of rolling over a juice box implies a mess or inconvenience, which can lead to feelings of disgust.",
+    "video_id": "dia207_utt1.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'You are so cute!' typically conveys a positive and affectionate sentiment, indicating joy.",
+    "video_id": "dia22_utt12.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The question implies an unexpected situation, suggesting surprise, and the mention of 'dying' introduces an element of fear.",
+    "video_id": "dia240_utt8.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is delivered in a matter-of-fact manner without any strong emotional cues, indicating a neutral tone. There is no evident expression of strong emotions such as joy, anger, or sadness.",
+    "video_id": "dia233_utt3.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is a simple inquiry about dinner plans without any clear emotional indicators such as tone or context that suggest a specific emotion like anger or joy.",
+    "video_id": "dia77_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The use of 'Really?' and 'this is crazy' suggests an element of surprise or disbelief. The overall tone of the statement, however, remains calm and open to discussion, indicating a neutral undertone.",
+    "video_id": "dia174_utt6.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The repeated questioning and the use of 'Jeez' suggest an element of surprise or shock at the situation. The tone seems casual and conversational, indicating a neutral emotion as a secondary presence.",
+    "video_id": "dia239_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is delivered in a matter-of-fact manner without any clear emotional cues indicating strong feelings. The mention of leaving the lid up could imply a slight annoyance or humor, but it is not strong enough to suggest a dominant emotion other than neutral.",
+    "video_id": "dia239_utt3.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Oh my god' is commonly associated with an expression of surprise or shock, indicating that surprise is the most dominant emotion.",
+    "video_id": "dia29_utt3.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'So, this isn't over?' suggests an element of surprise or disbelief, as the speaker seems to have expected a different outcome. The tone could also be interpreted as neutral, depending on the context and delivery.",
+    "video_id": "dia22_utt11.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The expression 'Ewww!' is commonly associated with a reaction of disgust, indicating a strong aversion or distaste.",
+    "video_id": "dia230_utt8.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The word 'Oh' is often associated with a reaction to something unexpected, indicating surprise. There is no additional context to suggest another emotion.",
+    "video_id": "dia131_utt6.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Here we go, here we go' is neutral and lacks any strong emotional indicators. It could imply readiness or anticipation, but without additional context, it remains neutral.",
+    "video_id": "dia254_utt16.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'Oh God, I\u2019m so sorry' suggests a feeling of regret or remorse, which is closely associated with sadness. The expression 'Oh God' can also indicate a sense of fear or anxiety about the situation.",
+    "video_id": "dia25_utt2.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is a simple question without any emotional indicators, suggesting a neutral tone.",
+    "video_id": "dia240_utt16.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The statement suggests a fear of something potentially dangerous or unpleasant in the drawer, indicated by the hope that it will 'die' if kept shut. The uncertainty expressed by 'I don't know!' suggests an element of surprise or unexpectedness.",
+    "video_id": "dia165_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The exclamation 'Yeah! Got it!' suggests a positive and triumphant reaction, indicating joy as the dominant emotion.",
+    "video_id": "dia174_utt13.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The directive 'get out of the fridge' suggests a reprimand, indicating anger. However, the use of a whisper could imply a neutral or calm demeanor, hence the secondary emotion.",
+    "video_id": "dia254_utt5.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript 'Where are you Leslie?' is a simple inquiry without any clear emotional indicators, suggesting a neutral tone. There is no explicit context or emotional cues to suggest another emotion.",
+    "video_id": "dia100_utt18.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "anxiety",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whispering and repetition of words suggest a sense of urgency and concern, indicating anxiety about the availability of the apartment.",
+    "video_id": "dia52_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is too brief and lacks context or emotional indicators, suggesting a neutral tone.",
+    "video_id": "dia100_utt19.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The use of 'Umm' and the phrase 'look he just came over to...' suggests an unexpected event, indicating surprise. There is no clear indication of another emotion.",
+    "video_id": "dia174_utt12.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'What is it?!' typically indicates a reaction to something unexpected or unknown, which aligns with the emotion of surprise.",
+    "video_id": "dia165_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is a factual listing of tasks without any explicit emotional cues, suggesting a neutral tone. There is no indication of strong emotions like joy, anger, or sadness.",
+    "video_id": "dia112_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'I know' is very short and lacks any specific emotional indicators, making it most likely neutral.",
+    "video_id": "dia25_utt3.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The statement 'It was in my room all night!' suggests a sense of fear due to the unexpected presence of something in the room, which is also surprising.",
+    "video_id": "dia200_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The suggestion to show a picture of one's uterus is unexpected and likely to elicit surprise. The neutral tone of the statement suggests a casual context, supporting a secondary neutral emotion.",
+    "video_id": "dia131_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement 'All right, I'm going. I'm going.' is delivered in a straightforward manner without any explicit emotional cues, suggesting a neutral tone. There is no indication of strong emotions such as anger or joy.",
+    "video_id": "dia254_utt15.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper 'Shh!' is typically used to indicate silence or to quiet someone down, which does not inherently convey a strong emotion. It is more of a neutral action unless additional context is provided.",
+    "video_id": "dia200_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript is very brief and lacks any strong emotional indicators, suggesting a neutral tone.",
+    "video_id": "dia240_utt15.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "70",
+    "justification": "The mention of 'crashed into me yesterday' suggests a lingering frustration or anger about the incident. The phrase 'my side still hurts' indicates a sense of ongoing discomfort or sadness about the situation.",
+    "video_id": "dia25_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is straightforward and lacks any emotional indicators such as tone or context that would suggest a specific emotion like joy, anger, or sadness. The use of 'just' might imply a slight urgency or necessity, but it is not strong enough to suggest a dominant emotion other than neutral.",
+    "video_id": "dia52_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'All right, all right' is neutral and lacks any strong emotional indicators, suggesting a calm or indifferent state.",
+    "video_id": "dia254_utt6.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'What is that?' typically indicates a reaction to something unexpected or unknown, which aligns with the emotion of surprise.",
+    "video_id": "dia254_utt7.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'you do this every time' suggests frustration and annoyance, which are indicative of anger. There is no clear indication of another emotion being expressed.",
+    "video_id": "dia52_utt1.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement suggests an unexpected situation or mystery, which typically evokes surprise as the dominant emotion.",
+    "video_id": "dia200_utt2.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'Get out Let's go, come on' suggests a sense of urgency and command, which is often associated with anger. The initial phrase 'That's nice' is neutral, but the subsequent commands dominate the emotional tone.",
+    "video_id": "dia254_utt14.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The word 'Good' is generally positive but without additional context or expressive cues, it is most likely neutral.",
+    "video_id": "dia131_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The word 'What?' typically indicates a reaction to something unexpected, which aligns with the emotion of surprise.",
+    "video_id": "dia94_utt0.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Save it.' is brief and lacks any clear emotional indicators, suggesting a neutral tone. Without additional context or vocal cues, it is difficult to attribute a specific emotion.",
+    "video_id": "dia254_utt10.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The exclamation and the realization that something was a real person indicates a strong element of surprise.",
+    "video_id": "dia240_utt10.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is incomplete and lacks any strong emotional cues, suggesting a neutral tone. The use of 'well, okay' might imply a slight resignation or acceptance, but it is not strong enough to indicate a specific emotion like sadness or joy.",
+    "video_id": "dia126_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The exclamation 'What?!' typically indicates a reaction to something unexpected, which aligns with the emotion of surprise.",
+    "video_id": "dia112_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Come on over here, sweetheart' is neutral in tone and lacks any strong emotional indicators. Without additional context or vocal cues, it does not clearly convey any specific emotion such as joy or anger.",
+    "video_id": "dia249_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'I can\u2019t believe we\u2019re living here!' suggests a strong sense of surprise, likely due to unexpected circumstances or a significant change in living conditions.",
+    "video_id": "dia165_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The transcript directly mentions 'so sad,' indicating sadness as the dominant emotion. The invitation to dance suggests a neutral or light-hearted context, but it does not strongly convey another specific emotion.",
+    "video_id": "dia174_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement 'A new grocery store' is factual and lacks any emotional context, suggesting a neutral emotion. There is no indication of any other emotion such as joy, surprise, or others.",
+    "video_id": "dia112_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's tone seems neutral as they are asking for tips in a straightforward manner. However, the stuttering and the context of 'getting your brain' might indicate a slight element of surprise or nervousness.",
+    "video_id": "dia240_utt11.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'hating this' strongly indicates a feeling of disgust towards the situation or object being referred to.",
+    "video_id": "dia254_utt11.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'I too am just a love machine' suggests a playful and lighthearted tone, indicative of joy. The lack of any negative or intense emotional cues supports a secondary emotion of neutrality.",
+    "video_id": "dia94_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The statement expresses a strong negative reaction to the joke, indicating disgust due to its offensive nature. Additionally, there is an element of anger as the speaker is upset about the joke being offensive to multiple groups.",
+    "video_id": "dia259_utt10.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "80",
+    "justification": "The speaker expresses disbelief and excitement about becoming an aunt, indicating surprise as the dominant emotion, with joy also evident due to the positive nature of the news.",
+    "video_id": "dia254_utt13.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is factual and lacks any emotional cues such as excitement, fear, or anger, suggesting a neutral tone.",
+    "video_id": "dia126_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is delivered in a straightforward manner without any strong emotional cues, suggesting a neutral tone. There is no indication of strong emotions such as joy or sadness.",
+    "video_id": "dia174_utt16.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Oh, that sounds great' typically conveys a positive reaction, indicating joy or happiness.",
+    "video_id": "dia249_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'How does that sound?' is a neutral question typically used to seek feedback or confirmation, without any strong emotional indicators.",
+    "video_id": "dia249_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker expresses a preference for having a drink over dancing, which suggests a neutral stance. The slight indication of disgust may be inferred from the tone of reluctance or disinterest in dancing.",
+    "video_id": "dia174_utt17.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The mention of a 'big bear outside' and the request for someone to check on it indicates a sense of fear. The repetition and stammering suggest surprise at the unexpected presence of the bear.",
+    "video_id": "dia126_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'Let's go, baby coming' suggests an unexpected event, likely leading to surprise. The use of 'baby' and the context of a new arrival can also imply joy.",
+    "video_id": "dia254_utt12.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'All right, let's do it!' suggests enthusiasm and readiness, which are indicative of joy.",
+    "video_id": "dia129_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The word 'What?' typically indicates a reaction to something unexpected, suggesting surprise as the dominant emotion.",
+    "video_id": "dia143_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "70",
+    "justification": "The question suggests a fear of rejection or loss based on physical appearance, indicating fear as the dominant emotion. The underlying concern about the relationship also suggests sadness as a secondary emotion.",
+    "video_id": "dia143_utt5.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The repeated 'no' and the question 'What was that?' suggest an unexpected event, indicating surprise. The tone and repetition also imply a sense of fear or concern about the unknown event.",
+    "video_id": "dia129_utt1.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'I can't believe you would actually say that' indicates a sense of surprise, while the preference for being 'Mr.Peanut' over 'Mr.Salty' suggests a mild sense of disgust or disapproval towards the latter.",
+    "video_id": "dia205_utt0.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The repetition of 'fine' suggests frustration or irritation, indicating anger as the dominant emotion. The overall tone of the statement is calm, suggesting a neutral undertone as well.",
+    "video_id": "dia37_utt4.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The exclamation 'I know!' often indicates a reaction to unexpected information or realization, suggesting surprise as the dominant emotion.",
+    "video_id": "dia247_utt3.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The greeting 'Hi!' is typically neutral unless additional context or tone suggests otherwise. Without further context, it is reasonable to assume a neutral emotion.",
+    "video_id": "dia154_utt1.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker expresses surprise at the unexpected action of someone coming a long way to check on them, which suggests an element of disbelief or astonishment. The tone also maintains a level of neutrality, as there is no strong emotional reaction beyond the surprise.",
+    "video_id": "dia180_utt8.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Okay, good.' is neutral in tone and does not convey any strong emotion such as joy, anger, or sadness. It suggests a simple acknowledgment or agreement.",
+    "video_id": "dia100_utt13.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'how needy is that?' suggests a critical or disdainful attitude, which aligns with the emotion of disgust. There is no clear indication of another emotion being expressed.",
+    "video_id": "dia180_utt9.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript indicates a simple, straightforward request without any emotional cues suggesting strong feelings. The tone appears calm and matter-of-fact, which aligns with a neutral emotion.",
+    "video_id": "dia174_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "30",
+    "justification": "The repeated exclamation 'Hey!' suggests an element of surprise or an attempt to get attention, which often aligns with surprise. However, without additional context or emotional cues, it could also be interpreted as neutral.",
+    "video_id": "dia154_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The exclamation 'What?!' typically indicates a reaction to something unexpected, which aligns with the emotion of surprise.",
+    "video_id": "dia143_utt6.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is factual and lacks any emotional cues that would suggest a strong emotion like joy, anger, or sadness. It appears to be a neutral comment about a personal experience.",
+    "video_id": "dia247_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'No way!' typically indicates surprise or disbelief, suggesting that the speaker is expressing surprise about Mr. Salty being a sailor.",
+    "video_id": "dia205_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The use of the word 'stupid' suggests a critical or negative tone, which is often associated with anger. There is no clear indication of another emotion being expressed.",
+    "video_id": "dia230_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'I would really love it' indicates a positive and hopeful sentiment, suggesting joy. The overall tone is calm and matter-of-fact, which also suggests a neutral emotion.",
+    "video_id": "dia143_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript 'Leslie?' is too brief and lacks context or emotional indicators, suggesting a neutral emotion.",
+    "video_id": "dia100_utt17.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is delivered in a matter-of-fact manner without any strong emotional cues, indicating a neutral emotion.",
+    "video_id": "dia279_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is delivered in a neutral manner without any clear indicators of strong emotions such as joy or sarcasm that might suggest another emotion.",
+    "video_id": "dia90_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'All right, I have to ask' is delivered in a straightforward manner without any clear indicators of strong emotions such as joy, anger, or fear. The hesitation indicated by 'I\u0085I' might suggest a slight uncertainty, but overall, the tone remains neutral.",
+    "video_id": "dia143_utt3.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'wanting to rip your arm off and throw it at me' suggests a strong expression of anger. The use of 'A little birdie told me' could imply surprise at the information received.",
+    "video_id": "dia37_utt2.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The statement suggests an unexpected revelation, which typically elicits surprise. The neutral tone of the whisper indicates a lack of strong emotional expression, supporting a secondary neutral emotion.",
+    "video_id": "dia90_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The demand 'Gimme them!' suggests a tone of anger or frustration, indicating a strong desire or impatience, which aligns with anger as the dominant emotion.",
+    "video_id": "dia279_utt4.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The question 'Why are there only two of you?' suggests an unexpected situation, indicating surprise. The tone of the question does not convey strong emotions like anger or joy, which supports a secondary emotion of neutrality.",
+    "video_id": "dia100_utt14.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript simply asks a question about Leslie's whereabouts, which does not inherently convey any strong emotion beyond a neutral inquiry.",
+    "video_id": "dia100_utt15.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript suggests a simple question or suggestion without any emotional context, indicating a neutral tone.",
+    "video_id": "dia279_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Oh my God' typically indicates a reaction of surprise, especially in the context of discovering new information about someone.",
+    "video_id": "dia90_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement is posed as a rhetorical question, which suggests a neutral tone with a hint of surprise or curiosity about the situation being described.",
+    "video_id": "dia247_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'Your taking a big leap there...' suggests surprise at the conclusion drawn by the other person. The tone of the statement appears to be questioning or incredulous, which aligns with surprise, while the overall context remains relatively neutral.",
+    "video_id": "dia37_utt3.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "70",
+    "justification": "The repetition of 'Fine' and the phrase 'now you'll never know' suggest frustration and irritation, indicating anger. The context also implies a sense of resignation or disappointment, which aligns with sadness.",
+    "video_id": "dia269_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The use of an exclamation mark and the demanding tone in the request suggests frustration or impatience, which aligns with anger.",
+    "video_id": "dia240_utt6.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker expresses a desire to do something nice, which indicates joy or a positive sentiment. The overall tone of the statement is calm and matter-of-fact, suggesting a neutral emotion as well.",
+    "video_id": "dia195_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The use of the word 'idiots' in a direct and confrontational manner suggests anger as the dominant emotion.",
+    "video_id": "dia259_utt9.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's tone seems casual and matter-of-fact, indicating a neutral emotion. However, the mention of 'wooing' suggests a hint of joy or excitement about the prospect of the meeting.",
+    "video_id": "dia110_utt7.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'I don't even know how it happened' suggests an unexpected event, indicating surprise as the dominant emotion.",
+    "video_id": "dia111_utt7.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is factual and lacks any emotional indicators such as tone or context that would suggest a specific emotion beyond neutrality.",
+    "video_id": "dia210_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "80",
+    "justification": "The exclamation 'Wow!' indicates a strong sense of surprise, while the excitement about receiving skates suggests joy.",
+    "video_id": "dia262_utt2.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement reflects a sense of achievement and pride, which aligns with joy. The tone is also casual and matter-of-fact, suggesting a neutral emotion as well.",
+    "video_id": "dia183_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The exclamation 'What?!' typically indicates a reaction of surprise, suggesting an unexpected or shocking event or information.",
+    "video_id": "dia210_utt8.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The exclamation 'Why would they do that?!' suggests an element of surprise, while the rhetorical question 'It was a good show right?!' indicates frustration or anger about the situation.",
+    "video_id": "dia125_utt22.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'I've heard enough' suggests a level of frustration or irritation, indicating anger. The statement 'I've made my decision' is delivered in a straightforward manner, which could also imply neutrality.",
+    "video_id": "dia259_utt8.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'don't be mad' suggests a fear of provoking anger in the listener, indicating a primary emotion of fear. The whispering tone implies a cautious or neutral approach, but fear is more dominant.",
+    "video_id": "dia195_utt0.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement expresses a positive sentiment, indicating joy due to the use of 'wonderful'. The neutral tone of 'Oh anyway' suggests a casual or matter-of-fact delivery, supporting a secondary neutral emotion.",
+    "video_id": "dia240_utt7.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone appears to be calm and analytical, discussing monogamy from an anthropological perspective without any evident emotional charge.",
+    "video_id": "dia269_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The word 'What?' typically indicates a reaction to something unexpected, suggesting surprise as the dominant emotion.",
+    "video_id": "dia68_utt13.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'We're kidding. C'mon, tell us!' suggests a playful or neutral tone, but the request for information could imply an element of surprise or curiosity.",
+    "video_id": "dia269_utt2.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The exclamation 'My God!' suggests a strong reaction, indicating surprise. The concern in 'What happened to you?' implies fear or worry about the situation.",
+    "video_id": "dia237_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement 'O-kay. Look, it, it was stupid.' suggests a neutral acknowledgment of a situation, with a slight hint of regret or disappointment, which could indicate sadness.",
+    "video_id": "dia111_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The word 'Sorry' can indicate a neutral acknowledgment or a mild expression of sadness, but without additional context, it is primarily neutral.",
+    "video_id": "dia125_utt20.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The greeting 'Hi! Hey, Pete you\u2019re back!' suggests a positive and welcoming tone, indicating joy. The phrase 'check this out' implies an element of surprise or excitement about something new or unexpected.",
+    "video_id": "dia262_utt1.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is straightforward and factual, indicating a neutral tone. There is no evident emotional intensity or cues suggesting another emotion.",
+    "video_id": "dia183_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The greeting 'Hi!' is typically neutral unless accompanied by additional context or tone indicating another emotion.",
+    "video_id": "dia262_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript 'Okay?' is very brief and lacks any strong emotional indicators, suggesting a neutral tone.",
+    "video_id": "dia183_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The urgency in the instruction to tell Rachel before Ross finds out suggests a fear of potential consequences. The situation also implies an element of surprise, as it seems unexpected and requires immediate action.",
+    "video_id": "dia166_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'I'm sorry Joey' suggests an expression of regret or apology, which is often associated with sadness. The tone could also be neutral depending on the context, but sadness is more likely given the apology.",
+    "video_id": "dia125_utt21.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The use of the word 'stupid' in a negative context often indicates anger or frustration, suggesting that anger is the dominant emotion.",
+    "video_id": "dia111_utt5.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is factual and lacks any strong emotional cues, indicating a neutral tone. There is no indication of any other specific emotion being expressed.",
+    "video_id": "dia120_utt16.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'They did it right there on the couch' suggests an unexpected or shocking event, which aligns with the emotion of surprise. There is no clear indication of another emotion being dominant.",
+    "video_id": "dia68_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The word 'Fine' is often used in a neutral context, especially when whispered, as it lacks strong emotional indicators. Without additional context or tonal cues, it is difficult to assign a more specific emotion.",
+    "video_id": "dia275_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is delivered in a calm and matter-of-fact manner, suggesting a neutral tone. There is no clear indication of strong emotions such as anger, joy, or sadness.",
+    "video_id": "dia159_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement suggests an unexpected or surprising situation, as it implies someone might not realize a significant event (having a baby) is missing. The tone also seems casual, indicating a neutral undertone.",
+    "video_id": "dia169_utt10.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The word 'Hey!' is a neutral greeting and does not convey any strong emotion without additional context.",
+    "video_id": "dia169_utt9.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is straightforward and lacks any strong emotional indicators, suggesting a neutral tone. The repetition of 'nope' could imply a slight aversion, but it is not strong enough to suggest a dominant emotion like disgust or anger.",
+    "video_id": "dia239_utt8.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Yes, I do.' is straightforward and lacks any emotional indicators, suggesting a neutral tone.",
+    "video_id": "dia239_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker explicitly states they are not surprised, indicating a recognition of surprise in the situation, but their tone suggests a calm acceptance, which aligns with a neutral emotion.",
+    "video_id": "dia13_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Oh my God' is commonly associated with an expression of surprise or shock, indicating that surprise is the dominant emotion.",
+    "video_id": "dia169_utt8.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The tone of the statement suggests confrontation and blame, indicating anger. The implication of feeling awkward and the accusatory nature of the question suggests a secondary emotion of disgust.",
+    "video_id": "dia159_utt0.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Are you mocking me?' suggests a defensive or confrontational tone, which is commonly associated with anger.",
+    "video_id": "dia120_utt17.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The exclamation 'Westminster Abbey!' suggests an element of surprise or awe, likely due to the significance or unexpected nature of the location being mentioned.",
+    "video_id": "dia189_utt1.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The word 'Fine' is often used in a neutral context, especially when spoken in a whisper, which lacks strong emotional cues. Without additional context or tonal variation, it is difficult to attribute a specific emotion beyond neutrality.",
+    "video_id": "dia275_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is too brief and lacks any strong emotional indicators, suggesting a neutral tone.",
+    "video_id": "dia237_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The expression 'Oh' typically indicates a reaction to something unexpected, which aligns with the emotion of surprise.",
+    "video_id": "dia13_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is straightforward and lacks any emotional cues such as excitement, anger, or sadness, indicating a neutral tone.",
+    "video_id": "dia17_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The use of the word 'stupid' suggests anger towards the situation, while the phrase 'baby\u2019s head was blocking' indicates a sense of disgust or frustration with the obstruction.",
+    "video_id": "dia166_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The exclamation and urgency in the statement suggest a sense of surprise, possibly due to unexpected events. The imperative tone also hints at underlying frustration or anger towards Joey for not communicating effectively.",
+    "video_id": "dia166_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript is very brief and lacks any clear emotional indicators, suggesting a neutral tone. Without additional context or emotional cues, it's challenging to identify a more specific emotion.",
+    "video_id": "dia13_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The statement 'You kissed my best Ross!' suggests a sense of betrayal or violation of trust, which is commonly associated with anger. The phrase 'Or something to that effect' indicates an unexpected or shocking revelation, suggesting surprise.",
+    "video_id": "dia111_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The use of 'Oh-ho' and the context of someone enjoying the speaker's name suggest a playful or amused tone, indicating joy. The overall statement is light-hearted, with no strong negative emotions present, which supports a secondary neutral emotion.",
+    "video_id": "dia244_utt8.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The mention of 'whipped fish' and the relief of 'keeping it down' suggests a reaction of disgust. The overall tone of the statement is casual and matter-of-fact, indicating a neutral emotion as well.",
+    "video_id": "dia237_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript 'Yeah.' is very brief and lacks any clear emotional indicators, suggesting a neutral tone.",
+    "video_id": "dia133_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement 'he couldn't have been more wrong' suggests a strong disagreement or frustration, which aligns with anger. The tone implies a confrontation or correction, typical of anger.",
+    "video_id": "dia97_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The word 'Fine' is often used in a neutral context, especially when spoken without additional context or emotional cues. Without further information, it is difficult to attribute a specific emotion beyond neutrality.",
+    "video_id": "dia275_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The exclamation 'All right!' typically conveys a positive and enthusiastic response, indicating joy.",
+    "video_id": "dia189_utt0.mp4",
+    "ground_truth": "joy"
+  }
+]

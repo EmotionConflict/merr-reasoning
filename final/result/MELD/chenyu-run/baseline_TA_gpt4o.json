@@ -1,0 +1,1721 @@
+[
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's words and the slow, measured pace with pauses suggest sadness, as they express a desire for the other person to want to live with them. The hint of anger is inferred from the expressive tone and the mention of frustration in the audio description.",
+    "video_id": "dia233_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'If this is your idea of sexy talk?' combined with a negative tone suggests a feeling of disgust, as the speaker seems to be criticizing or mocking the idea. The negative tone also indicates a possible presence of anger.",
+    "video_id": "dia175_utt3.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's confident and determined tone suggests a positive and self-assured emotion, which aligns with joy. The absence of any negative or extreme emotional cues supports a secondary emotion of neutral.",
+    "video_id": "dia169_utt6.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, which could suggest emotions like disgust or anger, but the content of the whisper transcript is neutral in nature, leading to a primary classification of neutral with a secondary possibility of disgust.",
+    "video_id": "dia279_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The negative tone in the woman's voice suggests emotions like disgust or anger. The context of the question implies a sense of irritation or disdain, making disgust the most dominant emotion, with anger as a secondary possibility.",
+    "video_id": "dia239_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'I was shrieking... like a Marine' suggests a reaction to a frightening or intense situation, indicating fear. The serious and monotone delivery with noticeable pauses suggests a reflective and controlled recounting of the experience, which aligns with a neutral tone as a secondary emotion.",
+    "video_id": "dia115_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral, with no emotional fluctuations or hesitations, indicating a lack of strong emotional expression.",
+    "video_id": "dia279_utt15.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as normal and natural, indicating a lack of strong emotional expression, which suggests a neutral emotion. The repetition of 'no' could imply a slight hint of surprise or concern, but the overall description supports neutrality.",
+    "video_id": "dia245_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, and he sounds sad or disappointed, which aligns with sadness. The clear and calm enunciation without hesitation suggests a neutral undertone as a secondary emotion.",
+    "video_id": "dia42_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The tone of the man's voice is described as negative, slow, and measured, which aligns with anger or being upset. The absence of pauses or hesitations suggests a controlled delivery, which can also indicate neutrality, but the overall tone leans more towards anger.",
+    "video_id": "dia120_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a neutral tone, suggesting neutrality as the dominant emotion. However, the content of the transcript ('Oh, it's so much more fun with you') implies a slight undertone of joy, which is why joy is considered as a secondary emotion.",
+    "video_id": "dia233_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The word 'What?' typically indicates surprise, and the negative tone of the man's voice suggests a possible underlying anger.",
+    "video_id": "dia29_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The man's tone is described as natural and clear, with no signs of stress or emotion, indicating a neutral emotional state.",
+    "video_id": "dia97_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a positive tone, suggesting joy, despite the words expressing a question of disbelief, which aligns with surprise. The positive tone is more dominant, hence joy is the primary emotion.",
+    "video_id": "dia169_utt5.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "30",
+    "justification": "The man's tone is described as negative, which suggests sadness. However, the phrase 'I know' is neutral, indicating a possible mix of sadness and neutrality.",
+    "video_id": "dia133_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as positive, which suggests joy. The simple expression of gratitude could also be interpreted as neutral, but the positive tone makes joy more dominant.",
+    "video_id": "dia42_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript 'The guy left this' combined with the negative tone of the man's voice suggests feelings of sadness, possibly due to abandonment or loss. The negative tone could also imply some underlying anger.",
+    "video_id": "dia169_utt20.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative and uninterested, which aligns with a neutral emotion due to the lack of expressiveness. The slight negativity in his tone could suggest a hint of disgust, but it is not strongly evident.",
+    "video_id": "dia244_utt6.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's negative tone, flat and monotonous voice, along with the breathy and tense delivery, suggests a feeling of disgust. The context of being trusted with something she believes she shouldn't have been trusted with also implies a sense of anger.",
+    "video_id": "dia17_utt17.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'I'm freaking out!' along with the tense, fast-paced, and breathy vocal delivery suggests a strong sense of fear. The raised pitch and urgency in her voice also indicate an element of surprise.",
+    "video_id": "dia17_utt16.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates that the man's tone sounds positive, suggesting joy as the dominant emotion. The whisper transcript 'The spitter' does not provide enough context to suggest any strong emotion, so neutral is considered as a secondary emotion.",
+    "video_id": "dia244_utt7.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'Yeah, I lost it' combined with a negative tone suggests a sense of loss or regret, which aligns with sadness. The phrase could also imply a moment of losing control, which can be associated with anger.",
+    "video_id": "dia42_utt1.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Oh my God' combined with the high pitch, fast and hesitant tone, and tense voice strongly indicate surprise or shock. There is no clear evidence of another emotion being equally dominant.",
+    "video_id": "dia133_utt8.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a neutral vocal delivery with a flat tone and no notable changes in pitch or intonation, suggesting a straightforward and matter-of-fact manner, which aligns with a neutral emotion.",
+    "video_id": "dia169_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a neutral emotional tone with no significant changes in pitch or intonation, suggesting a lack of strong emotional expression. The transcript does not provide evidence of any other emotion being dominant.",
+    "video_id": "dia77_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The tone of the man's voice is described as natural and without any noticeable emotional cues, suggesting a neutral emotion. The phrase 'Uh-oh!' could imply surprise, but the lack of emotional indicators in the voice suggests neutrality is more dominant.",
+    "video_id": "dia97_utt8.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'There's something new in the bowl' suggests an element of surprise, while the positive tone of the man's voice indicates joy.",
+    "video_id": "dia29_utt5.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's tone is described as negative, which suggests anger, especially given the context of correcting someone about his identity. The normal pace and clear voice indicate a controlled expression, which could also suggest neutrality.",
+    "video_id": "dia240_utt9.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The expressive and tense vocal delivery suggests anger, while the normal tone of voice and brief pause could indicate a neutral emotion as a secondary possibility.",
+    "video_id": "dia22_utt13.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The tone of the woman's voice is described as happy and relaxed, indicating joy as the dominant emotion. The exclamations 'Ah, oh God' suggest an element of surprise, making it the second emotion.",
+    "video_id": "dia207_utt0.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's tone is described as positive, and her words express gladness at receiving the call, indicating a dominant emotion of joy.",
+    "video_id": "dia174_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The man's vocal delivery is described as monotone and clear, with no signs of emotional strain or variation, indicating a neutral emotional tone. The slight rise in pitch at the end of the sentence is typical of a question and does not suggest any strong emotion.",
+    "video_id": "dia175_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery, characterized by a consistent pitch, slightly upward intonation, and fast pacing, suggests she is happy and excited about the pictures she made and hung up. Her clear and enthusiastic speech further supports the presence of joy as the dominant emotion.",
+    "video_id": "dia245_utt3.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's tone is described as positive, which suggests a neutral to slightly joyful emotion. However, without more context or explicit expressions of happiness, the dominant emotion remains neutral.",
+    "video_id": "dia169_utt19.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript suggests a supportive and reassuring statement, while the audio description explicitly mentions a neutral emotional tone, indicating that neutrality is the dominant emotion.",
+    "video_id": "dia60_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's negative tone and sarcastic remark suggest a feeling of disgust towards the phrase being discussed. The slow, measured pace and low pitch may also indicate underlying anger, though it is less pronounced than the disgust.",
+    "video_id": "dia110_utt8.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral tone, suggesting neutrality as the dominant emotion. However, the content of the transcript, which includes an apology, suggests an underlying sadness, making it a secondary emotion.",
+    "video_id": "dia111_utt8.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The tone of the speaker is described as negative, but without significant vocal features, it suggests a neutral delivery. However, the content of the statement and the negative tone hint at a possible underlying anger.",
+    "video_id": "dia115_utt2.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'wait until the last moment before I burst and die' suggests a high-stress situation, indicating anger as the dominant emotion. The context of a 'dare devil game' and the mention of 'burst and die' also implies fear as a secondary emotion.",
+    "video_id": "dia239_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates that the woman's tone sounds happy, which suggests joy as the dominant emotion. The clear and expressive delivery without any pauses or hesitations supports a secondary emotion of neutral, as there are no indications of other strong emotions.",
+    "video_id": "dia210_utt7.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is described as negative, and the content of the speech suggests criticism, which aligns with anger. The mention of 'shielding your face and shrieking' could imply disgust towards the behavior being described.",
+    "video_id": "dia115_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's speech is described as clear, natural, and expressive with a conversational tone, indicating a neutral emotion. The slight rise at the end of her sentence and her confident engagement suggest a hint of joy or positive engagement, but the overall tone remains neutral.",
+    "video_id": "dia279_utt13.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's tone is described as positive, which suggests a hint of joy, but the question 'Are we okay now?' implies a neutral or calm state, indicating resolution or inquiry rather than strong emotion.",
+    "video_id": "dia111_utt9.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's concern about the possibility of not being able to have a baby suggests sadness, as it implies a sense of loss or disappointment. The uncertainty and questioning tone also indicate fear about the future and potential reasons for this situation.",
+    "video_id": "dia60_utt0.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, which could suggest anger, but the lack of strong emotional cues in the transcript and the normal pace of speech suggest a more neutral delivery. The slight pause might indicate some underlying anger or frustration.",
+    "video_id": "dia169_utt18.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as normal and natural without much expressiveness, indicating a neutral emotional state. There is no indication of any strong emotion such as anger, joy, or surprise in her speech.",
+    "video_id": "dia175_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as neutral with no significant changes in pitch, intonation, or volume, indicating a lack of strong emotional expression.",
+    "video_id": "dia174_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'Oh no' indicates a negative reaction, likely disgust due to the mess created by rolling over the juice box. The initial 'What' suggests an element of surprise at the unexpected event.",
+    "video_id": "dia207_utt1.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'You are so cute!' typically conveys a positive sentiment, suggesting joy. The vocal delivery is expressive, which supports the presence of joy, while the monotone aspect introduces a neutral element.",
+    "video_id": "dia22_utt12.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's tone is described as negative, but her speech is slow and neutral in pitch, suggesting a primarily neutral emotion. The content of the statement and the negative tone hint at a secondary emotion of disgust.",
+    "video_id": "dia240_utt8.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's tone is described as positive, with a slight rise in her voice, indicating excitement and happiness about living together with her roommate. This suggests joy as the dominant emotion.",
+    "video_id": "dia233_utt3.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as natural and clear, with no notable expressiveness or emotional cues, indicating a neutral emotion. The slight rise in pitch at the end of her statement could suggest a question or mild curiosity, but it is not strong enough to indicate a dominant emotion other than neutral.",
+    "video_id": "dia77_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative with tension and boredom, which suggests a neutral emotional state with a hint of sadness. The lack of strong emotional cues like anger or joy supports the dominance of a neutral emotion, while the tension and slight negativity hint at underlying sadness.",
+    "video_id": "dia174_utt6.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The tone of the speaker is described as positive, which suggests joy. The repeated questioning and the context of someone falling could indicate surprise as a secondary emotion.",
+    "video_id": "dia239_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's tone is described as happy, which strongly indicates joy as the dominant emotion. The lack of pauses or hesitations suggests a neutral undertone, as there is no indication of any negative emotions.",
+    "video_id": "dia239_utt3.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Oh my god' combined with the described tone of surprise strongly indicates that the dominant emotion being expressed is surprise.",
+    "video_id": "dia29_utt3.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as neutral with no noticeable signs of emotion, indicating a lack of emotional expression.",
+    "video_id": "dia22_utt11.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The word 'Ewww!' strongly indicates disgust, while the monotone delivery and steady rhythm suggest a neutral undertone, as there is no variation in pitch or pace that would indicate heightened emotional expression.",
+    "video_id": "dia230_utt8.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The vocal delivery is described as expressive and natural with a friendly and attentive tone, which suggests a neutral emotion. The brief pause and the word 'Oh' could indicate a mild surprise, but the overall tone remains neutral.",
+    "video_id": "dia131_utt6.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's vocal delivery is described as happy and excited, which strongly indicates joy. The phrase 'Here we go' can also suggest an element of surprise or anticipation, supporting surprise as a secondary emotion.",
+    "video_id": "dia254_utt16.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a neutral tone, suggesting neutrality as the dominant emotion. However, the phrase 'Oh God, I\u2019m so sorry' implies an element of sadness or regret, supporting sadness as a secondary emotion.",
+    "video_id": "dia25_utt2.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as natural, clear, and at a normal pace, with no notable features or emotional cues suggesting any specific emotion. This indicates a neutral emotional tone.",
+    "video_id": "dia240_utt16.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's suggestion to keep the drawer shut to prevent something from escaping indicates a sense of fear. The tense tone in her voice further supports this. The uncertainty expressed by 'I don't know!' suggests an element of surprise as well.",
+    "video_id": "dia165_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The exclamation 'Yeah! Got it!' combined with a positive tone and clear voice quality suggests a strong expression of joy or satisfaction.",
+    "video_id": "dia174_utt13.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The directive 'get out of the fridge' combined with a negative tone suggests the speaker is expressing anger, likely due to frustration or annoyance.",
+    "video_id": "dia254_utt5.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The monotone delivery of the woman's speech suggests a lack of strong emotional expression, indicating a neutral emotion. There is no indication of any other emotion being present.",
+    "video_id": "dia100_utt18.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's negative tone, slow delivery, and breathy voice suggest a sense of sadness, possibly due to concern about the apartment's availability. The urgency in his words also hints at fear, likely related to the uncertainty of the situation.",
+    "video_id": "dia52_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as happy and excited, with a smooth and consistent voice, indicating a dominant emotion of joy.",
+    "video_id": "dia100_utt19.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The monotone delivery of the speech indicates a lack of emotional expression, suggesting a neutral emotional state.",
+    "video_id": "dia174_utt12.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as normal and natural, without any indication of heightened emotional expression, suggesting a neutral emotional state.",
+    "video_id": "dia165_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as clear, calm, and natural, with a relaxed and comfortable tone. There are no indications of heightened emotions such as joy, anger, or sadness, suggesting a neutral emotional state.",
+    "video_id": "dia112_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral with consistent pitch, intonation, and pacing, indicating a lack of strong emotional expression.",
+    "video_id": "dia25_utt3.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tense and rough voice, along with the negative tone and the content of his statement, suggest fear as the dominant emotion. The lack of pauses and the low pitch may also indicate underlying anger.",
+    "video_id": "dia200_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as positive, which suggests joy as the dominant emotion. The content of the statement is neutral, as it does not inherently convey strong emotions, supporting a secondary neutral emotion.",
+    "video_id": "dia131_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's repeated statement 'I'm going' in a negative tone suggests frustration or anger. However, without more context or heightened emotional cues, there is also a possibility of a neutral emotion being present.",
+    "video_id": "dia254_utt15.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The tense and low-pitched voice, along with the negative tone, suggests anger as the dominant emotion. The whispering and lack of pauses could also indicate fear, as if the speaker is trying to remain unnoticed or is in a tense situation.",
+    "video_id": "dia200_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The man's monotone vocal delivery, lack of significant changes in pitch or intonation, and absence of expressive engagement suggest a neutral emotional state. There are no indicators of other emotions such as joy, anger, or sadness.",
+    "video_id": "dia240_utt15.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as monotone, which typically indicates a lack of strong emotional expression, suggesting a neutral emotion. There is no indication of any other specific emotion such as anger or sadness in the transcript or audio description.",
+    "video_id": "dia25_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "30",
+    "justification": "The man's tone is described as negative, which could suggest sadness, but the lack of pauses or hesitations and the clarity of his speech indicate a more neutral state. The absence of strong emotional indicators leans towards a neutral emotion with a slight hint of sadness.",
+    "video_id": "dia52_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's positive tone and clear, strong voice suggest a sense of joy. However, the phrase 'All right, all right' is quite neutral, indicating a secondary emotion of neutrality.",
+    "video_id": "dia254_utt6.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's negative tone, tense and breathy voice, and low pitch suggest a strong feeling of disgust. The tension in his voice also indicates a secondary emotion of anger.",
+    "video_id": "dia254_utt7.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The negative tone, slow delivery, and tension in the voice suggest frustration or annoyance, which aligns with anger. There is no clear indication of another emotion being equally present.",
+    "video_id": "dia52_utt1.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "frustration",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is described as negative, with a slow and deliberate speech pattern, which often indicates anger. The breathlessness and slight pauses suggest frustration, supporting the presence of both emotions.",
+    "video_id": "dia200_utt2.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The tone of the man's voice is described as positive, suggesting joy. However, the words 'Get out' and 'Let's go, come on' could imply a neutral or directive tone, hence the secondary emotion of neutral.",
+    "video_id": "dia254_utt14.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as neutral, with a straightforward and objective manner, indicating a lack of strong emotional expression.",
+    "video_id": "dia131_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The word 'What?' typically indicates surprise, and the negative tone suggests a possible underlying anger.",
+    "video_id": "dia94_utt0.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as neutral with no noticeable fluctuations or strong emotional expressions, indicating a professional and emotionless tone.",
+    "video_id": "dia254_utt10.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper transcript and audio description both indicate that the speaker is surprised, as evidenced by her exclamation and the description of her vocal delivery.",
+    "video_id": "dia240_utt10.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's speech is described as monotone, which typically indicates a lack of strong emotional expression, suggesting a neutral emotion.",
+    "video_id": "dia126_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The vocal delivery is described as monotone, indicating a lack of strong emotion, which aligns with neutrality. However, the word 'What?!' suggests a potential element of surprise, albeit not strongly supported by the tone.",
+    "video_id": "dia112_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The vocal delivery is described as neutral, with no signs of emotional extremes such as joy, anger, or sadness. The speaker's confidence and clarity suggest a calm and composed demeanor, reinforcing the neutral emotion.",
+    "video_id": "dia249_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as surprised and in disbelief, with a high-pitched and urgent tone, which strongly indicates surprise as the dominant emotion.",
+    "video_id": "dia165_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's vocal delivery is described as natural and expressive, with no indications of strong emotions like joy or anger. The mention of 'so sad' in the transcript suggests a reference to sadness, but the overall tone of the delivery seems neutral, indicating that the dominant emotion is neutral with a hint of sadness.",
+    "video_id": "dia174_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's vocal delivery is described as natural and clear, with a positive tone, which suggests a neutral emotion. However, the mention of a positive tone also indicates a hint of joy, making it a secondary emotion.",
+    "video_id": "dia112_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, but the content of his speech is not overtly emotional, suggesting a neutral demeanor. However, the slow speaking rate and the context of 'getting your brain when you leave the show' could imply a sense of loss or sadness, hence the secondary emotion.",
+    "video_id": "dia240_utt11.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'hating this' and the negative tone in the man's voice strongly indicate anger as the dominant emotion. The expression of dislike also suggests disgust as a secondary emotion.",
+    "video_id": "dia254_utt11.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'I too am just a love machine' suggests a playful or affectionate sentiment, and the positive tone of the speaker supports the presence of joy as the dominant emotion.",
+    "video_id": "dia94_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral tone, suggesting the speaker is not emotionally charged. However, the content of the transcript suggests a potential for disgust due to the offensive nature of the joke mentioned.",
+    "video_id": "dia259_utt10.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral tone, suggesting the speaker is calm and composed. However, the content of the transcript reveals an element of surprise and excitement about becoming an aunt, which supports surprise as a secondary emotion.",
+    "video_id": "dia254_utt13.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's negative tone suggests an emotion of disgust, possibly due to frustration or annoyance. Anger is also a possibility given the negativity in his tone, but it is less dominant.",
+    "video_id": "dia126_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as expressive yet monotone, with a matter-of-fact and unemotional tone, indicating a neutral emotional state. There is no indication of any other emotion being dominant.",
+    "video_id": "dia174_utt16.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral, and the phrase 'Oh, that sounds great' is delivered in a clear and normal manner, indicating a lack of strong emotional expression.",
+    "video_id": "dia249_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The slight rise in pitch and the tone suggesting being caught off guard indicate surprise as the dominant emotion. The natural and clear delivery without noticeable articulation issues suggests a secondary neutral emotion.",
+    "video_id": "dia249_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's statement and tone suggest he is not in a mood for dancing and prefers to have a drink, indicating a lack of enthusiasm or happiness, which aligns with sadness. The neutral tone in his speech pattern supports a secondary emotion of neutrality.",
+    "video_id": "dia174_utt17.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The mention of a 'big bear outside' suggests an element of surprise, as encountering a bear is unexpected. The audio description notes a tone that sounds happy and excited, indicating joy as a secondary emotion.",
+    "video_id": "dia126_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The tone of the woman's voice is described as positive, which aligns with the emotion of joy, especially in the context of an anticipated event like a baby's arrival.",
+    "video_id": "dia254_utt12.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's positive tone and natural, expressive vocal delivery suggest joy as the dominant emotion. The lack of pauses or hesitations and the steady pace also indicate a neutral undertone, but the positivity in his tone makes joy more dominant.",
+    "video_id": "dia129_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The word 'What?' typically indicates surprise, and the negative tone suggests a possible underlying anger.",
+    "video_id": "dia143_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The content of the question suggests insecurity and concern about the relationship, which aligns with sadness. The monotone delivery indicates a lack of emotional variation, suggesting a neutral undertone.",
+    "video_id": "dia143_utt5.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The repeated 'no, no, no' suggests an unexpected event, indicating surprise. The negative tone in his voice also suggests a possible underlying anger.",
+    "video_id": "dia129_utt1.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The statement 'I can't believe you would actually say that' suggests anger, as it implies a strong negative reaction to someone's words. The preference for being 'Mr.Peanut' over 'Mr.Salty' could indicate disgust towards the latter, supporting the presence of disgust as a secondary emotion.",
+    "video_id": "dia205_utt0.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's tone is described as positive and strong, which suggests a neutral or slightly joyful demeanor. However, the repetition of 'fine' could indicate a neutral stance, with a slight inclination towards joy due to the positive tone.",
+    "video_id": "dia37_utt4.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral with consistent pitch and no significant changes in intonation, indicating a lack of strong emotional expression.",
+    "video_id": "dia247_utt3.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's tone is described as happy and excited, indicating joy as the dominant emotion. The monotone delivery and slight hesitation suggest a neutral undertone, but the overall expressiveness leans more towards joy.",
+    "video_id": "dia154_utt1.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates that the man's tone sounds negative and suggests anger, which aligns with the content of the whisper transcript where he questions the necessity of someone's actions, implying frustration or annoyance.",
+    "video_id": "dia180_utt8.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's positive tone and relaxed, natural vocal delivery suggest a dominant emotion of joy. The consistent pitch and normal pace without any signs of strain or hesitation support a secondary emotion of neutrality.",
+    "video_id": "dia100_utt13.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's tone is described as negative, bored, or disinterested, which aligns with a neutral emotion. The phrase 'how needy is that?' suggests a hint of disgust, but the overall tone and delivery seem more neutral.",
+    "video_id": "dia180_utt9.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as natural and neutral, with no noticeable emotional qualities such as tension or excitement. Her relaxed and deliberate speech suggests a lack of strong emotional expression, indicating a neutral emotion.",
+    "video_id": "dia174_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The vocal delivery is described as natural, clear, and strong without any signs of strain or effort, which suggests a neutral emotional state. There are no indicators of heightened emotions such as joy, anger, or surprise.",
+    "video_id": "dia154_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The exclamation 'What?!' typically indicates surprise, and the positive tone of the man's voice suggests an element of joy as well.",
+    "video_id": "dia143_utt6.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement about coffee making the speaker gassy suggests a feeling of disgust towards the effects of coffee. The tone is described as negative, which aligns with disgust, while the normal pace and clear voice suggest a neutral undertone.",
+    "video_id": "dia247_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is described as negative and tense, which suggests anger. The phrase 'No way!' indicates an element of surprise as well.",
+    "video_id": "dia205_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'What stupid thing did you do?' suggests a critical or accusatory tone, which is often associated with anger. The negative tone in the man's voice further supports this interpretation. Disgust is considered as a secondary emotion due to the use of the word 'stupid,' which can imply disdain or contempt.",
+    "video_id": "dia230_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is described as positive, which aligns with the emotion of joy. The content of the statement is neutral, expressing a desire without any strong emotional charge, which supports a secondary emotion of neutral.",
+    "video_id": "dia143_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a neutral emotional tone with a clear, consistent voice and normal pace, suggesting no strong emotional expression.",
+    "video_id": "dia100_utt17.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's monotone delivery and the content of the transcript suggest a lack of strong emotional expression, indicating a neutral emotion.",
+    "video_id": "dia279_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's monotone vocal delivery suggests a lack of strong emotional expression, indicating a neutral emotion. There is no clear evidence of any other emotion being expressed.",
+    "video_id": "dia90_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral, with a clear voice and normal pace, indicating a lack of strong emotional expression. The slight pause does not suggest any other specific emotion.",
+    "video_id": "dia143_utt3.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a neutral emotional tone with clear and regular speech patterns, suggesting no strong emotional expression. Despite the potentially aggressive content of the transcript, the delivery remains neutral.",
+    "video_id": "dia37_utt2.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's monotone delivery, with no changes in pitch, intonation, or pacing, suggests a lack of emotional expression, indicating a neutral emotion.",
+    "video_id": "dia90_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's vocal delivery is described as clear, expressive, and relaxed, with a natural and happy tone, indicating joy. The slight upward inflection at the end of each sentence suggests an element of surprise or excitement.",
+    "video_id": "dia279_utt4.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral with no significant changes in pitch, intonation, or pacing, indicating a lack of strong emotional expression.",
+    "video_id": "dia100_utt14.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral, with no emotional inflections or notable changes in pace or pitch that would suggest any other emotion.",
+    "video_id": "dia100_utt15.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral, with a natural and clear voice, steady rhythm, and relaxed delivery, indicating a lack of strong emotional expression.",
+    "video_id": "dia279_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The vocal delivery and the exclamation 'Oh my God' strongly indicate surprise as the dominant emotion.",
+    "video_id": "dia90_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates that the speaker's tone sounds negative and suggests disgust, which aligns with the content of the transcript that implies a critical or dismissive attitude. The clear enunciation and lack of hesitation suggest a controlled delivery, which could also imply neutrality as a secondary emotion.",
+    "video_id": "dia247_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is negative and tense, suggesting anger as the dominant emotion. The use of the word 'hate' and the critical nature of the statement also imply a sense of disgust.",
+    "video_id": "dia37_utt3.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates that the man's tone is positive, clear, and strong, suggesting happiness and satisfaction, which aligns with the emotion of joy.",
+    "video_id": "dia269_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as happy and excited, with a smooth and clear intonation, indicating a dominant emotion of joy. There is no indication of any other emotion being present.",
+    "video_id": "dia240_utt6.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The man's tone is described as positive, and his actions of wanting to do something nice and cleaning the apartment suggest a feeling of joy or happiness.",
+    "video_id": "dia195_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The use of the word 'idiots' combined with the expressive and tense vocal delivery strongly indicates anger. The tone and lack of hesitation further support this interpretation.",
+    "video_id": "dia259_utt9.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "50",
+    "justification": "The man's tone is described as negative, which suggests sadness, especially in the context of trying to 'woo' someone, indicating a possible lack of confidence or hope. The content of the speech itself is neutral, as it describes a simple plan.",
+    "video_id": "dia110_utt7.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's monotone vocal delivery and expression of disinterest suggest a neutral emotional state, as there is no indication of strong emotions like joy, anger, or sadness.",
+    "video_id": "dia111_utt7.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's speech is described as normal, natural, and relaxed, with no effort to affect her voice or any noticeable pauses or hesitations, indicating a neutral emotional state.",
+    "video_id": "dia210_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "85",
+    "justification": "The exclamation 'Wow!' and the positive tone in the man's voice strongly indicate joy, while the word 'Wow!' also suggests an element of surprise.",
+    "video_id": "dia262_utt2.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, and his slow delivery with a slight pause suggests a sense of melancholy or disappointment, indicating sadness. However, the clear and normal voice without irregularities also suggests a neutral undertone.",
+    "video_id": "dia183_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a neutral vocal delivery with a steady pace and smooth voice quality, suggesting the absence of strong emotions. Despite the exclamation 'What?!', the overall tone remains matter-of-fact, supporting a neutral emotion.",
+    "video_id": "dia210_utt8.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'Why would they do that?!' suggests an element of surprise, while the positive tone in the audio description indicates a sense of joy or satisfaction with the show.",
+    "video_id": "dia125_utt22.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral, with no changes in pitch, intonation, or pacing, indicating a lack of emotional expression. The absence of pauses or hesitations further supports the neutrality of the emotion.",
+    "video_id": "dia259_utt8.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's request not to be mad suggests an anticipation of anger, and his stern or serious tone supports this. However, the lack of roughness or strain in his voice and the normal pitch and pace suggest a neutral undertone as well.",
+    "video_id": "dia195_utt0.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's positive tone and the content of the message expressing admiration suggest joy as the dominant emotion. The clear and steady speech without any negative cues supports a secondary emotion of neutral.",
+    "video_id": "dia240_utt7.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's tone is described as negative, which could suggest emotions like disgust or anger. However, the content of the speech is analytical and lacks strong emotional cues, suggesting a more neutral tone overall. Disgust is considered as a secondary emotion due to the negative tone.",
+    "video_id": "dia269_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The vocal delivery is described as neutral with no notable characteristics, and the word 'What?' does not convey any specific emotion strongly enough to suggest otherwise.",
+    "video_id": "dia68_utt13.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral, with no indicators of emotional variation such as changes in pace, pitch, or articulation that would suggest another emotion.",
+    "video_id": "dia269_utt2.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'My God! What happened to you?' combined with the description of the speaker's surprised tone strongly indicates that the dominant emotion is surprise.",
+    "video_id": "dia237_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as monotone, which typically indicates a lack of strong emotional expression, suggesting a neutral emotion. The content of the speech does not strongly indicate any other specific emotion.",
+    "video_id": "dia111_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as neutral with no expressive indications of emotion, suggesting a lack of emotional intensity or variation.",
+    "video_id": "dia125_utt20.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral, with no noticeable changes in pitch or intonation that would suggest any other emotion. The natural and clear delivery supports the interpretation of a neutral emotion.",
+    "video_id": "dia262_utt1.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The man's tone is described as negative, with a slow and measured delivery, which is often associated with anger or frustration. The audio description specifically suggests that he is angry or frustrated, supporting the identification of anger as the dominant emotion.",
+    "video_id": "dia183_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is described as natural, consistent, and expressive, without any specific indicators of strong emotions like joy, anger, or sadness. The overall description suggests a neutral tone, as there are no significant emotional cues present.",
+    "video_id": "dia262_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a negative tone with characteristics such as slow speech, low pitch, and breathiness, which are often associated with frustration or anger. The mention of frustration or anger suggests that anger is the dominant emotion.",
+    "video_id": "dia183_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates that the speaker's tone is negative and suggests anger, which is supported by the context of urgency in the transcript. The instruction to act before someone else finds out implies a sense of fear or concern about potential consequences.",
+    "video_id": "dia166_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's flat and monotonous vocal delivery, consistent pitch, and lack of intonation suggest an emotionless and robotic tone, indicating a neutral emotion.",
+    "video_id": "dia125_utt21.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The monotone delivery and lack of emotional investment in the speech suggest a neutral emotion. There are no indicators of strong emotions like anger or disgust, making neutrality the most dominant emotion.",
+    "video_id": "dia111_utt5.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative and hesitant, which could suggest sadness, but the content of the speech itself is neutral, as it doesn't express any strong emotion. Therefore, the dominant emotion is neutral, with a possible undertone of sadness due to the negative tone.",
+    "video_id": "dia120_utt16.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as natural, relaxed, and comfortable, with no indication of heightened emotions such as joy, anger, or surprise. This suggests a neutral emotional state.",
+    "video_id": "dia68_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as expressive and natural, with no signs of strain or effort, suggesting a neutral emotional state. The use of varied pitch and intonation indicates engagement but does not strongly point to any specific emotion beyond neutrality.",
+    "video_id": "dia275_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's tone is described as positive, which suggests a neutral or slightly joyful emotion. The content of the speech is practical and lacks strong emotional language, supporting a neutral interpretation with a hint of joy due to the positive tone.",
+    "video_id": "dia159_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a neutral emotional tone with clear speech, and the transcript does not suggest any strong emotional cues that would indicate another emotion.",
+    "video_id": "dia169_utt10.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's expressive vocal delivery, medium pitch with an upward inflection, and natural, clear voice suggest she is happy and excited, indicating joy. The slight upward inflection at the end of her sentence also suggests a hint of surprise.",
+    "video_id": "dia169_utt9.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "30",
+    "justification": "The man's tone is described as negative and hesitant, which suggests a neutral emotion with a hint of sadness due to the hesitancy and preference to talk to someone, indicating possible discomfort or reluctance.",
+    "video_id": "dia239_utt8.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "30",
+    "justification": "The man's tone is described as negative, which suggests sadness as a likely emotion. However, the content of the speech is neutral, indicating a possible secondary emotion of neutrality.",
+    "video_id": "dia239_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's vocal delivery is described as neutral, with no noticeable changes in tone or emotion, indicating a calm and natural demeanor. The mention of 'not at all surprised' in the transcript suggests a slight element of surprise, but the overall delivery remains neutral.",
+    "video_id": "dia13_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Oh my God' combined with the audio description indicating a surprised tone strongly suggests that the dominant emotion is surprise.",
+    "video_id": "dia169_utt8.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's tone is negative and the content of her speech suggests confrontation, which indicates anger. The implication of awkwardness and the accusatory nature of her words also suggest a sense of disgust.",
+    "video_id": "dia159_utt0.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral with no significant changes in pitch or intonation, indicating a lack of strong emotional expression. The question 'Are you mocking me?' could imply potential underlying emotions, but the audio description supports a neutral delivery.",
+    "video_id": "dia120_utt17.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "30",
+    "justification": "The negative tone and slow speech with pauses suggest sadness as the dominant emotion. However, the lack of irregular speech patterns and the neutral content of 'Westminster Abbey' also suggest a neutral emotion as a secondary possibility.",
+    "video_id": "dia189_utt1.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The word 'Fine' is neutral in itself, but the positive tone of the man's voice suggests a hint of joy or contentment.",
+    "video_id": "dia275_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as neutral, with a clear voice and normal pace, indicating no strong emotional expression.",
+    "video_id": "dia237_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The slow, low-pitched, and strained voice suggests sadness as the dominant emotion. The lack of pauses or hesitations and the simplicity of the word 'Oh' could also indicate a neutral emotion, but the negative tone leans more towards sadness.",
+    "video_id": "dia13_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's tone is described as friendly and sincere, which suggests a neutral emotion with a hint of joy due to the expressiveness and slight upward inflection in her voice.",
+    "video_id": "dia17_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's negative tone and the use of the word 'stupid' suggest a feeling of disgust towards the situation. The slow and monotonous delivery also hints at a possible underlying anger.",
+    "video_id": "dia166_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The tone of the man's voice is described as negative and upset, with a slow and deliberate speech pattern, which suggests anger as the dominant emotion. There is no clear indication of a second emotion.",
+    "video_id": "dia166_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a neutral emotional tone, and there is no indication of any other emotion in the whisper transcript.",
+    "video_id": "dia13_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The man's tone is described as negative and upset, with a slow and hesitant speech pattern, which strongly suggests anger as the dominant emotion.",
+    "video_id": "dia111_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as natural with clear enunciation and no noticeable pauses or hesitations, which suggests a neutral emotional state. There is no indication of strong emotions such as joy, anger, or surprise in the description.",
+    "video_id": "dia244_utt8.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker expresses happiness about keeping the food down, indicating joy. The tone is positive, which supports this emotion, while the neutral emotion is suggested by the casual nature of the conversation.",
+    "video_id": "dia237_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The vocal delivery is described as natural, clear, and without any particular emotion, indicating a neutral state. There are no signs of emotional variation in pitch, intonation, or speech patterns.",
+    "video_id": "dia133_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's directive to tell someone they were wrong, combined with the negative tone, suggests anger as the dominant emotion. There is no clear indication of another emotion present.",
+    "video_id": "dia97_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as neutral, with no signs of stress, excitement, or emotion, indicating a lack of emotional expression.",
+    "video_id": "dia275_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'All right!' combined with a positive tone suggests a feeling of joy or satisfaction. There are no indications of other emotions present.",
+    "video_id": "dia189_utt0.mp4",
+    "ground_truth": "joy"
+  }
+]

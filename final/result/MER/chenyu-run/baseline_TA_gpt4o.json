@@ -1,0 +1,542 @@
+[
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as expressive, with varied intonation and pacing that conveys excitement and enthusiasm, which are strong indicators of happiness.",
+    "video_id": "sample_00002885.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates that the speaker's vocal delivery is expressive, natural, and relaxed, with varied intonation and pacing, suggesting happiness and excitement. There are no indications of other emotions being dominant.",
+    "video_id": "sample_00000705.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's vocal delivery is described as positive and energetic, which aligns with a happy emotion. Her natural and clear speech without strain suggests a neutral undertone as well.",
+    "video_id": "sample_00004007.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as natural, with a normal pace and clear voice, indicating a neutral emotion. There are no indications of emotional extremes such as happiness, sadness, or anger.",
+    "video_id": "sample_00001631.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The vocal delivery is described as expressive with a rising intonation and increased volume towards the end, which are indicators of surprise or shock. The clear and well-enunciated speech further supports the expression of surprise.",
+    "video_id": "sample_00005443.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The vocal delivery is described as expressive, natural, and conveys enthusiasm and excitement, which are indicative of happiness. There is no indication of any other emotion being dominant.",
+    "video_id": "sample_00004950.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as expressive yet monotone, with no significant changes in pitch or intonation, suggesting a calm and collected demeanor. This indicates a neutral emotion as there are no signs of heightened emotional states such as happiness, anger, or sadness.",
+    "video_id": "sample_00002460.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as expressive, natural, and confident, without any indication of strong emotional cues such as anger, sadness, or happiness. The lack of stammering or slurring suggests a neutral emotional state.",
+    "video_id": "sample_00001551.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The rising intonation at the end of the sentence suggests surprise or curiosity, indicating that surprise is the dominant emotion. The natural and clear delivery without noticeable pauses or hesitations suggests a secondary emotion of neutrality.",
+    "video_id": "sample_00006798.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as expressive and natural with a positive tone, indicated by the slight upward inflection at the end of sentences. This suggests a happy emotion as the dominant one.",
+    "video_id": "sample_00005939.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as monotone and emotionless, indicating a neutral emotion. There are no signs of any other emotions such as happiness, anger, or sadness in the description.",
+    "video_id": "sample_00005497.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The man's monotone delivery, steady rhythm, and lack of emotional tone suggest a neutral emotion. There are no indications of any other emotions such as happiness, sadness, or anger.",
+    "video_id": "sample_00003790.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's monotone and flat intonation, along with the lack of enthusiasm in their speech, suggests a neutral emotional state. The fast-paced and slightly rushed tone does not strongly indicate any other specific emotion.",
+    "video_id": "sample_00004940.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The fast-paced and slightly breathy tone, along with the expressive delivery, suggests anger as the dominant emotion. However, the attempt to maintain a composed demeanor indicates a secondary neutral emotion.",
+    "video_id": "sample_00005321.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's uneven intonation, slow pacing, and occasional pauses suggest a sense of uncertainty or confusion, which aligns with the emotion of being worried. Additionally, the context of discussing a loved one in the hospital and the emotional distress indicated by the vocal delivery support the presence of sadness as a secondary emotion.",
+    "video_id": "sample_00004407.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The vocal description indicates a high-pitched, strained voice with pauses and hesitation, which suggests sadness or disappointment. The phrase 'Oh goodness. Why hold on!' implies an element of surprise or shock, supporting surprise as a secondary emotion.",
+    "video_id": "sample_00001999.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as expressive and monotone, with a normal tone of voice and no notable variations, indicating a neutral emotional tone. There are no indications of any other emotions present.",
+    "video_id": "sample_00004943.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The upward inflection and the tone of the speaker suggest surprise or confusion, indicating 'surprise' as the dominant emotion. The natural and clear delivery without strain or effort suggests a secondary 'neutral' emotion.",
+    "video_id": "sample_00002010.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The man's tone is described as natural and clear, with no signs of strain or emotion, indicating a neutral emotional state. The lack of noticeable pauses or hesitations further supports the neutrality of the speech.",
+    "video_id": "sample_00002603.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's vocal delivery is described as expressive and natural, with a clear and confident tone, which suggests a neutral emotion. The use of varying intonation and engaging delivery could also imply a hint of happiness, but the overall description leans more towards neutrality.",
+    "video_id": "sample_00001646.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The content of the transcript suggests a negative sentiment, likely sadness, as it implies disappointment or regret. The monotone delivery indicates a lack of strong emotional variation, which supports a neutral undertone.",
+    "video_id": "sample_00003709.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as expressive and monotone, with a normal tone of voice and no notable changes in pitch or intonation, suggesting a neutral emotional state. The matter-of-fact and straightforward manner further supports the neutrality of the emotion.",
+    "video_id": "sample_00001485.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's vocal delivery, described as expressive with a slight upward inflection, suggests an attempt to convey excitement or enthusiasm, which aligns with happiness. However, the monotone aspect and the context of the statement could also imply a neutral stance, hence the secondary emotion.",
+    "video_id": "sample_00003245.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's tone is described as positive and enthusiastic, which strongly indicates happiness. The natural and clear delivery without strain suggests a neutral undertone as a secondary emotion.",
+    "video_id": "sample_00004936.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a negative tone, which is often associated with anger or sadness. Given the lack of specific details, anger is inferred as the dominant emotion due to the negative tone, with sadness as a possible secondary emotion.",
+    "video_id": "sample_00001682.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "justification": "The tone of the man's voice is described as negative and tense, which suggests anger. The content of the speech also implies frustration or irritation. The tension in his voice may also indicate a level of worry or concern.",
+    "video_id": "sample_00001133.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a neutral tone with no significant changes in pitch or intonation, suggesting a neutral emotional state. The speaker's clear and steady delivery supports this interpretation.",
+    "video_id": "sample_00000832.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The monotone delivery, consistent volume, and lack of pitch variation suggest a neutral emotional state, as there are no indicators of strong emotions such as happiness, sadness, or anger.",
+    "video_id": "sample_00005430.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's negative tone, slow speech, low pitch, and tense, breathy voice suggest anger as the dominant emotion. The lack of pauses or hesitations, combined with the breathy quality, also indicates a possible underlying sadness.",
+    "video_id": "sample_00005626.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'this is a mess' combined with the expressive and natural vocal delivery suggests frustration or anger. The steady pacing and clear, full-bodied voice indicate a controlled but emotional response, which aligns with anger. The context of describing a situation as a 'mess' also suggests a level of concern or worry.",
+    "video_id": "sample_00001454.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The change in tone and pitch at a specific point in the audio suggests an expression of surprise or disbelief, making 'surprise' the dominant emotion. The overall monotone delivery indicates a neutral baseline, supporting 'neutral' as a secondary emotion.",
+    "video_id": "sample_00006298.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The rising intonation at the end of her sentence and the expressive vocal delivery suggest surprise as the dominant emotion. The clear and enthusiastic tone also indicates a secondary emotion of happiness.",
+    "video_id": "sample_00006717.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's delivery is described as expressive yet monotone, with clear articulation and a natural manner, which suggests a neutral emotion. The slight pitch raise does not strongly indicate any other specific emotion.",
+    "video_id": "sample_00003652.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The breathy and tense quality of her voice, along with the roughness, suggests a strong emotional state, likely worry. The steady, measured pace and lack of hesitation indicate control, but the emotional delivery hints at underlying sadness.",
+    "video_id": "sample_00006500.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's vocal delivery is described as expressive and monotone, which suggests a neutral emotion. However, the slight tension in their voice indicates a possible underlying worry, making 'worried' a secondary emotion.",
+    "video_id": "sample_00004288.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's monotone delivery, normal pace, and matter-of-fact tone suggest a neutral emotion. There are no indications of strong emotions such as happiness, sadness, or anger.",
+    "video_id": "sample_00005828.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as expressive yet monotone, with no changes in pitch or intonation, indicating a lack of emotional expression. This suggests a neutral emotion as the most dominant.",
+    "video_id": "sample_00001667.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as expressive yet monotone, with a steady intonation and pacing, which suggests a neutral emotional tone. There are no indicators of heightened emotions such as happiness, anger, or sadness.",
+    "video_id": "sample_00000143.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's vocal delivery is expressive and natural, indicating engagement and interest, which suggests a neutral to slightly positive emotional state. The lack of tension or harshness in the voice supports a neutral emotion, while the expressiveness and interest hint at a secondary happy emotion.",
+    "video_id": "sample_00006903.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's voice is described as natural and expressive without any noticeable pauses or hesitations, which suggests a neutral tone. There is no indication of strong emotions such as happiness, worry, or anger in the description provided.",
+    "video_id": "sample_00005576.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's vocal delivery is described as expressive and natural, with no signs of tension or harshness, suggesting a neutral state. The engagement and interest in the conversation could indicate a secondary emotion of happiness.",
+    "video_id": "sample_00002972.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The tone of the man's voice is described as negative, which suggests anger. The fast pace of speech can also be associated with anger or frustration. However, the clarity and lack of noticeable accent or pauses might indicate a neutral undertone as well.",
+    "video_id": "sample_00002806.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's tone is described as professional and confident, which aligns with a neutral emotion. However, the slight upward inflection suggesting urgency or enthusiasm could indicate a secondary emotion of being worried.",
+    "video_id": "sample_00000754.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The monotone, low, slow, and measured tone of the man's speech, along with the lack of pauses or hesitations, suggests a neutral emotional state. There are no indicators of other emotions such as happiness, worry, or anger.",
+    "video_id": "sample_00005573.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates that the man sounds happy and excited, suggesting happiness as the dominant emotion. The natural and smooth delivery without hesitations supports a neutral secondary emotion.",
+    "video_id": "sample_00002787.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates that the woman's vocal delivery is natural and clear, with a normal pace and a slight rise in pitch, suggesting a neutral emotional tone. There are no indications of other emotions such as happiness, worry, or sadness.",
+    "video_id": "sample_00006939.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as expressive and monotone, with no variations in pitch or intonation, suggesting a neutral emotional state. The clear and natural articulation further supports the absence of any particular emotion.",
+    "video_id": "sample_00005217.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase '\u6211\u4ec0\u4e48\u90fd\u4e0d\u884c' translates to 'I can't do anything,' which suggests a feeling of inadequacy or hopelessness, aligning with sadness. The tension and breathiness in the voice further support an emotional state, potentially indicating worry as a secondary emotion.",
+    "video_id": "sample_00004726.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The vocal delivery is described as monotone and straightforward, with no significant changes in pitch or intonation, indicating a neutral emotional tone. There are no indicators of other emotions such as happiness, sadness, or anger.",
+    "video_id": "sample_00001837.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as natural and neutral, with no significant emotional cues such as pauses or hesitations that might indicate another emotion. The slow and steady speech further supports the neutral tone.",
+    "video_id": "sample_00006816.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates that the speaker's tone suggests happiness and excitement, which aligns with the expressive and natural delivery noted. The slight rise in pitch at the end of the sentence further supports a happy emotion.",
+    "video_id": "sample_00005474.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as expressive and natural, with no signs of strain or effort, suggesting a neutral emotional state. The absence of specific emotional cues like excitement or distress supports the interpretation of neutrality.",
+    "video_id": "sample_00002680.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's vocal delivery is described as expressive and natural, with a confident and smooth tone, suggesting a neutral emotion. The slight rise in pitch and natural intonation may indicate a subtle hint of happiness, but the overall delivery remains predominantly neutral.",
+    "video_id": "sample_00004145.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's vocal delivery is described as monotone and relaxed, with no significant changes in pitch or intonation, which typically indicates a neutral emotional state. There is no indication of any other emotion being expressed.",
+    "video_id": "sample_00002118.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone is described as expressive yet monotone, with a normal tone of voice and a slight rise in pitch, which suggests neutrality. There are no indications of strong emotions such as happiness or sadness, supporting the neutral classification.",
+    "video_id": "sample_00003028.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "70",
+    "justification": "The raised pitch and urgent, passionate delivery suggest anger as the dominant emotion. The urgency in the voice also indicates a level of concern or worry, supporting it as a secondary emotion.",
+    "video_id": "sample_00005897.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The monotone vocal delivery, lack of changes in pitch, intonation, and pacing, along with the absence of pauses or hesitations, strongly suggest a neutral emotional state. There is no indication of any other emotion being expressed.",
+    "video_id": "sample_00005277.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates that the speaker's voice is expressive, with a slightly elevated intonation and clear delivery, which are characteristics associated with happiness and excitement. There is no indication of any other emotion being present.",
+    "video_id": "sample_00003773.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The rising intonation at the end of the sentence suggests surprise or excitement, indicating surprise as the dominant emotion. The natural and expressive vocal delivery, along with enthusiasm and engagement, supports happiness as a secondary emotion.",
+    "video_id": "sample_00005062.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's monotone delivery, lack of expressiveness, and consistent vocal quality suggest a neutral emotion. There are no indicators of any other emotions such as happiness, sadness, or anger.",
+    "video_id": "sample_00006422.mp4",
+    "ground_truth": "surprise"
+  }
+]

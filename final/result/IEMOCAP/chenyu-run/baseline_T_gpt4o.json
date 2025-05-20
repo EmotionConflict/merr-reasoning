@@ -1,0 +1,1163 @@
+[
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The use of the phrase 'What the hell is this?' suggests a tone of anger or frustration, with anger being the more dominant emotion due to the confrontational nature of the language.",
+    "video_id": "Ses01F_script01_1_F037.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript consists of a single word 'Yeah,' which is typically neutral without additional context or expressive cues to suggest another emotion.",
+    "video_id": "Ses01F_impro02_M011.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's words indicate a sense of frustration and disbelief towards the other person's acceptance of a situation, suggesting frustration as the dominant emotion. The tone also hints at underlying anger, as the speaker questions the other person's reaction.",
+    "video_id": "Ses01F_impro02_M005.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The use of phrases like 'what the hell is this all for' and 'what are we working for' suggests a sense of frustration and possibly anger, as the speaker seems to be questioning the purpose of their efforts with a tone that implies dissatisfaction or irritation.",
+    "video_id": "Ses01M_script01_1_F040.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "fearful",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whispering tone and the question 'Whatever happens, we're okay?' suggest a sense of fear or anxiety about the future, indicating a dominant emotion of fearfulness. The use of 'darling' and the reassurance sought could imply a neutral or calm undertone as a secondary emotion.",
+    "video_id": "Ses01M_script03_1_M003.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement suggests a neutral tone with a hint of frustration, as it advises against being serious, implying a desire to avoid giving others what they want.",
+    "video_id": "Ses01M_script03_1_M017.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'For real?' typically indicates a reaction of disbelief or astonishment, suggesting surprise as the dominant emotion.",
+    "video_id": "Ses01F_script02_1_M030.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "70",
+    "justification": "The repetition of 'Fifty thousand dollars' suggests a sense of disbelief or frustration, likely due to an unexpected or overwhelming situation. The fragmented speech and mention of a friend of a friend indicate surprise or confusion about the circumstances.",
+    "video_id": "Ses01M_impro03_M007.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The use of the word 'incredible' suggests a positive and enthusiastic reaction, indicating excitement.",
+    "video_id": "Ses01M_impro07_F004.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The expressions 'What?' and 'Huh?' typically indicate a reaction of surprise or confusion, suggesting that the person is caught off guard or did not expect what they encountered.",
+    "video_id": "Ses01M_script02_2_M029.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement appears to be sarcastic, suggesting frustration with the financial situation of being a student. The tone could also be interpreted as neutral if taken literally.",
+    "video_id": "Ses01F_impro07_M018.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript describes a straightforward action of forming a line and swimming, which does not inherently convey any strong emotion. The lack of emotional language or context suggests a neutral tone.",
+    "video_id": "Ses01M_script02_1_M044.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "concerned",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The question 'He sick for awhile?' suggests a level of concern or worry about someone's health, indicating a concerned emotion. However, since 'concerned' is not in the provided list, it is not possible to select a dominant emotion from the given options.",
+    "video_id": "Ses01M_impro06_F006.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The transcript reflects a sense of loss and tragedy, indicating sadness. The mention of selfishness and the implication of preventable outcomes suggest frustration as a secondary emotion.",
+    "video_id": "Ses01M_script01_3_M031.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fearful",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'If one of us dies...' suggests a contemplation of loss, which is typically associated with sadness. Additionally, the thought of death can evoke fear, making 'fearful' a secondary emotion.",
+    "video_id": "Ses01M_script03_1_F021.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Good God' is often used to express frustration or exasperation, suggesting a dominant emotion of frustration.",
+    "video_id": "Ses01M_script03_1_M000.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The presence of laughter suggests a positive emotion, indicating happiness. The expression 'Oh, good' can also imply excitement or relief, supporting excitement as a secondary emotion.",
+    "video_id": "Ses01M_impro03_M011.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "80",
+    "justification": "The speaker's use of the word 'awesome' and the context of receiving a significant amount of money for doing nothing suggests excitement and happiness.",
+    "video_id": "Ses01M_impro03_M005.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The repetition of 'no' suggests a strong feeling of frustration, possibly due to the situation being discussed. The context of discussing a transactional marriage for a visa may also evoke anger, as it involves legal and ethical implications.",
+    "video_id": "Ses01M_impro03_M004.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'I wonder' is ambiguous and does not convey a strong emotional tone, suggesting a neutral state. There is no clear indication of any other emotion.",
+    "video_id": "Ses01M_script03_1_M001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement 'I'm going to have a mustache...On the force...' suggests anticipation and enthusiasm about a future event, which aligns with excitement. There is no clear indication of another emotion.",
+    "video_id": "Ses01M_impro07_M032.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The use of words like 'urgency' and 'pure urge' suggests a heightened state of excitement or enthusiasm, indicating a dominant emotion of excitement.",
+    "video_id": "Ses01M_script02_1_M045.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'Really? Penny slots?' suggests an element of surprise or disbelief, indicating that the speaker did not expect or is taken aback by the mention of penny slots. The tone could also be interpreted as neutral if the surprise is mild or casual.",
+    "video_id": "Ses01F_impro03_M017.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement 'Do you want to go somewhere? Let's go.' is straightforward and lacks strong emotional cues, suggesting a neutral tone. However, the invitation to go somewhere could imply a sense of excitement, albeit less dominant.",
+    "video_id": "Ses01M_script01_3_M020.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'What are you talking about?' suggests a challenge or disagreement, indicating frustration. The tone implies a level of irritation, which supports the presence of anger as a secondary emotion.",
+    "video_id": "Ses01M_impro07_M022.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "50",
+    "justification": "The statement 'He was a really, really good guy' suggests a positive sentiment, indicating happiness or fondness. However, without additional context, it could also be interpreted neutrally as a simple statement of fact.",
+    "video_id": "Ses01M_impro06_M022.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's use of 'God, this is great' suggests excitement about the topic. However, the acknowledgment that the listener is 'not interested' introduces a neutral tone, indicating a lack of emotional engagement from the listener.",
+    "video_id": "Ses01F_script02_1_M036.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is calm and reassuring, suggesting a neutral tone. There is no strong indication of any other specific emotion.",
+    "video_id": "Ses01M_impro02_M014.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'I don't care then' suggests a dismissive or resigned attitude, which is often associated with frustration.",
+    "video_id": "Ses01M_script03_1_M004.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'Shut up' followed by 'No- in Vegas?' suggests a reaction to unexpected news, indicating surprise. The context of Vegas often implies excitement, supporting a secondary emotion of excitement.",
+    "video_id": "Ses01F_impro03_M002.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is too brief and lacks context or emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01M_impro03_F020.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript describes an activity in a straightforward manner without any clear emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01F_impro03_F021.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "75",
+    "justification": "The mention of planning a wedding and describing it as fun suggests excitement, while the overall tone indicates happiness about the upcoming event.",
+    "video_id": "Ses01M_impro03_M016.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "nostalgic",
+    "second_emotion_confidence_score": "",
+    "justification": "The mention of a significant life event like marriage and reminiscing about the past suggests a positive and happy emotion. Nostalgia is implied but not explicitly listed in the options.",
+    "video_id": "Ses01M_script02_2_F019.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker expresses a sense of failure and dissatisfaction with their actions, indicating frustration. The mention of ruining everything suggests a feeling of sadness as well.",
+    "video_id": "Ses01F_impro07_F016.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "60",
+    "justification": "The single word 'What?' suggests an element of surprise, as it often indicates an unexpected or unclear situation. The tone could also imply frustration, as it might be used when someone is annoyed by a lack of understanding or clarity.",
+    "video_id": "Ses01M_impro06_M020.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's words suggest a sense of confusion and difficulty, which aligns with frustration. The lack of clarity and the phrase 'it's complicated' indicate a struggle to articulate or resolve the situation.",
+    "video_id": "Ses01M_script01_3_M022.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'He loves you' typically conveys a positive sentiment, suggesting happiness or affection, which is why 'happy' is identified as the dominant emotion.",
+    "video_id": "Ses01F_impro03_M015.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript only contains '[BREATHING]', which does not provide enough context to determine a specific emotion beyond a neutral state.",
+    "video_id": "Ses01F_script03_1_M003.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The repetition of 'No' suggests a strong negative reaction, indicating frustration as the dominant emotion, with anger as a possible secondary emotion due to the intensity of the response.",
+    "video_id": "Ses01F_script01_3_F013.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'I'm sorry' suggests a sense of regret or sadness, while 'I ignore what I've got to ignore' indicates a level of frustration with the situation.",
+    "video_id": "Ses01M_script01_1_F023.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's tone appears neutral when describing returning to work and the 'rat race,' but the mention of a 'random bus accident' suggests an element of surprise or unexpectedness.",
+    "video_id": "Ses01F_script01_3_M033.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is very brief and lacks any clear emotional indicators, suggesting a neutral tone. Without additional context or vocal cues, it's challenging to infer a stronger emotion.",
+    "video_id": "Ses01F_script03_1_M002.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Right, sure.' is brief and lacks any strong emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01M_impro04_F008.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's tone appears to be neutral as they are describing a situation without strong emotional cues. The use of 'well, okay whatever' suggests a lack of strong emotional investment, indicating neutrality.",
+    "video_id": "Ses01M_script02_1_M031.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'I don't understand you, do I?' suggests a sense of frustration due to a lack of understanding, while the whispering tone may indicate a neutral or subdued emotional state.",
+    "video_id": "Ses01F_script01_1_F043.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'Good God' is often used to express exasperation or annoyance, suggesting frustration as the dominant emotion. The tone can also imply anger, making it a possible secondary emotion.",
+    "video_id": "Ses01F_script03_1_M000.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement suggests a tone of frustration, as it implies a critique or suggestion for someone to be more informed before speaking. The neutral tone is also present as the statement is delivered in a calm and factual manner.",
+    "video_id": "Ses01M_impro04_F022.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'What the hell is this?' suggests a strong sense of frustration, likely due to confusion or dissatisfaction, and the use of 'hell' indicates a possible undertone of anger.",
+    "video_id": "Ses01M_script01_1_F034.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement suggests a sense of frustration due to the need to wait in line for an ID, which is often a tedious process. However, the tone remains relatively calm, indicating a neutral undertone as well.",
+    "video_id": "Ses01M_impro01_M009.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is very brief and lacks any emotional indicators such as exclamations or emotive language, suggesting a neutral tone.",
+    "video_id": "Ses01F_script02_1_M044.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript 'Flight seven fourteen' is a factual statement without any emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01F_impro05_F008.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "grateful",
+    "second_emotion_confidence_score": "",
+    "justification": "The expression 'Oh-Oh' suggests an element of surprise, and the phrase 'You're helping me out here?' indicates a positive reaction, possibly gratitude, but the dominant emotion is surprise.",
+    "video_id": "Ses01F_impro05_F020.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's words suggest a sense of frustration with the current situation, as they imply dissatisfaction and a desire for change. Additionally, there is an underlying sadness in the acknowledgment of not meeting expectations or desires.",
+    "video_id": "Ses01M_script02_2_F040.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'That's a very good idea' suggests a positive reaction, indicating happiness. The intention to act on the idea implies a level of enthusiasm or excitement.",
+    "video_id": "Ses01M_script03_2_M031.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'I wonder' is ambiguous and does not convey a strong emotional tone, suggesting a neutral state. There is no clear indication of any other emotion.",
+    "video_id": "Ses01F_script03_1_M001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "30",
+    "justification": "The phrase 'He saw it' suggests an element of surprise, as it implies an unexpected observation or discovery. However, without additional context or emotional cues, the statement could also be interpreted as neutral.",
+    "video_id": "Ses01M_script01_1_M000.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "nostalgic",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "30",
+    "justification": "The speaker reflects on memories of someone they grew up with, indicating nostalgia. The tone appears calm and reflective, suggesting a neutral emotion as well.",
+    "video_id": "Ses01M_script01_1_M028.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's repeated expressions of confusion and inability to understand suggest a sense of frustration, as they are struggling to comprehend the requirements being asked of them.",
+    "video_id": "Ses01M_impro01_F015.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement 'I'd rather be doing it with you' suggests a positive sentiment and preference for companionship, indicating happiness. The use of 'Don't be ridiculous' could imply a neutral tone, as it may be dismissing a negative assumption.",
+    "video_id": "Ses01F_script02_2_F037.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is factual and lacks any clear emotional cues, suggesting a neutral tone. There is no evident emotional expression such as excitement, anger, or sadness in the transcript.",
+    "video_id": "Ses01M_script03_2_F028.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The plea for help suggests a sense of frustration with the current situation, while the context of asking a parent for help indicates underlying sadness or desperation.",
+    "video_id": "Ses01M_script01_1_M038.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The act of kissing can often lead to surprise, especially if unexpected, and can also be associated with happiness due to the intimate nature of the action.",
+    "video_id": "Ses01F_script01_3_M020.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The presence of laughter and the context of something being 'sillier' suggests a light-hearted and joyful atmosphere, indicating happiness as the dominant emotion.",
+    "video_id": "Ses01F_script03_1_F030.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'I can't help it' suggests a sense of helplessness or frustration, indicating that the speaker feels unable to change or control a situation.",
+    "video_id": "Ses01F_script01_2_F014.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement 'That's my point too.' is straightforward and lacks any strong emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01M_script02_1_M023.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript consists of a simple question without any clear emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01M_impro01_F004.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The use of the word 'trivial' suggests a dismissive or frustrated attitude towards the broach, indicating frustration as the dominant emotion. The overall tone of the statement is relatively calm, suggesting a secondary neutral emotion.",
+    "video_id": "Ses01M_script03_2_F003.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript consists of a single word 'Yeah?' which is ambiguous and lacks clear emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01F_script02_2_M039.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "happy",
+    "second_emotion_confidence_score": "75",
+    "justification": "The words 'interesting' and 'fantastic' suggest a positive reaction, indicating excitement as the dominant emotion, with happiness as a secondary emotion.",
+    "video_id": "Ses01F_impro04_F027.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The expression 'Ugh...' typically conveys a sense of frustration or annoyance, indicating that the speaker is likely feeling frustrated.",
+    "video_id": "Ses01M_script02_1_F001.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript contains a simple question without any emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01F_impro05_F026.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Turn it off' suggests a sense of urgency or dissatisfaction, which aligns with frustration. The lack of additional context or emotional cues makes it difficult to identify a second emotion.",
+    "video_id": "Ses01M_script03_2_M037.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's repeated questioning and plea for understanding suggest a sense of frustration in seeking answers. The tone also carries a neutral element as it reflects a contemplative state without overt emotional highs or lows.",
+    "video_id": "Ses01F_script03_1_M013.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "85",
+    "justification": "The speaker's use of harsh language and strong rejection indicates a dominant emotion of anger. The repeated 'shut up' and the overall tone suggest frustration as a secondary emotion.",
+    "video_id": "Ses01F_script03_2_M040.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement 'maybe get a car' is presented in a straightforward manner without any clear emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01F_impro04_M022.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement 'They are away in Tunis' is factual and lacks any emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01M_script03_2_F033.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's words suggest a sense of disbelief and irritation, likely due to a perceived unfairness or misunderstanding, which aligns with frustration.",
+    "video_id": "Ses01M_script01_1_F002.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The mention of flying in from Paris and shopping for three weeks suggests a sense of excitement and enthusiasm. However, the lack of additional emotional cues keeps the possibility of a neutral tone.",
+    "video_id": "Ses01F_impro05_F016.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'It had to happen sooner or later' suggests a sense of inevitability and resignation, which aligns with frustration. The question 'What are we going to do?' indicates a neutral stance as it seeks a solution or plan.",
+    "video_id": "Ses01F_script03_1_F002.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The question implies a sense of confusion or irritation about someone's presence at an unusual time, suggesting frustration.",
+    "video_id": "Ses01M_script01_1_F003.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The use of the word 'insufferable' suggests a strong feeling of frustration, while the context of accusing someone of being drunk indicates underlying anger.",
+    "video_id": "Ses01M_script03_2_F026.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript only contains '[BREATHING]', which does not provide enough context to determine a specific emotion beyond a neutral state.",
+    "video_id": "Ses01F_script02_2_F029.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The statement reflects a sense of regret and acknowledgment of a mistake, which suggests sadness. The mention of a 'terrible mistake' also indicates frustration with the situation.",
+    "video_id": "Ses01M_script01_1_M008.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript consists of a single word, 'Georgia,' which does not provide enough context to infer any strong emotional expression. Therefore, the emotion is considered neutral.",
+    "video_id": "Ses01M_impro05_F003.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The single-word question 'When?' suggests impatience or frustration, likely due to a lack of information or delay.",
+    "video_id": "Ses01M_script01_1_F001.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The use of the word 'amusing' suggests a positive reaction, indicating happiness or amusement.",
+    "video_id": "Ses01M_script03_2_M039.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "fearful",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whispering tone and the question 'Is it them?' suggest a sense of apprehension or fear about the identity or presence of someone, indicating a fearful emotion.",
+    "video_id": "Ses01F_script03_1_F000.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript contains a single word 'Yeah,' which is generally neutral without additional context or tone to suggest a specific emotion.",
+    "video_id": "Ses01F_impro04_F014.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is factual and lacks any clear emotional cues, suggesting a neutral tone. There is no indication of strong emotions such as excitement, anger, or fear.",
+    "video_id": "Ses01F_script03_1_F001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "fearful",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The question 'What he's going to say?' suggests anticipation and concern about an unknown outcome, which aligns with a sense of fear or apprehension.",
+    "video_id": "Ses01M_script01_1_F000.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is very neutral in tone and lacks any strong emotional indicators, suggesting a neutral emotion.",
+    "video_id": "Ses01F_script01_1_M042.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement reflects a sense of dissatisfaction and frustration about the lack of visibility of women, suggesting a feeling of being upset or annoyed by this issue.",
+    "video_id": "Ses01M_script01_1_F028.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker expresses a desire for a happy family life and seems content with the idea of coming home to a nice environment, indicating happiness. The mention of working hard for money suggests a neutral acceptance of the situation.",
+    "video_id": "Ses01M_script01_1_M035.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The question 'Who told you to get in this line?' suggests a tone of anger, likely due to a perceived mistake or misunderstanding. The phrasing also indicates frustration, as it implies a disruption or annoyance with the situation.",
+    "video_id": "Ses01F_impro01_M002.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript 'Right.' is very brief and lacks any emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01M_script02_2_M040.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustrated",
+    "second_emotion_confidence_score": "70",
+    "justification": "The statement 'I know I don't make you happy' suggests a feeling of sadness, as it reflects a sense of inadequacy or disappointment. The repeated 'I know' indicates frustration, as it implies an ongoing awareness of the situation.",
+    "video_id": "Ses01M_script02_2_M044.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "50",
+    "justification": "The hesitation and incomplete sentences suggest a sense of frustration, while the lack of clear emotional cues also indicates a neutral tone.",
+    "video_id": "Ses01M_impro04_F006.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is delivered in a straightforward manner without any clear indicators of strong emotions such as frustration, excitement, or anger, suggesting a neutral tone.",
+    "video_id": "Ses01M_script03_2_M028.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's uncertainty and lack of possession of the item suggest frustration, while the overall tone remains calm, indicating a neutral undertone.",
+    "video_id": "Ses01M_impro01_M011.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker describes a situation involving repeated waiting and being redirected, which typically leads to frustration. The tone and context suggest a strong sense of frustration without clear indicators of another emotion.",
+    "video_id": "Ses01F_impro05_F004.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The question 'Do you want to get married again?' is presented in a neutral manner without any additional context or emotional cues, suggesting a neutral emotion.",
+    "video_id": "Ses01F_script02_2_M026.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker expresses dissatisfaction and a desire for action, indicating frustration. The use of 'lip service' and 'aggressive searching' suggests underlying anger as well.",
+    "video_id": "Ses01M_impro05_M026.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript indicates hesitation and uncertainty, which aligns with a neutral emotional state. There is no strong indication of any other specific emotion.",
+    "video_id": "Ses01F_script01_3_F009.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Not like that you're not' suggests a correction or disapproval, which is often associated with frustration.",
+    "video_id": "Ses01F_script01_3_F021.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "excited",
+    "second_emotion_confidence_score": "60",
+    "justification": "The statement is calm and suggests a neutral tone, as it is focused on being quiet to observe fish. However, there is a hint of excitement in the anticipation of seeing the fish.",
+    "video_id": "Ses01M_script02_2_M053.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "excited",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprised",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker expresses excitement with phrases like 'this is great' and 'I can't believe it,' indicating a positive and enthusiastic reaction. The element of disbelief suggests a secondary emotion of surprise.",
+    "video_id": "Ses01M_script02_1_M000.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sad",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's questions suggest a sense of frustration about their efforts not being recognized, while the tone also conveys sadness over the perceived failure or misunderstanding.",
+    "video_id": "Ses01F_impro05_M033.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's emphasis on not hiring someone who is 'angry or upset' suggests a frustration with such emotions, possibly reflecting their own feelings. The mention of 'angry' indicates a secondary presence of anger.",
+    "video_id": "Ses01M_impro04_F011.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Because it is.' is short and lacks any clear emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01M_script01_1_M027.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's response suggests a level of frustration, possibly due to being asked for a badge number and offering an alternative. The tone seems resigned or indifferent, indicating a neutral secondary emotion.",
+    "video_id": "Ses01F_impro05_M032.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's words suggest a sense of frustration with unmet expectations and the situation they find themselves in, which is further emphasized by the mention of arguing, indicating underlying anger.",
+    "video_id": "Ses01M_script02_2_M035.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is too brief and lacks context or emotional cues to strongly indicate any specific emotion. It appears to be a neutral statement.",
+    "video_id": "Ses01F_impro07_M006.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is delivered in a straightforward manner without any clear indicators of strong emotions such as excitement or frustration. The comparison to ping-pong suggests a neutral or indifferent stance.",
+    "video_id": "Ses01M_impro07_F024.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's words suggest a sense of disbelief and irritation, likely due to a perceived unfairness or misunderstanding, which aligns with frustration.",
+    "video_id": "Ses01F_script01_1_F002.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "surprised",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The expression 'Wow' typically indicates a reaction of surprise or amazement, suggesting that the dominant emotion is surprised.",
+    "video_id": "Ses01F_impro03_M018.mp4",
+    "ground_truth": "surprised"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "70",
+    "justification": "The phrase 'Oh shut up' suggests a strong reaction, likely indicating frustration as the dominant emotion, with anger also being a possible secondary emotion due to the abruptness and dismissive nature of the statement.",
+    "video_id": "Ses01F_script03_2_F027.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Ahh...who knows' suggests a sense of uncertainty and exasperation, which aligns with frustration. There is no clear indication of another emotion.",
+    "video_id": "Ses01M_script03_1_M022.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is factual and lacks any emotional indicators, suggesting a neutral tone.",
+    "video_id": "Ses01F_impro03_F005.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Twice is every year we've tried that's ever' suggests a repeated effort without success, which often leads to frustration.",
+    "video_id": "Ses01M_script02_2_F014.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The single-word response 'No' suggests a negative or resistant emotion, with frustration being a likely interpretation given the lack of additional context.",
+    "video_id": "Ses01F_script02_1_M010.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The question 'What we're going to do?' suggests a sense of uncertainty or lack of direction, which often aligns with feelings of frustration.",
+    "video_id": "Ses01M_script03_1_F002.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'Don't be so grand' suggests a tone of frustration, possibly due to a perceived attitude or behavior of another person. The overall tone of the statement is calm, indicating a secondary neutral emotion.",
+    "video_id": "Ses01F_script03_2_M013.mp4",
+    "ground_truth": "frustrated"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript consists of a single word 'Yeah,' which is typically neutral without additional context or emotional indicators.",
+    "video_id": "Ses01M_impro03_F013.mp4",
+    "ground_truth": "excited"
+  },
+  {
+    "first_emotion": "frustrated",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The question 'You're going with the same ones?' suggests a sense of dissatisfaction or annoyance, indicating frustration as the dominant emotion.",
+    "video_id": "Ses01M_impro02_F013.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'Just cash hardcore' is ambiguous and lacks clear emotional indicators, suggesting a neutral tone. Without additional context, it is difficult to ascertain any specific emotion.",
+    "video_id": "Ses01M_impro03_M018.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The conversation appears to be casual and matter-of-fact, discussing logistics without any strong emotional cues indicating excitement, frustration, or any other emotion.",
+    "video_id": "Ses01M_impro07_M013.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement is factual and lacks any clear emotional indicators, suggesting a neutral tone. There is no evident expression of strong emotions such as happiness, anger, or fear.",
+    "video_id": "Ses01M_script03_1_F001.mp4",
+    "ground_truth": "fearful"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is a simple question about a birthday party without any clear emotional indicators such as tone or context that would suggest a specific emotion.",
+    "video_id": "Ses01M_impro02_F010.mp4",
+    "ground_truth": "sad"
+  }
+]

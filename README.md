@@ -1,4 +1,6 @@
-# chenyu-llm-experiment
+# folder structure
+
+for the final results, please refer to the folder final/result/../chenyu-run
 
 ## set up conda environment
 
@@ -11,7 +13,7 @@ OPENAI_API_KEY=<your_key>
 
 ## how to run
 
-## to run main.py
+## to run main.py, refer to the NEURIPS_SCRIPTS.MD for the final scripts
 
 `python main.py --model gpt-4o-mini`
 

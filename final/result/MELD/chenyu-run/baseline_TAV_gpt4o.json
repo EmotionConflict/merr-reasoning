@@ -1,0 +1,1721 @@
+[
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's words and the slow, measured pace with occasional pauses suggest sadness, as they express a desire for mutual living arrangements that are not reciprocated. The visual cues, such as the moderately lid tightener and upper lip raiser, along with the animated expression and intense engagement, indicate underlying anger, likely due to frustration with the situation.",
+    "video_id": "dia233_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, but his visual expression, including a slight grin and playful demeanor, suggests a more neutral or lighthearted interaction. The woman's engaged and possibly amused posture supports the presence of a joyful undertone, though it is secondary to the overall neutral mood.",
+    "video_id": "dia175_utt3.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's confident and determined vocal delivery, combined with the intimate and affectionate setting, suggests a dominant emotion of joy. The man's slightly surprised expression and the overall calm and warm atmosphere contribute to a secondary emotion of neutrality, as there is no strong indication of negative emotions.",
+    "video_id": "dia169_utt6.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's negative tone, tense expression, and slightly furrowed brow suggest a feeling of sadness or contemplation. The relaxed setting and his neutral body language indicate a secondary emotion of neutrality, as he seems to be in a familiar environment, which might mitigate stronger negative emotions.",
+    "video_id": "dia279_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's facial expressions, such as the Nose Wrinkler and Upper Lip Raiser, along with the negative tone in her voice, suggest disgust. The man's furrowed brows and the tension in his lips indicate a secondary emotion of anger, as he seems to be defending a point.",
+    "video_id": "dia239_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's serious tone and the visual cues of furrowed brows, tense posture, and earnest expressions suggest a somber mood, indicative of sadness. The overall setting and interaction between the two men, with their focus and engagement, support a neutral undertone as they navigate a serious conversation.",
+    "video_id": "dia115_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description indicates a neutral tone in the speaker's voice, and the visual expression description suggests a focused but not emotionally charged expression. The combination of these elements supports a dominant neutral emotion.",
+    "video_id": "dia279_utt15.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's open mouth, jaw drop, and animated expression suggest surprise, while her normal vocal delivery and natural tone indicate a neutral baseline emotion. The combination of these elements points to a moment of surprise within a generally neutral context.",
+    "video_id": "dia245_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone and expression suggest sadness or disappointment, as indicated by his negative tone and facial features like furrowed brows and pressed lips. The relaxed setting and lack of extreme emotional cues also suggest a neutral undertone, as he seems contemplative rather than overtly emotional.",
+    "video_id": "dia42_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is described as negative, with a slow and measured delivery, suggesting anger or upset. His facial expressions, such as a scrunched-up face, furrowed eyebrows, and tense body language, further support the presence of anger. The slight nose wrinkler and upper lip raiser indicate a secondary emotion of disgust.",
+    "video_id": "dia120_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman in pink exhibits signs of irritation or frustration, such as a defensive posture and narrowed eyes, indicating anger. The audio description suggests a neutral tone, which aligns with the demeanor of the second woman, who appears calm and engaged.",
+    "video_id": "dia233_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, and his visual expression includes raised brows and a tight lid, which are indicative of surprise. The overall setting and expressions of the group suggest a serious discussion, with some individuals appearing attentive and engaged, which aligns with a neutral emotional state.",
+    "video_id": "dia29_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "concern",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is described as natural and without signs of stress or emotion, suggesting a neutral emotion. The woman's expression and demeanor, with a slight crease on her forehead and focused eyes, indicate concern, but this is not strongly supported by the man's neutral tone.",
+    "video_id": "dia97_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's playful demeanor, smirk, and the cheerful expression of the woman suggest a joyful interaction. The lively and lighthearted atmosphere, along with the man's raised eyebrows, also indicates an element of surprise, possibly due to the unexpected nature of the conversation.",
+    "video_id": "dia169_utt5.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual description suggests a moment of intimacy and connection, which typically aligns with neutral or positive emotions. However, the audio description indicates a negative tone, and the man's facial expressions, such as the Lip Corner Depressor and Chin Raiser, can be associated with sadness. Thus, the dominant emotion is neutral due to the overall context, with a secondary hint of sadness from the man's expressions.",
+    "video_id": "dia133_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The overall scene, including the positive tone of the man's voice and the lively, engaging atmosphere, suggests a dominant emotion of joy. The expressions and gestures of the individuals, such as smiling and animated interaction, further support this. The presence of neutral expressions is also noted, but they are secondary to the evident joy.",
+    "video_id": "dia42_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's negative tone and facial expressions, such as the strongly depressed lip corners and moderately raised chin, suggest sadness. The overall setting and interaction appear informal and intimate, which supports a neutral atmosphere as a secondary emotion.",
+    "video_id": "dia169_utt20.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's intense expression with a furrowed brow, pursed lips, and assertive body language suggests anger. The negative tone in his speech and the lip corner depressor further indicate disgust as a secondary emotion.",
+    "video_id": "dia244_utt6.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's negative tone, tense and breathy voice, along with the statement 'Monica kinda trusted me with something and she shouldn\u2019t have!' suggests anger. The animated gestures and raised eyebrows indicate an element of surprise, supporting it as a secondary emotion.",
+    "video_id": "dia17_utt17.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's vocal delivery is tense and fast-paced with a raised pitch, indicating a heightened emotional state. Her animated facial expression, wide eyes, and parted lips suggest surprise, while the phrase 'I'm freaking out!' and her breathy voice imply an element of fear.",
+    "video_id": "dia17_utt16.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's serious expression with furrowed brows, tightly pressed lips, and tense body language suggests anger. The presence of a slightly wrinkled nose and raised upper lip indicates a secondary emotion of disgust.",
+    "video_id": "dia244_utt7.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, and his facial expressions, such as the moderately lid tightener and upper lip raiser, suggest anger. However, the relaxed setting and open body language also indicate a neutral or calm demeanor, suggesting a mix of emotions.",
+    "video_id": "dia42_utt1.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "concern",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's vocal delivery, characterized by a high pitch and fast, hesitant tone, along with her exclamation 'Oh my God,' suggests surprise. Her facial expressions, including slightly raised brows and a tense voice, support this. The visual description of her expression and the intimate setting also indicate concern, as she seeks reassurance or communicates an important sentiment.",
+    "video_id": "dia133_utt8.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral vocal delivery, suggesting a straightforward and matter-of-fact tone. However, the visual expression description shows elements of surprise and amusement, particularly in the gestures and expressions of the characters, which supports a secondary emotion of surprise.",
+    "video_id": "dia169_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral tone with no significant emotional cues, while the visual description shows a cheerful smile and animated gestures from the woman, suggesting some level of joy. The overall interaction seems lively and engaged, but the neutral tone in the audio is dominant.",
+    "video_id": "dia77_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's warm and engaged expression, along with her evident smile and relaxed posture, strongly suggest joy. The man's tone is natural and does not convey any particular emotion, which supports a neutral emotion as secondary.",
+    "video_id": "dia97_utt8.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The overall tone of the scene is neutral, with the man speaking in a positive tone and the setting being warm and cozy. However, the animated gestures and expressions of the individuals, particularly the man in the hoodie, suggest a level of surprise or mild tension, indicating a secondary emotion of surprise.",
+    "video_id": "dia29_utt5.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone and expressive gestures suggest an element of surprise, as he seems eager to convey something important. The visual cues, such as the raised brows and dynamic body language, support this interpretation. The woman's attentive yet contemplative posture adds a neutral undertone to the interaction.",
+    "video_id": "dia240_utt9.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's animated body language, smiling, and enthusiastic gestures suggest joy as the dominant emotion. The man's relaxed posture and slight smile support a neutral or content atmosphere, indicating a secondary emotion of neutrality.",
+    "video_id": "dia22_utt13.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's tone is described as happy and relaxed, and her vocal delivery suggests contentment. The visual cues, such as the intimate setting and the warm, playful lighting, support a joyful atmosphere. However, the presence of a strong lip corner depressor and chin raiser could indicate a neutral or slightly mixed emotional state, hence the secondary emotion of neutral.",
+    "video_id": "dia207_utt0.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript indicates a positive tone with the phrase 'I'm so glad you called,' suggesting joy. The audio description supports this with a positive tone. However, the visual expression shows some tension and concentration, which could indicate a neutral or slightly mixed emotional state.",
+    "video_id": "dia174_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's vocal delivery is monotone and clear, suggesting a neutral emotional tone. However, the slight rise in pitch at the end of the sentence and the visual cues such as the slightly raised inner brow and moderately raised cheek and lip corners indicate a hint of surprise.",
+    "video_id": "dia175_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's vocal delivery and facial expressions strongly suggest joy, as indicated by her cheerful tone, broad smile, and lively demeanor. The setting and her engagement with the environment further support a joyful and content atmosphere. The neutral emotion is considered as a secondary due to the natural and relaxed setting, but it is not as dominant as the joy expressed.",
+    "video_id": "dia245_utt3.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression, characterized by a moderately raised lid and jaw drop, suggests surprise. Her positive tone and relaxed posture indicate a neutral or pleasant engagement, supporting a secondary neutral emotion.",
+    "video_id": "dia169_utt19.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual expression description indicates a mix of positive facial expressions such as a lip corner puller and dimpler, suggesting joy. The audio description notes a neutral tone, which supports a secondary emotion of neutrality. The overall scene conveys a lively and engaging interaction, reinforcing the presence of joy as the dominant emotion.",
+    "video_id": "dia60_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is negative, and his facial expressions, such as the brow lowerer and lid tightener, suggest anger. The upper lip raiser and chin raiser indicate disgust, supporting the presence of a secondary emotion.",
+    "video_id": "dia110_utt8.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a neutral tone, and the visual cues such as the man's neutral posture and the woman's serious expression suggest a calm yet serious interaction. The man's slight tilt of the head and the context of the conversation imply he might be surprised or caught off guard, supporting surprise as a secondary emotion.",
+    "video_id": "dia111_utt8.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's serious expression, direct eye contact, and rigid posture suggest anger, supported by the negative tone in his voice. The overall setting and lack of extreme vocal features indicate a secondary neutral emotion, as the interaction seems significant but not overly emotional.",
+    "video_id": "dia115_utt2.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is negative, and his expression includes features such as a nose wrinkler and lip tightener, which are indicative of anger and disgust. The serious and conflicted expression, along with the tension in his posture, supports the presence of anger as the dominant emotion, with disgust as a secondary emotion.",
+    "video_id": "dia239_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's tone is described as happy, and her expression is animated and cheerful, with a bright smile, indicating joy. The overall scene conveys warmth and camaraderie, supporting a joyful atmosphere. The neutral emotion is considered due to the calm and relaxed setting, but joy is clearly dominant.",
+    "video_id": "dia210_utt7.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is described as negative, with indications of anger or disgust. His speech is quick, and his expression includes features like a nose wrinkler and upper lip raiser, which are often associated with disgust, but the overall context and tone suggest anger is more dominant.",
+    "video_id": "dia115_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's vocal delivery is clear, natural, and expressive, suggesting confidence and engagement, which aligns with a neutral emotional state. However, her tense posture and slight frown, along with the context of her arms being crossed tightly, indicate a possible underlying frustration or anger.",
+    "video_id": "dia279_utt13.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's positive tone and clear speech suggest a neutral or calm state, while the man's thoughtful and slightly perplexed expression, along with the context of a significant conversation, hints at a mild surprise or contemplation. The overall scene does not strongly convey any intense emotion, leading to a dominant neutral interpretation with a hint of surprise.",
+    "video_id": "dia111_utt9.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone and expression, including a furrowed brow and lip corner depressor, suggest sadness as he discusses the possibility of not being able to have a baby. The content of his speech and the serious nature of the conversation also indicate an underlying fear about the future.",
+    "video_id": "dia60_utt0.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is negative and his facial expressions, such as brow lowering and lip raising, suggest anger. His animated gestures and serious demeanor further support this. The slight upper lip raise and the context of the conversation imply a secondary emotion of disgust.",
+    "video_id": "dia169_utt18.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "concern",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's vocal delivery is described as normal and not too expressive, indicating a neutral tone. However, her facial expression shows a mix of concern and intensity, suggesting a secondary emotion of concern. The setting and body language imply a serious conversation, but the overall mood remains relatively neutral.",
+    "video_id": "dia175_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's vocal delivery is described as neutral, with no significant changes in pitch or intonation, indicating a neutral emotion. However, the lively bar setting and the presence of people enjoying the music and engaging in conversation suggest an underlying atmosphere of joy.",
+    "video_id": "dia174_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone and facial expressions, such as the moderately Brow Lowerer and Lip Corner Depressor, suggest surprise, particularly in response to the unexpected event of rolling over the juice box. The overall intimate and relaxed setting, along with the woman's affectionate gaze, contributes to a neutral emotional backdrop.",
+    "video_id": "dia207_utt1.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's broad smile, sparkling eyes, and the warmth in her expression strongly indicate joy. The relaxed demeanor and comfortable rapport between the individuals suggest a neutral, pleasant interaction, supporting a secondary emotion of neutrality.",
+    "video_id": "dia22_utt12.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's tone is described as negative, and her facial expressions, such as the brow lowerer and chin raiser, suggest anger. The overall lack of significant changes in tone and the neutral pitch indicate a secondary emotion of neutrality.",
+    "video_id": "dia240_utt8.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a positive tone and excitement about living together, suggesting joy. However, the visual expression of the first woman shows signs of frustration or exasperation, which could imply a mix of emotions, but the overall context of a friendly conversation in a warm setting supports a dominant emotion of joy with a secondary neutral stance.",
+    "video_id": "dia233_utt3.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's vocal delivery is natural and lacks notable expressiveness, suggesting a neutral emotion. However, the slight rise in pitch at the end of her statement and her facial expressions, such as the moderately raised brows and slightly wrinkled nose, indicate a hint of surprise.",
+    "video_id": "dia77_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's verbal expression of 'Really? I\u2019ve been thinking, this is crazy' suggests an element of surprise or disbelief. His tone is described as negative with tension, but the visual cues such as the moderately raised brows and slightly dropped jaw support a reaction of surprise. The overall demeanor and setting suggest a mix of surprise and neutrality as he processes the conversation.",
+    "video_id": "dia174_utt6.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "concern",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as positive, but his facial expressions, such as brow furrowing and lip corner depression, suggest surprise and concern. The dialogue also hints at an unexpected event ('did you fall'), supporting the presence of surprise. The visual cues of tension and agitation further indicate concern as a secondary emotion.",
+    "video_id": "dia239_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's tone is described as happy, and her expressive vocal delivery supports the presence of joy. The visual cues, such as the raised eyebrows and the engaged, enthusiastic body language, suggest a secondary emotion of surprise, as she seems to be making a point or explaining something with urgency.",
+    "video_id": "dia239_utt3.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone of voice is described as surprised, and his expression includes elements like a slightly raised upper lid and jaw drop, which are consistent with surprise. The overall setting and the neutral expressions of others suggest a secondary emotion of neutrality, as they are engaged but not displaying strong emotions.",
+    "video_id": "dia29_utt3.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral vocal delivery with no noticeable signs of emotion, supporting a neutral emotion. However, the visual expression description, including a friendly smile and positive body language, suggests a secondary emotion of joy.",
+    "video_id": "dia22_utt11.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The vocal expression 'Ewww!' and the visual cues such as nose wrinkling, upper lip raising, and a grimace strongly indicate disgust. The clenched hands and furrowed eyebrows suggest a secondary emotion of anger, as these are common indicators of frustration or irritation.",
+    "video_id": "dia230_utt8.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The scene is characterized by lively and animated expressions, smiles, and a cheerful atmosphere, indicating joy as the dominant emotion. The presence of curiosity and excitement, along with the animated discussion and engagement with the paper, suggests an element of surprise as a secondary emotion.",
+    "video_id": "dia131_utt6.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "frustration",
+    "second_emotion_confidence_score": "75",
+    "justification": "The audio description suggests happiness and excitement, but the visual cues indicate a tense and chaotic atmosphere with expressions of surprise and frustration. The man's disheveled appearance and the woman's concerned and frustrated expression, along with the other man's surprise, support the presence of these emotions.",
+    "video_id": "dia254_utt16.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual description indicates a joyful interaction between the two women, with expressions of laughter and playful energy. The audio tone is neutral, but the visual cues strongly suggest joy as the dominant emotion.",
+    "video_id": "dia25_utt2.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's vocal delivery is described as natural and neutral, with no notable emotional features in her voice. However, her visual expression, with furrowed brows and a contemplative look, suggests a hint of seriousness or tension, which could indicate underlying sadness. The overall scene's intimate setting and the serious nature of their interaction support this interpretation.",
+    "video_id": "dia240_utt16.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's distressed expression, tears, and the need for support indicate sadness as the dominant emotion. The tense voice and the action of stifling a gasp suggest fear as a secondary emotion, as both women appear to be processing something overwhelming.",
+    "video_id": "dia165_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is positive, and the setting suggests a lively atmosphere, which could indicate joy. However, his facial expression shows slight concern or deep thought, with furrowed brows and a tense mouth, suggesting a more neutral or contemplative state. The combination of these elements points to a dominant neutral emotion with a hint of joy due to the positive tone and celebratory setting.",
+    "video_id": "dia174_utt13.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The casually dressed man's subtle, amused smile and relaxed posture suggest a neutral to slightly joyful demeanor, while the suited man's serious expression and animated gestures indicate a more neutral or slightly tense interaction. The overall tone of the scene appears balanced, with no strong negative emotions dominating.",
+    "video_id": "dia254_utt5.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's monotone vocal delivery and the strong lip corner depressor suggest a neutral or slightly sad emotion. The overall scene is warm and familial, but the woman's expression and tone do not convey joy or anger, leaning more towards neutrality with a hint of sadness.",
+    "video_id": "dia100_utt18.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is negative and his voice has a breathy quality, which, combined with the visual cues of a moderately brow lowerer and lip corner depressor, suggests sadness. The overall casual and relaxed setting, along with the faint smile of the other man, supports a secondary emotion of neutrality.",
+    "video_id": "dia52_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates that the woman sounds happy and excited, suggesting joy as the dominant emotion. However, the visual cues such as the furrowed brow and intense engagement suggest an element of surprise or urgency, supporting surprise as a secondary emotion.",
+    "video_id": "dia100_utt19.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's facial expressions, such as brow lowering and lip tightening, along with her body language, suggest frustration and annoyance, indicating anger. Her biting of the lip and gripping of her hair suggest anxiety, which aligns with fear as a secondary emotion.",
+    "video_id": "dia174_utt12.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues, such as tears in the eyes and the comforting gesture, strongly suggest sadness as the dominant emotion. The audio description indicates a normal vocal delivery, which aligns with a neutral tone, supporting the presence of a neutral emotion as secondary.",
+    "video_id": "dia165_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's vocal delivery is described as clear, calm, and natural, indicating a neutral emotional state. However, her animated expression with raised eyebrows and slightly open mouth suggests a hint of surprise, possibly due to the context of needing to find new places, which could be unexpected or noteworthy.",
+    "video_id": "dia112_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual expression description highlights the woman on the right laughing with a broad smile, indicating joy as the dominant emotion. The audio description notes a neutral tone, which supports a secondary emotion of neutrality.",
+    "video_id": "dia25_utt3.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's negative tone, tense and rough voice, along with the visual cues such as the brow lowerer and the body language of the man on the left, suggest a dominant emotion of sadness. The presence of a brow lowerer and upper lip raiser also indicates a secondary emotion of anger, as these expressions can be associated with frustration or distress.",
+    "video_id": "dia200_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's positive tone and broad smile, along with the woman's warm smile, suggest a dominant emotion of joy. The overall friendly and inviting atmosphere supports this. The neutral emotion is considered due to the third woman's focused or shy demeanor, which contrasts with the others' engagement.",
+    "video_id": "dia131_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone in the audio description is noted as negative, which, combined with the urgency suggested by the suited man's outstretched arms, indicates anger as the dominant emotion. The overall scene, with its lively and chaotic nature, suggests a neutral or mixed emotional backdrop, but the primary focus remains on the negative tone of the speaker.",
+    "video_id": "dia254_utt15.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "amusement",
+    "second_emotion_confidence_score": "70",
+    "justification": "The presence of a duck in the living room creates an unexpected and humorous situation, leading to a blend of surprise and amusement among the men. The animated expressions and gestures, along with the humorous contrast of the duck's presence, suggest surprise as the dominant emotion, with amusement as a secondary emotion.",
+    "video_id": "dia200_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's monotone vocal delivery and lack of expressive engagement suggest a neutral emotion. However, the visual cues such as the moderately brow lowerer and lip corner depressor hint at a subtle undercurrent of sadness.",
+    "video_id": "dia240_utt15.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's monotone vocal delivery and the serious expression with a mix of concern or contemplation suggest a neutral emotional state. However, the slightly lowered brows and lip corner depressor hint at a subtle undercurrent of sadness, possibly due to the context of discussing an injury.",
+    "video_id": "dia25_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, and his facial expressions include a brow lowerer and lid tightener, which can indicate a neutral or slightly sad demeanor. However, the overall scene is warm and relaxed, suggesting that the dominant emotion is neutral, with a hint of sadness due to the negative tone.",
+    "video_id": "dia52_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as positive, and his expression is contemplative, suggesting a neutral emotional state. The setting and body language indicate anticipation and a charged atmosphere, hinting at surprise as a secondary emotion due to the potential outcome of the situation.",
+    "video_id": "dia254_utt6.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is negative, tense, and breathy, which aligns with disgust, supported by the strong upper lip raiser and lip stretcher in his expression. The question 'What is that?' and the slightly raised brows suggest an element of surprise.",
+    "video_id": "dia254_utt7.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's negative tone, tension in his voice, and visual cues such as brow lowering and lip raising suggest anger. The wide eyes and animated gestures indicate a secondary emotion of surprise, as he seems passionately involved in the conversation.",
+    "video_id": "dia52_utt1.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone and the description of his voice suggest anger or frustration, supported by the audio description indicating a negative tone. The visual cues, such as the brow lowerer and lip tightener, further support anger. The body language and setting suggest a serious discussion, with the other men's postures indicating concern or contemplation, which aligns with sadness as a secondary emotion.",
+    "video_id": "dia200_utt2.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's distressed expression, open mouth, and furrowed brows suggest she is on the verge of tears, indicating sadness. The man's concerned and awkward expression, along with his supportive gesture, adds a neutral tone to the interaction, as he seems to be trying to comfort her.",
+    "video_id": "dia254_utt14.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual expressions, such as the cheeky grin and radiant smile, along with the playful engagement and sparkling eyes, strongly indicate joy. The audio description of a neutral vocal delivery suggests a straightforward manner, supporting a secondary emotion of neutrality.",
+    "video_id": "dia131_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, and his facial expressions, such as brow lowering and lid tightening, suggest anger. The woman's concerned expression and withdrawn posture indicate fear or worry, supporting fear as a secondary emotion.",
+    "video_id": "dia94_utt0.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral vocal delivery with no strong emotions expressed. However, the visual description suggests a lively interaction with playful grins and amused expressions, indicating a secondary emotion of joy.",
+    "video_id": "dia254_utt10.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's vocal delivery and facial expressions, such as wide eyes and open mouth, strongly indicate surprise. The context of her reaction to discovering something unexpected ('Oh that was a real person?!') further supports this. The neutral emotion is suggested by the social setting and her casual yet elegant demeanor, which may temper the intensity of her surprise.",
+    "video_id": "dia240_utt10.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's monotone vocal delivery and the man's attentive listening suggest a neutral emotional state overall. However, the woman's slightly furrowed brow and pursed lips, combined with the intense nature of the conversation, hint at underlying sadness or concern.",
+    "video_id": "dia126_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The vocal delivery is monotone, suggesting a neutral emotion, while the visual cues such as wide eyes and slightly raised eyebrows hint at surprise. The overall interaction seems friendly and engaged, but the monotone voice indicates a stronger presence of neutrality.",
+    "video_id": "dia112_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's warm, jovial demeanor and the woman's playful smile and amusement suggest a dominant emotion of joy. The woman's raised eyebrows and expression of disbelief indicate a secondary emotion of surprise.",
+    "video_id": "dia249_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "70",
+    "justification": "The vocal delivery and the woman's disbelief indicate a strong element of surprise. The visual cues, such as the woman's hand to her mouth and the tense atmosphere, suggest a secondary emotion of sadness, as both women appear to be processing something overwhelming.",
+    "video_id": "dia165_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression, with slightly raised brows and a partially open mouth, suggests surprise or disbelief, which aligns with the description of her being in the middle of a surprising revelation. The man's serious demeanor and the mention of 'so sad' in the transcript indicate a secondary emotion of sadness.",
+    "video_id": "dia174_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's animated expression, including a moderately jaw drop and slightly puckered mouth, suggests surprise. The intensity of the conversation and the woman's engaged posture, along with the moderately brow lowerer and lid tightener, indicate a secondary emotion of anger or frustration.",
+    "video_id": "dia112_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's facial expressions, such as raised eyebrows and an open mouth, strongly indicate surprise, supported by her animated demeanor and the context of the conversation. The man's tone is negative, but his speech is calm and controlled, suggesting a neutral emotional state.",
+    "video_id": "dia240_utt11.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The whisper transcript 'Okay, hating this' and the audio description indicating a negative tone suggest anger as the dominant emotion. The visual expression description, with features like Upper Lip Raiser and Chin Raiser, supports the presence of disgust as a secondary emotion.",
+    "video_id": "dia254_utt11.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual cues such as furrowed eyebrows, pressed lips, and the intense body language suggest anger as the dominant emotion. The positive tone in the audio description and the phrase 'just a love machine' hint at a neutral or lighter undertone, but the overall scene is dominated by tension and frustration.",
+    "video_id": "dia94_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "70",
+    "justification": "The transcript indicates the speaker finds the joke offensive, which aligns with anger and disgust. The visual cues, such as the brow lowerer and upper lip raiser, support these emotions. The audio description of a neutral tone suggests the anger is controlled, but the visual intensity and context of the statement suggest anger is dominant, with disgust as a secondary emotion.",
+    "video_id": "dia259_utt10.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The whisper transcript reveals a surprising revelation about becoming an aunt, which is typically associated with joy. The visual cues, such as the moderately raised lip corners and dimpler, support a positive emotion like joy, while the brow lowerer and open mouth suggest surprise. The audio description indicates a neutral tone, but the visual expressions and context suggest a mix of surprise and joy.",
+    "video_id": "dia254_utt13.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "concern",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, and his facial expressions, such as the furrowed brow and lip tightener, suggest concern. The overall setting and body language indicate a serious and intimate conversation, which aligns with a neutral or concerned emotional state.",
+    "video_id": "dia126_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The vocal delivery is described as monotone and matter-of-fact, suggesting a neutral emotion. The visual expressions, such as the lip corner depressor and brow furrowing, indicate a hint of sadness, but the overall lively and social setting supports a primarily neutral emotional state.",
+    "video_id": "dia174_utt16.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual cues such as wide eyes, raised eyebrows, and a slight smile suggest surprise and excitement. The open body language and slight smile also indicate a sense of joy or enthusiasm, supporting the presence of joy as a secondary emotion.",
+    "video_id": "dia249_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "75",
+    "justification": "The speaker's vocal delivery, with a slight rise in pitch and expressive tone, along with the visual cues of wide eyes and a broad smile, suggest surprise as the dominant emotion. The lively facial expression and eagerness in body language also indicate joy as a secondary emotion.",
+    "video_id": "dia249_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's verbal expression indicates a lack of enthusiasm for dancing, suggesting neutrality or mild displeasure. His tone is described as negative, and the visual cues such as the Upper Lip Raiser and Lid Tightener could indicate a subtle sense of disgust or discomfort, though his overall demeanor remains open and engaged, suggesting a primarily neutral emotional state.",
+    "video_id": "dia174_utt17.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's vocal tone is described as happy and excited, but her visual expressions, such as wide eyes and a slightly open mouth, suggest surprise. The context of mentioning a 'big bear' outside and the man's slightly worried expression support the presence of fear as a secondary emotion.",
+    "video_id": "dia126_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's wide eyes and slightly open mouth suggest surprise, while the furrowed brow and the sense of urgency in the scene indicate fear. The audio description of a positive tone contrasts with the visual cues, but the overall visual expression and setting suggest a moment of surprise and fear.",
+    "video_id": "dia254_utt12.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's positive tone and natural, expressive vocal delivery suggest joy, supported by the open and friendly expression of the second man. The overall atmosphere of anticipation and engagement in the room further supports a joyful emotion. The neutral emotion is considered due to the relaxed and thoughtful body language of the first man, indicating a calm and composed demeanor.",
+    "video_id": "dia129_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The whisper transcript 'What?' combined with the negative tone suggests an element of surprise. The visual cues such as the brow lowerer and cheek raiser support a surprised reaction. The overall setting and body language indicate a serious but not overly emotional interaction, suggesting a secondary neutral emotion.",
+    "video_id": "dia143_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's vocal delivery is described as monotone, which suggests a neutral emotion. However, her facial expression, particularly the strong lip corner puller and the inviting atmosphere, indicates a secondary emotion of joy. The setting and interaction suggest a personal and engaging conversation, supporting the presence of joy.",
+    "video_id": "dia143_utt5.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The whisper transcript 'No, no, no. What was that?' along with the negative tone suggests surprise, possibly due to an unexpected event. The visual cues such as furrowed brows, lip corner depressor, and chin raiser indicate a mix of surprise and anger, with surprise being more dominant due to the context of the unexpected situation.",
+    "video_id": "dia129_utt1.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's facial expression, with raised eyebrows and a slightly open mouth, indicates surprise. The tone of the whisper transcript and the slight nose wrinkler and upper lip raiser suggest a secondary emotion of disgust.",
+    "video_id": "dia205_utt0.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's strong gestures, determined posture, and facial expressions such as the Lip Corner Depressor and Lip Stretcher suggest anger or frustration. The man's expression of confusion or surprise, along with his body language, supports surprise as a secondary emotion.",
+    "video_id": "dia37_utt4.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral tone with no significant changes in intonation, suggesting a neutral emotion. However, the visual cues such as the smile and pleasant expression hint at a secondary emotion of joy, as the interaction appears friendly and lighthearted.",
+    "video_id": "dia247_utt3.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The overall atmosphere in the caf\u00e9 is lively and cheerful, with festive decorations and patrons engaging in light-hearted conversations, which suggests joy. The woman's animated expression and gestures, along with the man's slightly puzzled expression, indicate an element of surprise, possibly due to the exciting news being shared.",
+    "video_id": "dia154_utt1.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates the man's tone sounds negative and angry, which aligns with the strong upper lip raiser and dimpler in the visual expression, suggesting anger. However, the setting and slight smirk suggest a neutral or light-hearted undertone, indicating a mix of emotions.",
+    "video_id": "dia180_utt8.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's positive tone and relaxed vocal delivery, combined with her nurturing actions and the warm, inviting environment, suggest a dominant emotion of joy. Her focused expression and the natural setting contribute to a secondary emotion of neutrality, as she is calmly engaged in a routine task.",
+    "video_id": "dia100_utt13.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone and facial expressions, such as the strong upper lip raiser and dimpler, suggest a sense of disgust. The slow speech and slight hesitation, along with the relaxed caf\u00e9 setting, indicate a secondary emotion of neutrality, as the situation seems casual and not overly intense.",
+    "video_id": "dia180_utt9.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's vocal delivery is described as neutral and relaxed, with no overt emotional expression. However, the visual cues such as the strong lip corner depressor and slightly raised chin suggest a hint of sadness, though it is not dominant.",
+    "video_id": "dia174_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The vocal delivery is described as natural and clear, with no signs of strain, suggesting a neutral emotion. The visual expressions, such as the slightly lowered brow and lip corner depressor, could indicate a neutral or slightly negative emotion, but the overall festive and lively atmosphere of the caf\u00e9, along with the woman's enthusiastic expression, supports a secondary emotion of joy.",
+    "video_id": "dia154_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The exclamation 'What?!' and the moderately raised brows suggest an element of surprise. However, the positive tone and the relaxed setting, combined with the man's thoughtful demeanor, indicate a neutral or contemplative state, making neutral the second emotion.",
+    "video_id": "dia143_utt6.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's jovial expression, animated gestures, and the light-hearted exchange suggest a dominant emotion of joy. The neutral tone in the whisper transcript and the casual setting support a secondary emotion of neutrality, as there is no strong indication of negative emotions.",
+    "video_id": "dia247_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone and facial expressions, such as the moderately brow lowerer and jaw drop, suggest surprise. The tension in his voice and the expression of frustration or disbelief indicate a secondary emotion of anger.",
+    "video_id": "dia205_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, and his facial expressions, such as brow lowering and lip raising, suggest anger. The serious expressions and tense postures of both men further support this. The neutral emotion is considered due to the calm and casual setting, which tempers the intensity of the anger.",
+    "video_id": "dia230_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's positive tone and relaxed, playful demeanor suggest joy as the dominant emotion. The casual and comfortable setting, along with his carefree posture, supports a neutral secondary emotion, indicating a relaxed state without strong emotional intensity.",
+    "video_id": "dia143_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a neutral tone, and the visual cues such as the Lip Corner Depressor and Lip Tightener suggest a hint of sadness. However, the overall context and the speaker's engagement in a routine task with children suggest a predominantly neutral emotional state.",
+    "video_id": "dia100_utt17.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's vocal delivery is monotone, and her facial expressions are subtle and mixed, indicating a lack of strong emotional expression. The scene's context of organizing and the calm, focused demeanor suggest a neutral emotional state.",
+    "video_id": "dia279_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "concern",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's monotone vocal delivery and the setting suggest a neutral emotion, as there is no strong indication of joy, anger, or sadness. However, her body language and facial expressions, such as the brow lowerer and wide eyes, suggest a secondary emotion of concern, indicating she is engaged and possibly worried about the conversation.",
+    "video_id": "dia90_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a neutral tone, and the visual cues such as the open posture and slight lip corner puller suggest a hint of joy or engagement. However, the overall demeanor and context suggest neutrality as the dominant emotion.",
+    "video_id": "dia143_utt3.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual expression description indicates a mix of playful annoyance and enthusiasm, with features like a strongly Lip Corner Puller and animated body language suggesting joy. The context of the statement and the animated gestures also imply an element of surprise, as if the speaker is playfully reacting to an unexpected or humorous situation.",
+    "video_id": "dia37_utt2.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's monotone vocal delivery and lack of notable changes in pitch or intonation suggest a neutral emotion. However, her slightly raised eyebrows and wide eyes indicate a hint of surprise or disbelief, which is supported by the context of her statement.",
+    "video_id": "dia90_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The vocal delivery is described as happy and excited, and the visual scene is playful and lighthearted, indicating joy as the dominant emotion. The slight upward inflection and the playful struggle over the dumbbells suggest an element of surprise, supporting it as a secondary emotion.",
+    "video_id": "dia279_utt4.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral tone with no significant emotional cues, while the visual description suggests a warm and nurturing environment, which can be associated with joy. The woman's expression and the playful setting with the children contribute to a secondary emotion of joy.",
+    "video_id": "dia100_utt14.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral tone, and the visual expressions show a mix of slight emotional indicators, but nothing strongly deviating from neutrality. The playful and nurturing environment, along with the woman's engagement with the baby, suggests a secondary emotion of joy.",
+    "video_id": "dia100_utt15.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual expression description indicates signs of frustration and determination, such as furrowed brows and a tight grip on an object, suggesting anger. The audio description, however, describes a neutral tone, which supports a secondary emotion of neutrality.",
+    "video_id": "dia279_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's vocal delivery is described as surprised, and her facial expressions, such as the strongly raised upper lip and lid tightener, support this emotion. The overall scene suggests a moment of animated discussion, which could also indicate a neutral or everyday interaction, hence the secondary emotion.",
+    "video_id": "dia90_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "80",
+    "justification": "The man's tone and expression, including a nose wrinkler and lip tightener, suggest disgust, while his assertive stance and pointed finger indicate anger. The woman's discomfort and the tense interaction further support these emotions.",
+    "video_id": "dia247_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description suggests a negative tone with tension, but the visual cues, such as a slight smile and relaxed demeanor, indicate a more neutral or lighthearted interaction. The slight surprise could be inferred from the phrase 'You're taking a big leap there,' suggesting an unexpected reaction.",
+    "video_id": "dia37_utt3.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a positive tone, suggesting happiness and satisfaction, while the visual description shows a relaxed and friendly atmosphere with smiling and laughter, supporting the presence of joy. The neutral emotion is considered due to the calm and casual demeanor of the individuals, which aligns with a relaxed, everyday setting.",
+    "video_id": "dia269_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's vocal delivery is described as happy and excited, which strongly suggests joy. The visual cues, such as the slightly raised lip corners and the overall relaxed and congenial atmosphere, support a joyful and neutral emotional state. The presence of a smile and the friendly interaction further reinforce these emotions.",
+    "video_id": "dia240_utt6.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's positive tone and the act of doing something nice suggest joy, while his animated gestures and open mouth indicate a sense of surprise or urgency, possibly reflecting a comedic or unexpected revelation.",
+    "video_id": "dia195_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The speaker's tone is described as tense and expressive, with a suggestion of being angry or upset, which aligns with the verbal cue 'You are both idiots.' The visual cues, such as the brow lowerer and lip raiser, support an angry expression. The slight jaw drop and animated expression may indicate surprise as a secondary emotion.",
+    "video_id": "dia259_utt9.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, but his visual expression and body language suggest a relaxed and slightly amused demeanor, indicating a neutral emotional state. The slight smile and comfortable posture hint at a secondary emotion of joy, as he seems engaged in a light conversation.",
+    "video_id": "dia110_utt7.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's monotone voice and bored or disinterested tone suggest a neutral emotion. However, her facial expressions, such as the moderately brow lowerer and slightly upper lip raiser, hint at a subtle undercurrent of sadness or concern, which is why sadness is considered as a secondary emotion.",
+    "video_id": "dia111_utt7.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "95",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's bright and cheerful expression, characterized by an inviting smile and relaxed posture, strongly indicates joy. The natural and relaxed vocal delivery supports a neutral secondary emotion, as there are no signs of heightened emotional states like surprise or anger.",
+    "video_id": "dia210_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's positive tone and animated gestures suggest joy, while the exclamation 'Wow!' indicates an element of surprise. The lively and colorful setting further supports a joyful atmosphere.",
+    "video_id": "dia262_utt2.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, but his visual expression and the overall scene suggest a friendly and relaxed interaction. The playful smile and gestures indicate a light-hearted moment, which aligns with joy, but the tone and slow delivery suggest a more neutral emotion overall.",
+    "video_id": "dia183_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The visual expression of the person on the right, with a slightly open mouth and a posture that suggests being taken aback, indicates surprise. The audio description, however, suggests a neutral tone, which aligns with the speaker's steady and smooth vocal delivery, indicating a lack of strong emotion.",
+    "video_id": "dia210_utt8.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone and expression suggest surprise, as indicated by his open mouth and questioning gesture, which aligns with the confusion expressed in the whisper transcript. The furrowed eyebrows and tense posture also suggest underlying anger, reflecting frustration with the situation.",
+    "video_id": "dia125_utt22.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a neutral tone with no significant emotional cues in the voice. However, the visual expression suggests a mix of determination and playfulness, with a slight smirk, which can be associated with joy. The overall scene conveys a friendly atmosphere, supporting a secondary emotion of joy.",
+    "video_id": "dia259_utt8.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as stern or serious, and his expression includes a strong lid tightener and moderately raised upper lip, which are indicative of anger. However, the overall setting and lack of extreme vocal or facial cues suggest a secondary neutral emotion, as the situation seems controlled and not overly intense.",
+    "video_id": "dia195_utt0.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's positive tone and the content of his speech suggest joy as the dominant emotion. The visual cues, such as the slight lip corner puller and dimpler, support a joyful expression. However, the man's neutral expression and the relaxed, attentive posture also indicate a neutral emotion, making it the second most evident emotion.",
+    "video_id": "dia240_utt7.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, and his facial expressions, such as the nose wrinkler and lip tightener, suggest disgust. However, the overall scene is lively and comfortable, which supports a secondary emotion of neutrality.",
+    "video_id": "dia269_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral vocal delivery, which suggests a lack of strong emotional expression. However, the visual cues such as the woman's animated expression, raised eyebrows, and the casual, friendly atmosphere imply a secondary emotion of joy, as they are indicative of a lighthearted and pleasant interaction.",
+    "video_id": "dia68_utt13.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The visual cues, such as the strong lip corner puller and bright smiles, indicate joy as the dominant emotion. The audio description supports a neutral tone, suggesting a secondary emotion of neutrality, but the overall scene and expressions lean more towards joy.",
+    "video_id": "dia269_utt2.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a surprised tone in the speaker's voice, and the visual cues, such as wide eyes and raised eyebrows, support the presence of surprise. The overall setting and body language suggest a neutral or contemplative atmosphere, which is why neutral is considered as a secondary emotion.",
+    "video_id": "dia237_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's animated gestures and facial expressions, such as the jaw drop and raised brows, suggest surprise. However, her monotone vocal delivery and the context of the statement 'it was stupid' imply a neutral or matter-of-fact tone, supporting a secondary neutral emotion.",
+    "video_id": "dia111_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The vocal delivery is described as neutral, and the visual expressions, such as the slightly hunched posture and the earnest expression of the woman, suggest a neutral to slightly sad atmosphere. The overall body language and setting indicate a tense but not overtly emotional situation, supporting a primary neutral emotion with a secondary hint of sadness.",
+    "video_id": "dia125_utt20.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The vocal delivery is described as neutral, with no significant changes in tone or pitch, suggesting a calm and ordinary interaction. However, the visual expressions such as moderately Lid Tightener and Jaw Drop could indicate a mild element of surprise, possibly due to the animated conversation or the lively diner setting.",
+    "video_id": "dia262_utt1.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative, with a slow and measured delivery, suggesting anger or frustration. His facial expressions, such as the strong upper lip raiser and moderately raised chin, support this interpretation. The neutral emotion is considered due to the clear and distinct manner of speech without any slurring or stuttering, indicating control over his emotions.",
+    "video_id": "dia183_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The lively and playful atmosphere of the diner, combined with the expressive and natural vocal delivery, suggests a dominant emotion of joy. The visual expressions, such as the slight lip corner puller and the overall warm and social setting, support this. The neutral emotion is also present due to the natural and measured vocal delivery, indicating a calm and relaxed demeanor.",
+    "video_id": "dia262_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative and possibly frustrated or angry, supported by his facial expressions such as a slightly furrowed brow and an earnest or concerned look. The visual cues like the Upper Lip Raiser and Lid Tightener suggest anger. The woman's attentive and curious demeanor suggests a neutral engagement, indicating a secondary emotion of neutrality in the interaction.",
+    "video_id": "dia183_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone and the description of his facial expressions, such as the brow furrowing and lip tightening, suggest anger as the dominant emotion. The urgency in his speech and the tense atmosphere, combined with the context of needing to tell someone something before another finds out, indicate fear as a secondary emotion.",
+    "video_id": "dia166_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a flat, monotonous delivery, suggesting a neutral emotion. The visual cues, such as the slightly furrowed brow and the context of the apology, hint at a secondary emotion of sadness, but the overall lack of expressive cues supports neutrality as dominant.",
+    "video_id": "dia125_utt21.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's facial expressions, such as the nose wrinkler and upper lip raiser, suggest a sense of disgust. His monotone voice and lack of emotional investment in his speech indicate a neutral emotional state, which is supported by his closed posture and pensive look.",
+    "video_id": "dia111_utt5.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "30",
+    "justification": "The man's tone is described as negative and hesitant, but his facial expressions and the setting suggest a more neutral or slightly amused demeanor. The slight smirk and raised eyebrows could indicate a hint of surprise or amusement, but the overall impression is more neutral due to the lack of strong emotional indicators.",
+    "video_id": "dia120_utt16.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as natural and relaxed, and his facial expressions, while animated, do not strongly indicate any specific emotion beyond neutrality. The setting and body language suggest a comfortable and familiar interaction, which could imply a subtle presence of joy, but the overall dominant emotion remains neutral.",
+    "video_id": "dia68_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's expression, with widened eyes and slightly parted lips, strongly indicates surprise or shock, suggesting she is reacting to something unexpected. The man's casual posture and slight brow furrow suggest a neutral or mildly concerned demeanor, supporting a secondary neutral emotion.",
+    "video_id": "dia275_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "30",
+    "justification": "The man's tone is described as positive, which suggests neutrality in emotion. However, his facial expressions, such as furrowed brows and slightly downturned lips, indicate a hint of sadness or concern, but not strongly enough to override the neutral tone.",
+    "video_id": "dia159_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's wide-open eyes and raised eyebrows suggest surprise, while the man's neutral expression and the audio description of a neutral tone indicate a secondary neutral emotion. The animated gestures and the context of sharing important news support the presence of surprise as the dominant emotion.",
+    "video_id": "dia169_utt10.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's vocal tone and upward inflection suggest happiness and excitement, indicating joy as the dominant emotion. The man's slightly furrowed brow and open hand gestures suggest an element of surprise or concern, supporting surprise as a secondary emotion.",
+    "video_id": "dia169_utt9.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "hesitation",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone and slow speech suggest hesitation or uncertainty, but his relaxed body language and slight smile indicate a neutral or light-hearted interaction. The visual cues of a friendly expression and casual setting support a neutral emotional state, with some underlying hesitation.",
+    "video_id": "dia239_utt8.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a negative tone, and the visual expression description highlights a strong upper lip raiser, which is commonly associated with disgust. The overall setting and body language suggest a neutral or friendly interaction, but the man's expression and tone suggest a dominant emotion of disgust.",
+    "video_id": "dia239_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's vocal delivery is described as neutral, with no noticeable changes in tone or pace, indicating a calm and steady demeanor. The visual expression shows slight indicators of surprise, such as the brow and lid raisers, but these are not strong enough to override the overall neutral tone.",
+    "video_id": "dia13_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone and expression, including a slightly open mouth and furrowed brows, suggest surprise. The overall setting and expressions of the other characters indicate a neutral or everyday context, supporting a secondary neutral emotion.",
+    "video_id": "dia169_utt8.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "frustration",
+    "second_emotion_confidence_score": "70",
+    "justification": "The woman's negative tone, animated gestures, and intense facial expressions, such as wide eyes and a slightly agape mouth, suggest anger as the dominant emotion. Her body language, including clenched fists and leaning forward, indicates frustration as a secondary emotion, reflecting her urgency and exasperation in the conversation.",
+    "video_id": "dia159_utt0.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's assertive posture, crossed arms, and facial expressions such as the moderately Lip Tightener and Chin Raiser suggest frustration or exasperation, indicative of anger. The man's relaxed posture and neutral expression, along with the audio description of a neutral tone, support the presence of a neutral emotion as secondary.",
+    "video_id": "dia120_utt17.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's negative tone and the moderately depressed lip corners suggest sadness. However, the relaxed posture and casual setting with people exploring a historical site contribute to a neutral atmosphere, indicating a secondary emotion of neutrality.",
+    "video_id": "dia189_utt1.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a positive tone, but the visual cues, such as the puzzled or concerned expressions and the slightly raised eyebrows, suggest surprise. The overall scene conveys a sense of intrigue or concern, which aligns with a neutral secondary emotion as the characters process the situation.",
+    "video_id": "dia275_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a neutral tone in the speaker's voice, which aligns with the visual cues of a calm and engaged expression. However, the lively and dynamic interaction in the kitchen, along with the animated gestures and warm environment, suggests an underlying sense of joy.",
+    "video_id": "dia237_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's negative tone, slow speech, and strained voice, combined with his serious and contemplative expression, suggest sadness. The neutral emotion is considered due to the lack of strong emotional indicators in his facial expression and body language, which could also imply a reserved demeanor.",
+    "video_id": "dia13_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's tone is friendly and sincere, and her expression is focused without strong emotional cues, suggesting a neutral emotion. However, the warmth of the setting and her slight upward inflection hint at a subtle presence of joy.",
+    "video_id": "dia17_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as negative and monotonous, which aligns with a neutral or slightly negative emotion. The visual expression includes features like a nose wrinkler and upper lip raiser, which can indicate disgust, but the playful smile and lighthearted atmosphere suggest that the overall interaction is more neutral with a hint of teasing or mild disgust.",
+    "video_id": "dia166_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man in the red-and-black checkered shirt exhibits signs of anger through his animated and expressive face, furrowed brow, and raised voice, indicating frustration or urgency. The other man maintains a neutral stance, suggesting a calmer demeanor, which supports the presence of a secondary neutral emotion.",
+    "video_id": "dia166_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The audio description indicates a neutral emotional tone, and the visual expression description supports this with a mix of expressions that do not strongly indicate any specific emotion. However, the woman's friendly smile and animated speaking suggest a secondary emotion of joy.",
+    "video_id": "dia13_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "frustration",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone is described as negative and upset, with a strong suggestion of anger. His facial expressions, such as the strongly Lid Tightener and moderately Brow Lowerer, support this interpretation. The assertive posture and animated gestures further indicate a high level of engagement and frustration, reinforcing the primary emotion of anger.",
+    "video_id": "dia111_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as natural, and his speech is clear without noticeable pauses, suggesting a neutral demeanor. However, the slight nose wrinkler and upper lip raiser, along with the context of the whisper transcript, hint at a mild sense of disgust or annoyance, making it a secondary emotion.",
+    "video_id": "dia244_utt8.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The man's tone is described as positive, but his visual expressions, such as a furrowed brow and slightly agape mouth, suggest surprise. The setting and his engagement in the conversation indicate a neutral backdrop, but the surprise is more dominant due to his reaction to the woman's animated expression.",
+    "video_id": "dia237_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's expression suggests a mix of surprise and curiosity, supported by his slightly playful grin and the visual cues of a strongly Lid Tightener and Lip Corner Depressor. The overall ambiance and natural vocal delivery indicate a neutral emotional state, contributing to the secondary emotion.",
+    "video_id": "dia133_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The man's tone and words suggest anger, as he emphasizes that Chandler was wrong. However, the woman's visual expression and the cheerful environment indicate joy, suggesting she is reacting positively to the conversation.",
+    "video_id": "dia97_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description indicates a neutral vocal delivery without signs of stress or excitement, suggesting a neutral emotion. However, the visual expression, with features like a moderately Lip Corner Puller and Dimpler, along with the lively and vibrant atmosphere, suggests an underlying sense of joy.",
+    "video_id": "dia275_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "75",
+    "justification": "The visual expressions, such as the strong jaw drop and animated gestures, suggest surprise and admiration, likely in response to the grandeur of the cathedral. The positive tone in the audio and the lively atmosphere among the group indicate a sense of joy and appreciation.",
+    "video_id": "dia189_utt0.mp4",
+    "ground_truth": "joy"
+  }
+]
