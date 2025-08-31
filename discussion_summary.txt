@@ -1,0 +1,10 @@
+
+SUMMARY REPORT
+==============
+Total Samples: 5
+Correct Predictions: 1
+Accuracy: 20.00%
+
+Emotion Distribution:
+  happy: 3 (60.0%)
+  surprise: 2 (40.0%)

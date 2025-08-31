@@ -1,0 +1,94 @@
+================================================================================
+ENSEMBLE EMOTION RECOGNITION ANALYSIS REPORT
+================================================================================
+Total samples analyzed: 60
+
+MODALITY REPORTING ANALYSIS:
+----------------------------------------
+T:
+  Total samples: 60
+  Confidence reporting: 100.0%
+  Data quality reporting: 100.0%
+  Reasoning reporting: 100.0%
+
+A:
+  Total samples: 60
+  Confidence reporting: 100.0%
+  Data quality reporting: 100.0%
+  Reasoning reporting: 100.0%
+
+V:
+  Total samples: 60
+  Confidence reporting: 100.0%
+  Data quality reporting: 100.0%
+  Reasoning reporting: 100.0%
+
+TAV:
+  Total samples: 60
+  Confidence reporting: 100.0%
+  Data quality reporting: 100.0%
+  Reasoning reporting: 100.0%
+
+MODALITY ACCURACY:
+----------------------------------------
+T: 18.6%
+A: 25.0%
+V: 48.3%
+TAV: 33.3%
+
+DATA QUALITY VS ACCURACY ANALYSIS:
+----------------------------------------
+T:
+  Total cases with quality scores: 59
+  Correlation (quality vs accuracy): 0.255 (p=0.052)
+  Mean quality score: 45.3 ± 15.6
+  Overall accuracy: 18.6%
+  Accuracy by quality bins:
+    low (0-50): 11.1% (3/27)
+    medium (50-80): 23.3% (7/30)
+    high (80-100): 50.0% (1/2)
+
+A:
+  Total cases with quality scores: 60
+  Correlation (quality vs accuracy): -0.109 (p=0.406)
+  Mean quality score: 85.8 ± 16.5
+  Overall accuracy: 25.0%
+  Accuracy by quality bins:
+    low (0-50): 0.0% (0/2)
+    medium (50-80): 50.0% (6/12)
+    high (80-100): 22.5% (9/40)
+
+V:
+  Total cases with quality scores: 60
+  Correlation (quality vs accuracy): 0.061 (p=0.643)
+  Mean quality score: 77.2 ± 14.3
+  Overall accuracy: 48.3%
+  Accuracy by quality bins:
+    low (0-50): 50.0% (1/2)
+    medium (50-80): 44.0% (11/25)
+    high (80-100): 51.5% (17/33)
+
+TAV:
+  Total cases with quality scores: 60
+  Correlation (quality vs accuracy): 0.124 (p=0.346)
+  Mean quality score: 80.5 ± 11.7
+  Overall accuracy: 33.3%
+  Accuracy by quality bins:
+    medium (50-80): 27.3% (6/22)
+    high (80-100): 36.8% (14/38)
+
+SABOTAGE DETECTION (confidence >= 80%):
+----------------------------------------
+Total sabotage cases found: 76
+Sabotage cases by modality:
+  A: 37
+  TAV: 19
+  V: 13
+  T: 7
+
+Top 5 most confident wrong predictions:
+  1. sample_00000832.mp4 (A): neutral (conf: 100%) vs angry (GT)
+  2. sample_00004007.mp4 (A): happy (conf: 95%) vs surprise (GT)
+  3. sample_00001631.mp4 (A): neutral (conf: 95%) vs surprise (GT)
+  4. sample_00003790.mp4 (A): neutral (conf: 95%) vs sad (GT)
+  5. sample_00004943.mp4 (T): neutral (conf: 95%) vs happy (GT)

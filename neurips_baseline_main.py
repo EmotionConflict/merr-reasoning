@@ -3,6 +3,7 @@ import json
 import os
 import argparse
 from dotenv import load_dotenv
+from concurrent.futures import ThreadPoolExecutor
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 import importlib
 import constants
@@ -41,14 +42,18 @@ def call_llm(sample, model, comb, i):
     user_message = "\n\n".join(message_parts)
 
     try:
-        response = client.chat.completions.create(
-            model=model,
-            temperature=0.1, 
-            messages=[
+        # Build request kwargs and omit temperature for gpt-5 family (defaults only)
+        request_kwargs = {
+            "model": model,
+            "messages": [
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": user_message}
             ]
-        )
+        }
+        if not str(model).startswith("gpt-5"):
+            request_kwargs["temperature"] = 0.0
+
+        response = client.chat.completions.create(**request_kwargs)
         predicted_label = response.choices[0].message.content.strip()
         parsed = None
         # Try to parse as JSON directly
@@ -62,24 +67,57 @@ def call_llm(sample, model, comb, i):
                     parsed = json.loads(json_str)
                 except Exception:
                     pass
+        prediction_json_entry = None
         if parsed and isinstance(parsed, dict):
             # Build the output entry with all fields from the LLM's JSON output
             prediction_json_entry = dict(parsed)
             # Add video_id and ground_truth from the sample
             prediction_json_entry["video_id"] = sample.get("video_id", f"sample_{i}")
             prediction_json_entry["ground_truth"] = sample.get("true_label", "").strip().lower()
-            # Append to a global list for saving later
-            if not hasattr(call_llm, "json_results"):
-                call_llm.json_results = []
-            call_llm.json_results.append(prediction_json_entry)
             predicted_label = parsed.get("first_emotion", "").strip().lower()
         else:
             predicted_label = predicted_label.strip().lower()
     except Exception as e:
-        print(f"Error processing sample: {e}")
-        predicted_label = "error"
+        # If temperature is not supported, retry once without it
+        message = str(e)
+        if "temperature" in message and ("unsupported" in message or "does not support" in message):
+            try:
+                response = client.chat.completions.create(
+                    model=model,
+                    messages=[
+                        {"role": "system", "content": SYSTEM_PROMPT},
+                        {"role": "user", "content": user_message}
+                    ]
+                )
+                predicted_label = response.choices[0].message.content.strip()
+                parsed = None
+                try:
+                    parsed = json.loads(predicted_label)
+                except json.JSONDecodeError:
+                    if predicted_label.startswith("```json"):
+                        json_str = predicted_label.strip().removeprefix("```json").removesuffix("```").strip()
+                        try:
+                            parsed = json.loads(json_str)
+                        except Exception:
+                            pass
+                prediction_json_entry = None
+                if parsed and isinstance(parsed, dict):
+                    prediction_json_entry = dict(parsed)
+                    prediction_json_entry["video_id"] = sample.get("video_id", f"sample_{i}")
+                    prediction_json_entry["ground_truth"] = sample.get("true_label", "").strip().lower()
+                    predicted_label = parsed.get("first_emotion", "").strip().lower()
+                else:
+                    predicted_label = predicted_label.strip().lower()
+            except Exception as inner_e:
+                print(f"Error processing sample (retry without temperature failed): {inner_e}")
+                predicted_label = "error"
+                prediction_json_entry = None
+        else:
+            print(f"Error processing sample: {e}")
+            predicted_label = "error"
+            prediction_json_entry = None
     
-    return predicted_label
+    return predicted_label, prediction_json_entry
 
 def main():
     # Parse command line arguments.
@@ -91,6 +129,7 @@ def main():
     parser.add_argument("--comb", type=str, choices=["T", "TV", "TA", "AV", "TAV", "RTAV"], default="T",
                         help="Specify the combination of modalities to use: T (text), TV (text and visual), TA (text and audio), AV (audio and visual), or TAV (all three)")
     parser.add_argument("--dataset", type=str, choices=["MELD", "MER", "IEMOCAP"], default="MER", help="Dataset to use: MELD or MER (default: MER)")
+    parser.add_argument("--workers", type=int, default=8, help="Number of concurrent API calls (IO-bound)")
     args = parser.parse_args()
     
     selected_model = args.model
@@ -123,16 +162,24 @@ def main():
     predictions = []
     ground_truths = []
     result_details = []
-    
-    # Process each sample in the list
-    for i, sample in enumerate(data):
-        predicted = call_llm(sample, selected_model, comb_flag, i)
-        video_id = sample.get("video_id", f"sample_{i}")
-        ground_truth = sample.get("true_label", "").strip().lower()
-        ground_truths.append(ground_truth)
-        predictions.append(predicted)
-        print(f"Video {video_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
-        result_details.append(f"Video {video_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
+    json_results_agg = []
+
+    # Process each sample concurrently while preserving input order
+    with ThreadPoolExecutor(max_workers=args.workers) as executor:
+        results_iter = executor.map(
+            lambda args_pair: call_llm(args_pair[1], selected_model, comb_flag, args_pair[0]),
+            enumerate(data)
+        )
+        for i, (predicted, prediction_json_entry) in enumerate(results_iter):
+            sample = data[i]
+            video_id = sample.get("video_id", f"sample_{i}")
+            ground_truth = sample.get("true_label", "").strip().lower()
+            ground_truths.append(ground_truth)
+            predictions.append(predicted)
+            print(f"Video {video_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
+            result_details.append(f"Video {video_id}: Ground Truth: {ground_truth}, Predicted: {predicted}")
+            if prediction_json_entry is not None:
+                json_results_agg.append(prediction_json_entry)
     
     # Define the set of possible labels.
     if args.dataset == "MELD":
@@ -183,10 +230,9 @@ def main():
 
     # Save all predictions to a JSON file
     output_file_name_json = output_file_name.replace('.txt', '.json')
-    # If using the global list from call_llm
-    json_results = getattr(call_llm, "json_results", [])
+    # Write aggregated JSON results collected from concurrent calls
     with open(output_file_name_json, "w") as jf:
-        json.dump(json_results, jf, indent=2)
+        json.dump(json_results_agg, jf, indent=2)
     print(f"JSON results saved to {output_file_name_json}")
 
 if __name__ == "__main__":

@@ -1,0 +1,145 @@
+PREDICTION RESULTS
+=================
+
+Video Ses01F_script01_1_F037.mp4: Ground Truth: angry, Predicted: surprised
+Video Ses01F_impro02_M011.mp4: Ground Truth: sad, Predicted: neutral
+Video Ses01F_impro02_M005.mp4: Ground Truth: sad, Predicted: neutral
+Video Ses01M_script01_1_F040.mp4: Ground Truth: angry, Predicted: angry
+Video Ses01M_script03_1_M003.mp4: Ground Truth: fearful, Predicted: excited
+Video Ses01M_script03_1_M017.mp4: Ground Truth: happy, Predicted: surprised
+Video Ses01F_script02_1_M030.mp4: Ground Truth: surprised, Predicted: excited
+Video Ses01M_impro03_M007.mp4: Ground Truth: excited, Predicted: excited
+Video Ses01M_impro07_F004.mp4: Ground Truth: excited, Predicted: excited
+Video Ses01M_script02_2_M029.mp4: Ground Truth: neutral, Predicted: neutral
+Video Ses01F_impro07_M018.mp4: Ground Truth: neutral, Predicted: happy
+Video Ses01M_script02_1_M044.mp4: Ground Truth: excited, Predicted: surprised
+Video Ses01M_impro06_F006.mp4: Ground Truth: sad, Predicted: sad
+Video Ses01M_script01_3_M031.mp4: Ground Truth: sad, Predicted: sad
+Video Ses01M_script03_1_F021.mp4: Ground Truth: happy, Predicted: fearful
+Video Ses01M_script03_1_M000.mp4: Ground Truth: fearful, Predicted: happy
+Video Ses01M_impro03_M011.mp4: Ground Truth: excited, Predicted: happy
+Video Ses01M_impro03_M005.mp4: Ground Truth: excited, Predicted: excited
+Video Ses01M_impro03_M004.mp4: Ground Truth: excited, Predicted: frustrated
+Video Ses01M_script03_1_M001.mp4: Ground Truth: fearful, Predicted: frustrated
+Video Ses01M_impro07_M032.mp4: Ground Truth: happy, Predicted: excited
+Video Ses01M_script02_1_M045.mp4: Ground Truth: excited, Predicted: frustrated
+Video Ses01F_impro03_M017.mp4: Ground Truth: surprised, Predicted: happy
+Video Ses01M_script01_3_M020.mp4: Ground Truth: sad, Predicted: happy
+Video Ses01M_impro07_M022.mp4: Ground Truth: surprised, Predicted: happy
+Video Ses01M_impro06_M022.mp4: Ground Truth: sad, Predicted: neutral
+Video Ses01F_script02_1_M036.mp4: Ground Truth: happy, Predicted: excited
+Video Ses01M_impro02_M014.mp4: Ground Truth: sad, Predicted: neutral
+Video Ses01M_script03_1_M004.mp4: Ground Truth: happy, Predicted: happy
+Video Ses01F_impro03_M002.mp4: Ground Truth: surprised, Predicted: happy
+Video Ses01M_impro03_F020.mp4: Ground Truth: excited, Predicted: excited
+Video Ses01F_impro03_F021.mp4: Ground Truth: happy, Predicted: happy
+Video Ses01M_impro03_M016.mp4: Ground Truth: excited, Predicted: excited
+Video Ses01M_script02_2_F019.mp4: Ground Truth: neutral, Predicted: sad
+Video Ses01F_impro07_F016.mp4: Ground Truth: excited, Predicted: happy
+Video Ses01M_impro06_M020.mp4: Ground Truth: sad, Predicted: neutral
+Video Ses01M_script01_3_M022.mp4: Ground Truth: sad, Predicted: neutral
+Video Ses01F_impro03_M015.mp4: Ground Truth: happy, Predicted: happy
+Video Ses01F_script03_1_M003.mp4: Ground Truth: fearful, Predicted: happy
+Video Ses01F_script01_3_F013.mp4: Ground Truth: happy, Predicted: excited
+Video Ses01M_script01_1_F023.mp4: Ground Truth: angry, Predicted: angry
+Video Ses01F_script01_3_M033.mp4: Ground Truth: sad, Predicted: sad
+Video Ses01F_script03_1_M002.mp4: Ground Truth: fearful, Predicted: neutral
+Video Ses01M_impro04_F008.mp4: Ground Truth: neutral, Predicted: neutral
+Video Ses01M_script02_1_M031.mp4: Ground Truth: excited, Predicted: happy
+Video Ses01F_script01_1_F043.mp4: Ground Truth: frustrated, Predicted: neutral
+Video Ses01F_script03_1_M000.mp4: Ground Truth: fearful, Predicted: surprised
+Video Ses01M_impro04_F022.mp4: Ground Truth: neutral, Predicted: neutral
+Video Ses01M_script01_1_F034.mp4: Ground Truth: surprised, Predicted: surprised
+Video Ses01M_impro01_M009.mp4: Ground Truth: frustrated, Predicted: happy
+Video Ses01F_script02_1_M044.mp4: Ground Truth: happy, Predicted: sad
+Video Ses01F_impro05_F008.mp4: Ground Truth: angry, Predicted: neutral
+Video Ses01F_impro05_F020.mp4: Ground Truth: angry, Predicted: happy
+Video Ses01M_script02_2_F040.mp4: Ground Truth: sad, Predicted: neutral
+Video Ses01M_script03_2_M031.mp4: Ground Truth: angry, Predicted: excited
+Video Ses01F_script03_1_M001.mp4: Ground Truth: fearful, Predicted: happy
+Video Ses01M_script01_1_M000.mp4: Ground Truth: neutral, Predicted: frustrated
+Video Ses01M_script01_1_M028.mp4: Ground Truth: frustrated, Predicted: neutral
+Video Ses01M_impro01_F015.mp4: Ground Truth: frustrated, Predicted: angry
+Video Ses01F_script02_2_F037.mp4: Ground Truth: surprised, Predicted: excited
+Video Ses01M_script03_2_F028.mp4: Ground Truth: angry, Predicted: happy
+Video Ses01M_script01_1_M038.mp4: Ground Truth: sad, Predicted: frustrated
+Video Ses01F_script01_3_M020.mp4: Ground Truth: happy, Predicted: happy
+Video Ses01F_script03_1_F030.mp4: Ground Truth: happy, Predicted: happy
+Video Ses01F_script01_2_F014.mp4: Ground Truth: frustrated, Predicted: neutral
+Video Ses01M_script02_1_M023.mp4: Ground Truth: neutral, Predicted: frustrated
+Video Ses01M_impro01_F004.mp4: Ground Truth: frustrated, Predicted: neutral
+Video Ses01M_script03_2_F003.mp4: Ground Truth: surprised, Predicted: happy
+Video Ses01F_script02_2_M039.mp4: Ground Truth: surprised, Predicted: neutral
+Video Ses01F_impro04_F027.mp4: Ground Truth: frustrated, Predicted: happy
+Video Ses01M_script02_1_F001.mp4: Ground Truth: frustrated, Predicted: frustrated
+Video Ses01F_impro05_F026.mp4: Ground Truth: angry, Predicted: neutral
+Video Ses01M_script03_2_M037.mp4: Ground Truth: angry, Predicted: frustrated
+Video Ses01F_script03_1_M013.mp4: Ground Truth: happy, Predicted: happy
+Video Ses01F_script03_2_M040.mp4: Ground Truth: angry, Predicted: angry
+Video Ses01F_impro04_M022.mp4: Ground Truth: neutral, Predicted: sad
+Video Ses01M_script03_2_F033.mp4: Ground Truth: angry, Predicted: neutral
+Video Ses01M_script01_1_F002.mp4: Ground Truth: surprised, Predicted: neutral
+Video Ses01F_impro05_F016.mp4: Ground Truth: angry, Predicted: happy
+Video Ses01F_script03_1_F002.mp4: Ground Truth: fearful, Predicted: happy
+Video Ses01M_script01_1_F003.mp4: Ground Truth: surprised, Predicted: neutral
+Video Ses01M_script03_2_F026.mp4: Ground Truth: angry, Predicted: angry
+Video Ses01F_script02_2_F029.mp4: Ground Truth: frustrated, Predicted: frustrated
+Video Ses01M_script01_1_M008.mp4: Ground Truth: frustrated, Predicted: sad
+Video Ses01M_impro05_F003.mp4: Ground Truth: neutral, Predicted: neutral
+Video Ses01M_script01_1_F001.mp4: Ground Truth: surprised, Predicted: neutral
+Video Ses01M_script03_2_M039.mp4: Ground Truth: angry, Predicted: happy
+Video Ses01F_script03_1_F000.mp4: Ground Truth: fearful, Predicted: fearful
+Video Ses01F_impro04_F014.mp4: Ground Truth: neutral, Predicted: neutral
+Video Ses01F_script03_1_F001.mp4: Ground Truth: fearful, Predicted: fearful
+Video Ses01M_script01_1_F000.mp4: Ground Truth: frustrated, Predicted: neutral
+Video Ses01F_script01_1_M042.mp4: Ground Truth: frustrated, Predicted: happy
+Video Ses01M_script01_1_F028.mp4: Ground Truth: frustrated, Predicted: neutral
+Video Ses01M_script01_1_M035.mp4: Ground Truth: angry, Predicted: frustrated
+Video Ses01F_impro01_M002.mp4: Ground Truth: frustrated, Predicted: neutral
+Video Ses01M_script02_2_M040.mp4: Ground Truth: neutral, Predicted: neutral
+Video Ses01M_script02_2_M044.mp4: Ground Truth: sad, Predicted: frustrated
+Video Ses01M_impro04_F006.mp4: Ground Truth: neutral, Predicted: neutral
+Video Ses01M_script03_2_M028.mp4: Ground Truth: angry, Predicted: neutral
+Video Ses01M_impro01_M011.mp4: Ground Truth: frustrated, Predicted: neutral
+Video Ses01F_impro05_F004.mp4: Ground Truth: frustrated, Predicted: neutral
+Video Ses01F_script02_2_M026.mp4: Ground Truth: happy, Predicted: happy
+Video Ses01M_impro05_M026.mp4: Ground Truth: angry, Predicted: frustrated
+Video Ses01F_script01_3_F009.mp4: Ground Truth: neutral, Predicted: happy
+Video Ses01F_script01_3_F021.mp4: Ground Truth: happy, Predicted: happy
+Video Ses01M_script02_2_M053.mp4: Ground Truth: happy, Predicted: happy
+Video Ses01M_script02_1_M000.mp4: Ground Truth: excited, Predicted: happy
+Video Ses01F_impro05_M033.mp4: Ground Truth: surprised, Predicted: neutral
+Video Ses01M_impro04_F011.mp4: Ground Truth: neutral, Predicted: neutral
+Video Ses01M_script01_1_M027.mp4: Ground Truth: frustrated, Predicted: excited
+Video Ses01F_impro05_M032.mp4: Ground Truth: surprised, Predicted: happy
+Video Ses01M_script02_2_M035.mp4: Ground Truth: angry, Predicted: frustrated
+Video Ses01F_impro07_M006.mp4: Ground Truth: excited, Predicted: excited
+Video Ses01M_impro07_F024.mp4: Ground Truth: excited, Predicted: happy
+Video Ses01F_script01_1_F002.mp4: Ground Truth: surprised, Predicted: neutral
+Video Ses01F_impro03_M018.mp4: Ground Truth: surprised, Predicted: happy
+Video Ses01F_script03_2_F027.mp4: Ground Truth: angry, Predicted: frustrated
+Video Ses01M_script03_1_M022.mp4: Ground Truth: happy, Predicted: neutral
+Video Ses01F_impro03_F005.mp4: Ground Truth: happy, Predicted: happy
+Video Ses01M_script02_2_F014.mp4: Ground Truth: angry, Predicted: frustrated
+Video Ses01F_script02_1_M010.mp4: Ground Truth: neutral, Predicted: surprised
+Video Ses01M_script03_1_F002.mp4: Ground Truth: fearful, Predicted: neutral
+Video Ses01F_script03_2_M013.mp4: Ground Truth: frustrated, Predicted: neutral
+Video Ses01M_impro03_F013.mp4: Ground Truth: excited, Predicted: happy
+Video Ses01M_impro02_F013.mp4: Ground Truth: sad, Predicted: surprised
+Video Ses01M_impro03_M018.mp4: Ground Truth: neutral, Predicted: happy
+Video Ses01M_impro07_M013.mp4: Ground Truth: happy, Predicted: excited
+Video Ses01M_script03_1_F001.mp4: Ground Truth: fearful, Predicted: sad
+Video Ses01M_impro02_F010.mp4: Ground Truth: sad, Predicted: surprised
+
+EVALUATION METRICS
+=================
+
+Overall Accuracy: 0.28
+Label: frustrated -> Precision: 0.13, Recall: 0.11, F1 Score: 0.12, Support: 18
+Label: excited -> Precision: 0.40, Recall: 0.40, F1 Score: 0.40, Support: 15
+Label: happy -> Precision: 0.27, Recall: 0.56, F1 Score: 0.36, Support: 18
+Label: fearful -> Precision: 0.67, Recall: 0.17, F1 Score: 0.27, Support: 12
+Label: neutral -> Precision: 0.21, Recall: 0.50, F1 Score: 0.30, Support: 16
+Label: sad -> Precision: 0.38, Recall: 0.20, F1 Score: 0.26, Support: 15
+Label: angry -> Precision: 0.80, Recall: 0.20, F1 Score: 0.32, Support: 20
+Label: surprised -> Precision: 0.12, Recall: 0.07, F1 Score: 0.09, Support: 15

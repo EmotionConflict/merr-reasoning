@@ -1,0 +1,92 @@
+ENSEMBLE PREDICTION RESULTS
+==========================
+
+Video sample_00002885.mp4: GT:surprise, Ensemble:happy(0.5), Modalities:[T:[neutral(75), surprise(15), doubt(10)], A:[happy(92)], V:[happy(82), surprise(58)], TAV:[happy(92), surprise(75)]]
+Video sample_00000705.mp4: GT:neutral, Ensemble:surprise(0.3), Modalities:[T:[angry(70), neutral(45), worried(30)], A:[happy(92), surprise(60)], V:[surprise(92), fear(42), worried(34), neutral(25), doubt(17), happy(12), angry(11), contempt(9), sad(8)], TAV:[happy(92), surprise(88)]]
+Video sample_00004007.mp4: GT:surprise, Ensemble:happy(0.5), Modalities:[T:[neutral(85), doubt(25)], A:[happy(95)], V:[happy(65), neutral(35), surprise(15)], TAV:[happy(85), neutral(60), surprise(30), doubt(25), worried(20)]]
+Video sample_00001631.mp4: GT:surprise, Ensemble:surprise(0.3), Modalities:[T:[neutral(70), doubt(40), surprise(20), worried(15)], A:[neutral(95)], V:[surprise(85), doubt(40)], TAV:[surprise(85), worried(50), doubt(40), sad(25)]]
+Video sample_00005443.mp4: GT:happy, Ensemble:surprise(0.6), Modalities:[T:[], A:[surprise(92)], V:[happy(82), surprise(58)], TAV:[surprise(85), happy(50), worried(30)]]
+Video sample_00004950.mp4: GT:neutral, Ensemble:worried(0.2), Modalities:[T:[neutral(70), worried(40), doubt(30)], A:[happy(92)], V:[surprise(72), worried(65), fear(40), angry(25), happy(20), sad(15), neutral(12), doubt(10), contempt(6)], TAV:[surprise(75), worried(65), happy(50), angry(40), fear(35), neutral(25), sad(20), doubt(20), contempt(15)]]
+Video sample_00002460.mp4: GT:happy, Ensemble:happy(0.3), Modalities:[T:[angry(70), worried(40), neutral(25), sad(15), doubt(10), surprise(5)], A:[neutral(90)], V:[happy(82), surprise(60)], TAV:[happy(85), surprise(60), neutral(25)]]
+Video sample_00001551.mp4: GT:worried, Ensemble:worried(0.2), Modalities:[T:[angry(85), sad(55), worried(30), fear(25), contempt(20), doubt(15), neutral(10), surprise(10), happy(5)], A:[neutral(90)], V:[doubt(85), worried(80), surprise(30), fear(25), sad(20)], TAV:[worried(65), neutral(55), angry(40), sad(30), surprise(25), fear(15), doubt(15), contempt(12), happy(5)]]
+Video sample_00006798.mp4: GT:worried, Ensemble:doubt(0.3), Modalities:[T:[angry(65), doubt(55), worried(50), fear(25)], A:[surprise(85), doubt(60)], V:[neutral(65), worried(25), doubt(15)], TAV:[surprise(85), doubt(40), neutral(20)]]
+Video sample_00005939.mp4: GT:worried, Ensemble:happy(0.3), Modalities:[T:[happy(65), neutral(25)], A:[happy(92), neutral(30)], V:[surprise(75), worried(55), fear(20), doubt(15), neutral(5), sad(5), happy(5), angry(3), contempt(2)], TAV:[worried(78), surprise(60), doubt(45)]]
+Video sample_00005497.mp4: GT:worried, Ensemble:neutral(0.2), Modalities:[T:[angry(82), worried(65), neutral(50), sad(40), doubt(35), fear(25), surprise(20), contempt(15), happy(10)], A:[neutral(95)], V:[happy(65), worried(50), sad(25), surprise(20), fear(15), doubt(15), neutral(10), angry(10), contempt(5)], TAV:[angry(75), worried(55), neutral(30), surprise(15), contempt(10), doubt(8), fear(7), sad(6), happy(5)]]
+Video sample_00003790.mp4: GT:sad, Ensemble:worried(0.3), Modalities:[T:[doubt(72), worried(55), fear(40), neutral(25)], A:[neutral(90)], V:[worried(40), surprise(25), doubt(15), sad(12), fear(8)], TAV:[worried(75), surprise(65), neutral(30), fear(20), doubt(10)]]
+Video sample_00004940.mp4: GT:angry, Ensemble:doubt(0.2), Modalities:[T:[worried(78), neutral(60), doubt(45), surprise(30), fear(28), sad(22), happy(10), angry(5), contempt(5)], A:[neutral(85), doubt(60), worried(30)], V:[angry(78), doubt(65), surprise(60), worried(45), neutral(20), fear(15), sad(15), contempt(6), happy(5)], TAV:[angry(85), surprise(60), doubt(55), contempt(40), worried(30), fear(25), sad(20), neutral(15), happy(5)]]
+Video sample_00005321.mp4: GT:angry, Ensemble:angry(0.3), Modalities:[T:[worried(75), fear(60), neutral(40)], A:[angry(90)], V:[angry(70), contempt(60), worried(55), surprise(40), doubt(30)], TAV:[angry(85), contempt(70), worried(20), neutral(15), sad(10), fear(10), surprise(5), doubt(5), happy(5)]]
+Video sample_00004407.mp4: GT:sad, Ensemble:worried(0.2), Modalities:[T:[surprise(78), worried(70), fear(60), doubt(40), sad(35)], A:[worried(75), doubt(60), fear(40)], V:[surprise(70), happy(55), worried(25), fear(25), doubt(20), neutral(15), sad(10), angry(5), contempt(5)], TAV:[worried(72), sad(60), fear(55), doubt(50), surprise(35), neutral(15), angry(10), happy(5), contempt(0)]]
+Video sample_00001999.mp4: GT:sad, Ensemble:worried(0.3), Modalities:[T:[worried(65), surprise(40), fear(25)], A:[sad(88), worried(60), doubt(50)], V:[sad(75), worried(65), fear(60), angry(40), surprise(25), contempt(20), doubt(15), neutral(10), happy(5)], TAV:[sad(92), worried(65), fear(55), doubt(40), surprise(25)]]
+Video sample_00004943.mp4: GT:happy, Ensemble:neutral(0.4), Modalities:[T:[neutral(93)], A:[neutral(92)], V:[happy(92), surprise(65)], TAV:[happy(92), surprise(45)]]
+Video sample_00002010.mp4: GT:surprise, Ensemble:surprise(0.4), Modalities:[T:[surprise(75), doubt(35), worried(25)], A:[surprise(85), doubt(60)], V:[surprise(70), worried(50), neutral(40), doubt(30), fear(25), sad(15), contempt(10), angry(5), happy(5)], TAV:[surprise(85), doubt(60), worried(50)]]
+Video sample_00002603.mp4: GT:happy, Ensemble:surprise(0.5), Modalities:[T:[surprise(85)], A:[neutral(92)], V:[surprise(85), happy(40)], TAV:[surprise(72), happy(40), neutral(28)]]
+Video sample_00001646.mp4: GT:angry, Ensemble:neutral(0.3), Modalities:[T:[sad(70), worried(55), doubt(30), fear(25), neutral(20), surprise(15)], A:[neutral(88)], V:[angry(70), worried(40), neutral(25)], TAV:[angry(70), worried(60), neutral(40)]]
+Video sample_00003709.mp4: GT:worried, Ensemble:angry(0.3), Modalities:[T:[angry(78), contempt(65)], A:[neutral(70), doubt(40)], V:[happy(90)], TAV:[angry(60), contempt(40), happy(25), worried(25)]]
+Video sample_00001485.mp4: GT:angry, Ensemble:neutral(0.2), Modalities:[T:[angry(65), worried(40), sad(30), doubt(25), neutral(15)], A:[neutral(92), doubt(4), angry(2), contempt(2), fear(2), happy(2), worried(2), sad(2), surprise(2)], V:[worried(75), surprise(65), happy(25), doubt(15)], TAV:[neutral(70), worried(55), happy(40), surprise(40), sad(20), fear(15), doubt(15), angry(10), contempt(5)]]
+Video sample_00003245.mp4: GT:neutral, Ensemble:happy(0.5), Modalities:[T:[neutral(85)], A:[happy(92)], V:[surprise(85), happy(60)], TAV:[surprise(75), happy(70)]]
+Video sample_00004936.mp4: GT:neutral, Ensemble:happy(0.4), Modalities:[T:[happy(65), neutral(40), surprise(28)], A:[happy(92)], V:[surprise(80), contempt(55), fear(30), angry(25), sad(20), worried(15), doubt(5), happy(5)], TAV:[happy(72), surprise(58), neutral(25)]]
+Video sample_00001682.mp4: GT:angry, Ensemble:neutral(0.2), Modalities:[T:[], A:[angry(70), worried(60), sad(50), contempt(40), fear(30)], V:[neutral(70), happy(25), doubt(15)], TAV:[neutral(70), worried(60), doubt(40), happy(20), surprise(15), fear(10), sad(8), angry(6), contempt(4)]]
+Video sample_00001133.mp4: GT:angry, Ensemble:angry(0.2), Modalities:[T:[fear(70), angry(60), worried(55), contempt(40), sad(25), neutral(20), doubt(15), surprise(10), happy(5)], A:[fear(70), worried(65), angry(40), sad(25), doubt(20), surprise(15), neutral(10), contempt(5), happy(5)], V:[surprise(85), fear(25), angry(15), contempt(12), worried(10), neutral(6), happy(5), sad(2), doubt(1)], TAV:[angry(85), surprise(60), contempt(40), fear(25), sad(20), worried(20), neutral(15), doubt(15), happy(5)]]
+Video sample_00000832.mp4: GT:angry, Ensemble:neutral(0.2), Modalities:[T:[worried(65), sad(55), neutral(40), doubt(35), fear(25), surprise(20), happy(15), angry(10), contempt(5)], A:[neutral(95)], V:[angry(70), contempt(20), surprise(10)], TAV:[angry(70), worried(40), neutral(25), surprise(20), fear(15), sad(5), happy(5), doubt(3), contempt(3)]]
+Video sample_00005430.mp4: GT:sad, Ensemble:neutral(0.6), Modalities:[T:[sad(75), worried(60)], A:[neutral(92)], V:[neutral(85)], TAV:[neutral(85), doubt(15)]]
+Video sample_00005626.mp4: GT:sad, Ensemble:worried(0.3), Modalities:[T:[neutral(65), worried(25), doubt(10)], A:[fear(75), worried(70), sad(60), angry(50), neutral(40)], V:[worried(70), doubt(50), surprise(25), sad(15), neutral(10), angry(5), fear(5), happy(5), contempt(3)], TAV:[worried(85), sad(60), surprise(30), doubt(25)]]
+Video sample_00001454.mp4: GT:neutral, Ensemble:neutral(0.2), Modalities:[T:[angry(75), contempt(60), worried(30), sad(25), doubt(20), fear(15), neutral(10), surprise(5), happy(5)], A:[happy(90), neutral(70)], V:[surprise(80), neutral(65), fear(40), doubt(25)], TAV:[worried(68), surprise(54), angry(48), neutral(40), doubt(18), fear(15), happy(12), sad(8), contempt(6)]]
+Video sample_00006298.mp4: GT:sad, Ensemble:surprise(0.4), Modalities:[T:[doubt(65), worried(60), sad(40), neutral(20)], A:[surprise(85), doubt(40)], V:[surprise(88), doubt(40), worried(32)], TAV:[surprise(92), doubt(60), worried(30)]]
+Video sample_00006717.mp4: GT:happy, Ensemble:happy(0.4), Modalities:[T:[worried(65), doubt(60), neutral(50), sad(40), surprise(20)], A:[surprise(85), happy(70)], V:[happy(92)], TAV:[happy(95), surprise(90)]]
+Video sample_00003652.mp4: GT:worried, Ensemble:worried(0.3), Modalities:[T:[doubt(65), worried(35), neutral(25)], A:[neutral(92)], V:[worried(85), surprise(60), fear(40), disgust(15), sad(15), neutral(10), happy(5), angry(5)], TAV:[worried(75), sad(40), surprise(35), neutral(25), doubt(20), fear(15), angry(10), contempt(5), happy(5)]]
+Video sample_00006500.mp4: GT:sad, Ensemble:surprise(0.3), Modalities:[T:[doubt(70)], A:[angry(70), fear(55), sad(40), worried(35), doubt(25)], V:[surprise(85), happy(60)], TAV:[happy(72), surprise(60)]]
+Video sample_00004288.mp4: GT:worried, Ensemble:worried(0.3), Modalities:[T:[neutral(85), worried(25)], A:[neutral(72), worried(60), doubt(40), sad(25), fear(20)], V:[worried(90), surprise(75), fear(60), sad(40), neutral(15)], TAV:[worried(85), surprise(55), fear(40), neutral(30), angry(20), sad(15), doubt(12), contempt(8), happy(5)]]
+Video sample_00005828.mp4: GT:surprise, Ensemble:neutral(0.6), Modalities:[T:[neutral(85)], A:[neutral(92)], V:[worried(78), neutral(60), surprise(40), sad(25), doubt(20), fear(15), angry(10), contempt(5), happy(5)], TAV:[neutral(70), worried(25), doubt(5)]]
+Video sample_00001667.mp4: GT:happy, Ensemble:neutral(0.4), Modalities:[T:[neutral(85)], A:[neutral(95)], V:[surprise(88), worried(60), fear(45), happy(25), doubt(22), neutral(20), angry(15), sad(15), contempt(10)], TAV:[surprise(85), neutral(60)]]
+Video sample_00000143.mp4: GT:angry, Ensemble:neutral(0.3), Modalities:[T:[worried(65), fear(50), neutral(30)], A:[neutral(95)], V:[surprise(78), happy(70), doubt(60), worried(45), fear(40), neutral(25), angry(25), sad(15), contempt(8)], TAV:[neutral(85), worried(70), doubt(60), surprise(40)]]
+Video sample_00006903.mp4: GT:happy, Ensemble:happy(0.4), Modalities:[T:[sad(65), neutral(60), worried(35)], A:[neutral(90)], V:[happy(92)], TAV:[happy(88), surprise(40)]]
+Video sample_00005576.mp4: GT:neutral, Ensemble:neutral(0.6), Modalities:[T:[neutral(88)], A:[neutral(85), happy(10), surprise(5)], V:[surprise(85)], TAV:[neutral(60), surprise(25), happy(15)]]
+Video sample_00002972.mp4: GT:surprise, Ensemble:neutral(0.4), Modalities:[T:[neutral(85), happy(10), surprise(3), doubt(2)], A:[neutral(90)], V:[happy(75), surprise(60), worried(40), neutral(10)], TAV:[surprise(65), happy(35), worried(25)]]
+Video sample_00002806.mp4: GT:worried, Ensemble:happy(0.3), Modalities:[T:[angry(72), contempt(66), neutral(28), worried(25), sad(20), fear(15), surprise(12), doubt(10), happy(5)], A:[angry(85), worried(40), doubt(25), sad(20), contempt(15)], V:[happy(92)], TAV:[happy(92), worried(20), doubt(10)]]
+Video sample_00000754.mp4: GT:sad, Ensemble:worried(0.2), Modalities:[T:[neutral(80), doubt(15), surprise(5)], A:[neutral(70), happy(60), worried(30), doubt(25), surprise(20), angry(5), contempt(5), fear(5), sad(5)], V:[worried(78), fear(42), surprise(36), sad(28), angry(15), neutral(12)], TAV:[worried(70), angry(50), surprise(40), sad(25)]]
+Video sample_00005573.mp4: GT:worried, Ensemble:neutral(0.7), Modalities:[T:[], A:[neutral(92)], V:[neutral(65), worried(25), sad(15), doubt(10), surprise(5), happy(5)], TAV:[neutral(80), worried(40), sad(25)]]
+Video sample_00002787.mp4: GT:happy, Ensemble:happy(0.7), Modalities:[T:[neutral(100)], A:[happy(90)], V:[happy(92)], TAV:[happy(95)]]
+Video sample_00006939.mp4: GT:surprise, Ensemble:neutral(0.6), Modalities:[T:[neutral(70)], A:[neutral(95)], V:[neutral(75), sad(60), worried(40), surprise(25)], TAV:[neutral(75), sad(60), worried(40)]]
+Video sample_00005217.mp4: GT:neutral, Ensemble:neutral(0.5), Modalities:[T:[neutral(95)], A:[neutral(92)], V:[surprise(85), neutral(25), angry(20), fear(15), happy(12), worried(10), doubt(10), contempt(5), sad(5)], TAV:[surprise(85), neutral(60)]]
+Video sample_00004726.mp4: GT:sad, Ensemble:worried(0.3), Modalities:[T:[doubt(72), sad(65), worried(60), fear(35), neutral(20)], A:[neutral(75), worried(40), fear(25), sad(15)], V:[worried(78), sad(60), happy(30), surprise(25)], TAV:[sad(88), worried(72), doubt(65), surprise(30), neutral(15)]]
+Video sample_00001837.mp4: GT:sad, Ensemble:neutral(0.2), Modalities:[T:[neutral(60), doubt(25), worried(10), sad(5)], A:[neutral(90)], V:[worried(85), fear(70), sad(60), surprise(25), angry(20), doubt(10), neutral(8), contempt(5), happy(4)], TAV:[sad(85), worried(60), fear(40), surprise(10), angry(10), neutral(5), doubt(5), contempt(5)]]
+Video sample_00006816.mp4: GT:worried, Ensemble:neutral(0.4), Modalities:[T:[neutral(70), happy(60)], A:[neutral(95)], V:[surprise(75), happy(65), worried(40), neutral(25)], TAV:[neutral(72), worried(38), surprise(22), contempt(14), fear(12), doubt(10), angry(6), sad(4), happy(2)]]
+Video sample_00005474.mp4: GT:happy, Ensemble:happy(0.5), Modalities:[T:[contempt(65), surprise(60), doubt(50)], A:[happy(90)], V:[happy(92), surprise(40)], TAV:[happy(92), surprise(60)]]
+Video sample_00002680.mp4: GT:angry, Ensemble:angry(0.3), Modalities:[T:[neutral(60), contempt(25), angry(15)], A:[neutral(85)], V:[angry(78), worried(65), fear(42), surprise(30), doubt(20), neutral(6), contempt(5), sad(5), happy(3)], TAV:[angry(62), worried(28), surprise(10)]]
+Video sample_00004145.mp4: GT:neutral, Ensemble:surprise(0.4), Modalities:[T:[sad(70), worried(55), doubt(50)], A:[neutral(90)], V:[surprise(85), happy(25)], TAV:[surprise(85)]]
+Video sample_00002118.mp4: GT:neutral, Ensemble:neutral(0.3), Modalities:[T:[happy(70), neutral(30)], A:[neutral(90)], V:[surprise(72), doubt(55), happy(38), worried(28), neutral(15), fear(12), sad(8), angry(5), contempt(3)], TAV:[neutral(70), happy(35), surprise(25), doubt(20), worried(15), sad(10)]]
+Video sample_00003028.mp4: GT:surprise, Ensemble:neutral(0.9), Modalities:[T:[neutral(95)], A:[neutral(90)], V:[neutral(70), surprise(25), doubt(5)], TAV:[neutral(85), surprise(25)]]
+Video sample_00005897.mp4: GT:angry, Ensemble:surprise(0.2), Modalities:[T:[neutral(60), doubt(25), surprise(15)], A:[angry(85), surprise(60), fear(40)], V:[happy(85), surprise(70), contempt(60), fear(50), doubt(50), worried(40), angry(20), neutral(10), sad(5)], TAV:[contempt(85), happy(60), neutral(40), surprise(25), worried(20), fear(15), doubt(12), angry(10), sad(6)]]
+Video sample_00005277.mp4: GT:neutral, Ensemble:neutral(0.6), Modalities:[T:[{
+  "emotions": [
+    {
+      "emotion": "neutral",
+      "confidence": 60
+    },
+    {
+      "emotion": "doubt",
+      "confidence": 25
+    },
+    {
+      "emotion": "worried",
+      "confidence": 15
+    }
+  ],
+  "primary_emotion": "neutral",
+  "primary_confidence": 60,
+  "reasoning": "the transcript lacks explicit emotional cues; the tone appears neutral, with potential doubt due to the odd phrasing and ambiguity, and a hint of mild concern.'
+}"(50)], A:[neutral(92)], V:[neutral(75), worried(40), happy(25), surprise(15), doubt(10)], TAV:[neutral(75), surprise(15), worried(10)]]
+Video sample_00003773.mp4: GT:surprise, Ensemble:happy(0.5), Modalities:[T:[neutral(65), happy(25)], A:[happy(92)], V:[surprise(85), happy(75), worried(40), fear(25), doubt(12), angry(8), neutral(6), sad(5), contempt(4)], TAV:[happy(85), surprise(70)]]
+Video sample_00005062.mp4: GT:happy, Ensemble:happy(0.6), Modalities:[T:[happy(70), neutral(60)], A:[happy(85), surprise(75)], V:[happy(78), surprise(28)], TAV:[happy(82), surprise(68)]]
+Video sample_00006422.mp4: GT:surprise, Ensemble:surprise(0.4), Modalities:[T:[surprise(78), doubt(42), neutral(25)], A:[neutral(90)], V:[surprise(88), worried(55)], TAV:[surprise(85), doubt(60), worried(40), neutral(30), fear(25), sad(15)]]
+
+EVALUATION METRICS
+=================
+
+Overall Accuracy: 0.33
+Label: happy -> Precision: 0.46, Recall: 0.60, F1 Score: 0.52, Support: 10
+Label: neutral -> Precision: 0.24, Recall: 0.50, F1 Score: 0.32, Support: 10
+Label: worried -> Precision: 0.30, Recall: 0.30, F1 Score: 0.30, Support: 10
+Label: surprise -> Precision: 0.30, Recall: 0.30, F1 Score: 0.30, Support: 10
+Label: angry -> Precision: 0.75, Recall: 0.30, F1 Score: 0.43, Support: 10
+Label: sad -> Precision: 0.00, Recall: 0.00, F1 Score: 0.00, Support: 10

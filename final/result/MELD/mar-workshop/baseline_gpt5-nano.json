@@ -1,0 +1,1721 @@
+[
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": 82,
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": 60,
+    "justification": "The transcript shows frustration and sarcasm, with tense, defensive body language indicating anger as the dominant emotion. Sadness is also present but less prominent.",
+    "video_id": "dia233_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "82",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene shows a playful, teasing interaction with a warm, humorous mood, supported by the man's slight grin and the woman's engaged, amused posture. The negative tone noted contrasts with the overall lighthearted context, making joy the dominant emotion.",
+    "video_id": "dia175_utt3.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "45",
+    "justification": "The scene centers on a calm, intimate moment with a confident, but not strongly emotional, tone. Subtle cues such as mild jaw drop and a surprised look from the man indicate a secondary surprise.",
+    "video_id": "dia169_utt6.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "82",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's negative tone, brow furrow, and pressed lips convey fear and unease, with a sense of vulnerability that also hints at sadness during a moment of contemplation.",
+    "video_id": "dia279_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's facial cues (nose wrinkler, lip stretcher, jaw drop) align with disgust and a negative tone. The man's furrowed brows and pursed lips indicate tension or anger in the interaction.",
+    "video_id": "dia239_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The image and dialogue depict a tense, emotionally charged confrontation with defensive and worried expressions, while the vocal delivery is serious, suggesting fear as the dominant emotion.",
+    "video_id": "dia115_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "82",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Facial cues show a strong smile (dimples and lip corners up), which indicates joy. The neutral audio tone and focused body language suggest the scene isn\u2019t driven by negative or intense emotions.",
+    "video_id": "dia279_utt15.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The frame shows an animated reaction with an open mouth and jaw drop, which aligns with surprise. The context suggests a dramatic moment rather than clear anger or sadness.",
+    "video_id": "dia245_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement conveys disappointment about stopping, and the descriptions indicate sadness with mild concern, supporting sadness as the dominant emotion.",
+    "video_id": "dia42_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The negative tone and tense, clenched body language indicate anger or irritation, supported by facial cues like furrowed brows and pursed lips. A minor nose wrinkle is present but not as dominant, so anger is the primary emotion.",
+    "video_id": "dia120_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "40",
+    "justification": "The pink-clad woman shows irritation with narrowed eyes and pressed lips, indicating anger, while the other woman remains calm and attentive, reflecting a tense but emotionally subdued secondary state.",
+    "video_id": "dia233_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The negative tone in the audio and facial cues like brow tension and lid tightening point to anger as the dominant emotion, with others showing neutral to mildly perplexed reactions in the group.",
+    "video_id": "dia29_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The subject appears focused and contemplative with a slight furrowed brow, suggesting processing rather than clear, strong emotion, which aligns with a neutral emotional state with mild concern.",
+    "video_id": "dia97_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "82",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The characters\u2019 body language and smiles indicate a joyful, playful interaction, while subtle cues like raised eyebrows and a slightly open jaw suggest a mild element of surprise.",
+    "video_id": "dia169_utt5.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene shows intimate, affectionate interaction with contented facial cues, indicating joy; audio hints of negativity are secondary to the visual context.",
+    "video_id": "dia133_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene shows a lively, friendly gathering with smiles and animated interaction, indicating a clear sense of joy and enjoyment among friends.",
+    "video_id": "dia42_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The negative-tone narration combined with facial cues like downturned lips and brow furrowing point to sadness or disappointment, with sadness being the most dominant emotion.",
+    "video_id": "dia169_utt20.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The combination of an intense facial expression (furrowed brow, pursed lips), assertive posture, and a negative, uninterested vocal tone strongly indicates anger and confrontation.",
+    "video_id": "dia244_utt6.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Audio describes a negative, tense tone and disapproval toward Monica's actions, indicating anger as the dominant emotion despite some energetic vocal delivery.",
+    "video_id": "dia17_utt17.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The phrase 'freaking out' and tense vocal delivery indicate fear/anxiety; visual cues like wide eyes and jaw drop also support surprise as a secondary emotion.",
+    "video_id": "dia17_utt16.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": 72,
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": 38,
+    "justification": "Facial cues show strong lip corner depression, brow lowering, and tense eyelids indicating anger and conflict; slight nose wrinkling points to possible disgust but is less dominant.",
+    "video_id": "dia244_utt7.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The negative tone and the statement 'Yeah, I lost it' suggest disappointment or sadness, while the scene remains warm and engaging.",
+    "video_id": "dia42_utt1.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "50",
+    "justification": "Audio suggests surprise or shock from the exclamation, while the visual cues indicate concern and vulnerability, pointing to a secondary sadness.",
+    "video_id": "dia133_utt8.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The scene conveys a playful, affectionate mood with amusement at the center, while the standing woman\u2019s animated reaction adds a noticeable but secondary surprise.",
+    "video_id": "dia169_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "45",
+    "justification": "The interaction is lively and includes smiles and playful engagement, suggesting joy. The man shows tense facial cues (brow furrow, lip tension) that indicate anger or strong emphasis as a secondary emotion.",
+    "video_id": "dia77_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": 90,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The subject displays a strong lip corner pull and a warm smile, signaling joy. The scene description emphasizes warmth and engagement during the conversation, supporting joy as the dominant emotion; there is no clear second emotion.",
+    "video_id": "dia97_utt8.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Visual cues show a furrowed brow and an animated, potentially exasperated gesture from the man, indicating anger/frustration as the dominant emotion in the scene.",
+    "video_id": "dia29_utt5.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual cues include brow raises and a jaw drop, which are characteristic of surprise, and the context of a dramatic, urgent statement aligns with this interpretation despite a generally negative tone in speech.",
+    "video_id": "dia240_utt9.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": 78,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The interaction is warm and lively with smiles and animated talking, indicating a positive, joyful mood. There is no clear support for a secondary emotion.",
+    "video_id": "dia22_utt13.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio describes a happy, relaxed tone and the visuals show warmth and affectionate closeness, indicating joy as the dominant emotion.",
+    "video_id": "dia207_utt0.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase 'so glad you called' conveys happiness, and the overall positive auditory description supports a joyful mood. The visual cues show concentration and engagement, but do not clearly indicate a secondary emotion beyond neutral attentiveness.",
+    "video_id": "dia174_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "88",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's voice is described as neutral and monotone, and the interaction shows thoughtful engagement rather than overt emotion; minor positive facial cues exist but do not establish a clear secondary emotion.",
+    "video_id": "dia175_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "92",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio describes happiness and excitement, and the visuals show a broad, cheerful smile in a warm, inviting setting, indicating a dominant sense of joy.",
+    "video_id": "dia245_utt3.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Facial cues such as raised eyelids and a strong jaw drop indicate surprise. The accompanying positive tone suggests this is a mild, positive surprise rather than a negative emotion.",
+    "video_id": "dia169_utt19.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Visual cues show enthusiastic and convincing speech with animated body language, indicating a positive and joyful mood despite a neutral audio tone.",
+    "video_id": "dia60_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene depicts a tense, negative exchange with frowning and earnest but assertive dialogue, indicating anger as the dominant emotion.",
+    "video_id": "dia110_utt8.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene shows a tense confrontation. The woman's serious, animated gestures and pursed lips indicate anger/frustration, making it the dominant emotion.",
+    "video_id": "dia111_utt8.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The negative tone and threatening remark, combined with strong frowning cues, indicate anger as the dominant emotion; no clearly supported second emotion is evident from the provided cues.",
+    "video_id": "dia115_utt2.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": 70,
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": 40,
+    "justification": "The negative tone and the alarming line about bursting and dying suggest fear, reinforced by a tense, conflicted facial expression. A subtle frown and mood cues also indicate secondary sadness.",
+    "video_id": "dia239_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The subject displays a bright smile and expressive, cheerful vocal tone in a warm social setting, indicating joy. The environment and body language suggest positive engagement rather than any negative emotion.",
+    "video_id": "dia210_utt7.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "42",
+    "justification": "The transcript and audio imply hostility and a sharp, negative tone consistent with anger, while facial cues show mild disgust indicators (nose wrinkler, lip tension); anger appears to be the dominant emotion with some supporting disgust signals.",
+    "video_id": "dia115_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "72",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Her tense posture with crossed arms and a slight frown suggests anger or frustration during a serious interaction.",
+    "video_id": "dia279_utt13.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene centers on contemplation and a slightly perplexed demeanor with warm, cozy surroundings, and there are no strong cues for joy, anger, fear, sadness, or disgust.",
+    "video_id": "dia111_utt9.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The discussion about not being able to have a baby, combined with negative tone and facial cues such as a furrowed brow and downturned lip corners, suggests sadness or distress as the dominant emotion.",
+    "video_id": "dia60_utt0.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "82",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "65",
+    "justification": "The tone is negative with the central figure displaying frustration and seriousness, indicating anger. The visible disbelief and jaw-drop cues among the others suggest a secondary sense of surprise.",
+    "video_id": "dia169_utt18.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene conveys a tense, serious exchange with the woman showing concern and intensity, which aligns with fear rather than joy or disgust.",
+    "video_id": "dia175_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "55",
+    "justification": "The scene depicts a lively bar with smiles and laughter, indicating a dominant joyful mood, while some individuals display neutral, preoccupied expressions that support a secondary neutral emotion.",
+    "video_id": "dia174_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The man\u2019s expression is described as surprise and intensity (jaw drop), and the scene conveys an astonished moment between the two individuals, making surprise the most dominant emotion.",
+    "video_id": "dia207_utt1.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The compliment 'You are so cute!' coupled with a broad, engaged smile indicates a joyful and warm interaction.",
+    "video_id": "dia22_utt12.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "72",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene features a negative tone and tense facial cues (brow tension and lip stiffness) during a confrontational exchange, indicating anger as the dominant emotion; no clear secondary emotion is confidently evident.",
+    "video_id": "dia240_utt8.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "65",
+    "justification": "The audio describes positive, excited feelings about living together, indicating joy as the dominant emotion. The objective description notes one woman displaying frustration/exasperation, pointing to anger as a clearly evident secondary emotion.",
+    "video_id": "dia233_utt3.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "68",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene conveys tension and concern among the group, with a sense of suspense that aligns with unease or fear rather than clear happiness or anger.",
+    "video_id": "dia77_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The facial cues show raised inner brows, lid elevation, and a jaw drop with lips parted, classic indicators of surprise. The negative tone is noted, but it is not as strongly supported by the multimodal cues as the surprised expression.",
+    "video_id": "dia174_utt6.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "40",
+    "justification": "The tense brow, agitation, and overall anxious expression point to fear/concern, while the jaw drop and open mouth indicate a moment of surprise.",
+    "video_id": "dia239_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "50",
+    "justification": "The audio describes a happy, expressive tone, and the body language conveys enthusiasm. Facial cues like jaw drop and chin raise also suggest a momentary surprise, supporting a secondary surprise alongside the primary joy.",
+    "video_id": "dia239_utt3.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio indicates a surprised tone ('Oh my god'), and the visual cues include a jaw drop, supporting surprise as the dominant emotion.",
+    "video_id": "dia29_utt3.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The warm kitchen setting and the visible smile cues indicate a positive, joyful mood among the individuals. The scene emphasizes warmth and positive energy rather than negative emotions.",
+    "video_id": "dia22_utt11.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Auditory cue 'Ewww!' and facial cues like nose wrinkling and a grimace indicate disgust. There are signs of frustration, but they do not clearly form a separate, distinct second emotion.",
+    "video_id": "dia230_utt8.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene shows animated dialogue, smiles, and a warm, sociable atmosphere, indicating clear joy as the dominant emotion.",
+    "video_id": "dia131_utt6.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The objective description presents a tense, chaotic moment with expressions of embarrassment and concern, pointing to an unexpected development rather than calm or joyful emotion; surprise best captures the dominant mood.",
+    "video_id": "dia254_utt16.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Visual cues show a smiling, laughing interaction between the two women and a warm setting, indicating joy; the neutral audio tone does not contradict this.",
+    "video_id": "dia25_utt2.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Her brows are furrowed and lips are pressed (lip tightener), indicating tension and displeasure during a serious, tense conversation, which aligns with anger as the dominant emotion.",
+    "video_id": "dia240_utt16.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Both characters display tearful distress and seek support; the mood is dominated by sadness with a sense of emotional overwhelm.",
+    "video_id": "dia165_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": 65,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The expression shows mild concern or contemplation rather than a clear positive or negative emotion, and the festive setting does not strongly influence the facial cue interpretation.",
+    "video_id": "dia174_utt13.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The right-side character exhibits a serious, furrowed-brow demeanor and animated gestures consistent with anger/irritation. The left character shows a subtle, amused smile, indicating a secondary presence of joy or amusement.",
+    "video_id": "dia254_utt5.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "40",
+    "justification": "The monotone vocal delivery and the overall warm, calm scene suggest neutrality. However, there are subtle facial cues (slightly raised eyelids and a slight jaw drop) that hint at mild surprise.",
+    "video_id": "dia100_utt18.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "72",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker\u2019s negative tone combined with facial cues such as brow lowering and lip corner depression suggest sadness or concern about the apartment situation, making sadness the most plausible dominant emotion.",
+    "video_id": "dia52_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The facial cues show a furrowed brow and downturned lips, indicating concern or sadness during an intense moment; these cues outweigh the mixed signals suggesting happiness.",
+    "video_id": "dia100_utt19.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "40",
+    "justification": "Visual cues of tension\u2014furrowed brows, lip biting, and gripping hair\u2014indicate frustration/anger during a stressful phone conversation, with accompanying anxiety suggesting a secondary fear.",
+    "video_id": "dia174_utt12.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "92",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Tears, distressed expressions, and a comforting gesture point to a dominant sadness with an empathetic, vulnerable mood.",
+    "video_id": "dia165_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The animated facial cues include moderately raised eyebrows and a mouth slightly open, which are indicative of surprise during an engaging, relaxed conversation in a cozy setting.",
+    "video_id": "dia112_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": 92,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Two women are laughing and engaging in a playful, affectionate interaction; the warm setting and smiles strongly suggest happiness and joy rather than other emotions.",
+    "video_id": "dia25_utt3.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The individuals display distress and concern\u2014one person bows his head in contemplation while others look tense and supportive, and the voice is negative and low in pitch, aligning with sadness more than other emotions.",
+    "video_id": "dia200_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": 85,
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": 40,
+    "justification": "The facial cues show a genuine smile with strong cheek raiser and lip corner puller, indicating joy, while the slight jaw drop and lid tightener hint at a touch of surprise in the moment described.",
+    "video_id": "dia131_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The negative tone in the audio and the tense, urgent dynamics of a confined hallway with anxious cues from the group suggest fear as the dominant emotion; the woman's tense posture further supports a sense of threat or danger.",
+    "video_id": "dia254_utt15.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The negative, tense tone and the 'Shh!' command indicate anger or irritation as the dominant emotion, while other expressions are more neutral or curious rather than strongly emotional.",
+    "video_id": "dia200_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The vocal delivery is monotone and the interaction is described as serious but not emotionally expressive, aligning with a neutral overall emotional tone.",
+    "video_id": "dia240_utt15.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Monotone narration and restrained expressions indicate a subdued mood; the context shows tension and concern without clear overt emotion.",
+    "video_id": "dia25_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The interaction appears calm and focused with no strong emotional displays; vocal tone is mildly negative, but facial cues suggest concentration rather than distinct emotions like joy or anger.",
+    "video_id": "dia52_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": 78,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual cues such as jaw drop, lip part, and raised brows suggest surprise, reinforced by the anticipatory and tense context of the doorway moment.",
+    "video_id": "dia254_utt6.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The narrator\u2019s negative, tense, low-pitched voice suggests fear, reinforced by the surrounding characters' mild apprehension; there is no clear evidence of joy, anger, or surprise.",
+    "video_id": "dia254_utt7.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "40",
+    "justification": "The negative, tense tone and scolding toward Ross indicate anger, reinforced by facial tension. The jaw drop and wide eyes also suggest a secondary surprise reaction.",
+    "video_id": "dia52_utt1.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "60",
+    "justification": "The speaker's described tone is negative, angry or frustrated, making anger the dominant emotion. The others display concern and worry, aligning with sadness as a secondary emotion.",
+    "video_id": "dia200_utt2.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's distressed and emotionally vulnerable expression suggests sadness, while the scene's tension and concern from both individuals reinforce a somber mood.",
+    "video_id": "dia254_utt14.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "88",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Faces show smiles and lively interaction among friends, indicating joy as the dominant emotion.",
+    "video_id": "dia131_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "fear",
+    "second_emotion_confidence_score": "40",
+    "justification": "The scene centers on a tense, disagreement-filled exchange with facial cues (furrowed brows, slight frown, lid tightening) pointing to anger. The surrounding concern and uneasy atmosphere also hint at fear as a secondary emotion.",
+    "video_id": "dia94_utt0.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene depicts smiles and playful, amused expressions during lighthearted banter among friends, indicating joy as the dominant emotion.",
+    "video_id": "dia254_utt10.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": 92,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript and audio describe a surprised delivery, and the visual cues (jaw drop, wide eyes) indicate astonishment at the statement, with no clear evidence of a secondary emotion.",
+    "video_id": "dia240_utt10.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The interaction is a serious, focused exchange with a furrowed brow and pursed lips, indicating concentration rather than overt emotional expressions like joy or anger; overall tone aligns with neutral emotion.",
+    "video_id": "dia126_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description notes a monotone, bored or disinterested tone, and the setting depicts a relaxed, casual interaction with no strong emotional cues, supporting a neutral interpretation.",
+    "video_id": "dia112_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The woman's expression is described as amusement with a playful smile, indicating joy as the dominant emotion, while raised eyebrows and disbelief point to a secondary sense of surprise.",
+    "video_id": "dia249_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio description emphasizes disbelief and a surprised tone, while the visual cues show distress and concern consistent with sadness, indicating both emotions but with surprise as the dominant one.",
+    "video_id": "dia165_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The transcript explicitly mentions sadness ('so sad'), indicating sadness as the primary emotion, while the visual description notes a surprised/disbelieving facial expression as a secondary cue.",
+    "video_id": "dia174_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "72",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "55",
+    "justification": "The scene features a moderately pronounced jaw drop and open mouth, signaling surprise, alongside facial tension and a furrowed brow that indicate underlying anger during the intense exchange.",
+    "video_id": "dia112_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The frame shows a strongly open mouth, raised eyebrows, and a jaw drop, all classic indicators of surprise. The tone is negative but does not clearly indicate anger or fear beyond the surprised reaction.",
+    "video_id": "dia240_utt11.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The user says 'hating this' with a negative tone and the rightmost figure appears agitated, indicating anger/irritation as the dominant emotion.",
+    "video_id": "dia254_utt11.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The tense confrontation and frustrated, assertive expressions suggest anger as the dominant emotion; facial cues like furrowed brows and downturned lips support this interpretation.",
+    "video_id": "dia94_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The transcript expresses condemnation of an offensive joke, indicating anger, while facial cues such as jaw drop and wide eyes suggest surprise in reaction to the remark.",
+    "video_id": "dia259_utt10.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The transcript conveys happiness about becoming an aunt, and facial cues show a smile and excitement; a slight jaw drop and 'can't believe it' indicate an accompanying surprise.",
+    "video_id": "dia254_utt13.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene portrays a vulnerable, serious exchange in a warm setting, with a furrowed brow and tense expression suggesting sadness. The negative tone and intimate interaction support a somber mood rather than emotions like joy or anger.",
+    "video_id": "dia126_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Facial cues include strongly downturned lips (lip corner depressor) and tense brows, which are commonly associated with sadness, despite the lively bar setting.",
+    "video_id": "dia174_utt16.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "88",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The subject's raised eyebrows, wide eyes, and jaw drop indicate surprise; his forward-leaning, engaged posture and slight smile support a positive, enthusiastic reaction rather than a neutral or negative state.",
+    "video_id": "dia249_utt5.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "54",
+    "justification": "The visual cues show a broad smile, raised eyebrows, and enthusiastic body language indicating joy and excitement. Audio hints at surprise or being caught off guard, but the strongest observable cues align with joy.",
+    "video_id": "dia249_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Visual cues describe a smile and engaged demeanor, suggesting amusement or intrigue (joy). The vocal tone is negative but not strong enough to override the positive facial expression.",
+    "video_id": "dia174_utt17.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "65",
+    "justification": "The dialogue references a bear outside, implying danger that evokes fear, while the expressions (wide eyes, raised brows) indicate accompanying surprise.",
+    "video_id": "dia126_utt4.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "42",
+    "justification": "The visual cues show agitation, a furrowed brow, wide eyes, and a tense posture consistent with fear. A slight jaw drop also hints at surprise, suggesting both emotions are present but fear is more dominant.",
+    "video_id": "dia254_utt12.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The narration and audio describe a positive, encouraging tone, and the scene shows open, friendly engagement among participants, indicating a joyful mood as the dominant emotion.",
+    "video_id": "dia129_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's furrowed brow and pressed lips suggest concern and a somber mood within a serious, intimate conversation, aligning with sadness as the dominant emotion.",
+    "video_id": "dia143_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "fear",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The user\u2019s line reveals a fear of breakup tied to body image, and the monotone delivery reinforces an anxious affect, making fear the dominant emotion. No clearly stronger secondary emotion is evident from the provided cues.",
+    "video_id": "dia143_utt5.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speakers show a serious, tense interaction with furrowed brows and a negative tone, suggesting anger/annoyance more than other emotions.",
+    "video_id": "dia129_utt1.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "Nose wrinkling and a frown indicate disgust; however, raised eyebrows and an open mouth suggest surprise, which appears as a secondary emotion.",
+    "video_id": "dia205_utt0.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene centers on a heated interaction with urgency and frustration, and the facial cues suggest tension and determination rather than calm or joy.",
+    "video_id": "dia37_utt4.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The facial cues indicate smiling with dimples and upturned lips, suggesting joy, and the contextual description notes a pleasant, lighthearted interaction.",
+    "video_id": "dia247_utt3.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio and scene describe happiness and festive excitement, with smiling expressions and a warm, sociable cafe atmosphere indicating joy as the dominant emotion.",
+    "video_id": "dia154_utt1.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "55",
+    "justification": "The audio describes a negative/angry tone, indicating anger as the dominant emotion. Visual cues also show a slight amusement/smirk, suggesting a secondary sense of joy that is clearly secondary to the anger.",
+    "video_id": "dia180_utt8.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio describes happiness and relaxation, and facial cues (smile via lip corner puller) strongly indicate joy as the dominant emotion.",
+    "video_id": "dia100_utt13.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The spoken remark conveys contempt toward the behavior, reinforced by a negative tone; facial cues (upper lip raise) align more with disgust/contempt than with warmth, fear, or sadness.",
+    "video_id": "dia180_utt9.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The description indicates a relaxed, neutral delivery and setting, with only subtle hints of amusement but no strong emotional expression.",
+    "video_id": "dia174_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The setting is warm and festive with animated interactions and smiles, indicating a cheerful, positive mood among the group.",
+    "video_id": "dia154_utt0.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The 'What?!' expression indicates surprise, while the furrowed brows and pressed lips suggest mild confusion rather than a stronger emotion like fear or joy.",
+    "video_id": "dia143_utt6.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene conveys a buoyant mood with smiling cues and engaging interaction, indicating joy; while there are some brow/eye cues that could hint at surprise, the strongest and most consistent cue is joy.",
+    "video_id": "dia247_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "50",
+    "justification": "The 'No way!' expression and tense, negative tone indicate surprise/disbelief, with additional brow lowering and lid tightening suggesting underlying anger/frustration as a secondary emotion.",
+    "video_id": "dia205_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": 75,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The dialogue features a confrontational question with a negative tone and the characters show tense, serious body language. This combination points to anger as the dominant emotion.",
+    "video_id": "dia230_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The tone is described as positive with a relaxed, playful demeanor and a light-hearted, humorous vibe, all indicative of joy.",
+    "video_id": "dia143_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio description specifies a neutral tone, and the scene conveys warmth and nurturing rather than a clear positive or negative emotion; any facial cues appear related to concentration rather than a distinct emotion.",
+    "video_id": "dia100_utt17.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The monotone voice and calm activity of unpacking in a cozy setting point to a neutral mood, with only subtle facial cues suggesting minimal positive emotion.",
+    "video_id": "dia279_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene conveys concern and vulnerability, with a furrowed brow and tense eyes suggesting sadness. The monotone voice and intimate setting reinforce a somber mood.",
+    "video_id": "dia90_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "82",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Audio describes a neutral tone, while visuals show engagement without a clear emotional valence. The overall impression is a calm, ongoing discussion.",
+    "video_id": "dia143_utt3.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The animated, smiling facial cues and the described playful annoyance suggest a positive, enthusiastic mood is dominant, rather than negative emotions like anger or fear.",
+    "video_id": "dia37_utt2.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Raised eyebrows and wide eyes indicate a reaction of surprise to the statement, while the rest of the cues show a mostly engaged demeanor rather than strong happiness or anger.",
+    "video_id": "dia90_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript and audio describe happiness and excitement, and the playful, collaborative struggle is depicted with smiling expressions and energetic, positive cues, indicating joy as the dominant emotion.",
+    "video_id": "dia279_utt4.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene depicts a warm, playful interaction between a woman and two babies in a cozy setting, with animated facial cues and a nurturing atmosphere that strongly indicate joy, despite the narration being neutral.",
+    "video_id": "dia100_utt14.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "40",
+    "justification": "The audio is described as neutral. Visual cues show a mild smile and warm, engaging interaction with the baby, indicating a subtle presence of joy layered on a neutral baseline.",
+    "video_id": "dia100_utt15.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "40",
+    "justification": "The right woman's serious, furrowed brows and gripping a metallic object signal anger and confrontation, dominating the scene; the left woman's taken-aback reaction indicates surprise as a secondary emotion.",
+    "video_id": "dia279_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "60",
+    "justification": "The transcript and audio indicate surprise at the statement, while the visual description shows the other person expressing exasperation, suggesting anger as a secondary emotion.",
+    "video_id": "dia90_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "anger",
+    "second_emotion_confidence_score": "70",
+    "justification": "The audio explicitly conveys a disgusted tone, while the visual shows a tense confrontation with the man displaying anger and the woman appearing uncomfortable, making disgust the dominant emotion with anger as a clearly supported secondary emotion.",
+    "video_id": "dia247_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The line conveys disbelief and a tense tone, suggesting surprise as the dominant emotion. While the visual description shows a warm demeanor, the audio/content cues point more strongly to surprise.",
+    "video_id": "dia37_utt3.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Audio indicates happiness and satisfaction, and the visuals show smiling, relaxed group interactions, supporting joy as the dominant emotion.",
+    "video_id": "dia269_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio clearly indicates happiness and excitement, and the overall scene conveys a positive, upbeat mood, making joy the dominant emotion.",
+    "video_id": "dia240_utt6.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The open mouth and raised eyebrows indicate surprise, while the positive tone and slight smile suggest accompanying joy.",
+    "video_id": "dia195_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The insult ('You are both idiots') combined with a tense vocal delivery signals anger, and facial cues such as brow lowering and mouth tension reinforce this angry affect.",
+    "video_id": "dia259_utt9.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The subject displays a relaxed, engaged demeanor with a smile (lip corner puller) in a friendly, light-hearted setting, which aligns with joy. While the audio notes a negative tone, the visible cues and overall ambiance suggest amusement or warmth as the dominant emotion.",
+    "video_id": "dia110_utt7.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Jaw drop and lips parted suggest a moment of surprise; the scene is emotionally charged, but no other single emotion clearly dominates.",
+    "video_id": "dia111_utt7.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene features a bright, cheerful expression and an inviting smile, with relaxed, engaged body language indicating happiness as the dominant emotion.",
+    "video_id": "dia210_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "92",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The tone is positive and the diners are depicted in a lively, upbeat scene with animated conversation, indicating joy.",
+    "video_id": "dia262_utt2.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The visuals show warmth, a playful smile, and relaxed body language, indicating a positive emotion consistent with joy; the audio description suggesting a negative tone is not reflected in the overall scene.",
+    "video_id": "dia183_utt6.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "70",
+    "justification": "The left person's furrowed brow and forward-leaning, assertive gestures indicate frustration/anger, while the right person appears startled and concerned, signaling a secondary surprise response.",
+    "video_id": "dia210_utt8.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene shows a tense, confrontational moment with furrowed brows and a tense, open mouth, signaling anger/frustration. The spoken line expresses disbelief and ire at someone\u2019s actions, supporting anger as the dominant emotion.",
+    "video_id": "dia125_utt22.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The visual cues describe determination and playfulness with a subtle smirk, indicating a positive, joyful mood. Although the audio is described as neutral, the facial expression and energy suggest joy as the dominant emotion.",
+    "video_id": "dia259_utt8.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The description highlights a negative, stern tone and facial cues such as brow lowering and eyelid tension, which are commonly associated with anger. The scene also suggests tension and earnest seriousness in the conversation.",
+    "video_id": "dia195_utt0.mp4",
+    "ground_truth": "fear"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "60",
+    "justification": "The scene conveys a warm, positive vibe with a compliment, suggesting joy. The man\u2019s expression is described as neutral with hints of curiosity or amusement, supporting a secondary neutral reading.",
+    "video_id": "dia240_utt7.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "disgust",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker's negative tone about the concept, combined with facial cues like a nose wrinkle and brow lowering, point most strongly to disgust as the dominant emotion; any sadness cues are not as clearly supported.",
+    "video_id": "dia269_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Facial cues show a clear smile and positive engagement during a casual, humorous interaction, indicating joy as the dominant emotion.",
+    "video_id": "dia68_utt13.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Two women are smiling warmly in a cozy social setting, with strong cues of a genuine smile (lip corner puller and upper lip raise), indicating joy as the dominant emotion.",
+    "video_id": "dia269_utt2.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "neutral",
+    "second_emotion_confidence_score": "40",
+    "justification": "The transcript and audio description indicate a clear surprised reaction (surprised tone, 'What happened to you?'). While there is curiosity/concern in the scene, there isn't a strong second dominant emotion, making neutral a reasonable supporting label.",
+    "video_id": "dia237_utt4.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The facial cues show a strongly raised chin and jaw drop with brow and lid elevation, which are typical indicators of surprise. The monotone voice suggests the intensity may be muted, but the expressive facial signals point to surprise as the dominant emotion.",
+    "video_id": "dia111_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "72",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio is described as neutral, and although the scene shows tension and engagement among the characters, there is no clear, strong emotional display dominating the moment.",
+    "video_id": "dia125_utt20.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "45",
+    "justification": "The visual cues include a strongly raised chin and a moderately open mouth/jaw drop, which align with surprise. There are also subtle smiles (dimpler and lip corner puller) indicating a secondary, mild sense of joy.",
+    "video_id": "dia262_utt1.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio indicates the speaker's tone is negative and suggests anger or frustration. Facial cues described (tension around the mouth, chin raise, and jaw drop) support an angry expression, making anger the dominant emotion.",
+    "video_id": "dia183_utt4.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene depicts a warm, sociable diner with smiling, amused expressions and lively interactions, indicating joy as the dominant emotion.",
+    "video_id": "dia262_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "sadness",
+    "second_emotion_confidence_score": "40",
+    "justification": "The audio clearly indicates a negative, frustrated or angry tone, while the visual cues show a slight downturned mouth corner, suggesting mild sadness alongside the primary anger.",
+    "video_id": "dia183_utt5.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Audio indicates a negative, angry tone and the scene shows a tense, confrontational interaction, suggesting anger as the dominant emotion.",
+    "video_id": "dia166_utt4.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio is described as emotionless and robotic, and the scene centers on a serious, personal discussion; while there are signs of mild concern in facial expressions, there is no clear, distinct emotional state beyond neutral.",
+    "video_id": "dia125_utt21.mp4",
+    "ground_truth": "sadness"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "42",
+    "justification": "The spoken line expresses anger or frustration. Facial cues include brow furrow and eye/ mouth tension, with nose wrinkling and lip/upper lip movement that also suggest disgust as a secondary cue.",
+    "video_id": "dia111_utt5.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "68",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The facial cues show a slight amusement (cheekiness) and the warm, inviting setting suggests a positive mood, indicating joy as the dominant emotion. The voice is negative and hesitant but does not outweigh the overall cheerful context.",
+    "video_id": "dia120_utt16.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": 80,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The description emphasizes relaxed, animated interaction with signs of a smile and enthusiasm, pointing to a dominant joyful mood. Some cues (jaw drop) could hint at surprise but do not dominate the expression.",
+    "video_id": "dia68_utt14.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman's expression is described as surprise or shock with widened eyes and parted lips, and the scene suggests a humorous or surprising event, making surprise the dominant emotion.",
+    "video_id": "dia275_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The man displays furrowed brows and downturned lips with a contemplative posture, signaling concern and a somber mood rather than joy or anger; the scene conveys a serious, reflective tone.",
+    "video_id": "dia159_utt1.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Facial cues show a smile and eye uplift, indicating joy; the scene reads as animated and eager in sharing news, rather than conveying distress.",
+    "video_id": "dia169_utt10.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "60",
+    "justification": "The overall tone and transcript describe happiness and excitement, while a male character shows signs of surprise/concern, providing a secondary emotional cue.",
+    "video_id": "dia169_utt9.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The dialogue conveys hesitancy and a slightly negative tone, but the scene overall shows a casual, calm interaction without strong emotional cues.",
+    "video_id": "dia239_utt8.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Her facial cues show a genuine smile (lip corners up, cheek lift) and open posture, indicating joy; the scene is described as warm and friendly, supporting a positive emotional tone.",
+    "video_id": "dia239_utt9.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "82",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The scene conveys warmth and engagement, with a gentle smile and dimples suggesting positive emotion, supported by a cozy coffee-shop setting. The neutral vocal delivery does not contradict the overall joyful mood.",
+    "video_id": "dia13_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript and audio indicate a surprised tone, supported by visual cues like jaw drop and parted lips, showing surprise as the dominant emotion in this moment.",
+    "video_id": "dia169_utt8.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "50",
+    "justification": "Her high agitation, exasperation, and aggressive body language point to anger as the dominant emotion, with a concurrent look of disbelief indicating surprise as the secondary emotion.",
+    "video_id": "dia159_utt0.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The frustrated/exasperated facial cues and assertive body language, combined with the line 'Are you mocking me?', point to anger as the dominant emotion in this tense interaction.",
+    "video_id": "dia120_utt17.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "sadness",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Facial cues show downturned lip corners (sadness) with a barely detectable inner brow raise, and the narration notes a negative tone, suggesting a subdued negative mood rather than joy or anger.",
+    "video_id": "dia189_utt1.mp4",
+    "ground_truth": "joy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "88",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Facial cues like jaw drop, raised eyebrows, and parted lips suggest surprise in response to something unexpected, while the scene conveys intrigue rather than anger or fear. The overall tone of the dialogue is positive, but the visual cues indicate surprise as the dominant emotion.",
+    "video_id": "dia275_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "surprise",
+    "second_emotion_confidence_score": "40",
+    "justification": "The scene depicts warmth, engagement, and subtle smiles, pointing to joy. Occasional cues like a moderately raised jaw/drop hint at mild surprise during the interaction.",
+    "video_id": "dia237_utt2.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The facial cues show a jaw drop and lips parted, which are strong indicators of surprise, while the audio notes a negative tone but does not strongly support a different dominant emotion.",
+    "video_id": "dia13_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Facial cues such as raised brows, a slightly opened mouth, and jaw drop indicate a moment of surprise, while the spoken delivery is described as friendly and sincere, suggesting surprise as the dominant emotion with a positive tone.",
+    "video_id": "dia17_utt18.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "40",
+    "justification": "The transcript's insult and negative tone point to anger, while the visual shows one man smiling and engaging playfully, suggesting some joy but it is less dominant.",
+    "video_id": "dia166_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio explicitly suggests the speaker is upset or angry, and the visual description shows one man raising his voice with tense facial cues in a heated exchange. The other man remains calmer and more defensive, indicating anger as the dominant emotion with a secondary, less prominent reaction.",
+    "video_id": "dia166_utt2.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The woman is depicted with a friendly smile and animated engagement in a warm, cozy setting, which suggests positive affect. The audio notes neutral tone, but visual cues indicate mild joy rather than neutrality.",
+    "video_id": "dia13_utt1.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "anger",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The audio indicates upset/angry tone, and the visual cues show intense, assertive frustration and engagement, confirming anger as the dominant emotion.",
+    "video_id": "dia111_utt3.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "68",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Visual cues show moderate cheek and chin elevation consistent with a smile, and the context suggests amusement or positive engagement rather than negative emotions.",
+    "video_id": "dia244_utt8.mp4",
+    "ground_truth": "anger"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript and audio describe a positive, happy mood, reinforced by facial cues suggesting a gentle smile, indicating joy as the dominant emotion.",
+    "video_id": "dia237_utt3.mp4",
+    "ground_truth": "disgust"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "82",
+    "second_emotion": "joy",
+    "second_emotion_confidence_score": "60",
+    "justification": "The description explicitly notes a mix of surprise and curiosity with a slightly playful grin, indicating surprise as the dominant emotion and joy as a secondary signal.",
+    "video_id": "dia133_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Visual cues show a genuine smile and warmth (lip corner puller, cheek raiser, upper lip raiser) and the scene description notes happiness, indicating joy despite a negative spoken tone.",
+    "video_id": "dia97_utt7.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "joy",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "Facial cues show a clear smile with dimples and lip corner pullers, and the scene is described as lively and enthusiastic, indicating joy as the dominant emotion.",
+    "video_id": "dia275_utt0.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "82",
+    "second_emotion": "disgust",
+    "second_emotion_confidence_score": "40",
+    "justification": "The strong jaw drop is a clear indicator of surprise, reinforced by the positive narration and lively scene. Mild nose wrinkling and a downward lip position provide some disgust cues, but they are less dominant in this context.",
+    "video_id": "dia189_utt0.mp4",
+    "ground_truth": "joy"
+  }
+]

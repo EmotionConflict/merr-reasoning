@@ -1,0 +1,542 @@
+[
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The line describes a factual action without expressing feelings, indicating a neutral tone.",
+    "video_id": "sample_00002885.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whisper, combined with the phrase 'don't make trouble' and 'I'm waiting for someone,' conveys a cautious, uneasy mood rather than positive or neutral emotion.",
+    "video_id": "sample_00000705.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": 65,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The line reads as encouragement without strong emotional descriptors, suggesting a neutral, supportive tone.",
+    "video_id": "sample_00004007.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "72",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The sentence presents a factual, informational thought with no clear emotional cues.",
+    "video_id": "sample_00001631.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "No transcript or visual cues are provided, so emotion cannot be determined beyond a neutral default with moderate confidence.",
+    "video_id": "sample_00005443.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript fragment is a factual statement without explicit emotional cues, suggesting a neutral tone.",
+    "video_id": "sample_00004950.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase '\u4f60\u53c8\u4e0d\u613f\u610f' implies frustration toward others, indicating an angry tone more than neutral or other emotions.",
+    "video_id": "sample_00002460.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript contains the word for hate toward someone, implying anger or resentment.",
+    "video_id": "sample_00001551.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The fragment conveys accusations about taking money and a confrontational tone, suggesting anger as the dominant emotion.",
+    "video_id": "sample_00006798.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript conveys a factual statement about a person and his illness with no expressive cues indicating happiness, sadness, or other emotions.",
+    "video_id": "sample_00005939.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The line conveys concern and distress about not receiving a refund and asks what actions to take.",
+    "video_id": "sample_00005497.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The fragment 'What was your...' conveys questioning but does not express a clear emotional state, so neutral is the most plausible dominant emotion.",
+    "video_id": "sample_00003790.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript references awkwardness, implying discomfort and concern about lip-smacking, which aligns with a worried state rather than neutral or positive emotions.",
+    "video_id": "sample_00004940.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whispering tone and the line about not raising the voice suggest caution and concern in a domestic moment, rather than happiness.",
+    "video_id": "sample_00005321.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "78",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker abruptly realizes a surprising truth about family and marriage after seeing someone in the hospital. The moment reads as shock rather than a sustained mood like happiness or sadness.",
+    "video_id": "sample_00004407.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The expression shows mild concern and urgency (Oh goodness) with a plea to hold on, indicating a worried tone rather than happiness or anger.",
+    "video_id": "sample_00001999.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The sentence is a simple, informational statement with no emotional cues.",
+    "video_id": "sample_00004943.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": 70,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript shows a sudden question about someone's identity, suggesting surprise and curiosity rather than neutral or other emotions.",
+    "video_id": "sample_00002010.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "72",
+    "second_emotion": "worried",
+    "second_emotion_confidence_score": "54",
+    "justification": "The line '\u6211\u771f\u6ca1\u60f3\u5230' signals surprise at someone's action. The plea for mercy ('\u7559\u60c5') also suggests worry about consequences, making 'surprise' the dominant emotion with 'worried' as a secondary, clearly supported emotion.",
+    "video_id": "sample_00002603.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "73",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The line suggests deliberately exposing inner concerns, indicating worry and tension rather than happiness or neutrality.",
+    "video_id": "sample_00001646.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The line suggests maternal rejection directed at the speaker, conveying emotional hurt and sadness rather than other emotions.",
+    "video_id": "sample_00003709.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase '\u600e\u4e48\u5c31\u8fd9\u4e48\u96be\u5440' conveys frustration and anger about the difficulty, making angry the most dominant emotion; there are no clear indicators of a second emotion in the brief excerpt.",
+    "video_id": "sample_00001485.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The sentence downplays money as insignificant to the speaker's family, indicating a calm, neutral tone without clear emotional affect.",
+    "video_id": "sample_00003245.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript praises good acting and mentions a top-ranked veteran actress returning, indicating a positive sentiment.",
+    "video_id": "sample_00004936.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "There is no transcript content to analyze, so no emotional cues are observable. Neutral is the safest default.",
+    "video_id": "sample_00001682.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "worried",
+    "first_emotion_confidence_score": "72",
+    "second_emotion": "angry",
+    "second_emotion_confidence_score": "40",
+    "justification": "The plea '\u4e0d\u7528\u6293\u6211\u4e86' signals fear or worry about being arrested. The insulting remark about the other person's brain hints at underlying anger, though fear appears more dominant.",
+    "video_id": "sample_00001133.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is fragmented and does not contain explicit emotional cues, suggesting a neutral tone rather than happy, sad, angry, or other emotions.",
+    "video_id": "sample_00000832.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The line conveys emotional pain tied to truth, indicating sadness rather than happiness or anger.",
+    "video_id": "sample_00005430.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is fragmentary and does not convey clear emotional cues, suggesting a neutral tone.",
+    "video_id": "sample_00005626.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The statement conveys frustration and negative evaluation, which aligns most with anger; there is no clear secondary emotion present.",
+    "video_id": "sample_00001454.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript conveys a feeling of being overlooked or undervalued by others, which aligns with sadness.",
+    "video_id": "sample_00006298.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "72",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript includes 'Entschuldigung' (sorry), indicating remorse or a subdued mood, which aligns with sadness as the dominant emotion.",
+    "video_id": "sample_00006717.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The fragment consists of soft interjections without clear emotional emphasis, indicating a neutral or hesitant tone rather than a strong specific emotion.",
+    "video_id": "sample_00003652.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The excerpt contains fragmented speech and questions but no explicit emotional cues, indicating a neutral or unsettled mood rather than a strong emotion.",
+    "video_id": "sample_00006500.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The sentence describes a practical action (waiting and making calls) with no emotional emphasis.",
+    "video_id": "sample_00004288.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The provided text is a minimal fragment with no explicit emotional cues; thus neutral is the most reasonable dominant emotion.",
+    "video_id": "sample_00005828.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase is a direct request to hear the other party's terms, indicating a neutral tone with potential slight assertiveness but no clear emotional charge.",
+    "video_id": "sample_00001667.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript conveys a mundane discussion about arrangements with no explicit emotional expression; thus it reads as neutral.",
+    "video_id": "sample_00000143.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The phrase indicates a lack of anything to add and a trailing thought, suggesting a neutral or mildly resigned mood rather than a strong emotion.",
+    "video_id": "sample_00006903.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The line is a polite request with a neutral tone, not expressing a clear emotion.",
+    "video_id": "sample_00005576.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The word 'sustainable' suggests a topic-related, neutral tone rather than an emotional state.",
+    "video_id": "sample_00002972.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "angry",
+    "first_emotion_confidence_score": 65,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The line conveys hostility and irritation toward the person, suggesting anger rather than neutrality or sadness.",
+    "video_id": "sample_00002806.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript fragment is a short, neutral inquiry with no explicit emotional cues.",
+    "video_id": "sample_00000754.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "100",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "No whisper transcript content was provided to analyze; therefore no emotional cues can be determined, defaulting to neutral.",
+    "video_id": "sample_00005573.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is a simple statement with no emotional cues or expressive language.",
+    "video_id": "sample_00002787.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "90",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript provides no explicit emotional cues and describes a neutral action, indicating a neutral mood.",
+    "video_id": "sample_00006939.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is a brief, factual statement without explicit emotional cues, indicating a neutral tone.",
+    "video_id": "sample_00005217.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "80",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The line expresses a feeling of helplessness and low self-worth, which aligns with sadness.",
+    "video_id": "sample_00004726.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript consists of non-lexical sounds with no clear emotional cues, suggesting a neutral state.",
+    "video_id": "sample_00001837.mp4",
+    "ground_truth": "sad"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The speaker describes someone as a very good person, indicating a positive sentiment. There is no clear indication of another emotion.",
+    "video_id": "sample_00006816.mp4",
+    "ground_truth": "worried"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "\u8fd9\u53e5\u8bdd\u8868\u8fbe\u4e86\u5bf9\u67d0\u4e8b\u7684\u60ca\u8bb6\u548c\u96be\u4ee5\u7f6e\u4fe1\uff0c\u5e26\u6709\u8bbd\u523a\u8bed\u6c14\u3002\u7531\u4e8e\u201c\u8d85\u626f\u7684\u201d\u5f3a\u8c03\u51fa\u4e4e\u610f\u6599\uff0c\u56e0\u6b64\u5c06\u4e3b\u60c5\u7eea\u5b9a\u4f4d\u4e3a\u60ca\u8bb6\u3002",
+    "video_id": "sample_00005474.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "85",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript shows no strong emotional cues; it reads as a neutral, conversational remark.",
+    "video_id": "sample_00002680.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "sad",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The line conveys a sense of not belonging and loneliness, which aligns with sadness. There is no explicit indication of a second distinct emotion.",
+    "video_id": "sample_00004145.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "75",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The text conveys practical qualities (suitability, familiarity, convenience) without expressing strong emotions, suggesting a neutral tone.",
+    "video_id": "sample_00002118.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "60",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript 'See ya!' expresses a casual farewell with no explicit emotional cues; lacking vocal or facial context, it most plausibly indicates a neutral tone.",
+    "video_id": "sample_00003028.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": 60,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The input is a fragmented sentence with no explicit emotion; it describes fragrance in a casual way, indicating a neutral tone.",
+    "video_id": "sample_00005897.mp4",
+    "ground_truth": "angry"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": 65,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript is unclear and lacks explicit emotional cues, indicating a neutral tone.",
+    "video_id": "sample_00005277.mp4",
+    "ground_truth": "neutral"
+  },
+  {
+    "first_emotion": "neutral",
+    "first_emotion_confidence_score": "65",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The transcript conveys a hopeful sentiment about relations but lacks explicit emotional language, indicating a neutral baseline with slight optimism.",
+    "video_id": "sample_00003773.mp4",
+    "ground_truth": "surprise"
+  },
+  {
+    "first_emotion": "happy",
+    "first_emotion_confidence_score": 75,
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The whispered transcript describes helping mom in a positive way, suggesting a cheerful mood with no signs of negative emotions.",
+    "video_id": "sample_00005062.mp4",
+    "ground_truth": "happy"
+  },
+  {
+    "first_emotion": "surprise",
+    "first_emotion_confidence_score": "70",
+    "second_emotion": "",
+    "second_emotion_confidence_score": "",
+    "justification": "The interjection 'Really?' signals surprise, while the surrounding line reads as a neutral recollection.",
+    "video_id": "sample_00006422.mp4",
+    "ground_truth": "surprise"
+  }
+]

@@ -1,0 +1,274 @@
+video_id,modality,ground_truth,predicted,confidence,data_quality_score,data_quality_issues,is_correct,is_sabotage,ensemble_prediction,ensemble_confidence
+sample_00002885.mp4,T,surprise,neutral,70,50,"brief content; limited data modality (only transcript, no audio/visual cues)",False,True,happy,0.5112936344969199
+sample_00002885.mp4,A,surprise,happy,92,95,,False,True,happy,0.5112936344969199
+sample_00002885.mp4,V,surprise,surprise,75,78,partial occlusion of the right subject's face; 2-person framing with limited visibility of one participant; slightly back/side angle reducing landmark visibility,True,False,happy,0.5112936344969199
+sample_00002885.mp4,TAV,surprise,happy,92,95,,False,True,happy,0.5112936344969199
+sample_00000705.mp4,T,neutral,angry,60,40,no audio or visual cues provided; short transcript with limited context; whisper modality may affect perceptual clarity,False,False,happy,0.3737166324435318
+sample_00000705.mp4,A,neutral,happy,92,95,,False,True,happy,0.3737166324435318
+sample_00000705.mp4,V,neutral,surprise,85,90,blurred secondary subject across the table,False,True,happy,0.3737166324435318
+sample_00000705.mp4,TAV,neutral,happy,85,90,,False,True,happy,0.3737166324435318
+sample_00004007.mp4,T,surprise,neutral,60,25,brief content; transcript-only data; no audio/visual cues,False,False,happy,0.5089285714285714
+sample_00004007.mp4,A,surprise,happy,95,95,,False,True,happy,0.5089285714285714
+sample_00004007.mp4,V,surprise,happy,75,70,poor lighting,False,True,happy,0.5089285714285714
+sample_00004007.mp4,TAV,surprise,happy,90,95,,False,True,happy,0.5089285714285714
+sample_00001631.mp4,T,surprise,neutral,60,50,brief content; no audio prosody; unclear emotional cues in single sentence,False,False,surprise,0.5400593471810089
+sample_00001631.mp4,A,surprise,neutral,95,100,,False,True,surprise,0.5400593471810089
+sample_00001631.mp4,V,surprise,surprise,90,60,background blur; distance causing partial facial visibility; slightly turning away from camera,True,False,surprise,0.5400593471810089
+sample_00001631.mp4,TAV,surprise,surprise,92,85,slightly blurred background; gaze directed off-frame making interpretation of context slightly uncertain,True,False,surprise,0.5400593471810089
+sample_00005443.mp4,T,happy,neutral,0,10,empty whisper_transcript; no video/audio data provided,False,False,surprise,0.5675675675675675
+sample_00005443.mp4,A,happy,surprise,92,95,,False,True,surprise,0.5675675675675675
+sample_00005443.mp4,V,happy,happy,75,70,background unfocused; potential shallow depth of field affecting facial detail,True,False,surprise,0.5675675675675675
+sample_00005443.mp4,TAV,happy,surprise,78,75,"mixed modality signals (audio suggests surprise, visual suggests mild happiness); background unfocused in the video frame",False,True,surprise,0.5675675675675675
+sample_00004950.mp4,T,neutral,neutral,85,60,whispered speech leading to reduced clarity; brief/fragmented utterance lacking context; linguistic ambiguity due to short sentence,True,False,neutral,0.2661290322580645
+sample_00004950.mp4,A,neutral,happy,90,95,,False,True,neutral,0.2661290322580645
+sample_00004950.mp4,V,neutral,worried,72,50,foreground subject out of focus (back of woman's head); two-person frame with partial occlusion; slightly turned angle reduces facial pose clarity,False,True,neutral,0.2661290322580645
+sample_00004950.mp4,TAV,neutral,worried,72,70,"occlusion: foreground/back of a woman's head partially blocks view of the speaker; two-person interaction leads to competing cues; occasional/slurring in audio, though overall intelligible; mixed audiovisual signals (enthusiasm in audio vs. serious facial cues) reduce single-emotion certainty",False,True,neutral,0.2661290322580645
+sample_00002460.mp4,T,happy,neutral,60,30,brief content; no audio or visual cues,False,False,neutral,0.3409090909090909
+sample_00002460.mp4,A,happy,neutral,90,95,,False,True,neutral,0.3409090909090909
+sample_00002460.mp4,V,happy,happy,85,90,,True,False,neutral,0.3409090909090909
+sample_00002460.mp4,TAV,happy,surprise,85,90,,False,True,neutral,0.3409090909090909
+sample_00001551.mp4,T,worried,angry,70,40,whispered speech; garbled transcript with mixed language; fragmentary content; unclear context,False,True,worried,0.26573426573426573
+sample_00001551.mp4,A,worried,"{
+  ""emotions"": [
+    {
+      ""emotion"": ""neutral"",
+      ""confidence"": 85
+    }
+  ],
+  ""primary_emotion"": ""neutral"",
+  ""primary_confidence"": 85,
+  ""data_quality"": {
+    ""score"": 90,
+    ""issues"": [],
+    ""reasoning"": ""description indicates clear articulation and natural delivery with varied prosody; no artifacts or noise described.""
+  ],
+  ""reasoning"": ""audio description suggests a confident, engaging but emotionally neutral delivery. no explicit emotional content detected; neutral is the most supported interpretation.""
+}",50,30,parsing_error,False,False,worried,0.26573426573426573
+sample_00001551.mp4,V,worried,worried,60,85,,True,False,worried,0.26573426573426573
+sample_00001551.mp4,TAV,worried,worried,72,90,,True,False,worried,0.26573426573426573
+sample_00006798.mp4,T,worried,neutral,68,40,brief content; transcript-only data; unclear speech; possible transcription errors; no audio/visual cues,False,False,neutral,0.5010309278350515
+sample_00006798.mp4,A,worried,surprise,85,92,,False,True,neutral,0.5010309278350515
+sample_00006798.mp4,V,worried,neutral,75,85,uneven lighting with striped shadows from window blinds; slight head tilt may affect interpretation,False,True,neutral,0.5010309278350515
+sample_00006798.mp4,TAV,worried,surprise,85,90,,False,True,neutral,0.5010309278350515
+sample_00005939.mp4,T,worried,neutral,70,40,unclear context; text-only transcript; no audio or facial cues,False,True,neutral,0.34305317324185247
+sample_00005939.mp4,A,worried,happy,90,95,,False,True,neutral,0.34305317324185247
+sample_00005939.mp4,V,worried,worried,65,70,partial occlusion of one subject; two-person frame increases ambiguity in attributing expression; facial cues are mixed (brow lowering with slight smiles) which can complicate labeling,True,False,neutral,0.34305317324185247
+sample_00005939.mp4,TAV,worried,worried,78,65,inconsistent cues between audio positivity and visual tension; ambiguous facial signals from micro-expressions; limited visibility of one subject (partial occlusion) reducing reliability; possible cultural/linguistic nuance in transcript affecting emotion inference,True,False,neutral,0.34305317324185247
+sample_00005497.mp4,T,worried,angry,75,50,unclear speech; brief content,False,True,worried,0.38461538461538464
+sample_00005497.mp4,A,worried,neutral,90,100,contradictory description: 'expressive' vs 'emotionless',False,True,worried,0.38461538461538464
+sample_00005497.mp4,V,worried,worried,70,50,conflicting cues: brow furrow (brow lowerer) vs lip corner puller (smile) and upper lip raiser; slight blink could introduce brief occlusion or ambiguity; mixed signals (multiple facial actions that pull toward different emotions),True,False,worried,0.38461538461538464
+sample_00005497.mp4,TAV,worried,worried,65,70,"incongruence between neutral audio delivery and negative facial cues (brow lowering, lip movements); possible mismatch between transcript content and visual cues",True,False,worried,0.38461538461538464
+sample_00003790.mp4,T,sad,neutral,70,45,brief content; unclear speech,False,True,neutral,0.42452830188679247
+sample_00003790.mp4,A,sad,neutral,95,95,,False,True,neutral,0.42452830188679247
+sample_00003790.mp4,V,sad,worried,78,65,description-based input rather than raw video frames; potential subjective bias in interpreting micro-expressions; no audio or other modalities available for cross-validation,False,True,neutral,0.42452830188679247
+sample_00003790.mp4,TAV,sad,worried,78,75,"mixed emotional cues: neutral, worried, and surprise; monotone audio may understate emotion; visual cues include both concern and ambiguous microexpressions",False,True,neutral,0.42452830188679247
+sample_00004940.mp4,T,angry,worried,55,50,brief content; unclear speech,False,False,angry,0.3114754098360656
+sample_00004940.mp4,A,angry,neutral,70,60,contradictory descriptors in description (expressive vs monotone); no actual audio sample provided; limited contextual cues; breathiness may confound emotion interpretation,False,True,angry,0.3114754098360656
+sample_00004940.mp4,V,angry,angry,75,60,dim lighting; slightly occluded view due to other person partly out of frame; unbalanced framing / camera angle,True,False,angry,0.3114754098360656
+sample_00004940.mp4,TAV,angry,angry,85,70,dim lighting; monotone audio; potential mismatch between audio tone and facial expressions,True,False,angry,0.3114754098360656
+sample_00005321.mp4,T,angry,neutral,60,50,brief content; ambiguous meaning; whispered context,False,False,angry,0.4
+sample_00005321.mp4,A,angry,angry,82,70,breathy vocal quality may affect clarity; rapid speech may reduce interpretability,True,False,angry,0.4
+sample_00005321.mp4,V,angry,angry,70,85,slightly turned head away from camera; one other person partially in frame,True,False,angry,0.4
+sample_00005321.mp4,TAV,angry,angry,90,85,,True,False,angry,0.4
+sample_00004407.mp4,T,sad,worried,70,40,garbled transcript with unclear context; no audio-visual cues available; no speaker separation or timestamps; relationship details ambiguous,False,True,worried,0.3841145833333333
+sample_00004407.mp4,A,sad,worried,85,90,,False,True,worried,0.3841145833333333
+sample_00004407.mp4,V,sad,surprise,82,40,ambiguous facial cues with conflicting indicators (surprise and happiness); objective description states inability to determine the scene; limited scene/context information reduces interpretability,False,True,worried,0.3841145833333333
+sample_00004407.mp4,TAV,sad,worried,70,65,limited visual context (visual_objective_description indicates inability to identify the scene); ambiguous facial cues (mixed indicators of worry and surprise),False,True,worried,0.3841145833333333
+sample_00001999.mp4,T,sad,surprise,70,50,short transcript; no audio cues; no visual cues; missing context,False,True,worried,0.3805970149253731
+sample_00001999.mp4,A,sad,sad,85,70,,True,False,worried,0.3805970149253731
+sample_00001999.mp4,V,sad,sad,78,60,eyes are squeezed shut which reduces visibility of eye region; microphone near mouth causes partial occlusion of lower face; tears/glare may affect visibility of facial details,True,False,worried,0.3805970149253731
+sample_00001999.mp4,TAV,sad,sad,92,90,,True,False,worried,0.3805970149253731
+sample_00004943.mp4,T,happy,neutral,95,60,brief content; no visual cues available; no prosodic information captured,False,True,neutral,0.5311827956989247
+sample_00004943.mp4,A,happy,neutral,92,95,,False,True,neutral,0.5311827956989247
+sample_00004943.mp4,V,happy,happy,92,95,,True,False,neutral,0.5311827956989247
+sample_00004943.mp4,TAV,happy,happy,92,82,"mixed cues across modalities (neutral audio, happy visuals)",True,False,neutral,0.5311827956989247
+sample_00002010.mp4,T,surprise,neutral,60,20,no audio data; no visual data; transcript lacks prosody and facial cues; short transcript,False,False,surprise,0.506398537477148
+sample_00002010.mp4,A,surprise,surprise,92,95,,True,False,surprise,0.506398537477148
+sample_00002010.mp4,V,surprise,surprise,70,60,subjectivity in interpretation from description; lack of audio data; no frame-by-frame validation; description-based inference may miss nuance,True,False,surprise,0.506398537477148
+sample_00002010.mp4,TAV,surprise,surprise,90,95,,True,False,surprise,0.506398537477148
+sample_00002603.mp4,T,happy,surprise,70,40,unclear speech; brief content; no audio-visual cues; context unknown,False,True,surprise,0.3619047619047619
+sample_00002603.mp4,A,happy,neutral,95,100,,False,True,surprise,0.3619047619047619
+sample_00002603.mp4,V,happy,happy,60,85,description-based inference without raw video data; possible bias in interpreting facial cues from text; two-person frame may limit attribution of a single emotion,True,False,surprise,0.3619047619047619
+sample_00002603.mp4,TAV,happy,surprise,70,85,,False,True,surprise,0.3619047619047619
+sample_00001646.mp4,T,angry,worried,60,40,brief content; unclear speech,False,False,neutral,0.4260869565217391
+sample_00001646.mp4,A,angry,neutral,90,95,,False,True,neutral,0.4260869565217391
+sample_00001646.mp4,V,angry,worried,70,92,,False,True,neutral,0.4260869565217391
+sample_00001646.mp4,TAV,angry,worried,75,85,unclear transcript content (garbled whisper transcript),False,True,neutral,0.4260869565217391
+sample_00003709.mp4,T,worried,angry,65,60,brief content; unclear speech,False,False,neutral,0.2952029520295203
+sample_00003709.mp4,A,worried,neutral,75,50,"description-based assessment without actual audio data; no visual data provided; lack of corroborating cues (tone, pitch, tempo) in text",False,True,neutral,0.2952029520295203
+sample_00003709.mp4,V,worried,happy,92,95,,False,True,neutral,0.2952029520295203
+sample_00003709.mp4,TAV,worried,neutral,70,60,monotone audio reduces emotional clarity; slight pause at sentence end adds ambiguity; image data not available / unreliable visual cues,False,True,neutral,0.2952029520295203
+sample_00001485.mp4,T,angry,worried,70,50,brief content; ambiguous meaning due to text-only transcript,False,True,neutral,0.29545454545454547
+sample_00001485.mp4,A,angry,neutral,90,95,,False,True,neutral,0.29545454545454547
+sample_00001485.mp4,V,angry,surprise,85,90,,False,True,neutral,0.29545454545454547
+sample_00001485.mp4,TAV,angry,neutral,65,75,transcript fragmentary/unclear content; monotone vocal delivery may obscure emotion cues; close-up framing with lipstick color might influence perceived emotion,False,False,neutral,0.29545454545454547
+sample_00003245.mp4,T,neutral,neutral,85,70,brief content; limited to a single sentence; no nonverbal cues available in T modality,True,False,happy,0.3669724770642202
+sample_00003245.mp4,A,neutral,happy,90,95,,False,True,happy,0.3669724770642202
+sample_00003245.mp4,V,neutral,surprise,70,85,mixed facial cues: brow lowering with smile cues; no audio data provided to corroborate emotion; no frame-level video quality metrics provided,False,True,happy,0.3669724770642202
+sample_00003245.mp4,TAV,neutral,happy,85,85,,False,True,happy,0.3669724770642202
+sample_00004936.mp4,T,neutral,happy,78,65,brief content; ambiguous phrasing in transcription,False,True,happy,0.514018691588785
+sample_00004936.mp4,A,neutral,happy,85,50,no raw audio data provided; only textual description; brief content; subjective interpretation,False,True,happy,0.514018691588785
+sample_00004936.mp4,V,neutral,neutral,70,85,partial visibility of second woman's face (back of head visible); glare on glasses,True,False,happy,0.514018691588785
+sample_00004936.mp4,TAV,neutral,happy,92,85,conflicting cues between facial indicators of surprise and tension and positive audio sentiment; transcript is whispered which may reduce reliability; minor facial movements may introduce ambiguity in emotion classification,False,True,happy,0.514018691588785
+sample_00001682.mp4,T,angry,,0,10,no_transcript_provided,False,False,neutral,0.3626062322946176
+sample_00001682.mp4,A,angry,angry,70,50,no actual audio data provided; only textual description of tone; subjective interpretation of tone,True,False,neutral,0.3626062322946176
+sample_00001682.mp4,V,angry,neutral,78,90,,False,True,neutral,0.3626062322946176
+sample_00001682.mp4,TAV,angry,neutral,50,50,inconsistent gender between audio and visual; ambiguous emotion cues in audio (negative tone not tied to a specific emotion); mixed visual cues suggesting contemplation vs smile,False,False,neutral,0.3626062322946176
+sample_00001133.mp4,T,angry,worried,60,25,no audio/video cues available; text-based transcript only; whisper modality may affect cues; unclear context,False,False,worried,0.3088235294117647
+sample_00001133.mp4,A,angry,angry,75,70,,True,False,worried,0.3088235294117647
+sample_00001133.mp4,V,angry,surprise,85,70,description-based analysis (non-raw video data); conflicting cues: lip corners up and down; partial visibility of other person; no audio,False,True,worried,0.3088235294117647
+sample_00001133.mp4,TAV,angry,angry,85,90,,True,False,worried,0.3088235294117647
+sample_00000832.mp4,T,angry,happy,45,25,unclear transcription; non-sensical/garbled text; possible mixed language; brief content,False,False,neutral,0.3484848484848485
+sample_00000832.mp4,A,angry,neutral,100,100,,False,True,neutral,0.3484848484848485
+sample_00000832.mp4,V,angry,angry,75,60,occlusion_of the male subject's face (cap and jacket); distance framing with active gesture causing potential motion blur; background clutter and domestic setting may introduce noise,True,False,neutral,0.3484848484848485
+sample_00000832.mp4,TAV,angry,neutral,75,92,,False,True,neutral,0.3484848484848485
+sample_00005430.mp4,T,sad,sad,60,40,brief_content; no_acoustic_features; no_visual_context,True,False,neutral,0.4821763602251407
+sample_00005430.mp4,A,sad,neutral,92,85,,False,True,neutral,0.4821763602251407
+sample_00005430.mp4,V,sad,neutral,65,75,conflicting facial action units suggesting both neutral and smiling cues; mixed cues with downcast eyes but lip corner puller and dimpler present; description relies on facial cues without corroborating audio context,False,False,neutral,0.4821763602251407
+sample_00005430.mp4,TAV,sad,neutral,85,70,monotone audio; brief transcript content; ambiguous micro-expressions not clearly aligning with a distinct emotion,False,True,neutral,0.4821763602251407
+sample_00005626.mp4,T,sad,neutral,70,50,brief content; fragmentary sentence; ambiguous meaning; whisper transcription lacks prosodic cues,False,True,worried,0.35618729096989965
+sample_00005626.mp4,A,sad,angry,85,75,,False,True,worried,0.35618729096989965
+sample_00005626.mp4,V,sad,worried,75,85,ambiguous lip cues: slight Lip Corner Puller vs pursed lips; textual description lacks frame-level temporal dynamics; no audio or vocal cues to corroborate emotion,False,True,worried,0.35618729096989965
+sample_00005626.mp4,TAV,sad,worried,78,92,,False,True,worried,0.35618729096989965
+sample_00001454.mp4,T,neutral,angry,65,40,low volume/whisper likely reducing acoustic clarity; short utterance with limited contextual cues; no supplementary visual information available,False,False,surprise,0.273371104815864
+sample_00001454.mp4,A,neutral,neutral,65,95,,True,False,surprise,0.273371104815864
+sample_00001454.mp4,V,neutral,surprise,85,75,ambiguous cues; single frame; mixed facial cues,False,True,surprise,0.273371104815864
+sample_00001454.mp4,TAV,neutral,worried,78,70,mixed micro-expressions indicating multiple concurrent cues; short whispered transcript provides limited linguistic context; visual context shows seriousness which may bias interpretation,False,True,surprise,0.273371104815864
+sample_00006298.mp4,T,sad,sad,60,50,unclear sentence structure; short content; lack of audio/prosody cues,True,False,surprise,0.34951456310679613
+sample_00006298.mp4,A,sad,"{
+  ""emotions"": [
+    {
+      ""emotion"": ""surprise"",
+      ""confidence"": 85
+    }
+  ],
+  ""primary_emotion"": ""surprise"",
+  ""primary_confidence"": 85,
+  ""data_quality"": {
+    ""score"": 60,
+    ""issues"": [
+      ""description depends on subjective interpretation without raw audio for verification"",
+      ""contradictory descriptors in the description (expressive vs monotone)""
+    ],
+    ""reasoning"": ""audio cues are inferred from textual description; lack of actual audio data reduces reliability, though the noted pitch/titch shift supports surprise.""
+  },
+  ""reasoning"": ""the description highlights a tone/pitch change at 2.37 seconds suggesting surprise; no other clear emotional cues are provided.)
+}",50,30,parsing_error,False,False,surprise,0.34951456310679613
+sample_00006298.mp4,V,sad,surprise,85,85,,False,True,surprise,0.34951456310679613
+sample_00006298.mp4,TAV,sad,surprise,90,85,,False,True,surprise,0.34951456310679613
+sample_00006717.mp4,T,happy,sad,60,50,brief_content; ambiguous_context,False,False,happy,0.4098360655737705
+sample_00006717.mp4,A,happy,surprise,92,95,,False,True,happy,0.4098360655737705
+sample_00006717.mp4,V,happy,happy,92,90,,True,False,happy,0.4098360655737705
+sample_00006717.mp4,TAV,happy,happy,88,92,,True,False,happy,0.4098360655737705
+sample_00003652.mp4,T,worried,neutral,75,30,unclear speech; very brief content; whispered/low-volume transcript,False,True,neutral,0.4197761194029851
+sample_00003652.mp4,A,worried,neutral,90,95,,False,True,neutral,0.4197761194029851
+sample_00003652.mp4,V,worried,worried,85,85,overlay text on frame ('妈') may obscure part of the mouth area,True,False,neutral,0.4197761194029851
+sample_00003652.mp4,TAV,worried,worried,88,92,,True,False,neutral,0.4197761194029851
+sample_00006500.mp4,T,sad,neutral,75,50,unclear speech; garbled transcript; multilingual mix; brief content,False,True,happy,0.2704507512520868
+sample_00006500.mp4,A,sad,angry,78,85,no raw audio waveform provided; analysis based on descriptive text; no direct visual cues; only vocal characteristics described; breathiness and tension described subjectively,False,True,happy,0.2704507512520868
+sample_00006500.mp4,V,sad,surprise,85,90,,False,True,happy,0.2704507512520868
+sample_00006500.mp4,TAV,sad,happy,82,90,,False,True,happy,0.2704507512520868
+sample_00004288.mp4,T,worried,neutral,95,40,brief content; no audio or visual cues; unable to assess prosody or facial expressions,False,True,worried,0.37894736842105264
+sample_00004288.mp4,A,worried,neutral,65,85,,False,False,worried,0.37894736842105264
+sample_00004288.mp4,V,worried,worried,78,80,motion in frame (vehicle in motion); outdoor scenery blur/glare through car window; variable interior lighting,True,False,worried,0.37894736842105264
+sample_00004288.mp4,TAV,worried,worried,72,85,motion in video due to car movement affecting facial cue clarity; audio described as monotone which may reduce perceived emotional intensity,True,False,worried,0.37894736842105264
+sample_00005828.mp4,T,surprise,neutral,60,10,unclear transcript; brief content; possible non-speech utterance,False,False,neutral,0.5137614678899083
+sample_00005828.mp4,A,surprise,neutral,95,90,,False,True,neutral,0.5137614678899083
+sample_00005828.mp4,V,surprise,worried,65,85,single_frame; no audio; limited temporal context,False,False,neutral,0.5137614678899083
+sample_00005828.mp4,TAV,surprise,neutral,70,92,,False,True,neutral,0.5137614678899083
+sample_00001667.mp4,T,happy,neutral,85,50,unclear speech due to whisper; brief content,False,True,neutral,0.4727272727272727
+sample_00001667.mp4,A,happy,neutral,90,70,contradictory cues: described as both expressive and monotone,False,True,neutral,0.4727272727272727
+sample_00001667.mp4,V,happy,surprise,75,65,"mixed facial cues (brow lowerer, nose wrinkler, lip depressor) conflicting with open mouth and wide eyes; single-frame description lacks temporal context; outdoor setting may introduce lighting/shadow ambiguities",False,True,neutral,0.4727272727272727
+sample_00001667.mp4,TAV,happy,neutral,85,60,conflicting cues between audio (neutral) and visual (engaged/intense) signals; whisper-transcript may reduce transcription reliability; outdoor scene with potential lighting and background variation,False,True,neutral,0.4727272727272727
+sample_00000143.mp4,T,angry,neutral,70,55,unclear speech; brief content; mixed language,False,True,neutral,0.3543307086614173
+sample_00000143.mp4,A,angry,neutral,95,95,,False,True,neutral,0.3543307086614173
+sample_00000143.mp4,V,angry,worried,70,60,eyes closed / limited gaze; glasses reflections obscure eye area; mid-speech context may bias emotion assessment,False,True,neutral,0.3543307086614173
+sample_00000143.mp4,TAV,angry,surprise,70,85,,False,True,neutral,0.3543307086614173
+sample_00006903.mp4,T,happy,neutral,65,50,brief content; incomplete sentence,False,False,happy,0.36721991701244816
+sample_00006903.mp4,A,happy,neutral,90,95,,False,True,happy,0.36721991701244816
+sample_00006903.mp4,V,happy,happy,92,90,,True,False,happy,0.36721991701244816
+sample_00006903.mp4,TAV,happy,happy,85,70,brief content; unclear speech,True,False,happy,0.36721991701244816
+sample_00005576.mp4,T,neutral,neutral,75,50,unclear speech; brief content,True,False,neutral,0.4
+sample_00005576.mp4,A,neutral,neutral,85,70,brief content,True,False,neutral,0.4
+sample_00005576.mp4,V,neutral,surprise,72,78,ambiguous expression due to mixed facial cues; mid-conversation mouth movement may confound emotion signals,False,True,neutral,0.4
+sample_00005576.mp4,TAV,neutral,surprise,85,85,,False,True,neutral,0.4
+sample_00002972.mp4,T,surprise,neutral,70,50,brief content; unclear speech,False,True,neutral,0.3629032258064516
+sample_00002972.mp4,A,surprise,neutral,85,100,,False,True,neutral,0.3629032258064516
+sample_00002972.mp4,V,surprise,surprise,70,40,description-based inference (no direct video data); ambiguous cues with conflicting indicators (interplay of surprised and happy signals); possible subtleties in lighting affecting perception,True,False,neutral,0.3629032258064516
+sample_00002972.mp4,TAV,surprise,surprise,70,85,brief content,True,False,neutral,0.3629032258064516
+sample_00002806.mp4,T,worried,angry,75,40,whispered speech; short content; unclear pronunciation,False,True,happy,0.3275563258232236
+sample_00002806.mp4,A,worried,angry,85,90,,False,True,happy,0.3275563258232236
+sample_00002806.mp4,V,worried,happy,92,92,,False,True,happy,0.3275563258232236
+sample_00002806.mp4,TAV,worried,happy,92,60,conflicting cues between audio negativity and visual positivity,False,True,happy,0.3275563258232236
+sample_00000754.mp4,T,sad,neutral,65,40,whispered speech; short content; unclear acoustic cues,False,False,worried,0.34579439252336447
+sample_00000754.mp4,A,sad,neutral,70,85,conflicting descriptors: 'expressive' vs 'monotone'; ambiguous emotional cue given enthusiastic elements alongside professional tone,False,True,worried,0.34579439252336447
+sample_00000754.mp4,V,sad,worried,85,60,dim lighting; profile view (not full frontal),False,True,worried,0.34579439252336447
+sample_00000754.mp4,TAV,sad,worried,85,65,dim lighting; close-up profile framing limits facial cue visibility; foreign-language subtitles may distract context,False,True,worried,0.34579439252336447
+sample_00005573.mp4,T,worried,neutral,10,10,empty transcript; no audio data provided,False,False,neutral,0.6363636363636364
+sample_00005573.mp4,A,worried,neutral,90,70,,False,True,neutral,0.6363636363636364
+sample_00005573.mp4,V,worried,neutral,60,60,conflicting facial action units (lip corner puller vs. lip corner depressor) leading to mixed cues; nose wrinkle present suggesting disgust conflicting with contemplative demeanor; single-frame description without temporal context; potential ambiguity due to limited lighting or resolution details not specified,False,False,neutral,0.6363636363636364
+sample_00005573.mp4,TAV,worried,neutral,85,65,monotone audio reducing vocal emotion cues; ambiguous facial cues (downcast eyes with mixed mouth indicators),False,True,neutral,0.6363636363636364
+sample_00002787.mp4,T,happy,neutral,85,50,unclear speech; brief content,False,True,happy,0.7683923705722071
+sample_00002787.mp4,A,happy,happy,95,95,,True,False,happy,0.7683923705722071
+sample_00002787.mp4,V,happy,happy,95,90,,True,False,happy,0.7683923705722071
+sample_00002787.mp4,TAV,happy,happy,92,90,,True,False,happy,0.7683923705722071
+sample_00006939.mp4,T,surprise,neutral,85,40,no audio data provided (only transcript); brief content; insufficient context for emotion inference,False,True,neutral,0.6742268041237114
+sample_00006939.mp4,A,surprise,neutral,92,95,,False,True,neutral,0.6742268041237114
+sample_00006939.mp4,V,surprise,neutral,65,60,subtle/mixed micro-expressions; downward gaze / contemplative pose limits inference; no audio context; single-frame or limited temporal data,False,False,neutral,0.6742268041237114
+sample_00006939.mp4,TAV,surprise,neutral,85,90,,False,True,neutral,0.6742268041237114
+sample_00005217.mp4,T,neutral,neutral,60,40,brief content; incomplete sentence; no visual or audio cues beyond transcription,True,False,neutral,0.4444444444444444
+sample_00005217.mp4,A,neutral,neutral,92,90,contradictory descriptors in description (expressive vs monotone),True,False,neutral,0.4444444444444444
+sample_00005217.mp4,V,neutral,surprise,75,85,description-based evaluation rather than frame-level data; presence of subtitles may obscure mouth movements slightly; outdoor lighting and motion could affect cue accuracy,False,True,neutral,0.4444444444444444
+sample_00005217.mp4,TAV,neutral,surprise,75,85,brief content,False,True,neutral,0.4444444444444444
+sample_00004726.mp4,T,sad,sad,75,50,brief content,True,False,worried,0.4489795918367347
+sample_00004726.mp4,A,sad,neutral,65,90,,False,False,worried,0.4489795918367347
+sample_00004726.mp4,V,sad,worried,85,60,poor lighting,False,True,worried,0.4489795918367347
+sample_00004726.mp4,TAV,sad,worried,85,85,dim lighting,False,True,worried,0.4489795918367347
+sample_00001837.mp4,T,sad,neutral,28,20,noise in audio; unclear speech; incoherent content,False,False,neutral,0.3015075376884422
+sample_00001837.mp4,A,sad,neutral,92,95,,False,True,neutral,0.3015075376884422
+sample_00001837.mp4,V,sad,worried,75,70,ambiguous facial cues with conflicting signals; no audio context; frame-level analysis only,False,True,neutral,0.3015075376884422
+sample_00001837.mp4,TAV,sad,worried,70,60,"multimodal inconsistency between visual distress and audio neutral; garbled whisper transcript content with non-sense text; facial action cues show mixed signals (e.g., brow lowering, lip tension, smile cues) complicating sole emotion assignment",False,True,neutral,0.3015075376884422
+sample_00006816.mp4,T,worried,neutral,88,95,,False,True,neutral,0.5463320463320464
+sample_00006816.mp4,A,worried,neutral,95,100,,False,True,neutral,0.5463320463320464
+sample_00006816.mp4,V,worried,happy,80,90,,False,True,neutral,0.5463320463320464
+sample_00006816.mp4,TAV,worried,neutral,85,90,,False,True,neutral,0.5463320463320464
+sample_00005474.mp4,T,happy,surprise,70,40,brief content; lack of audiovisual cues,False,True,happy,0.6119133574007221
+sample_00005474.mp4,A,happy,happy,90,95,,True,False,happy,0.6119133574007221
+sample_00005474.mp4,V,happy,happy,92,95,,True,False,happy,0.6119133574007221
+sample_00005474.mp4,TAV,happy,happy,92,95,,True,False,happy,0.6119133574007221
+sample_00002680.mp4,T,angry,neutral,85,60,brief content,False,True,neutral,0.3125
+sample_00002680.mp4,A,angry,happy,85,95,,False,True,neutral,0.3125
+sample_00002680.mp4,V,angry,angry,70,85,partial visibility of one person in frame; outdoor lighting variability; motion blur risk due to gesturing,True,False,neutral,0.3125
+sample_00002680.mp4,TAV,angry,worried,70,90,,False,True,neutral,0.3125
+sample_00004145.mp4,T,neutral,sad,70,50,no audio/visual cues; brief content,False,True,neutral,0.2608695652173913
+sample_00004145.mp4,A,neutral,neutral,85,95,,True,False,neutral,0.2608695652173913
+sample_00004145.mp4,V,neutral,surprise,90,85,slightly off-center frame; slight head pose to the side,False,True,neutral,0.2608695652173913
+sample_00004145.mp4,TAV,neutral,surprise,75,90,,False,True,neutral,0.2608695652173913
+sample_00002118.mp4,T,neutral,neutral,80,85,brief content; text-only transcript limits multimodal cues,True,False,neutral,0.5598290598290598
+sample_00002118.mp4,A,neutral,neutral,80,70,contradictory descriptors: 'expressive' vs 'monotone',True,False,neutral,0.5598290598290598
+sample_00002118.mp4,V,neutral,neutral,60,90,,True,False,neutral,0.5598290598290598
+sample_00002118.mp4,TAV,neutral,neutral,42,60,mixed micro-expressions with conflicting cues; monotone audio reduces arousal cues; short transcript/context limits disambiguation,True,False,neutral,0.5598290598290598
+sample_00003028.mp4,T,surprise,neutral,75,70,brief content; text-only transcript; no audio or facial cues,False,True,neutral,0.7
+sample_00003028.mp4,A,surprise,neutral,92,90,,False,True,neutral,0.7
+sample_00003028.mp4,V,surprise,surprise,90,90,,True,False,neutral,0.7
+sample_00003028.mp4,TAV,surprise,neutral,78,70,low-intensity facial cues (barely detected expressions); monotone audio with slight pitch rise at end; transcript provides limited emotional context,False,True,neutral,0.7
+sample_00005897.mp4,T,angry,neutral,65,50,unclear speech; brief content,False,False,surprise,0.32342657342657344
+sample_00005897.mp4,A,angry,angry,75,85,,True,False,surprise,0.32342657342657344
+sample_00005897.mp4,V,angry,happy,65,85,occlusion from hand/pen while gesturing; partial presence of another person in frame causing potential distraction; moderate lighting may obscure subtle cues,False,False,surprise,0.32342657342657344
+sample_00005897.mp4,TAV,angry,surprise,60,85,brief_content,False,False,surprise,0.32342657342657344
+sample_00005277.mp4,T,neutral,neutral,65,40,ungrammatical/transcription errors; whispered speech; ambiguous content; lack of contextual cues,True,False,neutral,0.6201232032854209
+sample_00005277.mp4,A,neutral,neutral,92,95,,True,False,neutral,0.6201232032854209
+sample_00005277.mp4,V,neutral,neutral,60,92,,True,False,neutral,0.6201232032854209
+sample_00005277.mp4,TAV,neutral,neutral,85,70,"garbled transcript content affecting interpretation; monotone vocal delivery reduces detectable emotional variance; subtle visual cues (brow tension, lid tightener) not strongly supported by the calm objective scene",True,False,neutral,0.6201232032854209
+sample_00003773.mp4,T,surprise,neutral,70,50,whisper_audio; ambiguous_short_content,False,True,happy,0.5954356846473029
+sample_00003773.mp4,A,surprise,happy,95,95,,False,True,happy,0.5954356846473029
+sample_00003773.mp4,V,surprise,surprise,85,78,ambiguous/mixed cues between happy and surprised expressions,True,False,happy,0.5954356846473029
+sample_00003773.mp4,TAV,surprise,happy,92,88,,False,True,happy,0.5954356846473029
+sample_00005062.mp4,T,happy,happy,75,55,brief content; unclear speech,True,False,happy,0.5674740484429066
+sample_00005062.mp4,A,happy,happy,90,95,,True,False,happy,0.5674740484429066
+sample_00005062.mp4,V,happy,happy,78,92,,True,False,happy,0.5674740484429066
+sample_00005062.mp4,TAV,happy,happy,85,90,,True,False,happy,0.5674740484429066
+sample_00006422.mp4,T,surprise,surprise,65,50,transcript-only data with no visual cues; no audio prosody available; ambiguous context,True,False,neutral,0.3761467889908257
+sample_00006422.mp4,A,surprise,neutral,85,90,,False,True,neutral,0.3761467889908257
+sample_00006422.mp4,V,surprise,surprise,85,75,text overlay near lower frame potentially occluding mouth; single frame context; no temporal information; mixed cues (surprise vs worried) introduce ambiguity,True,False,neutral,0.3761467889908257
+sample_00006422.mp4,TAV,surprise,neutral,70,65,monotone voice reduces emotional cues; ambiguous strength of facial cues; single-frame observation,False,True,neutral,0.3761467889908257

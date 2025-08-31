@@ -1,0 +1,259 @@
+=== DISCUSSION FOR sample_00002885.mp4 (Ground Truth: surprise) ===
+Timestamp: 2025-08-29 10:13:39
+
+PHASE 1: AGENT INTRODUCTIONS
+--------------------------------------------------
+I am the Text agent. I detected 'neutral' with 70% confidence. My data quality score is 60/100 with issues: brief content, unclear emotional cues in text-only input. My reasoning: Neutral emotion is most probable given the text; some doubt and worry could be inferred but cannot be confirmed without T modality signals.
+I am the Audio agent. I detected 'happy' with 92% confidence. My data quality score is 100/100 with issues: none. My reasoning: The speaker's description indicates genuine happiness and enthusiasm, with clear articulation and expressive intonation.
+I am the Visual agent. I detected 'surprise' with 80% confidence. My data quality score is 75/100 with issues: partial visibility of second person. My reasoning: The described micro-expressions include jaw drop and lips part (typical of surprise) along with lip corner pulling (associated with a smile). The combination suggests primary surprise with secondary happiness. The setting appears professional, with two individuals engaged in conversation, which supports a contextual basis for these emotions. Data quality is decent but limited by partial visibility of one subject.
+I am the Multimodal agent. I detected 'happy' with 92% confidence. My data quality score is 85/100 with issues: partial visibility of the right subject (back/side angle), two-person frame may complicate attribution of facial expressions. My reasoning: Audio suggests strong happiness and excitement; visual cues (lip corner puller, chin raise, dimpler) align with happiness, with a mild jaw drop indicating some surprise. Data quality is good but limited by partial visibility and two-person framing.
+
+PHASE 2: CONFIDENCE DISCUSSION
+--------------------------------------------------
+As Text, I have high confidence in my prediction of 'neutral'. Other agents found: Audio: happy (92%); Visual: surprise (80%); Multimodal: happy (92%). My data quality of 60/100 supports my confidence level.
+As Audio, I have very high confidence in my prediction of 'happy'. Other agents found: Text: neutral (70%); Visual: surprise (80%); Multimodal: happy (92%). My data quality of 100/100 supports my confidence level.
+As Visual, I have very high confidence in my prediction of 'surprise'. Other agents found: Text: neutral (70%); Audio: happy (92%); Multimodal: happy (92%). My data quality of 75/100 supports my confidence level.
+As Multimodal, I have very high confidence in my prediction of 'happy'. Other agents found: Text: neutral (70%); Audio: happy (92%); Visual: surprise (80%). My data quality of 85/100 supports my confidence level.
+
+PHASE 3: DATA QUALITY ASSESSMENT
+--------------------------------------------------
+My data quality is good (60/100). These issues may affect my reliability.
+My data quality is excellent (100/100). No significant issues detected.
+My data quality is good (75/100). These issues may affect my reliability.
+My data quality is excellent (85/100). These issues may affect my reliability.
+
+PHASE 4: DISAGREEMENT RESOLUTION
+--------------------------------------------------
+I acknowledge Audio's stronger position. Their higher confidence and data quality suggest 'happy' may be correct, though I still see evidence for 'neutral'.
+I disagree with Text. My higher confidence (92% vs 70%) and better data quality (100 vs 60) suggest 'happy' is more likely.
+There's a disagreement with Visual. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Text. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+I acknowledge Multimodal's stronger position. Their higher confidence and data quality suggest 'happy' may be correct, though I still see evidence for 'neutral'.
+I disagree with Text. My higher confidence (92% vs 70%) and better data quality (85 vs 60) suggest 'happy' is more likely.
+There's a disagreement with Visual. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Audio. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Multimodal. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Visual. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+
+PHASE 5: CONSENSUS BUILDING
+--------------------------------------------------
+Based on our discussion, I propose consensus on 'happy' as it's both most common (2 agents) and highest weighted (1.70).
+Based on our discussion, I propose consensus on 'happy' as it's both most common (2 agents) and highest weighted (1.70).
+Based on our discussion, I propose consensus on 'happy' as it's both most common (2 agents) and highest weighted (1.70).
+Based on our discussion, I propose consensus on 'happy' as it's both most common (2 agents) and highest weighted (1.70).
+
+PHASE 6: FINAL CONCLUSION
+--------------------------------------------------
+FINAL CONSENSUS: 'happy' with 42.5% confidence
+Ground Truth: 'surprise'
+Consensus Correct: False
+
+
+================================================================================
+
+=== DISCUSSION FOR sample_00000705.mp4 (Ground Truth: neutral) ===
+Timestamp: 2025-08-29 10:13:39
+
+PHASE 1: AGENT INTRODUCTIONS
+--------------------------------------------------
+I am the Text agent. I detected 'angry' with 80% confidence. My data quality score is 40/100 with issues: text-only transcript, no audio/visual cues, unclear context. My reasoning: Based on the provided transcript, the most plausible emotion is anger/frustration. However, without facial expressions, voice tone, or broader context, confidence is limited.
+I am the Audio agent. I detected 'happy' with 92% confidence. My data quality score is 95/100 with issues: none. My reasoning: The description indicates the speaker's vocal delivery is expressive, natural, and relaxed, with overall implication of happiness; no competing emotions are suggested.
+I am the Visual agent. I detected 'surprise' with 92% confidence. My data quality score is 90/100 with issues: none. My reasoning: The subject displays raised eyebrows, wide eyes, and an open mouth consistent with surprise; other cues are ambiguous or secondary and do not clearly indicate alternative emotions.
+I am the Multimodal agent. I detected 'happy' with 90% confidence. My data quality score is 90/100 with issues: none. My reasoning: Audio indicates happiness; visual cues show excitement and surprise (open mouth, raised eyebrows, jaw drop). Primary emotion inferred as happy with secondary surprise.
+
+PHASE 2: CONFIDENCE DISCUSSION
+--------------------------------------------------
+As Text, I have very high confidence in my prediction of 'angry'. Other agents found: Audio: happy (92%); Visual: surprise (92%); Multimodal: happy (90%). My data quality of 40/100 supports my confidence level.
+As Audio, I have very high confidence in my prediction of 'happy'. Other agents found: Text: angry (80%); Visual: surprise (92%); Multimodal: happy (90%). My data quality of 95/100 supports my confidence level.
+As Visual, I have very high confidence in my prediction of 'surprise'. Other agents found: Text: angry (80%); Audio: happy (92%); Multimodal: happy (90%). My data quality of 90/100 supports my confidence level.
+As Multimodal, I have very high confidence in my prediction of 'happy'. Other agents found: Text: angry (80%); Audio: happy (92%); Visual: surprise (92%). My data quality of 90/100 supports my confidence level.
+
+PHASE 3: DATA QUALITY ASSESSMENT
+--------------------------------------------------
+My data quality is fair (40/100). These issues may affect my reliability.
+My data quality is excellent (95/100). No significant issues detected.
+My data quality is excellent (90/100). No significant issues detected.
+My data quality is excellent (90/100). No significant issues detected.
+
+PHASE 4: DISAGREEMENT RESOLUTION
+--------------------------------------------------
+There's a disagreement with Audio. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Text. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Visual. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Text. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Multimodal. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Text. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Visual. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Audio. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Multimodal. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Visual. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+
+PHASE 5: CONSENSUS BUILDING
+--------------------------------------------------
+Based on our discussion, I propose consensus on 'happy' as it's both most common (2 agents) and highest weighted (1.68).
+Based on our discussion, I propose consensus on 'happy' as it's both most common (2 agents) and highest weighted (1.68).
+Based on our discussion, I propose consensus on 'happy' as it's both most common (2 agents) and highest weighted (1.68).
+Based on our discussion, I propose consensus on 'happy' as it's both most common (2 agents) and highest weighted (1.68).
+
+PHASE 6: FINAL CONCLUSION
+--------------------------------------------------
+FINAL CONSENSUS: 'happy' with 42.1% confidence
+Ground Truth: 'neutral'
+Consensus Correct: False
+
+
+================================================================================
+
+=== DISCUSSION FOR sample_00004007.mp4 (Ground Truth: surprise) ===
+Timestamp: 2025-08-29 10:13:39
+
+PHASE 1: AGENT INTRODUCTIONS
+--------------------------------------------------
+I am the Text agent. I detected 'angry' with 65% confidence. My data quality score is 40/100 with issues: unclear speech, low volume/whisper, brief content. My reasoning: From the whisper transcript 'Come on. You're committing on education. Come on, come on.' The phrase suggests impatience or frustration, favoring angry, with possible worried or neutral as secondary cues. The data quality is limited due to brief content and whispered speech.
+I am the Audio agent. I detected 'happy' with 95% confidence. My data quality score is 95/100 with issues: none. My reasoning: The positive, energetic vocal delivery points to the happy emotion with high confidence; there are no cues suggesting uncertainty or negative affect.
+I am the Visual agent. I detected 'happy' with 70% confidence. My data quality score is 60/100 with issues: inferred emotions from descriptive text rather than frame data, no raw frame-level data or audio for corroboration, description may mix cues of curiosity and engagement with emotion. My reasoning: Textual cues (lip corner puller, dimpler, and lip movements) suggest a mild positive affect, with curiosity indicated by eyebrow raise and forward lean. Primary cue set points to happiness; additional cues allow for secondary possibilities such as surprise and neutrality.
+I am the Multimodal agent. I detected 'happy' with 85% confidence. My data quality score is 85/100 with issues: dim lighting. My reasoning: The subject displays positive vocal tone and facial indicators of happiness (smiling cues) with engaged, curious gaze. The context suggests an energetic, warm interaction; some subtle cues align with neutral and mild surprise but overall positive emotion dominates.
+
+PHASE 2: CONFIDENCE DISCUSSION
+--------------------------------------------------
+As Text, I have high confidence in my prediction of 'angry'. Other agents found: Audio: happy (95%); Visual: happy (70%); Multimodal: happy (85%). My data quality of 40/100 supports my confidence level.
+As Audio, I have very high confidence in my prediction of 'happy'. Other agents found: Text: angry (65%); Visual: happy (70%); Multimodal: happy (85%). My data quality of 95/100 supports my confidence level.
+As Visual, I have high confidence in my prediction of 'happy'. Other agents found: Text: angry (65%); Audio: happy (95%); Multimodal: happy (85%). My data quality of 60/100 supports my confidence level.
+As Multimodal, I have very high confidence in my prediction of 'happy'. Other agents found: Text: angry (65%); Audio: happy (95%); Visual: happy (70%). My data quality of 85/100 supports my confidence level.
+
+PHASE 3: DATA QUALITY ASSESSMENT
+--------------------------------------------------
+My data quality is fair (40/100). These issues may affect my reliability.
+My data quality is excellent (95/100). No significant issues detected.
+My data quality is good (60/100). These issues may affect my reliability.
+My data quality is excellent (85/100). These issues may affect my reliability.
+
+PHASE 4: DISAGREEMENT RESOLUTION
+--------------------------------------------------
+I acknowledge Audio's stronger position. Their higher confidence and data quality suggest 'happy' may be correct, though I still see evidence for 'angry'.
+I disagree with Text. My higher confidence (95% vs 65%) and better data quality (95 vs 40) suggest 'happy' is more likely.
+There's a disagreement with Visual. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Text. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Multimodal. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Text. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+
+PHASE 5: CONSENSUS BUILDING
+--------------------------------------------------
+Based on our discussion, I propose consensus on 'happy' as it's both most common (3 agents) and highest weighted (2.04).
+Based on our discussion, I propose consensus on 'happy' as it's both most common (3 agents) and highest weighted (2.04).
+Based on our discussion, I propose consensus on 'happy' as it's both most common (3 agents) and highest weighted (2.04).
+Based on our discussion, I propose consensus on 'happy' as it's both most common (3 agents) and highest weighted (2.04).
+
+PHASE 6: FINAL CONCLUSION
+--------------------------------------------------
+FINAL CONSENSUS: 'happy' with 51.1% confidence
+Ground Truth: 'surprise'
+Consensus Correct: False
+
+
+================================================================================
+
+=== DISCUSSION FOR sample_00001631.mp4 (Ground Truth: surprise) ===
+Timestamp: 2025-08-29 10:13:39
+
+PHASE 1: AGENT INTRODUCTIONS
+--------------------------------------------------
+I am the Text agent. I detected 'neutral' with 60% confidence. My data quality score is 40/100 with issues: brief content. My reasoning: Text alone does not provide strong emotion signals; the statement appears neutral. Data quality is modest due to brevity and lack of additional cues.
+I am the Audio agent. I detected 'neutral' with 100% confidence. My data quality score is 100/100 with issues: none. My reasoning: The audio sample depicts a man speaking with a natural, clear voice, normal pace, and no hesitations, which aligns with a neutral emotional state. No cues for other emotions are evident.
+I am the Visual agent. I detected 'surprise' with 90% confidence. My data quality score is 85/100 with issues: slightly blurred background, background indistinct due to depth of field. My reasoning: The description emphasizes widened eyes and a slightly open mouth with chin up, indicating surprise or disbelief. Other cues like brows and lip movements are ambiguous or mild, but do not strongly indicate alternative emotions.
+I am the Multimodal agent. I detected 'surprise' with 95% confidence. My data quality score is 90/100 with issues: none. My reasoning: Visual indicators such as jaw drop, widened eyes, and slightly parted lips point to surprise, with minor brow movements suggesting some concern. Overall, the dominant emotion is surprise.
+
+PHASE 2: CONFIDENCE DISCUSSION
+--------------------------------------------------
+As Text, I have high confidence in my prediction of 'neutral'. Other agents found: Audio: neutral (100%); Visual: surprise (90%); Multimodal: surprise (95%). My data quality of 40/100 supports my confidence level.
+As Audio, I have very high confidence in my prediction of 'neutral'. Other agents found: Text: neutral (60%); Visual: surprise (90%); Multimodal: surprise (95%). My data quality of 100/100 supports my confidence level.
+As Visual, I have very high confidence in my prediction of 'surprise'. Other agents found: Text: neutral (60%); Audio: neutral (100%); Multimodal: surprise (95%). My data quality of 85/100 supports my confidence level.
+As Multimodal, I have very high confidence in my prediction of 'surprise'. Other agents found: Text: neutral (60%); Audio: neutral (100%); Visual: surprise (90%). My data quality of 90/100 supports my confidence level.
+
+PHASE 3: DATA QUALITY ASSESSMENT
+--------------------------------------------------
+My data quality is fair (40/100). These issues may affect my reliability.
+My data quality is excellent (100/100). No significant issues detected.
+My data quality is excellent (85/100). These issues may affect my reliability.
+My data quality is excellent (90/100). No significant issues detected.
+
+PHASE 4: DISAGREEMENT RESOLUTION
+--------------------------------------------------
+I acknowledge Visual's stronger position. Their higher confidence and data quality suggest 'surprise' may be correct, though I still see evidence for 'neutral'.
+I disagree with Text. My higher confidence (90% vs 60%) and better data quality (85 vs 40) suggest 'surprise' is more likely.
+I acknowledge Multimodal's stronger position. Their higher confidence and data quality suggest 'surprise' may be correct, though I still see evidence for 'neutral'.
+I disagree with Text. My higher confidence (95% vs 60%) and better data quality (90 vs 40) suggest 'surprise' is more likely.
+There's a disagreement with Visual. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Audio. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Multimodal. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Audio. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+
+PHASE 5: CONSENSUS BUILDING
+--------------------------------------------------
+I see conflicting signals: 'neutral' is most common but 'surprise' has highest weighted score. We need further discussion.
+I see conflicting signals: 'neutral' is most common but 'surprise' has highest weighted score. We need further discussion.
+I see conflicting signals: 'neutral' is most common but 'surprise' has highest weighted score. We need further discussion.
+I see conflicting signals: 'neutral' is most common but 'surprise' has highest weighted score. We need further discussion.
+
+PHASE 6: FINAL CONCLUSION
+--------------------------------------------------
+FINAL CONSENSUS: 'surprise' with 40.5% confidence
+Ground Truth: 'surprise'
+Consensus Correct: True
+
+
+================================================================================
+
+=== DISCUSSION FOR sample_00005443.mp4 (Ground Truth: happy) ===
+Timestamp: 2025-08-29 10:13:39
+
+PHASE 1: AGENT INTRODUCTIONS
+--------------------------------------------------
+I am the Text agent. I detected '' with 0% confidence. My data quality score is 10/100 with issues: no transcript provided, no audio data. My reasoning: Input data is empty; without transcript or audio cues, no emotion(s) can be inferred.
+I am the Audio agent. I detected 'surprise' with 92% confidence. My data quality score is 95/100 with issues: none. My reasoning: The description explicitly indicates surprise as the inferred emotion, supported by rising intonation at the end and lack of speech problems; overall audio quality is clear.
+I am the Visual agent. I detected 'happy' with 75% confidence. My data quality score is 60/100 with issues: inconsistent facial action descriptors (brow lowering vs raised eyebrows described in narrative), some cues indicate amusement while others suggest concentration or mild surprise, background is unfocused which may affect precise facial cue interpretation. My reasoning: The subject exhibits clear smile cues suggesting happiness, with additional cues that could indicate surprise or mild concern; due to conflicting cues and background blur, the interpretation remains cautious.
+I am the Multimodal agent. I detected 'surprise' with 90% confidence. My data quality score is 90/100 with issues: none. My reasoning: The audio description points to surprise. Visual cues show a combination of a faint smile (happiness) and features associated with surprise (jaw drop, lips parted). The overall interpretation is surprise as the primary emotion with secondary happiness.
+
+PHASE 2: CONFIDENCE DISCUSSION
+--------------------------------------------------
+As Text, I have low confidence in my prediction of ''. Other agents found: Audio: surprise (92%); Visual: happy (75%); Multimodal: surprise (90%). My data quality of 10/100 supports my confidence level.
+As Audio, I have very high confidence in my prediction of 'surprise'. Other agents found: Text:  (0%); Visual: happy (75%); Multimodal: surprise (90%). My data quality of 95/100 supports my confidence level.
+As Visual, I have high confidence in my prediction of 'happy'. Other agents found: Text:  (0%); Audio: surprise (92%); Multimodal: surprise (90%). My data quality of 60/100 supports my confidence level.
+As Multimodal, I have very high confidence in my prediction of 'surprise'. Other agents found: Text:  (0%); Audio: surprise (92%); Visual: happy (75%). My data quality of 90/100 supports my confidence level.
+
+PHASE 3: DATA QUALITY ASSESSMENT
+--------------------------------------------------
+My data quality is poor (10/100). These issues may affect my reliability.
+My data quality is excellent (95/100). No significant issues detected.
+My data quality is good (60/100). These issues may affect my reliability.
+My data quality is excellent (90/100). No significant issues detected.
+
+PHASE 4: DISAGREEMENT RESOLUTION
+--------------------------------------------------
+I acknowledge Audio's stronger position. Their higher confidence and data quality suggest 'surprise' may be correct, though I still see evidence for ''.
+I disagree with Text. My higher confidence (92% vs 0%) and better data quality (95 vs 10) suggest 'surprise' is more likely.
+I acknowledge Visual's stronger position. Their higher confidence and data quality suggest 'happy' may be correct, though I still see evidence for ''.
+I disagree with Text. My higher confidence (75% vs 0%) and better data quality (60 vs 10) suggest 'happy' is more likely.
+I acknowledge Multimodal's stronger position. Their higher confidence and data quality suggest 'surprise' may be correct, though I still see evidence for ''.
+I disagree with Text. My higher confidence (90% vs 0%) and better data quality (90 vs 10) suggest 'surprise' is more likely.
+There's a disagreement with Visual. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Audio. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Multimodal. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+There's a disagreement with Visual. We have similar confidence levels, so we should consider the context and data quality factors carefully.
+
+PHASE 5: CONSENSUS BUILDING
+--------------------------------------------------
+Based on our discussion, I propose consensus on 'surprise' as it's both most common (2 agents) and highest weighted (1.68).
+Based on our discussion, I propose consensus on 'surprise' as it's both most common (2 agents) and highest weighted (1.68).
+Based on our discussion, I propose consensus on 'surprise' as it's both most common (2 agents) and highest weighted (1.68).
+Based on our discussion, I propose consensus on 'surprise' as it's both most common (2 agents) and highest weighted (1.68).
+
+PHASE 6: FINAL CONCLUSION
+--------------------------------------------------
+FINAL CONSENSUS: 'surprise' with 42.1% confidence
+Ground Truth: 'happy'
+Consensus Correct: False
+
+
+================================================================================
+
