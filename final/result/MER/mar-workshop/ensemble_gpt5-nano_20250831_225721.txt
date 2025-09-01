@@ -1,0 +1,92 @@
+ENSEMBLE PREDICTION RESULTS
+==========================
+
+ENSEMBLE CONFIGURATION
+=====================
+Dataset: MER
+Model: gpt-5-nano
+Ensemble mode: Primary emotion only
+Data quality weighting: Disabled
+Accuracy weighting: Enabled
+Sabotage weighting: Enabled
+Accuracy weights: {'T': 0.186, 'A': 0.25, 'V': 0.483, 'TAV': 0.333}
+Sabotage penalty weights: {'T': 0.883, 'A': 0.383, 'V': 0.783, 'TAV': 0.683}
+
+==================================================
+
+Video sample_00002885.mp4: GT:surprise, Ensemble:surprise(0.4), Secondary:happy(0.4), Modalities:[T:neutral(75)[A:0.186][S:0.883], A:happy(95)[A:0.250][S:0.383], V:surprise(85)[A:0.483][S:0.783], TAV:happy(95)[A:0.333][S:0.683]]
+Video sample_00000705.mp4: GT:neutral, Ensemble:surprise(0.7), Secondary:angry(0.1), Modalities:[T:angry(60)[A:0.186][S:0.883], A:happy(92)[A:0.250][S:0.383], V:surprise(92)[A:0.483][S:0.783], TAV:surprise(75)[A:0.333][S:0.683]]
+Video sample_00004007.mp4: GT:surprise, Ensemble:happy(0.9), Secondary:angry(0.1), Modalities:[T:angry(60)[A:0.186][S:0.883], A:happy(92)[A:0.250][S:0.383], V:happy(78)[A:0.483][S:0.783], TAV:happy(82)[A:0.333][S:0.683]]
+Video sample_00001631.mp4: GT:surprise, Ensemble:surprise(0.7), Secondary:neutral(0.3), Modalities:[T:neutral(85)[A:0.186][S:0.883], A:neutral(95)[A:0.250][S:0.383], V:surprise(82)[A:0.483][S:0.783], TAV:surprise(92)[A:0.333][S:0.683]]
+Video sample_00005443.mp4: GT:happy, Ensemble:happy(0.5), Secondary:surprise(0.5), Modalities:[T:(0)[A:0.186][S:0.883], A:surprise(92)[A:0.250][S:0.383], V:happy(78)[A:0.483][S:0.783], TAV:surprise(85)[A:0.333][S:0.683]]
+Video sample_00004950.mp4: GT:neutral, Ensemble:worried(0.5), Secondary:happy(0.4), Modalities:[T:neutral(70)[A:0.186][S:0.883], A:happy(92)[A:0.250][S:0.383], V:worried(85)[A:0.483][S:0.783], TAV:happy(80)[A:0.333][S:0.683]]
+Video sample_00002460.mp4: GT:happy, Ensemble:happy(0.7), Secondary:angry(0.1), Modalities:[T:angry(60)[A:0.186][S:0.883], A:neutral(90)[A:0.250][S:0.383], V:happy(90)[A:0.483][S:0.783], TAV:happy(72)[A:0.333][S:0.683]]
+Video sample_00001551.mp4: GT:worried, Ensemble:neutral(0.5), Secondary:worried(0.3), Modalities:[T:angry(65)[A:0.186][S:0.883], A:neutral(90)[A:0.250][S:0.383], V:neutral(60)[A:0.483][S:0.783], TAV:worried(75)[A:0.333][S:0.683]]
+Video sample_00006798.mp4: GT:worried, Ensemble:surprise(0.8), Secondary:worried(0.2), Modalities:[T:worried(60)[A:0.186][S:0.883], A:surprise(85)[A:0.250][S:0.383], V:surprise(70)[A:0.483][S:0.783], TAV:surprise(92)[A:0.333][S:0.683]]
+Video sample_00005939.mp4: GT:worried, Ensemble:worried(0.7), Secondary:neutral(0.2), Modalities:[T:neutral(85)[A:0.186][S:0.883], A:happy(85)[A:0.250][S:0.383], V:worried(75)[A:0.483][S:0.783], TAV:worried(65)[A:0.333][S:0.683]]
+Video sample_00005497.mp4: GT:worried, Ensemble:happy(0.4), Secondary:neutral(0.4), Modalities:[T:angry(85)[A:0.186][S:0.883], A:neutral(92)[A:0.250][S:0.383], V:happy(72)[A:0.483][S:0.783], TAV:neutral(60)[A:0.333][S:0.683]]
+Video sample_00003790.mp4: GT:sad, Ensemble:worried(0.7), Secondary:neutral(0.3), Modalities:[T:neutral(65)[A:0.186][S:0.883], A:neutral(90)[A:0.250][S:0.383], V:worried(78)[A:0.483][S:0.783], TAV:worried(75)[A:0.333][S:0.683]]
+Video sample_00004940.mp4: GT:angry, Ensemble:angry(0.7), Secondary:worried(0.2), Modalities:[T:worried(60)[A:0.186][S:0.883], A:neutral(85)[A:0.250][S:0.383], V:angry(70)[A:0.483][S:0.783], TAV:angry(78)[A:0.333][S:0.683]]
+Video sample_00005321.mp4: GT:angry, Ensemble:angry(0.8), Secondary:neutral(0.2), Modalities:[T:neutral(92)[A:0.186][S:0.883], A:angry(70)[A:0.250][S:0.383], V:angry(88)[A:0.483][S:0.783], TAV:angry(85)[A:0.333][S:0.683]]
+Video sample_00004407.mp4: GT:sad, Ensemble:happy(0.5), Secondary:worried(0.4), Modalities:[T:surprise(70)[A:0.186][S:0.883], A:worried(80)[A:0.250][S:0.383], V:happy(82)[A:0.483][S:0.783], TAV:worried(78)[A:0.333][S:0.683]]
+Video sample_00001999.mp4: GT:sad, Ensemble:sad(0.9), Secondary:worried(0.1), Modalities:[T:worried(55)[A:0.186][S:0.883], A:sad(90)[A:0.250][S:0.383], V:sad(75)[A:0.483][S:0.783], TAV:sad(85)[A:0.333][S:0.683]]
+Video sample_00004943.mp4: GT:happy, Ensemble:happy(0.7), Secondary:neutral(0.3), Modalities:[T:neutral(88)[A:0.186][S:0.883], A:neutral(95)[A:0.250][S:0.383], V:happy(92)[A:0.483][S:0.783], TAV:happy(85)[A:0.333][S:0.683]]
+Video sample_00002010.mp4: GT:surprise, Ensemble:surprise(0.6), Secondary:neutral(0.4), Modalities:[T:surprise(65)[A:0.186][S:0.883], A:surprise(90)[A:0.250][S:0.383], V:neutral(70)[A:0.483][S:0.783], TAV:surprise(85)[A:0.333][S:0.683]]
+Video sample_00002603.mp4: GT:happy, Ensemble:neutral(0.8), Secondary:surprise(0.2), Modalities:[T:surprise(70)[A:0.186][S:0.883], A:neutral(95)[A:0.250][S:0.383], V:neutral(60)[A:0.483][S:0.783], TAV:neutral(65)[A:0.333][S:0.683]]
+Video sample_00001646.mp4: GT:angry, Ensemble:angry(0.4), Secondary:neutral(0.4), Modalities:[T:worried(60)[A:0.186][S:0.883], A:neutral(75)[A:0.250][S:0.383], V:angry(70)[A:0.483][S:0.783], TAV:neutral(72)[A:0.333][S:0.683]]
+Video sample_00003709.mp4: GT:worried, Ensemble:happy(0.7), Secondary:angry(0.2), Modalities:[T:angry(72)[A:0.186][S:0.883], A:neutral(85)[A:0.250][S:0.383], V:happy(92)[A:0.483][S:0.783], TAV:happy(85)[A:0.333][S:0.683]]
+Video sample_00001485.mp4: GT:angry, Ensemble:worried(0.4), Secondary:surprise(0.4), Modalities:[T:worried(70)[A:0.186][S:0.883], A:neutral(92)[A:0.250][S:0.383], V:surprise(65)[A:0.483][S:0.783], TAV:worried(60)[A:0.333][S:0.683]]
+Video sample_00003245.mp4: GT:neutral, Ensemble:surprise(0.4), Secondary:happy(0.4), Modalities:[T:neutral(85)[A:0.186][S:0.883], A:happy(85)[A:0.250][S:0.383], V:surprise(85)[A:0.483][S:0.783], TAV:happy(92)[A:0.333][S:0.683]]
+Video sample_00004936.mp4: GT:neutral, Ensemble:happy(0.6), Secondary:surprise(0.4), Modalities:[T:happy(70)[A:0.186][S:0.883], A:happy(92)[A:0.250][S:0.383], V:surprise(80)[A:0.483][S:0.783], TAV:happy(88)[A:0.333][S:0.683]]
+Video sample_00001682.mp4: GT:angry, Ensemble:happy(0.6), Secondary:worried(0.3), Modalities:[T:(0)[A:0.186][S:0.883], A:angry(75)[A:0.250][S:0.383], V:happy(85)[A:0.483][S:0.783], TAV:worried(75)[A:0.333][S:0.683]]
+Video sample_00001133.mp4: GT:angry, Ensemble:surprise(0.5), Secondary:angry(0.4), Modalities:[T:angry(60)[A:0.186][S:0.883], A:worried(70)[A:0.250][S:0.383], V:surprise(92)[A:0.483][S:0.783], TAV:angry(85)[A:0.333][S:0.683]]
+Video sample_00000832.mp4: GT:angry, Ensemble:angry(0.7), Secondary:happy(0.2), Modalities:[T:happy(60)[A:0.186][S:0.883], A:neutral(90)[A:0.250][S:0.383], V:angry(70)[A:0.483][S:0.783], TAV:angry(75)[A:0.333][S:0.683]]
+Video sample_00005430.mp4: GT:sad, Ensemble:neutral(0.8), Secondary:sad(0.2), Modalities:[T:sad(65)[A:0.186][S:0.883], A:neutral(90)[A:0.250][S:0.383], V:neutral(65)[A:0.483][S:0.783], TAV:neutral(80)[A:0.333][S:0.683]]
+Video sample_00005626.mp4: GT:sad, Ensemble:worried(0.7), Secondary:neutral(0.2), Modalities:[T:neutral(90)[A:0.186][S:0.883], A:angry(75)[A:0.250][S:0.383], V:worried(85)[A:0.483][S:0.783], TAV:worried(85)[A:0.333][S:0.683]]
+Video sample_00001454.mp4: GT:neutral, Ensemble:surprise(0.7), Secondary:angry(0.2), Modalities:[T:angry(75)[A:0.186][S:0.883], A:neutral(80)[A:0.250][S:0.383], V:surprise(80)[A:0.483][S:0.783], TAV:surprise(75)[A:0.333][S:0.683]]
+Video sample_00006298.mp4: GT:sad, Ensemble:surprise(0.8), Secondary:sad(0.2), Modalities:[T:sad(70)[A:0.186][S:0.883], A:surprise(85)[A:0.250][S:0.383], V:surprise(85)[A:0.483][S:0.783], TAV:surprise(90)[A:0.333][S:0.683]]
+Video sample_00006717.mp4: GT:happy, Ensemble:happy(0.7), Secondary:worried(0.2), Modalities:[T:worried(85)[A:0.186][S:0.883], A:surprise(88)[A:0.250][S:0.383], V:happy(92)[A:0.483][S:0.783], TAV:happy(88)[A:0.333][S:0.683]]
+Video sample_00003652.mp4: GT:worried, Ensemble:worried(0.7), Secondary:neutral(0.3), Modalities:[T:neutral(60)[A:0.186][S:0.883], A:neutral(85)[A:0.250][S:0.383], V:worried(75)[A:0.483][S:0.783], TAV:worried(85)[A:0.333][S:0.683]]
+Video sample_00006500.mp4: GT:sad, Ensemble:happy(0.8), Secondary:neutral(0.1), Modalities:[T:neutral(60)[A:0.186][S:0.883], A:angry(65)[A:0.250][S:0.383], V:happy(88)[A:0.483][S:0.783], TAV:happy(80)[A:0.333][S:0.683]]
+Video sample_00004288.mp4: GT:worried, Ensemble:worried(0.8), Secondary:neutral(0.2), Modalities:[T:neutral(40)[A:0.186][S:0.883], A:neutral(60)[A:0.250][S:0.383], V:worried(72)[A:0.483][S:0.783], TAV:worried(75)[A:0.333][S:0.683]]
+Video sample_00005828.mp4: GT:surprise, Ensemble:neutral(0.6), Secondary:sad(0.4), Modalities:[T:neutral(60)[A:0.186][S:0.883], A:neutral(95)[A:0.250][S:0.383], V:sad(65)[A:0.483][S:0.783], TAV:neutral(85)[A:0.333][S:0.683]]
+Video sample_00001667.mp4: GT:happy, Ensemble:neutral(0.5), Secondary:surprise(0.5), Modalities:[T:neutral(60)[A:0.186][S:0.883], A:neutral(92)[A:0.250][S:0.383], V:surprise(88)[A:0.483][S:0.783], TAV:neutral(90)[A:0.333][S:0.683]]
+Video sample_00000143.mp4: GT:angry, Ensemble:surprise(0.4), Secondary:neutral(0.4), Modalities:[T:worried(70)[A:0.186][S:0.883], A:neutral(95)[A:0.250][S:0.383], V:surprise(75)[A:0.483][S:0.783], TAV:neutral(70)[A:0.333][S:0.683]]
+Video sample_00006903.mp4: GT:happy, Ensemble:happy(0.9), Secondary:sad(0.1), Modalities:[T:sad(60)[A:0.186][S:0.883], A:happy(85)[A:0.250][S:0.383], V:happy(85)[A:0.483][S:0.783], TAV:happy(92)[A:0.333][S:0.683]]
+Video sample_00005576.mp4: GT:neutral, Ensemble:surprise(0.7), Secondary:neutral(0.3), Modalities:[T:neutral(85)[A:0.186][S:0.883], A:neutral(70)[A:0.250][S:0.383], V:surprise(65)[A:0.483][S:0.783], TAV:surprise(70)[A:0.333][S:0.683]]
+Video sample_00002972.mp4: GT:surprise, Ensemble:neutral(0.6), Secondary:surprise(0.4), Modalities:[T:neutral(60)[A:0.186][S:0.883], A:neutral(85)[A:0.250][S:0.383], V:surprise(70)[A:0.483][S:0.783], TAV:neutral(70)[A:0.333][S:0.683]]
+Video sample_00002806.mp4: GT:worried, Ensemble:happy(0.7), Secondary:angry(0.3), Modalities:[T:angry(75)[A:0.186][S:0.883], A:angry(72)[A:0.250][S:0.383], V:happy(90)[A:0.483][S:0.783], TAV:happy(70)[A:0.333][S:0.683]]
+Video sample_00000754.mp4: GT:sad, Ensemble:worried(0.7), Secondary:neutral(0.3), Modalities:[T:neutral(60)[A:0.186][S:0.883], A:neutral(70)[A:0.250][S:0.383], V:worried(70)[A:0.483][S:0.783], TAV:worried(75)[A:0.333][S:0.683]]
+Video sample_00005573.mp4: GT:worried, Ensemble:neutral(1.0), Modalities:[T:(0)[A:0.186][S:0.883], A:neutral(90)[A:0.250][S:0.383], V:neutral(60)[A:0.483][S:0.783], TAV:neutral(60)[A:0.333][S:0.683]]
+Video sample_00002787.mp4: GT:happy, Ensemble:happy(0.8), Secondary:neutral(0.2), Modalities:[T:neutral(70)[A:0.186][S:0.883], A:happy(92)[A:0.250][S:0.383], V:happy(92)[A:0.483][S:0.783], TAV:happy(92)[A:0.333][S:0.683]]
+Video sample_00006939.mp4: GT:surprise, Ensemble:neutral(0.5), Secondary:sad(0.5), Modalities:[T:error(0)[A:0.186][S:0.883], A:neutral(92)[A:0.250][S:0.383], V:sad(65)[A:0.483][S:0.783], TAV:neutral(85)[A:0.333][S:0.683]]
+Video sample_00005217.mp4: GT:neutral, Ensemble:surprise(0.7), Secondary:neutral(0.3), Modalities:[T:neutral(85)[A:0.186][S:0.883], A:neutral(90)[A:0.250][S:0.383], V:surprise(85)[A:0.483][S:0.783], TAV:surprise(80)[A:0.333][S:0.683]]
+Video sample_00004726.mp4: GT:sad, Ensemble:worried(0.7), Secondary:sad(0.2), Modalities:[T:sad(90)[A:0.186][S:0.883], A:neutral(65)[A:0.250][S:0.383], V:worried(70)[A:0.483][S:0.783], TAV:worried(85)[A:0.333][S:0.683]]
+Video sample_00001837.mp4: GT:sad, Ensemble:worried(0.8), Secondary:neutral(0.2), Modalities:[T:neutral(40)[A:0.186][S:0.883], A:neutral(90)[A:0.250][S:0.383], V:worried(85)[A:0.483][S:0.783], TAV:worried(85)[A:0.333][S:0.683]]
+Video sample_00006816.mp4: GT:worried, Ensemble:neutral(0.7), Secondary:surprise(0.3), Modalities:[T:neutral(90)[A:0.186][S:0.883], A:neutral(90)[A:0.250][S:0.383], V:surprise(55)[A:0.483][S:0.783], TAV:neutral(85)[A:0.333][S:0.683]]
+Video sample_00005474.mp4: GT:happy, Ensemble:happy(0.9), Secondary:surprise(0.1), Modalities:[T:surprise(65)[A:0.186][S:0.883], A:happy(92)[A:0.250][S:0.383], V:happy(92)[A:0.483][S:0.783], TAV:happy(95)[A:0.333][S:0.683]]
+Video sample_00002680.mp4: GT:angry, Ensemble:angry(0.7), Secondary:neutral(0.3), Modalities:[T:neutral(85)[A:0.186][S:0.883], A:neutral(85)[A:0.250][S:0.383], V:angry(80)[A:0.483][S:0.783], TAV:angry(70)[A:0.333][S:0.683]]
+Video sample_00004145.mp4: GT:neutral, Ensemble:surprise(0.7), Secondary:sad(0.2), Modalities:[T:sad(78)[A:0.186][S:0.883], A:neutral(80)[A:0.250][S:0.383], V:surprise(85)[A:0.483][S:0.783], TAV:surprise(82)[A:0.333][S:0.683]]
+Video sample_00002118.mp4: GT:neutral, Ensemble:neutral(0.6), Secondary:surprise(0.4), Modalities:[T:neutral(85)[A:0.186][S:0.883], A:neutral(85)[A:0.250][S:0.383], V:surprise(75)[A:0.483][S:0.783], TAV:neutral(60)[A:0.333][S:0.683]]
+Video sample_00003028.mp4: GT:surprise, Ensemble:neutral(0.5), Secondary:surprise(0.5), Modalities:[T:neutral(60)[A:0.186][S:0.883], A:neutral(92)[A:0.250][S:0.383], V:surprise(85)[A:0.483][S:0.783], TAV:neutral(90)[A:0.333][S:0.683]]
+Video sample_00005897.mp4: GT:angry, Ensemble:surprise(0.7), Secondary:neutral(0.2), Modalities:[T:neutral(70)[A:0.186][S:0.883], A:angry(70)[A:0.250][S:0.383], V:surprise(75)[A:0.483][S:0.783], TAV:surprise(70)[A:0.333][S:0.683]]
+Video sample_00005277.mp4: GT:neutral, Ensemble:neutral(1.0), Modalities:[T:neutral(70)[A:0.186][S:0.883], A:neutral(90)[A:0.250][S:0.383], V:neutral(50)[A:0.483][S:0.783], TAV:neutral(92)[A:0.333][S:0.683]]
+Video sample_00003773.mp4: GT:surprise, Ensemble:happy(0.4), Secondary:surprise(0.4), Modalities:[T:neutral(85)[A:0.186][S:0.883], A:happy(95)[A:0.250][S:0.383], V:surprise(75)[A:0.483][S:0.783], TAV:happy(85)[A:0.333][S:0.683]]
+Video sample_00005062.mp4: GT:happy, Ensemble:happy(1.0), Modalities:[T:happy(65)[A:0.186][S:0.883], A:happy(85)[A:0.250][S:0.383], V:happy(82)[A:0.483][S:0.783], TAV:happy(85)[A:0.333][S:0.683]]
+Video sample_00006422.mp4: GT:surprise, Ensemble:surprise(0.6), Secondary:neutral(0.4), Modalities:[T:surprise(70)[A:0.186][S:0.883], A:neutral(90)[A:0.250][S:0.383], V:surprise(70)[A:0.483][S:0.783], TAV:neutral(70)[A:0.333][S:0.683]]
+
+EVALUATION METRICS
+=================
+
+One-Shot Accuracy (Primary Only): 0.38
+Two-Shot Accuracy (Primary or Secondary): 0.57
+Three-Shot Accuracy (Top 3): 0.67
+Four-Shot Accuracy (Top 4): 0.67
+Five-Shot Accuracy (Top 5): 0.67
+Overall Accuracy: 0.38
+Label: happy -> Precision: 0.47, Recall: 0.80, F1 Score: 0.59, Support: 10
+Label: neutral -> Precision: 0.17, Recall: 0.20, F1 Score: 0.18, Support: 10
+Label: worried -> Precision: 0.30, Recall: 0.30, F1 Score: 0.30, Support: 10
+Label: surprise -> Precision: 0.27, Recall: 0.40, F1 Score: 0.32, Support: 10
+Label: angry -> Precision: 1.00, Recall: 0.50, F1 Score: 0.67, Support: 10
+Label: sad -> Precision: 1.00, Recall: 0.10, F1 Score: 0.18, Support: 10

@@ -1,0 +1,288 @@
+ENSEMBLE PREDICTION RESULTS
+==========================
+
+ENSEMBLE CONFIGURATION
+=====================
+Dataset: MELD
+Model: gpt-5-nano
+Ensemble mode: All emotions
+Data quality weighting: Disabled
+Accuracy weighting: Enabled
+Sabotage weighting: Disabled
+Accuracy weights: {'T': 0.508, 'A': 0.298, 'V': 0.188, 'TAV': 0.236}
+
+==================================================
+
+Video dia233_utt4.mp4: GT:sadness, Ensemble:anger(0.2), Secondary:sadness(0.2), Modalities:[T:[neutral(60), joy(25), sadness(15)][A:0.508], A:[sadness(75), anger(60)][A:0.298], V:[surprise(90), anger(65)][A:0.188], TAV:[anger(75), sadness(65), surprise(60), joy(40), neutral(30), disgust(25), fear(20)][A:0.236]]
+Video dia175_utt3.mp4: GT:surprise, Ensemble:anger(0.4), Secondary:joy(0.2), Modalities:[T:[anger(75), disgust(35)][A:0.508], A:[anger(75), sadness(25)][A:0.298], V:[joy(92), surprise(40)][A:0.188], TAV:[joy(85), surprise(60), disgust(25), anger(15)][A:0.236]]
+Video dia169_utt6.mp4: GT:anger, Ensemble:neutral(0.3), Secondary:joy(0.2), Modalities:[T:[joy(75), neutral(25)][A:0.508], A:[neutral(90)][A:0.298], V:[sadness(92), surprise(70)][A:0.188], TAV:[surprise(85), sadness(75), neutral(60), fear(40), disgust(20), joy(15), anger(5)][A:0.236]]
+Video dia279_utt14.mp4: GT:neutral, Ensemble:neutral(0.3), Secondary:anger(0.2), Modalities:[T:[neutral(80)][A:0.508], A:[anger(60), sadness(25)][A:0.298], V:[anger(38), fear(28), disgust(22), surprise(15), sadness(7), joy(5)][A:0.188], TAV:[fear(70), sadness(50), surprise(30), neutral(25), anger(15), disgust(10), joy(5)][A:0.236]]
+Video dia239_utt7.mp4: GT:neutral, Ensemble:neutral(0.3), Secondary:surprise(0.2), Modalities:[T:[neutral(85)][A:0.508], A:[sadness(65), anger(50), fear(30), disgust(25), neutral(20), joy(10), surprise(5)][A:0.298], V:[surprise(90), disgust(30)][A:0.188], TAV:[surprise(70), disgust(50), anger(30), fear(15)][A:0.236]]
+Video dia115_utt4.mp4: GT:neutral, Ensemble:fear(0.3), Secondary:surprise(0.2), Modalities:[T:[fear(75), surprise(50), anger(20), sadness(15)][A:0.508], A:[sadness(85), neutral(60)][A:0.298], V:[surprise(85), fear(60), anger(50), joy(25), sadness(25), disgust(20), neutral(10)][A:0.188], TAV:[fear(78), surprise(64), anger(60), sadness(50)][A:0.236]]
+Video dia279_utt15.mp4: GT:neutral, Ensemble:neutral(0.6), Secondary:joy(0.3), Modalities:[T:[neutral(70)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(75), surprise(50)][A:0.188], TAV:[joy(80), surprise(40)][A:0.236]]
+Video dia245_utt4.mp4: GT:fear, Ensemble:surprise(0.3), Secondary:fear(0.2), Modalities:[T:[fear(85), surprise(60), sadness(40), neutral(25), anger(15), joy(10), disgust(5)][A:0.508], A:[neutral(90)][A:0.298], V:[surprise(88), joy(62)][A:0.188], TAV:[joy(65), surprise(55), sadness(25), anger(20), fear(20), neutral(15), disgust(5)][A:0.236]]
+Video dia42_utt2.mp4: GT:neutral, Ensemble:sadness(0.6), Secondary:neutral(0.2), Modalities:[T:[sadness(40), neutral(30), anger(15), fear(5), surprise(5), disgust(3), joy(2)][A:0.508], A:[sadness(85)][A:0.298], V:[neutral(75), sadness(40), fear(20), surprise(15)][A:0.188], TAV:[sadness(85)][A:0.236]]
+Video dia120_utt18.mp4: GT:neutral, Ensemble:anger(0.4), Secondary:neutral(0.2), Modalities:[T:[neutral(60), surprise(20), joy(10), anger(5), disgust(3), fear(1), sadness(1)][A:0.508], A:[anger(90), sadness(25), neutral(10)][A:0.298], V:[disgust(88), sadness(20), anger(15), surprise(12)][A:0.188], TAV:[anger(85), disgust(60)][A:0.236]]
+Video dia233_utt5.mp4: GT:joy, Ensemble:neutral(0.5), Secondary:joy(0.3), Modalities:[T:[joy(90), neutral(60)][A:0.508], A:[neutral(95)][A:0.298], V:[anger(85), neutral(65)][A:0.188], TAV:[anger(85), neutral(50), surprise(40)][A:0.236]]
+Video dia29_utt4.mp4: GT:surprise, Ensemble:surprise(0.4), Secondary:anger(0.2), Modalities:[T:[surprise(60)][A:0.508], A:[anger(60), sadness(40), disgust(30), fear(25)][A:0.298], V:[surprise(70), neutral(60)][A:0.188], TAV:[anger(78), surprise(60), disgust(25), neutral(25), fear(20), sadness(15), joy(5)][A:0.236]]
+Video dia97_utt9.mp4: GT:neutral, Ensemble:neutral(0.4), Secondary:joy(0.3), Modalities:[T:[joy(60), surprise(25), neutral(15)][A:0.508], A:[neutral(95)][A:0.298], V:[surprise(70), joy(40)][A:0.188], TAV:[neutral(60), sadness(25), fear(10), joy(5)][A:0.236]]
+Video dia169_utt5.mp4: GT:surprise, Ensemble:joy(0.3), Secondary:anger(0.2), Modalities:[T:[anger(80), sadness(70), surprise(40), fear(30), neutral(10)][A:0.508], A:[joy(85)][A:0.298], V:[joy(90), surprise(40)][A:0.188], TAV:[joy(90), surprise(40)][A:0.236]]
+Video dia133_utt9.mp4: GT:neutral, Ensemble:neutral(0.4), Secondary:joy(0.2), Modalities:[T:[neutral(85)][A:0.508], A:[anger(70), sadness(40), fear(25), disgust(15)][A:0.298], V:[joy(85), neutral(40), surprise(15)][A:0.188], TAV:[joy(60), neutral(50), surprise(30), sadness(25), fear(10), anger(5), disgust(5)][A:0.236]]
+Video dia42_utt0.mp4: GT:joy, Ensemble:joy(0.8), Secondary:neutral(0.2), Modalities:[T:[joy(60), neutral(40)][A:0.508], A:[joy(90)][A:0.298], V:[joy(85), surprise(40)][A:0.188], TAV:[joy(85)][A:0.236]]
+Video dia169_utt20.mp4: GT:neutral, Ensemble:neutral(0.3), Secondary:sadness(0.2), Modalities:[T:[neutral(85)][A:0.508], A:[anger(65), sadness(25), neutral(5), disgust(3), fear(1), joy(0), surprise(0)][A:0.298], V:[surprise(75), sadness(60), fear(40), anger(25)][A:0.188], TAV:[surprise(85), sadness(70)][A:0.236]]
+Video dia244_utt6.mp4: GT:disgust, Ensemble:sadness(0.4), Secondary:neutral(0.3), Modalities:[T:[neutral(85)][A:0.508], A:[sadness(72)][A:0.298], V:[anger(85), sadness(60)][A:0.188], TAV:[anger(85), sadness(55)][A:0.236]]
+Video dia17_utt17.mp4: GT:fear, Ensemble:fear(0.3), Secondary:neutral(0.2), Modalities:[T:[fear(60), neutral(40)][A:0.508], A:[sadness(70), neutral(60), fear(40), anger(30)][A:0.298], V:[joy(85), surprise(65)][A:0.188], TAV:[surprise(70), joy(50), anger(35), fear(25)][A:0.236]]
+Video dia17_utt16.mp4: GT:fear, Ensemble:fear(0.5), Secondary:surprise(0.2), Modalities:[T:[fear(95)][A:0.508], A:[fear(75), anger(60), surprise(40)][A:0.298], V:[joy(75), surprise(60)][A:0.188], TAV:[fear(78), surprise(72), joy(60)][A:0.236]]
+Video dia244_utt7.mp4: GT:disgust, Ensemble:neutral(0.4), Secondary:anger(0.3), Modalities:[T:[neutral(70)][A:0.508], A:[joy(85), neutral(40)][A:0.298], V:[anger(85), disgust(65), surprise(25)][A:0.188], TAV:[anger(70), disgust(25)][A:0.236]]
+Video dia42_utt1.mp4: GT:sadness, Ensemble:sadness(0.2), Secondary:joy(0.2), Modalities:[T:[sadness(60), neutral(40), fear(20), anger(10), joy(5), disgust(5), surprise(5)][A:0.508], A:[anger(65), sadness(25), disgust(10)][A:0.298], V:[surprise(85), joy(80)][A:0.188], TAV:[joy(70), surprise(60), neutral(40), anger(20), fear(15), sadness(10), disgust(5)][A:0.236]]
+Video dia133_utt8.mp4: GT:surprise, Ensemble:surprise(0.4), Secondary:fear(0.2), Modalities:[T:[surprise(80), fear(20)][A:0.508], A:[surprise(90), fear(60)][A:0.298], V:[joy(65), neutral(55), sadness(50), surprise(30)][A:0.188], TAV:[surprise(85), fear(65), sadness(60), neutral(40), joy(30), anger(25), disgust(15)][A:0.236]]
+Video dia169_utt4.mp4: GT:surprise, Ensemble:surprise(0.4), Secondary:neutral(0.3), Modalities:[T:[surprise(70), neutral(25)][A:0.508], A:[neutral(92)][A:0.298], V:[joy(90), surprise(60), neutral(20)][A:0.188], TAV:[joy(85), surprise(60)][A:0.236]]
+Video dia77_utt3.mp4: GT:anger, Ensemble:neutral(0.3), Secondary:anger(0.3), Modalities:[T:[anger(85), neutral(40)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(85), sadness(65), anger(40), surprise(30), fear(15)][A:0.188], TAV:[joy(85), neutral(70), anger(60), surprise(30), sadness(25), fear(15), disgust(10)][A:0.236]]
+Video dia97_utt8.mp4: GT:fear, Ensemble:surprise(0.4), Secondary:joy(0.3), Modalities:[T:[surprise(70), fear(40)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(92), surprise(28)][A:0.188], TAV:[joy(90), surprise(40)][A:0.236]]
+Video dia29_utt5.mp4: GT:surprise, Ensemble:surprise(0.3), Secondary:neutral(0.2), Modalities:[T:[surprise(85), neutral(60)][A:0.508], A:[joy(85)][A:0.298], V:[surprise(70), anger(60), sadness(40), fear(30), disgust(15), joy(10), neutral(5)][A:0.188], TAV:[sadness(78), neutral(50), surprise(40), anger(25), joy(15), fear(10), disgust(5)][A:0.236]]
+Video dia240_utt9.mp4: GT:joy, Ensemble:surprise(0.3), Secondary:joy(0.1), Modalities:[T:[surprise(65), fear(20), neutral(15)][A:0.508], A:[anger(65), sadness(55), disgust(40), fear(30), neutral(25), surprise(20), joy(10)][A:0.298], V:[surprise(85), joy(70), fear(25), sadness(15), disgust(5), anger(5)][A:0.188], TAV:[surprise(90), joy(60), disgust(40), sadness(25), fear(20), anger(15), neutral(5)][A:0.236]]
+Video dia22_utt13.mp4: GT:joy, Ensemble:neutral(0.3), Secondary:joy(0.3), Modalities:[T:[neutral(90), joy(10), fear(10), sadness(10), surprise(10), disgust(10), anger(10)][A:0.508], A:[fear(75), anger(40)][A:0.298], V:[joy(90), surprise(60)][A:0.188], TAV:[joy(92), surprise(60)][A:0.236]]
+Video dia207_utt0.mp4: GT:sadness, Ensemble:joy(0.3), Secondary:fear(0.2), Modalities:[T:[fear(65), surprise(50), sadness(25), neutral(15)][A:0.508], A:[joy(95)][A:0.298], V:[joy(70), disgust(25), neutral(20), surprise(10), fear(5), sadness(5), anger(5)][A:0.188], TAV:[joy(92), neutral(55), sadness(28), surprise(25)][A:0.236]]
+Video dia174_utt5.mp4: GT:joy, Ensemble:joy(0.8), Secondary:neutral(0.2), Modalities:[T:[joy(90)][A:0.508], A:[joy(90), neutral(10)][A:0.298], V:[neutral(92)][A:0.188], TAV:[joy(85), surprise(40)][A:0.236]]
+Video dia175_utt5.mp4: GT:neutral, Ensemble:neutral(0.7), Secondary:joy(0.3), Modalities:[T:[neutral(65)][A:0.508], A:[neutral(92)][A:0.298], V:[joy(92)][A:0.188], TAV:[joy(75), neutral(40)][A:0.236]]
+Video dia245_utt3.mp4: GT:joy, Ensemble:joy(0.8), Secondary:neutral(0.2), Modalities:[T:[joy(65), neutral(40)][A:0.508], A:[joy(92)][A:0.298], V:[joy(95)][A:0.188], TAV:[joy(96)][A:0.236]]
+Video dia169_utt19.mp4: GT:neutral, Ensemble:surprise(0.4), Secondary:joy(0.3), Modalities:[T:[surprise(65), neutral(35)][A:0.508], A:[joy(85), neutral(40)][A:0.298], V:[surprise(62), disgust(50), fear(40), anger(35), joy(25), sadness(20), neutral(15)][A:0.188], TAV:[surprise(85), joy(70)][A:0.236]]
+Video dia60_utt1.mp4: GT:neutral, Ensemble:joy(0.4), Secondary:neutral(0.3), Modalities:[T:[joy(85), neutral(60)][A:0.508], A:[neutral(95)][A:0.298], V:[surprise(85), joy(70), anger(25), fear(25), disgust(20), sadness(15), neutral(5)][A:0.188], TAV:[joy(82), surprise(68)][A:0.236]]
+Video dia110_utt8.mp4: GT:disgust, Ensemble:neutral(0.3), Secondary:anger(0.3), Modalities:[T:[neutral(75)][A:0.508], A:[sadness(70), anger(25)][A:0.298], V:[anger(88), surprise(40), neutral(25), joy(12), fear(8), sadness(6), disgust(5)][A:0.188], TAV:[anger(75), neutral(50), surprise(45), joy(25), sadness(20), fear(15), disgust(10)][A:0.236]]
+Video dia111_utt8.mp4: GT:sadness, Ensemble:neutral(0.4), Secondary:sadness(0.2), Modalities:[T:[sadness(80), neutral(40)][A:0.508], A:[neutral(95)][A:0.298], V:[anger(85), surprise(60), fear(25), sadness(15), disgust(10), neutral(8), joy(5)][A:0.188], TAV:[anger(85), surprise(70), neutral(50)][A:0.236]]
+Video dia115_utt2.mp4: GT:anger, Ensemble:anger(0.4), Secondary:sadness(0.2), Modalities:[T:[anger(85), neutral(15)][A:0.508], A:[anger(72), sadness(58), fear(25), disgust(20)][A:0.298], V:[surprise(90), disgust(80), sadness(40), anger(25)][A:0.188], TAV:[anger(78), sadness(60), surprise(52), fear(25)][A:0.236]]
+Video dia239_utt1.mp4: GT:anger, Ensemble:sadness(0.3), Secondary:fear(0.3), Modalities:[T:[fear(70), sadness(50)][A:0.508], A:[anger(85), sadness(60)][A:0.298], V:[anger(88), disgust(76), surprise(62), sadness(42), fear(28)][A:0.188], TAV:[fear(75), disgust(65), sadness(40), anger(35), neutral(20), surprise(15)][A:0.236]]
+Video dia210_utt7.mp4: GT:joy, Ensemble:joy(0.6), Secondary:neutral(0.3), Modalities:[T:[neutral(70), anger(15), surprise(5)][A:0.508], A:[joy(95)][A:0.298], V:[joy(90), surprise(40)][A:0.188], TAV:[joy(92)][A:0.236]]
+Video dia115_utt3.mp4: GT:disgust, Ensemble:anger(0.3), Secondary:disgust(0.2), Modalities:[T:[fear(70), surprise(60), anger(40)][A:0.508], A:[anger(75), disgust(65)][A:0.298], V:[surprise(85), disgust(60), joy(40)][A:0.188], TAV:[anger(85), disgust(70)][A:0.236]]
+Video dia279_utt13.mp4: GT:neutral, Ensemble:neutral(0.4), Secondary:joy(0.3), Modalities:[T:[neutral(70), joy(25), surprise(15)][A:0.508], A:[neutral(85), joy(50)][A:0.298], V:[surprise(75), joy(60), anger(30)][A:0.188], TAV:[anger(88)][A:0.236]]
+Video dia111_utt9.mp4: GT:fear, Ensemble:joy(0.2), Secondary:fear(0.2), Modalities:[T:[fear(60), neutral(25), sadness(15)][A:0.508], A:[joy(92)][A:0.298], V:[surprise(70), joy(50), neutral(40), sadness(25), anger(20), fear(15), disgust(5)][A:0.188], TAV:[surprise(65), neutral(50), fear(15), sadness(12), joy(8), disgust(5), anger(5)][A:0.236]]
+Video dia60_utt0.mp4: GT:fear, Ensemble:sadness(0.5), Secondary:fear(0.2), Modalities:[T:[sadness(75), fear(60), neutral(50), surprise(30)][A:0.508], A:[sadness(85)][A:0.298], V:[sadness(65), anger(40), joy(25)][A:0.188], TAV:[sadness(75), surprise(40), anger(25), disgust(25), fear(20), joy(15)][A:0.236]]
+Video dia169_utt18.mp4: GT:disgust, Ensemble:anger(0.3), Secondary:neutral(0.2), Modalities:[T:[neutral(65), surprise(40), fear(35), sadness(25), anger(5), joy(3), disgust(2)][A:0.508], A:[anger(75), sadness(35)][A:0.298], V:[anger(72), surprise(65), fear(40), sadness(20), joy(15)][A:0.188], TAV:[anger(85), neutral(60), surprise(40), sadness(25), fear(20), disgust(5), joy(5)][A:0.236]]
+Video dia175_utt4.mp4: GT:fear, Ensemble:neutral(0.5), Secondary:anger(0.2), Modalities:[T:[neutral(75)][A:0.508], A:[neutral(95)][A:0.298], V:[surprise(70), anger(65), fear(50)][A:0.188], TAV:[anger(65), neutral(60), fear(35), surprise(20), sadness(15), joy(5)][A:0.236]]
+Video dia174_utt4.mp4: GT:sadness, Ensemble:neutral(0.6), Secondary:joy(0.3), Modalities:[T:[neutral(85), joy(15)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(75), surprise(30)][A:0.188], TAV:[joy(88), neutral(65), surprise(40)][A:0.236]]
+Video dia207_utt1.mp4: GT:sadness, Ensemble:surprise(0.4), Secondary:joy(0.2), Modalities:[T:[surprise(65), neutral(25), sadness(10)][A:0.508], A:[anger(60), sadness(25), fear(10)][A:0.298], V:[joy(85), surprise(75)][A:0.188], TAV:[joy(85), surprise(65), sadness(40), anger(20), fear(15), disgust(10)][A:0.236]]
+Video dia22_utt12.mp4: GT:joy, Ensemble:joy(0.8), Secondary:neutral(0.2), Modalities:[T:[joy(92)][A:0.508], A:[neutral(85)][A:0.298], V:[joy(90)][A:0.188], TAV:[joy(95)][A:0.236]]
+Video dia240_utt8.mp4: GT:neutral, Ensemble:fear(0.3), Secondary:sadness(0.2), Modalities:[T:[fear(70), surprise(40), sadness(15), neutral(5)][A:0.508], A:[sadness(70), neutral(40), disgust(5)][A:0.298], V:[joy(65), fear(40), anger(35), surprise(25), sadness(25), disgust(20), neutral(15)][A:0.188], TAV:[fear(85), sadness(60), neutral(50), anger(40), disgust(35), surprise(30), joy(20)][A:0.236]]
+Video dia233_utt3.mp4: GT:neutral, Ensemble:joy(0.3), Secondary:neutral(0.3), Modalities:[T:[neutral(65), sadness(40), anger(25)][A:0.508], A:[joy(92)][A:0.298], V:[anger(85), surprise(75), neutral(40)][A:0.188], TAV:[joy(82), anger(46)][A:0.236]]
+Video dia77_utt4.mp4: GT:sadness, Ensemble:neutral(0.4), Secondary:sadness(0.3), Modalities:[T:[sadness(60), neutral(40)][A:0.508], A:[neutral(92)][A:0.298], V:[surprise(85), fear(60), neutral(55), sadness(40), disgust(30), anger(25), joy(20)][A:0.188], TAV:[neutral(75), sadness(50), fear(40), surprise(25), anger(15), disgust(10)][A:0.236]]
+Video dia174_utt6.mp4: GT:sadness, Ensemble:surprise(0.4), Secondary:anger(0.2), Modalities:[T:[surprise(40), neutral(35)][A:0.508], A:[anger(70), sadness(40), neutral(25)][A:0.298], V:[surprise(85), fear(40), neutral(25)][A:0.188], TAV:[surprise(75), fear(60), anger(50)][A:0.236]]
+Video dia239_utt2.mp4: GT:surprise, Ensemble:surprise(0.4), Secondary:joy(0.2), Modalities:[T:[surprise(80)][A:0.508], A:[joy(85)][A:0.298], V:[surprise(75), fear(65), anger(60), sadness(25), disgust(20), joy(15), neutral(5)][A:0.188], TAV:[surprise(80), fear(60), anger(50), sadness(40), neutral(25), disgust(15), joy(10)][A:0.236]]
+Video dia239_utt3.mp4: GT:neutral, Ensemble:joy(0.3), Secondary:surprise(0.2), Modalities:[T:[neutral(65), disgust(15), anger(10), surprise(5), fear(3), joy(2)][A:0.508], A:[joy(95)][A:0.298], V:[surprise(85), disgust(25), sadness(15), fear(10)][A:0.188], TAV:[joy(88), surprise(70), sadness(40)][A:0.236]]
+Video dia29_utt3.mp4: GT:surprise, Ensemble:surprise(0.6), Secondary:fear(0.2), Modalities:[T:[surprise(85), fear(25)][A:0.508], A:[surprise(85)][A:0.298], V:[surprise(85), joy(70), disgust(40), fear(30), sadness(25), anger(20), neutral(10)][A:0.188], TAV:[surprise(90), neutral(60), fear(55)][A:0.236]]
+Video dia22_utt11.mp4: GT:neutral, Ensemble:joy(0.3), Secondary:neutral(0.2), Modalities:[T:[fear(60), anger(40), surprise(30), sadness(25), neutral(15)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(92)][A:0.188], TAV:[joy(92)][A:0.236]]
+Video dia230_utt8.mp4: GT:disgust, Ensemble:disgust(0.5), Secondary:anger(0.2), Modalities:[T:[disgust(90)][A:0.508], A:[neutral(90)][A:0.298], V:[anger(90), disgust(70), surprise(50)][A:0.188], TAV:[disgust(92), anger(80), surprise(70)][A:0.236]]
+Video dia131_utt6.mp4: GT:joy, Ensemble:joy(0.5), Secondary:neutral(0.3), Modalities:[T:[neutral(55), surprise(25), joy(8), sadness(4), fear(4), disgust(2), anger(2)][A:0.508], A:[joy(85), neutral(40)][A:0.298], V:[joy(92), disgust(25), fear(15), anger(12), surprise(10), sadness(8), neutral(5)][A:0.188], TAV:[joy(92)][A:0.236]]
+Video dia254_utt16.mp4: GT:neutral, Ensemble:joy(0.4), Secondary:neutral(0.2), Modalities:[T:[neutral(65), joy(45)][A:0.508], A:[joy(92)][A:0.298], V:[anger(78), surprise(60)][A:0.188], TAV:[joy(85), anger(60), surprise(40), neutral(25)][A:0.236]]
+Video dia25_utt2.mp4: GT:sadness, Ensemble:neutral(0.3), Secondary:sadness(0.3), Modalities:[T:[sadness(85), fear(25), neutral(20)][A:0.508], A:[neutral(90)][A:0.298], V:[joy(95)][A:0.188], TAV:[joy(88), neutral(65), surprise(40)][A:0.236]]
+Video dia240_utt16.mp4: GT:surprise, Ensemble:neutral(0.9), Secondary:surprise(0.1), Modalities:[T:[neutral(85)][A:0.508], A:[neutral(95)][A:0.298], V:[neutral(65), sadness(20), surprise(15), fear(12), anger(8), disgust(5)][A:0.188], TAV:[neutral(75), surprise(15), sadness(5), anger(3), fear(2)][A:0.236]]
+Video dia165_utt3.mp4: GT:disgust, Ensemble:fear(0.4), Secondary:sadness(0.2), Modalities:[T:[fear(78), neutral(22)][A:0.508], A:[neutral(60), fear(40), anger(20)][A:0.298], V:[sadness(72), surprise(65), fear(40), joy(15)][A:0.188], TAV:[sadness(88), surprise(72), fear(60)][A:0.236]]
+Video dia174_utt13.mp4: GT:anger, Ensemble:joy(0.5), Secondary:neutral(0.2), Modalities:[T:[joy(75), neutral(25)][A:0.508], A:[joy(90)][A:0.298], V:[surprise(70), anger(40), sadness(25)][A:0.188], TAV:[sadness(65), neutral(55), fear(40)][A:0.236]]
+Video dia254_utt5.mp4: GT:anger, Ensemble:anger(0.6), Secondary:joy(0.3), Modalities:[T:[anger(70), neutral(25)][A:0.508], A:[anger(70), sadness(40)][A:0.298], V:[joy(88), anger(42)][A:0.188], TAV:[joy(85), anger(75)][A:0.236]]
+Video dia100_utt18.mp4: GT:fear, Ensemble:neutral(0.4), Secondary:surprise(0.2), Modalities:[T:[neutral(60), fear(25), surprise(15)][A:0.508], A:[neutral(75)][A:0.298], V:[disgust(92), surprise(85), sadness(28)][A:0.188], TAV:[neutral(60), sadness(40), surprise(25), joy(20), disgust(15), fear(5), anger(5)][A:0.236]]
+Video dia52_utt2.mp4: GT:neutral, Ensemble:fear(0.4), Secondary:sadness(0.2), Modalities:[T:[fear(70)][A:0.508], A:[sadness(75)][A:0.298], V:[neutral(70), joy(40), surprise(25), disgust(15), fear(10), sadness(5), anger(5)][A:0.188], TAV:[fear(60), sadness(45), neutral(40), joy(25), surprise(15), disgust(10), anger(8)][A:0.236]]
+Video dia100_utt19.mp4: GT:sadness, Ensemble:joy(0.3), Secondary:neutral(0.2), Modalities:[T:[neutral(65), fear(20), surprise(10), sadness(5)][A:0.508], A:[joy(95)][A:0.298], V:[anger(60), fear(55), sadness(50), surprise(45), disgust(40), joy(20), neutral(10)][A:0.188], TAV:[joy(85), sadness(50), disgust(25), fear(20), surprise(15), anger(10)][A:0.236]]
+Video dia174_utt12.mp4: GT:neutral, Ensemble:neutral(0.4), Secondary:fear(0.2), Modalities:[T:[neutral(60), fear(25), surprise(15), sadness(5), joy(5)][A:0.508], A:[neutral(85)][A:0.298], V:[anger(75), fear(60), surprise(50)][A:0.188], TAV:[anger(70), fear(60), surprise(55), neutral(40), sadness(25)][A:0.236]]
+Video dia165_utt2.mp4: GT:surprise, Ensemble:surprise(0.3), Secondary:sadness(0.2), Modalities:[T:[surprise(82), fear(28), neutral(10)][A:0.508], A:[neutral(90)][A:0.298], V:[sadness(85), surprise(60), joy(40), fear(25), disgust(20), neutral(15), anger(10)][A:0.188], TAV:[sadness(92)][A:0.236]]
+Video dia112_utt3.mp4: GT:disgust, Ensemble:neutral(0.5), Secondary:surprise(0.2), Modalities:[T:[neutral(85)][A:0.508], A:[neutral(90)][A:0.298], V:[surprise(78), joy(60), anger(48), fear(42), disgust(35), sadness(30), neutral(20)][A:0.188], TAV:[surprise(70)][A:0.236]]
+Video dia25_utt3.mp4: GT:neutral, Ensemble:neutral(0.6), Secondary:joy(0.4), Modalities:[T:[neutral(60)][A:0.508], A:[neutral(100)][A:0.298], V:[joy(92)][A:0.188], TAV:[joy(92)][A:0.236]]
+Video dia200_utt1.mp4: GT:anger, Ensemble:fear(0.4), Secondary:sadness(0.3), Modalities:[T:[fear(85), surprise(30)][A:0.508], A:[anger(85), sadness(15)][A:0.298], V:[sadness(75), neutral(25)][A:0.188], TAV:[sadness(85), fear(60)][A:0.236]]
+Video dia131_utt5.mp4: GT:neutral, Ensemble:joy(0.5), Secondary:neutral(0.5), Modalities:[T:[neutral(70), surprise(20)][A:0.508], A:[joy(85), neutral(60)][A:0.298], V:[joy(95), neutral(60)][A:0.188], TAV:[joy(92)][A:0.236]]
+Video dia254_utt15.mp4: GT:anger, Ensemble:neutral(0.2), Secondary:anger(0.2), Modalities:[T:[neutral(60)][A:0.508], A:[anger(70), sadness(60), fear(40), disgust(30)][A:0.298], V:[surprise(65), fear(60), joy(45), anger(40), neutral(25), sadness(20), disgust(10)][A:0.188], TAV:[fear(70), anger(60), surprise(55), neutral(40)][A:0.236]]
+Video dia200_utt3.mp4: GT:anger, Ensemble:surprise(0.2), Secondary:joy(0.2), Modalities:[T:[fear(60), neutral(40), surprise(20)][A:0.508], A:[anger(85)][A:0.298], V:[joy(92), surprise(68)][A:0.188], TAV:[joy(75), surprise(65), anger(20)][A:0.236]]
+Video dia240_utt15.mp4: GT:sadness, Ensemble:neutral(0.6), Secondary:surprise(0.1), Modalities:[T:[neutral(85)][A:0.508], A:[neutral(85)][A:0.298], V:[surprise(70), joy(65), anger(40), sadness(30), fear(25), neutral(20), disgust(15)][A:0.188], TAV:[neutral(70), sadness(40), surprise(25), joy(15), anger(12), fear(10), disgust(3)][A:0.236]]
+Video dia25_utt1.mp4: GT:neutral, Ensemble:sadness(0.4), Secondary:surprise(0.2), Modalities:[T:[sadness(65), anger(40), surprise(15)][A:0.508], A:[neutral(85)][A:0.298], V:[surprise(70), disgust(40), sadness(35)][A:0.188], TAV:[sadness(70), surprise(60), neutral(25)][A:0.236]]
+Video dia52_utt0.mp4: GT:neutral, Ensemble:neutral(0.4), Secondary:anger(0.2), Modalities:[T:[neutral(85)][A:0.508], A:[anger(70), sadness(20), fear(8), disgust(2)][A:0.298], V:[joy(70), neutral(60)][A:0.188], TAV:[joy(60), anger(50), neutral(25), fear(20), sadness(15), surprise(10), disgust(5)][A:0.236]]
+Video dia254_utt6.mp4: GT:anger, Ensemble:neutral(0.3), Secondary:joy(0.2), Modalities:[T:[neutral(85)][A:0.508], A:[joy(92)][A:0.298], V:[surprise(90), joy(40), fear(25), anger(20), disgust(10), sadness(10), neutral(5)][A:0.188], TAV:[fear(65), surprise(60), neutral(40), anger(20), joy(15), sadness(15), disgust(5)][A:0.236]]
+Video dia254_utt7.mp4: GT:surprise, Ensemble:neutral(0.2), Secondary:surprise(0.2), Modalities:[T:[neutral(60), surprise(25), fear(15)][A:0.508], A:[anger(75), sadness(35), fear(30), neutral(20), disgust(10), joy(5)][A:0.298], V:[joy(65), surprise(45), neutral(20)][A:0.188], TAV:[surprise(75), fear(60), sadness(40), anger(35), joy(30)][A:0.236]]
+Video dia52_utt1.mp4: GT:disgust, Ensemble:anger(0.4), Secondary:surprise(0.3), Modalities:[T:[anger(45)][A:0.508], A:[sadness(65), anger(50)][A:0.298], V:[surprise(90)][A:0.188], TAV:[surprise(85), anger(60), disgust(50), fear(30)][A:0.236]]
+Video dia200_utt2.mp4: GT:anger, Ensemble:anger(0.3), Secondary:fear(0.3), Modalities:[T:[fear(65), neutral(45), surprise(20)][A:0.508], A:[anger(85)][A:0.298], V:[sadness(60), fear(40), anger(35), joy(25), surprise(15), neutral(10), disgust(5)][A:0.188], TAV:[anger(85), sadness(60), neutral(30), fear(20), surprise(10), disgust(5), joy(5)][A:0.236]]
+Video dia254_utt14.mp4: GT:disgust, Ensemble:anger(0.3), Secondary:sadness(0.2), Modalities:[T:[anger(60), neutral(40)][A:0.508], A:[joy(85)][A:0.298], V:[sadness(80), fear(50), surprise(40)][A:0.188], TAV:[sadness(75), fear(65), anger(30)][A:0.236]]
+Video dia131_utt4.mp4: GT:neutral, Ensemble:joy(0.5), Secondary:neutral(0.4), Modalities:[T:[joy(65), neutral(40)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(95), surprise(25)][A:0.188], TAV:[joy(92), neutral(52)][A:0.236]]
+Video dia94_utt0.mp4: GT:surprise, Ensemble:surprise(0.3), Secondary:anger(0.2), Modalities:[T:[surprise(70), neutral(30)][A:0.508], A:[anger(70), sadness(40), fear(30), disgust(15), neutral(10)][A:0.298], V:[surprise(85), anger(60), fear(40), disgust(40), joy(25), sadness(15)][A:0.188], TAV:[anger(65), fear(50), surprise(30), sadness(25), neutral(15)][A:0.236]]
+Video dia254_utt10.mp4: GT:neutral, Ensemble:neutral(0.6), Secondary:joy(0.3), Modalities:[T:[neutral(60)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(92), neutral(40)][A:0.188], TAV:[joy(85), neutral(40), surprise(20)][A:0.236]]
+Video dia240_utt10.mp4: GT:surprise, Ensemble:surprise(0.8), Secondary:neutral(0.2), Modalities:[T:[surprise(80), neutral(40)][A:0.508], A:[surprise(92)][A:0.298], V:[surprise(85)][A:0.188], TAV:[surprise(92)][A:0.236]]
+Video dia126_utt6.mp4: GT:neutral, Ensemble:neutral(0.6), Secondary:anger(0.2), Modalities:[T:[neutral(65)][A:0.508], A:[neutral(92)][A:0.298], V:[surprise(70), anger(50)][A:0.188], TAV:[neutral(75), anger(50), sadness(25), fear(15), surprise(10), disgust(5), joy(5)][A:0.236]]
+Video dia112_utt4.mp4: GT:surprise, Ensemble:surprise(0.5), Secondary:neutral(0.3), Modalities:[T:[surprise(80), neutral(25)][A:0.508], A:[neutral(85)][A:0.298], V:[joy(85), surprise(60)][A:0.188], TAV:[joy(72), surprise(60)][A:0.236]]
+Video dia249_utt6.mp4: GT:neutral, Ensemble:joy(0.4), Secondary:neutral(0.4), Modalities:[T:[neutral(70), joy(60)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(78), surprise(65)][A:0.188], TAV:[joy(88), surprise(60)][A:0.236]]
+Video dia165_utt4.mp4: GT:sadness, Ensemble:surprise(0.5), Secondary:fear(0.2), Modalities:[T:[surprise(75), anger(25), sadness(15)][A:0.508], A:[surprise(92), fear(60)][A:0.298], V:[sadness(85), surprise(60), fear(40), anger(25), joy(15)][A:0.188], TAV:[surprise(90), sadness(65), fear(60)][A:0.236]]
+Video dia174_utt14.mp4: GT:neutral, Ensemble:sadness(0.5), Secondary:surprise(0.2), Modalities:[T:[sadness(92)][A:0.508], A:[neutral(85)][A:0.298], V:[surprise(85), anger(65)][A:0.188], TAV:[sadness(90), surprise(60), anger(30)][A:0.236]]
+Video dia112_utt5.mp4: GT:neutral, Ensemble:neutral(0.4), Secondary:anger(0.2), Modalities:[T:[neutral(85)][A:0.508], A:[joy(82), neutral(60)][A:0.298], V:[surprise(75), anger(60)][A:0.188], TAV:[anger(75), surprise(60)][A:0.236]]
+Video dia240_utt11.mp4: GT:neutral, Ensemble:surprise(0.3), Secondary:sadness(0.2), Modalities:[T:[neutral(60), fear(40), sadness(25), surprise(15), joy(8), anger(5)][A:0.508], A:[sadness(65), anger(25), fear(15), disgust(10)][A:0.298], V:[surprise(92)][A:0.188], TAV:[surprise(90), sadness(40), anger(30), fear(25)][A:0.236]]
+Video dia254_utt11.mp4: GT:disgust, Ensemble:anger(0.4), Secondary:disgust(0.2), Modalities:[T:[disgust(75), anger(70), fear(20), sadness(15), surprise(10)][A:0.508], A:[anger(90)][A:0.298], V:[joy(75), surprise(60), anger(45), neutral(35), sadness(25), fear(15)][A:0.188], TAV:[anger(88), disgust(70), surprise(45), fear(25), sadness(18), joy(10)][A:0.236]]
+Video dia94_utt1.mp4: GT:neutral, Ensemble:joy(0.5), Secondary:anger(0.3), Modalities:[T:[joy(75)][A:0.508], A:[joy(85)][A:0.298], V:[anger(78), disgust(42), surprise(28), fear(18), sadness(15)][A:0.188], TAV:[anger(85), joy(25), surprise(15), neutral(10), fear(8), sadness(5), disgust(5)][A:0.236]]
+Video dia259_utt10.mp4: GT:disgust, Ensemble:anger(0.3), Secondary:neutral(0.2), Modalities:[T:[anger(70), disgust(40), neutral(15)][A:0.508], A:[neutral(100)][A:0.298], V:[surprise(85), joy(70), anger(40), fear(25), sadness(10), neutral(5), disgust(5)][A:0.188], TAV:[surprise(82), joy(68), anger(50), fear(30), disgust(25), sadness(20), neutral(10)][A:0.236]]
+Video dia254_utt13.mp4: GT:joy, Ensemble:joy(0.3), Secondary:surprise(0.3), Modalities:[T:[joy(92), surprise(66)][A:0.508], A:[neutral(95)][A:0.298], V:[surprise(78), fear(65), anger(40), sadness(35), disgust(25), joy(20), neutral(15)][A:0.188], TAV:[joy(70), surprise(60), fear(50), neutral(40), disgust(20), sadness(15), anger(10)][A:0.236]]
+Video dia126_utt5.mp4: GT:neutral, Ensemble:neutral(0.5), Secondary:sadness(0.2), Modalities:[T:[neutral(85)][A:0.508], A:[anger(70), sadness(40), neutral(20), disgust(15), fear(10)][A:0.298], V:[sadness(65), fear(20), surprise(15)][A:0.188], TAV:[neutral(55), fear(25), sadness(15), surprise(5)][A:0.236]]
+Video dia174_utt16.mp4: GT:neutral, Ensemble:neutral(0.6), Secondary:sadness(0.2), Modalities:[T:[neutral(85)][A:0.508], A:[neutral(92)][A:0.298], V:[sadness(75), anger(50)][A:0.188], TAV:[neutral(70), sadness(60), surprise(40), joy(25), anger(20), fear(15), disgust(10)][A:0.236]]
+Video dia249_utt5.mp4: GT:joy, Ensemble:joy(0.4), Secondary:surprise(0.3), Modalities:[T:[joy(85), surprise(40), neutral(20)][A:0.508], A:[neutral(90)][A:0.298], V:[surprise(85), joy(60), disgust(25), sadness(20)][A:0.188], TAV:[surprise(75), joy(60), neutral(50)][A:0.236]]
+Video dia249_utt4.mp4: GT:neutral, Ensemble:surprise(0.4), Secondary:neutral(0.3), Modalities:[T:[neutral(88)][A:0.508], A:[surprise(85)][A:0.298], V:[joy(92), surprise(68)][A:0.188], TAV:[joy(90), surprise(85)][A:0.236]]
+Video dia174_utt17.mp4: GT:sadness, Ensemble:neutral(0.4), Secondary:joy(0.3), Modalities:[T:[neutral(75)][A:0.508], A:[sadness(60), anger(40)][A:0.298], V:[joy(92)][A:0.188], TAV:[joy(75), sadness(60), neutral(50)][A:0.236]]
+Video dia126_utt4.mp4: GT:fear, Ensemble:fear(0.3), Secondary:surprise(0.3), Modalities:[T:[fear(85), surprise(60)][A:0.508], A:[joy(92)][A:0.298], V:[surprise(86), fear(72), sadness(45), anger(25), neutral(18), joy(15), disgust(12)][A:0.188], TAV:[fear(85), surprise(75), anger(40), neutral(30), joy(25), sadness(20), disgust(10)][A:0.236]]
+Video dia254_utt12.mp4: GT:neutral, Ensemble:joy(0.3), Secondary:neutral(0.2), Modalities:[T:[neutral(70), joy(40)][A:0.508], A:[joy(85)][A:0.298], V:[surprise(78), disgust(65), anger(55), fear(50), joy(40), sadness(30), neutral(20)][A:0.188], TAV:[surprise(65), fear(60), anger(55), joy(40), disgust(35), neutral(25), sadness(20)][A:0.236]]
+Video dia129_utt0.mp4: GT:joy, Ensemble:joy(0.6), Secondary:surprise(0.2), Modalities:[T:[joy(70), neutral(60)][A:0.508], A:[joy(92)][A:0.298], V:[surprise(85), joy(60), sadness(25)][A:0.188], TAV:[surprise(70), joy(60)][A:0.236]]
+Video dia143_utt4.mp4: GT:neutral, Ensemble:surprise(0.2), Secondary:sadness(0.2), Modalities:[T:[surprise(75), neutral(25)][A:0.508], A:[anger(65), sadness(50), fear(30), disgust(20)][A:0.298], V:[joy(85), neutral(60), sadness(40), surprise(25), anger(15), fear(15), disgust(10)][A:0.188], TAV:[sadness(65), neutral(40), anger(25), joy(20), fear(15), surprise(10), disgust(5)][A:0.236]]
+Video dia143_utt5.mp4: GT:fear, Ensemble:sadness(0.3), Secondary:joy(0.3), Modalities:[T:[fear(75), sadness(70)][A:0.508], A:[neutral(70), sadness(30)][A:0.298], V:[joy(90), surprise(50)][A:0.188], TAV:[joy(92)][A:0.236]]
+Video dia129_utt1.mp4: GT:surprise, Ensemble:surprise(0.4), Secondary:fear(0.3), Modalities:[T:[surprise(85), fear(78)][A:0.508], A:[anger(75), sadness(40), neutral(20)][A:0.298], V:[surprise(70), anger(40), fear(25), neutral(20), joy(5), disgust(8), sadness(10)][A:0.188], TAV:[anger(85), surprise(60), fear(40)][A:0.236]]
+Video dia205_utt0.mp4: GT:surprise, Ensemble:anger(0.3), Secondary:surprise(0.3), Modalities:[T:[anger(70), surprise(40), neutral(15)][A:0.508], A:[anger(55), sadness(40), disgust(25), fear(20)][A:0.298], V:[surprise(75), disgust(40), joy(35), sadness(20), fear(15), anger(10), neutral(10)][A:0.188], TAV:[surprise(70), anger(65), disgust(40), sadness(35), fear(20), neutral(10), joy(5)][A:0.236]]
+Video dia37_utt4.mp4: GT:anger, Ensemble:anger(0.4), Secondary:joy(0.2), Modalities:[T:[anger(70), neutral(25)][A:0.508], A:[joy(90)][A:0.298], V:[disgust(92), anger(60)][A:0.188], TAV:[anger(75), surprise(60), neutral(40), joy(30), sadness(25), fear(15), disgust(10)][A:0.236]]
+Video dia247_utt3.mp4: GT:joy, Ensemble:neutral(0.5), Secondary:joy(0.4), Modalities:[T:[neutral(60), surprise(25), joy(15)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(90), surprise(50)][A:0.188], TAV:[joy(92)][A:0.236]]
+Video dia154_utt1.mp4: GT:joy, Ensemble:joy(0.4), Secondary:neutral(0.3), Modalities:[T:[neutral(85)][A:0.508], A:[joy(85)][A:0.298], V:[surprise(85), joy(40)][A:0.188], TAV:[joy(85), surprise(70)][A:0.236]]
+Video dia180_utt8.mp4: GT:anger, Ensemble:joy(0.3), Secondary:anger(0.3), Modalities:[T:[neutral(60), joy(25), surprise(10), sadness(5)][A:0.508], A:[anger(92)][A:0.298], V:[joy(82), surprise(65)][A:0.188], TAV:[joy(85), anger(70), surprise(30)][A:0.236]]
+Video dia100_utt13.mp4: GT:neutral, Ensemble:joy(0.5), Secondary:neutral(0.3), Modalities:[T:[neutral(80), joy(20)][A:0.508], A:[joy(95)][A:0.298], V:[joy(72), surprise(68), anger(25), sadness(12), fear(10)][A:0.188], TAV:[joy(90), surprise(65)][A:0.236]]
+Video dia180_utt9.mp4: GT:disgust, Ensemble:anger(0.3), Secondary:neutral(0.2), Modalities:[T:[anger(60), disgust(55), neutral(20)][A:0.508], A:[sadness(75), neutral(65)][A:0.298], V:[joy(85), surprise(75), anger(50), sadness(45), disgust(40), fear(35)][A:0.188], TAV:[anger(78), neutral(65), sadness(42), disgust(25), fear(15), surprise(12), joy(10)][A:0.236]]
+Video dia174_utt18.mp4: GT:neutral, Ensemble:neutral(0.5), Secondary:sadness(0.2), Modalities:[T:[neutral(85), surprise(15)][A:0.508], A:[neutral(95)][A:0.298], V:[sadness(85), disgust(70)][A:0.188], TAV:[neutral(60), joy(40), sadness(35), anger(20), surprise(20), fear(15), disgust(15)][A:0.236]]
+Video dia154_utt0.mp4: GT:joy, Ensemble:neutral(0.5), Secondary:joy(0.2), Modalities:[T:[neutral(75)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(85), surprise(60), neutral(50), sadness(25), anger(10), fear(5), disgust(5)][A:0.188], TAV:[joy(70), sadness(60), surprise(25)][A:0.236]]
+Video dia143_utt6.mp4: GT:surprise, Ensemble:surprise(0.4), Secondary:joy(0.2), Modalities:[T:[surprise(85), fear(25), anger(20)][A:0.508], A:[joy(90)][A:0.298], V:[neutral(85), sadness(10), disgust(5)][A:0.188], TAV:[surprise(85), neutral(70), joy(40), fear(25), sadness(15)][A:0.236]]
+Video dia247_utt2.mp4: GT:neutral, Ensemble:surprise(0.3), Secondary:joy(0.2), Modalities:[T:[neutral(60)][A:0.508], A:[anger(75), sadness(30), disgust(25)][A:0.298], V:[surprise(85), joy(70)][A:0.188], TAV:[joy(92), surprise(85)][A:0.236]]
+Video dia205_utt1.mp4: GT:anger, Ensemble:surprise(0.4), Secondary:neutral(0.2), Modalities:[T:[surprise(70), neutral(60)][A:0.508], A:[fear(70), sadness(50), anger(20), disgust(15), joy(5), surprise(5)][A:0.298], V:[surprise(70), anger(40), fear(25), joy(15)][A:0.188], TAV:[surprise(75), anger(65)][A:0.236]]
+Video dia230_utt7.mp4: GT:neutral, Ensemble:anger(0.4), Secondary:disgust(0.2), Modalities:[T:[anger(85), neutral(20)][A:0.508], A:[anger(65), sadness(45), fear(35), neutral(20), disgust(15)][A:0.298], V:[disgust(82), surprise(70), fear(25), anger(18), sadness(12), joy(8), neutral(5)][A:0.188], TAV:[anger(85), disgust(70), surprise(30)][A:0.236]]
+Video dia143_utt2.mp4: GT:neutral, Ensemble:joy(0.5), Secondary:{
+  "emotions": [
+    {
+      "emotion": "joy",
+      "confidence": 75
+    },
+    {
+      "emotion": "neutral",
+      "confidence": 25
+    }
+  ],
+  "primary_emotion": "joy",
+  "primary_confidence": 75,
+  "data_quality": {
+    "score": 60,
+    "issues": [
+      "brief content",
+      "whispered speech may reduce cues",
+      "limited context"
+    ],
+    "reasoning": "transcript is short and lacks multimodal cues; whispering can reduce intelligibility and emotional cue richness, limiting accuracy."
+  },
+  "reasoning": "positive sentiment expressed by the speaker ("i would really love it") suggests joy with some neutral interpretation due to limited context."
+}(0.2), Modalities:[T:[{
+  "emotions": [
+    {
+      "emotion": "joy",
+      "confidence": 75
+    },
+    {
+      "emotion": "neutral",
+      "confidence": 25
+    }
+  ],
+  "primary_emotion": "joy",
+  "primary_confidence": 75,
+  "data_quality": {
+    "score": 60,
+    "issues": [
+      "brief content",
+      "whispered speech may reduce cues",
+      "limited context"
+    ],
+    "reasoning": "transcript is short and lacks multimodal cues; whispering can reduce intelligibility and emotional cue richness, limiting accuracy."
+  },
+  "reasoning": "positive sentiment expressed by the speaker ("i would really love it") suggests joy with some neutral interpretation due to limited context."
+}(50)][A:0.508], A:[joy(85), neutral(60), surprise(25), fear(15), sadness(10), anger(5), disgust(5)][A:0.298], V:[joy(88)][A:0.188], TAV:[joy(90), surprise(60)][A:0.236]]
+Video dia100_utt17.mp4: GT:neutral, Ensemble:neutral(0.4), Secondary:surprise(0.2), Modalities:[T:[surprise(40), neutral(35), fear(10), sadness(8), disgust(4), anger(3)][A:0.508], A:[neutral(95)][A:0.298], V:[sadness(85), surprise(50), anger(30), fear(25), disgust(20), joy(15), neutral(5)][A:0.188], TAV:[neutral(70), joy(65), sadness(60), surprise(20)][A:0.236]]
+Video dia279_utt6.mp4: GT:neutral, Ensemble:neutral(0.6), Secondary:surprise(0.2), Modalities:[T:[neutral(70)][A:0.508], A:[neutral(75), sadness(25)][A:0.298], V:[surprise(90), joy(75), disgust(40)][A:0.188], TAV:[neutral(70), surprise(20), joy(15), disgust(8), sadness(5), fear(3), anger(2)][A:0.236]]
+Video dia90_utt2.mp4: GT:surprise, Ensemble:neutral(0.5), Secondary:sadness(0.2), Modalities:[T:[neutral(85), surprise(25)][A:0.508], A:[neutral(85), sadness(20), disgust(5), surprise(5), anger(5), fear(5), joy(5)][A:0.298], V:[sadness(72), fear(60), neutral(40), surprise(25)][A:0.188], TAV:[sadness(70), surprise(60), neutral(50)][A:0.236]]
+Video dia143_utt3.mp4: GT:sadness, Ensemble:neutral(0.4), Secondary:fear(0.2), Modalities:[T:[fear(60), neutral(30), sadness(10)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(75), surprise(60), disgust(40), sadness(25), neutral(15)][A:0.188], TAV:[joy(65), surprise(55), neutral(40)][A:0.236]]
+Video dia37_utt2.mp4: GT:anger, Ensemble:anger(0.3), Secondary:neutral(0.3), Modalities:[T:[anger(85), fear(50)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(85), surprise(40), anger(25)][A:0.188], TAV:[joy(90), neutral(65)][A:0.236]]
+Video dia90_utt0.mp4: GT:neutral, Ensemble:neutral(0.5), Secondary:joy(0.3), Modalities:[T:[neutral(85)][A:0.508], A:[neutral(90)][A:0.298], V:[joy(85), surprise(70)][A:0.188], TAV:[joy(85), surprise(60)][A:0.236]]
+Video dia279_utt4.mp4: GT:anger, Ensemble:joy(0.4), Secondary:anger(0.2), Modalities:[T:[anger(70), neutral(40)][A:0.508], A:[joy(95)][A:0.298], V:[joy(85), surprise(60)][A:0.188], TAV:[joy(92), surprise(68)][A:0.236]]
+Video dia100_utt14.mp4: GT:fear, Ensemble:neutral(0.4), Secondary:surprise(0.2), Modalities:[T:[surprise(55), neutral(35)][A:0.508], A:[neutral(95)][A:0.298], V:[anger(65), sadness(25), disgust(20), surprise(15), neutral(10)][A:0.188], TAV:[sadness(70), neutral(60), joy(40), surprise(15)][A:0.236]]
+Video dia100_utt15.mp4: GT:fear, Ensemble:neutral(0.4), Secondary:joy(0.2), Modalities:[T:[neutral(60), fear(25), surprise(15)][A:0.508], A:[neutral(100)][A:0.298], V:[joy(75), surprise(65)][A:0.188], TAV:[joy(75), surprise(40)][A:0.236]]
+Video dia279_utt5.mp4: GT:neutral, Ensemble:neutral(0.5), Secondary:anger(0.2), Modalities:[T:[neutral(65), surprise(15)][A:0.508], A:[neutral(95)][A:0.298], V:[anger(70), sadness(40), disgust(30), surprise(25), fear(15), joy(15), neutral(8)][A:0.188], TAV:[anger(75), surprise(60), neutral(55)][A:0.236]]
+Video dia90_utt1.mp4: GT:anger, Ensemble:surprise(0.7), Secondary:joy(0.1), Modalities:[T:[surprise(85)][A:0.508], A:[surprise(92)][A:0.298], V:[joy(85), disgust(60), anger(40), neutral(20), surprise(15), fear(10), sadness(5)][A:0.188], TAV:[surprise(90)][A:0.236]]
+Video dia247_utt4.mp4: GT:surprise, Ensemble:surprise(0.3), Secondary:disgust(0.3), Modalities:[T:[surprise(65), neutral(40), joy(20)][A:0.508], A:[disgust(92)][A:0.298], V:[surprise(90), anger(75), fear(65), sadness(55), disgust(45), joy(30), neutral(20)][A:0.188], TAV:[disgust(90), anger(85), surprise(70)][A:0.236]]
+Video dia37_utt3.mp4: GT:fear, Ensemble:anger(0.4), Secondary:joy(0.2), Modalities:[T:[anger(75), surprise(45)][A:0.508], A:[anger(70), fear(40), sadness(35)][A:0.298], V:[joy(85), surprise(15)][A:0.188], TAV:[joy(75), surprise(25), neutral(5)][A:0.236]]
+Video dia269_utt1.mp4: GT:anger, Ensemble:joy(0.5), Secondary:anger(0.3), Modalities:[T:[anger(70), neutral(50)][A:0.508], A:[joy(90)][A:0.298], V:[joy(92)][A:0.188], TAV:[joy(92)][A:0.236]]
+Video dia240_utt6.mp4: GT:sadness, Ensemble:joy(0.3), Secondary:anger(0.3), Modalities:[T:[anger(78), neutral(42), surprise(22)][A:0.508], A:[joy(95)][A:0.298], V:[{
+  "emotions": [
+    {
+      "emotion": "sadness",
+      "confidence": 78
+    },
+    {
+      "emotion": "surprise",
+      "confidence": 52
+    }
+  ],
+  "primary_emotion": "sadness",
+  "primary_confidence": 78,
+  "data_quality": {
+    "score": 50,
+    "issues": ["face partially obscured by handheld mirror"],
+    "reasoning": "facial indicators for sadness are present (strong lip corner depressor) but the face is partially obscured by a mirror, reducing reliability of emotion inference."
+  ],
+  "reasoning": "the visible cues lean toward sadness, with minor cues that could imply surprise due to jaw drop and eyelid lift. obstruction by the mirror lowers certainty."
+}(50)][A:0.188], TAV:[joy(92), surprise(68)][A:0.236]]
+Video dia195_utt1.mp4: GT:neutral, Ensemble:joy(0.4), Secondary:neutral(0.3), Modalities:[T:[joy(80), neutral(60)][A:0.508], A:[joy(85), neutral(50)][A:0.298], V:[surprise(85), anger(60), joy(40)][A:0.188], TAV:[surprise(75), anger(40), joy(20)][A:0.236]]
+Video dia259_utt9.mp4: GT:disgust, Ensemble:anger(0.5), Secondary:joy(0.2), Modalities:[T:[anger(85), disgust(45)][A:0.508], A:[anger(85), sadness(60)][A:0.298], V:[joy(78), surprise(72)][A:0.188], TAV:[anger(85), joy(70), surprise(65)][A:0.236]]
+Video dia110_utt7.mp4: GT:joy, Ensemble:joy(0.6), Secondary:anger(0.2), Modalities:[T:[joy(65), neutral(35)][A:0.508], A:[anger(70), sadness(40), fear(25)][A:0.298], V:[joy(95)][A:0.188], TAV:[joy(85)][A:0.236]]
+Video dia111_utt7.mp4: GT:sadness, Ensemble:neutral(0.4), Secondary:surprise(0.3), Modalities:[T:[surprise(65), sadness(40), neutral(25)][A:0.508], A:[neutral(90)][A:0.298], V:[surprise(70), fear(40), anger(25), neutral(15), disgust(12), joy(8), sadness(5)][A:0.188], TAV:[neutral(70), sadness(35), surprise(25), fear(15), anger(10), joy(5), disgust(5)][A:0.236]]
+Video dia210_utt9.mp4: GT:neutral, Ensemble:neutral(0.5), Secondary:joy(0.3), Modalities:[T:[neutral(60)][A:0.508], A:[neutral(92)][A:0.298], V:[joy(92), surprise(38), disgust(12)][A:0.188], TAV:[joy(95), surprise(28)][A:0.236]]
+Video dia262_utt2.mp4: GT:joy, Ensemble:joy(0.6), Secondary:surprise(0.3), Modalities:[T:[joy(70), surprise(60)][A:0.508], A:[joy(85)][A:0.298], V:[joy(68), neutral(60)][A:0.188], TAV:[joy(85), surprise(60)][A:0.236]]
+Video dia183_utt6.mp4: GT:neutral, Ensemble:joy(0.5), Secondary:neutral(0.3), Modalities:[T:[joy(70), neutral(60)][A:0.508], A:[sadness(60), neutral(25), anger(15)][A:0.298], V:[joy(90), surprise(40)][A:0.188], TAV:[joy(85), surprise(25)][A:0.236]]
+Video dia210_utt8.mp4: GT:surprise, Ensemble:surprise(0.5), Secondary:anger(0.3), Modalities:[T:[surprise(85)][A:0.508], A:[neutral(100)][A:0.298], V:[anger(90), surprise(85)][A:0.188], TAV:[anger(88), surprise(82)][A:0.236]]
+Video dia125_utt22.mp4: GT:surprise, Ensemble:anger(0.3), Secondary:surprise(0.2), Modalities:[T:[surprise(45), anger(40), neutral(20), joy(15), fear(5), sadness(5), disgust(3)][A:0.508], A:[joy(85)][A:0.298], V:[anger(70), surprise(35), neutral(25), fear(15), disgust(10)][A:0.188], TAV:[anger(85), surprise(40), joy(20)][A:0.236]]
+Video dia259_utt8.mp4: GT:neutral, Ensemble:neutral(0.5), Secondary:joy(0.2), Modalities:[T:[neutral(70), anger(25)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(85), disgust(60), anger(55), surprise(40), fear(20), sadness(15), neutral(5)][A:0.188], TAV:[joy(78), neutral(60)][A:0.236]]
+Video dia195_utt0.mp4: GT:fear, Ensemble:neutral(0.4), Secondary:anger(0.3), Modalities:[T:[fear(60), neutral(40)][A:0.508], A:[anger(70), neutral(60)][A:0.298], V:[joy(78)][A:0.188], TAV:[anger(65), neutral(40), fear(15)][A:0.236]]
+Video dia240_utt7.mp4: GT:joy, Ensemble:joy(0.6), Secondary:surprise(0.2), Modalities:[T:[joy(85)][A:0.508], A:[joy(92)][A:0.298], V:[surprise(65), joy(60), anger(50), fear(25), sadness(25), disgust(15), neutral(10)][A:0.188], TAV:[joy(92), neutral(60), surprise(55)][A:0.236]]
+Video dia269_utt0.mp4: GT:neutral, Ensemble:neutral(0.3), Secondary:sadness(0.2), Modalities:[T:[neutral(90)][A:0.508], A:[anger(60), sadness(50), fear(40), disgust(20)][A:0.298], V:[disgust(70), sadness(50), joy(25), anger(15), fear(5)][A:0.188], TAV:[joy(70), neutral(60), disgust(45), sadness(40), anger(30), surprise(25), fear(15)][A:0.236]]
+Video dia68_utt13.mp4: GT:joy, Ensemble:neutral(0.4), Secondary:surprise(0.3), Modalities:[T:[surprise(60), neutral(35)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(92)][A:0.188], TAV:[joy(85), surprise(40), neutral(15)][A:0.236]]
+Video dia269_utt2.mp4: GT:joy, Ensemble:joy(0.7), Secondary:neutral(0.3), Modalities:[T:[joy(70)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(92), surprise(20)][A:0.188], TAV:[joy(95)][A:0.236]]
+Video dia237_utt4.mp4: GT:surprise, Ensemble:surprise(0.4), Secondary:fear(0.2), Modalities:[T:[surprise(65), fear(50), sadness(40), neutral(15), joy(5), anger(5), disgust(5)][A:0.508], A:[surprise(90)][A:0.298], V:[surprise(75), disgust(60), sadness(50), fear(45), joy(25), anger(25), neutral(20)][A:0.188], TAV:[surprise(90), fear(28), disgust(25), neutral(15)][A:0.236]]
+Video dia111_utt4.mp4: GT:sadness, Ensemble:anger(0.3), Secondary:surprise(0.3), Modalities:[T:[anger(70)][A:0.508], A:[neutral(70)][A:0.298], V:[joy(85), surprise(70)][A:0.188], TAV:[surprise(75), joy(55), neutral(25)][A:0.236]]
+Video dia125_utt20.mp4: GT:sadness, Ensemble:neutral(0.4), Secondary:sadness(0.2), Modalities:[T:[sadness(70), neutral(60)][A:0.508], A:[neutral(92)][A:0.298], V:[surprise(85), joy(70), fear(40), sadness(35), disgust(25), anger(20), neutral(10)][A:0.188], TAV:[neutral(70), joy(25), fear(15), sadness(12), surprise(10), anger(8), disgust(5)][A:0.236]]
+Video dia262_utt1.mp4: GT:joy, Ensemble:joy(0.3), Secondary:neutral(0.3), Modalities:[T:[joy(70), surprise(40), neutral(25)][A:0.508], A:[neutral(95)][A:0.298], V:[surprise(85), joy(70), disgust(40), sadness(30), fear(15), anger(10), neutral(5)][A:0.188], TAV:[joy(65), surprise(60), neutral(40), disgust(25), sadness(20), fear(10), anger(5)][A:0.236]]
+Video dia183_utt4.mp4: GT:neutral, Ensemble:anger(0.4), Secondary:neutral(0.4), Modalities:[T:[neutral(90)][A:0.508], A:[anger(90)][A:0.298], V:[surprise(90)][A:0.188], TAV:[anger(85), surprise(70)][A:0.236]]
+Video dia262_utt0.mp4: GT:neutral, Ensemble:neutral(0.6), Secondary:joy(0.4), Modalities:[T:[neutral(70)][A:0.508], A:[neutral(90)][A:0.298], V:[joy(85), surprise(40)][A:0.188], TAV:[joy(92)][A:0.236]]
+Video dia183_utt5.mp4: GT:neutral, Ensemble:anger(0.3), Secondary:neutral(0.3), Modalities:[T:[neutral(60), surprise(25), fear(5), sadness(5), joy(5)][A:0.508], A:[anger(90)][A:0.298], V:[surprise(85), neutral(65), joy(40), fear(25), disgust(20), anger(15), sadness(10)][A:0.188], TAV:[anger(85), disgust(70), surprise(30)][A:0.236]]
+Video dia166_utt4.mp4: GT:sadness, Ensemble:anger(0.4), Secondary:neutral(0.2), Modalities:[T:[neutral(60), fear(40)][A:0.508], A:[anger(92)][A:0.298], V:[surprise(90), anger(50), fear(25), disgust(20), sadness(15), neutral(10), joy(5)][A:0.188], TAV:[anger(85), surprise(40), neutral(25)][A:0.236]]
+Video dia125_utt21.mp4: GT:sadness, Ensemble:neutral(0.4), Secondary:sadness(0.3), Modalities:[T:[sadness(75), neutral(35)][A:0.508], A:[neutral(93)][A:0.298], V:[joy(85), surprise(60), neutral(50), fear(25), sadness(20), anger(20), disgust(15)][A:0.188], TAV:[neutral(70), sadness(60), joy(50), surprise(30), fear(25), anger(20), disgust(10)][A:0.236]]
+Video dia111_utt5.mp4: GT:anger, Ensemble:disgust(0.3), Secondary:neutral(0.2), Modalities:[T:[anger(78), disgust(35), neutral(20)][A:0.508], A:[neutral(85)][A:0.298], V:[disgust(75), surprise(60), neutral(50), sadness(45), fear(30), anger(20), joy(10)][A:0.188], TAV:[disgust(85), surprise(60)][A:0.236]]
+Video dia120_utt16.mp4: GT:anger, Ensemble:neutral(0.3), Secondary:joy(0.3), Modalities:[T:[neutral(85)][A:0.508], A:[sadness(60), fear(40), anger(20)][A:0.298], V:[joy(85), surprise(45)][A:0.188], TAV:[joy(85), surprise(25)][A:0.236]]
+Video dia68_utt14.mp4: GT:neutral, Ensemble:neutral(0.3), Secondary:surprise(0.3), Modalities:[T:[neutral(45), surprise(35), anger(15), fear(10), sadness(5), joy(5)][A:0.508], A:[neutral(90)][A:0.298], V:[joy(75), surprise(40), anger(20)][A:0.188], TAV:[joy(85), surprise(60)][A:0.236]]
+Video dia275_utt2.mp4: GT:neutral, Ensemble:neutral(0.6), Secondary:surprise(0.3), Modalities:[T:[neutral(50)][A:0.508], A:[neutral(85), joy(25)][A:0.298], V:[surprise(85), joy(40)][A:0.188], TAV:[surprise(90), neutral(60)][A:0.236]]
+Video dia159_utt1.mp4: GT:anger, Ensemble:neutral(0.3), Secondary:joy(0.2), Modalities:[T:[neutral(75), fear(40)][A:0.508], A:[joy(90)][A:0.298], V:[sadness(70), neutral(60), fear(40), surprise(20), anger(15)][A:0.188], TAV:[sadness(70), surprise(40), joy(30), neutral(25), fear(15), anger(15), disgust(5)][A:0.236]]
+Video dia169_utt10.mp4: GT:anger, Ensemble:neutral(0.4), Secondary:joy(0.2), Modalities:[T:[neutral(60), anger(25), surprise(15)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(85), surprise(60)][A:0.188], TAV:[joy(78), surprise(65), neutral(55), fear(40), sadness(15), disgust(5), anger(5)][A:0.236]]
+Video dia169_utt9.mp4: GT:anger, Ensemble:joy(0.5), Secondary:surprise(0.2), Modalities:[T:[neutral(55), joy(15), surprise(10), anger(5), fear(4), sadness(4), disgust(3)][A:0.508], A:[joy(92)][A:0.298], V:[joy(85), surprise(60), anger(15), fear(12), sadness(10), disgust(6)][A:0.188], TAV:[joy(85), surprise(60)][A:0.236]]
+Video dia239_utt8.mp4: GT:neutral, Ensemble:neutral(0.4), Secondary:joy(0.2), Modalities:[T:[neutral(85)][A:0.508], A:[fear(75), sadness(55)][A:0.298], V:[joy(85), surprise(25)][A:0.188], TAV:[joy(65), neutral(55), surprise(30), fear(20), sadness(15), anger(5), disgust(5)][A:0.236]]
+Video dia239_utt9.mp4: GT:neutral, Ensemble:neutral(0.3), Secondary:joy(0.2), Modalities:[T:[neutral(60)][A:0.508], A:[anger(65), sadness(50), fear(30), disgust(25), neutral(15)][A:0.298], V:[joy(95)][A:0.188], TAV:[joy(65), surprise(55), disgust(50), fear(40), neutral(35), sadness(20), anger(15)][A:0.236]]
+Video dia13_utt2.mp4: GT:neutral, Ensemble:neutral(0.6), Secondary:joy(0.2), Modalities:[T:[neutral(75)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(85), surprise(60), disgust(25), anger(20), fear(15), sadness(10)][A:0.188], TAV:[joy(80), neutral(75), surprise(35)][A:0.236]]
+Video dia169_utt8.mp4: GT:surprise, Ensemble:surprise(0.6), Secondary:fear(0.2), Modalities:[T:[surprise(70), fear(40), neutral(10)][A:0.508], A:[surprise(85)][A:0.298], V:[surprise(60), anger(25), fear(15), neutral(8), joy(2)][A:0.188], TAV:[surprise(85), fear(60), anger(40), joy(15), disgust(10), sadness(5), neutral(5)][A:0.236]]
+Video dia159_utt0.mp4: GT:anger, Ensemble:anger(0.7), Secondary:surprise(0.2), Modalities:[T:[anger(85)][A:0.508], A:[sadness(65), anger(40)][A:0.298], V:[surprise(85), anger(80)][A:0.188], TAV:[anger(92), surprise(40)][A:0.236]]
+Video dia120_utt17.mp4: GT:anger, Ensemble:anger(0.4), Secondary:neutral(0.3), Modalities:[T:[anger(75), neutral(15), fear(5)][A:0.508], A:[neutral(95)][A:0.298], V:[anger(85), surprise(50), joy(40), sadness(35), neutral(30), fear(20), disgust(15)][A:0.188], TAV:[anger(85), neutral(60), surprise(25)][A:0.236]]
+Video dia189_utt1.mp4: GT:joy, Ensemble:sadness(0.3), Secondary:surprise(0.2), Modalities:[T:[joy(60), surprise(50), neutral(25)][A:0.508], A:[sadness(70), neutral(50), anger(25), fear(15), disgust(10), joy(5), surprise(5)][A:0.298], V:[sadness(60), surprise(25)][A:0.188], TAV:[sadness(70), surprise(40), fear(20), neutral(15), anger(10), disgust(5), joy(5)][A:0.236]]
+Video dia275_utt1.mp4: GT:neutral, Ensemble:joy(0.4), Secondary:surprise(0.3), Modalities:[T:[neutral(60)][A:0.508], A:[joy(85)][A:0.298], V:[surprise(85)][A:0.188], TAV:[joy(70), surprise(65)][A:0.236]]
+Video dia237_utt2.mp4: GT:neutral, Ensemble:neutral(0.4), Secondary:joy(0.2), Modalities:[T:[neutral(25)][A:0.508], A:[neutral(90)][A:0.298], V:[joy(70), surprise(65), fear(40), sadness(35), disgust(30), anger(25), neutral(10)][A:0.188], TAV:[neutral(85), joy(70), surprise(60)][A:0.236]]
+Video dia13_utt0.mp4: GT:neutral, Ensemble:surprise(0.3), Secondary:sadness(0.2), Modalities:[T:[neutral(60), surprise(25), sadness(5), fear(5), joy(3), anger(1), disgust(1)][A:0.508], A:[sadness(85), anger(40)][A:0.298], V:[surprise(90)][A:0.188], TAV:[surprise(80), sadness(50), anger(35), neutral(30), disgust(20), fear(15), joy(10)][A:0.236]]
+Video dia17_utt18.mp4: GT:neutral, Ensemble:neutral(0.5), Secondary:surprise(0.3), Modalities:[T:[neutral(70)][A:0.508], A:[neutral(85), joy(60)][A:0.298], V:[surprise(85)][A:0.188], TAV:[surprise(85)][A:0.236]]
+Video dia166_utt3.mp4: GT:anger, Ensemble:anger(0.5), Secondary:joy(0.2), Modalities:[T:[anger(92)][A:0.508], A:[sadness(70), anger(50), neutral(40)][A:0.298], V:[joy(85)][A:0.188], TAV:[anger(85), joy(70), disgust(50), surprise(40), neutral(25), fear(15), sadness(15)][A:0.236]]
+Video dia166_utt2.mp4: GT:surprise, Ensemble:anger(0.4), Secondary:neutral(0.3), Modalities:[T:[neutral(55), fear(25), surprise(15), anger(5)][A:0.508], A:[anger(90), sadness(40)][A:0.298], V:[anger(80), surprise(60), disgust(25)][A:0.188], TAV:[anger(88), neutral(60)][A:0.236]]
+Video dia13_utt1.mp4: GT:neutral, Ensemble:neutral(0.6), Secondary:joy(0.3), Modalities:[T:[neutral(60)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(85), neutral(25), anger(15), surprise(10), fear(5), disgust(5), sadness(5)][A:0.188], TAV:[joy(90), neutral(70)][A:0.236]]
+Video dia111_utt3.mp4: GT:anger, Ensemble:anger(0.4), Secondary:surprise(0.3), Modalities:[T:[surprise(85)][A:0.508], A:[anger(90), sadness(30)][A:0.298], V:[anger(85), disgust(60), joy(50), fear(25), sadness(25), surprise(15), neutral(10)][A:0.188], TAV:[anger(92)][A:0.236]]
+Video dia244_utt8.mp4: GT:anger, Ensemble:joy(0.3), Secondary:neutral(0.2), Modalities:[T:[joy(72)][A:0.508], A:[neutral(92)][A:0.298], V:[surprise(70), joy(65), disgust(50), anger(40), fear(30), sadness(20), neutral(15)][A:0.188], TAV:[neutral(70), surprise(60), disgust(55), anger(50), fear(30), joy(25), sadness(20)][A:0.236]]
+Video dia237_utt3.mp4: GT:disgust, Ensemble:joy(0.5), Secondary:neutral(0.2), Modalities:[T:[joy(85), neutral(60)][A:0.508], A:[joy(85)][A:0.298], V:[disgust(85), surprise(60), anger(45), fear(30), joy(25), sadness(20), neutral(10)][A:0.188], TAV:[joy(85), surprise(60)][A:0.236]]
+Video dia133_utt7.mp4: GT:neutral, Ensemble:neutral(0.5), Secondary:surprise(0.2), Modalities:[T:[neutral(72)][A:0.508], A:[neutral(92)][A:0.298], V:[surprise(80), joy(65), neutral(25), fear(15), anger(15), sadness(10), disgust(5)][A:0.188], TAV:[surprise(85), joy(70)][A:0.236]]
+Video dia97_utt7.mp4: GT:neutral, Ensemble:anger(0.6), Secondary:joy(0.3), Modalities:[T:[anger(85)][A:0.508], A:[anger(75), sadness(25)][A:0.298], V:[joy(95)][A:0.188], TAV:[joy(85), anger(60)][A:0.236]]
+Video dia275_utt0.mp4: GT:neutral, Ensemble:neutral(0.6), Secondary:joy(0.2), Modalities:[T:[neutral(85)][A:0.508], A:[neutral(95)][A:0.298], V:[joy(85), surprise(70)][A:0.188], TAV:[joy(90), surprise(70), neutral(60)][A:0.236]]
+Video dia189_utt0.mp4: GT:joy, Ensemble:joy(0.2), Secondary:neutral(0.2), Modalities:[T:[neutral(70), joy(25)][A:0.508], A:[joy(92)][A:0.298], V:[surprise(85), sadness(70), disgust(60), fear(50), anger(20), joy(10), neutral(5)][A:0.188], TAV:[surprise(85), sadness(70), disgust(60), joy(50), anger(45), fear(40), neutral(10)][A:0.236]]
+
+EVALUATION METRICS
+=================
+
+One-Shot Accuracy (Primary Only): 0.42
+Two-Shot Accuracy (Primary or Secondary): 0.64
+Three-Shot Accuracy (Top 3): 0.76
+Four-Shot Accuracy (Top 4): 0.87
+Five-Shot Accuracy (Top 5): 0.91
+Overall Accuracy: 0.42
+Label: disgust -> Precision: 0.50, Recall: 0.07, F1 Score: 0.12, Support: 15
+Label: surprise -> Precision: 0.52, Recall: 0.67, F1 Score: 0.58, Support: 24
+Label: anger -> Precision: 0.30, Recall: 0.32, F1 Score: 0.31, Support: 28
+Label: joy -> Precision: 0.37, Recall: 0.70, F1 Score: 0.48, Support: 23
+Label: fear -> Precision: 0.38, Recall: 0.21, F1 Score: 0.27, Support: 14
+Label: sadness -> Precision: 0.11, Recall: 0.05, F1 Score: 0.07, Support: 20
+Label: neutral -> Precision: 0.51, Recall: 0.52, F1 Score: 0.52, Support: 67

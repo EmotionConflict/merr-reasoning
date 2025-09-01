@@ -188,15 +188,19 @@ IMPORTANT:
             "ground_truth": sample.get("true_label", "").strip().lower()
         }
 
-def ensemble_predictions(modality_results, use_all_emotions=False, use_data_quality=False):
+def ensemble_predictions(modality_results, use_all_emotions=False, use_data_quality=False, use_accuracy_mask=False, use_sabotage_mask=False, dataset_accuracy_weights=None, dataset_sabotage_weights=None):
     """
     Ensemble predictions from all modalities to produce final emotion prediction.
-    Uses weighted voting based on confidence scores and optionally data quality.
+    Uses weighted voting based on confidence scores and optionally data quality, accuracy, and sabotage masks.
     
     Args:
         modality_results: List of modality prediction results
         use_all_emotions: If True, use all emotions from each modality. If False, use only primary emotion.
         use_data_quality: If True, weight predictions by data quality score in addition to confidence.
+        use_accuracy_mask: If True, weight predictions by modality accuracy scores.
+        use_sabotage_mask: If True, weight predictions by sabotage penalty (1 - sabotage percentage).
+        dataset_accuracy_weights: Dict mapping modality to accuracy score (e.g., {"T": 0.186, "A": 0.250, "V": 0.483, "TAV": 0.333})
+        dataset_sabotage_weights: Dict mapping modality to sabotage penalty (e.g., {"T": 0.883, "A": 0.383, "V": 0.783, "TAV": 0.683})
     """
     emotion_scores = defaultdict(float)
     total_weight = 0
@@ -204,9 +208,24 @@ def ensemble_predictions(modality_results, use_all_emotions=False, use_data_qual
     # Collect all emotion predictions with their weighted scores
     for result in modality_results:
         if result["primary_emotion"] != "error":
+            modality = result["modality"]
+            
             # Get data quality weight (1.0 if not using data quality, or quality_score/100 if using)
             data_quality_score = float(result.get("data_quality", {}).get("score", 50))
             quality_weight = data_quality_score / 100.0 if use_data_quality else 1.0
+            
+            # Get accuracy weight (1.0 if not using accuracy mask, or accuracy_score if using)
+            accuracy_weight = 1.0
+            if use_accuracy_mask and dataset_accuracy_weights and modality in dataset_accuracy_weights:
+                accuracy_weight = dataset_accuracy_weights[modality]
+            
+            # Get sabotage weight (1.0 if not using sabotage mask, or sabotage_penalty if using)
+            sabotage_weight = 1.0
+            if use_sabotage_mask and dataset_sabotage_weights and modality in dataset_sabotage_weights:
+                sabotage_weight = dataset_sabotage_weights[modality]
+            
+            # Combine all weights
+            combined_weight = quality_weight * accuracy_weight * sabotage_weight
             
             if use_all_emotions:
                 # Use all emotions from the modality
@@ -216,8 +235,8 @@ def ensemble_predictions(modality_results, use_all_emotions=False, use_data_qual
                     if emotion and isinstance(emotion, str):
                         emotion = emotion.lower()
                         if emotion and confidence > 0:
-                            # Weight by both confidence and data quality
-                            weighted_score = confidence * quality_weight
+                            # Weight by confidence, data quality, accuracy, and sabotage penalty
+                            weighted_score = confidence * combined_weight
                             emotion_scores[emotion] += weighted_score
                             total_weight += weighted_score
             else:
@@ -226,8 +245,8 @@ def ensemble_predictions(modality_results, use_all_emotions=False, use_data_qual
                 emotion = result["primary_emotion"]
                 if emotion and isinstance(emotion, str):
                     emotion = emotion.lower()
-                    # Weight by both confidence and data quality
-                    weighted_score = confidence * quality_weight
+                    # Weight by confidence, data quality, accuracy, and sabotage penalty
+                    weighted_score = confidence * combined_weight
                     emotion_scores[emotion] += weighted_score
                     total_weight += weighted_score
     
@@ -248,7 +267,7 @@ def ensemble_predictions(modality_results, use_all_emotions=False, use_data_qual
     else:
         return "neutral", 0, "neutral", 0, {}
 
-def process_sample_ensemble(sample, model, i, dataset, use_all_emotions=False, use_data_quality=False):
+def process_sample_ensemble(sample, model, i, dataset, use_all_emotions=False, use_data_quality=False, use_accuracy_mask=False, use_sabotage_mask=False, dataset_accuracy_weights=None, dataset_sabotage_weights=None):
     """
     Process a single sample through all modalities and ensemble the results.
     
@@ -259,6 +278,10 @@ def process_sample_ensemble(sample, model, i, dataset, use_all_emotions=False, u
         dataset: Dataset name (MELD, IEMOCAP, MER, MERR)
         use_all_emotions: If True, use all emotions from each modality. If False, use only primary emotion.
         use_data_quality: If True, weight predictions by data quality score in addition to confidence.
+        use_accuracy_mask: If True, weight predictions by modality accuracy scores.
+        use_sabotage_mask: If True, weight predictions by sabotage penalty (1 - sabotage percentage).
+        dataset_accuracy_weights: Dict mapping modality to accuracy score.
+        dataset_sabotage_weights: Dict mapping modality to sabotage penalty.
     """
     modalities = ["T", "A", "V", "TAV"]
     modality_results = []
@@ -269,7 +292,10 @@ def process_sample_ensemble(sample, model, i, dataset, use_all_emotions=False, u
         modality_results.append(result)
     
     # Ensemble the results
-    primary_emotion, primary_confidence, secondary_emotion, secondary_confidence, emotion_scores = ensemble_predictions(modality_results, use_all_emotions, use_data_quality)
+    primary_emotion, primary_confidence, secondary_emotion, secondary_confidence, emotion_scores = ensemble_predictions(
+        modality_results, use_all_emotions, use_data_quality, use_accuracy_mask, use_sabotage_mask, 
+        dataset_accuracy_weights, dataset_sabotage_weights
+    )
     
     # Create comprehensive result
     ensemble_result = {
@@ -282,7 +308,9 @@ def process_sample_ensemble(sample, model, i, dataset, use_all_emotions=False, u
         "ensemble_secondary_confidence": secondary_confidence,
         "emotion_scores": emotion_scores,
         "ensemble_mode": "all_emotions" if use_all_emotions else "primary_only",
-        "data_quality_weighting": "enabled" if use_data_quality else "disabled"
+        "data_quality_weighting": "enabled" if use_data_quality else "disabled",
+        "accuracy_weighting": "enabled" if use_accuracy_mask else "disabled",
+        "sabotage_weighting": "enabled" if use_sabotage_mask else "disabled"
     }
     
     return primary_emotion, ensemble_result
@@ -298,12 +326,80 @@ def main():
     parser.add_argument("--workers", type=int, default=4, help="Number of concurrent API calls (reduced for ensemble)")
     parser.add_argument("--use-all-emotions", action="store_true", help="Use all emotions from each modality instead of just primary emotion")
     parser.add_argument("--use-data-quality", action="store_true", help="Weight predictions by data quality score in addition to confidence")
+    parser.add_argument("--use-accuracy-mask", action="store_true", help="Weight predictions by modality accuracy scores")
+    parser.add_argument("--use-sabotage-mask", action="store_true", help="Weight predictions by sabotage penalty (1 - sabotage percentage)")
     args = parser.parse_args()
     
     selected_model = args.model
     input_file = args.input
     use_all_emotions = args.use_all_emotions
     use_data_quality = args.use_data_quality
+    use_accuracy_mask = args.use_accuracy_mask
+    use_sabotage_mask = args.use_sabotage_mask
+    
+    # Define dataset-specific accuracy and sabotage weights based on the provided data
+    dataset_accuracy_weights = {}
+    dataset_sabotage_weights = {}
+    
+    if args.dataset == "MER":
+        # MER dataset accuracy weights (from GPT-5-nano results)
+        dataset_accuracy_weights = {
+            "T": 0.186,    # 18.6%
+            "A": 0.250,    # 25.0%
+            "V": 0.483,    # 48.3%
+            "TAV": 0.333   # 33.3%
+        }
+        # Sabotage penalty weights (1 - sabotage percentage)
+        dataset_sabotage_weights = {
+            "T": 0.883,    # 1 - 0.117 (7/60)
+            "A": 0.383,    # 1 - 0.617 (37/60)
+            "V": 0.783,    # 1 - 0.217 (13/60)
+            "TAV": 0.683   # 1 - 0.317 (19/60)
+        }
+    elif args.dataset == "MELD":
+        # MELD dataset accuracy weights
+        dataset_accuracy_weights = {
+            "T": 0.508,    # 50.8%
+            "A": 0.298,    # 29.8%
+            "V": 0.188,    # 18.8%
+            "TAV": 0.236   # 23.6%
+        }
+        # Sabotage penalty weights
+        dataset_sabotage_weights = {
+            "T": 0.885,    # 1 - 0.115 (22/191)
+            "A": 0.518,    # 1 - 0.482 (92/191)
+            "V": 0.529,    # 1 - 0.471 (90/191)
+            "TAV": 0.576   # 1 - 0.424 (81/191)
+        }
+    elif args.dataset == "IEMOCAP":
+        # IEMOCAP dataset accuracy weights
+        dataset_accuracy_weights = {
+            "T": 0.326,    # 32.6%
+            "A": 0.248,    # 24.8%
+            "V": 0.171,    # 17.1%
+            "TAV": 0.279   # 27.9%
+        }
+        # Sabotage penalty weights
+        dataset_sabotage_weights = {
+            "T": 0.837,    # 1 - 0.163 (21/129)
+            "A": 0.403,    # 1 - 0.597 (77/129)
+            "V": 0.488,    # 1 - 0.512 (66/129)
+            "TAV": 0.543   # 1 - 0.457 (59/129)
+        }
+    elif args.dataset == "MERR":
+        # MERR dataset - using default weights (can be updated when data is available)
+        dataset_accuracy_weights = {
+            "T": 0.5,      # Default 50%
+            "A": 0.5,      # Default 50%
+            "V": 0.5,      # Default 50%
+            "TAV": 0.5     # Default 50%
+        }
+        dataset_sabotage_weights = {
+            "T": 0.8,      # Default 80%
+            "A": 0.8,      # Default 80%
+            "V": 0.8,      # Default 80%
+            "TAV": 0.8     # Default 80%
+        }
     
     # Create ensemble suffix based on flags
     ensemble_parts = []
@@ -314,6 +410,12 @@ def main():
     
     if use_data_quality:
         ensemble_parts.append("with_quality")
+    
+    if use_accuracy_mask:
+        ensemble_parts.append("with_accuracy")
+    
+    if use_sabotage_mask:
+        ensemble_parts.append("with_sabotage")
     
     ensemble_suffix = "_".join(ensemble_parts)
     
@@ -335,7 +437,15 @@ def main():
     
     print(f"Ensemble mode: {'All emotions' if use_all_emotions else 'Primary emotion only'}")
     print(f"Data quality weighting: {'Enabled' if use_data_quality else 'Disabled'}")
+    print(f"Accuracy weighting: {'Enabled' if use_accuracy_mask else 'Disabled'}")
+    print(f"Sabotage weighting: {'Enabled' if use_sabotage_mask else 'Disabled'}")
     print(f"Output file: {output_file_name}")
+    
+    # Print the weights being used
+    if use_accuracy_mask:
+        print(f"Accuracy weights: {dataset_accuracy_weights}")
+    if use_sabotage_mask:
+        print(f"Sabotage penalty weights: {dataset_sabotage_weights}")
     
     predictions = []
     secondary_predictions = []
@@ -349,7 +459,11 @@ def main():
     # Process each sample with ensemble approach
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
         results_iter = executor.map(
-            lambda args_pair: process_sample_ensemble(args_pair[1], selected_model, args_pair[0], args.dataset, use_all_emotions, use_data_quality),
+            lambda args_pair: process_sample_ensemble(
+                args_pair[1], selected_model, args_pair[0], args.dataset, 
+                use_all_emotions, use_data_quality, use_accuracy_mask, use_sabotage_mask,
+                dataset_accuracy_weights, dataset_sabotage_weights
+            ),
             enumerate(data)
         )
         for i, (predicted, ensemble_result) in enumerate(results_iter):
@@ -392,6 +506,16 @@ def main():
                 if use_data_quality:
                     quality_score = mod_result.get("data_quality", {}).get("score", 50)
                     modality_str += f"[Q:{quality_score}]"
+                
+                # Add accuracy info if enabled
+                if use_accuracy_mask and dataset_accuracy_weights:
+                    accuracy_weight = dataset_accuracy_weights.get(mod_result["modality"], 1.0)
+                    modality_str += f"[A:{accuracy_weight:.3f}]"
+                
+                # Add sabotage penalty info if enabled
+                if use_sabotage_mask and dataset_sabotage_weights:
+                    sabotage_weight = dataset_sabotage_weights.get(mod_result["modality"], 1.0)
+                    modality_str += f"[S:{sabotage_weight:.3f}]"
                 
                 modality_predictions.append(modality_str)
             
@@ -469,6 +593,23 @@ def main():
     with open(output_file_name, "w") as f:
         f.write("ENSEMBLE PREDICTION RESULTS\n")
         f.write("==========================\n\n")
+        
+        # Write ensemble configuration
+        f.write("ENSEMBLE CONFIGURATION\n")
+        f.write("=====================\n")
+        f.write(f"Dataset: {args.dataset}\n")
+        f.write(f"Model: {selected_model}\n")
+        f.write(f"Ensemble mode: {'All emotions' if use_all_emotions else 'Primary emotion only'}\n")
+        f.write(f"Data quality weighting: {'Enabled' if use_data_quality else 'Disabled'}\n")
+        f.write(f"Accuracy weighting: {'Enabled' if use_accuracy_mask else 'Disabled'}\n")
+        f.write(f"Sabotage weighting: {'Enabled' if use_sabotage_mask else 'Disabled'}\n")
+        
+        if use_accuracy_mask:
+            f.write(f"Accuracy weights: {dataset_accuracy_weights}\n")
+        if use_sabotage_mask:
+            f.write(f"Sabotage penalty weights: {dataset_sabotage_weights}\n")
+        
+        f.write("\n" + "="*50 + "\n\n")
         f.write("\n".join(result_details))
         f.write("\n\nEVALUATION METRICS\n")
         f.write("=================\n\n")
@@ -484,3 +625,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    # Example usage with new flags:
+    # python after_knowing_sabotage_experiment.py --dataset MER --use-accuracy-mask --use-sabotage-mask
+    # python after_knowing_sabotage_experiment.py --dataset MELD --use-all-emotions --use-data-quality --use-accuracy-mask --use-sabotage-mask
+    # python after_knowing_sabotage_experiment.py --dataset IEMOCAP --use-accuracy-mask --use-sabotage-mask --model gpt-4o-mini
