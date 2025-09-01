@@ -100,23 +100,30 @@ def ensemble_predictions(modality_results, use_all_emotions=False, use_data_qual
 
 Let's say we have these modality results:
 
-| Modality       | Primary Emotion | Confidence |
-| -------------- | --------------- | ---------- |
-| T (Text)       | happy           | 80         |
-| A (Audio)      | happy           | 70         |
-| V (Visual)     | neutral         | 60         |
-| TAV (Combined) | happy           | 85         |
+| Modality       | Emotion      | Confidence |
+| -------------- | ------------ | ---------- |
+| T (Text)       | happy, angry | 80, 30     |
+| A (Audio)      | happy        | 70         |
+| V (Visual)     | neutral      | 60         |
+| TAV (Combined) | happy        | 85         |
 
 **Step 1: Collect votes**
 
 - happy: 80 + 70 + 85 = 235
 - neutral: 60
-- Total confidence: 235 + 60 = 295
+- angry: 30
+- Total confidence: 235 + 60 + 30= 325
 
 **Step 2: Normalize scores**
 
-- happy: 235/295 = 0.797 (79.7%)
-- neutral: 60/295 = 0.203 (20.3%)
+- happy: 235/325 = XXX 0.797 (79.7%)
+- neutral: 60/325 = XXX 0.203 (20.3%)
+- angry 30/325 = XXX
+
+ground truth - angry
+Top-1 [happy]
+Top-2 [happy, neutral]
+Top-3 [happy, neutral, angry]
 
 **Step 3: Final result**
 

@@ -1,3 +1,8 @@
+# how to run get the charts in paper
+
+to generate the charts, run `python sabotage_visualization.py`
+to generate the charts, run `python dataset_modality_matrix.py`
+
 # folder structure
 
 for the final results, please refer to the folder final/result/../chenyu-run
